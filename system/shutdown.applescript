@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Restart
+# @raycast.title Shut Down
 # @raycast.mode silent
 
 # Optional parameters:
