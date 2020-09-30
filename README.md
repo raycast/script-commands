@@ -25,7 +25,7 @@ To write your custom Script Commands, go over the following steps:
 
 1. Create a new directory for your commands
 2. Open the Extensions preferences in Raycast and select Script Commands
-3. Click `Add More Directories` and select your new directory (If it's empty, we generate a template)
+3. Click `Add More Directories` and select your new directory (If it's empty, we generate a [template](https://github.com/raycast/script-commands/blob/master/script-command.template.sh))
 4. Duplicate the generated template and remove ".template." from the file name
 5. Write your script
 6. Press `Reload` in the Script Commands preferences
