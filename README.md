@@ -41,6 +41,7 @@ The following parameters are available to customize your Script Command in Rayca
 | packageName          | Display name of the package that is shown as subtitle in the root search. When not provided, the name will be inferred from the script directory name.                                                                                                                        |          |
 | icon                 | Icon that is displayed in the root search. Can be an emoji, a file path (relative or full) or a remote URL (only https). Supported formats for images are PNG and JPEG. Please make sure to use small icons, recommended size - 32px.                                         |          |
 | currentDirectoryPath | Path from which the script is executed. Default is the path of the script.                                                                                                                                                                                                    |          |
+
 Whenever you make changes to the parameters of the Script Command, go to the preferences and reload the Script Commands.
 
 ### Standard Output
