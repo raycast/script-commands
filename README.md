@@ -13,7 +13,7 @@ To install new commands, follow these steps:
 3. Click `Add More Directories`
 4. Select the Script Command that you want to install
 
-To get started, download one of the sample commands in this repository or write a custom script.
+To get started, download one of the sample commands in this repository or [write a custom script](https://github.com/raycast/script-commands/blob/master/README.md#write-script-commands).
 
 ## Write Script Commands
 
