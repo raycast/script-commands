@@ -31,7 +31,7 @@ To write your custom Script Commands, go over the following steps:
 6. Press `Reload` in the Script Commands preferences
 7. Run your Script Command from the Raycast root search
 
-**Note:** Ensure your script is executable with `chmod +x <path to script>` and has a shebang at the top.
+Ensure your script is executable with `chmod +x <path to script>` and has a shebang at the top.
 
 ### API
 
@@ -46,7 +46,7 @@ The following parameters are available to customize your Script Command in Rayca
 | icon                 | Icon that is displayed in the root search. Can be an emoji, a file path (relative or full) or a remote URL (only https). Supported formats for images are PNG and JPEG. Please make sure to use small icons, recommended size - 32px.                                         | No       |
 | currentDirectoryPath | Path from which the script is executed. Default is the path of the script.                                                                                                                                                                                                    | No       |
 
-**Note:** Whenever you make changes to the parameters of the Script Command, go to the preferences and reload the Script Commands.
+**⚠️ Whenever you make changes to the parameters of the Script Command, go to the preferences and reload the Script Commands.**
 
 ### Standard Output
 
