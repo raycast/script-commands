@@ -29,7 +29,7 @@ extension CollectorCommand {
                 try collector.generateDocumentation()
             }
             catch {
-                print("Error: \(error.localizedDescription)")
+                print("Error: \(error)")
             }
 
         }
