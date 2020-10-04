@@ -71,4 +71,45 @@ struct ScriptCommand: Codable {
         try container.encode(currentDirectoryPath, forKey: .currentDirectoryPath)
         try container.encode(author, forKey: .author)
     }
+// MARK: - MarkdownDescription Protocol
+
+extension ScriptCommand: MarkdownDescriptionProtocol {
+    
+    var markdownDescription: String {
+        var content = """
+        \n\n
+        | \(iconString) | \(title) |
+        | ------------| ---------- |
+        """
+        
+        if let value = details {
+            content += "\n| Description | \(value) |"
+        }
+        
+        if let value = author {
+            content += "\n| Author | \(value.markdownDescription) |"
+        }
+
+        if let value = packageName {
+            content += "\n| Package Name | \(value.capitalized) |"
+        }
+
+        if let value = mode {
+            content += "\n| Package Name | \(value.description) |"
+        }
+        
+        content += "\n| Schema Version | \(schemaVersion) |"
+        
+        if let value = currentDirectoryPath {
+            content += "\n| Current Path Directory | \(value) |"
+        }
+        
+        return content
+    }
+    
+    var sectionTitle: String {
+        ""
+    }
+    
+}
 }
