@@ -51,7 +51,12 @@ struct ScriptCommand: Codable {
             url: url
         )
         
-        self.author = author
+        if name != nil || url != nil {
+            self.author = author
+        }
+        else {
+            self.author = nil
+        }
     }
     
     func encode(to encoder: Encoder) throws {
