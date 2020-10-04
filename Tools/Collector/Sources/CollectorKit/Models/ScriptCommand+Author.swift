@@ -29,6 +29,29 @@ extension ScriptCommand {
         }
     }
 }
+
+// MARK: - Comparable
+
+extension ScriptCommand.Author: Comparable {
+    
+    static func < (lhs: ScriptCommand.Author, rhs: ScriptCommand.Author) -> Bool {
+        guard let leftName = lhs.name, let rightName = rhs.name else {
+            return false
+        }
+        
+        return leftName < rightName
+    }
+    
+    static func == (lhs: ScriptCommand.Author, rhs: ScriptCommand.Author) -> Bool {
+        guard let leftName = lhs.name, let rightName = rhs.name else {
+            return false
+        }
+        
+        return leftName == rightName
+    }
+    
+}
+
 // MARK: - MarkdownDescription Protocol
 
 extension ScriptCommand.Author: MarkdownDescriptionProtocol {

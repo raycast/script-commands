@@ -71,6 +71,22 @@ struct ScriptCommand: Codable {
         try container.encode(currentDirectoryPath, forKey: .currentDirectoryPath)
         try container.encode(author, forKey: .author)
     }
+// MARK: - Comparable
+
+extension ScriptCommand: Comparable {
+    
+    static func < (lhs: ScriptCommand, rhs: ScriptCommand) -> Bool {
+        lhs.title < rhs.title
+    }
+    
+    static func == (lhs: ScriptCommand, rhs: ScriptCommand) -> Bool {
+        lhs.title == rhs.title
+            && lhs.schemaVersion == rhs.schemaVersion
+            && lhs.author == rhs.author
+    }
+    
+}
+
 // MARK: - MarkdownDescription Protocol
 
 extension ScriptCommand: MarkdownDescriptionProtocol {
