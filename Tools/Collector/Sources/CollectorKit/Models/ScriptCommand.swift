@@ -1,6 +1,6 @@
 //
 //  MIT License
-//  Copyright (c) 2020 Raycast Technologies Ltd. All rights reserved.
+//  Copyright (c) 2020 Raycast. All rights reserved.
 //
 
 import Foundation
