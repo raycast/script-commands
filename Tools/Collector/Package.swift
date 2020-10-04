@@ -9,13 +9,13 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/apple/swift-tools-support-core.git", 
+            url: "https://github.com/apple/swift-tools-support-core.git",
             .branch("master")
         ),
         .package(
-            url: "https://github.com/apple/swift-argument-parser.git", 
+            url: "https://github.com/apple/swift-argument-parser.git",
             .upToNextMinor(from: "0.3.0")
-        ),
+        )
     ],
     targets: [
         .target(
@@ -34,6 +34,6 @@ let package = Package(
         ),
         .testTarget(
             name: "CollectorTests",
-            dependencies: ["Collector"]),
+            dependencies: ["Collector"])
     ]
 )

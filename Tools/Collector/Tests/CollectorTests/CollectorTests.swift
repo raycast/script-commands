@@ -42,6 +42,6 @@ final class CollectorTests: XCTestCase {
     }
 
     static var allTests = [
-        ("testExample", testExample),
+        ("testExample", testExample)
     ]
 }
