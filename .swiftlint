@@ -1,4 +1,8 @@
 indentation: 2
+included:
+  - Source
+excluded:
+  - .build
 disabled_rules:
   - cyclomatic_complexity
   - file_length
