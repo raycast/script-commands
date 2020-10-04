@@ -4,13 +4,26 @@
 // 
 
 import Foundation
-import TSCBasic
-import CollectorKit
 
-do {
-    let collector = Collector(path: ".raycast/extensions")
-    try collector.start()
+import ArgumentParser
+import CollectorKit
+import TSCBasic
+
+struct CollectorCommand: ParsableCommand {
+    
+    static var configuration = CommandConfiguration(
+        commandName: "collector",
+        abstract: "A tool to generate automatized documentation",
+        subcommands: [
+            CreateScript.self,
+            GenerateDocumentation.self,
+            ValidateScripts.self
+        ]
+    )
+    
+    @OptionGroup
+    var versionOptions: VersionOptions
+    
 }
-catch {
-    print("Error: \(error.localizedDescription)")
-}
+
+CollectorCommand.main()
