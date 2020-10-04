@@ -17,7 +17,7 @@ struct Group: Codable {
 
 extension Group: MarkdownDescriptionProtocol {
     var sectionTitle: String {
-        "## \(name)"
+        .newLine + "## \(name)"
     }
     
     var markdownDescription: String {
