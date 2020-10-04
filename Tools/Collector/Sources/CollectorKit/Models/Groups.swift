@@ -9,8 +9,23 @@ typealias Groups = [Group]
 
 struct Group: Codable {
     let name: String
+    let path: String
     let scriptCommands: ScriptCommands
 }
+
+// MARK: - MarkdownDescription Protocol
+
+extension Group: MarkdownDescriptionProtocol {
+    var sectionTitle: String {
+        "## \(name)"
+    }
+    
+    var markdownDescription: String {
+        "- [\(name)](#\(path))"
+    }
+    
+}
+
 // MARK: - Comparable
 
 extension Group: Comparable {
