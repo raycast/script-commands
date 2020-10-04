@@ -33,4 +33,11 @@ extension String {
         trimmingCharacters(in: .whitespacesAndNewlines)
     }
     
+    static var newLine: String {
+        "\n"
+    }
+    
+    static var empty: String {
+        ""
+    }
 }
