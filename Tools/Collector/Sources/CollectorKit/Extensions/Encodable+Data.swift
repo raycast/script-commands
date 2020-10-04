@@ -9,10 +9,7 @@ extension Encodable {
     func toData() throws -> Data {
         let encoder = JSONEncoder()
         encoder.outputFormatting.insert(.prettyPrinted)
-        
-        if #available(macOS 10.13, *) {
-            encoder.outputFormatting.insert(.sortedKeys)
-        }
+        encoder.outputFormatting.insert(.sortedKeys)
         
         return try encoder.encode(self)
     }

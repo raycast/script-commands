@@ -4,6 +4,9 @@ import PackageDescription
 
 let package = Package(
     name: "collector",
+    platforms: [
+        .macOS(.v10_14)
+    ],
     dependencies: [
         .package(
             url: "https://github.com/apple/swift-tools-support-core.git", 
