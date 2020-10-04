@@ -15,12 +15,11 @@ public final class Collector {
         extensionsAbsolutePath = path
     }
     
-    public func generateDocumentation() throws {
+    public func generateDocumentation(outputFileName: String = "raycast-extensions", blockedFolderList: [String] = [".git", "screenshots", "Tools", ".build"]) throws {
         guard fileSystem.exists(extensionsAbsolutePath) else {
             throw Error.extensionsFolderNotFound(extensionsAbsolutePath.pathString)
         }
         
-        let blockedList = [".git", "screenshots", "Tools", ".build"]
         let directoryContent = try fileSystem.getDirectoryContents(extensionsAbsolutePath)
         
         var groups: Groups = []
@@ -28,25 +27,27 @@ public final class Collector {
         try directoryContent.forEach {
             let path = extensionsAbsolutePath.appending(component: $0)
             
-            guard fileSystem.isDirectory(path) && blockedList.contains($0) == false else {
+            guard fileSystem.isDirectory(path) && blockedFolderList.contains($0) == false else {
                 return
             }
             
             let scriptCommands = try readFiles(from: path)
             let group = Group(
-                name: path.basenameWithoutExt.sanitize.capitalized,
+                name: path.socialBasename,
+                path: path.basenameWithoutExt,
                 scriptCommands: scriptCommands
             )
             
             groups.append(group)
         }
         
-        let data = try groups.toData()
-        let extensionsJSONFilePath = extensionsAbsolutePath.appending(component: "raycast-extensions.json")
+        let documentation = Documentation(
+            path: extensionsAbsolutePath,
+            filename: outputFileName
+        )
         
-        try fileSystem.writeFileContents(
-            extensionsJSONFilePath,
-            bytes: ByteString(data.uint8Array)
+        try documentation.generateDocuments(
+            using: groups
         )
     }
 }
@@ -103,20 +104,11 @@ private extension Collector {
         var dictionary = [String: Any]()
         
         for result in results {
-            let keyRange: NSRange
-            let valueRange: NSRange
+            let keyRange: NSRange = result.range(withName: "key")
+            let valueRange: NSRange = result.range(withName: "value")
             
             var key: String?
             var value: String?
-            
-            if #available(macOS 10.13, *) {
-                keyRange = result.range(withName: "key")
-                valueRange = result.range(withName: "value")
-            }
-            else {
-                keyRange = result.range(at: 1)
-                valueRange = result.range(at: 2)
-            }
             
             if keyRange.location != NSNotFound, keyRange.length > 0, let range = Range<String.Index>(keyRange, in: content) {
                 key = String(content[range])
