@@ -7,22 +7,17 @@ import Foundation
 import TSCBasic
 
 public final class Collector {
-    private let extensionsPath: String
     private lazy var fileSystem = TSCBasic.localFileSystem
     
-    private var extensionsAbsolutePath: AbsolutePath {
-        fileSystem.homeDirectory.appending(
-            RelativePath(extensionsPath)
-        )
+    private var extensionsAbsolutePath: AbsolutePath
+    
+    public init(path: AbsolutePath) {
+        extensionsAbsolutePath = path
     }
     
-    public init(path: String) {
-        extensionsPath = path
-    }
-    
-    public func start() throws {
+    public func generateDocumentation() throws {
         guard fileSystem.exists(extensionsAbsolutePath) else {
-            throw Error.extensionsFolderNotFound(extensionsPath)
+            throw Error.extensionsFolderNotFound(extensionsAbsolutePath.pathString)
         }
         
         let blockedList = [".git", "screenshots", "Tools"]
