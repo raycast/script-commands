@@ -20,7 +20,7 @@ public final class Collector {
             throw Error.extensionsFolderNotFound(extensionsAbsolutePath.pathString)
         }
         
-        let blockedList = [".git", "screenshots", "Tools"]
+        let blockedList = [".git", "screenshots", "Tools", ".build"]
         let directoryContent = try fileSystem.getDirectoryContents(extensionsAbsolutePath)
         
         var groups: Groups = []
