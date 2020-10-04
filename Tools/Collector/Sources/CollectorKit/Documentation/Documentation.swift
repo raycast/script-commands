@@ -67,7 +67,7 @@ private extension Documentation {
         }
         
         sortedGroups.forEach { group in
-            contentString += group.sectionTitle
+            contentString += .newLine + group.sectionTitle
             
             let scripts = group.scriptCommands.sorted()
             
@@ -86,7 +86,6 @@ private extension Documentation {
 
         ### Content
         \(tableOfContents)
-
         \(contentString)
 
         ## Community
