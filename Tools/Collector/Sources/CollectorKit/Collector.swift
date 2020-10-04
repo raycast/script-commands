@@ -97,7 +97,7 @@ private extension Collector {
     }
     
     func readKeyValue(of content: String) -> [String: Any] {
-        let regex = "@raycast.(?<key>[A-Za-z]+)\\s(?<value>[A-Za-z0-9 ]+)"
+        let regex = "@raycast.(?<key>[A-Za-z]+)\\s(?<value>[\\S ]+)"
         let results = checkingResults(for: regex, in: content)
         
         var dictionary = [String: Any]()
@@ -144,7 +144,13 @@ private extension Collector {
     
     func checkingResults(for regex: String, in text: String) -> NSTextCheckingResults {
         do {
-            let regex = try NSRegularExpression(pattern: regex, options: [])
+            let regex = try NSRegularExpression(
+                pattern: regex,
+                options: [
+                    .caseInsensitive,
+                    .anchorsMatchLines
+                ]
+            )
             let range = NSRange(text.startIndex...,  in: text)
             
             return regex.matches(in: text, range: range)
