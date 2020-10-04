@@ -29,3 +29,26 @@ extension ScriptCommand {
         }
     }
 }
+// MARK: - MarkdownDescription Protocol
+
+extension ScriptCommand.Author: MarkdownDescriptionProtocol {
+    
+    var markdownDescription: String {
+        if let name = name, let url = url {
+            return "[\(name)](\(url))"
+        }
+        else if let name = name {
+            return name
+        }
+        else if let url = url {
+            return url
+        }
+        
+        return ""
+    }
+    
+    var sectionTitle: String {
+        ""
+    }
+
+}

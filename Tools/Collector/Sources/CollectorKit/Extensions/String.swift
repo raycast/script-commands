@@ -32,4 +32,5 @@ extension String {
     var trimmedString: String {
         trimmingCharacters(in: .whitespacesAndNewlines)
     }
+    
 }
