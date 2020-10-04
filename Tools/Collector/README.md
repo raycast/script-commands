@@ -14,8 +14,9 @@ OPTIONS:
 -h, --help              Show help information.
 
 SUBCOMMANDS:
-generate-documentation
-validate-scripts
+create                  Create a placeholder for your script
+generate-documentation  Generate the documentation in JSON and Markdown format
+validate                Validate all scripts installed or one specified by the user
 
 See 'collector help <subcommand>' for detailed help.
 ```
