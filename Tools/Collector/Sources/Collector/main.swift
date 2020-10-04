@@ -10,7 +10,7 @@ import CollectorKit
 import TSCBasic
 
 struct CollectorCommand: ParsableCommand {
-    
+
     static var configuration = CommandConfiguration(
         commandName: "collector",
         abstract: "A tool to generate automatized documentation",
@@ -20,10 +20,10 @@ struct CollectorCommand: ParsableCommand {
             ValidateScripts.self
         ]
     )
-    
+
     @OptionGroup
     var versionOptions: VersionOptions
-    
+
 }
 
 CollectorCommand.main()

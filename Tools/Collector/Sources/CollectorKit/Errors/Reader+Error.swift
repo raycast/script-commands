@@ -13,9 +13,9 @@ extension Collector {
 
 extension Collector.Error: CustomStringConvertible, LocalizedError {
     var description: String {
-        switch self {            
-            case .extensionsFolderNotFound(let folder):
-                return "Extensions folder not found. Expected: \(folder)"
+        switch self {
+        case .extensionsFolderNotFound(let folder):
+            return "Extensions folder not found. Expected: \(folder)"
         }
     }
 }

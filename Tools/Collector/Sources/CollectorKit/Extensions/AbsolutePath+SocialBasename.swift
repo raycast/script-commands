@@ -6,9 +6,9 @@
 import TSCBasic
 
 extension AbsolutePath {
-    
+
     var socialBasename: String {
         basenameWithoutExt.sanitize.capitalized
     }
-    
+
 }

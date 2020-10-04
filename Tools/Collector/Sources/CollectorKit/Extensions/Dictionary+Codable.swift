@@ -10,7 +10,7 @@ extension Dictionary where Key == String, Value: Any {
         guard let data = try? JSONSerialization.data(withJSONObject: self, options: []) else {
             return nil
         }
-        
+
         return try? JSONDecoder().decode(T.self, from: data)
     }
 }

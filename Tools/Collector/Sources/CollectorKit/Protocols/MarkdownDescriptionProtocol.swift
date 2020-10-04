@@ -9,4 +9,3 @@ protocol MarkdownDescriptionProtocol {
     var markdownDescription: String { get }
     var sectionTitle: String { get }
 }
-

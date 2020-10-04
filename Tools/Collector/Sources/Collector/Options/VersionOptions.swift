@@ -8,7 +8,7 @@ import ArgumentParser
 struct VersionOptions: ParsableArguments {
     @Flag(name: .shortAndLong, help: "Print the version and exit")
     var version: Bool = false
-    
+
     func validate() throws {
         if version {
             print("Raycast Toolkit")

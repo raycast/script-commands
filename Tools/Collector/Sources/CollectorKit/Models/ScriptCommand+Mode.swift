@@ -6,7 +6,7 @@
 import Foundation
 
 extension ScriptCommand {
-    
+
     enum Mode: String, Codable {
         case fullOutput
         case compact

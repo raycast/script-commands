@@ -10,7 +10,7 @@ extension Encodable {
         let encoder = JSONEncoder()
         encoder.outputFormatting.insert(.prettyPrinted)
         encoder.outputFormatting.insert(.sortedKeys)
-        
+
         return try encoder.encode(self)
     }
 }

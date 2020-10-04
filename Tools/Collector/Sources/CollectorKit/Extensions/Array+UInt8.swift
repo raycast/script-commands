@@ -6,10 +6,10 @@
 import Foundation
 
 extension Array where Element == UInt8 {
-    
+
     var data: Data {
         var array = self
-        
+
         return Data(
             bytes: &array,
             count: array.count
