@@ -11,7 +11,7 @@ struct VersionOptions: ParsableArguments {
     
     func validate() throws {
         if version {
-            print("Raycast Collector Tool")
+            print("Raycast Toolkit")
             print("Current version: 0.1")
             throw ExitCode.success
         }
