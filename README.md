@@ -61,10 +61,10 @@ In `fullOutput` the entire output is presented on a separate view, similar to a 
 
 If the script exits with a status code not equal to 0, Raycast interprets it as failed and shows a toast that the script failed to run.
 
-### $PATH and Login Shell
+### Login Shell and `$PATH`
 
 The script is running in non-login shell to avoid loading additional information from profiles. However, if you need to run your script as login-shell, you can specify an argument after shebang, e.g. `#!/bin/bash -l` for bash.
-We also append "/usr/local/bin" to $PATH variable so you can use your local shell commands without any additional steps. If this is not enough, you can always extend the `PATH` by adding `export PATH='/some/extra/path:$PATH'` at the top of your script.
+We also append `/usr/local/bin` to `$PATH` variable so you can use your local shell commands without any additional steps. If this is not enough, you can always extend `$PATH` by adding `export PATH='/some/extra/path:$PATH'` at the top of your script.
 
 ### Troubleshooting
 
