@@ -37,14 +37,15 @@ Ensure your script is executable with `chmod +x <path to script>` and has a sheb
 
 The following parameters are available to customize your Script Command in Raycast:
 
-| Name                 | Description                                                                                                                                                                                                                                                                   | Required |
-|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| schemaVersion        | Schema version to prepare for future changes in the API. Currently there is only version 1 available.                                                                                                                                                                         | Yes        |
-| title                | Display name of the Script Command that is shown as title in the root search.                                                                                                                                                                                                 | Yes        |
-| mode                 | Specifies how the script is executed and how the output is presented.<br>- *fullOutput:* Command prints entire output on separate view. <br>- *compact:* Command shows a toast while running in background.<br>- *silent:* Command closes the Raycast window and runs in background. | Yes        |
-| packageName          | Display name of the package that is shown as subtitle in the root search. When not provided, the name will be inferred from the script directory name.                                                                                                                        | No        |
-| icon                 | Icon that is displayed in the root search. Can be an emoji, a file path (relative or full) or a remote URL (only https). Supported formats for images are PNG and JPEG. Please make sure to use small icons, recommended size - 32px.                                         | No       |
-| currentDirectoryPath | Path from which the script is executed. Default is the path of the script.                                                                                                                                                                                                    | No       |
+| Name                 | Description                                                                                                                                                                                                                                                                          | Required | App Version         |
+|----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|---------------------|
+| schemaVersion        | Schema version to prepare for future changes in the API. Currently there is only version 1 available.                                                                                                                                                                                | Yes      | 0.29+               |
+| title                | Display name of the Script Command that is shown as title in the root search.                                                                                                                                                                                                        | Yes      | 0.29+               |
+| mode                 | Specifies how the script is executed and how the output is presented.<br>- *fullOutput:* Command prints entire output on separate view. <br>- *compact:* Command shows a toast while running in background.<br>- *silent:* Command closes the Raycast window and runs in background. | Yes      | 0.29+               |
+| packageName          | Display name of the package that is shown as subtitle in the root search. When not provided, the name will be inferred from the script directory name.                                                                                                                               | No       | 0.29+               |
+| icon                 | Icon that is displayed in the root search. Can be an emoji, a file path (relative or full) or a remote URL (only https). Supported formats for images are PNG and JPEG. Please make sure to use small icons, recommended size - 32px.                                                | No       | 0.29+               |
+| currentDirectoryPath | Path from which the script is executed. Default is the path of the script.                                                                                                                                                                                                           | No       | 0.29+               |
+| needsConfirmation    | Specify `true` if you would like to show confirmation alert dialog before running the script. Can be helpful with destructive scripts like "Quit All Apps" or "Empty Trash". Default value is `false`.                                                                               | No       | 0.30+               |
 
 **⚠️ Whenever you make changes to the parameters of the Script Command, go to the preferences and reload the Script Commands.**
 
@@ -54,11 +55,27 @@ You can use the standard output to present messages in Raycast. Depending on the
 
 ![Toast](https://github.com/raycast/script-commands/blob/master/screenshots/toast.png?raw=true)
 
-In `fullOutput` the entire output is presented on a separate view, similar to a terminal. This is handy when your script generates output to consume. In `compact` mode the last line of the standard output is shown in the toast. And in `silent` nothing is shown and the Raycast window is closed. This mode is good for quick interactions.
+In `fullOutput` the entire output is presented on a separate view, similar to a terminal. This is handy when your script generates output to consume. In `compact` mode the last line of the standard output is shown in the toast. And in `silent` mode the last line (if exists) will be shown in overlaying HUD toast after Raycast window is closed.
 
 ### Error Handling
 
 If the script exits with a status code not equal to 0, Raycast interprets it as failed and shows a toast that the script failed to run.
+
+### $PATH and Login Shell
+
+The script is running in non-login shell to avoid loading additional information from profiles. However, if you need to run your script as login-shell, you can specify an argument after shebang, e.g. `#!/bin/bash -l` for bash.
+We also append "/usr/local/bin" to $PATH variable so you can use your local shell commands without any additional steps. If this is not enough, you can always extend the `PATH` by adding `export PATH='/some/extra/path:$PATH'` at the top of your script.
+
+### Troubleshooting
+
+If script doesn't appear in commands list, make sure these requirements are met:
+* Script file is executable (you can run `file <path to script>` command in terminal to check it)
+* Filename doesn't contains `.template.` string
+* All required metadata parameters are provided. See in the table above which parameters are required.
+* You use either `#` or `//` comments for metadata parameters
+* You pressed "Reload" button in Script Commands preferences
+
+If nothing helps, try to go step by step from a [template](https://github.com/raycast/script-commands/blob/master/script-command.template.sh) script command or use one of the examples in this repo.
 
 ## Community
 
