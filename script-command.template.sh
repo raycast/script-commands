@@ -14,5 +14,6 @@
 # @raycast.icon 🤖
 # @raycast.currentDirectoryPath ~
 # @raycast.packageName Raycast Scripts
+# @raycast.needsConfirmation false
 
 echo "Hello from My First Script"
