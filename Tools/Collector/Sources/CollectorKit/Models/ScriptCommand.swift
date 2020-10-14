@@ -16,6 +16,7 @@ struct ScriptCommand: Codable {
     let author: Author?
     let details: String?
     let currentDirectoryPath: String?
+    let needsConfirmation: Bool?
 
     private var groupPath: String?
 
@@ -28,6 +29,7 @@ struct ScriptCommand: Codable {
         case author
         case details = "description"
         case currentDirectoryPath
+        case needsConfirmation
     }
 
     var iconString: String {
@@ -79,6 +81,7 @@ extension ScriptCommand {
         self.icon                   = try container.decodeIfPresent(String.self, forKey: .icon)
         self.details                = try container.decodeIfPresent(String.self, forKey: .details)
         self.currentDirectoryPath   = try container.decodeIfPresent(String.self, forKey: .currentDirectoryPath)
+        self.needsConfirmation      = try container.decodeIfPresent(Bool.self, forKey: .needsConfirmation)
 
         let name = try authorContainer.decodeIfPresent(String.self, forKey: .name)
         let url = try authorContainer.decodeIfPresent(String.self, forKey: .url)
@@ -107,6 +110,7 @@ extension ScriptCommand {
         try container.encode(details, forKey: .details)
         try container.encode(currentDirectoryPath, forKey: .currentDirectoryPath)
         try container.encode(author, forKey: .author)
+        try container.encode(needsConfirmation, forKey: .needsConfirmation)
     }
 
 }
