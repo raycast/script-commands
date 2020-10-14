@@ -26,8 +26,10 @@ final class Documentation {
 
 // MARK: - Private methods
 
-private extension Documentation {
+fileprivate typealias SubGroups = [String: [ScriptCommand]]
 
+private extension Documentation {
+    
     func generateMarkdown(using groups: Groups) throws {
         let documentFilePath = path.appending(
             component: filename + ".md"
@@ -55,7 +57,7 @@ private extension Documentation {
             bytes: ByteString(data.uint8Array)
         )
     }
-
+    
     func markdownData(for groups: Groups) -> Data? {
         var tableOfContents: String = .empty
         var contentString: String = .empty
@@ -68,13 +70,10 @@ private extension Documentation {
 
         sortedGroups.forEach { group in
             contentString += .newLine + group.sectionTitle
-
-            let scripts = group.scriptCommands.sorted()
-
-            for var script in scripts {
-                script.setGroupPath(for: group)
-                contentString += .newLine + script.markdownDescription
-            }
+            
+            contentString += self.markdown(
+                for: subGroups(for: group)
+            )
         }
 
         let markdown = """
@@ -106,4 +105,55 @@ private extension Documentation {
 
         return contentData
     }
+}
+
+// MARK: - SubGroups Private Methods
+
+private extension Documentation {
+    
+    func subGroups(for group: Group) -> SubGroups {
+        var subGroups: [String: [ScriptCommand]] = [:]
+        
+        for var script in group.scriptCommands {
+            
+            var packageName = script.packageName ?? .empty
+            if packageName == group.name {
+                packageName = .empty
+            }
+            
+            if subGroups[packageName] == nil {
+                subGroups[packageName] = []
+            }
+            
+            script.setGroupPath(for: group)
+            subGroups[packageName]?.append(script)
+        }
+        
+        return subGroups
+    }
+    
+    func markdown(for subGroups: SubGroups) -> String {
+        
+        var contentString = ""
+        
+        for subGroup in subGroups.sorted(by: { $0.key < $1.key }) {
+            if subGroup.key.isEmpty == false {
+                contentString += .newLine
+                contentString += .newLine + "#### \(subGroup.key)"
+            }
+            
+            contentString += .newLine
+            contentString += .newLine + "| Icon | Title | Description | Author |"
+            contentString += .newLine + "| ---- | ----- | ----------- | ------ |"
+            
+            let scripts = subGroup.value.sorted()
+            
+            for script in scripts {
+                contentString += script.markdownDescription
+            }
+        }
+        
+        return contentString
+    }
+    
 }
