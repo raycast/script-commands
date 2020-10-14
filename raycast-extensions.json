@@ -1,0 +1,379 @@
+[
+  {
+    "name" : "Spotify",
+    "path" : "spotify",
+    "scriptCommands" : [
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "icon" : "⏸",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Spotify",
+        "schemaVersion" : 1,
+        "title" : "Pause"
+      },
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "icon" : "▶️",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Spotify",
+        "schemaVersion" : 1,
+        "title" : "Play"
+      },
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "icon" : "⏯️",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Spotify",
+        "schemaVersion" : 1,
+        "title" : "Toggle Play\/Pause"
+      },
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "icon" : "⏭",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Spotify",
+        "schemaVersion" : 1,
+        "title" : "Next Track"
+      }
+    ]
+  },
+  {
+    "name" : "Navigation",
+    "path" : "navigation",
+    "scriptCommands" : [
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "icon" : "📂",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Navigation",
+        "schemaVersion" : 1,
+        "title" : "Open Library"
+      },
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "icon" : "📂",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Navigation",
+        "schemaVersion" : 1,
+        "title" : "Open Applications"
+      },
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "icon" : "📂",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Navigation",
+        "schemaVersion" : 1,
+        "title" : "Open Utilities"
+      },
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "icon" : "📂",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Navigation",
+        "schemaVersion" : 1,
+        "title" : "Open Desktop"
+      },
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "icon" : "📂",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Navigation",
+        "schemaVersion" : 1,
+        "title" : "Open Documents"
+      },
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "icon" : "📂",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Navigation",
+        "schemaVersion" : 1,
+        "title" : "Open Home"
+      },
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "icon" : "📂",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Navigation",
+        "schemaVersion" : 1,
+        "title" : "Open Downloads"
+      }
+    ]
+  },
+  {
+    "name" : "System",
+    "path" : "system",
+    "scriptCommands" : [
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "icon" : "🗑",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "System",
+        "schemaVersion" : 1,
+        "title" : "Empty Trash"
+      },
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "icon" : "💥",
+        "mode" : "silent",
+        "needsConfirmation" : true,
+        "packageName" : "System",
+        "schemaVersion" : 1,
+        "title" : "Quit All Applications"
+      },
+      {
+        "author" : {
+          "name" : "Thiago Holanda",
+          "url" : "https:\/\/twitter.com\/tholanda"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Script Command to show and hide files and folders starting with \".\" (dot) which on Unix, means that is a hidden file\/folder",
+        "icon" : "👓",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "System",
+        "schemaVersion" : 1,
+        "title" : "Toggle Hidden Files"
+      },
+      {
+        "author" : {
+          "name" : "Thiago Holanda",
+          "url" : "https:\/\/twitter.com\/tholanda"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Script Command to switch between the system appearance, light and dark mode.",
+        "icon" : "🌗",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "System",
+        "schemaVersion" : 1,
+        "title" : "Toggle System Appearance"
+      },
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "icon" : "📀",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "System",
+        "schemaVersion" : 1,
+        "title" : "Eject All Disks"
+      },
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "icon" : "🖥",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "System",
+        "schemaVersion" : 1,
+        "title" : "Toggle Desktop Icons"
+      },
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "icon" : "♻️",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "System",
+        "schemaVersion" : 1,
+        "title" : "Restart"
+      },
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "icon" : "🛌",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "System",
+        "schemaVersion" : 1,
+        "title" : "Shut Down"
+      },
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "icon" : "😴",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "System",
+        "schemaVersion" : 1,
+        "title" : "Sleep"
+      }
+    ]
+  },
+  {
+    "name" : "Bookmarks",
+    "path" : "bookmarks",
+    "scriptCommands" : [
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "icon" : "📜",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Bookmarks",
+        "schemaVersion" : 1,
+        "title" : "Open Script Commands Repository"
+      }
+    ]
+  },
+  {
+    "name" : "Developer Utils",
+    "path" : "developer-utils",
+    "scriptCommands" : [
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "icon" : "💻",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Developer Utils",
+        "schemaVersion" : 1,
+        "title" : "Encode Base64"
+      },
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "icon" : "images\/jwt-logo.png",
+        "mode" : "fullOutput",
+        "needsConfirmation" : null,
+        "packageName" : "Developer Utils",
+        "schemaVersion" : 1,
+        "title" : "Decode JWT"
+      },
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "icon" : "🌐",
+        "mode" : "compact",
+        "needsConfirmation" : null,
+        "packageName" : "Internet",
+        "schemaVersion" : 1,
+        "title" : "Local IPv4"
+      },
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "icon" : "🌐",
+        "mode" : "compact",
+        "needsConfirmation" : null,
+        "packageName" : "Internet",
+        "schemaVersion" : 1,
+        "title" : "External IPv4"
+      },
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "icon" : "💻",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Developer Utils",
+        "schemaVersion" : 1,
+        "title" : "Generate UUID"
+      },
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "icon" : "🌐",
+        "mode" : "compact",
+        "needsConfirmation" : null,
+        "packageName" : "Internet",
+        "schemaVersion" : 1,
+        "title" : "External IPv6"
+      },
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "icon" : "💻",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Developer Utils",
+        "schemaVersion" : 1,
+        "title" : "Decode Base64"
+      },
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "icon" : "💻",
+        "mode" : "fullOutput",
+        "needsConfirmation" : null,
+        "packageName" : "Developer Utils",
+        "schemaVersion" : 1,
+        "title" : "Prettify JSON"
+      },
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "icon" : "🧹",
+        "mode" : "compact",
+        "needsConfirmation" : null,
+        "packageName" : "Xcode",
+        "schemaVersion" : 1,
+        "title" : "Clear Derived Data"
+      },
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "icon" : "🌐",
+        "mode" : "compact",
+        "needsConfirmation" : null,
+        "packageName" : "Internet",
+        "schemaVersion" : 1,
+        "title" : "Local IPv6"
+      }
+    ]
+  }
+]
