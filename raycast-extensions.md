@@ -20,67 +20,67 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
-| 📜 | Open Script Commands Repository | N/A | Raycast |
+| 📜 | [Open Script Commands Repository](bookmarks/open-scriptCommandsRepository.sh) | N/A | Raycast |
 
 ## Developer Utils
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
-| 💻 | Decode Base64 | N/A | Raycast |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/developer-utils/images/jwt-logo.png?raw=true" width="20" height="20"> | Decode JWT | N/A | Raycast |
-| 💻 | Encode Base64 | N/A | Raycast |
-| 💻 | Generate UUID | N/A | Raycast |
-| 💻 | Prettify JSON | N/A | Raycast |
+| 💻 | [Decode Base64](developer-utils/decode-base64.sh) | N/A | Raycast |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/developer-utils/images/jwt-logo.png?raw=true" width="20" height="20"> | [Decode JWT](developer-utils/decode-jwt.sh) | N/A | Raycast |
+| 💻 | [Encode Base64](developer-utils/encode-base64.sh) | N/A | Raycast |
+| 💻 | [Generate UUID](developer-utils/generate-uuid.sh) | N/A | Raycast |
+| 💻 | [Prettify JSON](developer-utils/prettify-json.sh) | N/A | Raycast |
 
 #### Internet
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
-| 🌐 | External IPv4 | N/A | Raycast |
-| 🌐 | External IPv6 | N/A | Raycast |
-| 🌐 | Local IPv4 | N/A | Raycast |
-| 🌐 | Local IPv6 | N/A | Raycast |
+| 🌐 | [External IPv4](developer-utils/get-external-ip-v4.sh) | N/A | Raycast |
+| 🌐 | [External IPv6](developer-utils/get-external-ip-v6.sh) | N/A | Raycast |
+| 🌐 | [Local IPv4](developer-utils/get-local-ip-v4.sh) | N/A | Raycast |
+| 🌐 | [Local IPv6](developer-utils/get-local-ip-v6.sh) | N/A | Raycast |
 
 #### Xcode
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
-| 🧹 | Clear Derived Data | N/A | Raycast |
+| 🧹 | [Clear Derived Data](developer-utils/clear-derived-data.sh) | N/A | Raycast |
 
 ## Navigation
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
-| 📂 | Open Applications | N/A | Raycast |
-| 📂 | Open Desktop | N/A | Raycast |
-| 📂 | Open Documents | N/A | Raycast |
-| 📂 | Open Downloads | N/A | Raycast |
-| 📂 | Open Home | N/A | Raycast |
-| 📂 | Open Library | N/A | Raycast |
-| 📂 | Open Utilities | N/A | Raycast |
+| 📂 | [Open Applications](navigation/open-applications.sh) | N/A | Raycast |
+| 📂 | [Open Desktop](navigation/open-desktop.sh) | N/A | Raycast |
+| 📂 | [Open Documents](navigation/open-documents.sh) | N/A | Raycast |
+| 📂 | [Open Downloads](navigation/open-downloads.sh) | N/A | Raycast |
+| 📂 | [Open Home](navigation/open-home.sh) | N/A | Raycast |
+| 📂 | [Open Library](navigation/open-library.sh) | N/A | Raycast |
+| 📂 | [Open Utilities](navigation/open-utilities.sh) | N/A | Raycast |
 
 ## Spotify
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
-| ⏭ | Next Track | N/A | Raycast |
-| ⏸ | Pause | N/A | Raycast |
-| ▶️ | Play | N/A | Raycast |
-| ⏯️ | Toggle Play/Pause | N/A | Raycast |
+| ⏭ | [Next Track](spotify/next-track.applescript) | N/A | Raycast |
+| ⏸ | [Pause](spotify/pause.applescript) | N/A | Raycast |
+| ▶️ | [Play](spotify/play.applescript) | N/A | Raycast |
+| ⏯️ | [Toggle Play/Pause](spotify/play-pause.applescript) | N/A | Raycast |
 
 ## System
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
-| 📀 | Eject All Disks | N/A | Raycast |
-| 🗑 | Empty Trash | N/A | Raycast |
-| 💥 | Quit All Applications | N/A | Raycast |
-| ♻️ | Restart | N/A | Raycast |
-| 🛌 | Shut Down | N/A | Raycast |
-| 😴 | Sleep | N/A | Raycast |
-| 🖥 | Toggle Desktop Icons | N/A | Raycast |
-| 👓 | Toggle Hidden Files | Script Command to show and hide files and folders starting with "." (dot) which on Unix, means that is a hidden file/folder | [Thiago Holanda](https://twitter.com/tholanda) |
-| 🌗 | Toggle System Appearance | Script Command to switch between the system appearance, light and dark mode. | [Thiago Holanda](https://twitter.com/tholanda) |
+| 📀 | [Eject All Disks](system/eject-all-disks.applescript) | N/A | Raycast |
+| 🗑 | [Empty Trash](system/empty-trash.applescript) | N/A | Raycast |
+| 💥 | [Quit All Applications](system/quit-all-apps.swift) | N/A | Raycast |
+| ♻️ | [Restart](system/restart.applescript) | N/A | Raycast |
+| 🛌 | [Shut Down](system/shutdown.applescript) | N/A | Raycast |
+| 😴 | [Sleep](system/sleep.applescript) | N/A | Raycast |
+| 🖥 | [Toggle Desktop Icons](system/toggle-desktop-icons.applescript) | N/A | Raycast |
+| 👓 | [Toggle Hidden Files](system/toggle-hidden-files.applescript) | Script Command to show and hide files and folders starting with "." (dot) which on Unix, means that is a hidden file/folder | [Thiago Holanda](https://twitter.com/tholanda) |
+| 🌗 | [Toggle System Appearance](system/toggle-system-appearance.applescript) | Script Command to switch between the system appearance, light and dark mode. | [Thiago Holanda](https://twitter.com/tholanda) |
 
 ## Community
 
