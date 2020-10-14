@@ -127,34 +127,22 @@ extension ScriptCommand: MarkdownDescriptionProtocol {
     var markdownDescription: String {
         var content: String = .empty
 
+        var author = "Raycast"
+        var details = "N/A"
+
+        if let value = self.author {
+            author = value.markdownDescription
+        }
+
+        if let value = self.details {
+            details = value
+        }
+
         let header = """
-        | \(iconString) | \(title) |
-        | ------------| ---------- |
+        | \(iconString) | \(title) | \(details) | \(author) |
         """
 
         content += .newLine + header
-
-        if let value = details {
-            content += .newLine + "| Description | \(value) |"
-        }
-
-        if let value = author {
-            content += .newLine + "| Author | \(value.markdownDescription) |"
-        }
-
-        if let value = packageName {
-            content += .newLine + "| Package Name | \(value.capitalized) |"
-        }
-
-        if let value = mode {
-            content += .newLine + "| Mode | \(value.rawValue) |"
-        }
-
-        content += .newLine + "| Schema Version | \(schemaVersion) |"
-
-        if let value = currentDirectoryPath {
-            content += .newLine + "| Current Path Directory | \(value) |"
-        }
 
         return content
     }
