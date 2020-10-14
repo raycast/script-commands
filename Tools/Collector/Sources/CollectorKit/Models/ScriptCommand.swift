@@ -36,7 +36,7 @@ struct ScriptCommand: Codable {
         func image(for url: String) -> String {
             "<img src=\"\(url)\" width=\"20\" height=\"20\">"
         }
-        
+
         guard let value = icon, value.isEmpty == false else {
             return .empty
         }
@@ -48,7 +48,7 @@ struct ScriptCommand: Codable {
         if value.starts(with: "http://") || value.starts(with: "https://") {
             return image(for: value)
         }
-        
+
         guard let groupPath = self.groupPath else {
             return .empty
         }
@@ -57,7 +57,7 @@ struct ScriptCommand: Codable {
             for: "https://raw.githubusercontent.com/raycast/script-commands/master/\(groupPath)/\(value)?raw=true"
         )
     }
-    
+
     mutating func setGroupPath(for group: Group) {
         self.groupPath = group.path
     }
