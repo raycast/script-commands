@@ -10,7 +10,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/apple/swift-tools-support-core.git",
-            .branch("master")
+            .upToNextMinor(from: "0.1.11")
         ),
         .package(
             url: "https://github.com/apple/swift-argument-parser.git",
