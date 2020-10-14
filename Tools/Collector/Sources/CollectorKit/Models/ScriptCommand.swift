@@ -10,6 +10,7 @@ typealias ScriptCommands = [ScriptCommand]
 struct ScriptCommand: Codable {
     let schemaVersion: Int
     let title: String
+    var filename: String
     let mode: Mode?
     var packageName: String?
     let icon: String?
@@ -23,6 +24,7 @@ struct ScriptCommand: Codable {
     enum CodingKeys: String, CodingKey {
         case schemaVersion
         case title
+        case filename
         case mode
         case packageName
         case icon
@@ -74,6 +76,7 @@ extension ScriptCommand {
         // Required
         self.schemaVersion          = try container.decode(Int.self, forKey: .schemaVersion)
         self.title                  = try container.decode(String.self, forKey: .title)
+        self.filename               = try container.decode(String.self, forKey: .filename)
 
         // Optionals
         self.mode                   = try container.decodeIfPresent(Mode.self, forKey: .mode)
@@ -104,6 +107,7 @@ extension ScriptCommand {
 
         try container.encode(schemaVersion, forKey: .schemaVersion)
         try container.encode(title, forKey: .title)
+        try container.encode(filename, forKey: .filename)
         try container.encode(mode, forKey: .mode)
         try container.encode(packageName, forKey: .packageName)
         try container.encode(icon, forKey: .icon)
@@ -138,6 +142,10 @@ extension ScriptCommand: MarkdownDescriptionProtocol {
     var markdownDescription: String {
         var content: String = .empty
 
+        guard let groupPath = self.groupPath else {
+            return content
+        }
+        
         var author = "Raycast"
         var details = "N/A"
 
@@ -148,9 +156,10 @@ extension ScriptCommand: MarkdownDescriptionProtocol {
         if let value = self.details {
             details = value
         }
-
+        
+        let scriptPath = "\(groupPath)/\(filename)"
         let header = """
-        | \(iconString) | \(title) | \(details) | \(author) |
+        | \(iconString) | [\(title)](\(scriptPath)) | \(details) | \(author) |
         """
 
         content += .newLine + header

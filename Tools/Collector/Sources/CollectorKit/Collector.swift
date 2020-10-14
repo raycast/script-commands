@@ -72,11 +72,7 @@ private extension Collector {
                 return
             }
 
-            if var object = readMetadata(of: fileContent) {
-                if object.packageName == nil {
-                    object.packageName = path.basenameWithoutExt.sanitize.capitalized
-                }
-
+            if let object = scriptCommand(with: fileContent, filename: $0, path: path) {
                 extensions.append(object)
             }
         }
@@ -95,8 +91,17 @@ private extension Collector {
         return content
     }
 
-    func readMetadata(of content: String) -> ScriptCommand? {
-        let dictionary = readKeyValue(of: content)
+    func scriptCommand(with content: String, filename: String, path: AbsolutePath) -> ScriptCommand? {
+        let filenameKey = ScriptCommand.CodingKeys.filename.rawValue
+        let packageNameKey = ScriptCommand.CodingKeys.packageName.rawValue
+
+        var dictionary = readKeyValue(of: content)
+        dictionary[filenameKey] = filename
+
+        if dictionary[packageNameKey] == nil {
+            dictionary[packageNameKey] = path.basenameWithoutExt.sanitize.capitalized
+        }
+
         return dictionary.encodeToStruct()
     }
 
