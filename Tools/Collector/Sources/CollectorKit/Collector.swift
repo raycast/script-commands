@@ -17,7 +17,7 @@ public final class Collector {
 
     public func generateDocumentation(
         outputFileName: String = "raycast-extensions",
-        blockedFolderList: [String] = [".git", "screenshots", "Tools", ".build"]
+        blockedFolderList: [String] = [".git", "screenshots", "Tools", ".build", ".github"]
     ) throws {
         guard fileSystem.exists(extensionsAbsolutePath) else {
             throw Error.extensionsFolderNotFound(extensionsAbsolutePath.pathString)
