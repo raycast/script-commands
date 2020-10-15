@@ -214,9 +214,12 @@
         "title" : "Eject All Disks"
       },
       {
-        "author" : null,
+        "author" : {
+          "name" : "Raycast",
+          "url" : "https:\/\/raycast.com"
+        },
         "currentDirectoryPath" : null,
-        "description" : null,
+        "description" : "A script command to show and hide icons of Desktop folder",
         "filename" : "toggle-desktop-icons.applescript",
         "icon" : "🖥",
         "mode" : "silent",
@@ -405,6 +408,13 @@
         "schemaVersion" : 1,
         "title" : "Local IPv6"
       }
+    ]
+  },
+  {
+    "name" : ".Github",
+    "path" : ".github",
+    "scriptCommands" : [
+
     ]
   }
 ]
