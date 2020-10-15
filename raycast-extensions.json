@@ -409,12 +409,5 @@
         "title" : "Local IPv6"
       }
     ]
-  },
-  {
-    "name" : ".Github",
-    "path" : ".github",
-    "scriptCommands" : [
-
-    ]
   }
 ]
