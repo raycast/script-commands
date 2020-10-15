@@ -9,15 +9,12 @@ This repository contains sample commands and documentation to write your own one
 
 ### Content
 
-- [.Github](#.github)
 - [Bookmarks](#bookmarks)
 - [Developer Utils](#developer-utils)
 - [Navigation](#navigation)
 - [Spotify](#spotify)
 - [System](#system)
 
-
-## .Github
 
 ## Bookmarks
 
