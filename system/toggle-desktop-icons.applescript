@@ -7,6 +7,9 @@
 
 # Optional parameters:
 # @raycast.icon 🖥
+# @raycast.author Raycast
+# @raycast.authorURL https://raycast.com
+# @raycast.description A script command to show and hide icons of Desktop folder
 
 try
   set CurSet to do shell script "defaults read com.apple.finder CreateDesktop"
