@@ -70,7 +70,7 @@ We also append `/usr/local/bin` to `$PATH` variable so you can use your local sh
 
 If script doesn't appear in commands list, make sure these requirements are met:
 * Script file is executable (you can run `file <path to script>` command in terminal to check it)
-* Filename doesn't contains `.template.` string
+* Filename doesn't contain `.template.` string
 * All required metadata parameters are provided. See in the table above which parameters are required.
 * You use either `#` or `//` comments for metadata parameters
 * You pressed "Reload" button in Script Commands preferences
