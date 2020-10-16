@@ -12,6 +12,7 @@
         "mode" : "silent",
         "needsConfirmation" : null,
         "packageName" : "Spotify",
+        "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Pause"
       },
@@ -24,6 +25,7 @@
         "mode" : "silent",
         "needsConfirmation" : null,
         "packageName" : "Spotify",
+        "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Play"
       },
@@ -36,6 +38,7 @@
         "mode" : "silent",
         "needsConfirmation" : null,
         "packageName" : "Spotify",
+        "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Toggle Play\/Pause"
       },
@@ -48,6 +51,7 @@
         "mode" : "silent",
         "needsConfirmation" : null,
         "packageName" : "Spotify",
+        "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Next Track"
       }
@@ -66,6 +70,7 @@
         "mode" : "silent",
         "needsConfirmation" : null,
         "packageName" : "Navigation",
+        "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Open Library"
       },
@@ -78,6 +83,7 @@
         "mode" : "silent",
         "needsConfirmation" : null,
         "packageName" : "Navigation",
+        "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Open Applications"
       },
@@ -90,6 +96,7 @@
         "mode" : "silent",
         "needsConfirmation" : null,
         "packageName" : "Navigation",
+        "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Open Utilities"
       },
@@ -102,6 +109,7 @@
         "mode" : "silent",
         "needsConfirmation" : null,
         "packageName" : "Navigation",
+        "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Open Desktop"
       },
@@ -114,6 +122,7 @@
         "mode" : "silent",
         "needsConfirmation" : null,
         "packageName" : "Navigation",
+        "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Open Documents"
       },
@@ -126,6 +135,7 @@
         "mode" : "silent",
         "needsConfirmation" : null,
         "packageName" : "Navigation",
+        "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Open Home"
       },
@@ -138,9 +148,17 @@
         "mode" : "silent",
         "needsConfirmation" : null,
         "packageName" : "Navigation",
+        "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Open Downloads"
       }
+    ]
+  },
+  {
+    "name" : "Dashboard",
+    "path" : "dashboard",
+    "scriptCommands" : [
+
     ]
   },
   {
@@ -156,6 +174,7 @@
         "mode" : "silent",
         "needsConfirmation" : null,
         "packageName" : "System",
+        "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Empty Trash"
       },
@@ -168,6 +187,7 @@
         "mode" : "silent",
         "needsConfirmation" : true,
         "packageName" : "System",
+        "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Quit All Applications"
       },
@@ -183,6 +203,7 @@
         "mode" : "silent",
         "needsConfirmation" : null,
         "packageName" : "System",
+        "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Toggle Hidden Files"
       },
@@ -198,6 +219,7 @@
         "mode" : "silent",
         "needsConfirmation" : null,
         "packageName" : "System",
+        "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Toggle System Appearance"
       },
@@ -210,6 +232,7 @@
         "mode" : "silent",
         "needsConfirmation" : null,
         "packageName" : "System",
+        "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Eject All Disks"
       },
@@ -225,6 +248,7 @@
         "mode" : "silent",
         "needsConfirmation" : null,
         "packageName" : "System",
+        "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Toggle Desktop Icons"
       },
@@ -237,6 +261,7 @@
         "mode" : "silent",
         "needsConfirmation" : null,
         "packageName" : "System",
+        "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Restart"
       },
@@ -249,6 +274,7 @@
         "mode" : "silent",
         "needsConfirmation" : null,
         "packageName" : "System",
+        "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Shut Down"
       },
@@ -261,6 +287,7 @@
         "mode" : "silent",
         "needsConfirmation" : null,
         "packageName" : "System",
+        "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Sleep"
       }
@@ -279,6 +306,7 @@
         "mode" : "silent",
         "needsConfirmation" : null,
         "packageName" : "Bookmarks",
+        "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Open Script Commands Repository"
       }
@@ -297,6 +325,7 @@
         "mode" : "silent",
         "needsConfirmation" : null,
         "packageName" : "Developer Utils",
+        "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Encode Base64"
       },
@@ -309,6 +338,7 @@
         "mode" : "fullOutput",
         "needsConfirmation" : null,
         "packageName" : "Developer Utils",
+        "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Decode JWT"
       },
@@ -321,6 +351,7 @@
         "mode" : "compact",
         "needsConfirmation" : null,
         "packageName" : "Internet",
+        "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Local IPv4"
       },
@@ -333,6 +364,7 @@
         "mode" : "compact",
         "needsConfirmation" : null,
         "packageName" : "Internet",
+        "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "External IPv4"
       },
@@ -345,6 +377,7 @@
         "mode" : "silent",
         "needsConfirmation" : null,
         "packageName" : "Developer Utils",
+        "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Generate UUID"
       },
@@ -357,6 +390,7 @@
         "mode" : "compact",
         "needsConfirmation" : null,
         "packageName" : "Internet",
+        "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "External IPv6"
       },
@@ -369,6 +403,7 @@
         "mode" : "silent",
         "needsConfirmation" : null,
         "packageName" : "Developer Utils",
+        "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Decode Base64"
       },
@@ -381,6 +416,7 @@
         "mode" : "fullOutput",
         "needsConfirmation" : null,
         "packageName" : "Developer Utils",
+        "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Prettify JSON"
       },
@@ -393,6 +429,7 @@
         "mode" : "compact",
         "needsConfirmation" : null,
         "packageName" : "Xcode",
+        "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Clear Derived Data"
       },
@@ -405,6 +442,7 @@
         "mode" : "compact",
         "needsConfirmation" : null,
         "packageName" : "Internet",
+        "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Local IPv6"
       }
