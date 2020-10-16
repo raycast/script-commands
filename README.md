@@ -43,11 +43,12 @@ The following parameters are available to customize your Script Command in Rayca
 |----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|---------------------|
 | schemaVersion        | Schema version to prepare for future changes in the API. Currently there is only version 1 available.                                                                                                                                                                                | Yes      | 0.29+               |
 | title                | Display name of the Script Command that is shown as title in the root search.                                                                                                                                                                                                        | Yes      | 0.29+               |
-| mode                 | Specifies how the script is executed and how the output is presented.<br>- *fullOutput:* Command prints entire output on separate view. <br>- *compact:* Command shows a toast while running in background.<br>- *silent:* Command closes the Raycast window and runs in background. | Yes      | 0.29+               |
+| mode                 | Specifies how the script is executed and how the output is presented.<br>- *fullOutput:* Command prints entire output on separate view. <br>- *compact:* Command shows a toast while running in background.<br>- *silent:* Command closes the Raycast window and runs in background. <br>- *inline:* Sets the script up to be shown as refreshing dashboard command where the output is displayed inline in the item (make sure to also specify a `refreshTime`) | Yes      | 0.29+               |
 | packageName          | Display name of the package that is shown as subtitle in the root search. When not provided, the name will be inferred from the script directory name.                                                                                                                               | No       | 0.29+               |
 | icon                 | Icon that is displayed in the root search. Can be an emoji, a file path (relative or full) or a remote URL (only https). Supported formats for images are PNG and JPEG. Please make sure to use small icons, recommended size - 32px.                                                | No       | 0.29+               |
 | currentDirectoryPath | Path from which the script is executed. Default is the path of the script.                                                                                                                                                                                                           | No       | 0.29+               |
 | needsConfirmation    | Specify `true` if you would like to show confirmation alert dialog before running the script. Can be helpful with destructive scripts like "Quit All Apps" or "Empty Trash". Default value is `false`.                                                                               | No       | 0.30+               |
+| refreshTime    | Specify a refresh interval for `inline` mode scripts in seconds, minutes, hours or days. Examples: `5s`, `1m`, `12h`, `1d`. Script output will be shown inline in dashboard items. *Note* that the actual times are not accurate and can vary depending on how the OS prioritizes scheduled work. The minimum allowed refresh interval is 5 seconds (use responsibly...) | No       | 0.31+
 
 **⚠️ Whenever you make changes to the parameters of the Script Command, go to the preferences and reload the Script Commands.**
 
@@ -59,20 +60,22 @@ You can use the standard output to present messages in Raycast. Depending on the
 
 In `fullOutput` the entire output is presented on a separate view, similar to a terminal. This is handy when your script generates output to consume. In `compact` mode the last line of the standard output is shown in the toast. And in `silent` mode the last line (if exists) will be shown in overlaying HUD toast after Raycast window is closed.
 
+In `inline` mode, the output will be directly shown in the command item and automatically refresh according to the specified `refreshTime`. Tip: Set your dashboard items as favorites via the action menu in Raycast
+
 ### Error Handling
 
 If the script exits with a status code not equal to 0, Raycast interprets it as failed and shows a toast that the script failed to run.
 
 ### Login Shell and `$PATH`
 
-The script is running in non-login shell to avoid loading additional information from profiles. However, if you need to run your script as login-shell, you can specify an argument after shebang, e.g. `#!/bin/bash -l` for bash.
+The script is running in a non-login shell to avoid loading additional information from profiles. However, if you need to run your script as login-shell, you can specify an argument after shebang, e.g. `#!/bin/bash -l` for bash.
 We also append `/usr/local/bin` to `$PATH` variable so you can use your local shell commands without any additional steps. If this is not enough, you can always extend `$PATH` by adding `export PATH='/some/extra/path:$PATH'` at the top of your script.
 
 ### Troubleshooting
 
-If script doesn't appear in commands list, make sure these requirements are met:
+If a script doesn't appear in the commands list, make sure these requirements are met:
 * Script file is executable (you can run `file <path to script>` command in terminal to check it)
-* Filename doesn't contains `.template.` string
+* Filename doesn't contain `.template.` string
 * All required metadata parameters are provided. See in the table above which parameters are required.
 * You use either `#` or `//` comments for metadata parameters
 * You pressed "Reload" button in Script Commands preferences
