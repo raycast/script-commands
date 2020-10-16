@@ -11,5 +11,6 @@ extension ScriptCommand {
         case fullOutput
         case compact
         case silent
+        case inline
     }
 }
