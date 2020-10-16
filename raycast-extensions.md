@@ -10,6 +10,7 @@ This repository contains sample commands and documentation to write your own one
 ### Content
 
 - [Bookmarks](#bookmarks)
+- [Dashboard](#dashboard)
 - [Developer Utils](#developer-utils)
 - [Navigation](#navigation)
 - [Spotify](#spotify)
@@ -21,6 +22,8 @@ This repository contains sample commands and documentation to write your own one
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
 | 📜 | [Open Script Commands Repository](bookmarks/open-scriptCommandsRepository.sh) | N/A | Raycast |
+
+## Dashboard
 
 ## Developer Utils
 
