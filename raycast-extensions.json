@@ -158,7 +158,19 @@
     "name" : "Dashboard",
     "path" : "dashboard",
     "scriptCommands" : [
-
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "filename" : "system-activity.sh",
+        "icon" : "📈",
+        "mode" : "inline",
+        "needsConfirmation" : null,
+        "packageName" : "Dashboard",
+        "refreshTime" : "5s",
+        "schemaVersion" : 1,
+        "title" : "System Activity"
+      }
     ]
   },
   {

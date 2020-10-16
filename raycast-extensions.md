@@ -25,6 +25,10 @@ This repository contains sample commands and documentation to write your own one
 
 ## Dashboard
 
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| 📈 | [System Activity](dashboard/system-activity.sh) | N/A | Raycast |
+
 ## Developer Utils
 
 | Icon | Title | Description | Author |
