@@ -4,10 +4,10 @@
 // 
 
 import ArgumentParser
-import CollectorKit
+import ToolkitLibrary
 import TSCBasic
 
-extension CollectorCommand {
+extension ToolkitCommand {
 
     struct GenerateDocumentation: ParsableCommand {
 
@@ -22,11 +22,11 @@ extension CollectorCommand {
             let fileSystem = TSCBasic.localFileSystem
 
             do {
-                let collector = Collector(
+                let toolkit = Toolkit(
                     path: fileSystem.absolutePath(for: self.path)
                 )
 
-                try collector.generateDocumentation()
+                try toolkit.generateDocumentation()
             }
             catch {
                 print("Error: \(error)")

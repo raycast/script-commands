@@ -87,8 +87,7 @@ private extension Documentation {
         This repository contains sample commands and documentation to write your own ones.
 
         ### Content
-        \(tableOfContents)
-        \(contentString)
+        \(tableOfContents)\(contentString)
 
         ## Community
 

@@ -6,18 +6,16 @@
 import Foundation
 
 import ArgumentParser
-import CollectorKit
+import ToolkitLibrary
 import TSCBasic
 
-struct CollectorCommand: ParsableCommand {
+struct ToolkitCommand: ParsableCommand {
 
     static var configuration = CommandConfiguration(
-        commandName: "collector",
+        commandName: "toolkit",
         abstract: "A tool to generate automatized documentation",
         subcommands: [
-            CreateScript.self,
             GenerateDocumentation.self,
-            ValidateScripts.self
         ]
     )
 
@@ -26,4 +24,4 @@ struct CollectorCommand: ParsableCommand {
 
 }
 
-CollectorCommand.main()
+ToolkitCommand.main()
