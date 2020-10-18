@@ -1,7 +1,7 @@
-// 
+//
 //  MIT License
 //  Copyright (c) 2020 Raycast. All rights reserved.
-// 
+//
 
 import Foundation
 import TSCBasic
@@ -132,11 +132,9 @@ private extension Toolkit {
 
                 if let intValue = Int(value) {
                     dictionary[key] = intValue
-                }
-                else if let boolValue = Bool(value) {
+                } else if let boolValue = Bool(value) {
                     dictionary[key] = boolValue
-                }
-                else {
+                } else {
                     dictionary[key] = value
                 }
             }
@@ -157,8 +155,7 @@ private extension Toolkit {
             let range = NSRange(text.startIndex..., in: text)
 
             return regex.matches(in: text, range: range)
-        }
-        catch let error {
+        } catch let error {
             print("Invalid regex: \(error.localizedDescription)")
             return []
         }

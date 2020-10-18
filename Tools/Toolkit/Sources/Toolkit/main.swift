@@ -1,7 +1,7 @@
-// 
+//
 //  MIT License
 //  Copyright (c) 2020 Raycast. All rights reserved.
-// 
+//
 
 import Foundation
 
@@ -15,7 +15,7 @@ struct ToolkitCommand: ParsableCommand {
         commandName: "toolkit",
         abstract: "A tool to generate automatized documentation",
         subcommands: [
-            GenerateDocumentation.self,
+            GenerateDocumentation.self
         ]
     )
 

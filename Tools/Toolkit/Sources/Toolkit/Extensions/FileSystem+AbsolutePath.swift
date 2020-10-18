@@ -1,7 +1,7 @@
-// 
+//
 //  MIT License
 //  Copyright (c) 2020 Raycast. All rights reserved.
-// 
+//
 
 import TSCBasic
 
@@ -10,8 +10,7 @@ extension FileSystem {
 
         if let path = try? AbsolutePath(validating: path) {
             return path
-        }
-        else if
+        } else if
             let path = try? RelativePath(validating: path),
             let currentWorkingDirectory = localFileSystem.currentWorkingDirectory {
 
