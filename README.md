@@ -6,7 +6,7 @@
 
 This repository contains sample commands and documentation to write your own ones.
 
-Check out the [list](raycast-extensions.md) of all available Script Commands.
+Check out the [list](extensions.md) of all available Script Commands.
 
 ## Install Script Commands
 
