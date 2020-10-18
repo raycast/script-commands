@@ -88,7 +88,7 @@ extension ScriptCommand {
         self.currentDirectoryPath   = try container.decodeIfPresent(String.self, forKey: .currentDirectoryPath)
         self.needsConfirmation      = try container.decodeIfPresent(Bool.self, forKey: .needsConfirmation)
         self.refreshTime            = try container.decodeIfPresent(String.self, forKey: .refreshTime)
-        
+
         let name = try authorContainer.decodeIfPresent(String.self, forKey: .name)
         let url = try authorContainer.decodeIfPresent(String.self, forKey: .url)
 
@@ -99,8 +99,7 @@ extension ScriptCommand {
 
         if name != nil || url != nil {
             self.author = author
-        }
-        else {
+        } else {
             self.author = nil
         }
     }
@@ -149,7 +148,7 @@ extension ScriptCommand: MarkdownDescriptionProtocol {
         guard let groupPath = self.groupPath else {
             return content
         }
-        
+
         var author = "Raycast"
         var details = "N/A"
 
@@ -160,7 +159,7 @@ extension ScriptCommand: MarkdownDescriptionProtocol {
         if let value = self.details {
             details = value
         }
-        
+
         let scriptPath = "\(groupPath)/\(filename)"
         let header = """
         | \(iconString) | [\(title)](\(scriptPath)) | \(details) | \(author) |

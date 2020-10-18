@@ -1,7 +1,7 @@
-// 
+//
 //  MIT License
 //  Copyright (c) 2020 Raycast. All rights reserved.
-// 
+//
 
 import ArgumentParser
 import ToolkitLibrary
@@ -27,8 +27,7 @@ extension ToolkitCommand {
                 )
 
                 try toolkit.generateDocumentation()
-            }
-            catch {
+            } catch {
                 print("Error: \(error)")
             }
 

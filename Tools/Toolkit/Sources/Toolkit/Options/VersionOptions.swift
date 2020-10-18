@@ -1,7 +1,7 @@
-// 
+//
 //  MIT License
 //  Copyright (c) 2020 Raycast. All rights reserved.
-// 
+//
 
 import ArgumentParser
 
