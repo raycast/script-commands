@@ -209,7 +209,7 @@
           "url" : "https:\/\/twitter.com\/tholanda"
         },
         "currentDirectoryPath" : null,
-        "description" : "Script Command to show and hide files and folders starting with \".\" (dot) which on Unix, means that is a hidden file\/folder",
+        "description" : "Show and hide hidden files\/folders which starts with \".\" (dot), i.e: .bash_rc, .ssh",
         "filename" : "toggle-hidden-files.applescript",
         "icon" : "👓",
         "mode" : "silent",
