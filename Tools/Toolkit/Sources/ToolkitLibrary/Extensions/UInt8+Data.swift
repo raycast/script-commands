@@ -6,12 +6,12 @@
 import Foundation
 
 extension UInt8 {
-    var data: Data {
-        var int = self
+  var data: Data {
+    var int = self
 
-        return Data(
-            bytes: &int,
-            count: MemoryLayout<UInt8>.size
-        )
-    }
+    return Data(
+      bytes: &int,
+      count: MemoryLayout<UInt8>.size
+    )
+  }
 }

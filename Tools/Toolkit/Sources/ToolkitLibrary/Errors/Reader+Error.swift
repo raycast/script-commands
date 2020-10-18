@@ -6,16 +6,16 @@
 import Foundation
 
 extension Toolkit {
-    enum Error: Swift.Error {
-        case extensionsFolderNotFound(String)
-    }
+  enum Error: Swift.Error {
+    case extensionsFolderNotFound(String)
+  }
 }
 
 extension Toolkit.Error: CustomStringConvertible, LocalizedError {
-    var description: String {
-        switch self {
-        case .extensionsFolderNotFound(let folder):
-            return "Extensions folder not found. Expected: \(folder)"
-        }
+  var description: String {
+    switch self {
+    case .extensionsFolderNotFound(let folder):
+      return "Extensions folder not found. Expected: \(folder)"
     }
+  }
 }

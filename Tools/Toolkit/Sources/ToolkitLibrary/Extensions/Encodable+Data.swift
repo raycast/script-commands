@@ -6,11 +6,11 @@
 import Foundation
 
 extension Encodable {
-    func toData() throws -> Data {
-        let encoder = JSONEncoder()
-        encoder.outputFormatting.insert(.prettyPrinted)
-        encoder.outputFormatting.insert(.sortedKeys)
+  func toData() throws -> Data {
+    let encoder = JSONEncoder()
+    encoder.outputFormatting.insert(.prettyPrinted)
+    encoder.outputFormatting.insert(.sortedKeys)
 
-        return try encoder.encode(self)
-    }
+    return try encoder.encode(self)
+  }
 }
