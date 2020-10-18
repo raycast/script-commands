@@ -35,7 +35,7 @@ jobs:
       run: |
         git config --local user.email "bot@raycast.com"
         git config --local user.name "Raycast Bot"
-        git add ../../raycast-extensions.md ../../raycast-extensions.json
+        git add ../../extensions.md ../../extensions.json
         git commit -m "Update Script Commands documentation"
     
     - name: Push changes
@@ -43,4 +43,3 @@ jobs:
       with:
         github_token: ${{ secrets.RAYCAST_BOT_ACCESS_TOKEN }}
         branch: ${{ github.ref }}
-
