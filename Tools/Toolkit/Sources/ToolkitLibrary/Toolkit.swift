@@ -17,7 +17,7 @@ public final class Toolkit {
 
     public func generateDocumentation(
         outputFileName: String = "extensions",
-        blockedFolderList: [String] = [".git", "screenshots", "Tools", ".build", ".github", "AirPodsBattery"]
+        blockedFolderList: [String] = [".git", "screenshots", "Tools", ".build", ".github"]
     ) throws {
         guard fileSystem.exists(extensionsAbsolutePath) else {
             throw Error.extensionsFolderNotFound(extensionsAbsolutePath.pathString)
