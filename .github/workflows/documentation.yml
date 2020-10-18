@@ -31,12 +31,18 @@ jobs:
 
     - name: Commit files
       run: |
-        git config --local user.email "bot@raycast.com"
-        git config --local user.name "Raycast Bot"
-        git add ../../extensions.md ../../extensions.json
-        git commit -m "Update Script Commands documentation"
+        if `git status | grep -q "nothing added to commit"`; then
+          exit 1;
+        else
+          git config --local user.email "bot@raycast.com" &&
+          git config --local user.name "Raycast Bot" &&
+          git add ../../extensions.md ../../extensions.json &&
+          git commit -m "Update Script Commands documentation" &&
+          exit 0;
+        fi
     
     - name: Push changes
+      if: success()
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.RAYCAST_BOT_ACCESS_TOKEN }}
