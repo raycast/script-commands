@@ -1,25 +1,28 @@
 # Raycast Toolkit
 
-[Raycast](https://raycast.com) Toolkit helps you to create your scripts, validate and generate documentation for all script commands on a predefined or customized path.  
+[Raycast](https://raycast.com) Toolkit helps you to generate documentation for all script commands on a predefined or customized path.  
 
 ## CLI overview
 
 ```shell
 OVERVIEW: A tool to generate automatized documentation
 
-USAGE: collector [--version] <subcommand>
+USAGE: toolkit [--version] <subcommand>
 
 OPTIONS:
--v, --version           Print the version and exit
--h, --help              Show help information.
+  -v, --version           Print the version and exit 
+  -h, --help              Show help information.
 
 SUBCOMMANDS:
-create                  Create a placeholder for your script
-generate-documentation  Generate the documentation in JSON and Markdown format
-validate                Validate all scripts installed or one specified by the user
+  generate-documentation  Generate the documentation in JSON and Markdown format
 
-See 'collector help <subcommand>' for detailed help.
+  See 'toolkit help <subcommand>' for detailed help.
 ```
+
+## TO DO
+
+- [ ] Script validator command
+- [ ] Create a script command
 
 ## Community
 
