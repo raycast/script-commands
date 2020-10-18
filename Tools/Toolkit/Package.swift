@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "collector",
+    name: "toolkit",
     platforms: [
         .macOS(.v10_14)
     ],
@@ -19,21 +19,21 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "Collector",
+            name: "Toolkit",
             dependencies: [
-                "CollectorKit",
+                "ToolkitLibrary",
                 .product(name: "SwiftToolsSupport-auto", package: "swift-tools-support-core"),
                 .product(name: "ArgumentParser", package: "swift-argument-parser")
             ]
         ),
         .target(
-            name: "CollectorKit",
+            name: "ToolkitLibrary",
             dependencies: [
                 .product(name: "SwiftToolsSupport-auto", package: "swift-tools-support-core")
             ]
         ),
         .testTarget(
-            name: "CollectorTests",
-            dependencies: ["Collector"])
+            name: "ToolkitLibraryTests",
+            dependencies: ["ToolkitLibrary"])
     ]
 )

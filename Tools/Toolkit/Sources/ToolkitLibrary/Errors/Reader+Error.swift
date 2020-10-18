@@ -5,13 +5,13 @@
 
 import Foundation
 
-extension Collector {
+extension Toolkit {
     enum Error: Swift.Error {
         case extensionsFolderNotFound(String)
     }
 }
 
-extension Collector.Error: CustomStringConvertible, LocalizedError {
+extension Toolkit.Error: CustomStringConvertible, LocalizedError {
     var description: String {
         switch self {
         case .extensionsFolderNotFound(let folder):

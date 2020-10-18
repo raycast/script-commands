@@ -6,7 +6,7 @@
 import Foundation
 import TSCBasic
 
-public final class Collector {
+public final class Toolkit {
     private lazy var fileSystem = TSCBasic.localFileSystem
 
     private var extensionsAbsolutePath: AbsolutePath
@@ -16,8 +16,8 @@ public final class Collector {
     }
 
     public func generateDocumentation(
-        outputFileName: String = "raycast-extensions",
-        blockedFolderList: [String] = [".git", "screenshots", "Tools", ".build", ".github"]
+        outputFileName: String = "extensions",
+        blockedFolderList: [String] = [".git", "screenshots", "Tools", ".build", ".github", "AirPodsBattery"]
     ) throws {
         guard fileSystem.exists(extensionsAbsolutePath) else {
             throw Error.extensionsFolderNotFound(extensionsAbsolutePath.pathString)
@@ -55,7 +55,7 @@ public final class Collector {
     }
 }
 
-private extension Collector {
+private extension Toolkit {
 
     func readFiles(from path: AbsolutePath) throws -> ScriptCommands {
         let directoryContent = try fileSystem.getDirectoryContents(path)

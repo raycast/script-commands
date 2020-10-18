@@ -6,7 +6,6 @@
 import TSCBasic
 
 extension FileSystem {
-
     func absolutePath(for path: String) -> AbsolutePath {
 
         if let path = try? AbsolutePath(validating: path) {
@@ -26,5 +25,4 @@ extension FileSystem {
             RelativePath(path)
         )
     }
-
 }
