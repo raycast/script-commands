@@ -32,7 +32,7 @@ jobs:
     - name: Commit files
       run: |
         if `git status | grep -q "nothing added to commit"`; then
-          exit 1;
+          exit 0;
         else
           git config --local user.email "bot@raycast.com" &&
           git config --local user.name "Raycast Bot" &&
