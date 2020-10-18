@@ -9,7 +9,7 @@
 # @raycast.icon 👓
 # @raycast.author Thiago Holanda
 # @raycast.authorURL https://twitter.com/tholanda
-# @raycast.description Script Command to show and hide files and folders starting with "." (dot) which on Unix, means that is a hidden file/folder
+# @raycast.description Show and hide hidden files/folders which starts with "." (dot), i.e: .bash_rc, .ssh
 
 try
 	set VisibleFiles to do shell script "defaults read com.apple.finder AppleShowAllFiles"
