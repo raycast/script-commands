@@ -6,6 +6,6 @@
 import Foundation
 
 protocol MarkdownDescriptionProtocol {
-    var markdownDescription: String { get }
-    var sectionTitle: String { get }
+  var markdownDescription: String { get }
+  var sectionTitle: String { get }
 }

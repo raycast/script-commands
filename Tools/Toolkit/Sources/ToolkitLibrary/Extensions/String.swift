@@ -6,38 +6,37 @@
 import Foundation
 
 extension String {
+  var sanitize: String {
+    var text = self
 
-    var sanitize: String {
-        var text = self
+    let entities = [
+      "_",
+      "-"
+    ]
 
-        let entities = [
-            "_",
-            "-"
-        ]
+    entities.forEach { entity in
+      guard text.contains(entity) else {
+        return
+      }
 
-        entities.forEach { entity in
-            guard text.contains(entity) else {
-                return
-            }
-
-            text = text.replacingOccurrences(
-                of: entity,
-                with: " "
-            )
-        }
-
-        return text
+      text = text.replacingOccurrences(
+        of: entity,
+        with: " "
+      )
     }
 
-    var trimmedString: String {
-        trimmingCharacters(in: .whitespacesAndNewlines)
-    }
+    return text
+  }
 
-    static var newLine: String {
-        "\n"
-    }
+  var trimmedString: String {
+    trimmingCharacters(in: .whitespacesAndNewlines)
+  }
 
-    static var empty: String {
-        ""
-    }
+  static var newLine: String {
+    "\n"
+  }
+
+  static var empty: String {
+    ""
+  }
 }

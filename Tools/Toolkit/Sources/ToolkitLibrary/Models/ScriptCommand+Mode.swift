@@ -6,11 +6,10 @@
 import Foundation
 
 extension ScriptCommand {
-
-    enum Mode: String, Codable {
-        case fullOutput
-        case compact
-        case silent
-        case inline
-    }
+  enum Mode: String, Codable {
+    case fullOutput
+    case compact
+    case silent
+    case inline
+  }
 }

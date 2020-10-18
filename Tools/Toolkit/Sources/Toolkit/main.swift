@@ -11,16 +11,16 @@ import TSCBasic
 
 struct ToolkitCommand: ParsableCommand {
 
-    static var configuration = CommandConfiguration(
-        commandName: "toolkit",
-        abstract: "A tool to generate automatized documentation",
-        subcommands: [
-            GenerateDocumentation.self
-        ]
-    )
+  static var configuration = CommandConfiguration(
+    commandName: "toolkit",
+    abstract: "A tool to generate automatized documentation",
+    subcommands: [
+      GenerateDocumentation.self
+    ]
+  )
 
-    @OptionGroup
-    var versionOptions: VersionOptions
+  @OptionGroup
+  var versionOptions: VersionOptions
 
 }
 

@@ -6,24 +6,23 @@
 import Foundation
 
 extension Character {
-
-    var isSimpleEmoji: Bool {
-        guard let firstScalar = unicodeScalars.first else {
-            return false
-        }
-
-        return firstScalar.properties.isEmoji && firstScalar.value > 0x238C
+  var isSimpleEmoji: Bool {
+    guard let firstScalar = unicodeScalars.first else {
+      return false
     }
 
-    var isCombinedIntoEmoji: Bool {
-        guard unicodeScalars.count > 1, let firstScalar = unicodeScalars.first else {
-            return false
-        }
+    return firstScalar.properties.isEmoji && firstScalar.value > 0x238C
+  }
 
-        return firstScalar.properties.isEmoji
+  var isCombinedIntoEmoji: Bool {
+    guard unicodeScalars.count > 1, let firstScalar = unicodeScalars.first else {
+      return false
     }
 
-    var isEmoji: Bool {
-        isSimpleEmoji || isCombinedIntoEmoji
-    }
+    return firstScalar.properties.isEmoji
+  }
+
+  var isEmoji: Bool {
+    isSimpleEmoji || isCombinedIntoEmoji
+  }
 }
