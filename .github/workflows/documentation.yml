@@ -2,13 +2,11 @@ name: Documentation
 
 on:
   push:
-    branches: [ main, master, Extensions-Collector-Tool]
-  pull_request:
-    branches: [ main, master, Extensions-Collector-Tool]
+    branches: [ master, Extensions-Collector-Tool]
 
 defaults:
   run:
-    working-directory: Tools/Collector
+    working-directory: Tools/Toolkit
 
 jobs:
   generateDocumenation:
@@ -21,15 +19,15 @@ jobs:
       with:
         xcode-version: latest-stable
 
-    - name: Build Collector
+    - name: Build Toolkit
       run: |
-        if [ ! -f "collector" ]; then rm collector; fi
+        if [ ! -f "toolkit" ]; then rm toolkit; fi
         swift build -c release
-        ln -s .build/release/collector
+        ln -s .build/release/toolkit
 
     - name: Generate Script Commands Documentation
       run: |
-        ./collector generate-documentation ../../
+        ./toolkit generate-documentation ../../
 
     - name: Commit files
       run: |
