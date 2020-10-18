@@ -85,7 +85,7 @@ This repository contains sample commands and documentation to write your own one
 | 🛌 | [Shut Down](system/shutdown.applescript) | N/A | Raycast |
 | 😴 | [Sleep](system/sleep.applescript) | N/A | Raycast |
 | 🖥 | [Toggle Desktop Icons](system/toggle-desktop-icons.applescript) | A script command to show and hide icons of Desktop folder | [Raycast](https://raycast.com) |
-| 👓 | [Toggle Hidden Files](system/toggle-hidden-files.applescript) | Script Command to show and hide files and folders starting with "." (dot) which on Unix, means that is a hidden file/folder | [Thiago Holanda](https://twitter.com/tholanda) |
+| 👓 | [Toggle Hidden Files](system/toggle-hidden-files.applescript) | Show and hide hidden files/folders which starts with "." (dot), i.e: .bash_rc, .ssh | [Thiago Holanda](https://twitter.com/tholanda) |
 | 🌗 | [Toggle System Appearance](system/toggle-system-appearance.applescript) | Script Command to switch between the system appearance, light and dark mode. | [Thiago Holanda](https://twitter.com/tholanda) |
 
 ## Community
