@@ -1,0 +1,51 @@
+#!/usr/bin/swift
+
+// Required parameters:
+// @raycast.schemaVersion 1
+// @raycast.title Open Clipboard URL on Desktop
+// @raycast.mode silent
+
+// Optional parameters:
+// @raycast.icon 🖥
+
+import Cocoa
+
+guard let string = NSPasteboard.general.string(forType: .string) else {
+  throw CocoaError(.serviceInvalidPasteboardData)
+}
+
+guard let url = URL(string: string) else {
+  throw URLError(.unsupportedURL)
+}
+
+func mapNotionURL(_ url: URL) -> URL? {
+  guard let httpsRange = url.absoluteString.range(of: "https://www.notion.so/") else { return nil }
+  let suffix = url.absoluteString[httpsRange.upperBound...]
+  return URL(string: "notion://" + suffix)
+}
+
+func mapLinearURL(_ url: URL) -> URL? {
+  guard let httpsRange = url.absoluteString.range(of: "https://linear.app/") else { return nil }
+  let suffix = url.absoluteString[httpsRange.upperBound...]
+  return URL(string: "linear://" + suffix)
+}
+
+let mapURLs = [
+  mapNotionURL,
+  mapLinearURL,
+]
+
+guard
+  let mappedURL = mapURLs.lazy.compactMap({ $0(url) }).first,
+  let appURL = NSWorkspace.shared.urlForApplication(toOpen: mappedURL)
+else {
+  NSWorkspace.shared.open(url)
+  exit(0)
+}
+
+print("URL is open in \(appURL.path)")
+
+guard NSWorkspace.shared.open(mappedURL) else {
+  NSWorkspace.shared.open(url)
+  exit(0)
+}
