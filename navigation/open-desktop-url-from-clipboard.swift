@@ -18,34 +18,26 @@ guard let url = URL(string: string) else {
   throw URLError(.unsupportedURL)
 }
 
-func mapNotionURL(_ url: URL) -> URL? {
-  guard let httpsRange = url.absoluteString.range(of: "https://www.notion.so/") else { return nil }
-  let suffix = url.absoluteString[httpsRange.upperBound...]
-  return URL(string: "notion://" + suffix)
-}
-
-func mapLinearURL(_ url: URL) -> URL? {
-  guard let httpsRange = url.absoluteString.range(of: "https://linear.app/") else { return nil }
-  let suffix = url.absoluteString[httpsRange.upperBound...]
-  return URL(string: "linear://" + suffix)
+func mapURLWithPrefix(_ prefix: String, scheme: String) -> (URL) -> URL? {
+  return { url in
+    guard let httpsRange = url.absoluteString.range(of: prefix) else { return nil }
+    let suffix = url.absoluteString[httpsRange.upperBound...]
+    return URL(string: scheme + suffix)
+  }
 }
 
 let mapURLs = [
-  mapNotionURL,
-  mapLinearURL,
+  mapURLWithPrefix("https://www.notion.so/", scheme: "notion://"),
+  mapURLWithPrefix("https://linear.app/", scheme: "linear://"),
 ]
 
 guard
   let mappedURL = mapURLs.lazy.compactMap({ $0(url) }).first,
-  let appURL = NSWorkspace.shared.urlForApplication(toOpen: mappedURL)
+  let appURL = NSWorkspace.shared.urlForApplication(toOpen: mappedURL),
+  NSWorkspace.shared.open(mappedURL)
 else {
   NSWorkspace.shared.open(url)
   exit(0)
 }
 
-print("URL is open in \(appURL.path)")
-
-guard NSWorkspace.shared.open(mappedURL) else {
-  NSWorkspace.shared.open(url)
-  exit(0)
-}
+print("URL is open in \(appURL.deletingPathExtension().lastPathComponent)")
