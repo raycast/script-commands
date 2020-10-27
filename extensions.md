@@ -10,6 +10,7 @@ This repository contains sample commands and documentation to write your own one
 ### Content
 
 - [Bookmarks](#bookmarks)
+- [Conversions](#conversions)
 - [Dashboard](#dashboard)
 - [Developer Utils](#developer-utils)
 - [Navigation](#navigation)
@@ -22,6 +23,12 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ |
 | 📜 | [Open Script Commands Repository](bookmarks/open-scriptCommandsRepository.sh) | N/A | Raycast |
 
+## Conversions
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+|  | [Column to Comma](conversions/column-to-comma.sh) | N/A | Raycast |
+
 ## Dashboard
 
 | Icon | Title | Description | Author |
@@ -32,6 +39,7 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
+| 📝 | [Copy Lorem Ipsum](developer-utils/lorem-ipsum.sh) | N/A | Raycast |
 | 💻 | [Decode Base64](developer-utils/decode-base64.sh) | N/A | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/developer-utils/images/jwt-logo.png?raw=true" width="20" height="20"> | [Decode JWT](developer-utils/decode-jwt.sh) | N/A | Raycast |
 | 💻 | [Encode Base64](developer-utils/encode-base64.sh) | N/A | Raycast |
@@ -58,11 +66,13 @@ This repository contains sample commands and documentation to write your own one
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
 | 📂 | [Open Applications](navigation/open-applications.sh) | N/A | Raycast |
+| 🖥 | [Open Clipboard URL on Desktop](navigation/open-desktop-url-from-clipboard.swift) | N/A | Raycast |
 | 📂 | [Open Desktop](navigation/open-desktop.sh) | N/A | Raycast |
 | 📂 | [Open Documents](navigation/open-documents.sh) | N/A | Raycast |
 | 📂 | [Open Downloads](navigation/open-downloads.sh) | N/A | Raycast |
 | 📂 | [Open Home](navigation/open-home.sh) | N/A | Raycast |
 | 📂 | [Open Library](navigation/open-library.sh) | N/A | Raycast |
+| 🌐 | [Open URL From Clipboard](navigation/open-url-from-clipboard.sh) | N/A | Raycast |
 | 📂 | [Open Utilities](navigation/open-utilities.sh) | N/A | Raycast |
 
 ## Spotify
@@ -78,8 +88,10 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
+| 📸 | [Copy Last Screenshot](system/copy-last-screenshot.swift) | N/A | Raycast |
 | 📀 | [Eject All Disks](system/eject-all-disks.applescript) | N/A | Raycast |
 | 🗑 | [Empty Trash](system/empty-trash.applescript) | N/A | Raycast |
+| 💁‍♂️ | [Open Last Download](system/open-last-download.swift) | N/A | Raycast |
 | 💥 | [Quit All Applications](system/quit-all-apps.swift) | N/A | Raycast |
 | ♻️ | [Restart](system/restart.applescript) | N/A | Raycast |
 | 🛌 | [Shut Down](system/shutdown.applescript) | N/A | Raycast |
