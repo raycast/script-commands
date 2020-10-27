@@ -50,7 +50,7 @@ The following parameters are available to customize your Script Command in Rayca
 | needsConfirmation    | Specify `true` if you would like to show confirmation alert dialog before running the script. Can be helpful with destructive scripts like "Quit All Apps" or "Empty Trash". Default value is `false`.                                                                               | No       | 0.30+               |
 | refreshTime    | Specify a refresh interval for `inline` mode scripts in seconds, minutes, hours or days. Examples: `5s`, `1m`, `12h`, `1d`. Script output will be shown inline in dashboard items. *Note* that the actual times are not accurate and can vary depending on how the OS prioritizes scheduled work. The minimum allowed refresh interval is 5 seconds (use responsibly...), and the maximum allowed number of refreshing `inline` commands is 10. | No       | 0.31+
 
-**⚠️ Whenever you make changes to the parameters of the Script Command, go to the preferences and reload the Script Commands.**
+**⚠️ Whenever you make changes to the parameters of the Script Command, trigger the "Reload Script Directories" command in root search (v0.33+), or press "Reload" in script commands preferences, or activate "Auto Reload" in preferences so that your scripts get automatically reloaded (experimental, v0.33+). Also note that "reloading" means that script metadata is parsed and Raycast search is refreshed – the actual scripts are only run when you manually trigger their command or when an inline command with refreshTime is automatically triggered.**
 
 ### Standard Output
 
@@ -76,12 +76,12 @@ We also append `/usr/local/bin` to `$PATH` variable so you can use your local sh
 If a script doesn't appear in the commands list, make sure these requirements are met:
 * Script file is executable (you can run `file <path to script>` command in terminal to check it)
 * Filename doesn't contain `.template.` string
-* All required metadata parameters are provided. See in the table above which parameters are required.
+* All required metadata parameters are provided. See the table above which parameters are required.
 * You use either `#` or `//` comments for metadata parameters
-* You pressed "Reload" button in Script Commands preferences
+* You have reloaded the scripts, via 1) the "Reload" button in preferences or 2), the "Reload Script Directories" command in root search (v0.33+), or 3) automatically via the activated "Auto Reload" feature in preferences (experimental, v0.33+)
 
 If nothing helps, try to go step by step from a [template](https://github.com/raycast/script-commands/blob/master/script-command.template.sh) script command or use one of the examples in this repo.
 
 ## Community
 
-This is a shared place and we're always looking for new Script Commands or other ways to improve Raycast. If you have anything cool to show, please send us a pull request. If we screwed something up, please report a bug. Join our [Slack community](https://join.slack.com/t/raycastcommunity/shared_invite/zt-hhzj9i4m-D5~HwnTRsJKrcZmVDJ4mkg) to brainstorm ideas with like-minded folks.
+This is a shared place and we're always looking for new Script Commands or other ways to improve Raycast. If you have anything cool to show, please send us a pull request. If we screwed something up, please report a bug. Join our [Slack community](https://www.raycast.com/community) to brainstorm ideas with like-minded folks.
