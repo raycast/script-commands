@@ -7,6 +7,9 @@
 
 # Optional parameters:
 # @raycast.icon 👓
+# @raycast.author Thiago Holanda
+# @raycast.authorURL https://twitter.com/tholanda
+# @raycast.description Show and hide hidden files/folders which starts with "." (dot), i.e: .bash_rc, .ssh
 
 try
 	set VisibleFiles to do shell script "defaults read com.apple.finder AppleShowAllFiles"

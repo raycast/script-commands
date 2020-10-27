@@ -1,0 +1,46 @@
+name: Documentation 
+
+on:
+  push:
+    branches: [ master ]
+
+defaults:
+  run:
+    working-directory: Tools/Toolkit
+
+jobs:
+  generateDocumenation:
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      
+    - uses: maxim-lobanov/setup-xcode@v1
+      with:
+        xcode-version: latest-stable
+
+    - name: Build Toolkit
+      run: |
+        if [ ! -f "toolkit" ]; then rm toolkit; fi
+        swift build -c release
+        ln -s .build/release/toolkit
+
+    - name: Generate Script Commands Documentation
+      run: |
+        ./toolkit generate-documentation ../../
+        if `git status | grep -q "nothing to commit"`; then
+          exit 0;
+        else
+          git config --local user.email "bot@raycast.com" &&
+          git config --local user.name "Raycast Bot" &&
+          git add ../../extensions.md ../../extensions.json &&
+          git commit -m "Update Script Commands documentation" &&
+          exit 0;
+        fi
+    
+    - name: Push changes
+      if: success()
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.RAYCAST_BOT_ACCESS_TOKEN }}
+        branch: ${{ github.ref }}

@@ -6,6 +6,8 @@
 
 This repository contains sample commands and documentation to write your own ones.
 
+Check out the [list](extensions.md) of all available Script Commands.
+
 ## Install Script Commands
 
 To install new commands, follow these steps:
