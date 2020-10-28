@@ -9,7 +9,7 @@ defaults:
     working-directory: Tools/Toolkit
 
 jobs:
-  generateDocumenation:
+  generateDocumentation:
     runs-on: macos-latest
 
     steps:
