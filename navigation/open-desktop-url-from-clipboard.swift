@@ -29,6 +29,7 @@ func mapURLWithPrefix(_ prefix: String, scheme: String) -> (URL) -> URL? {
 let mapURLs = [
   mapURLWithPrefix("https://www.notion.so/", scheme: "notion://"),
   mapURLWithPrefix("https://linear.app/", scheme: "linear://"),
+  mapURLWithPrefix("https://www.figma.com/", scheme: "figma://"),
 ]
 
 guard
