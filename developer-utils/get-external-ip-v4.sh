@@ -10,6 +10,6 @@
 # @raycast.packageName Internet
 
 ip=$(curl -4 -s -m 5 https://ifconfig.co)
-echo ip | pbcopy
+echo $ip | pbcopy
 
 echo "Copied $ip"
