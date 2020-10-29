@@ -10,6 +10,6 @@
 # @raycast.packageName Internet
 
 ip=$(ifconfig | grep 'inet6.*%en' | awk '{print $2}')
-echo ip | pbcopy
+echo $ip | pbcopy
 
 echo "Copied $ip"
