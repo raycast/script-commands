@@ -223,6 +223,22 @@
     "path" : "system",
     "scriptCommands" : [
       {
+        "author" : {
+          "name" : "Valentin Chrétien",
+          "url" : "https:\/\/twitter.com\/valentinchrt"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "A script command to start your current screen saver.",
+        "filename" : "screensaver.sh",
+        "icon" : "🌀",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "System",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Screen Saver"
+      },
+      {
         "author" : null,
         "currentDirectoryPath" : null,
         "description" : null,
