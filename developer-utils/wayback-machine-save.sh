@@ -2,13 +2,13 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Wayback Machine - Save clipboard URL
+# @raycast.title Save clipboard URL to Wayback Machine
 # @raycast.mode compact
 
 # Optional parameters:
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Save URL in clipboard to Wayback Machine
+# @raycast.description Save clipboard URL to Wayback Machine
 # @raycast.icon images/ia-logo.jpg
 
 url=$(pbpaste)
