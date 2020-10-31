@@ -9,3 +9,4 @@
 # @raycast.icon 💻
 
 uuidgen | pbcopy
+echo "UUID Generated"
