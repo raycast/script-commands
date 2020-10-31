@@ -10,6 +10,7 @@
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Save clipboard URL to Wayback Machine
 # @raycast.icon images/ia-logo.jpg
+# @raycast.packageName Internet Archive
 
 url=$(pbpaste)
 regex='(https?)://[-A-Za-z0-9\+&@#/%?=~_|!:,.;]*[-A-Za-z0-9\+&@#/%=~_|]'
