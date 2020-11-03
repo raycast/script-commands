@@ -9,3 +9,4 @@
 # @raycast.icon 💻
 
 pbpaste | base64 | pbcopy
+echo "Encoded"
