@@ -4,10 +4,6 @@ on:
   push:
     branches: [ master ]
 
-defaults:
-  run:
-    working-directory: Tools/Toolkit
-
 jobs:
   generateDocumentation:
     runs-on: macos-latest
@@ -21,19 +17,17 @@ jobs:
 
     - name: Build Toolkit
       run: |
-        if [ ! -f "toolkit" ]; then rm toolkit; fi
-        swift build -c release
-        ln -s .build/release/toolkit
+        make build
 
     - name: Generate Script Commands Documentation
       run: |
-        ./toolkit generate-documentation ../../
+        make gen-docs
         if `git status | grep -q "nothing to commit"`; then
           exit 0;
         else
           git config --local user.email "bot@raycast.com" &&
           git config --local user.name "Raycast Bot" &&
-          git add ../../extensions.md ../../extensions.json &&
+          git add extensions.md extensions.json &&
           git commit -m "Update Script Commands documentation" &&
           exit 0;
         fi
