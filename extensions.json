@@ -574,6 +574,22 @@
         "title" : "Copy Lorem Ipsum"
       },
       {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Create a GitHub Gist from clipboard contents and copy Gist URL.",
+        "filename" : "create-github-gist.sh",
+        "icon" : "images\/github-logo.png",
+        "mode" : "compact",
+        "needsConfirmation" : true,
+        "packageName" : "GitHub",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Create GitHub Gist from clipboard"
+      },
+      {
         "author" : null,
         "currentDirectoryPath" : null,
         "description" : null,

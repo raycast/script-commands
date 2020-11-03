@@ -48,6 +48,12 @@ This repository contains sample commands and documentation to write your own one
 | 💻 | [Generate UUID](developer-utils/generate-uuid.sh) | N/A | Raycast |
 | 💻 | [Prettify JSON](developer-utils/prettify-json.sh) | N/A | Raycast |
 
+#### GitHub
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/developer-utils/images/github-logo.png?raw=true" width="20" height="20"> | [Create GitHub Gist from clipboard](developer-utils/create-github-gist.sh) | Create a GitHub Gist from clipboard contents and copy Gist URL. | [Caleb Stauffer](https://github.com/crstauf) |
+
 #### Internet
 
 | Icon | Title | Description | Author |
