@@ -15,6 +15,38 @@
         "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Column to Comma"
+      },
+      {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Convert hex to RGBA.",
+        "filename" : "hex-to-rgba.sh",
+        "icon" : "🎨",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Conversions",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Hex to RGBA"
+      },
+      {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Convert hex to RGB.",
+        "filename" : "hex-to-rgb.sh",
+        "icon" : "🎨",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Conversions",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Hex to RGB"
       }
     ]
   },
@@ -442,6 +474,22 @@
         "title" : "Decode JWT"
       },
       {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Whois of clipboard URL.",
+        "filename" : "whois.sh",
+        "icon" : "🌐",
+        "mode" : "silent",
+        "needsConfirmation" : true,
+        "packageName" : "Internet",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Whois of clipboard URL"
+      },
+      {
         "author" : null,
         "currentDirectoryPath" : null,
         "description" : null,
@@ -453,6 +501,22 @@
         "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Local IPv4"
+      },
+      {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Get IPv6 address of URL",
+        "filename" : "get-url-ip-v6.sh",
+        "icon" : "🌐",
+        "mode" : "compact",
+        "needsConfirmation" : null,
+        "packageName" : "Internet",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "URL IPv6"
       },
       {
         "author" : null,
@@ -479,6 +543,22 @@
         "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Generate UUID"
+      },
+      {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Get IPv4 address of URL",
+        "filename" : "get-url-ip-v4.sh",
+        "icon" : "🌐",
+        "mode" : "compact",
+        "needsConfirmation" : null,
+        "packageName" : "Internet",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "URL IPv4"
       },
       {
         "author" : null,
