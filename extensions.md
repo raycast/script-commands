@@ -56,6 +56,7 @@ This repository contains sample commands and documentation to write your own one
 | 🌐 | [External IPv6](developer-utils/get-external-ip-v6.sh) | N/A | Raycast |
 | 🌐 | [Local IPv4](developer-utils/get-local-ip-v4.sh) | N/A | Raycast |
 | 🌐 | [Local IPv6](developer-utils/get-local-ip-v6.sh) | N/A | Raycast |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/developer-utils/images/ia-logo.jpg?raw=true" width="20" height="20"> | [Save clipboard URL to Wayback Machine](developer-utils/wayback-machine-save.sh) | Save clipboard URL to Wayback Machine | [Caleb Stauffer](https://github.com/crstauf) |
 | 🌐 | [URL IPv4](developer-utils/get-url-ip-v4.sh) | Get IPv4 address of URL | [Caleb Stauffer](https://github.com/crstauf) |
 | 🌐 | [URL IPv6](developer-utils/get-url-ip-v6.sh) | Get IPv6 address of URL | [Caleb Stauffer](https://github.com/crstauf) |
 | 🌐 | [Whois of clipboard URL](developer-utils/whois.sh) | Whois of clipboard URL. | [Caleb Stauffer](https://github.com/crstauf) |

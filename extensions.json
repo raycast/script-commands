@@ -600,6 +600,22 @@
         "title" : "Decode Base64"
       },
       {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Save clipboard URL to Wayback Machine",
+        "filename" : "wayback-machine-save.sh",
+        "icon" : "images\/ia-logo.jpg",
+        "mode" : "compact",
+        "needsConfirmation" : null,
+        "packageName" : "Internet",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Save clipboard URL to Wayback Machine"
+      },
+      {
         "author" : null,
         "currentDirectoryPath" : null,
         "description" : null,
