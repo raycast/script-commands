@@ -8,7 +8,7 @@
 # Optional parameters:
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Convert hex to RGB.
+# @raycast.description Convert HEX color values in your Clipboard to RGB values.
 # @raycast.icon 🎨
 
 hex=$(pbpaste)
