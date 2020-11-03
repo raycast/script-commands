@@ -28,6 +28,8 @@ This repository contains sample commands and documentation to write your own one
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
 |  | [Column to Comma](conversions/column-to-comma.sh) | N/A | Raycast |
+| 🎨 | [Hex to RGB](conversions/hex-to-rgb.sh) | Convert hex to RGB. | [Caleb Stauffer](https://github.com/crstauf) |
+| 🎨 | [Hex to RGBA](conversions/hex-to-rgba.sh) | Convert hex to RGBA. | [Caleb Stauffer](https://github.com/crstauf) |
 
 ## Dashboard
 
@@ -54,6 +56,9 @@ This repository contains sample commands and documentation to write your own one
 | 🌐 | [External IPv6](developer-utils/get-external-ip-v6.sh) | N/A | Raycast |
 | 🌐 | [Local IPv4](developer-utils/get-local-ip-v4.sh) | N/A | Raycast |
 | 🌐 | [Local IPv6](developer-utils/get-local-ip-v6.sh) | N/A | Raycast |
+| 🌐 | [URL IPv4](developer-utils/get-url-ip-v4.sh) | Get IPv4 address of URL | [Caleb Stauffer](https://github.com/crstauf) |
+| 🌐 | [URL IPv6](developer-utils/get-url-ip-v6.sh) | Get IPv6 address of URL | [Caleb Stauffer](https://github.com/crstauf) |
+| 🌐 | [Whois of clipboard URL](developer-utils/whois.sh) | Whois of clipboard URL. | [Caleb Stauffer](https://github.com/crstauf) |
 
 #### Xcode
 
