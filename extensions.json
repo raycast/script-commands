@@ -22,7 +22,7 @@
           "url" : "https:\/\/github.com\/crstauf"
         },
         "currentDirectoryPath" : null,
-        "description" : "Convert hex to RGBA.",
+        "description" : "Convert HEX color values in your Clipboard to RGBA values.",
         "filename" : "hex-to-rgba.sh",
         "icon" : "🎨",
         "mode" : "silent",
@@ -38,7 +38,7 @@
           "url" : "https:\/\/github.com\/crstauf"
         },
         "currentDirectoryPath" : null,
-        "description" : "Convert hex to RGB.",
+        "description" : "Convert HEX color values in your Clipboard to RGB values.",
         "filename" : "hex-to-rgb.sh",
         "icon" : "🎨",
         "mode" : "silent",
