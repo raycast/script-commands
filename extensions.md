@@ -28,8 +28,8 @@ This repository contains sample commands and documentation to write your own one
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
 |  | [Column to Comma](conversions/column-to-comma.sh) | N/A | Raycast |
-| 🎨 | [Hex to RGB](conversions/hex-to-rgb.sh) | Convert hex to RGB. | [Caleb Stauffer](https://github.com/crstauf) |
-| 🎨 | [Hex to RGBA](conversions/hex-to-rgba.sh) | Convert hex to RGBA. | [Caleb Stauffer](https://github.com/crstauf) |
+| 🎨 | [Hex to RGB](conversions/hex-to-rgb.sh) | Convert HEX color values in your Clipboard to RGB values. | [Caleb Stauffer](https://github.com/crstauf) |
+| 🎨 | [Hex to RGBA](conversions/hex-to-rgba.sh) | Convert HEX color values in your Clipboard to RGBA values. | [Caleb Stauffer](https://github.com/crstauf) |
 
 ## Dashboard
 
