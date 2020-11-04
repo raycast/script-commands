@@ -490,13 +490,16 @@
         "title" : "Whois of clipboard URL"
       },
       {
-        "author" : null,
+        "author" : {
+          "name" : "Maxim Krouk",
+          "url" : "https:\/\/github.com\/maximkrouk"
+        },
         "currentDirectoryPath" : null,
-        "description" : null,
+        "description" : "Records simulator to Downloads folder with a filename from the clipboard",
         "filename" : "record-simulator.sh",
         "icon" : "📱",
         "mode" : "compact",
-        "needsConfirmation" : null,
+        "needsConfirmation" : true,
         "packageName" : "Developer Utils",
         "refreshTime" : null,
         "schemaVersion" : 1,

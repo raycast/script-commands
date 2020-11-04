@@ -47,7 +47,7 @@ This repository contains sample commands and documentation to write your own one
 | 💻 | [Encode Base64](developer-utils/encode-base64.sh) | N/A | Raycast |
 | 💻 | [Generate UUID](developer-utils/generate-uuid.sh) | N/A | Raycast |
 | 💻 | [Prettify JSON](developer-utils/prettify-json.sh) | N/A | Raycast |
-| 📱 | [Record Simulator](developer-utils/record-simulator.sh) | N/A | Raycast |
+| 📱 | [Record Simulator](developer-utils/record-simulator.sh) | Records simulator to Downloads folder with a filename from the clipboard | [Maxim Krouk](https://github.com/maximkrouk) |
 
 #### GitHub
 
