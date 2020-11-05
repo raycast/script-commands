@@ -6,6 +6,8 @@
 
 This repository contains sample commands and documentation to write your own ones.
 
+## Awesome Script Commands
+
 Check out the [list](extensions.md) of all available Script Commands.
 
 ## Install Script Commands
@@ -48,7 +50,10 @@ The following parameters are available to customize your Script Command in Rayca
 | icon                 | Icon that is displayed in the root search. Can be an emoji, a file path (relative or full) or a remote URL (only https). Supported formats for images are PNG and JPEG. Please make sure to use small icons, recommended size - 32px.                                                | No       | 0.29+               |
 | currentDirectoryPath | Path from which the script is executed. Default is the path of the script.                                                                                                                                                                                                           | No       | 0.29+               |
 | needsConfirmation    | Specify `true` if you would like to show confirmation alert dialog before running the script. Can be helpful with destructive scripts like "Quit All Apps" or "Empty Trash". Default value is `false`.                                                                               | No       | 0.30+               |
-| refreshTime    | Specify a refresh interval for `inline` mode scripts in seconds, minutes, hours or days. Examples: `5s`, `1m`, `12h`, `1d`. Script output will be shown inline in dashboard items. *Note* that the actual times are not accurate and can vary depending on how the OS prioritizes scheduled work. The minimum allowed refresh interval is 5 seconds (use responsibly...), and the maximum allowed number of refreshing `inline` commands is 10. | No       | 0.31+
+| refreshTime    | Specify a refresh interval for `inline` mode scripts in seconds, minutes, hours or days. Examples: `5s`, `1m`, `12h`, `1d`. Script output will be shown inline in dashboard items. *Note* that the actual times are not accurate and can vary depending on how the OS prioritizes scheduled work. The minimum allowed refresh interval is 5 seconds (use responsibly...), and the maximum allowed number of refreshing `inline` commands is 10. | No       | 0.31+ |
+| author | Define an author name to be part of the script commands documentation | No | |
+| authorURL | Author social media, website, email or anything to help the users to get in touch | No | |
+| description | A brief description about the script command to be presented in the documentation | No | |
 
 **⚠️ Whenever you make changes to the parameters of the Script Command, trigger the "Reload Script Directories" command in root search (v0.33+), or press "Reload" in script commands preferences, or activate "Auto Reload" in preferences so that your scripts get automatically reloaded (experimental, v0.33+). Also note that "reloading" means that script metadata is parsed and Raycast search is refreshed – the actual scripts are only run when you manually trigger their command or when an inline command with refreshTime is automatically triggered.**
 
