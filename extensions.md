@@ -102,13 +102,15 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
+| 📅 | [Copy Availability](system/copy-availability.swift) | N/A | Raycast |
+| 💁 | [Copy Last Download](system/copy-last-download.swift) | N/A | Raycast |
 | 📸 | [Copy Last Screenshot](system/copy-last-screenshot.swift) | N/A | Raycast |
 | 📀 | [Eject All Disks](system/eject-all-disks.applescript) | N/A | Raycast |
 | 🗑 | [Empty Trash](system/empty-trash.applescript) | N/A | Raycast |
 | 💁‍♂️ | [Open Last Download](system/open-last-download.swift) | N/A | Raycast |
 | 💥 | [Quit All Applications](system/quit-all-apps.swift) | N/A | Raycast |
 | ♻️ | [Restart](system/restart.applescript) | N/A | Raycast |
-| 🌀 | [Screen Saver](system/screensaver.sh) | A script command to start your current screen saver. | [Valentin Chrétien](https://twitter.com/valentinchrt) |
+| 🌀 | [Screen Saver](system/screensaver.applescript) | A script command to start your current screen saver. | [Valentin Chrétien](https://twitter.com/valentinchrt) |
 | 🛌 | [Shut Down](system/shutdown.applescript) | N/A | Raycast |
 | 😴 | [Sleep](system/sleep.applescript) | N/A | Raycast |
 | 🖥 | [Toggle Desktop Icons](system/toggle-desktop-icons.applescript) | A script command to show and hide icons of Desktop folder | [Raycast](https://raycast.com) |
