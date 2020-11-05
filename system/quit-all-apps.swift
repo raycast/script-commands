@@ -12,9 +12,12 @@
 
 import AppKit
 
-NSWorkspace.shared.runningApplications.forEach { application in
-  guard application != NSRunningApplication.current, application.activationPolicy == .regular, application.bundleIdentifier != "com.apple.Finder" else { return }
-  application.terminate()
-}
+let finderBundleIdentifier = "com.apple.finder"
+
+NSWorkspace.shared.runningApplications
+  .filter { $0 != NSRunningApplication.current }
+  .filter { $0.activationPolicy == .regular }
+  .filter { $0.bundleIdentifier != finderBundleIdentifier }
+  .forEach { $0.terminate() }
 
 print("Quit all applications")
