@@ -15,5 +15,11 @@
 // @raycast.currentDirectoryPath ~
 // @raycast.packageName Raycast Scripts
 // @raycast.needsConfirmation false
+// @raycast.description Write a nice and descriptive summary about your script command here
+// 
+// Author information:
+// @raycast.author Your name
+// @raycast.authorURL An URL for one of your social medias
+
 
 print("Hello from My First Script")
