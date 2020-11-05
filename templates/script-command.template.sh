@@ -15,9 +15,9 @@
 # @raycast.currentDirectoryPath ~
 # @raycast.packageName Raycast Scripts
 # @raycast.needsConfirmation false
-# @raycast.description Write a nice and descriptive summary about your script command here
-# 
-# Author information:
+#
+# Documentation:
+# @raycast.description Write a nice and descriptive summary about your script command here 
 # @raycast.author Your name
 # @raycast.authorURL An URL for one of your social medias
 
