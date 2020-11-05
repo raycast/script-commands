@@ -261,7 +261,7 @@
         },
         "currentDirectoryPath" : null,
         "description" : "A script command to start your current screen saver.",
-        "filename" : "screensaver.sh",
+        "filename" : "screensaver.applescript",
         "icon" : "🌀",
         "mode" : "silent",
         "needsConfirmation" : null,
@@ -369,6 +369,32 @@
         "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Toggle Desktop Icons"
+      },
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "filename" : "copy-last-download.swift",
+        "icon" : "💁",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "System",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Copy Last Download"
+      },
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "filename" : "copy-availability.swift",
+        "icon" : "📅",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "System",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Copy Availability"
       },
       {
         "author" : null,
