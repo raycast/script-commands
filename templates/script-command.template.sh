@@ -15,5 +15,10 @@
 # @raycast.currentDirectoryPath ~
 # @raycast.packageName Raycast Scripts
 # @raycast.needsConfirmation false
+#
+# Documentation:
+# @raycast.description Write a nice and descriptive summary about your script command here 
+# @raycast.author Your name
+# @raycast.authorURL An URL for one of your social medias
 
 echo "Hello from My First Script"
