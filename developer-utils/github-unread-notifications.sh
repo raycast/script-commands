@@ -12,7 +12,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title GitHub Unread Notifications
+# @raycast.title Unread Notifications
 # @raycast.mode inline
 # @raycast.refreshTime 5m
 
