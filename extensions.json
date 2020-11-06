@@ -713,37 +713,5 @@
         "title" : "Local IPv6"
       }
     ]
-  },
-  {
-    "name" : "Templates",
-    "path" : "templates",
-    "scriptCommands" : [
-      {
-        "author" : null,
-        "currentDirectoryPath" : "~",
-        "description" : null,
-        "filename" : "script-command.template.swift",
-        "icon" : "🤖",
-        "mode" : "fullOutput",
-        "needsConfirmation" : false,
-        "packageName" : "Raycast Scripts",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "My First Script"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : "~",
-        "description" : null,
-        "filename" : "script-command.template.sh",
-        "icon" : "🤖",
-        "mode" : "fullOutput",
-        "needsConfirmation" : false,
-        "packageName" : "Raycast Scripts",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "My First Script"
-      }
-    ]
   }
 ]
