@@ -43,7 +43,7 @@ response=$(curl -s -H "Accept: application/vnd.github.v3+json" -H "Authorization
 count=$(echo "$response" | jq -r 'length')
 
 if [ 0 = $count ]; then
-	echo 'No unread notifications'
+	echo 'None'
 elif [ 50 = $count ]; then
 	echo '50+ unread notifications'
 else
