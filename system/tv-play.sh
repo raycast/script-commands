@@ -15,6 +15,6 @@
 tell application "TV"
 	if player state is paused then 
 		play
-		do shell script "echo Playing"
+		do shell script "echo Playing TV"
 	end if
 end tell
