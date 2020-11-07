@@ -15,3 +15,5 @@
 tell application "Music"
 	stop
 end tell
+
+do shell script "echo Stopped music"
