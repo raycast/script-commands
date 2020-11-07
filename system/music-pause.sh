@@ -15,6 +15,6 @@
 tell application "Music"
 	if player state is playing then 
 		pause
-		do shell script "echo Paused"
+		do shell script "echo Paused music"
 	end if
 end tell
