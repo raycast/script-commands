@@ -15,3 +15,5 @@ tell application "System Events"
 	set rotinterval to change interval of current desktop
 	set change interval of current desktop to rotinterval
 end tell
+
+do shell script "echo Refreshed wallpaper"
