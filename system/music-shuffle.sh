@@ -17,12 +17,12 @@ tell application "Music"
 	if shuffle enabled = false then
 		
 		set shuffle enabled to true
-		do shell script "echo Shuffle on"
+		do shell script "echo Shuffle playlist on"
 	
 	else if shuffle enabled = true then
 	
 		set shuffle enabled to false
-		do shell script "echo Shuffle off"
+		do shell script "echo Shuffle playlist off"
 	
 	end if
 	
