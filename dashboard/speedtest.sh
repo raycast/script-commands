@@ -30,4 +30,4 @@ divide_to_mbps=125000
 mbps_down=$(echo "scale=2; $bps_down / $divide_to_mbps" | bc)
   mbps_up=$(echo "scale=2;   $bps_up / $divide_to_mbps" | bc)
 
-echo "↑ ${mbps_down}mbps  ↓ ${mbps_up}mbps  ↔ ${ping}ms"
+echo "↓ ${mbps_down}mbps  ↑ ${mbps_up}mbps  ↔ ${ping}ms"
