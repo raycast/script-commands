@@ -1,7 +1,8 @@
 #!/bin/bash
 
 ##################################################################
-## Set GitHub username and personal access token and uncomment. ##
+## Set GitHub username and personal access token and uncomment, ##
+## and check toggle for detailed output.                        ##
 ##################################################################
 
 # GitHub username
@@ -9,6 +10,9 @@
 
 # GitHub personal access token
 # access_key=
+
+# Toggle for detailed count
+detailed=true
 
 # Required parameters:
 # @raycast.schemaVersion 1
@@ -44,8 +48,37 @@ count=$(echo "$response" | jq -r 'length')
 
 if [ 0 = $count ]; then
 	echo 'None'
+
 elif [ 50 = $count ]; then
 	echo '50+ unread notifications'
+	
+elif $detailed; then
+	
+	notifications=$(echo "$response" | jq 'group_by(.reason) | map({
+		"reason": .[0].reason,
+		"total": length
+	})')
+
+	function reason_label() {
+		local reason=$1
+		
+		if [[ $reason = "ci_activity" ]]; then
+			reason="CI"
+		else
+			reason="$(tr '[:lower:]' '[:upper:]' <<< ${reason:0:1})${reason:1}"
+		fi
+			
+		echo $reason
+	}
+	
+	echo "$notifications" | jq -c '.[]' | 
+	while IFS=$"\n" read -r c; do
+		reason=$(echo "$c" | jq -r '.reason')
+		reason=$(reason_label $reason)
+		total=$(echo "$c" | jq -r '.total')
+		echo -n "${reason}:${total} "
+	done
+	
 else
 	echo "$count unread notifications"
 fi
