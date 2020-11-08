@@ -236,6 +236,22 @@
     "path" : "dashboard",
     "scriptCommands" : [
       {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Get current weather report from wttr.in.",
+        "filename" : "current-weather.sh",
+        "icon" : "🌦️",
+        "mode" : "inline",
+        "needsConfirmation" : null,
+        "packageName" : "Dashboard",
+        "refreshTime" : "5m",
+        "schemaVersion" : 1,
+        "title" : "Current Weather"
+      },
+      {
         "author" : null,
         "currentDirectoryPath" : null,
         "description" : null,
@@ -698,6 +714,22 @@
         "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Clear Derived Data"
+      },
+      {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Number of unread GitHub notifications.",
+        "filename" : "github-unread-notifications.sh",
+        "icon" : "images\/github-logo.png",
+        "mode" : "inline",
+        "needsConfirmation" : null,
+        "packageName" : "GitHub",
+        "refreshTime" : "5m",
+        "schemaVersion" : 1,
+        "title" : "Unread Notifications"
       },
       {
         "author" : null,

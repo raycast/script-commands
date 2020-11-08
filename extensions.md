@@ -35,6 +35,7 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
+| 🌦️ | [Current Weather](dashboard/current-weather.sh) | Get current weather report from wttr.in. | [Caleb Stauffer](https://github.com/crstauf) |
 | 📈 | [System Activity](dashboard/system-activity.sh) | N/A | Raycast |
 
 ## Developer Utils
@@ -54,6 +55,7 @@ This repository contains sample commands and documentation to write your own one
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/developer-utils/images/github-logo.png?raw=true" width="20" height="20"> | [Create GitHub Gist from clipboard](developer-utils/create-github-gist.sh) | Create a GitHub Gist from clipboard contents and copy Gist URL. | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/developer-utils/images/github-logo.png?raw=true" width="20" height="20"> | [Unread Notifications](developer-utils/github-unread-notifications.sh) | Number of unread GitHub notifications. | [Caleb Stauffer](https://github.com/crstauf) |
 
 #### Internet
 
