@@ -14,6 +14,7 @@ This repository contains sample commands and documentation to write your own one
 - [Dashboard](#dashboard)
 - [Developer Utils](#developer-utils)
 - [Navigation](#navigation)
+- [Safari](#safari)
 - [Spotify](#spotify)
 - [System](#system)
 
@@ -89,6 +90,13 @@ This repository contains sample commands and documentation to write your own one
 | 📂 | [Open Library](navigation/open-library.sh) | N/A | Raycast |
 | 🌐 | [Open URL From Clipboard](navigation/open-url-from-clipboard.sh) | N/A | Raycast |
 | 📂 | [Open Utilities](navigation/open-utilities.sh) | N/A | Raycast |
+
+## Safari
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| 🧭 | [Copy current page URL](safari/current_page_url.sh) | This script copies URL of currently opened page in Safari into clipboard. | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
+| 🧭 | [Copy current window URLs](safari/current_window_urls.applescript) | This script copies to clipboard all URLs from frontmost Safari window. | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
 
 ## Spotify
 
