@@ -2,10 +2,11 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Pause
+# @raycast.title Next Track
 # @raycast.mode silent
 
 # Optional parameters:
-# @raycast.icon ⏸
+# @raycast.icon ⏭
+# @raycast.packageName Spotify
 
-tell application "Spotify" to pause
+tell application "Spotify" to next track

@@ -2,10 +2,11 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Play
+# @raycast.title Pause
 # @raycast.mode silent
 
 # Optional parameters:
-# @raycast.icon ▶️
+# @raycast.icon ⏸
+# @raycast.packageName Spotify
 
-tell application "Spotify" to play
+tell application "Spotify" to pause
