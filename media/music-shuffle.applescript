@@ -2,13 +2,13 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Shuffle Toggle
+# @raycast.title Toggle shuffle
 # @raycast.mode silent
 
 # Optional parameters:
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Shuffle Music
+# @raycast.description Toggle shuffle setting in Music
 # @raycast.packageName Music
 # @raycast.icon images/music-logo.png
 
