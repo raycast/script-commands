@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Finder -> Terminal
+# @raycast.title Open current Finder directory in Terminal
 # @raycast.mode silent
 #
 # Optional parameters:
