@@ -90,6 +90,8 @@ This repository contains sample commands and documentation to write your own one
 | 📂 | [Open Library](navigation/open-library.sh) | N/A | Raycast |
 | 🌐 | [Open URL From Clipboard](navigation/open-url-from-clipboard.sh) | N/A | Raycast |
 | 📂 | [Open Utilities](navigation/open-utilities.sh) | N/A | Raycast |
+| 📟 | [Open current Finder directory in Terminal](navigation/open-terminal-from-finder.applescript) | Open curren Finder directory in terminal | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
+| 📟 | [Open current Terminal directory in Finder](navigation/open-finder-from-terminal.applescript) | Open curren terminal directory in Finder | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
 
 ## Safari
 

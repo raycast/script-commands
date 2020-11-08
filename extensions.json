@@ -126,6 +126,38 @@
         "title" : "Open Library"
       },
       {
+        "author" : {
+          "name" : "Kirill Gorbachyonok",
+          "url" : "https:\/\/github.com\/japanese-goblinn"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Open curren Finder directory in terminal",
+        "filename" : "open-terminal-from-finder.applescript",
+        "icon" : "📟",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Navigation",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Open current Finder directory in Terminal"
+      },
+      {
+        "author" : {
+          "name" : "Kirill Gorbachyonok",
+          "url" : "https:\/\/github.com\/japanese-goblinn"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Open curren terminal directory in Finder",
+        "filename" : "open-finder-from-terminal.applescript",
+        "icon" : "📟",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Navigation",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Open current Terminal directory in Finder"
+      },
+      {
         "author" : null,
         "currentDirectoryPath" : null,
         "description" : null,
