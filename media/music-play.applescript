@@ -1,11 +1,8 @@
 #!/usr/bin/osascript
 
-# Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Play
 # @raycast.mode silent
-
-# Optional parameters:
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Play Music
