@@ -2,13 +2,13 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Repeat Toggle
+# @raycast.title Toggle repeat
 # @raycast.mode silent
 
 # Optional parameters:
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Repeat Music
+# @raycast.description Toggle repeat settling in Music
 # @raycast.packageName Music
 # @raycast.icon images/music-logo.png
 
