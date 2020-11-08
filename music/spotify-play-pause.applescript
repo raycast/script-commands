@@ -7,5 +7,6 @@
 
 # Optional parameters:
 # @raycast.icon ⏯️
+# @raycast.packageName Spotify
 
 tell application "Spotify" to playpause
