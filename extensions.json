@@ -486,6 +486,44 @@
     ]
   },
   {
+    "name" : "Safari",
+    "path" : "safari",
+    "scriptCommands" : [
+      {
+        "author" : {
+          "name" : "Kirill Gorbachyonok",
+          "url" : "https:\/\/github.com\/japanese-goblinn"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "This script copies to clipboard all URLs from frontmost Safari window.",
+        "filename" : "current_window_urls.applescript",
+        "icon" : "🧭",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Safari",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Copy current window URLs"
+      },
+      {
+        "author" : {
+          "name" : "Kirill Gorbachyonok",
+          "url" : "https:\/\/github.com\/japanese-goblinn"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "This script copies URL of currently opened page in Safari into clipboard.",
+        "filename" : "current_page_url.sh",
+        "icon" : "🧭",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Safari",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Copy current page URL"
+      }
+    ]
+  },
+  {
     "name" : "Developer Utils",
     "path" : "developer-utils",
     "scriptCommands" : [
