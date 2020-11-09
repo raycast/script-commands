@@ -63,7 +63,7 @@
         "description" : "Shorten the URL in your Clipboard with Tiny URL.",
         "filename" : "shorten-url.sh",
         "icon" : "🔗",
-        "mode" : "compact",
+        "mode" : "silent",
         "needsConfirmation" : null,
         "packageName" : "Browsing",
         "refreshTime" : null,
