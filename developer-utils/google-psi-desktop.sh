@@ -19,12 +19,21 @@ clipboard=$(pbpaste)
 regex='(https?)://[-A-Za-z0-9\+&@#/%?=~_|!:,.;]*[-A-Za-z0-9\+&@#/%=~_|]'
 
 if [[ $clipboard =~ $regex ]]; then 
-	psi $clipboard --strategy=desktop
+	analysis=$(psi $clipboard --strategy=desktop 2>&1)
+	
+	if [ ${?} -eq 1 ]; then
+		echo ""
+		echo "There was an error; please try again later."
+	else
+		echo "$analysis"
+	fi
+	
 	analysis_url="https://developers.google.com/speed/pagespeed/insights/?url=${clipboard}&tab=desktop"
-	echo $analysis_url | pbcopy
+	
 	echo ""
-	echo "Desktop analysis URL copied:"
+	echo "Desktop analysis URL:"
 	echo "$analysis_url"
+	
 	exit 0
 fi
 
