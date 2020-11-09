@@ -857,6 +857,22 @@
         "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Paste"
+      },
+      {
+        "author" : {
+          "name" : "Caleb Stauffer and Thiago Holanda",
+          "url" : null
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Get most recent two-factor authentication code from iMessages.",
+        "filename" : "imessage-2fa.sh",
+        "icon" : "🔐",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Communication",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "2FA from iMessages"
       }
     ]
   },
