@@ -10,12 +10,12 @@ This repository contains sample commands and documentation to write your own one
 ### Content
 
 - [Bookmarks](#bookmarks)
+- [Browsing](#browsing)
 - [Conversions](#conversions)
 - [Dashboard](#dashboard)
 - [Developer Utils](#developer-utils)
+- [Media](#media)
 - [Navigation](#navigation)
-- [Safari](#safari)
-- [Spotify](#spotify)
 - [System](#system)
 
 ## Bookmarks
@@ -23,6 +23,13 @@ This repository contains sample commands and documentation to write your own one
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
 | 📜 | [Open Script Commands Repository](bookmarks/open-scriptCommandsRepository.sh) | N/A | Raycast |
+
+## Browsing
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| 🧭 | [Copy current page URL](browsing/safari_current_page_url.sh) | This script copies URL of currently opened page in Safari into clipboard. | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
+| 🧭 | [Copy current window URLs](browsing/safari_current_window_urls.applescript) | This script copies to clipboard all URLs from frontmost Safari window. | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
 
 ## Conversions
 
@@ -38,6 +45,12 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ |
 | 🌦️ | [Current Weather](dashboard/current-weather.sh) | Get current weather report from wttr.in. | [Caleb Stauffer](https://github.com/crstauf) |
 | 📈 | [System Activity](dashboard/system-activity.sh) | N/A | Raycast |
+
+#### Internet
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/dashboard/images/speedtest-logo.png?raw=true" width="20" height="20"> | [Speedtest](dashboard/speedtest.sh) | Test download and upload connection speed | [Caleb Stauffer](https://github.com/crstauf) |
 
 ## Developer Utils
 
@@ -77,6 +90,29 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ |
 | 🧹 | [Clear Derived Data](developer-utils/clear-derived-data.sh) | N/A | Raycast |
 
+## Media
+
+#### Music
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/media/images/music-logo.png?raw=true" width="20" height="20"> | [Next](media/music-next.applescript) | Next track in Music | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/media/images/music-logo.png?raw=true" width="20" height="20"> | [Pause](media/music-pause.applescript) | Pause Music | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/media/images/music-logo.png?raw=true" width="20" height="20"> | [Play](media/music-play.applescript) | Play Music | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/media/images/music-logo.png?raw=true" width="20" height="20"> | [Previous](media/music-previous.applescript) | Previous track in Music | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/media/images/music-logo.png?raw=true" width="20" height="20"> | [Stop](media/music-stop.applescript) | Stop Music | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/media/images/music-logo.png?raw=true" width="20" height="20"> | [Toggle repeat](media/music-repeat.applescript) | Toggle repeat settling in Music | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/media/images/music-logo.png?raw=true" width="20" height="20"> | [Toggle shuffle](media/music-shuffle.applescript) | Toggle shuffle setting in Music | [Caleb Stauffer](https://github.com/crstauf) |
+
+#### Spotify
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| ⏭ | [Next Track](media/spotify-next-track.applescript) | N/A | Raycast |
+| ⏸ | [Pause](media/spotify-pause.applescript) | N/A | Raycast |
+| ▶️ | [Play](media/spotify-play.applescript) | N/A | Raycast |
+| ⏯️ | [Toggle Play/Pause](media/spotify-play-pause.applescript) | N/A | Raycast |
+
 ## Navigation
 
 | Icon | Title | Description | Author |
@@ -93,22 +129,6 @@ This repository contains sample commands and documentation to write your own one
 | 📟 | [Open current Finder directory in Terminal](navigation/open-terminal-from-finder.applescript) | Open curren Finder directory in terminal | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
 | 📟 | [Open current Terminal directory in Finder](navigation/open-finder-from-terminal.applescript) | Open curren terminal directory in Finder | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
 
-## Safari
-
-| Icon | Title | Description | Author |
-| ---- | ----- | ----------- | ------ |
-| 🧭 | [Copy current page URL](safari/current_page_url.sh) | This script copies URL of currently opened page in Safari into clipboard. | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
-| 🧭 | [Copy current window URLs](safari/current_window_urls.applescript) | This script copies to clipboard all URLs from frontmost Safari window. | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
-
-## Spotify
-
-| Icon | Title | Description | Author |
-| ---- | ----- | ----------- | ------ |
-| ⏭ | [Next Track](spotify/next-track.applescript) | N/A | Raycast |
-| ⏸ | [Pause](spotify/pause.applescript) | N/A | Raycast |
-| ▶️ | [Play](spotify/play.applescript) | N/A | Raycast |
-| ⏯️ | [Toggle Play/Pause](spotify/play-pause.applescript) | N/A | Raycast |
-
 ## System
 
 | Icon | Title | Description | Author |
@@ -120,6 +140,7 @@ This repository contains sample commands and documentation to write your own one
 | 🗑 | [Empty Trash](system/empty-trash.applescript) | N/A | Raycast |
 | 💁‍♂️ | [Open Last Download](system/open-last-download.swift) | N/A | Raycast |
 | 💥 | [Quit All Applications](system/quit-all-apps.swift) | N/A | Raycast |
+| 🖼️ | [Refresh Wallpaper](system/wallpaper-refresh.applescript) | Refresh the current display's wallpaper | [Caleb Stauffer](https://github.com/crstauf) |
 | ♻️ | [Restart](system/restart.applescript) | N/A | Raycast |
 | 🌀 | [Screen Saver](system/screensaver.applescript) | A script command to start your current screen saver. | [Valentin Chrétien](https://twitter.com/valentinchrt) |
 | 🛌 | [Shut Down](system/shutdown.applescript) | N/A | Raycast |

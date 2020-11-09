@@ -51,60 +51,40 @@
     ]
   },
   {
-    "name" : "Spotify",
-    "path" : "spotify",
+    "name" : "Browsing",
+    "path" : "browsing",
     "scriptCommands" : [
       {
-        "author" : null,
+        "author" : {
+          "name" : "Kirill Gorbachyonok",
+          "url" : "https:\/\/github.com\/japanese-goblinn"
+        },
         "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "pause.applescript",
-        "icon" : "⏸",
+        "description" : "This script copies URL of currently opened page in Safari into clipboard.",
+        "filename" : "safari_current_page_url.sh",
+        "icon" : "🧭",
         "mode" : "silent",
         "needsConfirmation" : null,
-        "packageName" : "Spotify",
+        "packageName" : "Browsing",
         "refreshTime" : null,
         "schemaVersion" : 1,
-        "title" : "Pause"
+        "title" : "Copy current page URL"
       },
       {
-        "author" : null,
+        "author" : {
+          "name" : "Kirill Gorbachyonok",
+          "url" : "https:\/\/github.com\/japanese-goblinn"
+        },
         "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "play.applescript",
-        "icon" : "▶️",
+        "description" : "This script copies to clipboard all URLs from frontmost Safari window.",
+        "filename" : "safari_current_window_urls.applescript",
+        "icon" : "🧭",
         "mode" : "silent",
         "needsConfirmation" : null,
-        "packageName" : "Spotify",
+        "packageName" : "Browsing",
         "refreshTime" : null,
         "schemaVersion" : 1,
-        "title" : "Play"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "play-pause.applescript",
-        "icon" : "⏯️",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Spotify",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Toggle Play\/Pause"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "next-track.applescript",
-        "icon" : "⏭",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Spotify",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Next Track"
+        "title" : "Copy current window URLs"
       }
     ]
   },
@@ -284,6 +264,22 @@
         "title" : "Current Weather"
       },
       {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Test download and upload connection speed",
+        "filename" : "speedtest.sh",
+        "icon" : "images\/speedtest-logo.png",
+        "mode" : "inline",
+        "needsConfirmation" : null,
+        "packageName" : "Internet",
+        "refreshTime" : "20m",
+        "schemaVersion" : 1,
+        "title" : "Speedtest"
+      },
+      {
         "author" : null,
         "currentDirectoryPath" : null,
         "description" : null,
@@ -330,6 +326,22 @@
         "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Empty Trash"
+      },
+      {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Refresh the current display's wallpaper",
+        "filename" : "wallpaper-refresh.applescript",
+        "icon" : "🖼️",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "System",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Refresh Wallpaper"
       },
       {
         "author" : null,
@@ -518,44 +530,6 @@
     ]
   },
   {
-    "name" : "Safari",
-    "path" : "safari",
-    "scriptCommands" : [
-      {
-        "author" : {
-          "name" : "Kirill Gorbachyonok",
-          "url" : "https:\/\/github.com\/japanese-goblinn"
-        },
-        "currentDirectoryPath" : null,
-        "description" : "This script copies to clipboard all URLs from frontmost Safari window.",
-        "filename" : "current_window_urls.applescript",
-        "icon" : "🧭",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Safari",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Copy current window URLs"
-      },
-      {
-        "author" : {
-          "name" : "Kirill Gorbachyonok",
-          "url" : "https:\/\/github.com\/japanese-goblinn"
-        },
-        "currentDirectoryPath" : null,
-        "description" : "This script copies URL of currently opened page in Safari into clipboard.",
-        "filename" : "current_page_url.sh",
-        "icon" : "🧭",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Safari",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Copy current page URL"
-      }
-    ]
-  },
-  {
     "name" : "Developer Utils",
     "path" : "developer-utils",
     "scriptCommands" : [
@@ -623,10 +597,10 @@
         "description" : null,
         "filename" : "get-local-ip-v4.sh",
         "icon" : "🌐",
-        "mode" : "compact",
+        "mode" : "inline",
         "needsConfirmation" : null,
         "packageName" : "Internet",
-        "refreshTime" : null,
+        "refreshTime" : "1h",
         "schemaVersion" : 1,
         "title" : "Local IPv4"
       },
@@ -652,10 +626,10 @@
         "description" : null,
         "filename" : "get-external-ip-v4.sh",
         "icon" : "🌐",
-        "mode" : "compact",
+        "mode" : "inline",
         "needsConfirmation" : null,
         "packageName" : "Internet",
-        "refreshTime" : null,
+        "refreshTime" : "1h",
         "schemaVersion" : 1,
         "title" : "External IPv4"
       },
@@ -723,10 +697,10 @@
         "description" : null,
         "filename" : "get-external-ip-v6.sh",
         "icon" : "🌐",
-        "mode" : "compact",
+        "mode" : "inline",
         "needsConfirmation" : null,
         "packageName" : "Internet",
-        "refreshTime" : null,
+        "refreshTime" : "1h",
         "schemaVersion" : 1,
         "title" : "External IPv6"
       },
@@ -807,12 +781,182 @@
         "description" : null,
         "filename" : "get-local-ip-v6.sh",
         "icon" : "🌐",
-        "mode" : "compact",
+        "mode" : "inline",
         "needsConfirmation" : null,
         "packageName" : "Internet",
-        "refreshTime" : null,
+        "refreshTime" : "1h",
         "schemaVersion" : 1,
         "title" : "Local IPv6"
+      }
+    ]
+  },
+  {
+    "name" : "Media",
+    "path" : "media",
+    "scriptCommands" : [
+      {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Play Music",
+        "filename" : "music-play.applescript",
+        "icon" : "images\/music-logo.png",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Music",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Play"
+      },
+      {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Previous track in Music",
+        "filename" : "music-previous.applescript",
+        "icon" : "images\/music-logo.png",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Music",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Previous"
+      },
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "filename" : "spotify-next-track.applescript",
+        "icon" : "⏭",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Spotify",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Next Track"
+      },
+      {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Pause Music",
+        "filename" : "music-pause.applescript",
+        "icon" : "images\/music-logo.png",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Music",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Pause"
+      },
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "filename" : "spotify-play-pause.applescript",
+        "icon" : "⏯️",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Spotify",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Toggle Play\/Pause"
+      },
+      {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Next track in Music",
+        "filename" : "music-next.applescript",
+        "icon" : "images\/music-logo.png",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Music",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Next"
+      },
+      {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Toggle repeat settling in Music",
+        "filename" : "music-repeat.applescript",
+        "icon" : "images\/music-logo.png",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Music",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Toggle repeat"
+      },
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "filename" : "spotify-play.applescript",
+        "icon" : "▶️",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Spotify",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Play"
+      },
+      {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Stop Music",
+        "filename" : "music-stop.applescript",
+        "icon" : "images\/music-logo.png",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Music",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Stop"
+      },
+      {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Toggle shuffle setting in Music",
+        "filename" : "music-shuffle.applescript",
+        "icon" : "images\/music-logo.png",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Music",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Toggle shuffle"
+      },
+      {
+        "author" : null,
+        "currentDirectoryPath" : null,
+        "description" : null,
+        "filename" : "spotify-pause.applescript",
+        "icon" : "⏸",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Spotify",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Pause"
       }
     ]
   }
