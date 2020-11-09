@@ -791,6 +791,76 @@
     ]
   },
   {
+    "name" : "Communication",
+    "path" : "communication",
+    "scriptCommands" : [
+      {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Show Cloudup popup",
+        "filename" : "cloudup-show.sh",
+        "icon" : "images\/cloudup-logo.png",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Cloudup",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Show"
+      },
+      {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Upload path or URL in clipboard to Cloudup",
+        "filename" : "cloudup-upload.sh",
+        "icon" : "images\/cloudup-logo.png",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Cloudup",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Upload"
+      },
+      {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Open file dialog and upload to Cloudup",
+        "filename" : "cloudup-pick.sh",
+        "icon" : "images\/cloudup-logo.png",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Cloudup",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Pick"
+      },
+      {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Upload clipboard contents to Cloudup",
+        "filename" : "cloudup-paste.sh",
+        "icon" : "images\/cloudup-logo.png",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Cloudup",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Paste"
+      }
+    ]
+  },
+  {
     "name" : "Media",
     "path" : "media",
     "scriptCommands" : [
