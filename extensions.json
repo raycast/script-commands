@@ -56,6 +56,22 @@
     "scriptCommands" : [
       {
         "author" : {
+          "name" : "Thomas Paul Mann",
+          "url" : "https:\/\/github.com\/thomaspaulmann"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Shorten the URL in your Clipboard with Tiny URL.",
+        "filename" : "shorten-url.sh",
+        "icon" : "🔗",
+        "mode" : "compact",
+        "needsConfirmation" : null,
+        "packageName" : "Browsing",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Shorten URL From Clipboard"
+      },
+      {
+        "author" : {
           "name" : "Kirill Gorbachyonok",
           "url" : "https:\/\/github.com\/japanese-goblinn"
         },
