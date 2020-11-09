@@ -11,6 +11,7 @@ This repository contains sample commands and documentation to write your own one
 
 - [Bookmarks](#bookmarks)
 - [Browsing](#browsing)
+- [Communication](#communication)
 - [Conversions](#conversions)
 - [Dashboard](#dashboard)
 - [Developer Utils](#developer-utils)
@@ -30,6 +31,17 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ |
 | 🧭 | [Copy current page URL](browsing/safari_current_page_url.sh) | This script copies URL of currently opened page in Safari into clipboard. | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
 | 🧭 | [Copy current window URLs](browsing/safari_current_window_urls.applescript) | This script copies to clipboard all URLs from frontmost Safari window. | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
+
+## Communication
+
+#### Cloudup
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/communication/images/cloudup-logo.png?raw=true" width="20" height="20"> | [Paste](communication/cloudup-paste.sh) | Upload clipboard contents to Cloudup | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/communication/images/cloudup-logo.png?raw=true" width="20" height="20"> | [Pick](communication/cloudup-pick.sh) | Open file dialog and upload to Cloudup | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/communication/images/cloudup-logo.png?raw=true" width="20" height="20"> | [Show](communication/cloudup-show.sh) | Show Cloudup popup | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/communication/images/cloudup-logo.png?raw=true" width="20" height="20"> | [Upload](communication/cloudup-upload.sh) | Upload path or URL in clipboard to Cloudup | [Caleb Stauffer](https://github.com/crstauf) |
 
 ## Conversions
 
