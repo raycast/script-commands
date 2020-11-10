@@ -5,11 +5,11 @@ directories=(
 
 # @raycast.schemaVersion 1
 # @raycast.title Set scripts executable
-# @raycast.mode fullOutput
+# @raycast.mode silent
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Set scripts within specified directories as executable.
-# @raycast.packageName Raycast
+# @raycast.packageName Script Commands
 
 if [ ${#directories[@]} -eq 0 ]; then
 	echo "Set working directories.";
