@@ -6,7 +6,7 @@
 # @raycast.mode silent
 
 # Optional parameters:
-# @raycast.icon ▶️
+# @raycast.icon images/spotify-logo.png
 # @raycast.packageName Spotify
 
 tell application "Spotify" to play
