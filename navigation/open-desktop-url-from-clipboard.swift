@@ -4,6 +4,7 @@
 // @raycast.schemaVersion 1
 // @raycast.title Open Clipboard URL on Desktop
 // @raycast.mode silent
+// @raycast.packageName Navigation
 
 // Optional parameters:
 // @raycast.icon 🖥

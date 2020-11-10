@@ -4,6 +4,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Copy current page URL
 # @raycast.mode silent
+# @raycast.packageName Safari
 #
 # Optional parameters:
 # @raycast.icon 🧭

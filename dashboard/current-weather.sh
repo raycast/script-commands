@@ -5,6 +5,7 @@
 # @raycast.title Current Weather
 # @raycast.mode inline
 # @raycast.refreshTime 5m
+# @raycast.packageName Dashboard
 
 # Optional parameters:
 # @raycast.author Caleb Stauffer
