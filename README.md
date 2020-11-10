@@ -65,7 +65,7 @@ You can use the standard output to present messages in Raycast. Depending on the
 
 In `fullOutput` the entire output is presented on a separate view, similar to a terminal. This is handy when your script generates output to consume. In `compact` mode the last line of the standard output is shown in the toast. And in `silent` mode the last line (if exists) will be shown in overlaying HUD toast after Raycast window is closed.
 
-In `inline` mode, the output will be directly shown in the command item and automatically refresh according to the specified `refreshTime`. Tip: Set your dashboard items as favorites via the action menu in Raycast
+In `inline` mode, the first line of output will be directly shown in the command item and automatically refresh according to the specified `refreshTime`. Tip: Set your dashboard items as favorites via the action menu in Raycast
 
 ### Error Handling
 
