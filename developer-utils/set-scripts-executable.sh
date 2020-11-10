@@ -4,11 +4,11 @@ directories=(
 )
 
 # @raycast.schemaVersion 1
-# @raycast.title Set Script Commands executable
+# @raycast.title Set scripts executable
 # @raycast.mode fullOutput
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Set Script Commands within specified directories as executable.
+# @raycast.description Set scripts within specified directories as executable.
 # @raycast.packageName Raycast
 
 if [ ${#directories[@]} -eq 0 ]; then
