@@ -672,6 +672,22 @@
         "title" : "Ping Monitor"
       },
       {
+        "author" : {
+          "name" : "Sven Hofmann",
+          "url" : "https:\/\/github.com\/hofmannsven"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Generates a random password and copies it to the clipboard.",
+        "filename" : "generate-password.sh",
+        "icon" : "💻",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Developer Utils",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Generate Password"
+      },
+      {
         "author" : null,
         "currentDirectoryPath" : null,
         "description" : null,
