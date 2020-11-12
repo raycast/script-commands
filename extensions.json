@@ -275,7 +275,7 @@
         "mode" : "inline",
         "needsConfirmation" : null,
         "packageName" : "Dashboard",
-        "refreshTime" : "5m",
+        "refreshTime" : "1h",
         "schemaVersion" : 1,
         "title" : "Current Weather"
       },
