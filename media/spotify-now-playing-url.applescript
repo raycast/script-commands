@@ -6,7 +6,7 @@
 # @raycast.mode silent
 
 # Optional parameters:
-# @raycast.icon https://www.iconfinder.com/data/icons/popular-services-brands/512/spotify-512.png
+# @raycast.icon images/spotify-logo.png
 
 # Documentation:
 # @raycast.author Jack LaFond
