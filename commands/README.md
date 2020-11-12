@@ -75,7 +75,6 @@ This repository contains sample commands and documentation to write your own one
 | 💻 | [Decode Base64](developer-utils/decode-base64.sh) | N/A | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/developer-utils/images/jwt-logo.png?raw=true" width="20" height="20"> | [Decode JWT](developer-utils/decode-jwt.sh) | N/A | Raycast |
 | 💻 | [Encode Base64](developer-utils/encode-base64.sh) | N/A | Raycast |
-| 💻 | [Generate Password](developer-utils/generate-password.sh) | Generates a random password and copies it to the clipboard. | [Sven Hofmann](https://github.com/hofmannsven) |
 | 💻 | [Generate UUID](developer-utils/generate-uuid.sh) | N/A | Raycast |
 | 💻 | [Prettify JSON](developer-utils/prettify-json.sh) | N/A | Raycast |
 | 📱 | [Record Simulator](developer-utils/record-simulator.sh) | Records simulator to Downloads folder with a filename from the clipboard | [Maxim Krouk](https://github.com/maximkrouk) |
