@@ -7,6 +7,7 @@
 #
 # Optional parameters:
 # @raycast.icon 🧭
+# @raycast.packageName Safari
 #
 # Documentation:
 # @raycast.description This script copies to clipboard all URLs from frontmost Safari window.
