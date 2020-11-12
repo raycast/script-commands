@@ -9,7 +9,7 @@
 # @raycast.author Sven Hofmann
 # @raycast.authorURL https://github.com/hofmannsven
 # @raycast.description Generates a random password and copies it to the clipboard.
-# @raycast.icon 💻
+# @raycast.icon 🔑
 
 gpg --gen-random -a 0 30 | pbcopy
 echo "Password Generated"
