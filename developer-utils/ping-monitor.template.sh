@@ -1,6 +1,9 @@
 #!/bin/bash
 
-# IP address or URL
+#########################################################
+## Set IP address or website URL in "target" variable. ##
+#########################################################
+
 # target=""
 
 # @raycast.schemaVersion 1
