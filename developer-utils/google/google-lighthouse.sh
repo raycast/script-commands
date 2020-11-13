@@ -8,7 +8,7 @@
 # @raycast.description Open a Lighthouse report of URL in clipboard.
 # @raycast.packageName Google
 # @raycast.needsConfirmation true
-# @raycast.icon images/google-lighthouse-logo.png
+# @raycast.icon google-lighthouse-logo.png
 # @raycast.currentDirectoryPath ~/Desktop
 
 if ! command -v lighthouse &> /dev/null; then
