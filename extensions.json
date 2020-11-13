@@ -260,6 +260,13 @@
     ]
   },
   {
+    "name" : " Enabled Commands",
+    "path" : "_enabled-commands",
+    "scriptCommands" : [
+
+    ]
+  },
+  {
     "name" : "Dashboard",
     "path" : "dashboard",
     "scriptCommands" : [
