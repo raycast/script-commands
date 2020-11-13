@@ -1,14 +1,14 @@
 #!/bin/bash
 
-# IP address or URL
+# Website URL
 # target=""
 
 # @raycast.schemaVersion 1
-# @raycast.title Is Up
+# @raycast.title Is Website Up
 # @raycast.mode inline
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Check if specified website is up.
+# @raycast.description Check and monitor if specified website is up.
 # @raycast.packageName Internet
 # @raycast.refreshTime 10m
 # @raycast.icon 🌐
