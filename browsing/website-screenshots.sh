@@ -5,7 +5,7 @@ resolutions="1920x1080 390x844"
 
 # @raycast.schemaVersion 1
 # @raycast.title Screenshot website from clipboard
-# @raycast.mode compact
+# @raycast.mode silent
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Screenshot website using sindresorhus/pageres-cli.
