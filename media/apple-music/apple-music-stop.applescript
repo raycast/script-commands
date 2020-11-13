@@ -1,16 +1,16 @@
 #!/usr/bin/osascript
 
 # @raycast.schemaVersion 1
-# @raycast.title Previous
+# @raycast.title Stop
 # @raycast.mode silent
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Previous track in Music
+# @raycast.description Stop Music
 # @raycast.packageName Music
-# @raycast.icon images/music-logo.png
+# @raycast.icon apple-music-logo.png
 
 tell application "Music"
-	previous track
+	stop
 end tell
 
-do shell script "echo Previous track"
+do shell script "echo Stopped music"

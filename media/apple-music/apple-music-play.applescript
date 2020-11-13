@@ -7,7 +7,7 @@
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Play Music
 # @raycast.packageName Music
-# @raycast.icon images/music-logo.png
+# @raycast.icon apple-music-logo.png
 
 tell application "Music"
 	if player state is paused then 
