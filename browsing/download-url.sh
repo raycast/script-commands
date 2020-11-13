@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -l
 
 # @raycast.schemaVersion 1
 # @raycast.title Download URL in clipboard
@@ -10,9 +10,7 @@
 # @raycast.needsConfirmation true
 # @raycast.currentDirectoryPath ~/Desktop
 
-cmnd=$(npm config get prefix)/bin/download
-
-if ! command -v $cmnd &> /dev/null; then
+if ! command -v download &> /dev/null; then
 	echo "download command is required (https://github.com/kevva/download-cli).";
 	exit 1;
 fi
@@ -21,7 +19,7 @@ clipboard=$(pbpaste)
 regex='(https?)://[-A-Za-z0-9\+&@#/%?=~_|!:,.;]*[-A-Za-z0-9\+&@#/%=~_|]'
 
 if [[ $clipboard =~ $regex ]]; then 
-	"$cmnd" -o ~/Desktop $clipboard
+	download -o ~/Desktop $clipboard
 	echo "Downloaded URL to Desktop"
 else
 	echo "Clipboard is not a valid URL"
