@@ -13,7 +13,7 @@
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Ping an IP address or URL on an interval.
 # @raycast.packageName Internet
-# @raycast.refreshTime 30m
+# @raycast.refreshTime 10m
 # @raycast.icon 🌐
 
 if [ -z ${target+x} ]; then
