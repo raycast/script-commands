@@ -19,13 +19,11 @@ detailed=true
 # @raycast.title Unread Notifications
 # @raycast.mode inline
 # @raycast.refreshTime 5m
-
-# Optional parameters:
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Number of unread GitHub notifications.
 # @raycast.packageName GitHub
-# @raycast.icon images/github-logo.png
+# @raycast.icon github-logo.png
 
 if [ -z ${user+x} ]; then
 	echo "GitHub username is missing.";
