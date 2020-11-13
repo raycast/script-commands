@@ -5,7 +5,7 @@ directories=(
 
 # @raycast.schemaVersion 1
 # @raycast.title Set scripts executable
-# @raycast.mode silent
+# @raycast.mode compact
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Set scripts within specified directories as executable.
