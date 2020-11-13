@@ -1,21 +1,18 @@
 #!/bin/bash
 
-##################################################################
-## Set GitHub username and personal access token and uncomment. ##
-##################################################################
+####################################################
+## Set GitHub username and personal access token. ##
+####################################################
 
 # GitHub username
-# user=
+user=
 
 # GitHub personal access token
-# access_key=
+access_key=
 
-# Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Create GitHub Gist from clipboard
 # @raycast.mode compact
-
-# Optional parameters:
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Create a GitHub Gist from clipboard contents and copy Gist URL.
