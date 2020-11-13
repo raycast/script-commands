@@ -23,6 +23,12 @@ To install new commands, follow these steps:
 
 To get started, download one of the sample commands in this repository or [write a custom script](https://github.com/raycast/script-commands/blob/master/README.md#write-script-commands).
 
+## How to use this repository
+
+Grab scripts that you want to use and copy them to a separate directory on your machine (you can use [_enabled-commands](https://github.com/raycast/script-commands/blob/master/_enabled-commands) folder from this repo for this).
+
+NOTE: We recommend against directly using script directories from this repo in Raycast to protect yourself from potential restructuring and new script commands suddenly appearing in Raycast.
+
 ## Write Script Commands
 
 To write your custom Script Commands, go over the following steps:
