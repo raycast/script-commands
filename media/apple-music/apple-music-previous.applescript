@@ -1,17 +1,16 @@
 #!/usr/bin/osascript
 
 # @raycast.schemaVersion 1
-# @raycast.title Pause
+# @raycast.title Previous
 # @raycast.mode silent
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Pause Music
+# @raycast.description Previous track in Music
 # @raycast.packageName Music
-# @raycast.icon images/music-logo.png
+# @raycast.icon apple-music-logo.png
 
 tell application "Music"
-	if player state is playing then 
-		pause
-		do shell script "echo Paused music"
-	end if
+	previous track
 end tell
+
+do shell script "echo Previous track"
