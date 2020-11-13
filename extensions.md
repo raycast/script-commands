@@ -44,15 +44,6 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ |
 | 🔐 | [2FA from iMessages](communication/imessage-2fa.sh) | Get most recent two-factor authentication code from iMessages. | Caleb Stauffer and Thiago Holanda |
 
-#### Cloudup
-
-| Icon | Title | Description | Author |
-| ---- | ----- | ----------- | ------ |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/communication/images/cloudup-logo.png?raw=true" width="20" height="20"> | [Paste](communication/cloudup-paste.sh) | Upload clipboard contents to Cloudup | [Caleb Stauffer](https://github.com/crstauf) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/communication/images/cloudup-logo.png?raw=true" width="20" height="20"> | [Pick](communication/cloudup-pick.sh) | Open file dialog and upload to Cloudup | [Caleb Stauffer](https://github.com/crstauf) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/communication/images/cloudup-logo.png?raw=true" width="20" height="20"> | [Show](communication/cloudup-show.sh) | Show Cloudup popup | [Caleb Stauffer](https://github.com/crstauf) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/communication/images/cloudup-logo.png?raw=true" width="20" height="20"> | [Upload](communication/cloudup-upload.sh) | Upload path or URL in clipboard to Cloudup | [Caleb Stauffer](https://github.com/crstauf) |
-
 ## Conversions
 
 | Icon | Title | Description | Author |
@@ -86,13 +77,6 @@ This repository contains sample commands and documentation to write your own one
 | 💻 | [Prettify JSON](developer-utils/prettify-json.sh) | N/A | Raycast |
 | 📱 | [Record Simulator](developer-utils/record-simulator.sh) | Records simulator to Downloads folder with a filename from the clipboard | [Maxim Krouk](https://github.com/maximkrouk) |
 
-#### GitHub
-
-| Icon | Title | Description | Author |
-| ---- | ----- | ----------- | ------ |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/developer-utils/images/github-logo.png?raw=true" width="20" height="20"> | [Create GitHub Gist from clipboard](developer-utils/create-github-gist.sh) | Create a GitHub Gist from clipboard contents and copy Gist URL. | [Caleb Stauffer](https://github.com/crstauf) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/developer-utils/images/github-logo.png?raw=true" width="20" height="20"> | [Unread Notifications](developer-utils/github-unread-notifications.sh) | Number of unread GitHub notifications. | [Caleb Stauffer](https://github.com/crstauf) |
-
 #### Internet
 
 | Icon | Title | Description | Author |
@@ -115,18 +99,6 @@ This repository contains sample commands and documentation to write your own one
 | 🧹 | [Clear Derived Data](developer-utils/clear-derived-data.sh) | N/A | Raycast |
 
 ## Media
-
-#### Music
-
-| Icon | Title | Description | Author |
-| ---- | ----- | ----------- | ------ |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/media/images/music-logo.png?raw=true" width="20" height="20"> | [Next](media/music-next.applescript) | Next track in Music | [Caleb Stauffer](https://github.com/crstauf) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/media/images/music-logo.png?raw=true" width="20" height="20"> | [Pause](media/music-pause.applescript) | Pause Music | [Caleb Stauffer](https://github.com/crstauf) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/media/images/music-logo.png?raw=true" width="20" height="20"> | [Play](media/music-play.applescript) | Play Music | [Caleb Stauffer](https://github.com/crstauf) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/media/images/music-logo.png?raw=true" width="20" height="20"> | [Previous](media/music-previous.applescript) | Previous track in Music | [Caleb Stauffer](https://github.com/crstauf) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/media/images/music-logo.png?raw=true" width="20" height="20"> | [Stop](media/music-stop.applescript) | Stop Music | [Caleb Stauffer](https://github.com/crstauf) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/media/images/music-logo.png?raw=true" width="20" height="20"> | [Toggle repeat](media/music-repeat.applescript) | Toggle repeat settling in Music | [Caleb Stauffer](https://github.com/crstauf) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/media/images/music-logo.png?raw=true" width="20" height="20"> | [Toggle shuffle](media/music-shuffle.applescript) | Toggle shuffle setting in Music | [Caleb Stauffer](https://github.com/crstauf) |
 
 #### Spotify
 

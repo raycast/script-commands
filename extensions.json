@@ -724,22 +724,6 @@
         "title" : "Copy Lorem Ipsum"
       },
       {
-        "author" : {
-          "name" : "Caleb Stauffer",
-          "url" : "https:\/\/github.com\/crstauf"
-        },
-        "currentDirectoryPath" : null,
-        "description" : "Create a GitHub Gist from clipboard contents and copy Gist URL.",
-        "filename" : "create-github-gist.sh",
-        "icon" : "images\/github-logo.png",
-        "mode" : "compact",
-        "needsConfirmation" : true,
-        "packageName" : "GitHub",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Create GitHub Gist from clipboard"
-      },
-      {
         "author" : null,
         "currentDirectoryPath" : null,
         "description" : null,
@@ -808,22 +792,6 @@
         "title" : "Clear Derived Data"
       },
       {
-        "author" : {
-          "name" : "Caleb Stauffer",
-          "url" : "https:\/\/github.com\/crstauf"
-        },
-        "currentDirectoryPath" : null,
-        "description" : "Number of unread GitHub notifications.",
-        "filename" : "github-unread-notifications.sh",
-        "icon" : "images\/github-logo.png",
-        "mode" : "inline",
-        "needsConfirmation" : null,
-        "packageName" : "GitHub",
-        "refreshTime" : "5m",
-        "schemaVersion" : 1,
-        "title" : "Unread Notifications"
-      },
-      {
         "author" : null,
         "currentDirectoryPath" : null,
         "description" : null,
@@ -842,70 +810,6 @@
     "name" : "Communication",
     "path" : "communication",
     "scriptCommands" : [
-      {
-        "author" : {
-          "name" : "Caleb Stauffer",
-          "url" : "https:\/\/github.com\/crstauf"
-        },
-        "currentDirectoryPath" : null,
-        "description" : "Show Cloudup popup",
-        "filename" : "cloudup-show.sh",
-        "icon" : "images\/cloudup-logo.png",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Cloudup",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Show"
-      },
-      {
-        "author" : {
-          "name" : "Caleb Stauffer",
-          "url" : "https:\/\/github.com\/crstauf"
-        },
-        "currentDirectoryPath" : null,
-        "description" : "Upload path or URL in clipboard to Cloudup",
-        "filename" : "cloudup-upload.sh",
-        "icon" : "images\/cloudup-logo.png",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Cloudup",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Upload"
-      },
-      {
-        "author" : {
-          "name" : "Caleb Stauffer",
-          "url" : "https:\/\/github.com\/crstauf"
-        },
-        "currentDirectoryPath" : null,
-        "description" : "Open file dialog and upload to Cloudup",
-        "filename" : "cloudup-pick.sh",
-        "icon" : "images\/cloudup-logo.png",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Cloudup",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Pick"
-      },
-      {
-        "author" : {
-          "name" : "Caleb Stauffer",
-          "url" : "https:\/\/github.com\/crstauf"
-        },
-        "currentDirectoryPath" : null,
-        "description" : "Upload clipboard contents to Cloudup",
-        "filename" : "cloudup-paste.sh",
-        "icon" : "images\/cloudup-logo.png",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Cloudup",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Paste"
-      },
       {
         "author" : {
           "name" : "Caleb Stauffer and Thiago Holanda",
@@ -929,38 +833,6 @@
     "path" : "media",
     "scriptCommands" : [
       {
-        "author" : {
-          "name" : "Caleb Stauffer",
-          "url" : "https:\/\/github.com\/crstauf"
-        },
-        "currentDirectoryPath" : null,
-        "description" : "Play Music",
-        "filename" : "music-play.applescript",
-        "icon" : "images\/music-logo.png",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Music",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Play"
-      },
-      {
-        "author" : {
-          "name" : "Caleb Stauffer",
-          "url" : "https:\/\/github.com\/crstauf"
-        },
-        "currentDirectoryPath" : null,
-        "description" : "Previous track in Music",
-        "filename" : "music-previous.applescript",
-        "icon" : "images\/music-logo.png",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Music",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Previous"
-      },
-      {
         "author" : null,
         "currentDirectoryPath" : null,
         "description" : null,
@@ -972,22 +844,6 @@
         "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Next Track"
-      },
-      {
-        "author" : {
-          "name" : "Caleb Stauffer",
-          "url" : "https:\/\/github.com\/crstauf"
-        },
-        "currentDirectoryPath" : null,
-        "description" : "Pause Music",
-        "filename" : "music-pause.applescript",
-        "icon" : "images\/music-logo.png",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Music",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Pause"
       },
       {
         "author" : null,
@@ -1003,38 +859,6 @@
         "title" : "Toggle Play\/Pause"
       },
       {
-        "author" : {
-          "name" : "Caleb Stauffer",
-          "url" : "https:\/\/github.com\/crstauf"
-        },
-        "currentDirectoryPath" : null,
-        "description" : "Next track in Music",
-        "filename" : "music-next.applescript",
-        "icon" : "images\/music-logo.png",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Music",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Next"
-      },
-      {
-        "author" : {
-          "name" : "Caleb Stauffer",
-          "url" : "https:\/\/github.com\/crstauf"
-        },
-        "currentDirectoryPath" : null,
-        "description" : "Toggle repeat settling in Music",
-        "filename" : "music-repeat.applescript",
-        "icon" : "images\/music-logo.png",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Music",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Toggle repeat"
-      },
-      {
         "author" : null,
         "currentDirectoryPath" : null,
         "description" : null,
@@ -1046,38 +870,6 @@
         "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Play"
-      },
-      {
-        "author" : {
-          "name" : "Caleb Stauffer",
-          "url" : "https:\/\/github.com\/crstauf"
-        },
-        "currentDirectoryPath" : null,
-        "description" : "Stop Music",
-        "filename" : "music-stop.applescript",
-        "icon" : "images\/music-logo.png",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Music",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Stop"
-      },
-      {
-        "author" : {
-          "name" : "Caleb Stauffer",
-          "url" : "https:\/\/github.com\/crstauf"
-        },
-        "currentDirectoryPath" : null,
-        "description" : "Toggle shuffle setting in Music",
-        "filename" : "music-shuffle.applescript",
-        "icon" : "images\/music-logo.png",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Music",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Toggle shuffle"
       },
       {
         "author" : null,
