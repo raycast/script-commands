@@ -9,7 +9,6 @@ This repository contains sample commands and documentation to write your own one
 
 ### Content
 
-- [ Enabled Commands](#_enabled-commands)
 - [Bookmarks](#bookmarks)
 - [Browsing](#browsing)
 - [Communication](#communication)
@@ -19,8 +18,6 @@ This repository contains sample commands and documentation to write your own one
 - [Media](#media)
 - [Navigation](#navigation)
 - [System](#system)
-
-##  Enabled Commands
 
 ## Bookmarks
 
