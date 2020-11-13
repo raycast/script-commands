@@ -633,6 +633,22 @@
           "url" : "https:\/\/github.com\/crstauf"
         },
         "currentDirectoryPath" : null,
+        "description" : "Ping an IP address or URL on an interval.",
+        "filename" : "ping-monitor.template.sh",
+        "icon" : "🌐",
+        "mode" : "inline",
+        "needsConfirmation" : null,
+        "packageName" : "Internet",
+        "refreshTime" : "10m",
+        "schemaVersion" : 1,
+        "title" : "Ping Monitor"
+      },
+      {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
         "description" : "Get IPv6 address of URL",
         "filename" : "get-url-ip-v6.sh",
         "icon" : "🌐",
@@ -684,6 +700,22 @@
         "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "URL IPv4"
+      },
+      {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Ping an IP address or URL in clipboard.",
+        "filename" : "ping-from-clipboard.sh",
+        "icon" : "🌐",
+        "mode" : "fullOutput",
+        "needsConfirmation" : true,
+        "packageName" : "Internet",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Ping address in clipboard"
       },
       {
         "author" : null,
