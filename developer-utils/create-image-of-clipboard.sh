@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -l
 
 # @raycast.schemaVersion 1
 # @raycast.title Create image of clipboard contents
@@ -10,13 +10,11 @@
 # @raycast.needsConfirmation true
 # @raycast.currentDirectoryPath ~/Desktop
 
-cmnd=$(npm config get prefix)/bin/carbon-now
-
-if ! command -v $cmnd &> /dev/null; then
+if ! command -v carbon-now &> /dev/null; then
 	echo "carbon-now command is required (https://github.com/mixn/carbon-now-cli).";
 	exit 1;
 fi
 
-"$cmnd" --from-clipboard -h
+carbon-now --from-clipboard -h
 
 echo "Image saved to Desktop"
