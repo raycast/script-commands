@@ -7,7 +7,7 @@
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Stop TV
 # @raycast.packageName TV
-# @raycast.icon images/tv-logo.png
+# @raycast.icon apple-tv-logo.png
 
 tell application "TV"
 	stop
