@@ -60,10 +60,9 @@ NOTE: This might change as soon as we introduce a better way to provide paramete
 
 
 2. Make sure you have code that handles missing dependency. Example:
-
-```bash
-if ! command -v download &> /dev/null; then
-	echo "download command is required (https://github.com/kevva/download-cli).";
-	exit 1;
-fi
-```
+   ```bash
+   if ! command -v download &> /dev/null; then
+	     echo "download command is required (https://github.com/kevva/download-cli).";
+	     exit 1;
+   fi
+   ```
