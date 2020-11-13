@@ -1,6 +1,9 @@
 #!/bin/bash
 
-# Website URL
+###########################################
+## Set website URL in "target" variable. ##
+###########################################
+
 # target=""
 
 # @raycast.schemaVersion 1
