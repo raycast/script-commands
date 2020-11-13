@@ -81,7 +81,7 @@
         "icon" : "🧭",
         "mode" : "silent",
         "needsConfirmation" : null,
-        "packageName" : "Browsing",
+        "packageName" : "Safari",
         "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Copy current page URL"
@@ -97,7 +97,7 @@
         "icon" : "🧭",
         "mode" : "silent",
         "needsConfirmation" : null,
-        "packageName" : "Browsing",
+        "packageName" : "Safari",
         "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Copy current window URLs"
