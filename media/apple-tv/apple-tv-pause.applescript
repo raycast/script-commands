@@ -1,17 +1,17 @@
 #!/usr/bin/osascript
 
 # @raycast.schemaVersion 1
-# @raycast.title Play
+# @raycast.title Pause
 # @raycast.mode silent
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Play TV
+# @raycast.description Pause TV
 # @raycast.packageName TV
-# @raycast.icon images/tv-logo.png
+# @raycast.icon apple-tv-logo.png
 
 tell application "TV"
-	if player state is paused then 
-		play
-		do shell script "echo Playing TV"
+	if player state is playing then 
+		pause
+		do shell script "echo Paused TV"
 	end if
 end tell
