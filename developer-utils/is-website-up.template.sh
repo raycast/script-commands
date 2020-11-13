@@ -4,7 +4,8 @@
 ## Set website URL in "target" variable. ##
 ###########################################
 
-# target=""
+# Website URL
+target=""
 
 # @raycast.schemaVersion 1
 # @raycast.title Is Website Up
