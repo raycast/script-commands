@@ -8,7 +8,9 @@ This repository contains sample commands and documentation to write your own one
 
 ## Awesome Script Commands
 
-Check out the [list](extensions.md) of all available Script Commands.
+Check out the [list](extensions.md) of all available Script Commands. 
+
+Want to contribute? What a brilliant idea, please see this [contribution guide](https://github.com/raycast/script-commands/blob/master/CONTRIBUTING.md), it will help you with getting started.
 
 ## Install Script Commands
 
