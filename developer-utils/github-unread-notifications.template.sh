@@ -6,10 +6,10 @@
 ##################################################################
 
 # GitHub username
-# user=
+user=
 
 # GitHub personal access token
-# access_key=
+access_key=
 
 # Toggle for detailed count
 detailed=true
