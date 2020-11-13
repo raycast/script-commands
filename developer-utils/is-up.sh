@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # IP address or URL
-target="google.com"
+# target=""
 
 # @raycast.schemaVersion 1
 # @raycast.title Is Up
@@ -18,6 +18,16 @@ if ! command -v is-up &> /dev/null; then
 	exit 1;
 fi
 
-status=$(is-up "$target")
+if [ -z ${target+x} ]; then
+	echo "Target is undefined.";
+	exit 0
+fi
 
-echo "${target}   $status"
+regex='(https?)://[-A-Za-z0-9\+&@#/%?=~_|!:,.;]*[-A-Za-z0-9\+&@#/%=~_|]'
+
+if [[ $target =~ $regex ]]; then
+	status=$(is-up "$target")
+	echo "${target}   $status"
+else
+	echo "$target is not a valid URL"
+fi
