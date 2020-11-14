@@ -10,7 +10,8 @@ typealias Groups = [Group]
 struct Group: Codable {
   let name: String
   let path: String
-  let scriptCommands: ScriptCommands
+  var scriptCommands: ScriptCommands = []
+  var subGroups: Groups? = nil
 }
 
 // MARK: - MarkdownDescription Protocol
@@ -23,7 +24,6 @@ extension Group: MarkdownDescriptionProtocol {
   var markdownDescription: String {
     "- [\(name)](#\(path))"
   }
-
 }
 
 // MARK: - Comparable
@@ -36,5 +36,4 @@ extension Group: Comparable {
   static func == (lhs: Group, rhs: Group) -> Bool {
     lhs.name == rhs.name
   }
-
 }
