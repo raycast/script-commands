@@ -15,8 +15,8 @@ extension ToolkitCommand {
       abstract: "Generate the documentation in JSON and Markdown format"
     )
 
-    @Argument(help: "Path of the Raycast extensions folder. [Default path: ../../]")
-    var path: String = "../../"
+    @Argument(help: "Path of the Raycast extensions folder. [Default path: ./]")
+    var path: String = "./"
 
     func run() throws {
       let fileSystem = TSCBasic.localFileSystem
@@ -27,8 +27,12 @@ extension ToolkitCommand {
         )
 
         try toolkit.generateDocumentation()
+        
+        Toolkit.raycastDescription()
+        Console.shared.writeSuccess("Documents generated!")
       } catch {
-        print("Error: \(error)")
+        Toolkit.raycastDescription()
+        Console.shared.writeError("Error: \(error)")
       }
 
     }
