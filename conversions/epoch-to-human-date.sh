@@ -7,7 +7,6 @@
 #
 # Optional parameters:
 # @raycast.icon ⏱
-# @raycast.currentDirectoryPath ~
 # @raycast.packageName Conversions
 # @raycast.needsConfirmation false
 #
