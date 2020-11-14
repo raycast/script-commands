@@ -4,6 +4,7 @@
 //
 
 import ArgumentParser
+import ToolkitLibrary
 
 struct VersionOptions: ParsableArguments {
   @Flag(name: .shortAndLong, help: "Print the version and exit")
@@ -11,8 +12,7 @@ struct VersionOptions: ParsableArguments {
 
   func validate() throws {
     if version {
-      print("Raycast Toolkit")
-      print("Current version: 0.1")
+      Toolkit.version()
       throw ExitCode.success
     }
   }
