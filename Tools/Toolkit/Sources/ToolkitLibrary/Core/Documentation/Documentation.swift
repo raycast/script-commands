@@ -17,9 +17,9 @@ final class Documentation {
     self.filename = filename
   }
 
-  func generateDocuments(using groups: Groups) throws {
-    try generateMarkdown(using: groups)
-    try generateJSON(using: groups)
+  func generateDocuments(for data: RaycastData) throws {
+    try generateMarkdown(for: data)
+    try generateJSON(for: data)
   }
 
 }
@@ -29,12 +29,12 @@ final class Documentation {
 typealias SubGroups = [String: [ScriptCommand]]
 
 private extension Documentation {
-  func generateMarkdown(using groups: Groups) throws {
+  func generateMarkdown(for raycastData: RaycastData) throws {
     let documentFilePath = path.appending(
       component: filename + ".md"
     )
 
-    guard let data = markdownData(for: groups) else {
+    guard let data = markdownData(for: raycastData.groups) else {
       return
     }
 
@@ -44,12 +44,12 @@ private extension Documentation {
     )
   }
 
-  func generateJSON(using groups: Groups) throws {
+  func generateJSON(for raycastData: RaycastData) throws {
     let documentFilePath = path.appending(
       component: filename + ".json"
     )
 
-    let data = try groups.toData()
+    let data = try raycastData.toData()
 
     try fileSystem.writeFileContents(
       documentFilePath,
@@ -130,7 +130,7 @@ private extension Documentation {
   }
 
   func markdown(for subGroups: SubGroups) -> String {
-    var contentString = ""
+    var contentString = String.empty
 
     for subGroup in subGroups.sorted(by: { $0.key < $1.key }) {
       if subGroup.key.isEmpty == false {
