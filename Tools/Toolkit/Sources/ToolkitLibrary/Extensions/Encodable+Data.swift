@@ -10,6 +10,7 @@ extension Encodable {
     let encoder = JSONEncoder()
     encoder.outputFormatting.insert(.prettyPrinted)
     encoder.outputFormatting.insert(.sortedKeys)
+    encoder.dateEncodingStrategy = .iso8601
 
     return try encoder.encode(self)
   }
