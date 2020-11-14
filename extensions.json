@@ -47,6 +47,22 @@
         "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Hex to RGB"
+      },
+      {
+        "author" : {
+          "name" : "Siyuan Zhang",
+          "url" : "https:\/\/github.com\/kastnerorz"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Convert epoch to human-readable date.",
+        "filename" : "epoch-to-human-date.sh",
+        "icon" : "⏱",
+        "mode" : "silent",
+        "needsConfirmation" : false,
+        "packageName" : "Conversions",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Convert Epoch to Human-Readable Date"
       }
     ]
   },

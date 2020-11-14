@@ -49,6 +49,7 @@ This repository contains sample commands and documentation to write your own one
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
 |  | [Column to Comma](conversions/column-to-comma.sh) | N/A | Raycast |
+| ⏱ | [Convert Epoch to Human-Readable Date](conversions/epoch-to-human-date.sh) | Convert epoch to human-readable date. | [Siyuan Zhang](https://github.com/kastnerorz) |
 | 🎨 | [Hex to RGB](conversions/hex-to-rgb.sh) | Convert HEX color values in your Clipboard to RGB values. | [Caleb Stauffer](https://github.com/crstauf) |
 | 🎨 | [Hex to RGBA](conversions/hex-to-rgba.sh) | Convert HEX color values in your Clipboard to RGBA values. | [Caleb Stauffer](https://github.com/crstauf) |
 
