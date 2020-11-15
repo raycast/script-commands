@@ -27,7 +27,9 @@ jobs:
         else
           git config --local user.email "bot@raycast.com" &&
           git config --local user.name "Raycast Bot" &&
-          git add extensions.md extensions.json &&
+          mv extensions.md commands/README.md
+          mv extensions.json commands/extensions.json
+          git add commands/README.md commands/extensions.json &&
           git commit -m "Update Script Commands documentation" &&
           exit 0;
         fi
