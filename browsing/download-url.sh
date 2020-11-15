@@ -1,5 +1,8 @@
 #!/bin/bash -l
 
+# Dependency: emoj (https://github.com/kevva/download-cli)
+# Install via npm: `npm install --global download-cli`
+
 # @raycast.schemaVersion 1
 # @raycast.title Download URL in clipboard
 # @raycast.mode silent
