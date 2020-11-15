@@ -23,7 +23,7 @@ detailed=true
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Number of unread GitHub notifications.
 # @raycast.packageName GitHub
-# @raycast.icon github-logo.png
+# @raycast.icon images/github-logo.png
 
 if [ -z ${user+x} ]; then
 	echo "GitHub username is missing.";

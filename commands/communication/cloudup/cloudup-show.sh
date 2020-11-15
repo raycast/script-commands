@@ -10,6 +10,6 @@
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Show Cloudup popup
 # @raycast.packageName Cloudup
-# @raycast.icon cloudup-logo.png
+# @raycast.icon images/cloudup-logo.png
 
 tell application "Cloudup" to show
