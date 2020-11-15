@@ -624,19 +624,6 @@
         "title" : "Record Simulator"
       },
       {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "get-local-ip-v4.sh",
-        "icon" : "🌐",
-        "mode" : "inline",
-        "needsConfirmation" : null,
-        "packageName" : "Internet",
-        "refreshTime" : "1h",
-        "schemaVersion" : 1,
-        "title" : "Local IPv4"
-      },
-      {
         "author" : {
           "name" : "Caleb Stauffer",
           "url" : "https:\/\/github.com\/crstauf"
@@ -653,35 +640,6 @@
         "title" : "Ping Monitor"
       },
       {
-        "author" : {
-          "name" : "Caleb Stauffer",
-          "url" : "https:\/\/github.com\/crstauf"
-        },
-        "currentDirectoryPath" : null,
-        "description" : "Get IPv6 address of URL",
-        "filename" : "get-url-ip-v6.sh",
-        "icon" : "🌐",
-        "mode" : "compact",
-        "needsConfirmation" : null,
-        "packageName" : "Internet",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "URL IPv6"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "get-external-ip-v4.sh",
-        "icon" : "🌐",
-        "mode" : "inline",
-        "needsConfirmation" : null,
-        "packageName" : "Internet",
-        "refreshTime" : "1h",
-        "schemaVersion" : 1,
-        "title" : "External IPv4"
-      },
-      {
         "author" : null,
         "currentDirectoryPath" : null,
         "description" : null,
@@ -693,22 +651,6 @@
         "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Generate UUID"
-      },
-      {
-        "author" : {
-          "name" : "Caleb Stauffer",
-          "url" : "https:\/\/github.com\/crstauf"
-        },
-        "currentDirectoryPath" : null,
-        "description" : "Get IPv4 address of URL",
-        "filename" : "get-url-ip-v4.sh",
-        "icon" : "🌐",
-        "mode" : "compact",
-        "needsConfirmation" : null,
-        "packageName" : "Internet",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "URL IPv4"
       },
       {
         "author" : {
@@ -738,19 +680,6 @@
         "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Copy Lorem Ipsum"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "get-external-ip-v6.sh",
-        "icon" : "🌐",
-        "mode" : "inline",
-        "needsConfirmation" : null,
-        "packageName" : "Internet",
-        "refreshTime" : "1h",
-        "schemaVersion" : 1,
-        "title" : "External IPv6"
       },
       {
         "author" : null,
@@ -806,19 +735,6 @@
         "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Clear Derived Data"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "get-local-ip-v6.sh",
-        "icon" : "🌐",
-        "mode" : "inline",
-        "needsConfirmation" : null,
-        "packageName" : "Internet",
-        "refreshTime" : "1h",
-        "schemaVersion" : 1,
-        "title" : "Local IPv6"
       }
     ]
   },
