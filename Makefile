@@ -10,7 +10,7 @@ build: clean
 	ln -s $(EXECUTABLE_PATH) $(EXECUTABLE_NAME)
 
 gen-docs: 
-	./$(EXECUTABLE_NAME) generate-documentation ./
+	./$(EXECUTABLE_NAME) generate-documentation ./commands/
 	
 
 
