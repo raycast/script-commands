@@ -35,6 +35,10 @@ Images should go into dedicated `images` folder:
 Use dash-case format for script files and directories, and use proper file extensions: Applescript should be `.applescript`, Swift should be `.swift`, Bash should be `.sh`, etc.
 Example: `spotify-next-track.applescript`
 
+### `packageName` metadata
+
+While `packageName` is an optional parameter and if it's missing Raycast will derive it from the directory name, it is required in this repository to improve portability. Make sure to always provide it in your script commands.
+
 ### Scripts that require additional modification
 
 1. Ensure that comments include instructions on how to start using the script. E.g. you might need to provide API token, username or tweak parameters.
