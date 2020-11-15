@@ -101,16 +101,6 @@ This repository contains sample commands and documentation to write your own one
 
 ## Media
 
-#### Spotify
-
-| Icon | Title | Description | Author |
-| ---- | ----- | ----------- | ------ |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/media/images/spotify-logo.png?raw=true" width="20" height="20"> | [Next Track](media/spotify-next-track.applescript) | N/A | Raycast |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/media/images/spotify-logo.png?raw=true" width="20" height="20"> | [Pause](media/spotify-pause.applescript) | N/A | Raycast |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/media/images/spotify-logo.png?raw=true" width="20" height="20"> | [Play](media/spotify-play.applescript) | N/A | Raycast |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/media/images/spotify-logo.png?raw=true" width="20" height="20"> | [Previous Track](media/spotify-previous-track.applescript) | N/A | Raycast |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/media/images/spotify-logo.png?raw=true" width="20" height="20"> | [Toggle Play/Pause](media/spotify-play-pause.applescript) | N/A | Raycast |
-
 ## Navigation
 
 | Icon | Title | Description | Author |

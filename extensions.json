@@ -848,71 +848,7 @@
     "name" : "Media",
     "path" : "media",
     "scriptCommands" : [
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "spotify-next-track.applescript",
-        "icon" : "images\/spotify-logo.png",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Spotify",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Next Track"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "spotify-play-pause.applescript",
-        "icon" : "images\/spotify-logo.png",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Spotify",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Toggle Play\/Pause"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "spotify-play.applescript",
-        "icon" : "images\/spotify-logo.png",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Spotify",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Play"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "spotify-previous-track.applescript",
-        "icon" : "images\/spotify-logo.png",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Spotify",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Previous Track"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "spotify-pause.applescript",
-        "icon" : "images\/spotify-logo.png",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Spotify",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Pause"
-      }
+
     ]
   }
 ]
