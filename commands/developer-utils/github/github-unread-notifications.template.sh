@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Dependency: requires jq (https://stedolan.github.io/jq/)
+# Install via Homebrew: `brew install jq`
+
 ##################################################################
 ## Set GitHub username and personal access token and uncomment, ##
 ## and check toggle for detailed output.                        ##
