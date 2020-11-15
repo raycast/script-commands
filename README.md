@@ -8,7 +8,7 @@ This repository contains sample commands and documentation to write your own one
 
 ## Awesome Script Commands
 
-Check out the [list](extensions.md) of all available Script Commands. 
+You can find a lot of useful script commands built by the community [here](https://github.com/raycast/script-commands/tree/master/commands).
 
 Want to contribute? What a brilliant idea, please see this [contribution guide](https://github.com/raycast/script-commands/blob/master/CONTRIBUTING.md), it will help you with getting started.
 
