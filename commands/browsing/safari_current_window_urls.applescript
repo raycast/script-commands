@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Copy current window URLs
+# @raycast.title Copy Current Window URLs
 # @raycast.mode silent
 #
 # Optional parameters:
