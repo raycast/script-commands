@@ -1,13 +1,13 @@
 #!/bin/bash -l
 
-# Dependecy: requires pageres (https://github.com/sindresorhus/pageres-cli)
+# Dependency: requires pageres (https://github.com/sindresorhus/pageres-cli)
 # Install via npm: `npm install --global pageres-cli`
 
 # Set viewport resolution of screenshots
 resolutions="1920x1080 390x844"
 
 # @raycast.schemaVersion 1
-# @raycast.title Screenshot website from clipboard
+# @raycast.title Screenshot Website from Clipboard
 # @raycast.mode silent
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
