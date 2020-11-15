@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Dependency: is-up-cli (https://github.com/sindresorhus/is-up-cli)
+# Install via npm: `npm install --global is-up-cli`
+
 ###########################################
 ## Set website URL in "target" variable. ##
 ###########################################
