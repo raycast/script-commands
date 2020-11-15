@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Dependecy: requires is-online (https://github.com/sindresorhus/is-online-cli)
+# Install via npm: `npm install --global is-online`
+
 # @raycast.schemaVersion 1
 # @raycast.title Connection Status
 # @raycast.mode inline
