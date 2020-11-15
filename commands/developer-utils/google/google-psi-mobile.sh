@@ -8,7 +8,7 @@
 # @raycast.description Run a PageSpeed Insights analysis on mobile of URL in clipboard.
 # @raycast.packageName Google
 # @raycast.needsConfirmation true
-# @raycast.icon google-psi-logo.png
+# @raycast.icon images/google-psi-logo.png
 
 if ! command -v psi &> /dev/null; then
 	echo "psi is required (https://github.com/GoogleChromeLabs/psi).";

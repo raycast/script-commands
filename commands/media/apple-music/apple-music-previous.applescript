@@ -7,7 +7,7 @@
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Previous track in Music
 # @raycast.packageName Music
-# @raycast.icon apple-music-logo.png
+# @raycast.icon images/apple-music-logo.png
 
 tell application "Music"
 	previous track

@@ -18,7 +18,7 @@ access_key=
 # @raycast.description Create a GitHub Gist from clipboard contents and copy Gist URL.
 # @raycast.packageName GitHub
 # @raycast.needsConfirmation true
-# @raycast.icon github-logo.png
+# @raycast.icon images/github-logo.png
 
 if [ -z ${user+x} ]; then
 	echo "GitHub username is missing.";

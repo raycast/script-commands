@@ -10,7 +10,7 @@
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Upload path or URL in clipboard to Cloudup
 # @raycast.packageName Cloudup
-# @raycast.icon cloudup-logo.png
+# @raycast.icon images/cloudup-logo.png
 
 set variable to (do shell script "pbpaste")
 
