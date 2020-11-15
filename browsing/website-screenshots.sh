@@ -15,6 +15,7 @@ resolutions="1920x1080 390x844"
 # @raycast.packageName Internet
 # @raycast.needsConfirmation true
 # @raycast.currentDirectoryPath ~/Desktop
+# @raycast.icon 🖼️
 
 if ! command -v pageres &> /dev/null; then
 	echo "pageres command is required (https://github.com/sindresorhus/pageres-cli).";
