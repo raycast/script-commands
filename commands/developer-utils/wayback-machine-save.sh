@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Save clipboard URL to Wayback Machine
+# @raycast.title Save Clipboard URL to Wayback Machine
 # @raycast.mode compact
 
 # Optional parameters:

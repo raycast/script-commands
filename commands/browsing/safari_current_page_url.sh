@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Copy current page URL
+# @raycast.title Copy Current Page URL
 # @raycast.mode silent
 #
 # Optional parameters:
