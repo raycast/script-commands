@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Dependency: emoj (https://github.com/sindresorhus/emoj)
+# Install via npm: `npm install --global emoj`
+
 # @raycast.schemaVersion 1
 # @raycast.title Get emojis
 # @raycast.mode fullOutput
