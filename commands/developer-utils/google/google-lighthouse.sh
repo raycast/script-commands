@@ -1,5 +1,8 @@
 #!/bin/bash -l
 
+# Dependency: requires lighthouse (https://developers.google.com/web/tools/lighthouse#cli)
+# Install via npm: `npm install -g lighthouse`
+
 # @raycast.schemaVersion 1
 # @raycast.title Lighthouse
 # @raycast.mode silent
