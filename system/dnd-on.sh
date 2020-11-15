@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Dependency: do-not-disturb-cli (https://github.com/sindresorhus/do-not-disturb-cli)
+# Install via npm: `npm install --global do-not-disturb-cli`
+
 # @raycast.schemaVersion 1
 # @raycast.title Do Not Disturb - On
 # @raycast.mode silent
