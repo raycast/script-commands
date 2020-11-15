@@ -14,7 +14,7 @@ user=
 access_key=
 
 # @raycast.schemaVersion 1
-# @raycast.title Create GitHub Gist from clipboard
+# @raycast.title Create GitHub Gist from Clipboard
 # @raycast.mode compact
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf

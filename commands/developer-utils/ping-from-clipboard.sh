@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # @raycast.schemaVersion 1
-# @raycast.title Ping address in clipboard
+# @raycast.title Ping Address in Clipboard
 # @raycast.mode fullOutput
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
