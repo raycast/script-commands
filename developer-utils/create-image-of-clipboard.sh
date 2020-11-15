@@ -1,5 +1,8 @@
 #!/bin/bash -l
 
+# Dependency: carbon-now-cli (https://github.com/mixn/carbon-now-cli)
+# Install via npm: `npm i -g carbon-now-cli`
+
 # @raycast.schemaVersion 1
 # @raycast.title Create image of clipboard contents
 # @raycast.mode silent
