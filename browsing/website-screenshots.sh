@@ -1,5 +1,8 @@
 #!/bin/bash -l
 
+# Dependecy: requires pageres (https://github.com/sindresorhus/pageres-cli)
+# Install via npm: `npm install --global pageres-cli`
+
 # Set viewport resolution of screenshots
 resolutions="1920x1080 390x844"
 
