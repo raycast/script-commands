@@ -1,5 +1,8 @@
 #!/bin/bash -l
 
+# Dependency: requires psi (https://github.com/GoogleChromeLabs/psi)
+# Install via npm: `npm install -g psi`
+
 # @raycast.schemaVersion 1
 # @raycast.title PageSpeed Insights - Mobile
 # @raycast.mode fullOutput
