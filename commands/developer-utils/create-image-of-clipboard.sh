@@ -4,7 +4,7 @@
 # Install via npm: `npm i -g carbon-now-cli`
 
 # @raycast.schemaVersion 1
-# @raycast.title Create image of clipboard contents
+# @raycast.title Create Image of Clipboard Contents
 # @raycast.mode silent
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
