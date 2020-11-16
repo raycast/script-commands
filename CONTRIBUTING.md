@@ -46,7 +46,7 @@ While `packageName` is an optional parameter and if it's missing Raycast will de
 
 Example: `github-notifications.template.sh`
 
-NOTE: This might change as soon as we introduce a better way to provide parameters / enviromental variables.
+*NOTE:* This might change as soon as we introduce a better way to provide parameters / enviromental variables.
 
 ### Scripts that require installation of dependencies
 
@@ -70,3 +70,9 @@ NOTE: This might change as soon as we introduce a better way to provide paramete
 	     exit 1;
    fi
    ```
+
+### Bash profiles and environmental variables
+
+All Script Commands are executed in a non-login shell to avoid additional information loaded from profiles that aren't relevant to Raycast. With an argument after a shebang, you can run a script in a login shell, e.g. `#!/bin/bash -l`. We don't allow Script Commands that make use of this feature in this repository. Mainly to guarantee easy portability, explicit injection of information and best performance. 
+
+*NOTE:* We will add support for environmental variables in Raycast and keep track of it in [this issue](https://github.com/raycast/script-commands/issues/77).
