@@ -10,11 +10,14 @@ final class Documentation {
   private let fileSystem = TSCBasic.localFileSystem
 
   private let path: AbsolutePath
-  private let filename: String
 
-  init(path: AbsolutePath, filename: String) {
-    self.path     = path
-    self.filename = filename
+  private let markdownFilename: String
+  private let jsonFilename: String
+  
+  init(path: AbsolutePath, jsonFilename: String, markdownFilename: String) {
+    self.path             = path
+    self.jsonFilename     = jsonFilename
+    self.markdownFilename = markdownFilename
   }
 
   func generateDocuments(for data: RaycastData) throws {
@@ -31,7 +34,7 @@ typealias SubGroups = [String: [ScriptCommand]]
 private extension Documentation {
   func generateMarkdown(for raycastData: RaycastData) throws {
     let documentFilePath = path.appending(
-      component: filename + ".md"
+      component: markdownFilename
     )
 
     guard let data = markdownData(for: raycastData.groups) else {
@@ -46,7 +49,7 @@ private extension Documentation {
 
   func generateJSON(for raycastData: RaycastData) throws {
     let documentFilePath = path.appending(
-      component: filename + ".json"
+      component: jsonFilename
     )
 
     let data = try raycastData.toData()

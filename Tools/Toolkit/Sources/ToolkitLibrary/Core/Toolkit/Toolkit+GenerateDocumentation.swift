@@ -8,7 +8,7 @@ import TSCBasic
 
 extension Toolkit {
   
-  public func generateDocumentation(outputFileName: String = "extensions") throws {
+  public func generateDocumentation(outputJSONFilename: String, outputMarkdownFilename: String) throws {
     guard fileSystem.exists(extensionsAbsolutePath) else {
       throw Error.extensionsFolderNotFound(extensionsAbsolutePath.pathString)
     }
@@ -23,7 +23,8 @@ extension Toolkit {
     
     let documentation = Documentation(
       path: extensionsAbsolutePath,
-      filename: outputFileName
+      jsonFilename: outputJSONFilename,
+      markdownFilename: outputMarkdownFilename
     )
     
     try documentation.generateDocuments(
