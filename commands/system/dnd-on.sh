@@ -4,12 +4,12 @@
 # Install via npm: `npm install --global do-not-disturb-cli`
 
 # @raycast.schemaVersion 1
-# @raycast.title Do Not Disturb - On
+# @raycast.title Turn On Do Not Disturb
 # @raycast.mode silent
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Uses sindresorhus/do-not-disturb-cli to turn on DND.
-# @raycast.icon 🌗
+# @raycast.icon 😴
 # @raycast.packageName System
 
 if ! command -v do-not-disturb &> /dev/null; then
