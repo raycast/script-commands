@@ -4,7 +4,7 @@
 # Install via npm: `npm install --global download-cli`
 
 # @raycast.schemaVersion 1
-# @raycast.title Download URL in clipboard
+# @raycast.title Download URL in Clipboard
 # @raycast.mode silent
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
