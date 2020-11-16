@@ -1,4 +1,4 @@
-#!/bin/bash -l
+#!/bin/bash
 
 # Dependency: requires psi (https://github.com/GoogleChromeLabs/psi)
 # Install via npm: `npm install -g psi`
