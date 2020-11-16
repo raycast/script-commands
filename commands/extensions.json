@@ -92,15 +92,15 @@
           "url" : "https:\/\/github.com\/japanese-goblinn"
         },
         "currentDirectoryPath" : null,
-        "description" : "This script copies URL of currently opened page in Safari into clipboard.",
-        "filename" : "safari_current_page_url.sh",
+        "description" : "This script copies to clipboard all URLs from frontmost Safari window.",
+        "filename" : "safari-current-window-urls.applescript",
         "icon" : "🧭",
         "mode" : "silent",
         "needsConfirmation" : null,
         "packageName" : "Safari",
         "refreshTime" : null,
         "schemaVersion" : 1,
-        "title" : "Copy current page URL"
+        "title" : "Copy Current Window URLs"
       },
       {
         "author" : {
@@ -108,15 +108,15 @@
           "url" : "https:\/\/github.com\/japanese-goblinn"
         },
         "currentDirectoryPath" : null,
-        "description" : "This script copies to clipboard all URLs from frontmost Safari window.",
-        "filename" : "safari_current_window_urls.applescript",
+        "description" : "This script copies URL of currently opened page in Safari into clipboard.",
+        "filename" : "safari-current-page-url.sh",
         "icon" : "🧭",
         "mode" : "silent",
         "needsConfirmation" : null,
         "packageName" : "Safari",
         "refreshTime" : null,
         "schemaVersion" : 1,
-        "title" : "Copy current window URLs"
+        "title" : "Copy Current Page URL"
       }
     ]
   },
@@ -151,7 +151,7 @@
         "packageName" : "Navigation",
         "refreshTime" : null,
         "schemaVersion" : 1,
-        "title" : "Open current Finder directory in Terminal"
+        "title" : "Open Current Finder Directory in Terminal"
       },
       {
         "author" : {
@@ -167,7 +167,7 @@
         "packageName" : "Navigation",
         "refreshTime" : null,
         "schemaVersion" : 1,
-        "title" : "Open current Terminal directory in Finder"
+        "title" : "Open Current Terminal Directory in Finder"
       },
       {
         "author" : null,
@@ -550,7 +550,7 @@
         "author" : null,
         "currentDirectoryPath" : null,
         "description" : null,
-        "filename" : "open-scriptCommandsRepository.sh",
+        "filename" : "open-script-commands-repository.sh",
         "icon" : "📜",
         "mode" : "silent",
         "needsConfirmation" : null,
@@ -605,7 +605,7 @@
         "packageName" : "Internet",
         "refreshTime" : null,
         "schemaVersion" : 1,
-        "title" : "Whois of clipboard URL"
+        "title" : "Whois of Clipboard URL"
       },
       {
         "author" : {
@@ -666,7 +666,7 @@
         "packageName" : "Internet",
         "refreshTime" : null,
         "schemaVersion" : 1,
-        "title" : "Ping address in clipboard"
+        "title" : "Ping Address in Clipboard"
       },
       {
         "author" : null,
@@ -708,7 +708,7 @@
         "packageName" : "Internet",
         "refreshTime" : null,
         "schemaVersion" : 1,
-        "title" : "Save clipboard URL to Wayback Machine"
+        "title" : "Save Clipboard URL to Wayback Machine"
       },
       {
         "author" : null,
