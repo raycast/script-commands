@@ -35,9 +35,11 @@ Images should go into dedicated `images` folder:
 Use dash-case format for script files and directories, and use proper file extensions: Applescript should be `.applescript`, Swift should be `.swift`, Bash should be `.sh`, etc.
 Example: `spotify-next-track.applescript`
 
-### `packageName` metadata
+### Metadata convention
 
-While `packageName` is an optional parameter and if it's missing Raycast will derive it from the directory name, it is required in this repository to improve portability. Make sure to always provide it in your script commands.
+- **Title:** Raycast's UI adopts title-cased strings for all command titles as per Apple's Human Interface Guidelines. Please make sure your command title follows this pattern to look good between other commands.
+- **Mode:** Use the `silent` mode for commands that are instant, e.g. `Toggle Hidden Files`. Use the `compact` mode for long-running tasks, e.g. some networking requests. Use the `fullOutput` mode for commands that print more information, e.g. output some file content. And use the `inline` mode for dashboard items, e.g. `Current Weather`.
+- **Package Name:** While `packageName` is an optional parameter and if it's missing Raycast will derive it from the directory name, it is required in this repository to improve portability. Make sure to always provide it in your script commands.
 
 ### Scripts that require additional modification
 
