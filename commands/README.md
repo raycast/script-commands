@@ -23,7 +23,7 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
-| 📜 | [Open Script Commands Repository](bookmarks/open-scriptCommandsRepository.sh) | N/A | Raycast |
+| 📜 | [Open Script Commands Repository](bookmarks/open-script-commands-repository.sh) | N/A | Raycast |
 
 ## Browsing
 
@@ -35,8 +35,8 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
-| 🧭 | [Copy current page URL](browsing/safari_current_page_url.sh) | This script copies URL of currently opened page in Safari into clipboard. | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
-| 🧭 | [Copy current window URLs](browsing/safari_current_window_urls.applescript) | This script copies to clipboard all URLs from frontmost Safari window. | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
+| 🧭 | [Copy Current Page URL](browsing/safari-current-page-url.sh) | This script copies URL of currently opened page in Safari into clipboard. | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
+| 🧭 | [Copy Current Window URLs](browsing/safari-current-window-urls.applescript) | This script copies to clipboard all URLs from frontmost Safari window. | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
 
 ## Communication
 
@@ -82,10 +82,10 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
+| 🌐 | [Ping Address in Clipboard](developer-utils/ping-from-clipboard.sh) | Ping an IP address or URL in clipboard. | [Caleb Stauffer](https://github.com/crstauf) |
 | 🌐 | [Ping Monitor](developer-utils/ping-monitor.template.sh) | Ping an IP address or URL on an interval. | [Caleb Stauffer](https://github.com/crstauf) |
-| 🌐 | [Ping address in clipboard](developer-utils/ping-from-clipboard.sh) | Ping an IP address or URL in clipboard. | [Caleb Stauffer](https://github.com/crstauf) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/developer-utils/images/ia-logo.jpg?raw=true" width="20" height="20"> | [Save clipboard URL to Wayback Machine](developer-utils/wayback-machine-save.sh) | Save clipboard URL to Wayback Machine | [Caleb Stauffer](https://github.com/crstauf) |
-| 🌐 | [Whois of clipboard URL](developer-utils/whois.sh) | Whois of clipboard URL. | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/developer-utils/images/ia-logo.jpg?raw=true" width="20" height="20"> | [Save Clipboard URL to Wayback Machine](developer-utils/wayback-machine-save.sh) | Save clipboard URL to Wayback Machine | [Caleb Stauffer](https://github.com/crstauf) |
+| 🌐 | [Whois of Clipboard URL](developer-utils/whois.sh) | Whois of clipboard URL. | [Caleb Stauffer](https://github.com/crstauf) |
 
 #### Xcode
 
@@ -101,6 +101,8 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ |
 | 📂 | [Open Applications](navigation/open-applications.sh) | N/A | Raycast |
 | 🖥 | [Open Clipboard URL on Desktop](navigation/open-desktop-url-from-clipboard.swift) | N/A | Raycast |
+| 📟 | [Open Current Finder Directory in Terminal](navigation/open-terminal-from-finder.applescript) | Open curren Finder directory in terminal | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
+| 📟 | [Open Current Terminal Directory in Finder](navigation/open-finder-from-terminal.applescript) | Open curren terminal directory in Finder | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
 | 📂 | [Open Desktop](navigation/open-desktop.sh) | N/A | Raycast |
 | 📂 | [Open Documents](navigation/open-documents.sh) | N/A | Raycast |
 | 📂 | [Open Downloads](navigation/open-downloads.sh) | N/A | Raycast |
@@ -108,8 +110,6 @@ This repository contains sample commands and documentation to write your own one
 | 📂 | [Open Library](navigation/open-library.sh) | N/A | Raycast |
 | 🌐 | [Open URL From Clipboard](navigation/open-url-from-clipboard.sh) | N/A | Raycast |
 | 📂 | [Open Utilities](navigation/open-utilities.sh) | N/A | Raycast |
-| 📟 | [Open current Finder directory in Terminal](navigation/open-terminal-from-finder.applescript) | Open curren Finder directory in terminal | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
-| 📟 | [Open current Terminal directory in Finder](navigation/open-finder-from-terminal.applescript) | Open curren terminal directory in Finder | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
 
 ## System
 
