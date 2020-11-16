@@ -1,4 +1,4 @@
-#!/bin/bash -l
+#!/bin/bash
 
 # Dependency: requires pageres (https://github.com/sindresorhus/pageres-cli)
 # Install via npm: `npm install --global pageres-cli`
