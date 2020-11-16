@@ -1,4 +1,4 @@
-#!/bin/bash -l
+#!/bin/bash
 
 # Dependency: emoj (https://github.com/kevva/download-cli)
 # Install via npm: `npm install --global download-cli`
