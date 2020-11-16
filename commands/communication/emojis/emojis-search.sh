@@ -4,11 +4,11 @@
 # Install via npm: `npm install --global emoj`
 
 # @raycast.schemaVersion 1
-# @raycast.title Get emojis
+# @raycast.title Search Related Emojis from Clipboard Content
 # @raycast.mode fullOutput
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Search emojis for clipboard value.
+# @raycast.description Search related emojis to clipboard content.
 # @raycast.needsConfirmation true
 # @raycast.packageName Communication
 # @raycast.icon 📙

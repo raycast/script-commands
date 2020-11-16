@@ -4,11 +4,11 @@
 # Install via npm: `npm install --global emoj`
 
 # @raycast.schemaVersion 1
-# @raycast.title Copy emoji
+# @raycast.title Search and Copy First Related Emoji from Clipboard Content
 # @raycast.mode compact
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Copy first emoji found from clipboard value.
+# @raycast.description Copy first emoji related to clipboard content.
 # @raycast.packageName Communication
 # @raycast.needsConfirmation true
 # @raycast.icon 📙
