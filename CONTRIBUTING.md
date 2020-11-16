@@ -9,7 +9,7 @@ Thank you for your interest in contributing to Raycast Script Commands! Here you
 Try to bundle scripts that are related in a directory / sub-directory. Avoid having generic folders with lots of different commands. For example instead of having one `media` directory that contains integrations with different services, it's better to create sub-directories for each service:
 
 ```markdown
-. script-commands
+. commands
 └─ media
    ├─ spotify
    ├─ apple-music
@@ -21,7 +21,7 @@ Reasoning behind it: to avoid automatically including scripts that people may no
 Images should go into dedicated `images` folder:
 
 ```markdown
-. script-commands
+. commands
 └─ media
    └─ spotify
       └─ images
