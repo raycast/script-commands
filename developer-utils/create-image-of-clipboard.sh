@@ -1,4 +1,4 @@
-#!/bin/bash -l
+#!/bin/bash
 
 # Dependency: carbon-now-cli (https://github.com/mixn/carbon-now-cli)
 # Install via npm: `npm i -g carbon-now-cli`
