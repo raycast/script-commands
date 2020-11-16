@@ -11,7 +11,7 @@ resolutions="1920x1080 390x844"
 # @raycast.mode silent
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Screenshot website using sindresorhus/pageres-cli.
+# @raycast.description Takes a screenshot of the Website from your Clipboard and saves it to the Desktop.
 # @raycast.packageName Internet
 # @raycast.needsConfirmation true
 # @raycast.currentDirectoryPath ~/Desktop
