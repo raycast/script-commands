@@ -17,10 +17,10 @@ extension ToolkitCommand {
 
     @Argument(help: "Path of the Raycast extensions folder.\n")
     var path: String = "./commands"
-    
+
     @Argument(help: "Output file name for the Markdown documentation.\n")
     var outputMarkdownFilename: String = "README.md"
-    
+
     @Argument(help: "Output file name for the Markdown documentation.\n")
     var outputJSONFilename: String = "extensions.json"
 
@@ -36,7 +36,7 @@ extension ToolkitCommand {
           outputJSONFilename: outputJSONFilename,
           outputMarkdownFilename: outputMarkdownFilename
         )
-        
+
         Toolkit.raycastDescription()
         Console.shared.writeGreen("Documents generated!")
       } catch {
