@@ -3,12 +3,9 @@
 # Dependecy: requires gpg (https://www.gnupg.org/)
 # Download: https://www.gnupg.org/download/#sec-1-1
 
-# Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Generate Password
 # @raycast.mode silent
-
-# Optional parameters:
 # @raycast.author Sven Hofmann
 # @raycast.authorURL https://github.com/hofmannsven
 # @raycast.description Generates a random password and copies it to the clipboard.
