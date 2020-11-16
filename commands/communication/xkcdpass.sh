@@ -5,7 +5,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title xkcdpass
+# @raycast.title Generate Passphrase
 # @raycast.mode silent
 
 # Optional parameters:
