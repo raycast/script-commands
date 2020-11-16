@@ -52,7 +52,7 @@ Example: `github-notifications.template.sh`
 
 ### Scripts that require installation of dependencies
 
-First, ask yourself if you can build the Script Command without any dependencies. Less or no dependencies make it easier for others to adopt your command. If the script would become to complicated without using a dependency, follow these guidelines:
+First, ask yourself if you can build the Script Command without any dependencies. Less or no dependencies make it easier for others to adopt your command. If the script would become too complex without using a dependency, follow these guidelines:
 
 1. At the top of the file add a comment section explicitly stating the dependency and how to install it. Example:
    ```
