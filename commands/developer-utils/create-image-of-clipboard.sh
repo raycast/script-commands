@@ -18,6 +18,9 @@ if ! command -v carbon-now &> /dev/null; then
 	exit 1;
 fi
 
-carbon-now --from-clipboard -h
+date=$(date +%s)
+filename="carbon-${date}"
+
+carbon-now --from-clipboard -h --target $filename
 
 echo "Image saved to Desktop"
