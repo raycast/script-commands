@@ -1,4 +1,4 @@
-#!/bin/bash -l
+#!/bin/bash
 
 # Dependency: requires xkcdpass (https://pypi.org/project/xkcdpass/).
 # Install via pip: `pip install xkcdpass`
