@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Dependecy: requires gpg (https://www.gnupg.org/)
+# Dependency: requires gpg (https://www.gnupg.org/)
 # Download: https://www.gnupg.org/download/#sec-1-1
 
 # @raycast.schemaVersion 1
