@@ -29,12 +29,12 @@ public extension Toolkit {
   }
   
   static func raycastDescription() {
-    Console.shared.write(string: information.name, color: .red, bold: true)
+    Console.shared.writeRed(information.name, bold: true)
   }
 
   static func version() {
     raycastDescription()
-    Console.shared.write("Current version: \(information.version)")
+    Console.shared.write("Current version: ", endLine: false)
+    Console.shared.writeYellow(information.version, bold: true)
   }
-  
 }

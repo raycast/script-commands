@@ -15,24 +15,27 @@ public final class Console {
     self.terminalController = TerminalController(stream: stdoutStream)
   }
   
-  public func writeError(_ message: String, bold: Bool = false) {
-    write(string: message, color: .red)
+  public func writeRed(_ message: String, bold: Bool = false, endLine: Bool = true) {
+    write(string: message, color: .red, bold: bold, endLine: endLine)
   }
   
-  public func writeWarning(_ message: String, bold: Bool = false) {
-    write(string: message, color: .yellow)
+  public func writeYellow(_ message: String, bold: Bool = false, endLine: Bool = true) {
+    write(string: message, color: .yellow, bold: bold, endLine: endLine)
   }
   
-  public func writeSuccess(_ message: String, bold: Bool = false) {
-    write(string: message, color: .green)
+  public func writeGreen(_ message: String, bold: Bool = false, endLine: Bool = true) {
+    write(string: message, color: .green, bold: bold, endLine: endLine)
   }
   
-  public func write(_ message: String, bold: Bool = false) {
-    write(string: message, color: .noColor, bold: bold)
+  public func write(_ message: String, bold: Bool = false, endLine: Bool = true) {
+    write(string: message, color: .noColor, bold: bold, endLine: endLine)
   }
   
-  public func write(string: String, color: TerminalController.Color, bold: Bool = false) {
+  public func write(string: String, color: TerminalController.Color, bold: Bool = false, endLine: Bool = true) {
     terminalController?.write(string, inColor: color, bold: bold)
-    terminalController?.endLine()
+    
+    if endLine {
+      terminalController?.endLine()
+    }
   }
 }
