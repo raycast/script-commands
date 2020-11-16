@@ -1,4 +1,4 @@
-#!/bin/bash -l
+#!/bin/bash
 
 # Dependency: requires lighthouse (https://developers.google.com/web/tools/lighthouse#cli)
 # Install via npm: `npm install -g lighthouse`
