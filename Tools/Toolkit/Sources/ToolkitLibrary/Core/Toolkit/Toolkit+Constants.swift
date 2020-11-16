@@ -7,7 +7,7 @@ import Foundation
 import TSCBasic
 
 public extension Toolkit {
-  
+
   internal var blockedFolderList: [String] {
     [
       ".git",
@@ -20,14 +20,14 @@ public extension Toolkit {
       "_enabled-commands"
     ]
   }
-  
+
   static var information: (name: String, version: String) {
     (
       name: "Raycast Toolkit",
       version: "0.2"
     )
   }
-  
+
   static func raycastDescription() {
     Console.shared.writeRed(information.name, bold: true)
   }

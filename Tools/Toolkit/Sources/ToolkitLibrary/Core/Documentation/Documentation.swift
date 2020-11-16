@@ -13,7 +13,7 @@ final class Documentation {
 
   private let markdownFilename: String
   private let jsonFilename: String
-  
+
   init(path: AbsolutePath, jsonFilename: String, markdownFilename: String) {
     self.path             = path
     self.jsonFilename     = jsonFilename

@@ -7,18 +7,18 @@ import Foundation
 
 extension ScriptCommand {
   typealias Authors = [Author]
-  
+
   struct Author: Codable {
     let name: String?
     let url: String?
 
     init(from decoder: Decoder) throws {
       let container = try decoder.container(keyedBy: InputCodingKeys.self)
-      
+
       name = try container.decodeIfPresent(String.self, forKey: .name)
       url = try container.decodeIfPresent(String.self, forKey: .url)
     }
-    
+
     func encode(to encoder: Encoder) throws {
       var container = encoder.container(keyedBy: OutputCodingKeys.self)
 
@@ -94,23 +94,22 @@ extension Array: MarkdownDescriptionProtocol where Element == ScriptCommand.Auth
 
   var markdownDescription: String {
     var authors = String.empty
-    
+
     for author in self {
       let separator = self.separator(for: author.name ?? .empty)
-      authors = authors + separator + author.markdownDescription
+      authors += separator + author.markdownDescription
     }
-    
+
     return authors
   }
-  
+
   func separator(for currentName: String) -> String {
     if let firstAuthor = first, currentName == firstAuthor.name {
       return .empty
-    }
-    else if let lastAuthor = last, currentName == lastAuthor.name {
+    } else if let lastAuthor = last, currentName == lastAuthor.name {
       return Separator.and
     }
-    
+
     return Separator.comma
   }
 }

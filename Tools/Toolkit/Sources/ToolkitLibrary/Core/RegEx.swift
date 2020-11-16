@@ -17,10 +17,10 @@ final class RegEx {
           .anchorsMatchLines
         ]
       )
-      
+
       let range = NSRange(text.startIndex..., in: text)
       return regex.matches(in: text, range: range)
-      
+
     } catch let error {
       print("Invalid regex: \(error.localizedDescription)")
       return []

@@ -11,7 +11,7 @@ struct Group: Codable {
   let name: String
   let path: String
   var scriptCommands: ScriptCommands = []
-  var subGroups: Groups? = nil
+  var subGroups: Groups?
 }
 
 // MARK: - MarkdownDescription Protocol
