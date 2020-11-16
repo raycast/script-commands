@@ -4,7 +4,7 @@
 # Install via npm: `npm install --global strip-indent-cli`
 
 # @raycast.schemaVersion 1
-# @raycast.title Shift clipboard contents left
+# @raycast.title Shift Clipboard Contents Left
 # @raycast.mode silent
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
