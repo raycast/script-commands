@@ -16,7 +16,7 @@ Try to bundle scripts that are related in a directory / sub-directory. Avoid hav
    └─ youtube
 ```
 
-Reasoning behind it: to avoid automatically including scripts that people may not be interested in. E.g. if you're using Spotify scripts, there is a lower chance you will need to access Apple Music.
+Reasoning behind it: To avoid automatically including scripts that people may not be interested in. E.g. if you're using Spotify scripts, there is a lower chance you will need to access Apple Music.
 
 Images should go into dedicated `images` folder:
 
