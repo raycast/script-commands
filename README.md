@@ -8,7 +8,9 @@ This repository contains sample commands and documentation to write your own one
 
 ## Awesome Script Commands
 
-Check out the [list](extensions.md) of all available Script Commands.
+You can find a lot of useful script commands built by the community [here](https://github.com/raycast/script-commands/tree/master/commands).
+
+Want to contribute? What a brilliant idea, please see this [contribution guide](https://github.com/raycast/script-commands/blob/master/CONTRIBUTING.md), it will help you with getting started.
 
 ## Install Script Commands
 
@@ -22,6 +24,12 @@ To install new commands, follow these steps:
 ![Preferences](https://github.com/raycast/script-commands/blob/master/screenshots/preferences.png?raw=true)
 
 To get started, download one of the sample commands in this repository or [write a custom script](https://github.com/raycast/script-commands/blob/master/README.md#write-script-commands).
+
+## How to use this repository
+
+Grab scripts that you want to use and copy them to a separate directory on your machine (you can use [_enabled-commands](https://github.com/raycast/script-commands/blob/master/_enabled-commands) folder from this repo for this).
+
+NOTE: We recommend against directly using script directories from this repo in Raycast to protect yourself from potential restructuring and new script commands suddenly appearing in Raycast.
 
 ## Write Script Commands
 
