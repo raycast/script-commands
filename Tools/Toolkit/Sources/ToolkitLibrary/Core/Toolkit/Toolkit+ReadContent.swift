@@ -143,6 +143,10 @@ extension Toolkit {
       }
     }
 
+    if currentAuthor.keys.count == 1 {
+      authors.append(currentAuthor)
+    }
+
     return authors
   }
 
