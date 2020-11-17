@@ -812,6 +812,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Clear Derived Data"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Sven Hofmann",
+              "url" : "https:\/\/github.com\/hofmannsven"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Generates a random password and copies it to the clipboard.",
+          "filename" : "generate-password.sh",
+          "icon" : "🔐",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Generate Password",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Generate Password"
         }
       ],
       "subGroups" : [
@@ -1454,5 +1472,5 @@
       ]
     }
   ],
-  "lastUpdate" : "2020-11-17T22:03:48Z"
+  "lastUpdate" : "2020-11-17T23:33:55Z"
 }
