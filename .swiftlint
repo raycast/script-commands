@@ -1,6 +1,6 @@
 indentation: 2
 included:
-  - Source
+  - Sources
 excluded:
   - .build
 disabled_rules:
@@ -17,6 +17,7 @@ disabled_rules:
   - function_body_length
   - type_body_length
 opt_in_rules:
+  - indentation_width
   - array_init
   - closure_end_indentation
   - closure_spacing
@@ -34,6 +35,8 @@ opt_in_rules:
   - vertical_whitespace_closing_braces
   - vertical_whitespace_opening_braces
   - yoda_condition
+indentation_width:
+  indentation_width: 2
 trailing_comma:
   mandatory_comma: true
 file_header:
