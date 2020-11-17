@@ -20,7 +20,7 @@ struct ScriptCommand: Codable {
   let needsConfirmation: Bool?
   let refreshTime: String?
 
-  private var groupPath: String?
+  private var leadingPath: String = ""
 
   enum CodingKeys: String, CodingKey {
     case schemaVersion
@@ -53,17 +53,13 @@ struct ScriptCommand: Codable {
       return image(for: value)
     }
 
-    guard let groupPath = self.groupPath else {
-      return .empty
-    }
-
     return image(
-      for: "https://raw.githubusercontent.com/raycast/script-commands/master/\(groupPath)/\(value)?raw=true"
+      for: "https://raw.githubusercontent.com/raycast/script-commands/master/commands/\(leadingPath)\(value)?raw=true"
     )
   }
 
-  mutating func setGroupPath(for group: Group) {
-    self.groupPath = group.path
+  mutating func setLeadingPath(_ value: String) {
+    self.leadingPath = value
   }
 }
 
@@ -105,7 +101,6 @@ extension ScriptCommand {
     try container.encode(needsConfirmation, forKey: .needsConfirmation)
     try container.encode(refreshTime, forKey: .refreshTime)
   }
-
 }
 
 // MARK: - Comparable
@@ -121,7 +116,6 @@ extension ScriptCommand: Comparable {
       && lhs.schemaVersion == rhs.schemaVersion
       && lhs.authors == rhs.authors
   }
-
 }
 
 // MARK: - MarkdownDescription Protocol
@@ -130,10 +124,6 @@ extension ScriptCommand: MarkdownDescriptionProtocol {
 
   var markdownDescription: String {
     var content: String = .empty
-
-    guard let groupPath = self.groupPath else {
-      return content
-    }
 
     var author = "Raycast"
     var details = "N/A"
@@ -146,7 +136,7 @@ extension ScriptCommand: MarkdownDescriptionProtocol {
       details = value
     }
 
-    let scriptPath = "\(groupPath)/\(filename)"
+    let scriptPath = "\(leadingPath)\(filename)"
     let header = """
         | \(iconString) | [\(title)](\(scriptPath)) | \(details) | \(author) |
         """
@@ -159,5 +149,4 @@ extension ScriptCommand: MarkdownDescriptionProtocol {
   var sectionTitle: String {
     .empty
   }
-
 }
