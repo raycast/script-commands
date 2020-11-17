@@ -376,6 +376,22 @@
         "title" : "Refresh Wallpaper"
       },
       {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Uses sindresorhus\/do-not-disturb-cli to turn on DND.",
+        "filename" : "dnd-on.sh",
+        "icon" : "😴",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "System",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Turn On Do Not Disturb"
+      },
+      {
         "author" : null,
         "currentDirectoryPath" : null,
         "description" : null,
@@ -513,6 +529,22 @@
         "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Restart"
+      },
+      {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Uses sindresorhus\/do-not-disturb-cli to turn on DND.",
+        "filename" : "dnd-off.sh",
+        "icon" : "😴",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "System",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Turn Off Do Not Disturb"
       },
       {
         "author" : null,

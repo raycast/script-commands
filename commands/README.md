@@ -131,6 +131,8 @@ This repository contains sample commands and documentation to write your own one
 | 🖥 | [Toggle Desktop Icons](system/toggle-desktop-icons.applescript) | A script command to show and hide icons of Desktop folder | [Raycast](https://raycast.com) |
 | 👓 | [Toggle Hidden Files](system/toggle-hidden-files.applescript) | Show and hide hidden files/folders which starts with "." (dot), i.e: .bash_rc, .ssh | [Thiago Holanda](https://twitter.com/tholanda) |
 | 🌗 | [Toggle System Appearance](system/toggle-system-appearance.applescript) | Script Command to switch between the system appearance, light and dark mode. | [Thiago Holanda](https://twitter.com/tholanda) |
+| 😴 | [Turn Off Do Not Disturb](system/dnd-off.sh) | Uses sindresorhus/do-not-disturb-cli to turn on DND. | [Caleb Stauffer](https://github.com/crstauf) |
+| 😴 | [Turn On Do Not Disturb](system/dnd-on.sh) | Uses sindresorhus/do-not-disturb-cli to turn on DND. | [Caleb Stauffer](https://github.com/crstauf) |
 
 ## Community
 
