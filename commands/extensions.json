@@ -1,786 +1,1376 @@
-[
-  {
-    "name" : "Conversions",
-    "path" : "conversions",
-    "scriptCommands" : [
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "column-to-comma.sh",
-        "icon" : null,
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Conversions",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Column to Comma"
-      },
-      {
-        "author" : {
-          "name" : "Caleb Stauffer",
-          "url" : "https:\/\/github.com\/crstauf"
+{
+  "groups" : [
+    {
+      "name" : "Conversions",
+      "path" : "conversions",
+      "scriptCommands" : [
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "column-to-comma.sh",
+          "icon" : null,
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Column To Comma",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Column to Comma"
         },
-        "currentDirectoryPath" : null,
-        "description" : "Convert HEX color values in your Clipboard to RGBA values.",
-        "filename" : "hex-to-rgba.sh",
-        "icon" : "🎨",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Conversions",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Hex to RGBA"
-      },
-      {
-        "author" : {
-          "name" : "Caleb Stauffer",
-          "url" : "https:\/\/github.com\/crstauf"
+        {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Convert HEX color values in your Clipboard to RGBA values.",
+          "filename" : "hex-to-rgba.sh",
+          "icon" : "🎨",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Hex To Rgba",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Hex to RGBA"
         },
-        "currentDirectoryPath" : null,
-        "description" : "Convert HEX color values in your Clipboard to RGB values.",
-        "filename" : "hex-to-rgb.sh",
-        "icon" : "🎨",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Conversions",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Hex to RGB"
-      },
-      {
-        "author" : {
-          "name" : "Siyuan Zhang",
-          "url" : "https:\/\/github.com\/kastnerorz"
+        {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Convert HEX color values in your Clipboard to RGB values.",
+          "filename" : "hex-to-rgb.sh",
+          "icon" : "🎨",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Hex To Rgb",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Hex to RGB"
         },
-        "currentDirectoryPath" : null,
-        "description" : "Convert epoch to human-readable date.",
-        "filename" : "epoch-to-human-date.sh",
-        "icon" : "⏱",
-        "mode" : "silent",
-        "needsConfirmation" : false,
-        "packageName" : "Conversions",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Convert Epoch to Human-Readable Date"
-      }
-    ]
-  },
-  {
-    "name" : "Browsing",
-    "path" : "browsing",
-    "scriptCommands" : [
-      {
-        "author" : {
-          "name" : "Thomas Paul Mann",
-          "url" : "https:\/\/github.com\/thomaspaulmann"
+        {
+          "authors" : [
+            {
+              "name" : "Siyuan Zhang",
+              "url" : "https:\/\/github.com\/kastnerorz"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Convert epoch to human-readable date.",
+          "filename" : "epoch-to-human-date.sh",
+          "icon" : "⏱",
+          "mode" : "silent",
+          "needsConfirmation" : false,
+          "packageName" : "Conversions",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Convert Epoch to Human-Readable Date"
+        }
+      ]
+    },
+    {
+      "name" : "Browsing",
+      "path" : "browsing",
+      "scriptCommands" : [
+        {
+          "authors" : [
+            {
+              "name" : "Thomas Paul Mann",
+              "url" : "https:\/\/github.com\/thomaspaulmann"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Shorten the URL in your Clipboard with Tiny URL.",
+          "filename" : "shorten-url.sh",
+          "icon" : "🔗",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Shorten Url",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Shorten URL From Clipboard"
         },
-        "currentDirectoryPath" : null,
-        "description" : "Shorten the URL in your Clipboard with Tiny URL.",
-        "filename" : "shorten-url.sh",
-        "icon" : "🔗",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Browsing",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Shorten URL From Clipboard"
-      },
-      {
-        "author" : {
-          "name" : "Kirill Gorbachyonok",
-          "url" : "https:\/\/github.com\/japanese-goblinn"
+        {
+          "authors" : [
+            {
+              "name" : "Kirill Gorbachyonok",
+              "url" : "https:\/\/github.com\/japanese-goblinn"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "This script copies to clipboard all URLs from frontmost Safari window.",
+          "filename" : "safari-current-window-urls.applescript",
+          "icon" : "🧭",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Safari",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Copy Current Window URLs"
         },
-        "currentDirectoryPath" : null,
-        "description" : "This script copies to clipboard all URLs from frontmost Safari window.",
-        "filename" : "safari-current-window-urls.applescript",
-        "icon" : "🧭",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Safari",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Copy Current Window URLs"
-      },
-      {
-        "author" : {
-          "name" : "Kirill Gorbachyonok",
-          "url" : "https:\/\/github.com\/japanese-goblinn"
+        {
+          "authors" : [
+            {
+              "name" : "Kirill Gorbachyonok",
+              "url" : "https:\/\/github.com\/japanese-goblinn"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "This script copies URL of currently opened page in Safari into clipboard.",
+          "filename" : "safari-current-page-url.sh",
+          "icon" : "🧭",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Safari",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Copy Current Page URL"
+        }
+      ]
+    },
+    {
+      "name" : "Navigation",
+      "path" : "navigation",
+      "scriptCommands" : [
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "open-library.sh",
+          "icon" : "📂",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Open Library",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open Library"
         },
-        "currentDirectoryPath" : null,
-        "description" : "This script copies URL of currently opened page in Safari into clipboard.",
-        "filename" : "safari-current-page-url.sh",
-        "icon" : "🧭",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Safari",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Copy Current Page URL"
-      }
-    ]
-  },
-  {
-    "name" : "Navigation",
-    "path" : "navigation",
-    "scriptCommands" : [
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "open-library.sh",
-        "icon" : "📂",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Navigation",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Open Library"
-      },
-      {
-        "author" : {
-          "name" : "Kirill Gorbachyonok",
-          "url" : "https:\/\/github.com\/japanese-goblinn"
+        {
+          "authors" : [
+            {
+              "name" : "Kirill Gorbachyonok",
+              "url" : "https:\/\/github.com\/japanese-goblinn"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Open curren Finder directory in terminal",
+          "filename" : "open-terminal-from-finder.applescript",
+          "icon" : "📟",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Open Terminal From Finder",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open Current Finder Directory in Terminal"
         },
-        "currentDirectoryPath" : null,
-        "description" : "Open curren Finder directory in terminal",
-        "filename" : "open-terminal-from-finder.applescript",
-        "icon" : "📟",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Navigation",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Open Current Finder Directory in Terminal"
-      },
-      {
-        "author" : {
-          "name" : "Kirill Gorbachyonok",
-          "url" : "https:\/\/github.com\/japanese-goblinn"
+        {
+          "authors" : [
+            {
+              "name" : "Kirill Gorbachyonok",
+              "url" : "https:\/\/github.com\/japanese-goblinn"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Open curren terminal directory in Finder",
+          "filename" : "open-finder-from-terminal.applescript",
+          "icon" : "📟",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Open Finder From Terminal",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open Current Terminal Directory in Finder"
         },
-        "currentDirectoryPath" : null,
-        "description" : "Open curren terminal directory in Finder",
-        "filename" : "open-finder-from-terminal.applescript",
-        "icon" : "📟",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Navigation",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Open Current Terminal Directory in Finder"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "open-applications.sh",
-        "icon" : "📂",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Navigation",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Open Applications"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "open-utilities.sh",
-        "icon" : "📂",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Navigation",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Open Utilities"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "open-url-from-clipboard.sh",
-        "icon" : "🌐",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Navigation",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Open URL From Clipboard"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "open-desktop.sh",
-        "icon" : "📂",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Navigation",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Open Desktop"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "open-documents.sh",
-        "icon" : "📂",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Navigation",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Open Documents"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "open-desktop-url-from-clipboard.swift",
-        "icon" : "🖥",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Navigation",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Open Clipboard URL on Desktop"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "open-home.sh",
-        "icon" : "📂",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Navigation",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Open Home"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "open-downloads.sh",
-        "icon" : "📂",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Navigation",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Open Downloads"
-      }
-    ]
-  },
-  {
-    "name" : "Dashboard",
-    "path" : "dashboard",
-    "scriptCommands" : [
-      {
-        "author" : {
-          "name" : "Caleb Stauffer",
-          "url" : "https:\/\/github.com\/crstauf"
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "open-applications.sh",
+          "icon" : "📂",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Open Applications",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open Applications"
         },
-        "currentDirectoryPath" : null,
-        "description" : "Get current weather report from wttr.in.",
-        "filename" : "current-weather.sh",
-        "icon" : "🌦️",
-        "mode" : "inline",
-        "needsConfirmation" : null,
-        "packageName" : "Dashboard",
-        "refreshTime" : "1h",
-        "schemaVersion" : 1,
-        "title" : "Current Weather"
-      },
-      {
-        "author" : {
-          "name" : "Caleb Stauffer",
-          "url" : "https:\/\/github.com\/crstauf"
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "open-utilities.sh",
+          "icon" : "📂",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Open Utilities",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open Utilities"
         },
-        "currentDirectoryPath" : null,
-        "description" : "Test download and upload connection speed",
-        "filename" : "speedtest.sh",
-        "icon" : "images\/speedtest-logo.png",
-        "mode" : "inline",
-        "needsConfirmation" : null,
-        "packageName" : "Internet",
-        "refreshTime" : "20m",
-        "schemaVersion" : 1,
-        "title" : "Speedtest"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "system-activity.sh",
-        "icon" : "📈",
-        "mode" : "inline",
-        "needsConfirmation" : null,
-        "packageName" : "Dashboard",
-        "refreshTime" : "5s",
-        "schemaVersion" : 1,
-        "title" : "System Activity"
-      }
-    ]
-  },
-  {
-    "name" : "System",
-    "path" : "system",
-    "scriptCommands" : [
-      {
-        "author" : {
-          "name" : "Valentin Chrétien",
-          "url" : "https:\/\/twitter.com\/valentinchrt"
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "open-url-from-clipboard.sh",
+          "icon" : "🌐",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Open Url From Clipboard",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open URL From Clipboard"
         },
-        "currentDirectoryPath" : null,
-        "description" : "A script command to start your current screen saver.",
-        "filename" : "screensaver.applescript",
-        "icon" : "🌀",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "System",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Screen Saver"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "empty-trash.applescript",
-        "icon" : "🗑",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "System",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Empty Trash"
-      },
-      {
-        "author" : {
-          "name" : "Caleb Stauffer",
-          "url" : "https:\/\/github.com\/crstauf"
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "open-desktop.sh",
+          "icon" : "📂",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Open Desktop",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open Desktop"
         },
-        "currentDirectoryPath" : null,
-        "description" : "Refresh the current display's wallpaper",
-        "filename" : "wallpaper-refresh.applescript",
-        "icon" : "🖼️",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "System",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Refresh Wallpaper"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "quit-all-apps.swift",
-        "icon" : "💥",
-        "mode" : "silent",
-        "needsConfirmation" : true,
-        "packageName" : "System",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Quit All Applications"
-      },
-      {
-        "author" : {
-          "name" : "Thiago Holanda",
-          "url" : "https:\/\/twitter.com\/tholanda"
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "open-documents.sh",
+          "icon" : "📂",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Open Documents",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open Documents"
         },
-        "currentDirectoryPath" : null,
-        "description" : "Show and hide hidden files\/folders which starts with \".\" (dot), i.e: .bash_rc, .ssh",
-        "filename" : "toggle-hidden-files.applescript",
-        "icon" : "👓",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "System",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Toggle Hidden Files"
-      },
-      {
-        "author" : {
-          "name" : "Thiago Holanda",
-          "url" : "https:\/\/twitter.com\/tholanda"
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "open-desktop-url-from-clipboard.swift",
+          "icon" : "🖥",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Open Desktop Url From Clipboard",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open Clipboard URL on Desktop"
         },
-        "currentDirectoryPath" : null,
-        "description" : "Script Command to switch between the system appearance, light and dark mode.",
-        "filename" : "toggle-system-appearance.applescript",
-        "icon" : "🌗",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "System",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Toggle System Appearance"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "open-last-download.swift",
-        "icon" : "💁‍♂️",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "System",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Open Last Download"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "eject-all-disks.applescript",
-        "icon" : "📀",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "System",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Eject All Disks"
-      },
-      {
-        "author" : {
-          "name" : "Raycast",
-          "url" : "https:\/\/raycast.com"
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "open-home.sh",
+          "icon" : "📂",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Open Home",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open Home"
         },
-        "currentDirectoryPath" : null,
-        "description" : "A script command to show and hide icons of Desktop folder",
-        "filename" : "toggle-desktop-icons.applescript",
-        "icon" : "🖥",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "System",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Toggle Desktop Icons"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "copy-last-download.swift",
-        "icon" : "💁",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "System",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Copy Last Download"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "copy-availability.swift",
-        "icon" : "📅",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "System",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Copy Availability"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "copy-last-screenshot.swift",
-        "icon" : "📸",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "System",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Copy Last Screenshot"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "restart.applescript",
-        "icon" : "♻️",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "System",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Restart"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "shutdown.applescript",
-        "icon" : "🛌",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "System",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Shut Down"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "sleep.applescript",
-        "icon" : "😴",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "System",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Sleep"
-      }
-    ]
-  },
-  {
-    "name" : "Bookmarks",
-    "path" : "bookmarks",
-    "scriptCommands" : [
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "open-script-commands-repository.sh",
-        "icon" : "📜",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Bookmarks",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Open Script Commands Repository"
-      }
-    ]
-  },
-  {
-    "name" : "Developer Utils",
-    "path" : "developer-utils",
-    "scriptCommands" : [
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "encode-base64.sh",
-        "icon" : "💻",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Developer Utils",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Encode Base64"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "decode-jwt.sh",
-        "icon" : "images\/jwt-logo.png",
-        "mode" : "fullOutput",
-        "needsConfirmation" : null,
-        "packageName" : "Developer Utils",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Decode JWT"
-      },
-      {
-        "author" : {
-          "name" : "Caleb Stauffer",
-          "url" : "https:\/\/github.com\/crstauf"
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "open-downloads.sh",
+          "icon" : "📂",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Open Downloads",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open Downloads"
+        }
+      ]
+    },
+    {
+      "name" : "Dashboard",
+      "path" : "dashboard",
+      "scriptCommands" : [
+        {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Get current weather report from wttr.in.",
+          "filename" : "current-weather.sh",
+          "icon" : "🌦️",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Current Weather",
+          "refreshTime" : "1h",
+          "schemaVersion" : 1,
+          "title" : "Current Weather"
         },
-        "currentDirectoryPath" : null,
-        "description" : "Whois of clipboard URL.",
-        "filename" : "whois.sh",
-        "icon" : "🌐",
-        "mode" : "silent",
-        "needsConfirmation" : true,
-        "packageName" : "Internet",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Whois of Clipboard URL"
-      },
-      {
-        "author" : {
-          "name" : "Maxim Krouk",
-          "url" : "https:\/\/github.com\/maximkrouk"
+        {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Test download and upload connection speed",
+          "filename" : "speedtest.sh",
+          "icon" : "images\/speedtest-logo.png",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Internet",
+          "refreshTime" : "20m",
+          "schemaVersion" : 1,
+          "title" : "Speedtest"
         },
-        "currentDirectoryPath" : null,
-        "description" : "Records simulator to Downloads folder with a filename from the clipboard",
-        "filename" : "record-simulator.sh",
-        "icon" : "📱",
-        "mode" : "compact",
-        "needsConfirmation" : true,
-        "packageName" : "Developer Utils",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Record Simulator"
-      },
-      {
-        "author" : {
-          "name" : "Caleb Stauffer",
-          "url" : "https:\/\/github.com\/crstauf"
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "system-activity.sh",
+          "icon" : "📈",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "System Activity",
+          "refreshTime" : "5s",
+          "schemaVersion" : 1,
+          "title" : "System Activity"
+        }
+      ]
+    },
+    {
+      "name" : "System",
+      "path" : "system",
+      "scriptCommands" : [
+        {
+          "authors" : [
+            {
+              "name" : "Valentin Chrétien",
+              "url" : "https:\/\/twitter.com\/valentinchrt"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "A script command to start your current screen saver.",
+          "filename" : "screensaver.applescript",
+          "icon" : "🌀",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Screen Saver"
         },
-        "currentDirectoryPath" : null,
-        "description" : "Ping an IP address or URL on an interval.",
-        "filename" : "ping-monitor.template.sh",
-        "icon" : "🌐",
-        "mode" : "inline",
-        "needsConfirmation" : null,
-        "packageName" : "Internet",
-        "refreshTime" : "10m",
-        "schemaVersion" : 1,
-        "title" : "Ping Monitor"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "generate-uuid.sh",
-        "icon" : "💻",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Developer Utils",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Generate UUID"
-      },
-      {
-        "author" : {
-          "name" : "Caleb Stauffer",
-          "url" : "https:\/\/github.com\/crstauf"
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "empty-trash.applescript",
+          "icon" : "🗑",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Empty Trash",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Empty Trash"
         },
-        "currentDirectoryPath" : null,
-        "description" : "Ping an IP address or URL in clipboard.",
-        "filename" : "ping-from-clipboard.sh",
-        "icon" : "🌐",
-        "mode" : "fullOutput",
-        "needsConfirmation" : true,
-        "packageName" : "Internet",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Ping Address in Clipboard"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "lorem-ipsum.sh",
-        "icon" : "📝",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Developer Utils",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Copy Lorem Ipsum"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "decode-base64.sh",
-        "icon" : "💻",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Developer Utils",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Decode Base64"
-      },
-      {
-        "author" : {
-          "name" : "Caleb Stauffer",
-          "url" : "https:\/\/github.com\/crstauf"
+        {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Refresh the current display's wallpaper",
+          "filename" : "wallpaper-refresh.applescript",
+          "icon" : "🖼️",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Refresh Wallpaper"
         },
-        "currentDirectoryPath" : null,
-        "description" : "Save clipboard URL to Wayback Machine",
-        "filename" : "wayback-machine-save.sh",
-        "icon" : "images\/ia-logo.jpg",
-        "mode" : "compact",
-        "needsConfirmation" : null,
-        "packageName" : "Internet",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Save Clipboard URL to Wayback Machine"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "prettify-json.sh",
-        "icon" : "💻",
-        "mode" : "fullOutput",
-        "needsConfirmation" : null,
-        "packageName" : "Developer Utils",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Prettify JSON"
-      },
-      {
-        "author" : null,
-        "currentDirectoryPath" : null,
-        "description" : null,
-        "filename" : "clear-derived-data.sh",
-        "icon" : "🧹",
-        "mode" : "compact",
-        "needsConfirmation" : null,
-        "packageName" : "Xcode",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Clear Derived Data"
-      }
-    ]
-  },
-  {
-    "name" : "Communication",
-    "path" : "communication",
-    "scriptCommands" : [
-      {
-        "author" : {
-          "name" : "Caleb Stauffer",
-          "url" : "https:\/\/github.com\/crstauf"
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "quit-all-apps.swift",
+          "icon" : "💥",
+          "mode" : "silent",
+          "needsConfirmation" : true,
+          "packageName" : "Quit All Apps",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Quit All Applications"
         },
-        "currentDirectoryPath" : null,
-        "description" : "Use xkcdpass to create a passphrase.",
-        "filename" : "xkcdpass.sh",
-        "icon" : "🔐",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Communication",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "Generate Passphrase"
-      },
-      {
-        "author" : {
-          "name" : "Caleb Stauffer and Thiago Holanda",
-          "url" : null
+        {
+          "authors" : [
+            {
+              "name" : "Thiago Holanda",
+              "url" : "https:\/\/twitter.com\/tholanda"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Show and hide hidden files\/folders which starts with \".\" (dot), i.e: .bash_rc, .ssh",
+          "filename" : "toggle-hidden-files.applescript",
+          "icon" : "👓",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Toggle Hidden Files",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle Hidden Files"
         },
-        "currentDirectoryPath" : null,
-        "description" : "Get most recent two-factor authentication code from iMessages.",
-        "filename" : "imessage-2fa.sh",
-        "icon" : "🔐",
-        "mode" : "silent",
-        "needsConfirmation" : null,
-        "packageName" : "Communication",
-        "refreshTime" : null,
-        "schemaVersion" : 1,
-        "title" : "2FA from iMessages"
-      }
-    ]
-  },
-  {
-    "name" : "Media",
-    "path" : "media",
-    "scriptCommands" : [
+        {
+          "authors" : [
+            {
+              "name" : "Thiago Holanda",
+              "url" : "https:\/\/twitter.com\/tholanda"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Script Command to switch between the system appearance, light and dark mode.",
+          "filename" : "toggle-system-appearance.applescript",
+          "icon" : "🌗",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Toggle System Appearance",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle System Appearance"
+        },
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "open-last-download.swift",
+          "icon" : "💁‍♂️",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Open Last Download",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open Last Download"
+        },
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "eject-all-disks.applescript",
+          "icon" : "📀",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Eject All Disks",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Eject All Disks"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Raycast",
+              "url" : "https:\/\/raycast.com"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "A script command to show and hide icons of Desktop folder",
+          "filename" : "toggle-desktop-icons.applescript",
+          "icon" : "🖥",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Toggle Desktop Icons",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle Desktop Icons"
+        },
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "copy-last-download.swift",
+          "icon" : "💁",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Copy Last Download",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Copy Last Download"
+        },
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "copy-availability.swift",
+          "icon" : "📅",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Copy Availability",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Copy Availability"
+        },
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "copy-last-screenshot.swift",
+          "icon" : "📸",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Copy Last Screenshot",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Copy Last Screenshot"
+        },
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "restart.applescript",
+          "icon" : "♻️",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Restart",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Restart"
+        },
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "shutdown.applescript",
+          "icon" : "🛌",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Shutdown",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Shut Down"
+        },
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "sleep.applescript",
+          "icon" : "😴",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Sleep",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Sleep"
+        }
+      ]
+    },
+    {
+      "name" : "Bookmarks",
+      "path" : "bookmarks",
+      "scriptCommands" : [
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "open-script-commands-repository.sh",
+          "icon" : "📜",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Open Script Commands Repository",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open Script Commands Repository"
+        }
+      ]
+    },
+    {
+      "name" : "Developer Utils",
+      "path" : "developer-utils",
+      "scriptCommands" : [
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "encode-base64.sh",
+          "icon" : "💻",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Encode Base64",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Encode Base64"
+        },
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "decode-jwt.sh",
+          "icon" : "images\/jwt-logo.png",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Decode Jwt",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Decode JWT"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Whois of clipboard URL.",
+          "filename" : "whois.sh",
+          "icon" : "🌐",
+          "mode" : "silent",
+          "needsConfirmation" : true,
+          "packageName" : "Internet",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Whois of Clipboard URL"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Maxim Krouk",
+              "url" : "https:\/\/github.com\/maximkrouk"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Records simulator to Downloads folder with a filename from the clipboard",
+          "filename" : "record-simulator.sh",
+          "icon" : "📱",
+          "mode" : "compact",
+          "needsConfirmation" : true,
+          "packageName" : "Record Simulator",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Record Simulator"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Ping an IP address or URL on an interval.",
+          "filename" : "ping-monitor.template.sh",
+          "icon" : "🌐",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Internet",
+          "refreshTime" : "10m",
+          "schemaVersion" : 1,
+          "title" : "Ping Monitor"
+        },
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "generate-uuid.sh",
+          "icon" : "💻",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Generate Uuid",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Generate UUID"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Ping an IP address or URL in clipboard.",
+          "filename" : "ping-from-clipboard.sh",
+          "icon" : "🌐",
+          "mode" : "fullOutput",
+          "needsConfirmation" : true,
+          "packageName" : "Internet",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Ping Address in Clipboard"
+        },
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "lorem-ipsum.sh",
+          "icon" : "📝",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Lorem Ipsum",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Copy Lorem Ipsum"
+        },
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "decode-base64.sh",
+          "icon" : "💻",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Decode Base64",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Decode Base64"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Save clipboard URL to Wayback Machine",
+          "filename" : "wayback-machine-save.sh",
+          "icon" : "images\/ia-logo.jpg",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Internet",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Save Clipboard URL to Wayback Machine"
+        },
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "prettify-json.sh",
+          "icon" : "💻",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Prettify Json",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Prettify JSON"
+        },
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "clear-derived-data.sh",
+          "icon" : "🧹",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Xcode",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Clear Derived Data"
+        }
+      ],
+      "subGroups" : [
+        {
+          "name" : "Google",
+          "path" : "google",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Run a PageSpeed Insights analysis on desktop of URL in clipboard.",
+              "filename" : "google-psi-desktop.sh",
+              "icon" : "images\/google-psi-logo.png",
+              "mode" : "fullOutput",
+              "needsConfirmation" : true,
+              "packageName" : "Google",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "PageSpeed Insights - Desktop"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Run a PageSpeed Insights analysis on mobile of URL in clipboard.",
+              "filename" : "google-psi-mobile.sh",
+              "icon" : "images\/google-psi-logo.png",
+              "mode" : "fullOutput",
+              "needsConfirmation" : true,
+              "packageName" : "Google",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "PageSpeed Insights - Mobile"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : "~\/Desktop",
+              "description" : "Open a Lighthouse report of URL in clipboard.",
+              "filename" : "google-lighthouse.sh",
+              "icon" : "images\/google-lighthouse-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : true,
+              "packageName" : "Google",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Lighthouse"
+            }
+          ]
+        },
+        {
+          "name" : "Github",
+          "path" : "github",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Create a GitHub Gist from clipboard contents and copy Gist URL.",
+              "filename" : "create-github-gist.template.sh",
+              "icon" : "images\/github-logo.png",
+              "mode" : "compact",
+              "needsConfirmation" : true,
+              "packageName" : "GitHub",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Create GitHub Gist from Clipboard"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Number of unread GitHub notifications.",
+              "filename" : "github-unread-notifications.template.sh",
+              "icon" : "images\/github-logo.png",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "GitHub",
+              "refreshTime" : "5m",
+              "schemaVersion" : 1,
+              "title" : "Unread Notifications"
+            }
+          ]
+        },
+        {
+          "name" : "Ip",
+          "path" : "ip",
+          "scriptCommands" : [
+            {
+              "authors" : null,
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "get-local-ip-v4.sh",
+              "icon" : "🌐",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Internet",
+              "refreshTime" : "1h",
+              "schemaVersion" : 1,
+              "title" : "Local IPv4"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Get IPv6 address of URL",
+              "filename" : "get-url-ip-v6.sh",
+              "icon" : "🌐",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Internet",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "URL IPv6"
+            },
+            {
+              "authors" : null,
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "get-external-ip-v4.sh",
+              "icon" : "🌐",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Internet",
+              "refreshTime" : "1h",
+              "schemaVersion" : 1,
+              "title" : "External IPv4"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Get IPv4 address of URL",
+              "filename" : "get-url-ip-v4.sh",
+              "icon" : "🌐",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Internet",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "URL IPv4"
+            },
+            {
+              "authors" : null,
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "get-external-ip-v6.sh",
+              "icon" : "🌐",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Internet",
+              "refreshTime" : "1h",
+              "schemaVersion" : 1,
+              "title" : "External IPv6"
+            },
+            {
+              "authors" : null,
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "get-local-ip-v6.sh",
+              "icon" : "🌐",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Internet",
+              "refreshTime" : "1h",
+              "schemaVersion" : 1,
+              "title" : "Local IPv6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name" : "Communication",
+      "path" : "communication",
+      "scriptCommands" : [
+        {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Use xkcdpass to create a passphrase.",
+          "filename" : "xkcdpass.sh",
+          "icon" : "🔐",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Communication",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Generate Passphrase"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer and Thiago Holanda",
+              "url" : null
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Get most recent two-factor authentication code from iMessages.",
+          "filename" : "imessage-2fa.sh",
+          "icon" : "🔐",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Imessage 2Fa",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "2FA from iMessages"
+        }
+      ],
+      "subGroups" : [
+        {
+          "name" : "Cloudup",
+          "path" : "cloudup",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Show Cloudup popup",
+              "filename" : "cloudup-show.sh",
+              "icon" : "images\/cloudup-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Cloudup",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Show"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Upload path or URL in clipboard to Cloudup",
+              "filename" : "cloudup-upload.sh",
+              "icon" : "images\/cloudup-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Cloudup",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Upload"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Open file dialog and upload to Cloudup",
+              "filename" : "cloudup-pick.sh",
+              "icon" : "images\/cloudup-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Cloudup",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Pick"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Upload clipboard contents to Cloudup",
+              "filename" : "cloudup-paste.sh",
+              "icon" : "images\/cloudup-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Cloudup",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Paste"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name" : "Media",
+      "path" : "media",
+      "scriptCommands" : [
 
-    ]
-  }
-]
+      ],
+      "subGroups" : [
+        {
+          "name" : "Apple Music",
+          "path" : "apple-music",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Stop Music",
+              "filename" : "apple-music-stop.applescript",
+              "icon" : "images\/apple-music-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Music",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Stop"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Toggle shuffle setting in Music",
+              "filename" : "apple-music-shuffle.applescript",
+              "icon" : "images\/apple-music-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Music",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Toggle Shuffle"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Toggle repeat settling in Music",
+              "filename" : "apple-music-repeat.applescript",
+              "icon" : "images\/apple-music-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Music",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Toggle Repeat"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Previous track in Music",
+              "filename" : "apple-music-previous.applescript",
+              "icon" : "images\/apple-music-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Music",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Previous"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Pause Music",
+              "filename" : "apple-music-pause.applescript",
+              "icon" : "images\/apple-music-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Music",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Pause"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Play Music",
+              "filename" : "apple-music-play.applescript",
+              "icon" : "images\/apple-music-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Music",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Play"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Next track in Music",
+              "filename" : "apple-music-next.applescript",
+              "icon" : "images\/apple-music-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Music",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Next"
+            }
+          ]
+        },
+        {
+          "name" : "Spotify",
+          "path" : "spotify",
+          "scriptCommands" : [
+            {
+              "authors" : null,
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "spotify-next-track.applescript",
+              "icon" : "images\/spotify-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Spotify",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Next Track"
+            },
+            {
+              "authors" : null,
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "spotify-play-pause.applescript",
+              "icon" : "images\/spotify-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Spotify",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Toggle Play\/Pause"
+            },
+            {
+              "authors" : null,
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "spotify-play.applescript",
+              "icon" : "images\/spotify-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Spotify",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Play"
+            },
+            {
+              "authors" : null,
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "spotify-previous-track.applescript",
+              "icon" : "images\/spotify-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Spotify",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Previous Track"
+            },
+            {
+              "authors" : null,
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "spotify-pause.applescript",
+              "icon" : "images\/spotify-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Spotify",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Pause"
+            }
+          ]
+        },
+        {
+          "name" : "Apple Tv",
+          "path" : "apple-tv",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Play TV",
+              "filename" : "apple-tv-play.applescript",
+              "icon" : "images\/apple-tv-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "TV",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Play"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Pause TV",
+              "filename" : "apple-tv-pause.applescript",
+              "icon" : "images\/apple-tv-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "TV",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Pause"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Stop TV",
+              "filename" : "apple-tv-stop.applescript",
+              "icon" : "images\/apple-tv-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "TV",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Stop"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "lastUpdate" : "2020-11-17T01:06:58Z"
+}
