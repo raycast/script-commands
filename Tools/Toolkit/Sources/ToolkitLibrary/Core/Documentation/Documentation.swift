@@ -86,7 +86,7 @@ private extension Documentation {
 
         This repository contains sample commands and documentation to write your own ones.
 
-        ### Content
+        ### Categories
         \(tableOfContents)\(contentString)
 
         ## Community
