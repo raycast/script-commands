@@ -61,21 +61,19 @@ private extension Documentation {
   }
 
   func markdownData(for groups: Groups) -> Data? {
-    var tableOfContents: String = .empty
-    var contentString: String = .empty
+    var tableOfContents = String.empty
+    var contentString = String.empty
 
     let sortedGroups = groups.sorted()
 
     sortedGroups.forEach {
-      tableOfContents += .newLine + $0.markdownDescription
+      tableOfContents += $0.markdownDescription
     }
 
     sortedGroups.forEach { group in
       contentString += .newLine + group.sectionTitle
 
-      contentString += self.markdown(
-        for: subGroups(for: group)
-      )
+      contentString += renderMarkdown(for: group, leadingPath: "\(group.path)/")
     }
 
     let markdown = """
@@ -106,53 +104,32 @@ private extension Documentation {
 
     return contentData
   }
-}
 
-// MARK: - SubGroups Private Methods
-
-private extension Documentation {
-  func subGroups(for group: Group) -> SubGroups {
-    var subGroups: [String: [ScriptCommand]] = [:]
-
-    for var script in group.scriptCommands {
-
-      var packageName = script.packageName ?? .empty
-      if packageName == group.name {
-        packageName = .empty
-      }
-
-      if subGroups[packageName] == nil {
-        subGroups[packageName] = []
-      }
-
-      script.setGroupPath(for: group)
-      subGroups[packageName]?.append(script)
-    }
-
-    return subGroups
-  }
-
-  func markdown(for subGroups: SubGroups) -> String {
+  func renderMarkdown(for group: Group, headline: Bool = false, leadingPath: String = .empty) -> String {
     var contentString = String.empty
 
-    for subGroup in subGroups.sorted(by: { $0.key < $1.key }) {
-      if subGroup.key.isEmpty == false {
+    if group.scriptCommands.count > 0 {
+      if headline {
         contentString += .newLine
-        contentString += .newLine + "#### \(subGroup.key)"
+        contentString += .newLine + "#### \(group.name)"
       }
 
       contentString += .newLine
       contentString += .newLine + "| Icon | Title | Description | Author |"
       contentString += .newLine + "| ---- | ----- | ----------- | ------ |"
 
-      let scripts = subGroup.value.sorted()
+      for var scriptCommand in group.scriptCommands.sorted() {
+        scriptCommand.setLeadingPath(leadingPath)
+        contentString += scriptCommand.markdownDescription
+      }
+    }
 
-      for script in scripts {
-        contentString += script.markdownDescription
+    if let subGroups = group.subGroups?.sorted() {
+      for subGroup in subGroups {
+        contentString += renderMarkdown(for: subGroup, headline: true, leadingPath: "\(leadingPath)\(subGroup.path)/")
       }
     }
 
     return contentString
   }
-
 }
