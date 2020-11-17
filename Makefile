@@ -6,7 +6,6 @@ EXECUTABLE_PATH_RELEASE = $(BUILD_PATH_RELEASE)/Toolkit
 BUILD_PATH_DEBUG = Tools/Toolkit/.build/debug
 EXECUTABLE_PATH_DEBUG= $(BUILD_PATH_DEBUG)/Toolkit
 
-
 clean:
 	rm -rf Tools/Toolkit/.build $(EXECUTABLE_NAME)
 
@@ -21,7 +20,4 @@ build-debug:
 	ln -s $(EXECUTABLE_PATH_DEBUG) $(EXECUTABLE_NAME)
 
 gen-docs: 
-	./$(EXECUTABLE_NAME) generate-documentation ./commands/
-	
-
-
+	./$(EXECUTABLE_NAME) generate-documentation
