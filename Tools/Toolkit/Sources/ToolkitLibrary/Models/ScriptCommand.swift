@@ -14,13 +14,13 @@ struct ScriptCommand: Codable {
   let mode: Mode?
   var packageName: String?
   let icon: String?
-  let author: Author?
+  let authors: [Author]?
   let details: String?
   let currentDirectoryPath: String?
   let needsConfirmation: Bool?
   let refreshTime: String?
 
-  private var groupPath: String?
+  private var leadingPath: String = ""
 
   enum CodingKeys: String, CodingKey {
     case schemaVersion
@@ -29,7 +29,7 @@ struct ScriptCommand: Codable {
     case mode
     case packageName
     case icon
-    case author
+    case authors
     case details = "description"
     case currentDirectoryPath
     case needsConfirmation
@@ -53,17 +53,13 @@ struct ScriptCommand: Codable {
       return image(for: value)
     }
 
-    guard let groupPath = self.groupPath else {
-      return .empty
-    }
-
     return image(
-      for: "https://raw.githubusercontent.com/raycast/script-commands/master/\(groupPath)/\(value)?raw=true"
+      for: "https://raw.githubusercontent.com/raycast/script-commands/master/commands/\(leadingPath)\(value)?raw=true"
     )
   }
 
-  mutating func setGroupPath(for group: Group) {
-    self.groupPath = group.path
+  mutating func setLeadingPath(_ value: String) {
+    self.leadingPath = value
   }
 }
 
@@ -73,7 +69,6 @@ extension ScriptCommand {
 
   init(from decoder: Decoder) throws {
     let container               = try decoder.container(keyedBy: CodingKeys.self)
-    let authorContainer         = try decoder.container(keyedBy: Author.InputCodingKeys.self)
 
     // Required
     self.schemaVersion          = try container.decode(Int.self, forKey: .schemaVersion)
@@ -88,20 +83,7 @@ extension ScriptCommand {
     self.currentDirectoryPath   = try container.decodeIfPresent(String.self, forKey: .currentDirectoryPath)
     self.needsConfirmation      = try container.decodeIfPresent(Bool.self, forKey: .needsConfirmation)
     self.refreshTime            = try container.decodeIfPresent(String.self, forKey: .refreshTime)
-
-    let name = try authorContainer.decodeIfPresent(String.self, forKey: .name)
-    let url = try authorContainer.decodeIfPresent(String.self, forKey: .url)
-
-    let author = Author(
-      name: name,
-      url: url
-    )
-
-    if name != nil || url != nil {
-      self.author = author
-    } else {
-      self.author = nil
-    }
+    self.authors                = try container.decodeIfPresent(Authors.self, forKey: .authors)
   }
 
   func encode(to encoder: Encoder) throws {
@@ -115,11 +97,10 @@ extension ScriptCommand {
     try container.encode(icon, forKey: .icon)
     try container.encode(details, forKey: .details)
     try container.encode(currentDirectoryPath, forKey: .currentDirectoryPath)
-    try container.encode(author, forKey: .author)
+    try container.encode(authors, forKey: .authors)
     try container.encode(needsConfirmation, forKey: .needsConfirmation)
     try container.encode(refreshTime, forKey: .refreshTime)
   }
-
 }
 
 // MARK: - Comparable
@@ -133,9 +114,8 @@ extension ScriptCommand: Comparable {
   static func == (lhs: ScriptCommand, rhs: ScriptCommand) -> Bool {
     lhs.title == rhs.title
       && lhs.schemaVersion == rhs.schemaVersion
-      && lhs.author == rhs.author
+      && lhs.authors == rhs.authors
   }
-
 }
 
 // MARK: - MarkdownDescription Protocol
@@ -145,14 +125,10 @@ extension ScriptCommand: MarkdownDescriptionProtocol {
   var markdownDescription: String {
     var content: String = .empty
 
-    guard let groupPath = self.groupPath else {
-      return content
-    }
-
     var author = "Raycast"
     var details = "N/A"
 
-    if let value = self.author {
+    if let value = self.authors {
       author = value.markdownDescription
     }
 
@@ -160,7 +136,7 @@ extension ScriptCommand: MarkdownDescriptionProtocol {
       details = value
     }
 
-    let scriptPath = "\(groupPath)/\(filename)"
+    let scriptPath = "\(leadingPath)\(filename)"
     let header = """
         | \(iconString) | [\(title)](\(scriptPath)) | \(details) | \(author) |
         """
@@ -173,5 +149,4 @@ extension ScriptCommand: MarkdownDescriptionProtocol {
   var sectionTitle: String {
     .empty
   }
-
 }

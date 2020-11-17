@@ -15,13 +15,10 @@ struct ToolkitCommand: ParsableCommand {
     commandName: "toolkit",
     abstract: "A tool to generate automatized documentation",
     subcommands: [
-      GenerateDocumentation.self
+      GenerateDocumentation.self,
+      Version.self
     ]
   )
-
-  @OptionGroup
-  var versionOptions: VersionOptions
-
 }
 
 ToolkitCommand.main()

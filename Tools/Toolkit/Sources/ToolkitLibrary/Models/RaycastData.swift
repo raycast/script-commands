@@ -5,4 +5,7 @@
 
 import Foundation
 
-typealias NSTextCheckingResults = [NSTextCheckingResult]
+struct RaycastData: Codable {
+  var lastUpdate = Date()
+  var groups = Groups()
+}

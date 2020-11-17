@@ -15,23 +15,34 @@ extension ToolkitCommand {
       abstract: "Generate the documentation in JSON and Markdown format"
     )
 
-    @Argument(help: "Path of the Raycast extensions folder. [Default path: ../../]")
-    var path: String = "../../"
+    @Argument(help: "Path of the Raycast extensions folder.\n")
+    var path: String = "./commands"
+
+    @Argument(help: "Output file name for the Markdown documentation.\n")
+    var outputMarkdownFilename: String = "README.md"
+
+    @Argument(help: "Output file name for the Markdown documentation.\n")
+    var outputJSONFilename: String = "extensions.json"
 
     func run() throws {
       let fileSystem = TSCBasic.localFileSystem
 
       do {
         let toolkit = Toolkit(
-          path: fileSystem.absolutePath(for: self.path)
+          path: fileSystem.absolutePath(for: path)
         )
 
-        try toolkit.generateDocumentation()
+        try toolkit.generateDocumentation(
+          outputJSONFilename: outputJSONFilename,
+          outputMarkdownFilename: outputMarkdownFilename
+        )
+
+        Toolkit.raycastDescription()
+        Console.shared.writeGreen("Documents generated!")
       } catch {
-        print("Error: \(error)")
+        Toolkit.raycastDescription()
+        Console.shared.writeRed("Error: \(error)")
       }
-
     }
-
   }
 }

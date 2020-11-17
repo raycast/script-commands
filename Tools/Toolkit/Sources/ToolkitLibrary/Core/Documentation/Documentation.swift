@@ -10,16 +10,19 @@ final class Documentation {
   private let fileSystem = TSCBasic.localFileSystem
 
   private let path: AbsolutePath
-  private let filename: String
 
-  init(path: AbsolutePath, filename: String) {
-    self.path     = path
-    self.filename = filename
+  private let markdownFilename: String
+  private let jsonFilename: String
+
+  init(path: AbsolutePath, jsonFilename: String, markdownFilename: String) {
+    self.path             = path
+    self.jsonFilename     = jsonFilename
+    self.markdownFilename = markdownFilename
   }
 
-  func generateDocuments(using groups: Groups) throws {
-    try generateMarkdown(using: groups)
-    try generateJSON(using: groups)
+  func generateDocuments(for data: RaycastData) throws {
+    try generateMarkdown(for: data)
+    try generateJSON(for: data)
   }
 
 }
@@ -29,12 +32,12 @@ final class Documentation {
 typealias SubGroups = [String: [ScriptCommand]]
 
 private extension Documentation {
-  func generateMarkdown(using groups: Groups) throws {
+  func generateMarkdown(for raycastData: RaycastData) throws {
     let documentFilePath = path.appending(
-      component: filename + ".md"
+      component: markdownFilename
     )
 
-    guard let data = markdownData(for: groups) else {
+    guard let data = markdownData(for: raycastData.groups) else {
       return
     }
 
@@ -44,12 +47,12 @@ private extension Documentation {
     )
   }
 
-  func generateJSON(using groups: Groups) throws {
+  func generateJSON(for raycastData: RaycastData) throws {
     let documentFilePath = path.appending(
-      component: filename + ".json"
+      component: jsonFilename
     )
 
-    let data = try groups.toData()
+    let data = try raycastData.toData()
 
     try fileSystem.writeFileContents(
       documentFilePath,
@@ -58,21 +61,19 @@ private extension Documentation {
   }
 
   func markdownData(for groups: Groups) -> Data? {
-    var tableOfContents: String = .empty
-    var contentString: String = .empty
+    var tableOfContents = String.empty
+    var contentString = String.empty
 
     let sortedGroups = groups.sorted()
 
     sortedGroups.forEach {
-      tableOfContents += .newLine + $0.markdownDescription
+      tableOfContents += $0.markdownDescription
     }
 
     sortedGroups.forEach { group in
       contentString += .newLine + group.sectionTitle
 
-      contentString += self.markdown(
-        for: subGroups(for: group)
-      )
+      contentString += renderMarkdown(for: group, leadingPath: "\(group.path)/")
     }
 
     let markdown = """
@@ -85,7 +86,7 @@ private extension Documentation {
 
         This repository contains sample commands and documentation to write your own ones.
 
-        ### Content
+        ### Categories
         \(tableOfContents)\(contentString)
 
         ## Community
@@ -93,7 +94,7 @@ private extension Documentation {
         This is a shared place and we're always looking for new Script Commands or other ways to improve Raycast.
         If you have anything cool to show, please send us a pull request. If we screwed something up,
         please report a bug. Join our
-        [Slack community](https://join.slack.com/t/raycastcommunity/shared_invite/zt-hhzj9i4m-D5~HwnTRsJKrcZmVDJ4mkg)
+        [Slack community](https://www.raycast.com/community)
         to brainstorm ideas with like-minded folks.
         """
 
@@ -103,53 +104,32 @@ private extension Documentation {
 
     return contentData
   }
-}
 
-// MARK: - SubGroups Private Methods
+  func renderMarkdown(for group: Group, headline: Bool = false, leadingPath: String = .empty) -> String {
+    var contentString = String.empty
 
-private extension Documentation {
-  func subGroups(for group: Group) -> SubGroups {
-    var subGroups: [String: [ScriptCommand]] = [:]
-
-    for var script in group.scriptCommands {
-
-      var packageName = script.packageName ?? .empty
-      if packageName == group.name {
-        packageName = .empty
-      }
-
-      if subGroups[packageName] == nil {
-        subGroups[packageName] = []
-      }
-
-      script.setGroupPath(for: group)
-      subGroups[packageName]?.append(script)
-    }
-
-    return subGroups
-  }
-
-  func markdown(for subGroups: SubGroups) -> String {
-    var contentString = ""
-
-    for subGroup in subGroups.sorted(by: { $0.key < $1.key }) {
-      if subGroup.key.isEmpty == false {
+    if group.scriptCommands.count > 0 {
+      if headline {
         contentString += .newLine
-        contentString += .newLine + "#### \(subGroup.key)"
+        contentString += .newLine + "#### \(group.name)"
       }
 
       contentString += .newLine
       contentString += .newLine + "| Icon | Title | Description | Author |"
       contentString += .newLine + "| ---- | ----- | ----------- | ------ |"
 
-      let scripts = subGroup.value.sorted()
+      for var scriptCommand in group.scriptCommands.sorted() {
+        scriptCommand.setLeadingPath(leadingPath)
+        contentString += scriptCommand.markdownDescription
+      }
+    }
 
-      for script in scripts {
-        contentString += script.markdownDescription
+    if let subGroups = group.subGroups?.sorted() {
+      for subGroup in subGroups {
+        contentString += renderMarkdown(for: subGroup, headline: true, leadingPath: "\(leadingPath)\(subGroup.path)/")
       }
     }
 
     return contentString
   }
-
 }
