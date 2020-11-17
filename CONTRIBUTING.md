@@ -48,7 +48,7 @@ Example: `spotify-next-track.applescript`
 
 Example: `github-notifications.template.sh`
 
-*NOTE:* This might change as soon as we introduce a better way to provide parameters / enviromental variables.
+*NOTE:* This might change as soon as we introduce a better way to provide parameters / environmental variables.
 
 ### Scripts that require installation of dependencies
 
