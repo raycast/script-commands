@@ -17,7 +17,8 @@ public extension Toolkit {
       ".github",
       "templates",
       "images",
-      "_enabled-commands"
+      "_enabled-commands",
+      ".swiftpm"
     ]
   }
 
