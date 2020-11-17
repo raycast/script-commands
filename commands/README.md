@@ -90,6 +90,7 @@ This repository contains sample commands and documentation to write your own one
 | 💻 | [Decode Base64](developer-utils/decode-base64.sh) | N/A | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/images/jwt-logo.png?raw=true" width="20" height="20"> | [Decode JWT](developer-utils/decode-jwt.sh) | N/A | Raycast |
 | 💻 | [Encode Base64](developer-utils/encode-base64.sh) | N/A | Raycast |
+| 🔐 | [Generate Password](developer-utils/generate-password.sh) | Generates a random password and copies it to the clipboard. | [Sven Hofmann](https://github.com/hofmannsven) |
 | 💻 | [Generate UUID](developer-utils/generate-uuid.sh) | N/A | Raycast |
 | 🌐 | [Ping Address in Clipboard](developer-utils/ping-from-clipboard.sh) | Ping an IP address or URL in clipboard. | [Caleb Stauffer](https://github.com/crstauf) |
 | 🌐 | [Ping Monitor](developer-utils/ping-monitor.template.sh) | Ping an IP address or URL on an interval. | [Caleb Stauffer](https://github.com/crstauf) |
