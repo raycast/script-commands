@@ -1038,8 +1038,12 @@
         {
           "authors" : [
             {
-              "name" : "Caleb Stauffer and Thiago Holanda",
-              "url" : null
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            },
+            {
+              "name" : "Thiago Holanda",
+              "url" : "https:\/\/twitter.com\/tholanda"
             }
           ],
           "currentDirectoryPath" : null,
@@ -1450,5 +1454,5 @@
       ]
     }
   ],
-  "lastUpdate" : "2020-11-17T21:51:02Z"
+  "lastUpdate" : "2020-11-17T22:03:48Z"
 }

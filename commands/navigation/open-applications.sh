@@ -8,4 +8,4 @@
 # Optional parameters:
 # @raycast.icon 📂
 
-open ~/Applications
+open /Applications
