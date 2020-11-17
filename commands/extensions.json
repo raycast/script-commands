@@ -401,6 +401,24 @@
           "title" : "Refresh Wallpaper"
         },
         {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Uses sindresorhus\/do-not-disturb-cli to turn on DND.",
+          "filename" : "dnd-on.sh",
+          "icon" : "😴",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Turn On Do Not Disturb"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : null,
@@ -544,6 +562,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Restart"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Uses sindresorhus\/do-not-disturb-cli to turn on DND.",
+          "filename" : "dnd-off.sh",
+          "icon" : "😴",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Turn Off Do Not Disturb"
         },
         {
           "authors" : null,
@@ -1096,6 +1132,48 @@
               "title" : "Paste"
             }
           ]
+        },
+        {
+          "name" : "Emojis",
+          "path" : "emojis",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Search related emojis to clipboard content.",
+              "filename" : "emojis-search.sh",
+              "icon" : "📙",
+              "mode" : "fullOutput",
+              "needsConfirmation" : true,
+              "packageName" : "Communication",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Search Related Emojis from Clipboard Content"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Copy first emoji related to clipboard content.",
+              "filename" : "emoji-copy.sh",
+              "icon" : "📙",
+              "mode" : "compact",
+              "needsConfirmation" : true,
+              "packageName" : "Communication",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Search and Copy First Related Emoji from Clipboard Content"
+            }
+          ]
         }
       ]
     },
@@ -1372,5 +1450,5 @@
       ]
     }
   ],
-  "lastUpdate" : "2020-11-17T01:06:58Z"
+  "lastUpdate" : "2020-11-17T21:51:02Z"
 }

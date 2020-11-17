@@ -13,6 +13,7 @@ This repository contains sample commands and documentation to write your own one
 - [Browsing](#browsing)
 - [Communication](#communication)
   - [Cloudup](#cloudup)
+  - [Emojis](#emojis)
 - [Conversions](#conversions)
 - [Dashboard](#dashboard)
 - [Developer Utils](#developer-utils)
@@ -55,6 +56,13 @@ This repository contains sample commands and documentation to write your own one
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/cloudup/images/cloudup-logo.png?raw=true" width="20" height="20"> | [Pick](communication/cloudup/cloudup-pick.sh) | Open file dialog and upload to Cloudup | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/cloudup/images/cloudup-logo.png?raw=true" width="20" height="20"> | [Show](communication/cloudup/cloudup-show.sh) | Show Cloudup popup | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/cloudup/images/cloudup-logo.png?raw=true" width="20" height="20"> | [Upload](communication/cloudup/cloudup-upload.sh) | Upload path or URL in clipboard to Cloudup | [Caleb Stauffer](https://github.com/crstauf) |
+
+#### Emojis
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| 📙 | [Search Related Emojis from Clipboard Content](communication/emojis/emojis-search.sh) | Search related emojis to clipboard content. | [Caleb Stauffer](https://github.com/crstauf) |
+| 📙 | [Search and Copy First Related Emoji from Clipboard Content](communication/emojis/emoji-copy.sh) | Copy first emoji related to clipboard content. | [Caleb Stauffer](https://github.com/crstauf) |
 
 ## Conversions
 
