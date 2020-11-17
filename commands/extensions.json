@@ -744,6 +744,22 @@
     "scriptCommands" : [
       {
         "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Use xkcdpass to create a passphrase.",
+        "filename" : "xkcdpass.sh",
+        "icon" : "🔐",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Communication",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Generate Passphrase"
+      },
+      {
+        "author" : {
           "name" : "Caleb Stauffer and Thiago Holanda",
           "url" : null
         },
