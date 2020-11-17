@@ -20,6 +20,7 @@ settings=""
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Apply preset screen settings.
+# @raycast.packageName System
 # @raycast.icon 🖥️
 
 if ! command -v displayplacer &> /dev/null; then
