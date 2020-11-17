@@ -6,7 +6,10 @@
 # @raycast.mode silent
 
 # Optional parameters:
-# @raycast.author Caleb Stauffer and Thiago Holanda
+# @raycast.author Caleb Stauffer
+# @raycast.authorURL https://github.com/crstauf
+# @raycast.author Thiago Holanda
+# @raycast.authorURL https://twitter.com/tholanda
 # @raycast.description Get most recent two-factor authentication code from iMessages.
 # @raycast.icon 🔐
 
