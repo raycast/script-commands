@@ -22,7 +22,36 @@ extension Group: MarkdownDescriptionProtocol {
   }
 
   var markdownDescription: String {
-    "- [\(name)](#\(path))"
+    renderTree(for: self, level: 0)
+  }
+
+  func renderItem(for group: Group, level: Int = 0) -> String {
+    "\(indent: level)- [\(group.name)](#\(group.path))"
+  }
+
+  func renderTree(for group: Group, level: Int) -> String {
+    var description = String.empty
+
+    if let subGroups = group.subGroups?.sorted() {
+      description += renderItem(
+        for: group,
+        level: level
+      )
+
+      for subGroup in subGroups {
+        description += renderTree(
+          for: subGroup,
+          level: level + 1
+        )
+      }
+    } else {
+      description += renderItem(
+        for: group,
+        level: level
+      )
+    }
+
+    return description
   }
 }
 
