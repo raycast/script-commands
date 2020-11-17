@@ -43,6 +43,7 @@ This repository contains sample commands and documentation to write your own one
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
 | 🔐 | [2FA from iMessages](communication/imessage-2fa.sh) | Get most recent two-factor authentication code from iMessages. | Caleb Stauffer and Thiago Holanda |
+| 🔐 | [Generate Passphrase](communication/xkcdpass.sh) | Use xkcdpass to create a passphrase. | [Caleb Stauffer](https://github.com/crstauf) |
 
 ## Conversions
 
