@@ -8,12 +8,11 @@ resolutions="1920x1080 390x844"
 
 # @raycast.schemaVersion 1
 # @raycast.title Screenshot Website from Clipboard
-# @raycast.mode silent
+# @raycast.mode compact
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Takes a screenshot of the Website from your Clipboard and saves it to the Desktop.
 # @raycast.packageName Internet
-# @raycast.needsConfirmation true
 # @raycast.currentDirectoryPath ~/Desktop
 # @raycast.icon 🖼️
 
