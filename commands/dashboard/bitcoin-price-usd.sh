@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Bitcoin price in USD
+# @raycast.title Bitcoin Price
 # @raycast.mode inline
 # @raycast.refreshTime 5s
 # @raycast.packageName Dashboard
