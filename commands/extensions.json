@@ -116,6 +116,24 @@
         {
           "authors" : [
             {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : "~\/Desktop",
+          "description" : "Takes a screenshot of the Website from your Clipboard and saves it to the Desktop.",
+          "filename" : "website-screenshots.sh",
+          "icon" : "🖼️",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Internet",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Screenshot Website from Clipboard"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Kirill Gorbachyonok",
               "url" : "https:\/\/github.com\/japanese-goblinn"
             }
@@ -1472,5 +1490,5 @@
       ]
     }
   ],
-  "lastUpdate" : "2020-11-18T16:14:08Z"
+  "lastUpdate" : "2020-11-19T11:32:49Z"
 }
