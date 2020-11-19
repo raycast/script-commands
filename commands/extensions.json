@@ -1238,6 +1238,19 @@
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : null,
+          "filename" : "amazon.sh",
+          "icon" : "images\/amazon.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in Amazon"
+        },
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
           "filename" : "grep-app-search.sh",
           "icon" : "https:\/\/grep.app\/favicon.ico",
           "mode" : "silent",
@@ -1548,5 +1561,5 @@
       ]
     }
   ],
-  "lastUpdate" : "2020-11-19T16:08:59Z"
+  "lastUpdate" : "2020-11-19T16:37:11Z"
 }
