@@ -1458,6 +1458,24 @@
               "title" : "Toggle Play\/Pause"
             },
             {
+              "authors" : [
+                {
+                  "name" : "Jack LaFond",
+                  "url" : "https:\/\/github.com\/jacc"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Get link to current Spotify playing song",
+              "filename" : "spotify-now-playing-url.applescript",
+              "icon" : "images\/spotify.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Spotify",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Copy Current Playing Song URL"
+            },
+            {
               "authors" : null,
               "currentDirectoryPath" : null,
               "description" : null,
@@ -1561,5 +1579,5 @@
       ]
     }
   ],
-  "lastUpdate" : "2020-11-19T16:37:11Z"
+  "updatedAt" : "2020-11-19T23:01:23Z"
 }
