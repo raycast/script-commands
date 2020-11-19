@@ -10,4 +10,4 @@
 # @raycast.packageName Web Searches
 # @raycast.argument1 { "type": "text", "placeholder": "query" }
 
-open "https://grep.app/search?q=$1"
+open "https://grep.app/search?q=${1// /%20}"
