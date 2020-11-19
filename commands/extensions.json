@@ -1218,6 +1218,64 @@
       ]
     },
     {
+      "name" : "Web Searches",
+      "path" : "web-searches",
+      "scriptCommands" : [
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "twitter-search.sh",
+          "icon" : "images\/twitter.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in Twitter"
+        },
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "grep-app-search.sh",
+          "icon" : "https:\/\/grep.app\/favicon.ico",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in grep.app"
+        },
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "duck-duck-go.sh",
+          "icon" : "images\/duck-duck-go.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in DuckDuckGo"
+        },
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "google-search.sh",
+          "icon" : "images\/google.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in Google"
+        }
+      ]
+    },
+    {
       "name" : "Media",
       "path" : "media",
       "scriptCommands" : [
@@ -1490,5 +1548,5 @@
       ]
     }
   ],
-  "lastUpdate" : "2020-11-19T11:32:49Z"
+  "lastUpdate" : "2020-11-19T15:12:30Z"
 }
