@@ -88,7 +88,7 @@ Use `argument[1..3]` metadata to specify custom arguments that will be displayed
 | type          | Input type. For now only "text" value available.| Yes      | 1.2.0+      | 
 | placeholder   | Placeholder for the input field.                | Yes      | 1.2.0+      |
 
-**Maximum number of arguments:** 3 (if you feel like it's not enough for your use case, please let is know via feedback or in the Slack community)
+**Maximum number of arguments:** 3 (if you feel it's not enough for your use case, please let us know via feedback or in the [Slack community](https://www.raycast.com/community))
 
 Here's an example of a simple web search script with two arguments:
 ```bash
