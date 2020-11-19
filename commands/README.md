@@ -8,6 +8,7 @@ or triggering dev workflows.
 This repository contains sample commands and documentation to write your own ones.
 
 ### Categories
+
 - [Bookmarks](#bookmarks)
 - [Browsing](#browsing)
 - [Communication](#communication)
