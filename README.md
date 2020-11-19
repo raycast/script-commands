@@ -108,6 +108,8 @@ Here's an example of a simple web search script with two arguments:
 open "https://www.google.com/search?q=flights from $1 to $2"
 ```
 
+*💡Pro tip:* When typing alias + space, Raycast automatically will move focus to the first input field.
+
 ### Error Handling
 
 If the script exits with a status code not equal to 0, Raycast interprets it as failed and shows a toast that the script failed to run.
