@@ -9,24 +9,25 @@ This repository contains sample commands and documentation to write your own one
 
 ### Categories
 
-- [Bookmarks](#bookmarks)
-- [Browsing](#browsing)
-- [Communication](#communication)
-  - [Cloudup](#cloudup)
-  - [Emojis](#emojis)
-- [Conversions](#conversions)
-- [Dashboard](#dashboard)
-- [Developer Utils](#developer-utils)
-  - [Github](#github)
-  - [Google](#google)
-  - [Ip](#ip)
-- [Media](#media)
-  - [Apple Music](#apple-music)
-  - [Apple Tv](#apple-tv)
-  - [Spotify](#spotify)
-- [Navigation](#navigation)
-- [System](#system)
-- [Web Searches](#web-searches)
+1. [Bookmarks](#bookmarks)
+2. [Browsing](#browsing)
+3. [Communication](#communication)
+      1. [Cloudup](#cloudup)
+      2. [Emojis](#emojis)
+4. [Conversions](#conversions)
+5. [Dashboard](#dashboard)
+6. [Developer Utils](#developer-utils)
+      1. [Github](#github)
+      2. [Google](#google)
+      3. [Ip](#ip)
+7. [Media](#media)
+      1. [Apple Music](#apple-music)
+      2. [Apple Tv](#apple-tv)
+      3. [Spotify](#spotify)
+8. [Navigation](#navigation)
+9. [System](#system)
+10. [Web Searches](#web-searches)
+11. [Community](#community)
 
 ## Bookmarks
 
@@ -207,6 +208,7 @@ This repository contains sample commands and documentation to write your own one
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/google.png?raw=true" width="20" height="20"> | [Search in Google](web-searches/google-search.sh) | N/A | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/twitter.png?raw=true" width="20" height="20"> | [Search in Twitter](web-searches/twitter-search.sh) | N/A | Raycast |
 | <img src="https://grep.app/favicon.ico" width="20" height="20"> | [Search in grep.app](web-searches/grep-app-search.sh) | N/A | Raycast |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/npmjs.png?raw=true" width="20" height="20"> | [Search in npmjs.com](web-searches/npmjs.sh) | N/A | [Tom](https://github.com/tborychowski) |
 
 ## Community
 
