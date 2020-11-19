@@ -6,7 +6,7 @@
 # @raycast.mode silent
 
 # Optional parameters:
-# @raycast.icon images/spotify.png
+# @raycast.icon images/spotify-logo.png
 # @raycast.packageName Spotify
 # Documentation:
 # @raycast.author Jack LaFond
