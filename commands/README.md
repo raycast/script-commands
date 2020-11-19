@@ -26,6 +26,7 @@ This repository contains sample commands and documentation to write your own one
   - [Spotify](#spotify)
 - [Navigation](#navigation)
 - [System](#system)
+- [Web Searches](#web-searches)
 
 ## Bookmarks
 
@@ -195,6 +196,15 @@ This repository contains sample commands and documentation to write your own one
 | 🌗 | [Toggle System Appearance](system/toggle-system-appearance.applescript) | Script Command to switch between the system appearance, light and dark mode. | [Thiago Holanda](https://twitter.com/tholanda) |
 | 😴 | [Turn Off Do Not Disturb](system/dnd-off.sh) | Uses sindresorhus/do-not-disturb-cli to turn on DND. | [Caleb Stauffer](https://github.com/crstauf) |
 | 😴 | [Turn On Do Not Disturb](system/dnd-on.sh) | Uses sindresorhus/do-not-disturb-cli to turn on DND. | [Caleb Stauffer](https://github.com/crstauf) |
+
+## Web Searches
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/duck-duck-go.png?raw=true" width="20" height="20"> | [Search in DuckDuckGo](web-searches/duck-duck-go.sh) | N/A | Raycast |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/google.png?raw=true" width="20" height="20"> | [Search in Google](web-searches/google-search.sh) | N/A | Raycast |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/twitter.png?raw=true" width="20" height="20"> | [Search in Twitter](web-searches/twitter-search.sh) | N/A | Raycast |
+| <img src="https://grep.app/favicon.ico" width="20" height="20"> | [Search in grep.app](web-searches/grep-app-search.sh) | N/A | Raycast |
 
 ## Community
 
