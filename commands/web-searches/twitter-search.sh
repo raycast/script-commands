@@ -10,4 +10,4 @@
 # @raycast.packageName Web Searches
 # @raycast.argument1 { "type": "text", "placeholder": "query" }
 
-open "https://twitter.com/search?q=$1&src=typed_query"
+open "https://twitter.com/search?q=${1// /%20}&src=typed_query"

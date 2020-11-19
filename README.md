@@ -105,7 +105,7 @@ Here's an example of a simple web search script with two arguments:
 # @raycast.argument1 { "type": "text", "placeholder": "from city" }
 # @raycast.argument2 { "type": "text", "placeholder": "to city" }
 
-open "https://www.google.com/search?q=flights from $1 to $2"
+open "https://www.google.com/search?q=flights%20from%20${1// /%20}%20to%20${1// /%20}"
 ```
 
 *💡Pro tip:* When typing alias + space, Raycast automatically will move focus to the first input field.
