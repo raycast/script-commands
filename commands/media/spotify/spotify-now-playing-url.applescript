@@ -7,7 +7,7 @@
 
 # Optional parameters:
 # @raycast.icon images/spotify.png
-
+# @raycast.packageName Spotify
 # Documentation:
 # @raycast.author Jack LaFond
 # @raycast.authorURL https://github.com/jacc
