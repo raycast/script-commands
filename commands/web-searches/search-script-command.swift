@@ -22,7 +22,7 @@ typealias ScriptCommands = [ScriptCommand]
 // MARK: - Models
 
 struct RaycastData: Codable {
-  var lastUpdate = Date()
+  var updatedAt = Date()
   var groups = Groups()
 }
 struct Group: Codable {
