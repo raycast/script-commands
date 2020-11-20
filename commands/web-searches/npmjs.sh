@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title NPM search package
+# @raycast.title Search NPM Packages
 # @raycast.mode silent
 
 # Optional parameters:

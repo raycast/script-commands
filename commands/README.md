@@ -207,7 +207,6 @@ This repository contains sample commands and documentation to write your own one
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/google.png?raw=true" width="20" height="20"> | [Search in Google](web-searches/google-search.sh) | N/A | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/twitter.png?raw=true" width="20" height="20"> | [Search in Twitter](web-searches/twitter-search.sh) | N/A | Raycast |
 | <img src="https://grep.app/favicon.ico" width="20" height="20"> | [Search in grep.app](web-searches/grep-app-search.sh) | N/A | Raycast |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/npmjs.png?raw=true" width="20" height="20"> | [Search in npmjs.com](web-searches/npmjs.sh) | N/A | [Tom](https://github.com/tborychowski) |
 
 ## Community
 
