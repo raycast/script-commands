@@ -10,8 +10,10 @@
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Create beautiful image of clipboard contents (typically code).
 # @raycast.packageName Developer Utilities
-# @raycast.needsConfirmation true
 # @raycast.currentDirectoryPath ~/Desktop
+
+# For best experience, change needsConfirmation to "true".
+# @raycast.needsConfirmation false
 
 if ! command -v carbon-now &> /dev/null; then
 	echo "carbon-now command is required (https://github.com/mixn/carbon-now-cli).";
