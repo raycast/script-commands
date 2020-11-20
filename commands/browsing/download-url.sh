@@ -4,7 +4,6 @@
 # Install via npm: `npm install --global download-cli`
 
 # @raycast.schemaVersion 1
-# @raycast.mode silent
 # @raycast.title Download URL
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
@@ -12,6 +11,9 @@
 # @raycast.packageName Developer Utilities
 # @raycast.argument1 { "type": "text", "placeholder": "URL" }
 # @raycast.currentDirectoryPath ~/Desktop
+
+# For best experience, change mode to silent.
+# @raycast.mode compact
 
 if ! command -v download &> /dev/null; then
 	echo "download command is required (https://github.com/kevva/download-cli).";
