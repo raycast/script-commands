@@ -4,13 +4,13 @@
 # Install via npm: `npm install --global download-cli`
 
 # @raycast.schemaVersion 1
-# @raycast.title Download URL in Clipboard
 # @raycast.mode silent
+# @raycast.title Download URL
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Download URL in clipboard.
+# @raycast.description Download URL to Desktop.
 # @raycast.packageName Developer Utilities
-# @raycast.needsConfirmation true
+# @raycast.argument1 { "type": "text", "placeholder": "URL" }
 # @raycast.currentDirectoryPath ~/Desktop
 
 if ! command -v download &> /dev/null; then
@@ -18,11 +18,11 @@ if ! command -v download &> /dev/null; then
 	exit 1;
 fi
 
-clipboard=$(pbpaste)
+url=$1
 regex='(https?)://[-A-Za-z0-9\+&@#/%?=~_|!:,.;]*[-A-Za-z0-9\+&@#/%=~_|]'
 
-if [[ $clipboard =~ $regex ]]; then 
-	download -o ~/Desktop $clipboard
+if [[ $url =~ $regex ]]; then 
+	download -o ~/Desktop $url
 	echo "Downloaded URL to Desktop"
 else
 	echo "Clipboard is not a valid URL"
