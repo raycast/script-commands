@@ -8,10 +8,11 @@
 # Optional parameters:
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Convert HEX color values in your Clipboard to RGBA values.
+# @raycast.description Convert HEX color values to RGBA values.
 # @raycast.icon 🎨
+# @raycast.argument1 { "type": "text", "placeholder": "HEX" }
 
-hex=$(pbpaste)
+hex=$1
 first="${hex:0:1}"
 
 if [ "#" = "$first" ]; then
