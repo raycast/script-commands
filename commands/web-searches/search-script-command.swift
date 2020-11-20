@@ -117,6 +117,10 @@ extension Group: Comparable {
 extension String {
   static var newLine = "\n"
   static var empty = ""
+  
+  var trimmedText: String {
+    trimmingCharacters(in: .whitespacesAndNewlines)
+  }
 }
 
 // MARK: - Store
@@ -162,14 +166,14 @@ final class ScriptCommandsStore {
     task.resume()
     semaphore.wait()
     
-    guard let wrappedData = data else {
+    guard let unwrappedData = data else {
       throw StoreError.emptyData
     }
     
     let decoder = JSONDecoder()
     decoder.dateDecodingStrategy = .iso8601
     
-    let raycastData = try decoder.decode(RaycastData.self, from: wrappedData)
+    let raycastData = try decoder.decode(RaycastData.self, from: unwrappedData)
     
     return raycastData
   }
@@ -191,13 +195,17 @@ final class ScriptCommandsStore {
       }
     }
     catch {
-      print("Error: \(error)")
+      exit(1)
     }
   }
   
   private func search(for query: String, in groups: Groups) {
     for group in groups {
-      search(for: query, in: group, leadingPath: group.path)
+      search(
+        for: query, 
+        in: group, 
+        leadingPath: group.path
+      )
     }
     
     scriptCommands = scriptCommands.sorted()
@@ -205,7 +213,7 @@ final class ScriptCommandsStore {
   
   private func search(for query: String, in group: Group, leadingPath: String = "") {
     if group.scriptCommands.count > 0 {
-      for var scriptCommand in group.scriptCommands.sorted() {
+      for var scriptCommand in group.scriptCommands {
         
         if scriptCommand.contains(query) {
           scriptCommand.setLeadingPath(
@@ -217,9 +225,13 @@ final class ScriptCommandsStore {
       }
     }
     
-    if let subGroups = group.subGroups?.sorted() {
+    if let subGroups = group.subGroups {
       for subGroup in subGroups {
-        search(for: query, in: subGroup, leadingPath: "\(leadingPath)/\(subGroup.path)")
+        search(
+          for: query, 
+          in: subGroup, 
+          leadingPath: "\(leadingPath)/\(subGroup.path)"
+        )
       }
     }
   }
@@ -251,7 +263,7 @@ final class ScriptCommandsStore {
 }
 
 if CommandLine.arguments.count > 1 {
-  let query = CommandLine.arguments[1].lowercased()
+  let query = CommandLine.arguments[1].lowercased().trimmedText
   
   if query.isEmpty {
     print("Query must not be empty")
