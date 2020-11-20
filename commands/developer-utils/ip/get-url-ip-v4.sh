@@ -11,9 +11,8 @@
 # @raycast.description Get IPv4 address of URL
 # @raycast.packageName Internet
 # @raycast.icon 🌐
+# @raycast.argument1 { "type": "text", "placeholder": "URL" }
 
-clipboard=$(pbpaste)
-
-ip=$(dig -4 +short +time=1 $clipboard | awk '{ print ; exit }')
+ip=$(dig -4 +short +time=1 $1 | awk '{ print ; exit }')
 echo $ip | pbcopy
 echo "Copied $ip"
