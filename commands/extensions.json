@@ -1225,6 +1225,19 @@
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : null,
+          "filename" : "npmjs.sh",
+          "icon" : "images\/npmjs.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search NPM Packages"
+        },
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
           "filename" : "twitter-search.sh",
           "icon" : "images\/twitter.png",
           "mode" : "silent",
@@ -1467,7 +1480,7 @@
               "currentDirectoryPath" : null,
               "description" : "Get link to current Spotify playing song",
               "filename" : "spotify-now-playing-url.applescript",
-              "icon" : "images\/spotify.png",
+              "icon" : "images\/spotify-logo.png",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Spotify",
@@ -1579,5 +1592,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-19T23:01:23Z"
+  "updatedAt" : "2020-11-20T09:09:11Z"
 }

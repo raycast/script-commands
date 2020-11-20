@@ -153,7 +153,7 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/spotify/images/spotify.png?raw=true" width="20" height="20"> | [Copy Current Playing Song URL](media/spotify/spotify-now-playing-url.applescript) | Get link to current Spotify playing song | [Jack LaFond](https://github.com/jacc) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/spotify/images/spotify-logo.png?raw=true" width="20" height="20"> | [Copy Current Playing Song URL](media/spotify/spotify-now-playing-url.applescript) | Get link to current Spotify playing song | [Jack LaFond](https://github.com/jacc) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/spotify/images/spotify-logo.png?raw=true" width="20" height="20"> | [Next Track](media/spotify/spotify-next-track.applescript) | N/A | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/spotify/images/spotify-logo.png?raw=true" width="20" height="20"> | [Pause](media/spotify/spotify-pause.applescript) | N/A | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/spotify/images/spotify-logo.png?raw=true" width="20" height="20"> | [Play](media/spotify/spotify-play.applescript) | N/A | Raycast |
@@ -202,6 +202,7 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/npmjs.png?raw=true" width="20" height="20"> | [Search NPM Packages](web-searches/npmjs.sh) | N/A | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/amazon.png?raw=true" width="20" height="20"> | [Search in Amazon](web-searches/amazon.sh) | N/A | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/duck-duck-go.png?raw=true" width="20" height="20"> | [Search in DuckDuckGo](web-searches/duck-duck-go.sh) | N/A | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/google.png?raw=true" width="20" height="20"> | [Search in Google](web-searches/google-search.sh) | N/A | Raycast |
