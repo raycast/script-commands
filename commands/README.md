@@ -1,3 +1,4 @@
+<!-- AUTO GENERATED FILE. DO NOT EDIT. -->
 # Raycast Script Commands
 
 [Raycast](https://raycast.com) lets you control your tools with a few keystrokes
