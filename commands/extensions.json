@@ -1225,6 +1225,19 @@
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : null,
+          "filename" : "npmjs.sh",
+          "icon" : "images\/npmjs.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search npm Packages"
+        },
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
           "filename" : "twitter-search.sh",
           "icon" : "images\/twitter.png",
           "mode" : "silent",
@@ -1272,6 +1285,19 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search in DuckDuckGo"
+        },
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "youtube.sh",
+          "icon" : "images\/youtube.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in YouTube"
         },
         {
           "authors" : null,
@@ -1458,6 +1484,24 @@
               "title" : "Toggle Play\/Pause"
             },
             {
+              "authors" : [
+                {
+                  "name" : "Jack LaFond",
+                  "url" : "https:\/\/github.com\/jacc"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Get link to current Spotify playing song",
+              "filename" : "spotify-now-playing-url.applescript",
+              "icon" : "images\/spotify-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Spotify",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Copy Current Playing Song URL"
+            },
+            {
               "authors" : null,
               "currentDirectoryPath" : null,
               "description" : null,
@@ -1561,5 +1605,5 @@
       ]
     }
   ],
-  "lastUpdate" : "2020-11-19T16:37:11Z"
+  "updatedAt" : "2020-11-20T19:51:39Z"
 }
