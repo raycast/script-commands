@@ -9,7 +9,7 @@
 # @raycast.icon images/iterm-logo.png
 #
 # Documentation:
-# @raycast.description Open curren iTerm directory in Finder
+# @raycast.description Open Current iTerm Directory in Finder
 # @raycast.author Kirill Gorbachyonok
 # @raycast.authorURL https://github.com/japanese-goblinn
 
