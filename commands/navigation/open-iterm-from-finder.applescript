@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Open current Finder directory in iTerm
+# @raycast.title Open Current Finder Directory in iTerm
 # @raycast.mode silent
 #
 # Optional parameters:
