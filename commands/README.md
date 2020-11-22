@@ -205,6 +205,7 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/amazon.png?raw=true" width="20" height="20"> | [Search in Amazon](web-searches/amazon.sh) | N/A | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/duck-duck-go.png?raw=true" width="20" height="20"> | [Search in DuckDuckGo](web-searches/duck-duck-go.sh) | N/A | Raycast |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/ecosia.png?raw=true" width="20" height="20"> | [Search in Ecosia](web-searches/ecosia.sh) | N/A | [Sasivarnan R](https://github.com/sasivarnan) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/google.png?raw=true" width="20" height="20"> | [Search in Google](web-searches/google-search.sh) | N/A | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/twitter.png?raw=true" width="20" height="20"> | [Search in Twitter](web-searches/twitter-search.sh) | N/A | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/youtube.png?raw=true" width="20" height="20"> | [Search in YouTube](web-searches/youtube.sh) | N/A | Raycast |
