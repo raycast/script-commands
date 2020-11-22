@@ -6,6 +6,7 @@
 import Foundation
 
 struct RaycastData: Codable {
-  var updatedAt = Date()
   var groups = Groups()
+  var updatedAt = Date()
+  var totalScriptCommands = 0
 }

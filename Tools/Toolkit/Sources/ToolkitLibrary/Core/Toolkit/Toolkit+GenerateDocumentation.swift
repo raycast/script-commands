@@ -21,6 +21,8 @@ extension Toolkit {
       ignoreFilesInDir: true
     )
 
+    data.totalScriptCommands = totalScriptCommands
+    
     let documentation = Documentation(
       path: extensionsAbsolutePath,
       jsonFilename: outputJSONFilename,

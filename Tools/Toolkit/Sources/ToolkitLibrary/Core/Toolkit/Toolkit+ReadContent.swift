@@ -45,6 +45,7 @@ extension Toolkit {
       }
 
       if let scriptCommand = readScriptCommand(from: file) {
+        self.totalScriptCommands += 1
         scriptCommands.append(scriptCommand)
       }
     }
