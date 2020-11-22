@@ -514,6 +514,24 @@
         {
           "authors" : [
             {
+              "name" : "Jesse Claven",
+              "url" : "https:\/\/github.com\/jesse-c"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Define a word using the built-in dictionary\/dicionaries.",
+          "filename" : "define-word.swift",
+          "icon" : "🗣",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Define Word"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Raycast",
               "url" : "https:\/\/raycast.com"
             }
@@ -1623,5 +1641,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-22T23:22:33Z"
+  "updatedAt" : "2020-11-22T23:43:36Z"
 }

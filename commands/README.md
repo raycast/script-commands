@@ -184,6 +184,7 @@ This repository contains sample commands and documentation to write your own one
 | 📅 | [Copy Availability](system/copy-availability.swift) | N/A | Raycast |
 | 💁 | [Copy Last Download](system/copy-last-download.swift) | N/A | Raycast |
 | 📸 | [Copy Last Screenshot](system/copy-last-screenshot.swift) | N/A | Raycast |
+| 🗣 | [Define Word](system/define-word.swift) | Define a word using the built-in dictionary/dicionaries. | [Jesse Claven](https://github.com/jesse-c) |
 | 📀 | [Eject All Disks](system/eject-all-disks.applescript) | N/A | Raycast |
 | 🗑 | [Empty Trash](system/empty-trash.applescript) | N/A | Raycast |
 | 💁‍♂️ | [Open Last Download](system/open-last-download.swift) | N/A | Raycast |
