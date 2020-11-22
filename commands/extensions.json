@@ -1261,6 +1261,24 @@
           "title" : "Search in Amazon"
         },
         {
+          "authors" : [
+            {
+              "name" : "Sasivarnan R",
+              "url" : "https:\/\/github.com\/sasivarnan"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "ecosia.sh",
+          "icon" : "images\/ecosia.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in Ecosia"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : null,
@@ -1605,5 +1623,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-21T17:02:00Z"
+  "updatedAt" : "2020-11-22T18:06:24Z"
 }
