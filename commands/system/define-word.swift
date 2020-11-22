@@ -15,13 +15,13 @@
 
 import Foundation
 
-if CommandLine.argc != 2 {
-  print("Must pass 1 word to define")
-} else {
+if CommandLine.argc > 1 {
   let argument = CommandLine.arguments[1].lowercased()
 
   // https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/DictionaryServicesProgGuide/access/access.html#//apple_ref/doc/uid/TP40006152-CH5-SW3
   let result = DCSCopyTextDefinition(nil, argument as CFString, CFRangeMake(0, argument.count))?.takeRetainedValue() as String?
 
   print(result ?? "No definition found")
+} else {
+  print("Must pass 1 word to define") 
 }
