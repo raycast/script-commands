@@ -378,11 +378,11 @@
           "currentDirectoryPath" : null,
           "description" : "Get current Bitcoin price from Coindesk.",
           "filename" : "bitcoin-price-usd.sh",
-          "icon" : "bitcoin-logo.png",
+          "icon" : "images\/bitcoin-logo.png",
           "mode" : "inline",
           "needsConfirmation" : null,
           "packageName" : "Dashboard",
-          "refreshTime" : "5s",
+          "refreshTime" : "1h",
           "schemaVersion" : 1,
           "title" : "Bitcoin Price"
         },
@@ -1713,5 +1713,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-23T16:44:46Z"
+  "updatedAt" : "2020-11-23T16:50:02Z"
 }
