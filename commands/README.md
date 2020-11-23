@@ -100,6 +100,7 @@ This repository contains sample commands and documentation to write your own one
 | 💻 | [Prettify JSON](developer-utils/prettify-json.sh) | N/A | Raycast |
 | 📱 | [Record Simulator](developer-utils/record-simulator.sh) | Records simulator to Downloads folder with a filename from the clipboard | [Maxim Krouk](https://github.com/maximkrouk) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/images/ia-logo.jpg?raw=true" width="20" height="20"> | [Save URL to Wayback Machine](developer-utils/wayback-machine-save.sh) | Save URL to Wayback Machine | [Caleb Stauffer](https://github.com/crstauf) |
+| 🔎 | [Search Script Command](developer-utils/search-script-command.swift) | Search for Script Commands available in the Raycast repository | [Thiago Holanda](https://twitter.com/tholanda) |
 | 🌐 | [Whois](developer-utils/whois.sh) | Whois of URL. | [Caleb Stauffer](https://github.com/crstauf) |
 
 #### Github
