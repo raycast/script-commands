@@ -6,7 +6,7 @@
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Search GitHub.
-# @raycast.icon images/cloudflare-logo.png
+# @raycast.icon images/github-logo.png
 # @raycast.argument1 { "type": "text", "placeholder": "Query" }
 # @raycast.packageName Web Searches
 
