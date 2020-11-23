@@ -7,7 +7,7 @@
 # @raycast.refreshTime 1m
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Report process with greatest system RAM usage.
+# @raycast.description Report process with largest system RAM usage.
 # @raycast.packageName System
 # @raycast.icon 📈
 
