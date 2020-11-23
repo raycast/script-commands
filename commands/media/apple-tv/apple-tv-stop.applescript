@@ -6,7 +6,7 @@
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Stop TV
-# @raycast.packageName TV
+# @raycast.packageName Apple TV
 # @raycast.icon images/apple-tv-logo.png
 
 tell application "TV"

@@ -4,6 +4,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Open Current Finder Directory in iTerm
 # @raycast.mode silent
+# @raycast.packageName Navigation
 #
 # Optional parameters:
 # @raycast.icon images/iterm-logo.png

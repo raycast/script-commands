@@ -4,6 +4,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Open Current Finder Directory in Terminal
 # @raycast.mode silent
+# @raycast.packageName Navigation
 #
 # Optional parameters:
 # @raycast.icon 📟
