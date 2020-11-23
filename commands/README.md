@@ -169,7 +169,9 @@ This repository contains sample commands and documentation to write your own one
 | 📂 | [Open Applications](navigation/open-applications.sh) | N/A | Raycast |
 | 🖥 | [Open Clipboard URL on Desktop](navigation/open-desktop-url-from-clipboard.swift) | N/A | Raycast |
 | 📟 | [Open Current Finder Directory in Terminal](navigation/open-terminal-from-finder.applescript) | Open curren Finder directory in terminal | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/navigation/images/iterm-logo.png?raw=true" width="20" height="20"> | [Open Current Finder Directory in iTerm](navigation/open-iterm-from-finder.applescript) | Open Current Finder Directory in iTerm | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
 | 📟 | [Open Current Terminal Directory in Finder](navigation/open-finder-from-terminal.applescript) | Open curren terminal directory in Finder | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/navigation/images/iterm-logo.png?raw=true" width="20" height="20"> | [Open Current iTerm Directory in Finder](navigation/open-finder-from-iterm.applescript) | Open Current iTerm Directory in Finder | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
 | 📂 | [Open Desktop](navigation/open-desktop.sh) | N/A | Raycast |
 | 📂 | [Open Documents](navigation/open-documents.sh) | N/A | Raycast |
 | 📂 | [Open Downloads](navigation/open-downloads.sh) | N/A | Raycast |
