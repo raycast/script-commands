@@ -244,6 +244,24 @@
           "title" : "Open URL From Clipboard"
         },
         {
+          "authors" : [
+            {
+              "name" : "Kirill Gorbachyonok",
+              "url" : "https:\/\/github.com\/japanese-goblinn"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Open Current Finder Directory in iTerm",
+          "filename" : "open-iterm-from-finder.applescript",
+          "icon" : "images\/iterm-logo.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Open Iterm From Finder",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open Current Finder Directory in iTerm"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : null,
@@ -268,6 +286,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Open Documents"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Kirill Gorbachyonok",
+              "url" : "https:\/\/github.com\/japanese-goblinn"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Open Current iTerm Directory in Finder",
+          "filename" : "open-finder-from-iterm.applescript",
+          "icon" : "images\/iterm-logo.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Open Finder From Iterm",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open Current iTerm Directory in Finder"
         },
         {
           "authors" : null,
@@ -1659,5 +1695,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-23T00:47:10Z"
+  "updatedAt" : "2020-11-23T16:21:46Z"
 }
