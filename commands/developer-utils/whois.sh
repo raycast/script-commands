@@ -2,17 +2,15 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Whois of Clipboard URL
+# @raycast.title Whois
 # @raycast.mode silent
 
 # Optional parameters:
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Whois of clipboard URL.
+# @raycast.description Whois of URL.
 # @raycast.packageName Internet
-# @raycast.needsConfirmation true
 # @raycast.icon 🌐
+# @raycast.argument1 { "type": "text", "placeholder": "URL" }
 
-clipboard=$(pbpaste)
-
-open https://who.is/whois/$clipboard
+open https://who.is/whois/$1

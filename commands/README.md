@@ -1,3 +1,4 @@
+<!-- AUTO GENERATED FILE. DO NOT EDIT. -->
 # Raycast Script Commands
 
 [Raycast](https://raycast.com) lets you control your tools with a few keystrokes
@@ -40,7 +41,7 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ |
 | 🧭 | [Copy Current Page URL](browsing/safari-current-page-url.sh) | This script copies URL of currently opened page in Safari into clipboard. | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
 | 🧭 | [Copy Current Window URLs](browsing/safari-current-window-urls.applescript) | This script copies to clipboard all URLs from frontmost Safari window. | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
-| 🖼️ | [Screenshot Website from Clipboard](browsing/website-screenshots.sh) | Takes a screenshot of the Website from your Clipboard and saves it to the Desktop. | [Caleb Stauffer](https://github.com/crstauf) |
+| 🖼️ | [Screenshot Website](browsing/website-screenshots.sh) | Takes a screenshot of the entered URL and saves it to the Desktop. | [Caleb Stauffer](https://github.com/crstauf) |
 | 🔗 | [Shorten URL From Clipboard](browsing/shorten-url.sh) | Shorten the URL in your Clipboard with Tiny URL. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
 
 ## Communication
@@ -63,8 +64,8 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
-| 📙 | [Search Related Emojis from Clipboard Content](communication/emojis/emojis-search.sh) | Search related emojis to clipboard content. | [Caleb Stauffer](https://github.com/crstauf) |
-| 📙 | [Search and Copy First Related Emoji from Clipboard Content](communication/emojis/emoji-copy.sh) | Copy first emoji related to clipboard content. | [Caleb Stauffer](https://github.com/crstauf) |
+| 📙 | [Search Emojis](communication/emojis/emojis-search.sh) | Search related emojis to input. | [Caleb Stauffer](https://github.com/crstauf) |
+| 📙 | [Search and Copy First Related Emoji](communication/emojis/emoji-copy.sh) | Copy first emoji related to input. | [Caleb Stauffer](https://github.com/crstauf) |
 
 ## Conversions
 
@@ -72,8 +73,8 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ |
 |  | [Column to Comma](conversions/column-to-comma.sh) | N/A | Raycast |
 | ⏱ | [Convert Epoch to Human-Readable Date](conversions/epoch-to-human-date.sh) | Convert epoch to human-readable date. | [Siyuan Zhang](https://github.com/kastnerorz) |
-| 🎨 | [Hex to RGB](conversions/hex-to-rgb.sh) | Convert HEX color values in your Clipboard to RGB values. | [Caleb Stauffer](https://github.com/crstauf) |
-| 🎨 | [Hex to RGBA](conversions/hex-to-rgba.sh) | Convert HEX color values in your Clipboard to RGBA values. | [Caleb Stauffer](https://github.com/crstauf) |
+| 🎨 | [Hex to RGB](conversions/hex-to-rgb.sh) | Convert HEX color values to RGB values. | [Caleb Stauffer](https://github.com/crstauf) |
+| 🎨 | [Hex to RGBA](conversions/hex-to-rgba.sh) | Convert HEX color values to RGBA values. | [Caleb Stauffer](https://github.com/crstauf) |
 
 ## Dashboard
 
@@ -94,12 +95,12 @@ This repository contains sample commands and documentation to write your own one
 | 💻 | [Encode Base64](developer-utils/encode-base64.sh) | N/A | Raycast |
 | 🔐 | [Generate Password](developer-utils/generate-password.sh) | Generates a random password and copies it to the clipboard. | [Sven Hofmann](https://github.com/hofmannsven) |
 | 💻 | [Generate UUID](developer-utils/generate-uuid.sh) | N/A | Raycast |
-| 🌐 | [Ping Address in Clipboard](developer-utils/ping-from-clipboard.sh) | Ping an IP address or URL in clipboard. | [Caleb Stauffer](https://github.com/crstauf) |
+| 🌐 | [Ping](developer-utils/ping.sh) | Ping an IP address or URL. | [Caleb Stauffer](https://github.com/crstauf) |
 | 🌐 | [Ping Monitor](developer-utils/ping-monitor.template.sh) | Ping an IP address or URL on an interval. | [Caleb Stauffer](https://github.com/crstauf) |
 | 💻 | [Prettify JSON](developer-utils/prettify-json.sh) | N/A | Raycast |
 | 📱 | [Record Simulator](developer-utils/record-simulator.sh) | Records simulator to Downloads folder with a filename from the clipboard | [Maxim Krouk](https://github.com/maximkrouk) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/images/ia-logo.jpg?raw=true" width="20" height="20"> | [Save Clipboard URL to Wayback Machine](developer-utils/wayback-machine-save.sh) | Save clipboard URL to Wayback Machine | [Caleb Stauffer](https://github.com/crstauf) |
-| 🌐 | [Whois of Clipboard URL](developer-utils/whois.sh) | Whois of clipboard URL. | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/images/ia-logo.jpg?raw=true" width="20" height="20"> | [Save URL to Wayback Machine](developer-utils/wayback-machine-save.sh) | Save URL to Wayback Machine | [Caleb Stauffer](https://github.com/crstauf) |
+| 🌐 | [Whois](developer-utils/whois.sh) | Whois of URL. | [Caleb Stauffer](https://github.com/crstauf) |
 
 #### Github
 
@@ -112,9 +113,9 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/google/images/google-lighthouse-logo.png?raw=true" width="20" height="20"> | [Lighthouse](developer-utils/google/google-lighthouse.sh) | Open a Lighthouse report of URL in clipboard. | [Caleb Stauffer](https://github.com/crstauf) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/google/images/google-psi-logo.png?raw=true" width="20" height="20"> | [PageSpeed Insights - Desktop](developer-utils/google/google-psi-desktop.sh) | Run a PageSpeed Insights analysis on desktop of URL in clipboard. | [Caleb Stauffer](https://github.com/crstauf) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/google/images/google-psi-logo.png?raw=true" width="20" height="20"> | [PageSpeed Insights - Mobile](developer-utils/google/google-psi-mobile.sh) | Run a PageSpeed Insights analysis on mobile of URL in clipboard. | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/google/images/google-lighthouse-logo.png?raw=true" width="20" height="20"> | [Lighthouse](developer-utils/google/google-lighthouse.sh) | Open a Lighthouse report of URL. | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/google/images/google-psi-logo.png?raw=true" width="20" height="20"> | [PageSpeed Insights - Desktop](developer-utils/google/google-psi-desktop.sh) | Run a PageSpeed Insights analysis on desktop of URL. | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/google/images/google-psi-logo.png?raw=true" width="20" height="20"> | [PageSpeed Insights - Mobile](developer-utils/google/google-psi-mobile.sh) | Run a PageSpeed Insights analysis on mobile of URL. | [Caleb Stauffer](https://github.com/crstauf) |
 
 #### Ip
 
@@ -183,6 +184,7 @@ This repository contains sample commands and documentation to write your own one
 | 📅 | [Copy Availability](system/copy-availability.swift) | N/A | Raycast |
 | 💁 | [Copy Last Download](system/copy-last-download.swift) | N/A | Raycast |
 | 📸 | [Copy Last Screenshot](system/copy-last-screenshot.swift) | N/A | Raycast |
+| 🗣 | [Define Word](system/define-word.swift) | Define a word using the built-in dictionary/dicionaries. | [Jesse Claven](https://github.com/jesse-c) |
 | 📀 | [Eject All Disks](system/eject-all-disks.applescript) | N/A | Raycast |
 | 🗑 | [Empty Trash](system/empty-trash.applescript) | N/A | Raycast |
 | 💁‍♂️ | [Open Last Download](system/open-last-download.swift) | N/A | Raycast |
@@ -204,6 +206,7 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/amazon.png?raw=true" width="20" height="20"> | [Search in Amazon](web-searches/amazon.sh) | N/A | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/duck-duck-go.png?raw=true" width="20" height="20"> | [Search in DuckDuckGo](web-searches/duck-duck-go.sh) | N/A | Raycast |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/ecosia.png?raw=true" width="20" height="20"> | [Search in Ecosia](web-searches/ecosia.sh) | N/A | [Sasivarnan R](https://github.com/sasivarnan) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/google.png?raw=true" width="20" height="20"> | [Search in Google](web-searches/google-search.sh) | N/A | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/twitter.png?raw=true" width="20" height="20"> | [Search in Twitter](web-searches/twitter-search.sh) | N/A | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/youtube.png?raw=true" width="20" height="20"> | [Search in YouTube](web-searches/youtube.sh) | N/A | Raycast |

@@ -25,7 +25,7 @@
             }
           ],
           "currentDirectoryPath" : null,
-          "description" : "Convert HEX color values in your Clipboard to RGBA values.",
+          "description" : "Convert HEX color values to RGBA values.",
           "filename" : "hex-to-rgba.sh",
           "icon" : "🎨",
           "mode" : "silent",
@@ -43,7 +43,7 @@
             }
           ],
           "currentDirectoryPath" : null,
-          "description" : "Convert HEX color values in your Clipboard to RGB values.",
+          "description" : "Convert HEX color values to RGB values.",
           "filename" : "hex-to-rgb.sh",
           "icon" : "🎨",
           "mode" : "silent",
@@ -121,7 +121,7 @@
             }
           ],
           "currentDirectoryPath" : "~\/Desktop",
-          "description" : "Takes a screenshot of the Website from your Clipboard and saves it to the Desktop.",
+          "description" : "Takes a screenshot of the entered URL and saves it to the Desktop.",
           "filename" : "website-screenshots.sh",
           "icon" : "🖼️",
           "mode" : "compact",
@@ -129,7 +129,7 @@
           "packageName" : "Internet",
           "refreshTime" : null,
           "schemaVersion" : 1,
-          "title" : "Screenshot Website from Clipboard"
+          "title" : "Screenshot Website"
         },
         {
           "authors" : [
@@ -514,6 +514,24 @@
         {
           "authors" : [
             {
+              "name" : "Jesse Claven",
+              "url" : "https:\/\/github.com\/jesse-c"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Define a word using the built-in dictionary\/dicionaries.",
+          "filename" : "define-word.swift",
+          "icon" : "🗣",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Define Word"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Raycast",
               "url" : "https:\/\/raycast.com"
             }
@@ -684,15 +702,15 @@
             }
           ],
           "currentDirectoryPath" : null,
-          "description" : "Whois of clipboard URL.",
+          "description" : "Whois of URL.",
           "filename" : "whois.sh",
           "icon" : "🌐",
           "mode" : "silent",
-          "needsConfirmation" : true,
+          "needsConfirmation" : null,
           "packageName" : "Internet",
           "refreshTime" : null,
           "schemaVersion" : 1,
-          "title" : "Whois of Clipboard URL"
+          "title" : "Whois"
         },
         {
           "authors" : [
@@ -731,6 +749,24 @@
           "title" : "Ping Monitor"
         },
         {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Ping an IP address or URL.",
+          "filename" : "ping.sh",
+          "icon" : "🌐",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Internet",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Ping"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : null,
@@ -742,24 +778,6 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Generate UUID"
-        },
-        {
-          "authors" : [
-            {
-              "name" : "Caleb Stauffer",
-              "url" : "https:\/\/github.com\/crstauf"
-            }
-          ],
-          "currentDirectoryPath" : null,
-          "description" : "Ping an IP address or URL in clipboard.",
-          "filename" : "ping-from-clipboard.sh",
-          "icon" : "🌐",
-          "mode" : "fullOutput",
-          "needsConfirmation" : true,
-          "packageName" : "Internet",
-          "refreshTime" : null,
-          "schemaVersion" : 1,
-          "title" : "Ping Address in Clipboard"
         },
         {
           "authors" : null,
@@ -795,7 +813,7 @@
             }
           ],
           "currentDirectoryPath" : null,
-          "description" : "Save clipboard URL to Wayback Machine",
+          "description" : "Save URL to Wayback Machine",
           "filename" : "wayback-machine-save.sh",
           "icon" : "images\/ia-logo.jpg",
           "mode" : "compact",
@@ -803,7 +821,7 @@
           "packageName" : "Internet",
           "refreshTime" : null,
           "schemaVersion" : 1,
-          "title" : "Save Clipboard URL to Wayback Machine"
+          "title" : "Save URL to Wayback Machine"
         },
         {
           "authors" : null,
@@ -863,11 +881,11 @@
                 }
               ],
               "currentDirectoryPath" : null,
-              "description" : "Run a PageSpeed Insights analysis on desktop of URL in clipboard.",
+              "description" : "Run a PageSpeed Insights analysis on desktop of URL.",
               "filename" : "google-psi-desktop.sh",
               "icon" : "images\/google-psi-logo.png",
               "mode" : "fullOutput",
-              "needsConfirmation" : true,
+              "needsConfirmation" : null,
               "packageName" : "Google",
               "refreshTime" : null,
               "schemaVersion" : 1,
@@ -881,11 +899,11 @@
                 }
               ],
               "currentDirectoryPath" : null,
-              "description" : "Run a PageSpeed Insights analysis on mobile of URL in clipboard.",
+              "description" : "Run a PageSpeed Insights analysis on mobile of URL.",
               "filename" : "google-psi-mobile.sh",
               "icon" : "images\/google-psi-logo.png",
               "mode" : "fullOutput",
-              "needsConfirmation" : true,
+              "needsConfirmation" : null,
               "packageName" : "Google",
               "refreshTime" : null,
               "schemaVersion" : 1,
@@ -899,11 +917,11 @@
                 }
               ],
               "currentDirectoryPath" : "~\/Desktop",
-              "description" : "Open a Lighthouse report of URL in clipboard.",
+              "description" : "Open a Lighthouse report of URL.",
               "filename" : "google-lighthouse.sh",
               "icon" : "images\/google-lighthouse-logo.png",
               "mode" : "silent",
-              "needsConfirmation" : true,
+              "needsConfirmation" : null,
               "packageName" : "Google",
               "refreshTime" : null,
               "schemaVersion" : 1,
@@ -1185,15 +1203,15 @@
                 }
               ],
               "currentDirectoryPath" : null,
-              "description" : "Search related emojis to clipboard content.",
+              "description" : "Search related emojis to input.",
               "filename" : "emojis-search.sh",
               "icon" : "📙",
               "mode" : "fullOutput",
-              "needsConfirmation" : true,
+              "needsConfirmation" : null,
               "packageName" : "Communication",
               "refreshTime" : null,
               "schemaVersion" : 1,
-              "title" : "Search Related Emojis from Clipboard Content"
+              "title" : "Search Emojis"
             },
             {
               "authors" : [
@@ -1203,15 +1221,15 @@
                 }
               ],
               "currentDirectoryPath" : null,
-              "description" : "Copy first emoji related to clipboard content.",
+              "description" : "Copy first emoji related to input.",
               "filename" : "emoji-copy.sh",
               "icon" : "📙",
               "mode" : "compact",
-              "needsConfirmation" : true,
+              "needsConfirmation" : null,
               "packageName" : "Communication",
               "refreshTime" : null,
               "schemaVersion" : 1,
-              "title" : "Search and Copy First Related Emoji from Clipboard Content"
+              "title" : "Search and Copy First Related Emoji"
             }
           ]
         }
@@ -1259,6 +1277,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search in Amazon"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Sasivarnan R",
+              "url" : "https:\/\/github.com\/sasivarnan"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "ecosia.sh",
+          "icon" : "images\/ecosia.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in Ecosia"
         },
         {
           "authors" : null,
@@ -1605,5 +1641,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-20T19:51:39Z"
+  "updatedAt" : "2020-11-22T23:43:36Z"
 }
