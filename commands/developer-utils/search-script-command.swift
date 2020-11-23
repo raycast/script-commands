@@ -10,6 +10,7 @@
 // @raycast.authorURL https://twitter.com/tholanda
 // @raycast.icon 🔎
 // @raycast.packageName Searches
+// @raycast.description Search for Script Commands available in the Raycast repository
 // @raycast.argument1 { "type": "text", "placeholder": "Query" }
 
 import Foundation
