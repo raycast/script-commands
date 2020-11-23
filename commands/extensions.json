@@ -442,6 +442,24 @@
           "title" : "Screen Saver"
         },
         {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Report process with largest system CPU usage.",
+          "filename" : "largest-cpu-process.sh",
+          "icon" : "📈",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : "1m",
+          "schemaVersion" : 1,
+          "title" : "Largest CPU Process"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : null,
@@ -564,6 +582,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Eject All Disks"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Report process with largest system RAM usage.",
+          "filename" : "largest-ram-process.sh",
+          "icon" : "📈",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : "1m",
+          "schemaVersion" : 1,
+          "title" : "Largest RAM Process"
         },
         {
           "authors" : [
@@ -1713,5 +1749,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-23T16:50:02Z"
+  "updatedAt" : "2020-11-23T16:57:40Z"
 }
