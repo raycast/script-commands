@@ -4,6 +4,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title 2FA from iMessages
 # @raycast.mode silent
+# @raycast.packageName iMessage
 
 # Optional parameters:
 # @raycast.author Caleb Stauffer

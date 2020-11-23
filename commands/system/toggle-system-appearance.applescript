@@ -4,6 +4,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Toggle System Appearance
 # @raycast.mode silent
+# @raycast.packageName System
 
 # Optional parameters:
 # @raycast.icon 🌗

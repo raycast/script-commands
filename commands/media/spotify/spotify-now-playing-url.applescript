@@ -4,10 +4,11 @@
 # @raycast.schemaVersion 1
 # @raycast.title Copy Current Playing Song URL
 # @raycast.mode silent
+# @raycast.packageName Spotify
 
 # Optional parameters:
 # @raycast.icon images/spotify-logo.png
-# @raycast.packageName Spotify
+
 # Documentation:
 # @raycast.author Jack LaFond
 # @raycast.authorURL https://github.com/jacc

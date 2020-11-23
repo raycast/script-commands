@@ -6,6 +6,7 @@
 // @raycast.schemaVersion 1
 // @raycast.title Quit All Applications
 // @raycast.mode silent
+// @raycast.packageName System
 //
 // Optional parameters:
 // @raycast.icon 💥

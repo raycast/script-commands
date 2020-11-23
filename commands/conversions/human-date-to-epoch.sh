@@ -4,10 +4,10 @@
 # @raycast.schemaVersion 1
 # @raycast.title Convert Human-Readable Date To Epoch
 # @raycast.mode silent
+# @raycast.packageName Conversions
 #
 # Optional parameters:
 # @raycast.icon ⏱
-# @raycast.packageName Conversions
 # @raycast.needsConfirmation false
 # @raycast.argument1 {"type": "text", "placeholder": "Date"}
 #

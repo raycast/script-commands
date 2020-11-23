@@ -16,10 +16,12 @@ access_key=
 # @raycast.schemaVersion 1
 # @raycast.title Create GitHub Gist from Clipboard
 # @raycast.mode compact
+# @raycast.packageName GitHub
+
+# Optional parameters:
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Create a GitHub Gist from clipboard contents and copy Gist URL.
-# @raycast.packageName GitHub
 # @raycast.needsConfirmation true
 # @raycast.icon images/github-logo.png
 

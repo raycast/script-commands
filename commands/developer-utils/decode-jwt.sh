@@ -4,6 +4,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Decode JWT
 # @raycast.mode fullOutput
+# @raycast.packageName Developer Utilities
 
 # Optional parameters:
 # @raycast.icon images/jwt-logo.png
