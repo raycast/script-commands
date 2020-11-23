@@ -751,6 +751,24 @@
         {
           "authors" : [
             {
+              "name" : "Thiago Holanda",
+              "url" : "https:\/\/twitter.com\/tholanda"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search for Script Commands available in the Raycast repository",
+          "filename" : "search-script-command.swift",
+          "icon" : "🔎",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search Script Command"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -1641,5 +1659,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-22T23:43:36Z"
+  "updatedAt" : "2020-11-23T00:47:10Z"
 }
