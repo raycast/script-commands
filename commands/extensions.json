@@ -176,7 +176,7 @@
             }
           ],
           "currentDirectoryPath" : null,
-          "description" : "Open curren Finder directory in terminal",
+          "description" : "Open current Finder directory in Terminal",
           "filename" : "open-terminal-from-finder.applescript",
           "icon" : "📟",
           "mode" : "silent",
@@ -194,7 +194,7 @@
             }
           ],
           "currentDirectoryPath" : null,
-          "description" : "Open curren terminal directory in Finder",
+          "description" : "Open curren Terminal directory in Finder",
           "filename" : "open-finder-from-terminal.applescript",
           "icon" : "📟",
           "mode" : "silent",
@@ -251,7 +251,7 @@
             }
           ],
           "currentDirectoryPath" : null,
-          "description" : "Open Current Finder Directory in iTerm",
+          "description" : "Open current Finder directory in iTerm",
           "filename" : "open-iterm-from-finder.applescript",
           "icon" : "images\/iterm-logo.png",
           "mode" : "silent",
@@ -295,7 +295,7 @@
             }
           ],
           "currentDirectoryPath" : null,
-          "description" : "Open Current iTerm Directory in Finder",
+          "description" : "Open current iTerm directory in Finder",
           "filename" : "open-finder-from-iterm.applescript",
           "icon" : "images\/iterm-logo.png",
           "mode" : "silent",
@@ -1695,5 +1695,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-23T16:21:46Z"
+  "updatedAt" : "2020-11-23T16:25:41Z"
 }
