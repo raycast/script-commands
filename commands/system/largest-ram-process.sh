@@ -16,7 +16,7 @@ kbytes=$(echo "$output" | awk -F " " '{ st = index($0," ");print $1}')
 cmd=$(echo "$output" | awk -F " " '{ st = index($0," ");print substr($0,st+1)}')
 
 
-## Kilobytes
+## Kilobytes (no decimal places)
 print_as_kb=$(echo "$kbytes < 1024" | bc -l)
 
 if (( print_as_kb )); then
@@ -25,7 +25,7 @@ if (( print_as_kb )); then
 fi
 
 
-## Megabytes
+## Megabytes (one decimal place)
 mbytes=$(echo "scale=1; $kbytes / 1024" | bc -l)
 print_as_mb=$(echo "$mbytes < 1024" | bc -l)
 
@@ -35,6 +35,6 @@ if (( print_as_mb )); then
 fi
 
 
-## Gigabytes
+## Gigabytes (two decimal places)
 gbytes=$( echo "scale=2; $kbytes / 1024 / 1024" | bc -l)
 echo "${cmd} - ${gbytes} GB"
