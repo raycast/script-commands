@@ -26,7 +26,7 @@ fi
 
 
 ## Megabytes
-mbytes=$(echo "scale=2; $kbytes / 1024" | bc -l)
+mbytes=$(echo "scale=1; $kbytes / 1024" | bc -l)
 print_as_mb=$(echo "$mbytes < 1024" | bc -l)
 
 if (( print_as_mb )); then
@@ -36,5 +36,5 @@ fi
 
 
 ## Gigabytes
-gbytes=$( echo "scale=2; $mbytes / 1024" | bc -l)
+gbytes=$( echo "scale=2; $kbytes / 1024 / 1024" | bc -l)
 echo "${cmd} - ${gbytes} GB"
