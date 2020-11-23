@@ -9,7 +9,7 @@
 // @raycast.author Thiago Holanda
 // @raycast.authorURL https://twitter.com/tholanda
 // @raycast.icon 🔎
-// @raycast.packageName Web Searches
+// @raycast.packageName Searches
 // @raycast.argument1 { "type": "text", "placeholder": "Query" }
 
 import Foundation
