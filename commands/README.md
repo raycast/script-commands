@@ -80,6 +80,7 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/dashboard/bitcoin-logo.png?raw=true" width="20" height="20"> | [Bitcoin Price](dashboard/bitcoin-price-usd.sh) | Get current Bitcoin price from Coindesk. | [Tanguy Le Stradic](https://github.com/tanguyls) |
 | 🌦️ | [Current Weather](dashboard/current-weather.sh) | Get current weather report from wttr.in. | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/dashboard/images/speedtest-logo.png?raw=true" width="20" height="20"> | [Speedtest](dashboard/speedtest.sh) | Test download and upload connection speed | [Caleb Stauffer](https://github.com/crstauf) |
 | 📈 | [System Activity](dashboard/system-activity.sh) | N/A | Raycast |

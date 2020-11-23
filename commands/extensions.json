@@ -371,6 +371,24 @@
         {
           "authors" : [
             {
+              "name" : "Tanguy Le Stradic",
+              "url" : "https:\/\/github.com\/tanguyls"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Get current Bitcoin price from Coindesk.",
+          "filename" : "bitcoin-price-usd.sh",
+          "icon" : "bitcoin-logo.png",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Dashboard",
+          "refreshTime" : "5s",
+          "schemaVersion" : 1,
+          "title" : "Bitcoin Price"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -1695,5 +1713,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-23T16:25:41Z"
+  "updatedAt" : "2020-11-23T16:44:46Z"
 }
