@@ -1,0 +1,4 @@
+commands/README.md          -diff -merge
+commands/README.md          linguist-generated=true
+commands/extensions.json    -diff -merge
+commands/extensions.json    linguist-generated=true

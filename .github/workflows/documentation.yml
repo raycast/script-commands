@@ -21,16 +21,7 @@ jobs:
 
     - name: Generate Script Commands Documentation
       run: |
-        make gen-docs
-        if `git status | grep -q "nothing to commit"`; then
-          exit 0;
-        else
-          git config --local user.email "bot@raycast.com" &&
-          git config --local user.name "Raycast Bot" &&
-          git add extensions.md extensions.json &&
-          git commit -m "Update Script Commands documentation" &&
-          exit 0;
-        fi
+        make gen-docs-and-commit
     
     - name: Push changes
       if: success()

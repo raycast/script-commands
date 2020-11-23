@@ -6,10 +6,18 @@
 import Foundation
 
 extension ScriptCommand {
+  typealias Authors = [Author]
 
   struct Author: Codable {
     let name: String?
     let url: String?
+
+    init(from decoder: Decoder) throws {
+      let container = try decoder.container(keyedBy: InputCodingKeys.self)
+
+      name = try container.decodeIfPresent(String.self, forKey: .name)
+      url = try container.decodeIfPresent(String.self, forKey: .url)
+    }
 
     func encode(to encoder: Encoder) throws {
       var container = encoder.container(keyedBy: OutputCodingKeys.self)
@@ -68,11 +76,47 @@ extension ScriptCommand.Author: MarkdownDescriptionProtocol {
       return url
     }
 
-    return ""
+    return .empty
   }
 
   var sectionTitle: String {
-    ""
+    .empty
   }
 
+}
+
+// MARK: - Authors
+
+extension Array: MarkdownDescriptionProtocol where Element == ScriptCommand.Author {
+  var sectionTitle: String {
+    .empty
+  }
+
+  var markdownDescription: String {
+    var authors = String.empty
+
+    for author in self {
+      let separator = self.separator(for: author.name ?? .empty)
+      authors += separator + author.markdownDescription
+    }
+
+    return authors
+  }
+
+  func separator(for currentName: String) -> String {
+    if let firstAuthor = first, currentName == firstAuthor.name {
+      return .empty
+    } else if let lastAuthor = last, currentName == lastAuthor.name {
+      return Separator.and
+    }
+
+    return Separator.comma
+  }
+}
+
+extension ScriptCommand.Authors {
+  enum Separator {
+    static let and = " and "
+    static let comma = ", "
+  }
 }

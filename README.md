@@ -8,7 +8,9 @@ This repository contains sample commands and documentation to write your own one
 
 ## Awesome Script Commands
 
-Check out the [list](extensions.md) of all available Script Commands.
+You can find a lot of useful script commands built by the community [here](https://github.com/raycast/script-commands/tree/master/commands).
+
+Want to contribute? What a brilliant idea, please see this [contribution guide](https://github.com/raycast/script-commands/blob/master/CONTRIBUTING.md), it will help you with getting started.
 
 ## Install Script Commands
 
@@ -22,6 +24,12 @@ To install new commands, follow these steps:
 ![Preferences](https://github.com/raycast/script-commands/blob/master/screenshots/preferences.png?raw=true)
 
 To get started, download one of the sample commands in this repository or [write a custom script](https://github.com/raycast/script-commands/blob/master/README.md#write-script-commands).
+
+## How to use this repository
+
+Grab scripts that you want to use and copy them to a separate directory on your machine (you can use [_enabled-commands](https://github.com/raycast/script-commands/blob/master/_enabled-commands) folder from this repo for this).
+
+NOTE: We recommend against directly using script directories from this repo in Raycast to protect yourself from potential restructuring and new script commands suddenly appearing in Raycast.
 
 ## Write Script Commands
 
@@ -50,10 +58,12 @@ The following parameters are available to customize your Script Command in Rayca
 | icon                 | Icon that is displayed in the root search. Can be an emoji, a file path (relative or full) or a remote URL (only https). Supported formats for images are PNG and JPEG. Please make sure to use small icons, recommended size - 32px.                                                | No       | 0.29+               |
 | currentDirectoryPath | Path from which the script is executed. Default is the path of the script.                                                                                                                                                                                                           | No       | 0.29+               |
 | needsConfirmation    | Specify `true` if you would like to show confirmation alert dialog before running the script. Can be helpful with destructive scripts like "Quit All Apps" or "Empty Trash". Default value is `false`.                                                                               | No       | 0.30+               |
-| refreshTime    | Specify a refresh interval for `inline` mode scripts in seconds, minutes, hours or days. Examples: `5s`, `1m`, `12h`, `1d`. Script output will be shown inline in dashboard items. *Note* that the actual times are not accurate and can vary depending on how the OS prioritizes scheduled work. The minimum allowed refresh interval is 5 seconds (use responsibly...), and the maximum allowed number of refreshing `inline` commands is 10. | No       | 0.31+ |
-| author | Define an author name to be part of the script commands documentation | No | |
-| authorURL | Author social media, website, email or anything to help the users to get in touch | No | |
-| description | A brief description about the script command to be presented in the documentation | No | |
+| refreshTime          | Specify a refresh interval for `inline` mode scripts in seconds, minutes, hours or days. Examples: `10s`, `1m`, `12h`, `1d`. Script output will be shown inline in dashboard items. *Note* that the actual times are not accurate and can vary depending on how the OS prioritizes scheduled work. The minimum allowed refresh interval is 10 seconds (use responsibly...), and the maximum allowed number of refreshing `inline` commands is 10. | No       | 0.31+ |
+| argument[1...3]      | Custom arguments, see [Passing Arguments](https://github.com/raycast/script-commands#passing-arguments) section that explains in details how to use this field | No | 1.2.0+ |
+| author               | Define an author name to be part of the script commands documentation | No | |
+| authorURL            | Author social media, website, email or anything to help the users to get in touch | No | |
+| description          | A brief description about the script command to be presented in the documentation | No | |
+
 
 **⚠️ Whenever you make changes to the parameters of the Script Command, trigger the "Reload Script Directories" command in root search (v0.33+), or press "Reload" in script commands preferences, or activate "Auto Reload" in preferences so that your scripts get automatically reloaded (experimental, v0.33+). Also note that "reloading" means that script metadata is parsed and Raycast search is refreshed – the actual scripts are only run when you manually trigger their command or when an inline command with refreshTime is automatically triggered.**
 
@@ -67,6 +77,39 @@ In `fullOutput` the entire output is presented on a separate view, similar to a 
 
 In `inline` mode, the first line of output will be directly shown in the command item and automatically refresh according to the specified `refreshTime`. Tip: Set your dashboard items as favorites via the action menu in Raycast
 
+### Passing Arguments
+
+![Custom Arguments](https://github.com/raycast/script-commands/blob/master/screenshots/custom-arguments.png?raw=true)
+
+Use `argument[1..3]` metadata to specify custom arguments that will be displayed as inputs in the search bar when the script is selected. Value of the argument metadata paratmeter should be valid json with these fields:
+
+| Field         | Description                                     | Required | App Version |
+|---------------|-------------------------------------------------|----------|-------------|
+| type          | Input type. For now only "text" value available.| Yes      | 1.2.0+      | 
+| placeholder   | Placeholder for the input field.                | Yes      | 1.2.0+      |
+
+**Maximum number of arguments:** 3 (if you feel it's not enough for your use case, please let us know via feedback or in the [Slack community](https://www.raycast.com/community))
+
+Here's an example of a simple web search script with two arguments:
+```bash
+#!/bin/bash
+
+# Required parameters:
+# @raycast.schemaVersion 1
+# @raycast.title Search Flights
+# @raycast.mode silent
+
+# Optional parameters:
+# @raycast.icon 🛩
+# @raycast.packageName Web Searches
+# @raycast.argument1 { "type": "text", "placeholder": "from city" }
+# @raycast.argument2 { "type": "text", "placeholder": "to city" }
+
+open "https://www.google.com/search?q=flights%20from%20${1// /%20}%20to%20${2// /%20}"
+```
+
+*💡Pro tip:* When typing alias + space, Raycast automatically will move focus to the first input field.
+
 ### Error Handling
 
 If the script exits with a status code not equal to 0, Raycast interprets it as failed and shows a toast that the script failed to run.
@@ -75,6 +118,8 @@ If the script exits with a status code not equal to 0, Raycast interprets it as 
 
 The script is running in a non-login shell to avoid loading additional information from profiles. However, if you need to run your script as login-shell, you can specify an argument after shebang, e.g. `#!/bin/bash -l` for bash.
 We also append `/usr/local/bin` to `$PATH` variable so you can use your local shell commands without any additional steps. If this is not enough, you can always extend `$PATH` by adding `export PATH='/some/extra/path:$PATH'` at the top of your script.
+
+**👮‍♂️ We only allow Script Commands that run in a non-login shell in this repository as agreed on in our [contribution guidelines](https://github.com/raycast/script-commands/blob/master/CONTRIBUTING.md).**
 
 ### Troubleshooting
 
