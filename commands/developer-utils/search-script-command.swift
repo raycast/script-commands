@@ -4,12 +4,12 @@
 // @raycast.schemaVersion 1
 // @raycast.title Search Script Command
 // @raycast.mode fullOutput
+// @raycast.packageName Searches
 //
 // Optional parameters:
 // @raycast.author Thiago Holanda
 // @raycast.authorURL https://twitter.com/tholanda
 // @raycast.icon 🔎
-// @raycast.packageName Searches
 // @raycast.description Search for Script Commands available in the Raycast repository
 // @raycast.argument1 { "type": "text", "placeholder": "Query" }
 

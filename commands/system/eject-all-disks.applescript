@@ -4,6 +4,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Eject All Disks
 # @raycast.mode silent
+# @raycast.packageName System
 
 # Optional parameters:
 # @raycast.icon 📀

@@ -4,10 +4,10 @@
 # @raycast.schemaVersion 1
 # @raycast.title Current Weather
 # @raycast.mode inline
-
 # Please be mindful of scalability of wttr.in if adjusting the refreshTime
 # (currently limite to one million requests per day).
 # @raycast.refreshTime 1h
+# @raycast.packageName Dashboard
 
 # Optional parameters:
 # @raycast.author Caleb Stauffer

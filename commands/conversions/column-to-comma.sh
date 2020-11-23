@@ -4,6 +4,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Column to Comma
 # @raycast.mode silent
+# @raycast.packageName Conversions
 
 clipboard=$(pbpaste)
 

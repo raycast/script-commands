@@ -4,6 +4,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Empty Trash
 # @raycast.mode silent
+# @raycast.packageName System
 
 # Optional parameters:
 # @raycast.icon 🗑

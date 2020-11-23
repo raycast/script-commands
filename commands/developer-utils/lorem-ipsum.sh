@@ -4,6 +4,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Copy Lorem Ipsum
 # @raycast.mode silent
+# @raycast.packageName Developer Utilities
 
 # Optional parameters:
 # @raycast.icon 📝

@@ -4,6 +4,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Record Simulator
 # @raycast.mode compact
+# @raycast.packageName Developer Utilities
 
 # Optional parameters:
 # @raycast.author Maxim Krouk

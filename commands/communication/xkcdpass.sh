@@ -7,12 +7,12 @@
 # @raycast.schemaVersion 1
 # @raycast.title Generate Passphrase
 # @raycast.mode silent
+# @raycast.packageName Communication
 
 # Optional parameters:
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Use xkcdpass to create a passphrase.
-# @raycast.packageName Communication
 # @raycast.icon 🔐
 
 if ! command -v xkcdpass &> /dev/null; then

@@ -4,10 +4,10 @@
 # @raycast.schemaVersion 1
 # @raycast.title Search in Ecosia
 # @raycast.mode silent
+# @raycast.packageName Web Searches
 
 # Optional parameters:
 # @raycast.icon images/ecosia.png
-# @raycast.packageName Web Searches
 # @raycast.argument1 { "type": "text", "placeholder": "query" }
 
 # Documentation:

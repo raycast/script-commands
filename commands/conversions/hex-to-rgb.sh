@@ -4,6 +4,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Hex to RGB
 # @raycast.mode silent
+# @raycast.packageName Conversions
 
 # Optional parameters:
 # @raycast.author Caleb Stauffer
