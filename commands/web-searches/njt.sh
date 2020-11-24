@@ -12,4 +12,4 @@
 # @raycast.packageName npm jump to
 # @raycast.argument1 { "type": "text", "placeholder": "package-name [destination]" }
 
-open "https://njt.now.sh/jump?from=raycast&to=${1// /%20}
+open "https://njt.now.sh/jump?from=raycast&to=${1// /%20}"

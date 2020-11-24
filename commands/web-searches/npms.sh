@@ -9,7 +9,7 @@
 
 # Optional parameters:
 # @raycast.icon images/npms.png
-# @raycast.packageName npms package search
+# @raycast.packageName npms.io package search
 # @raycast.argument1 { "type": "text", "placeholder": "package name" }
 
 open "https://npms.io/search?q=${1// /%20}"
