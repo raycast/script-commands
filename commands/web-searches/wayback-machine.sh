@@ -8,7 +8,7 @@
 # @raycast.authorURL https://zander.wtf
 
 # Optional parameters:
-# @raycast.icon 📦
+# @raycast.icon ⬅️
 # @raycast.argument1 { "type": "text", "placeholder": "url" }
 
 open "https://web.archive.org/web/*/${1// /%20}"

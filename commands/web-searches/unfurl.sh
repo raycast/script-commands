@@ -8,7 +8,7 @@
 # @raycast.authorURL https://zander.wtf
 
 # Optional parameters:
-# @raycast.icon 📦
+# @raycast.icon 🔗
 # @raycast.packageName Link unfurl tester
 # @raycast.argument1 { "type": "text", "placeholder": "url" }
 
