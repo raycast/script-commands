@@ -12,7 +12,7 @@
           "icon" : null,
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Column To Comma",
+          "packageName" : "Conversions",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Column to Comma"
@@ -30,7 +30,7 @@
           "icon" : "🎨",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Hex To Rgba",
+          "packageName" : "Conversions",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Hex to RGBA"
@@ -48,7 +48,7 @@
           "icon" : "🎨",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Hex To Rgb",
+          "packageName" : "Conversions",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Hex to RGB"
@@ -108,7 +108,7 @@
           "icon" : "🔗",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Shorten Url",
+          "packageName" : "Browsing",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Shorten URL From Clipboard"
@@ -181,7 +181,7 @@
           "icon" : "📂",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Open Library",
+          "packageName" : "Navigation",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Open Library"
@@ -199,7 +199,7 @@
           "icon" : "📟",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Open Terminal From Finder",
+          "packageName" : "Navigation",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Open Current Finder Directory in Terminal"
@@ -217,7 +217,7 @@
           "icon" : "📟",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Open Finder From Terminal",
+          "packageName" : "Navigation",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Open Current Terminal Directory in Finder"
@@ -230,7 +230,7 @@
           "icon" : "📂",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Open Applications",
+          "packageName" : "Navigation",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Open Applications"
@@ -243,7 +243,7 @@
           "icon" : "📂",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Open Utilities",
+          "packageName" : "Navigation",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Open Utilities"
@@ -256,7 +256,7 @@
           "icon" : "🌐",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Open Url From Clipboard",
+          "packageName" : "Navigation",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Open URL From Clipboard"
@@ -274,7 +274,7 @@
           "icon" : "images\/iterm-logo.png",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Open Iterm From Finder",
+          "packageName" : "Navigation",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Open Current Finder Directory in iTerm"
@@ -287,7 +287,7 @@
           "icon" : "📂",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Open Desktop",
+          "packageName" : "Navigation",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Open Desktop"
@@ -300,7 +300,7 @@
           "icon" : "📂",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Open Documents",
+          "packageName" : "Navigation",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Open Documents"
@@ -318,7 +318,7 @@
           "icon" : "images\/iterm-logo.png",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Open Finder From Iterm",
+          "packageName" : "Navigation",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Open Current iTerm Directory in Finder"
@@ -331,7 +331,7 @@
           "icon" : "🖥",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Open Desktop Url From Clipboard",
+          "packageName" : "Navigation",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Open Clipboard URL on Desktop"
@@ -344,7 +344,7 @@
           "icon" : "📂",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Open Home",
+          "packageName" : "Navigation",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Open Home"
@@ -357,7 +357,7 @@
           "icon" : "📂",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Open Downloads",
+          "packageName" : "Navigation",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Open Downloads"
@@ -381,7 +381,7 @@
           "icon" : "🌦️",
           "mode" : "inline",
           "needsConfirmation" : null,
-          "packageName" : "Current Weather",
+          "packageName" : "Dashboard",
           "refreshTime" : "1h",
           "schemaVersion" : 1,
           "title" : "Current Weather"
@@ -430,7 +430,7 @@
           "icon" : "📈",
           "mode" : "inline",
           "needsConfirmation" : null,
-          "packageName" : "System Activity",
+          "packageName" : "Dashboard",
           "refreshTime" : "5s",
           "schemaVersion" : 1,
           "title" : "System Activity"
@@ -485,7 +485,7 @@
           "icon" : "🗑",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Empty Trash",
+          "packageName" : "System",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Empty Trash"
@@ -534,7 +534,7 @@
           "icon" : "💥",
           "mode" : "silent",
           "needsConfirmation" : true,
-          "packageName" : "Quit All Apps",
+          "packageName" : "System",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Quit All Applications"
@@ -552,7 +552,7 @@
           "icon" : "👓",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Toggle Hidden Files",
+          "packageName" : "System",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Toggle Hidden Files"
@@ -570,7 +570,7 @@
           "icon" : "🌗",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Toggle System Appearance",
+          "packageName" : "System",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Toggle System Appearance"
@@ -583,7 +583,7 @@
           "icon" : "💁‍♂️",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Open Last Download",
+          "packageName" : "System",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Open Last Download"
@@ -596,7 +596,7 @@
           "icon" : "📀",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Eject All Disks",
+          "packageName" : "System",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Eject All Disks"
@@ -650,7 +650,7 @@
           "icon" : "🖥",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Toggle Desktop Icons",
+          "packageName" : "System",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Toggle Desktop Icons"
@@ -663,7 +663,7 @@
           "icon" : "💁",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Copy Last Download",
+          "packageName" : "System",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Copy Last Download"
@@ -676,7 +676,7 @@
           "icon" : "📅",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Copy Availability",
+          "packageName" : "System",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Copy Availability"
@@ -689,7 +689,7 @@
           "icon" : "📸",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Copy Last Screenshot",
+          "packageName" : "System",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Copy Last Screenshot"
@@ -702,7 +702,7 @@
           "icon" : "♻️",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Restart",
+          "packageName" : "System",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Restart"
@@ -733,7 +733,7 @@
           "icon" : "🛌",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Shutdown",
+          "packageName" : "System",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Shut Down"
@@ -746,7 +746,7 @@
           "icon" : "😴",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Sleep",
+          "packageName" : "System",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Sleep"
@@ -765,7 +765,7 @@
           "icon" : "📜",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Open Script Commands Repository",
+          "packageName" : "Bookmarks",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Open Script Commands Repository"
@@ -784,7 +784,7 @@
           "icon" : "💻",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Encode Base64",
+          "packageName" : "Developer Utilities",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Encode Base64"
@@ -797,7 +797,7 @@
           "icon" : "images\/jwt-logo.png",
           "mode" : "fullOutput",
           "needsConfirmation" : null,
-          "packageName" : "Decode Jwt",
+          "packageName" : "Developer Utilities",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Decode JWT"
@@ -833,7 +833,7 @@
           "icon" : "📱",
           "mode" : "compact",
           "needsConfirmation" : true,
-          "packageName" : "Record Simulator",
+          "packageName" : "Developer Utilities",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Record Simulator"
@@ -900,7 +900,7 @@
           "icon" : "💻",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Generate Uuid",
+          "packageName" : "Developer Utilities",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Generate UUID"
@@ -913,7 +913,7 @@
           "icon" : "📝",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Lorem Ipsum",
+          "packageName" : "Developer Utilities",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Copy Lorem Ipsum"
@@ -926,7 +926,7 @@
           "icon" : "💻",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Decode Base64",
+          "packageName" : "Developer Utilities",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Decode Base64"
@@ -957,7 +957,7 @@
           "icon" : "💻",
           "mode" : "fullOutput",
           "needsConfirmation" : null,
-          "packageName" : "Prettify Json",
+          "packageName" : "Developer Utilities",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Prettify JSON"
@@ -988,7 +988,7 @@
           "icon" : "🔐",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Generate Password",
+          "packageName" : "Developer Utilities",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Generate Password"
@@ -1232,7 +1232,7 @@
           "icon" : "🔐",
           "mode" : "silent",
           "needsConfirmation" : null,
-          "packageName" : "Imessage 2Fa",
+          "packageName" : "iMessage",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "2FA from iMessages"
@@ -1365,6 +1365,24 @@
       "name" : "Web Searches",
       "path" : "web-searches",
       "scriptCommands" : [
+        {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search cdnjs.com for library.",
+          "filename" : "search-cdnjs.sh",
+          "icon" : "images\/cloudflare-logo.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search cdnjs"
+        },
         {
           "authors" : null,
           "currentDirectoryPath" : null,
@@ -1721,7 +1739,7 @@
               "icon" : "images\/apple-tv-logo.png",
               "mode" : "silent",
               "needsConfirmation" : null,
-              "packageName" : "TV",
+              "packageName" : "Apple TV",
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Play"
@@ -1739,7 +1757,7 @@
               "icon" : "images\/apple-tv-logo.png",
               "mode" : "silent",
               "needsConfirmation" : null,
-              "packageName" : "TV",
+              "packageName" : "Apple TV",
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Pause"
@@ -1757,7 +1775,7 @@
               "icon" : "images\/apple-tv-logo.png",
               "mode" : "silent",
               "needsConfirmation" : null,
-              "packageName" : "TV",
+              "packageName" : "Apple TV",
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Stop"
@@ -1767,5 +1785,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-23T17:11:40Z"
+  "updatedAt" : "2020-11-24T07:50:28Z"
 }
