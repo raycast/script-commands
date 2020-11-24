@@ -211,6 +211,10 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
+| 📦 | [Bundlephobia cost](web-searches/bundlephobia.sh) | N/A | [Zander Martineau](https://zander.wtf) |
+| ❓ | [Caniuse.com search](web-searches/caniuse.sh) | N/A | [Zander Martineau](https://zander.wtf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/giphy.png?raw=true" width="20" height="20"> | [Giphy search](web-searches/giphy.sh) | N/A | [Zander Martineau](https://zander.wtf) |
+| 📦 | [Open npm Package Repo](web-searches/repo.sh) | N/A | [Zander Martineau](https://zander.wtf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/github-logo.png?raw=true" width="20" height="20"> | [Search GitHub](web-searches/search-github.sh) | Search GitHub. | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/cloudflare-logo.png?raw=true" width="20" height="20"> | [Search cdnjs](web-searches/search-cdnjs.sh) | Search cdnjs.com for library. | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/amazon.png?raw=true" width="20" height="20"> | [Search in Amazon](web-searches/amazon.sh) | N/A | Raycast |
@@ -221,6 +225,10 @@ This repository contains sample commands and documentation to write your own one
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/youtube.png?raw=true" width="20" height="20"> | [Search in YouTube](web-searches/youtube.sh) | N/A | Raycast |
 | <img src="https://grep.app/favicon.ico" width="20" height="20"> | [Search in grep.app](web-searches/grep-app-search.sh) | N/A | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/npmjs.png?raw=true" width="20" height="20"> | [Search npm Packages](web-searches/npmjs.sh) | N/A | Raycast |
+| 🔗 | [Unfurl URL](web-searches/unfurl.sh) | N/A | [Zander Martineau](https://zander.wtf) |
+| ⬅️ | [Wayback Machine search](web-searches/wayback-machine.sh) | N/A | [Zander Martineau](https://zander.wtf) |
+| 🐸 | [njt](web-searches/njt.sh) | N/A | [Zander Martineau](https://zander.wtf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/npms.png?raw=true" width="20" height="20"> | [npms](web-searches/npms.sh) | N/A | [Zander Martineau](https://zander.wtf) |
 
 ## Community
 
