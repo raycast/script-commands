@@ -1454,6 +1454,24 @@
           "title" : "Search in grep.app"
         },
         {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search GitHub.",
+          "filename" : "search-github.sh",
+          "icon" : "images\/github-logo.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search GitHub"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : null,
@@ -1785,5 +1803,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-24T07:50:28Z"
+  "updatedAt" : "2020-11-24T17:51:31Z"
 }
