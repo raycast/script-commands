@@ -9,7 +9,7 @@
 
 # Optional parameters:
 # @raycast.icon 📦
-# @raycast.packageName NPM package bundle size
+# @raycast.packageName Web Searches
 # @raycast.argument1 { "type": "text", "placeholder": "package name" }
 
 open "https://bundlephobia.com/result?p=${1// /%20}"

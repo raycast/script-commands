@@ -9,7 +9,7 @@
 
 # Optional parameters:
 # @raycast.icon 📦
-# @raycast.packageName using ghub.io
+# @raycast.packageName Web Searches
 # @raycast.argument1 { "type": "text", "placeholder": "package name" }
 
 open "http://ghub.io/${1// /%20}"

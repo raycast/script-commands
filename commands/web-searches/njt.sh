@@ -9,7 +9,7 @@
 
 # Optional parameters:
 # @raycast.icon 🐸
-# @raycast.packageName npm jump to
+# @raycast.packageName Web Searches
 # @raycast.argument1 { "type": "text", "placeholder": "package-name [destination]" }
 
 open "https://njt.now.sh/jump?from=raycast&to=${1// /%20}"

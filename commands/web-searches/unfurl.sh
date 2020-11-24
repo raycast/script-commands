@@ -9,7 +9,7 @@
 
 # Optional parameters:
 # @raycast.icon 🔗
-# @raycast.packageName using unfurler.com
+# @raycast.packageName Web Searches
 # @raycast.argument1 { "type": "text", "placeholder": "url" }
 
 open "https://unfurler.com/?url=${1// /%20}"

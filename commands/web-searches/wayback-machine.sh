@@ -9,6 +9,7 @@
 
 # Optional parameters:
 # @raycast.icon ⬅️
+# @raycast.packageName Web Searches
 # @raycast.argument1 { "type": "text", "placeholder": "url" }
 
 open "https://web.archive.org/web/*/${1// /%20}"
