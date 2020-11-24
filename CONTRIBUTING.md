@@ -4,6 +4,12 @@ Thank you for your interest in contributing to Raycast Script Commands! Here you
 
 ## Guidelines
 
+### Git and Pull Requests
+
+Please make sure that your pull request makes it easy for the reviewer to understand what the change is about (fill in the pull request template) and keep your change focused (do not create a PR containing multiple complex script commands). 
+
+In order to keep the Git history clean, we prefer if you rebase your branch on top of master, so that we can do a fast-forward merge back to master. Make sure to use descriptive commit messages (incl. proper spelling), and squash commits ("fix typo") already on your end.
+
 ### Folder structure
 
 Try to bundle scripts that are related in a directory / sub-directory. Avoid having generic folders with lots of different commands. For example instead of having one `media` directory that contains integrations with different services, it's better to create sub-directories for each service:
