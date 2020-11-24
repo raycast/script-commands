@@ -4,11 +4,11 @@
 
 ![Demo](https://github.com/raycast/script-commands/blob/master/screenshots/demo.gif?raw=true)
 
-This repository contains sample commands and documentation to write your own ones.
+This repository contains sample commands, community commands, and documentation to write your own ones.
 
 ## Awesome Script Commands
 
-You can find a lot of useful script commands built by the community [here](https://github.com/raycast/script-commands/tree/master/commands).
+You can find a lot of [useful script commands built by our community](https://github.com/raycast/script-commands/tree/master/commands) here.
 
 Want to contribute? What a brilliant idea, please see this [contribution guide](https://github.com/raycast/script-commands/blob/master/CONTRIBUTING.md), it will help you with getting started.
 
@@ -27,13 +27,13 @@ To get started, download one of the sample commands in this repository or [write
 
 ## How to use this repository
 
-Grab scripts that you want to use and copy them to a separate directory on your machine (you can use [_enabled-commands](https://github.com/raycast/script-commands/blob/master/_enabled-commands) folder from this repo for this).
+Grab scripts that you want to use and copy them to a separate directory on your machine (you can use the [_enabled-commands](https://github.com/raycast/script-commands/blob/master/_enabled-commands) folder from this repo for this).
 
-NOTE: We recommend against directly using script directories from this repo in Raycast to protect yourself from potential restructuring and new script commands suddenly appearing in Raycast.
+**Note**: We recommend against directly using script directories from this repo in Raycast to protect yourself from potential restructuring and new script commands suddenly appearing in Raycast.
 
 ## Write Script Commands
 
-To write your custom Script Commands, go over the following steps:
+To write your custom Script Commands, go over the following steps and follow the [troubleshooting section](https://github.com/raycast/script-commands/blob/master/README.md#troubleshooting) if your script command does not show up in Raycast.
 
 1. Create a new directory for your commands
 2. Open the Extensions preferences in Raycast and select Script Commands
@@ -43,7 +43,7 @@ To write your custom Script Commands, go over the following steps:
 6. Press `Reload` in the Script Commands preferences
 7. Run your Script Command from the Raycast root search
 
-Ensure your script is executable with `chmod +x <path to script>` and has a shebang at the top.
+**Important**: Ensure your script is *executable* with `chmod +x <path to script>` and has a shebang at the top.
 
 ### API
 
@@ -65,7 +65,7 @@ The following parameters are available to customize your Script Command in Rayca
 | description          | A brief description about the script command to be presented in the documentation | No | |
 
 
-**⚠️ Whenever you make changes to the parameters of the Script Command, trigger the "Reload Script Directories" command in root search (v0.33+), or press "Reload" in script commands preferences, or activate "Auto Reload" in preferences so that your scripts get automatically reloaded (experimental, v0.33+). Also note that "reloading" means that script metadata is parsed and Raycast search is refreshed – the actual scripts are only run when you manually trigger their command or when an inline command with refreshTime is automatically triggered.**
+**⚠️ Whenever you make changes to the parameters of the Script Command, trigger the "Reload Script Directories" command in root search (v0.33+), or press "Reload" in script commands preferences, or activate "Auto Reload" in preferences so that your scripts get automatically reloaded (v0.33+). Also note that "reloading" means that script metadata is parsed and Raycast search is refreshed – the actual scripts are only run when you manually trigger their command or when an inline command with refreshTime is automatically triggered.**
 
 ### Standard Output
 
@@ -121,14 +121,14 @@ We also append `/usr/local/bin` to `$PATH` variable so you can use your local sh
 
 **👮‍♂️ We only allow Script Commands that run in a non-login shell in this repository as agreed on in our [contribution guidelines](https://github.com/raycast/script-commands/blob/master/CONTRIBUTING.md).**
 
-### Troubleshooting
+## Troubleshooting
 
 If a script doesn't appear in the commands list, make sure these requirements are met:
-* Script file is executable (you can run `file <path to script>` command in terminal to check it)
+* Script file is executable (you can run `file <path to script>` command in terminal to check it). To make the script executable, run: `chmod +x <path to script>` 
 * Filename doesn't contain `.template.` string
 * All required metadata parameters are provided. See the table above which parameters are required.
 * You use either `#` or `//` comments for metadata parameters
-* You have reloaded the scripts, via 1) the "Reload" button in preferences or 2), the "Reload Script Directories" command in root search (v0.33+), or 3) automatically via the activated "Auto Reload" feature in preferences (experimental, v0.33+)
+* You have reloaded the scripts, via 1) the "Reload" button in preferences or 2), the "Reload Script Directories" command in root search (v0.33+), or 3) automatically via the activated "Auto Reload" feature in preferences (v0.33+)
 
 If nothing helps, try to go step by step from a [template](https://github.com/raycast/script-commands/blob/master/script-command.template.sh) script command or use one of the examples in this repo.
 
