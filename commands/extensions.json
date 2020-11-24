@@ -1384,6 +1384,42 @@
           "title" : "Search cdnjs"
         },
         {
+          "authors" : [
+            {
+              "name" : "Zander Martineau",
+              "url" : "https:\/\/zander.wtf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "giphy.sh",
+          "icon" : "images\/giphy.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Giphy search"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Zander Martineau",
+              "url" : "https:\/\/zander.wtf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "njt.sh",
+          "icon" : "🐸",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "njt"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : null,
@@ -1395,6 +1431,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search npm Packages"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Zander Martineau",
+              "url" : "https:\/\/zander.wtf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "repo.sh",
+          "icon" : "📦",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open npm Package Repo"
         },
         {
           "authors" : null,
@@ -1421,6 +1475,60 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search in Amazon"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Zander Martineau",
+              "url" : "https:\/\/zander.wtf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "unfurl.sh",
+          "icon" : "🔗",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Unfurl URL"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Zander Martineau",
+              "url" : "https:\/\/zander.wtf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "caniuse.sh",
+          "icon" : "❓",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Caniuse.com search"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Zander Martineau",
+              "url" : "https:\/\/zander.wtf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "npms.sh",
+          "icon" : "images\/npms.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "npms"
         },
         {
           "authors" : [
@@ -1498,6 +1606,24 @@
           "title" : "Search in YouTube"
         },
         {
+          "authors" : [
+            {
+              "name" : "Zander Martineau",
+              "url" : "https:\/\/zander.wtf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "bundlephobia.sh",
+          "icon" : "📦",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Bundlephobia cost"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : null,
@@ -1509,6 +1635,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search in Google"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Zander Martineau",
+              "url" : "https:\/\/zander.wtf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "wayback-machine.sh",
+          "icon" : "⬅️",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Wayback Machine search"
         }
       ]
     },
@@ -1803,5 +1947,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-24T17:51:31Z"
+  "updatedAt" : "2020-11-24T21:21:53Z"
 }
