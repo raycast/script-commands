@@ -1796,6 +1796,120 @@
           ]
         },
         {
+          "name" : "Cmus",
+          "path" : "cmus",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "mmerle",
+                  "url" : "https:\/\/github.com\/mmerle"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Toggles the shuffle option if cmus is running",
+              "filename" : "toggle-shuffle.sh",
+              "icon" : "🔀",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Cmus",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Toggle Shuffle"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "mmerle",
+                  "url" : "https:\/\/github.com\/mmerle"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Goes back a track if cmus is running",
+              "filename" : "previous-track.sh",
+              "icon" : "⏪",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Cmus",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Previous Track"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "mmerle",
+                  "url" : "https:\/\/github.com\/mmerle"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Toggles the play\/pause state if cmus is running",
+              "filename" : "play-pause.sh",
+              "icon" : "⏯",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Cmus",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Toggle Play\/Pause"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "mmerle",
+                  "url" : "https:\/\/github.com\/mmerle"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Toggles the repeat option if cmus is running",
+              "filename" : "toggle-repeat.sh",
+              "icon" : "🔁",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Cmus",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Toggle Repeat"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "mmerle",
+                  "url" : "https:\/\/github.com\/mmerle"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Goes forward a track if cmus is running",
+              "filename" : "next-track.sh",
+              "icon" : "⏩",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Cmus",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Next Track"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "mmerle",
+                  "url" : "https:\/\/github.com\/mmerle"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Shows info on the current track if cmus is running",
+              "filename" : "track-info.sh",
+              "icon" : "ℹ️",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Cmus",
+              "refreshTime" : "10s",
+              "schemaVersion" : 1,
+              "title" : "Current Track"
+            }
+          ]
+        },
+        {
           "name" : "Spotify",
           "path" : "spotify",
           "scriptCommands" : [
@@ -1947,5 +2061,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-24T21:21:53Z"
+  "updatedAt" : "2020-11-25T08:50:54Z"
 }
