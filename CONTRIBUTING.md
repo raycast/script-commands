@@ -56,9 +56,16 @@ Example: `github-notifications.template.sh`
 
 *NOTE:* This might change as soon as we introduce a better way to provide parameters / environmental variables.
 
-### Scripts that require installation of dependencies
+### Scripts that require installation of runtimes and dependencies
 
-First, ask yourself if you can build the Script Command without any dependencies. Less or no dependencies make it easier for others to adopt your command. If the script would become too complex without using a dependency, follow these guidelines:
+Most scripts are either written in Bash or AppleScript. We also allow Swift and Node runtimes; however, always check if there's a strong need for those runtimes since they don't come pre-installed on macOS. We have non-technical users who don't bother installing a Node runtime just to perform a simple function.
+
+Some general guidelines:
+- First, ask yourself if you can build the Script Command without any dependencies. Less or no dependencies make it easier for others to adopt your command and make it more portable.
+- A question you can ask yourself is whether a dependency is "deep" or "shallow": a deep dependency hides complex functionality behind a simple interface. A shallow dependency is the opposite. Avoid using shallow dependencies and check whether there are built-in Unix tools (curl, awk, sed, etc.) that can solve the same problem without much code.
+- Also consider transitive dependencies and security aspects. The npm ecosystem, for instance, has been notorious for pulling-in dependencies for trivial tasks, sometimes exposing the user to security issues.
+
+If you still need a dependency, follow these guidelines:
 
 1. At the top of the file add a comment section explicitly stating the dependency and how to install it. Example:
    ```
