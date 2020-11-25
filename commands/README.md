@@ -209,6 +209,7 @@ This repository contains sample commands and documentation to write your own one
 | 💁‍♂️ | [Open Last Download](system/open-last-download.swift) | N/A | Raycast |
 | 💥 | [Quit All Applications](system/quit-all-apps.swift) | N/A | Raycast |
 | 🖼️ | [Refresh Wallpaper](system/wallpaper-refresh.applescript) | Refresh the current display's wallpaper | [Caleb Stauffer](https://github.com/crstauf) |
+| 🎧 | [Reload CoreAudio](system/reload-coreaudio.sh) | Reloads CoreAudio. | [Maxim Krouk](https://github.com/maximkrouk) |
 | ♻️ | [Restart](system/restart.applescript) | N/A | Raycast |
 | 🌀 | [Screen Saver](system/screensaver.applescript) | A script command to start your current screen saver. | [Valentin Chrétien](https://twitter.com/valentinchrt) |
 | 🛌 | [Shut Down](system/shutdown.applescript) | N/A | Raycast |
