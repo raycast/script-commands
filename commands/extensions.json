@@ -542,6 +542,24 @@
         {
           "authors" : [
             {
+              "name" : "Maxim Krouk",
+              "url" : "https:\/\/github.com\/maximkrouk"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Reloads CoreAudio.",
+          "filename" : "reload-coreaudio.sh",
+          "icon" : "🎧",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Reload CoreAudio"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Thiago Holanda",
               "url" : "https:\/\/twitter.com\/tholanda"
             }
@@ -2061,5 +2079,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-25T08:50:54Z"
+  "updatedAt" : "2020-11-25T15:31:45Z"
 }
