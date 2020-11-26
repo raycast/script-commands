@@ -924,6 +924,24 @@
           "title" : "Generate UUID"
         },
         {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : "~\/Desktop",
+          "description" : "Run [Pa11y](https:\/\/github.com\/pa11y\/pa11y) web accessibility tool on specified path or URL.",
+          "filename" : "pa11y.sh",
+          "icon" : "images\/pa11y-logo.png",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Run Pa11y"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : null,
@@ -2079,5 +2097,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-25T15:31:45Z"
+  "updatedAt" : "2020-11-26T08:11:49Z"
 }
