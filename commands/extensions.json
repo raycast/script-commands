@@ -1288,7 +1288,7 @@
               ],
               "currentDirectoryPath" : null,
               "description" : "Clear your status in Slack.",
-              "filename" : "clear-slack-status.sh",
+              "filename" : "clear-slack-status.template.sh",
               "icon" : "🧼",
               "mode" : "silent",
               "needsConfirmation" : null,
@@ -1306,7 +1306,7 @@
               ],
               "currentDirectoryPath" : null,
               "description" : "Set your status in Slack.",
-              "filename" : "set-slack-status.sh",
+              "filename" : "set-slack-status.template.sh",
               "icon" : "☕️",
               "mode" : "silent",
               "needsConfirmation" : null,
@@ -2139,5 +2139,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-26T13:42:35Z"
+  "updatedAt" : "2020-11-26T13:46:25Z"
 }
