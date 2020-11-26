@@ -24,9 +24,9 @@ hex_r="${hex:0:2}"
 hex_g="${hex:2:2}"
 hex_b="${hex:4:2}"
 
-rgba_r=`echo "obase=10; ibase=16; $hex_r" | bc`
-rgba_g=`echo "obase=10; ibase=16; $hex_g" | bc`
-rgba_b=`echo "obase=10; ibase=16; $hex_b" | bc`
+rgba_r=`echo $((0x${hex_r}))`
+rgba_g=`echo $((0x${hex_g}))`
+rgba_b=`echo $((0x${hex_b}))`
 
 rgba="rgba( $rgba_r, $rgba_g, $rgba_b, 1 )"
 
