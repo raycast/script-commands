@@ -73,8 +73,8 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
-| 🧼 | [Clear Status](communication/slack/clear-slack-status.sh) | Clear your status in Slack. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
-| ☕️ | [Set Status to Coffee](communication/slack/set-slack-status.sh) | Set your status in Slack. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
+| 🧼 | [Clear Status](communication/slack/clear-slack-status.template.sh) | Clear your status in Slack. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
+| ☕️ | [Set Status to Coffee](communication/slack/set-slack-status.template.sh) | Set your status in Slack. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
 
 ## Conversions
 
