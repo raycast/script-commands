@@ -1276,6 +1276,48 @@
       ],
       "subGroups" : [
         {
+          "name" : "Slack",
+          "path" : "slack",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Clear your status in Slack.",
+              "filename" : "clear-slack-status.sh",
+              "icon" : "🧼",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Slack",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Clear Status"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Set your status in Slack.",
+              "filename" : "set-slack-status.sh",
+              "icon" : "☕️",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Slack",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Set Status to Coffee"
+            }
+          ]
+        },
+        {
           "name" : "Cloudup",
           "path" : "cloudup",
           "scriptCommands" : [
@@ -2097,5 +2139,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-26T08:11:49Z"
+  "updatedAt" : "2020-11-26T13:42:35Z"
 }

@@ -15,6 +15,7 @@ This repository contains sample commands and documentation to write your own one
 - [Communication](#communication)
   - [Cloudup](#cloudup)
   - [Emojis](#emojis)
+  - [Slack](#slack)
 - [Conversions](#conversions)
 - [Dashboard](#dashboard)
 - [Developer Utils](#developer-utils)
@@ -67,6 +68,13 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ |
 | 📙 | [Search Emojis](communication/emojis/emojis-search.sh) | Search related emojis to input. | [Caleb Stauffer](https://github.com/crstauf) |
 | 📙 | [Search and Copy First Related Emoji](communication/emojis/emoji-copy.sh) | Copy first emoji related to input. | [Caleb Stauffer](https://github.com/crstauf) |
+
+#### Slack
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| 🧼 | [Clear Status](communication/slack/clear-slack-status.sh) | Clear your status in Slack. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
+| ☕️ | [Set Status to Coffee](communication/slack/set-slack-status.sh) | Set your status in Slack. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
 
 ## Conversions
 
