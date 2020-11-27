@@ -1116,6 +1116,24 @@
             {
               "authors" : [
                 {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Show statistics of your GitHub repository.",
+              "filename" : "github-repository-stars.template.rb",
+              "icon" : "⭐️",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "GitHub",
+              "refreshTime" : "1h",
+              "schemaVersion" : 1,
+              "title" : "Repository Statistics"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Caleb Stauffer",
                   "url" : "https:\/\/github.com\/crstauf"
                 }
@@ -2139,5 +2157,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-26T13:46:25Z"
+  "updatedAt" : "2020-11-27T10:42:28Z"
 }
