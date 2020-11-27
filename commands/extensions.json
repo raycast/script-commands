@@ -1464,6 +1464,24 @@
         {
           "authors" : [
             {
+              "name" : "Jon Callahan",
+              "url" : "https:\/\/www.joncallahan.com"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "mozilla-developer-network.sh",
+          "icon" : "images\/mozilla-developer-network.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search MDN (Mozilla Developer Network)"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -2157,5 +2175,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-27T12:56:52Z"
+  "updatedAt" : "2020-11-27T14:59:56Z"
 }
