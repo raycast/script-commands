@@ -120,6 +120,7 @@ This repository contains sample commands and documentation to write your own one
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/github/images/github-logo.png?raw=true" width="20" height="20"> | [Create GitHub Gist from Clipboard](developer-utils/github/create-github-gist.template.sh) | Create a GitHub Gist from clipboard contents and copy Gist URL. | [Caleb Stauffer](https://github.com/crstauf) |
+| ⭐️ | [Repository Statistics](developer-utils/github/github-repository-stars.template.rb) | Show statistics of your GitHub repository. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/github/images/github-logo.png?raw=true" width="20" height="20"> | [Unread Notifications](developer-utils/github/github-unread-notifications.template.sh) | Number of unread GitHub notifications. | [Caleb Stauffer](https://github.com/crstauf) |
 
 #### Google
