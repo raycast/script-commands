@@ -845,8 +845,8 @@
               "url" : "https:\/\/github.com\/maximkrouk"
             }
           ],
-          "currentDirectoryPath" : null,
-          "description" : "Records simulator to Downloads folder with a filename from the clipboard",
+          "currentDirectoryPath" : "~\/Downloads",
+          "description" : "Records simulator to Downloads folder",
           "filename" : "record-simulator.sh",
           "icon" : "📱",
           "mode" : "compact",
@@ -2157,5 +2157,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-27T10:42:28Z"
+  "updatedAt" : "2020-11-27T12:56:52Z"
 }
