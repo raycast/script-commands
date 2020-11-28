@@ -14,7 +14,8 @@
 
 if ! command -v gpg &> /dev/null; then
 	echo "gpg command is required (https://www.gnupg.org/).";
-else
-    gpg --gen-random -a 0 30 | pbcopy
-    echo "Password Generated"
+    exit 0;
 fi
+
+gpg --gen-random -a 0 30 | pbcopy
+echo "Password Generated"
