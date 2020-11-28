@@ -6,7 +6,7 @@
 # @raycast.title PageSpeed Insights - Desktop
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Run a PageSpeed Insights analysis on desktop of URL.
+# @raycast.description Run a [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) analysis on desktop of URL.
 
 # @raycast.icon images/google-psi-logo.png
 # @raycast.mode fullOutput

@@ -3,7 +3,7 @@
 # @raycast.title Search GitHub
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Search GitHub.
+# @raycast.description Search [GitHub](https://github.com).
 
 # @raycast.icon images/github-logo.png
 # @raycast.mode silent

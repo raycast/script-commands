@@ -9,7 +9,7 @@ resolutions="1920x1080 390x844"
 # @raycast.title Screenshot Website
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Takes a screenshot of the entered URL and saves it to the Desktop.
+# @raycast.description Takes screenshots of the entered URL using [`pageres`](https://github.com/sindresorhus/pageres) and saves it to the Desktop.
 
 # @raycast.currentDirectoryPath ~/Desktop
 # @raycast.icon 🖼️

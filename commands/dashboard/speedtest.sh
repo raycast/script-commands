@@ -6,7 +6,7 @@
 # @raycast.title Speedtest
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Test download and upload connection speed.
+# @raycast.description Test download and upload connection speed using [Speedtest](https://www.speedtest.net/apps/cli).
 
 # @raycast.icon images/speedtest-logo.png
 # @raycast.mode inline

@@ -7,7 +7,7 @@
 
 # @raycast.icon images/apple-tv-logo.png
 # @raycast.mode silent
-# @raycast.packageName Apple TV
+# @raycast.packageName TV
 # @raycast.schemaVersion 1
 
 tell application "TV"

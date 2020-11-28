@@ -1,6 +1,6 @@
 #!/usr/bin/osascript
 
-# @raycast.title Next
+# @raycast.title Next Track
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Next track in Music.
