@@ -13,17 +13,16 @@ user=
 # GitHub personal access token
 access_key=
 
-# @raycast.schemaVersion 1
 # @raycast.title Create GitHub Gist from Clipboard
-# @raycast.mode compact
-# @raycast.packageName GitHub
-
-# Optional parameters:
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Create a GitHub Gist from clipboard contents and copy Gist URL.
-# @raycast.needsConfirmation true
+
 # @raycast.icon images/github-logo.png
+# @raycast.mode compact
+# @raycast.needsConfirmation true
+# @raycast.packageName GitHub
+# @raycast.schemaVersion 1
 
 if [ -z ${user+x} ]; then
 	echo "GitHub username is missing.";

@@ -1,16 +1,15 @@
 #!/bin/bash
 
-# Required parameters:
-# @raycast.schemaVersion 1
 # @raycast.title Save URL to Wayback Machine
-# @raycast.mode compact
-# @raycast.packageName Internet
-
-# Optional parameters:
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Save URL to Wayback Machine
+
 # @raycast.icon images/ia-logo.jpg
+# @raycast.mode compact
+# @raycast.packageName Internet
+# @raycast.schemaVersion 1
+
 # @raycast.argument1 { "type": "text", "placeholder": "URL" }
 
 url=$1

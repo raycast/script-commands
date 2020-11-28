@@ -3,15 +3,17 @@
 # Dependency: requires lighthouse (https://developers.google.com/web/tools/lighthouse#cli)
 # Install via npm: `npm install -g lighthouse`
 
-# @raycast.schemaVersion 1
 # @raycast.title Lighthouse
-# @raycast.mode silent
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Open a Lighthouse report of URL.
-# @raycast.packageName Google
-# @raycast.icon images/google-lighthouse-logo.png
+
 # @raycast.currentDirectoryPath ~/Desktop
+# @raycast.icon images/google-lighthouse-logo.png
+# @raycast.mode silent
+# @raycast.packageName Google
+# @raycast.schemaVersion 1
+
 # @raycast.argument1 { "type": "text", "placeholder": "URL" }
 
 if ! command -v lighthouse &> /dev/null; then
