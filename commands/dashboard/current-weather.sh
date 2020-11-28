@@ -1,13 +1,14 @@
 #!/bin/bash
 
-# @raycast.schemaVersion 1
 # @raycast.title Current Weather
-# @raycast.mode inline
-# @raycast.packageName Dashboard
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Get current weather report from wttr.in.
+
 # @raycast.icon 🌦️
+# @raycast.mode inline
+# @raycast.packageName Dashboard
+# @raycast.schemaVersion 1
 
 ## Please be mindful of scalability of wttr.in if adjusting the refresh time:
 ## currently limited to one million requests per day
