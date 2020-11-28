@@ -3,7 +3,7 @@
 # @raycast.title URL IPv4
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Get IPv4 address of URL
+# @raycast.description Get IPv4 address of URL.
 
 # @raycast.icon 🌐
 # @raycast.mode compact

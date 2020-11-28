@@ -3,7 +3,7 @@
 # @raycast.title Toggle Shuffle
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Toggle shuffle setting in Music
+# @raycast.description Toggle shuffle setting in Music.
 
 # @raycast.icon images/apple-music-logo.png
 # @raycast.mode silent

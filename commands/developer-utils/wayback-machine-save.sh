@@ -3,7 +3,7 @@
 # @raycast.title Save URL to Wayback Machine
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Save URL to Wayback Machine
+# @raycast.description Save URL to Wayback Machine.
 
 # @raycast.icon images/ia-logo.jpg
 # @raycast.mode compact

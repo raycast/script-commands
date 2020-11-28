@@ -3,7 +3,7 @@
 # @raycast.title Refresh Wallpaper
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Refresh the current display's wallpaper
+# @raycast.description Refresh the current display's wallpaper.
 
 # @raycast.icon 🖼️
 # @raycast.mode silent
