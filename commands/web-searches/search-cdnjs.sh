@@ -3,7 +3,7 @@
 # @raycast.title Search cdnjs
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Search cdnjs.com for library.
+# @raycast.description Search [cdnjs.com](https://cdnjs.com/) for library.
 
 # @raycast.icon images/cloudflare-logo.png
 # @raycast.mode silent

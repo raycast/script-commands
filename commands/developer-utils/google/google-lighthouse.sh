@@ -6,7 +6,7 @@
 # @raycast.title Lighthouse
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Open a Lighthouse report of URL.
+# @raycast.description Open a [Lighthouse](https://developers.google.com/web/tools/lighthouse/) report of URL.
 
 # @raycast.currentDirectoryPath ~/Desktop
 # @raycast.icon images/google-lighthouse-logo.png

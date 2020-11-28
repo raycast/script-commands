@@ -6,7 +6,7 @@
 # @raycast.title Turn On Do Not Disturb
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Uses sindresorhus/do-not-disturb-cli to turn on DND.
+# @raycast.description Turn on "do not disturb" mode.
 
 # @raycast.icon 😴
 # @raycast.mode silent
