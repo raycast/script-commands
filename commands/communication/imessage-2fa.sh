@@ -3,6 +3,8 @@
 ### Requires Raycast to have Full Disk Access:
 ### https://spin.atomicobject.com/2020/05/22/search-imessage-sql/
 
+## Contributions welcome to improve regular expressions.
+
 # @raycast.title 2FA from iMessages
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf

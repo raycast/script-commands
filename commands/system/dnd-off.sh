@@ -3,6 +3,8 @@
 # Dependency: do-not-disturb-cli (https://github.com/sindresorhus/do-not-disturb-cli)
 # Install via npm: `npm install --global do-not-disturb-cli`
 
+## Contributions welcome for a reliable, dependency-free version.
+
 # @raycast.title Turn Off Do Not Disturb
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
