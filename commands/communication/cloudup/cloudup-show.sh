@@ -4,7 +4,7 @@
 # @raycast.title Show
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Show Cloudup popup
+# @raycast.description Show Cloudup popup.
 
 # @raycast.icon images/cloudup-logo.png
 # @raycast.mode silent

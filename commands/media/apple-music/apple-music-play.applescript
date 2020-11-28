@@ -3,7 +3,7 @@
 # @raycast.title Play
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Play Music
+# @raycast.description Play Music.
 
 # @raycast.icon images/apple-music-logo.png
 # @raycast.mode silent
