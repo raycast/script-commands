@@ -3,7 +3,7 @@
 # @raycast.title Pause
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Pause TV
+# @raycast.description Pause TV.
 
 # @raycast.icon images/apple-tv-logo.png
 # @raycast.mode silent
