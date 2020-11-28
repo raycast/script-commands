@@ -8,7 +8,7 @@
 # @raycast.icon 📈
 # @raycast.mode inline
 # @raycast.packageName System
-# @raycast.refreshTime 1m
+# @raycast.refreshTime 3m
 # @raycast.schemaVersion 1
 
 output=$(ps -exco rss,comm | sort -k 1 -n -r | head -n 1)
