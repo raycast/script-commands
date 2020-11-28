@@ -6,7 +6,7 @@
 # @raycast.title Search Emojis
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Search related emojis to input.
+# @raycast.description Search for emojis related to input.
 
 # @raycast.icon 📙
 # @raycast.mode fullOutput

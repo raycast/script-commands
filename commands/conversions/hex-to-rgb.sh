@@ -3,14 +3,14 @@
 # @raycast.title Hex to RGB
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Convert HEX color values to RGB values.
+# @raycast.description Convert hexadecimal color value to RGB value.
 
 # @raycast.icon 🎨
 # @raycast.mode silent
 # @raycast.packageName Conversions
 # @raycast.schemaVersion 1
 
-# @raycast.argument1 { "type": "text", "placeholder": "HEX" }
+# @raycast.argument1 { "type": "text", "placeholder": "#RRGGBB" }
 
 hex=$1
 first="${hex:0:1}"

@@ -20,7 +20,7 @@ detailed=true
 # @raycast.title Unread Notifications
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Number of unread GitHub notifications.
+# @raycast.description Display (detailed) number of unread GitHub notifications.
 
 # @raycast.icon images/github-logo.png
 # @raycast.mode inline

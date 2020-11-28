@@ -3,7 +3,7 @@
 # @raycast.title Current Weather
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Get current weather report from wttr.in.
+# @raycast.description Get current weather report from [wttr.in](https://wttr.in/).
 
 # @raycast.icon 🌦️
 # @raycast.mode inline

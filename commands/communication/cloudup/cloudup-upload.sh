@@ -3,7 +3,7 @@
 # @raycast.title Upload
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Upload path or URL in clipboard to Cloudup.
+# @raycast.description Upload path or URL in clipboard to [Cloudup](https://cloudup.com/).
 
 # @raycast.icon images/cloudup-logo.png
 # @raycast.mode silent
