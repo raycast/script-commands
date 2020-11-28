@@ -1,13 +1,14 @@
 #!/usr/bin/osascript
 
-# @raycast.schemaVersion 1
 # @raycast.title Toggle Shuffle
-# @raycast.mode silent
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Toggle shuffle setting in Music
-# @raycast.packageName Music
+
 # @raycast.icon images/apple-music-logo.png
+# @raycast.mode silent
+# @raycast.packageName Music
+# @raycast.schemaVersion 1
 
 tell application "Music"
 
