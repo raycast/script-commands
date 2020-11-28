@@ -8,7 +8,7 @@
 # @raycast.mode inline
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Test download and upload connection speed
+# @raycast.description Test download and upload connection speed.
 # @raycast.packageName Internet
 # @raycast.icon images/speedtest-logo.png
 # @raycast.refreshTime 20m

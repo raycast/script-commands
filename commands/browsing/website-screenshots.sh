@@ -6,15 +6,17 @@
 # Set viewport resolution of screenshots
 resolutions="1920x1080 390x844"
 
-# @raycast.schemaVersion 1
 # @raycast.title Screenshot Website
-# @raycast.mode compact
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Takes a screenshot of the entered URL and saves it to the Desktop.
-# @raycast.packageName Internet
+
 # @raycast.currentDirectoryPath ~/Desktop
 # @raycast.icon 🖼️
+# @raycast.mode compact
+# @raycast.packageName Internet
+# @raycast.schemaVersion 1
+
 # @raycast.argument1 { "type": "text", "placeholder": "URL" }
 
 if ! command -v pageres &> /dev/null; then

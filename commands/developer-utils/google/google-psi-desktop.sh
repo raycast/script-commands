@@ -3,14 +3,16 @@
 # Dependency: requires psi (https://github.com/GoogleChromeLabs/psi)
 # Install via npm: `npm install -g psi`
 
-# @raycast.schemaVersion 1
 # @raycast.title PageSpeed Insights - Desktop
-# @raycast.mode fullOutput
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Run a PageSpeed Insights analysis on desktop of URL.
-# @raycast.packageName Google
+
 # @raycast.icon images/google-psi-logo.png
+# @raycast.mode fullOutput
+# @raycast.packageName Google
+# @raycast.schemaVersion 1
+
 # @raycast.argument1 { "type": "text", "placeholder": "URL" }
 
 if ! command -v psi &> /dev/null; then
