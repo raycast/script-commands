@@ -845,8 +845,8 @@
               "url" : "https:\/\/github.com\/maximkrouk"
             }
           ],
-          "currentDirectoryPath" : null,
-          "description" : "Records simulator to Downloads folder with a filename from the clipboard",
+          "currentDirectoryPath" : "~\/Downloads",
+          "description" : "Records simulator to Downloads folder",
           "filename" : "record-simulator.sh",
           "icon" : "📱",
           "mode" : "compact",
@@ -1112,6 +1112,24 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Create GitHub Gist from Clipboard"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Show statistics of your GitHub repository.",
+              "filename" : "github-repository-stars.template.rb",
+              "icon" : "⭐️",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "GitHub",
+              "refreshTime" : "1h",
+              "schemaVersion" : 1,
+              "title" : "Repository Statistics"
             },
             {
               "authors" : [
@@ -1443,6 +1461,24 @@
       "name" : "Web Searches",
       "path" : "web-searches",
       "scriptCommands" : [
+        {
+          "authors" : [
+            {
+              "name" : "Jon Callahan",
+              "url" : "https:\/\/www.joncallahan.com"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "mozilla-developer-network.sh",
+          "icon" : "images\/mozilla-developer-network.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search MDN (Mozilla Developer Network)"
+        },
         {
           "authors" : [
             {
@@ -2139,5 +2175,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-26T13:46:25Z"
+  "updatedAt" : "2020-11-27T14:59:56Z"
 }
