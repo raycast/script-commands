@@ -1885,6 +1885,24 @@
                 }
               ],
               "currentDirectoryPath" : null,
+              "description" : "Open [WordPress CLI command reference](https:\/\/developer.wordpress.org\/cli\/commands\/) for specified command.",
+              "filename" : "wordpress-cli-command.sh",
+              "icon" : "images\/wordpress-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "WordPress",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "WordPress CLI Command"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
               "description" : "Open [WordPress functions reference](https:\/\/developer.wordpress.org\/reference\/functions\/) for specified function.",
               "filename" : "wordpress-functions-reference.sh",
               "icon" : "images\/wordpress-logo.png",
@@ -2358,5 +2376,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-30T21:20:30Z"
+  "updatedAt" : "2020-11-30T21:40:30Z"
 }
