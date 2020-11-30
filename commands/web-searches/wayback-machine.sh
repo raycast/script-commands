@@ -8,7 +8,7 @@
 # @raycast.authorURL https://zander.wtf
 
 # Optional parameters:
-# @raycast.icon ⬅️
+# @raycast.icon images/ia-logo.jpg
 # @raycast.packageName Web Searches
 # @raycast.argument1 { "type": "text", "placeholder": "url" }
 
