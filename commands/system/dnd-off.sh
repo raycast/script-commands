@@ -8,7 +8,7 @@
 # @raycast.title Turn Off Do Not Disturb
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Turn off "do not disturb" mode.
+# @raycast.description Turn off "do not disturb" mode. Does [not work on Big Sur](https://github.com/sindresorhus/do-not-disturb-cli/issues/2).
 
 # @raycast.icon 😴
 # @raycast.mode silent
