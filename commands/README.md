@@ -30,6 +30,7 @@ This repository contains sample commands and documentation to write your own one
 - [Navigation](#navigation)
 - [System](#system)
 - [Web Searches](#web-searches)
+  - [Wordpress](#wordpress)
 
 ## Bookmarks
 
@@ -259,6 +260,15 @@ This repository contains sample commands and documentation to write your own one
 | ⬅️ | [Wayback Machine search](web-searches/wayback-machine.sh) | N/A | [Zander Martineau](https://zander.wtf) |
 | 🐸 | [njt](web-searches/njt.sh) | N/A | [Zander Martineau](https://zander.wtf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/npms.png?raw=true" width="20" height="20"> | [npms](web-searches/npms.sh) | N/A | [Zander Martineau](https://zander.wtf) |
+
+#### Wordpress
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/wordpress/images/wordpress-logo.png?raw=true" width="20" height="20"> | [Search WordPress Docs](web-searches/wordpress/search-wordpress-docs.sh) | Search [WordPress Developer documentation](https://developer.wordpress.org/reference/). | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/wordpress/images/wordpress-logo.png?raw=true" width="20" height="20"> | [WordPress Classes Reference](web-searches/wordpress/wordpress-classes-reference.sh) | Open [WordPress classes reference](https://developer.wordpress.org/reference/classes/) for specified class. | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/wordpress/images/wordpress-logo.png?raw=true" width="20" height="20"> | [WordPress Functions Reference](web-searches/wordpress/wordpress-functions-reference.sh) | Open [WordPress functions reference](https://developer.wordpress.org/reference/functions/) for specified function. | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/wordpress/images/wordpress-logo.png?raw=true" width="20" height="20"> | [WordPress Hooks Reference](web-searches/wordpress/wordpress-hooks-reference.sh) | Open [WordPress hooks reference](https://developer.wordpress.org/reference/hooks/) for specified hook. | [Caleb Stauffer](https://github.com/crstauf) |
 
 ## Community
 
