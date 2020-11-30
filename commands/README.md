@@ -73,7 +73,9 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
+|  | [Clear Slack DND](communication/slack/clear-slack-DND-status.sh) | Clear DND Status in Slack | [Sam Ching](https://github.com/samching) |
 | 🧼 | [Clear Status](communication/slack/clear-slack-status.template.sh) | Clear your status in Slack. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
+|  | [Set DND Status](communication/slack/set-slack-DND-status.sh) | Set your DND status in Slack | [Sam Ching](https://github.com/samching) |
 | ☕️ | [Set Status to Coffee](communication/slack/set-slack-status.template.sh) | Set your status in Slack. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
 
 ## Conversions
@@ -241,6 +243,7 @@ This repository contains sample commands and documentation to write your own one
 | 📦 | [Open npm Package Repo](web-searches/repo.sh) | N/A | [Zander Martineau](https://zander.wtf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/github-logo.png?raw=true" width="20" height="20"> | [Search GitHub](web-searches/search-github.sh) | Search [GitHub](https://github.com). | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/mozilla-developer-network.png?raw=true" width="20" height="20"> | [Search MDN (Mozilla Developer Network)](web-searches/mozilla-developer-network.sh) | N/A | [Jon Callahan](https://www.joncallahan.com) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/netflix-logo.png?raw=true" width="20" height="20"> | [Search Netflix](web-searches/search-netflix.sh) | Search Netflix. | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/cloudflare-logo.png?raw=true" width="20" height="20"> | [Search cdnjs](web-searches/search-cdnjs.sh) | Search [cdnjs.com](https://cdnjs.com/) for library. | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/amazon.png?raw=true" width="20" height="20"> | [Search in Amazon](web-searches/amazon.sh) | N/A | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/duck-duck-go.png?raw=true" width="20" height="20"> | [Search in DuckDuckGo](web-searches/duck-duck-go.sh) | N/A | Raycast |
