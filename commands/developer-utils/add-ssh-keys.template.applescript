@@ -15,6 +15,7 @@ set keyPaths to {}
 
 # @raycast.icon 🔑
 # @raycast.mode silent
+# @raycast.packageName Developer Utilities
 # @raycast.schemaVersion 1
 
 on implode( array, delimiter )
