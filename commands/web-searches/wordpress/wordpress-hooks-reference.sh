@@ -12,4 +12,4 @@
 
 # @raycast.argument1 { "type": "text", "placeholder": "Hook name" }
 
-open "https://developer.wordpress.org/reference/hooks//${1// /%20}/"
+open "https://developer.wordpress.org/reference/hooks/${1// /%20}/"
