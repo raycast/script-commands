@@ -8,7 +8,7 @@
 # Example: set keyPaths to { "~/.ssh/id_ed25519" }
 set keyPaths to {}
 
-# @raycast.title Add SSH keys
+# @raycast.title Add SSH Keys
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Add SSH keys.
