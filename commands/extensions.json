@@ -1853,6 +1853,86 @@
           "schemaVersion" : 1,
           "title" : "Wayback Machine search"
         }
+      ],
+      "subGroups" : [
+        {
+          "name" : "Wordpress",
+          "path" : "wordpress",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Search [WordPress Developer documentation](https:\/\/developer.wordpress.org\/reference\/).",
+              "filename" : "search-wordpress-docs.sh",
+              "icon" : "images\/wordpress-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "WordPress",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Search WordPress Docs"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Open [WordPress functions reference](https:\/\/developer.wordpress.org\/reference\/functions\/) for specified function.",
+              "filename" : "wordpress-functions-reference.sh",
+              "icon" : "images\/wordpress-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "WordPress",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "WordPress Functions Reference"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Open [WordPress classes reference](https:\/\/developer.wordpress.org\/reference\/classes\/) for specified class.",
+              "filename" : "wordpress-classes-reference.sh",
+              "icon" : "images\/wordpress-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "WordPress",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "WordPress Classes Reference"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Open [WordPress hooks reference](https:\/\/developer.wordpress.org\/reference\/hooks\/) for specified hook.",
+              "filename" : "wordpress-hooks-reference.sh",
+              "icon" : "images\/wordpress-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "WordPress",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "WordPress Hooks Reference"
+            }
+          ]
+        }
       ]
     },
     {
@@ -2278,5 +2358,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-30T19:14:58Z"
+  "updatedAt" : "2020-11-30T21:20:30Z"
 }
