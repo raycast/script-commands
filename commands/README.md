@@ -101,6 +101,7 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
+| 🔑 | [Add SSH Keys (with Terminal)](developer-utils/add-ssh-keys.template.applescript) | Add one or multiple SSH keys to your SSH agent (with Terminal). | [Caleb Stauffer](https://github.com/crstauf) |
 | 🧹 | [Clear Derived Data](developer-utils/clear-derived-data.sh) | N/A | Raycast |
 | 📝 | [Copy Lorem Ipsum](developer-utils/lorem-ipsum.sh) | N/A | Raycast |
 | 💻 | [Decode Base64](developer-utils/decode-base64.sh) | N/A | Raycast |
