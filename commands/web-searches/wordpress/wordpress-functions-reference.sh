@@ -12,4 +12,4 @@
 
 # @raycast.argument1 { "type": "text", "placeholder": "Function name" }
 
-open "https://developer.wordpress.org/reference/functions//${1// /%20}/"
+open "https://developer.wordpress.org/reference/functions/${1// /%20}/"
