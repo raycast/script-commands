@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# @raycast.title WordPress Class Reference
+# @raycast.title WordPress Classes Reference
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Open WordPress class reference.
+# @raycast.description Open [WordPress classes reference](https://developer.wordpress.org/reference/classes/) for specified class.
 
 # @raycast.icon images/wordpress-logo.png
 # @raycast.mode silent

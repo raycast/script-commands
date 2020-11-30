@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# @raycast.title WordPress Function Reference
+# @raycast.title WordPress Functions Reference
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Open WordPress function reference.
+# @raycast.description Open [WordPress functions reference](https://developer.wordpress.org/reference/functions/) for specified function.
 
 # @raycast.icon images/wordpress-logo.png
 # @raycast.mode silent
