@@ -3,7 +3,7 @@
 # @raycast.title Search WordPress Docs
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Search WordPress Developer documentation.
+# @raycast.description Search [WordPress Developer documentation](https://developer.wordpress.org/reference/).
 
 # @raycast.icon images/wordpress-logo.png
 # @raycast.mode silent
