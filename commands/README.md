@@ -43,7 +43,7 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ |
 | 🧭 | [Copy Current Page URL](browsing/safari-current-page-url.sh) | This script copies URL of currently opened page in Safari into clipboard. | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
 | 🧭 | [Copy Current Window URLs](browsing/safari-current-window-urls.applescript) | This script copies to clipboard all URLs from frontmost Safari window. | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
-| 🖼️ | [Screenshot Website](browsing/website-screenshots.sh) | Takes a screenshot of the entered URL and saves it to the Desktop. | [Caleb Stauffer](https://github.com/crstauf) |
+| 🖼️ | [Screenshot Website](browsing/website-screenshots.sh) | Takes screenshots of the entered URL using [`pageres`](https://github.com/sindresorhus/pageres) and saves it to the Desktop. | [Caleb Stauffer](https://github.com/crstauf) |
 | 🔗 | [Shorten URL From Clipboard](browsing/shorten-url.sh) | Shorten the URL in your Clipboard with Tiny URL. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
 
 ## Communication
@@ -51,22 +51,22 @@ This repository contains sample commands and documentation to write your own one
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
 | 🔐 | [2FA from iMessages](communication/imessage-2fa.sh) | Get most recent two-factor authentication code from iMessages. | [Caleb Stauffer](https://github.com/crstauf) and [Thiago Holanda](https://twitter.com/tholanda) |
-| 🔐 | [Generate Passphrase](communication/xkcdpass.sh) | Use xkcdpass to create a passphrase. | [Caleb Stauffer](https://github.com/crstauf) |
+| 🔐 | [Generate Passphrase](communication/xkcdpass.sh) | Use [xkcdpass](https://github.com/redacted/XKCD-password-generator) to create a passphrase. | [Caleb Stauffer](https://github.com/crstauf) |
 
 #### Cloudup
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/cloudup/images/cloudup-logo.png?raw=true" width="20" height="20"> | [Paste](communication/cloudup/cloudup-paste.sh) | Upload clipboard contents to Cloudup | [Caleb Stauffer](https://github.com/crstauf) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/cloudup/images/cloudup-logo.png?raw=true" width="20" height="20"> | [Pick](communication/cloudup/cloudup-pick.sh) | Open file dialog and upload to Cloudup | [Caleb Stauffer](https://github.com/crstauf) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/cloudup/images/cloudup-logo.png?raw=true" width="20" height="20"> | [Show](communication/cloudup/cloudup-show.sh) | Show Cloudup popup | [Caleb Stauffer](https://github.com/crstauf) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/cloudup/images/cloudup-logo.png?raw=true" width="20" height="20"> | [Upload](communication/cloudup/cloudup-upload.sh) | Upload path or URL in clipboard to Cloudup | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/cloudup/images/cloudup-logo.png?raw=true" width="20" height="20"> | [Paste](communication/cloudup/cloudup-paste.sh) | Upload clipboard contents to [Cloudup](https://cloudup.com/). | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/cloudup/images/cloudup-logo.png?raw=true" width="20" height="20"> | [Pick](communication/cloudup/cloudup-pick.sh) | Open file dialog and upload to [Cloudup](https://cloudup.com/). | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/cloudup/images/cloudup-logo.png?raw=true" width="20" height="20"> | [Show](communication/cloudup/cloudup-show.sh) | Show Cloudup popup. | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/cloudup/images/cloudup-logo.png?raw=true" width="20" height="20"> | [Upload](communication/cloudup/cloudup-upload.sh) | Upload path or URL in clipboard to [Cloudup](https://cloudup.com/). | [Caleb Stauffer](https://github.com/crstauf) |
 
 #### Emojis
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
-| 📙 | [Search Emojis](communication/emojis/emojis-search.sh) | Search related emojis to input. | [Caleb Stauffer](https://github.com/crstauf) |
+| 📙 | [Search Emojis](communication/emojis/emojis-search.sh) | Search for emojis related to input. | [Caleb Stauffer](https://github.com/crstauf) |
 | 📙 | [Search and Copy First Related Emoji](communication/emojis/emoji-copy.sh) | Copy first emoji related to input. | [Caleb Stauffer](https://github.com/crstauf) |
 
 #### Slack
@@ -83,16 +83,16 @@ This repository contains sample commands and documentation to write your own one
 |  | [Column to Comma](conversions/column-to-comma.sh) | N/A | Raycast |
 | ⏱ | [Convert Epoch to Human-Readable Date](conversions/epoch-to-human-date.sh) | Convert epoch to human-readable date. | [Siyuan Zhang](https://github.com/kastnerorz) |
 | ⏱ | [Convert Human-Readable Date To Epoch](conversions/human-date-to-epoch.sh) | Convert human-readable date to timestamp epoch. | [Siyuan Zhang](https://github.com/kastnerorz) |
-| 🎨 | [Hex to RGB](conversions/hex-to-rgb.sh) | Convert HEX color values to RGB values. | [Caleb Stauffer](https://github.com/crstauf) |
-| 🎨 | [Hex to RGBA](conversions/hex-to-rgba.sh) | Convert HEX color values to RGBA values. | [Caleb Stauffer](https://github.com/crstauf) |
+| 🎨 | [Hex to RGB](conversions/hex-to-rgb.sh) | Convert hexadecimal color value to RGB value. | [Caleb Stauffer](https://github.com/crstauf) |
+| 🎨 | [Hex to RGBA](conversions/hex-to-rgba.sh) | Convert hexadecimal color value to RGBA value. | [Caleb Stauffer](https://github.com/crstauf) |
 
 ## Dashboard
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/dashboard/images/bitcoin-logo.png?raw=true" width="20" height="20"> | [Bitcoin Price](dashboard/bitcoin-price-usd.sh) | Get current Bitcoin price from Coindesk. | [Tanguy Le Stradic](https://github.com/tanguyls) |
-| 🌦️ | [Current Weather](dashboard/current-weather.sh) | Get current weather report from wttr.in. | [Caleb Stauffer](https://github.com/crstauf) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/dashboard/images/speedtest-logo.png?raw=true" width="20" height="20"> | [Speedtest](dashboard/speedtest.sh) | Test download and upload connection speed | [Caleb Stauffer](https://github.com/crstauf) |
+| 🌦️ | [Current Weather](dashboard/current-weather.sh) | Get current weather report from [wttr.in](https://wttr.in/). | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/dashboard/images/speedtest-logo.png?raw=true" width="20" height="20"> | [Speedtest](dashboard/speedtest.sh) | Test download and upload connection speed using [Speedtest](https://www.speedtest.net/apps/cli). | [Caleb Stauffer](https://github.com/crstauf) |
 | 📈 | [System Activity](dashboard/system-activity.sh) | N/A | Raycast |
 
 ## Developer Utils
@@ -111,7 +111,7 @@ This repository contains sample commands and documentation to write your own one
 | 💻 | [Prettify JSON](developer-utils/prettify-json.sh) | N/A | Raycast |
 | 📱 | [Record Simulator](developer-utils/record-simulator.sh) | Records simulator to Downloads folder | [Maxim Krouk](https://github.com/maximkrouk) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/images/pa11y-logo.png?raw=true" width="20" height="20"> | [Run Pa11y](developer-utils/pa11y.sh) | Run [Pa11y](https://github.com/pa11y/pa11y) web accessibility tool on specified path or URL. | [Caleb Stauffer](https://github.com/crstauf) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/images/ia-logo.jpg?raw=true" width="20" height="20"> | [Save URL to Wayback Machine](developer-utils/wayback-machine-save.sh) | Save URL to Wayback Machine | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/images/ia-logo.jpg?raw=true" width="20" height="20"> | [Save URL to Wayback Machine](developer-utils/wayback-machine-save.sh) | Save URL to [Wayback Machine](https://web.archive.org/). | [Caleb Stauffer](https://github.com/crstauf) |
 | 🔎 | [Search Script Command](developer-utils/search-script-command.swift) | Search for Script Commands available in the Raycast repository | [Thiago Holanda](https://twitter.com/tholanda) |
 | 🌐 | [Whois](developer-utils/whois.sh) | Whois of URL. | [Caleb Stauffer](https://github.com/crstauf) |
 
@@ -121,15 +121,15 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/github/images/github-logo.png?raw=true" width="20" height="20"> | [Create GitHub Gist from Clipboard](developer-utils/github/create-github-gist.template.sh) | Create a GitHub Gist from clipboard contents and copy Gist URL. | [Caleb Stauffer](https://github.com/crstauf) |
 | ⭐️ | [Repository Statistics](developer-utils/github/github-repository-stars.template.rb) | Show statistics of your GitHub repository. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/github/images/github-logo.png?raw=true" width="20" height="20"> | [Unread Notifications](developer-utils/github/github-unread-notifications.template.sh) | Number of unread GitHub notifications. | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/github/images/github-logo.png?raw=true" width="20" height="20"> | [Unread Notifications](developer-utils/github/github-unread-notifications.template.sh) | Display (detailed) number of unread GitHub notifications. | [Caleb Stauffer](https://github.com/crstauf) |
 
 #### Google
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/google/images/google-lighthouse-logo.png?raw=true" width="20" height="20"> | [Lighthouse](developer-utils/google/google-lighthouse.sh) | Open a Lighthouse report of URL. | [Caleb Stauffer](https://github.com/crstauf) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/google/images/google-psi-logo.png?raw=true" width="20" height="20"> | [PageSpeed Insights - Desktop](developer-utils/google/google-psi-desktop.sh) | Run a PageSpeed Insights analysis on desktop of URL. | [Caleb Stauffer](https://github.com/crstauf) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/google/images/google-psi-logo.png?raw=true" width="20" height="20"> | [PageSpeed Insights - Mobile](developer-utils/google/google-psi-mobile.sh) | Run a PageSpeed Insights analysis on mobile of URL. | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/google/images/google-lighthouse-logo.png?raw=true" width="20" height="20"> | [Lighthouse](developer-utils/google/google-lighthouse.sh) | Open a [Lighthouse](https://developers.google.com/web/tools/lighthouse/) report of URL. | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/google/images/google-psi-logo.png?raw=true" width="20" height="20"> | [PageSpeed Insights - Desktop](developer-utils/google/google-psi-desktop.sh) | Run a [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) analysis on desktop of URL. | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/google/images/google-psi-logo.png?raw=true" width="20" height="20"> | [PageSpeed Insights - Mobile](developer-utils/google/google-psi-mobile.sh) | Run a [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) analysis on mobile of URL. | [Caleb Stauffer](https://github.com/crstauf) |
 
 #### Ip
 
@@ -139,8 +139,8 @@ This repository contains sample commands and documentation to write your own one
 | 🌐 | [External IPv6](developer-utils/ip/get-external-ip-v6.sh) | N/A | Raycast |
 | 🌐 | [Local IPv4](developer-utils/ip/get-local-ip-v4.sh) | N/A | Raycast |
 | 🌐 | [Local IPv6](developer-utils/ip/get-local-ip-v6.sh) | N/A | Raycast |
-| 🌐 | [URL IPv4](developer-utils/ip/get-url-ip-v4.sh) | Get IPv4 address of URL | [Caleb Stauffer](https://github.com/crstauf) |
-| 🌐 | [URL IPv6](developer-utils/ip/get-url-ip-v6.sh) | Get IPv6 address of URL | [Caleb Stauffer](https://github.com/crstauf) |
+| 🌐 | [URL IPv4](developer-utils/ip/get-url-ip-v4.sh) | Get IPv4 address of URL. | [Caleb Stauffer](https://github.com/crstauf) |
+| 🌐 | [URL IPv6](developer-utils/ip/get-url-ip-v6.sh) | Get IPv6 address of URL. | [Caleb Stauffer](https://github.com/crstauf) |
 
 ## Media
 
@@ -148,21 +148,21 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-music/images/apple-music-logo.png?raw=true" width="20" height="20"> | [Next](media/apple-music/apple-music-next.applescript) | Next track in Music | [Caleb Stauffer](https://github.com/crstauf) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-music/images/apple-music-logo.png?raw=true" width="20" height="20"> | [Pause](media/apple-music/apple-music-pause.applescript) | Pause Music | [Caleb Stauffer](https://github.com/crstauf) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-music/images/apple-music-logo.png?raw=true" width="20" height="20"> | [Play](media/apple-music/apple-music-play.applescript) | Play Music | [Caleb Stauffer](https://github.com/crstauf) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-music/images/apple-music-logo.png?raw=true" width="20" height="20"> | [Previous](media/apple-music/apple-music-previous.applescript) | Previous track in Music | [Caleb Stauffer](https://github.com/crstauf) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-music/images/apple-music-logo.png?raw=true" width="20" height="20"> | [Stop](media/apple-music/apple-music-stop.applescript) | Stop Music | [Caleb Stauffer](https://github.com/crstauf) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-music/images/apple-music-logo.png?raw=true" width="20" height="20"> | [Toggle Repeat](media/apple-music/apple-music-repeat.applescript) | Toggle repeat settling in Music | [Caleb Stauffer](https://github.com/crstauf) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-music/images/apple-music-logo.png?raw=true" width="20" height="20"> | [Toggle Shuffle](media/apple-music/apple-music-shuffle.applescript) | Toggle shuffle setting in Music | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-music/images/apple-music-logo.png?raw=true" width="20" height="20"> | [Next Track](media/apple-music/apple-music-next.applescript) | Next track in Music. | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-music/images/apple-music-logo.png?raw=true" width="20" height="20"> | [Pause](media/apple-music/apple-music-pause.applescript) | Pause Music. | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-music/images/apple-music-logo.png?raw=true" width="20" height="20"> | [Play](media/apple-music/apple-music-play.applescript) | Play Music. | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-music/images/apple-music-logo.png?raw=true" width="20" height="20"> | [Previous Track](media/apple-music/apple-music-previous.applescript) | Previous track in Music. | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-music/images/apple-music-logo.png?raw=true" width="20" height="20"> | [Stop](media/apple-music/apple-music-stop.applescript) | Stop Music. | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-music/images/apple-music-logo.png?raw=true" width="20" height="20"> | [Toggle Repeat](media/apple-music/apple-music-repeat.applescript) | Toggle repeat setting in Music. | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-music/images/apple-music-logo.png?raw=true" width="20" height="20"> | [Toggle Shuffle](media/apple-music/apple-music-shuffle.applescript) | Toggle shuffle setting in Music. | [Caleb Stauffer](https://github.com/crstauf) |
 
 #### Apple Tv
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-tv/images/apple-tv-logo.png?raw=true" width="20" height="20"> | [Pause](media/apple-tv/apple-tv-pause.applescript) | Pause TV | [Caleb Stauffer](https://github.com/crstauf) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-tv/images/apple-tv-logo.png?raw=true" width="20" height="20"> | [Play](media/apple-tv/apple-tv-play.applescript) | Play TV | [Caleb Stauffer](https://github.com/crstauf) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-tv/images/apple-tv-logo.png?raw=true" width="20" height="20"> | [Stop](media/apple-tv/apple-tv-stop.applescript) | Stop TV | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-tv/images/apple-tv-logo.png?raw=true" width="20" height="20"> | [Pause](media/apple-tv/apple-tv-pause.applescript) | Pause TV. | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-tv/images/apple-tv-logo.png?raw=true" width="20" height="20"> | [Play](media/apple-tv/apple-tv-play.applescript) | Play TV. | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-tv/images/apple-tv-logo.png?raw=true" width="20" height="20"> | [Stop](media/apple-tv/apple-tv-stop.applescript) | Stop TV. | [Caleb Stauffer](https://github.com/crstauf) |
 
 #### Cmus
 
@@ -219,7 +219,7 @@ This repository contains sample commands and documentation to write your own one
 | 📈 | [Largest RAM Process](system/largest-ram-process.sh) | Report process with largest system RAM usage. | [Caleb Stauffer](https://github.com/crstauf) |
 | 💁‍♂️ | [Open Last Download](system/open-last-download.swift) | N/A | Raycast |
 | 💥 | [Quit All Applications](system/quit-all-apps.swift) | N/A | Raycast |
-| 🖼️ | [Refresh Wallpaper](system/wallpaper-refresh.applescript) | Refresh the current display's wallpaper | [Caleb Stauffer](https://github.com/crstauf) |
+| 🖼️ | [Refresh Wallpaper](system/wallpaper-refresh.applescript) | Refresh the current display's wallpaper. | [Caleb Stauffer](https://github.com/crstauf) |
 | 🎧 | [Reload CoreAudio](system/reload-coreaudio.sh) | Reloads CoreAudio. | [Maxim Krouk](https://github.com/maximkrouk) |
 | ♻️ | [Restart](system/restart.applescript) | N/A | Raycast |
 | 🌀 | [Screen Saver](system/screensaver.applescript) | A script command to start your current screen saver. | [Valentin Chrétien](https://twitter.com/valentinchrt) |
@@ -228,8 +228,8 @@ This repository contains sample commands and documentation to write your own one
 | 🖥 | [Toggle Desktop Icons](system/toggle-desktop-icons.applescript) | A script command to show and hide icons of Desktop folder | [Raycast](https://raycast.com) |
 | 👓 | [Toggle Hidden Files](system/toggle-hidden-files.applescript) | Show and hide hidden files/folders which starts with "." (dot), i.e: .bash_rc, .ssh | [Thiago Holanda](https://twitter.com/tholanda) |
 | 🌗 | [Toggle System Appearance](system/toggle-system-appearance.applescript) | Script Command to switch between the system appearance, light and dark mode. | [Thiago Holanda](https://twitter.com/tholanda) |
-| 😴 | [Turn Off Do Not Disturb](system/dnd-off.sh) | Uses sindresorhus/do-not-disturb-cli to turn on DND. | [Caleb Stauffer](https://github.com/crstauf) |
-| 😴 | [Turn On Do Not Disturb](system/dnd-on.sh) | Uses sindresorhus/do-not-disturb-cli to turn on DND. | [Caleb Stauffer](https://github.com/crstauf) |
+| 😴 | [Turn Off Do Not Disturb](system/dnd-off.sh) | Turn off "do not disturb" mode. Does [not work on Big Sur](https://github.com/sindresorhus/do-not-disturb-cli/issues/2). | [Caleb Stauffer](https://github.com/crstauf) |
+| 😴 | [Turn On Do Not Disturb](system/dnd-on.sh) | Turn on "do not disturb" mode. Does [not work on Big Sur](https://github.com/sindresorhus/do-not-disturb-cli/issues/2). | [Caleb Stauffer](https://github.com/crstauf) |
 
 ## Web Searches
 
@@ -239,9 +239,9 @@ This repository contains sample commands and documentation to write your own one
 | ❓ | [Caniuse.com search](web-searches/caniuse.sh) | N/A | [Zander Martineau](https://zander.wtf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/giphy.png?raw=true" width="20" height="20"> | [Giphy search](web-searches/giphy.sh) | N/A | [Zander Martineau](https://zander.wtf) |
 | 📦 | [Open npm Package Repo](web-searches/repo.sh) | N/A | [Zander Martineau](https://zander.wtf) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/github-logo.png?raw=true" width="20" height="20"> | [Search GitHub](web-searches/search-github.sh) | Search GitHub. | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/github-logo.png?raw=true" width="20" height="20"> | [Search GitHub](web-searches/search-github.sh) | Search [GitHub](https://github.com). | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/mozilla-developer-network.png?raw=true" width="20" height="20"> | [Search MDN (Mozilla Developer Network)](web-searches/mozilla-developer-network.sh) | N/A | [Jon Callahan](https://www.joncallahan.com) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/cloudflare-logo.png?raw=true" width="20" height="20"> | [Search cdnjs](web-searches/search-cdnjs.sh) | Search cdnjs.com for library. | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/cloudflare-logo.png?raw=true" width="20" height="20"> | [Search cdnjs](web-searches/search-cdnjs.sh) | Search [cdnjs.com](https://cdnjs.com/) for library. | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/amazon.png?raw=true" width="20" height="20"> | [Search in Amazon](web-searches/amazon.sh) | N/A | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/duck-duck-go.png?raw=true" width="20" height="20"> | [Search in DuckDuckGo](web-searches/duck-duck-go.sh) | N/A | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/ecosia.png?raw=true" width="20" height="20"> | [Search in Ecosia](web-searches/ecosia.sh) | N/A | [Sasivarnan R](https://github.com/sasivarnan) |
