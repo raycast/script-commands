@@ -3,7 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Start Service
-# @raycast.mode compact
+# @raycast.mode fullOutput
 # @raycast.packageName Brew
 # @raycast.argument1 {"type":"text", "placeholder": "Service Name" }
 #
