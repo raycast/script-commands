@@ -12,4 +12,4 @@
 
 # @raycast.argument1 { "type": "text", "placeholder": "Class name" }
 
-open "https://developer.wordpress.org/reference/classes//${1// /%20}/"
+open "https://developer.wordpress.org/reference/classes/${1// /%20}/"
