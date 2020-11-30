@@ -1795,6 +1795,19 @@
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : null,
+          "filename" : "crunchbase.sh",
+          "icon" : "images\/crunchbase.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in Crunchbase"
+        },
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
           "filename" : "google-search.sh",
           "icon" : "images\/google.png",
           "mode" : "silent",
@@ -2247,5 +2260,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-30T15:06:19Z"
+  "updatedAt" : "2020-11-30T15:15:56Z"
 }
