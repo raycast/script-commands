@@ -2085,6 +2085,24 @@
               "title" : "Play"
             },
             {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Show currently playing track in Spotify.",
+              "filename" : "spotify-current-track.applescript",
+              "icon" : "images\/spotify-logo.png",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Spotify",
+              "refreshTime" : "30s",
+              "schemaVersion" : 1,
+              "title" : "Current Track"
+            },
+            {
               "authors" : null,
               "currentDirectoryPath" : null,
               "description" : null,
@@ -2175,5 +2193,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-27T14:59:56Z"
+  "updatedAt" : "2020-11-30T12:56:16Z"
 }
