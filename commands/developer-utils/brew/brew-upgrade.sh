@@ -8,8 +8,6 @@
 #
 # Optional parameters:
 # @raycast.icon 🍺
-# @raycast.currentDirectoryPath ~
-# @raycast.needsConfirmation false
 #
 # Documentation:
 # @raycast.description Run Brew Upgrade
