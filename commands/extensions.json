@@ -1300,6 +1300,24 @@
             {
               "authors" : [
                 {
+                  "name" : "Sam Ching",
+                  "url" : "https:\/\/github.com\/samching"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Clear DND Status in Slack",
+              "filename" : "clear-slack-DND-status.sh",
+              "icon" : null,
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Slack",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Clear Slack DND"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Thomas Paul Mann",
                   "url" : "https:\/\/github.com\/thomaspaulmann"
                 }
@@ -1332,6 +1350,24 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Set Status to Coffee"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sam Ching",
+                  "url" : "https:\/\/github.com\/samching"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Set your DND status in Slack",
+              "filename" : "set-slack-DND-status.sh",
+              "icon" : null,
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Slack",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Set DND Status"
             }
           ]
         },
@@ -1514,6 +1550,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Giphy search"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search Netflix.",
+          "filename" : "search-netflix.sh",
+          "icon" : "images\/netflix-logo.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search Netflix"
         },
         {
           "authors" : [
@@ -2193,5 +2247,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-30T14:50:05Z"
+  "updatedAt" : "2020-11-30T15:06:19Z"
 }
