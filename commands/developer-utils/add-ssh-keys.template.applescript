@@ -8,10 +8,10 @@
 # Example: set keyPaths to { "~/.ssh/id_ed25519" }
 set keyPaths to {}
 
-# @raycast.title Add SSH Keys
+# @raycast.title Add SSH Keys (with Terminal)
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Add SSH keys.
+# @raycast.description Add one or multiple SSH keys to your SSH agent (with Terminal).
 
 # @raycast.icon 🔑
 # @raycast.mode silent
