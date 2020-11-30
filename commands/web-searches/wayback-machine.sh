@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Wayback Machine search
+# @raycast.title Wayback Machine Search
 # @raycast.mode silent
 # @raycast.author Zander Martineau
 # @raycast.authorURL https://zander.wtf
