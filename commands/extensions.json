@@ -900,6 +900,24 @@
             }
           ],
           "currentDirectoryPath" : null,
+          "description" : "Add one or multiple SSH keys to your SSH agent (with Terminal).",
+          "filename" : "add-ssh-keys.template.applescript",
+          "icon" : "🔑",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Add SSH Keys (with Terminal)"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
           "description" : "Ping an IP address or URL.",
           "filename" : "ping.sh",
           "icon" : "🌐",
@@ -2260,5 +2278,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-30T15:15:56Z"
+  "updatedAt" : "2020-11-30T19:14:58Z"
 }
