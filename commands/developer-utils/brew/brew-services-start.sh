@@ -9,8 +9,6 @@
 #
 # Optional parameters:
 # @raycast.icon 🍺
-# @raycast.currentDirectoryPath ~
-# @raycast.needsConfirmation false
 #
 # Documentation:
 # @raycast.description Start Service in Brew

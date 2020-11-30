@@ -8,8 +8,6 @@
 #
 # Optional parameters:
 # @raycast.icon 🍺
-# @raycast.currentDirectoryPath ~
-# @raycast.needsConfirmation false
 #
 # Documentation:
 # @raycast.description Show list of outdated formulae
