@@ -434,6 +434,24 @@
           "refreshTime" : "5s",
           "schemaVersion" : 1,
           "title" : "System Activity"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Thomas Paul Mann",
+              "url" : "https:\/\/github.com\/thomaspaulmann"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "See the year progress on your desktop.",
+          "filename" : "year-progress.sh",
+          "icon" : "⏱",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Dashboard",
+          "refreshTime" : "1h",
+          "schemaVersion" : 1,
+          "title" : "Year Progress"
         }
       ]
     },
@@ -2508,5 +2526,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-12-01T09:56:09Z"
+  "updatedAt" : "2020-12-01T15:21:14Z"
 }
