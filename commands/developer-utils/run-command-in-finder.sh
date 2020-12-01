@@ -2,8 +2,10 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Run command on front finder window
+# @raycast.title Run Command On Front Finder Window
 # @raycast.mode silent
+# @raycast.author Wesley Martin
+# @raycast.authorURL https://github.com/itsmewes
 #
 # Optional parameters:
 # @raycast.icon 🛠
