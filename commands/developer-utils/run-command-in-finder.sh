@@ -9,7 +9,7 @@
 #
 # Optional parameters:
 # @raycast.icon 🛠
-# @raycast.packageName Finder Command
+# @raycast.packageName Developer Utils
 # @raycast.argument1 { "type": "text", "placeholder": "Write command" }
 
 dir=$(osascript <<'EOF'
