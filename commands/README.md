@@ -19,6 +19,7 @@ This repository contains sample commands and documentation to write your own one
 - [Conversions](#conversions)
 - [Dashboard](#dashboard)
 - [Developer Utils](#developer-utils)
+  - [Brew](#brew)
   - [Github](#github)
   - [Google](#google)
   - [Ip](#ip)
@@ -114,10 +115,22 @@ This repository contains sample commands and documentation to write your own one
 | 🌐 | [Ping Monitor](developer-utils/ping-monitor.template.sh) | Ping an IP address or URL on an interval. | [Caleb Stauffer](https://github.com/crstauf) |
 | 💻 | [Prettify JSON](developer-utils/prettify-json.sh) | N/A | Raycast |
 | 📱 | [Record Simulator](developer-utils/record-simulator.sh) | Records simulator to Downloads folder | [Maxim Krouk](https://github.com/maximkrouk) |
+| 🛠 | [Run Command On Front Finder Window](developer-utils/run-command-in-finder.sh) | N/A | [Wesley Martin](https://github.com/itsmewes) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/images/pa11y-logo.png?raw=true" width="20" height="20"> | [Run Pa11y](developer-utils/pa11y.sh) | Run [Pa11y](https://github.com/pa11y/pa11y) web accessibility tool on specified path or URL. | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/images/ia-logo.jpg?raw=true" width="20" height="20"> | [Save URL to Wayback Machine](developer-utils/wayback-machine-save.sh) | Save URL to [Wayback Machine](https://web.archive.org/). | [Caleb Stauffer](https://github.com/crstauf) |
 | 🔎 | [Search Script Command](developer-utils/search-script-command.swift) | Search for Script Commands available in the Raycast repository | [Thiago Holanda](https://twitter.com/tholanda) |
 | 🌐 | [Whois](developer-utils/whois.sh) | Whois of URL. | [Caleb Stauffer](https://github.com/crstauf) |
+
+#### Brew
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| 🍺 | [Doctor](developer-utils/brew/brew-doctor.sh) | Run Brew Doctor | [Thiago Holanda](https://twitter.com/tholanda) |
+| 🍺 | [Outdated List](developer-utils/brew/brew-outdated.sh) | Show list of outdated formulae | [Thiago Holanda](https://twitter.com/tholanda) |
+| 🍺 | [Services List](developer-utils/brew/brew-services-list.sh) | Show Brew Services List | [Thiago Holanda](https://twitter.com/tholanda) |
+| 🍺 | [Start Service](developer-utils/brew/brew-services-start.sh) | Start Service in Brew | [Thiago Holanda](https://twitter.com/tholanda) |
+| 🍺 | [Stop Service](developer-utils/brew/brew-services-stop.sh) | Stop Service in Brew | [Thiago Holanda](https://twitter.com/tholanda) |
+| 🍺 | [Upgrade](developer-utils/brew/brew-upgrade.sh) | Run Brew Upgrade | [Thiago Holanda](https://twitter.com/tholanda) |
 
 #### Github
 

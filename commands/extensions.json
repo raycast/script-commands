@@ -877,6 +877,24 @@
         {
           "authors" : [
             {
+              "name" : "Wesley Martin",
+              "url" : "https:\/\/github.com\/itsmewes"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "run-command-in-finder.sh",
+          "icon" : "🛠",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utils",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Run Command On Front Finder Window"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Thiago Holanda",
               "url" : "https:\/\/twitter.com\/tholanda"
             }
@@ -1106,6 +1124,120 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Lighthouse"
+            }
+          ]
+        },
+        {
+          "name" : "Brew",
+          "path" : "brew",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Thiago Holanda",
+                  "url" : "https:\/\/twitter.com\/tholanda"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Run Brew Doctor",
+              "filename" : "brew-doctor.sh",
+              "icon" : "🍺",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Brew",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Doctor"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thiago Holanda",
+                  "url" : "https:\/\/twitter.com\/tholanda"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Show list of outdated formulae",
+              "filename" : "brew-outdated.sh",
+              "icon" : "🍺",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Brew",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Outdated List"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thiago Holanda",
+                  "url" : "https:\/\/twitter.com\/tholanda"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Start Service in Brew",
+              "filename" : "brew-services-start.sh",
+              "icon" : "🍺",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Brew",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Start Service"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thiago Holanda",
+                  "url" : "https:\/\/twitter.com\/tholanda"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Run Brew Upgrade",
+              "filename" : "brew-upgrade.sh",
+              "icon" : "🍺",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Brew",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Upgrade"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thiago Holanda",
+                  "url" : "https:\/\/twitter.com\/tholanda"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Stop Service in Brew",
+              "filename" : "brew-services-stop.sh",
+              "icon" : "🍺",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Brew",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Stop Service"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thiago Holanda",
+                  "url" : "https:\/\/twitter.com\/tholanda"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Show Brew Services List",
+              "filename" : "brew-services-list.sh",
+              "icon" : "🍺",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Brew",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Services List"
             }
           ]
         },
@@ -2376,5 +2508,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-30T21:40:30Z"
+  "updatedAt" : "2020-12-01T09:56:09Z"
 }
