@@ -6,6 +6,7 @@
 # @raycast.description Search [Unsplash](https://unsplash.com).
 
 # @raycast.icon images/unsplash-logo.png
+# @raycast.iconDark images/unsplash-logo-white.png
 # @raycast.mode silent
 # @raycast.packageName Web Searches
 # @raycast.schemaVersion 1
