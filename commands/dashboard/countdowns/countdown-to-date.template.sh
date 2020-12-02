@@ -41,7 +41,7 @@ DAYS_REMAINING=$(($REMAINING / 86400))
 HOURS_REMAINING=$(($REMAINING % 86400 / 3600))
 
 if [[  $HOURS_REMAINING > 0 ]]; then
-    echo There are $DAYS_REMAINING days and $HOURS_REMAINING hours left until your event.
+    echo "There are $DAYS_REMAINING days and $HOURS_REMAINING hours left until your event."
 else
-    echo Your message\!
+    echo "Your message\!"
 fi

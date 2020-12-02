@@ -30,7 +30,7 @@
 # 2. Adjust title, icon and wording if you want to
 # 3. Write the message you want to display when the countdown is at 0 ("Your message!" line 59)
 
-DIRECTORY_SCRIPT_PATH="$HOME/raycast/dashboard/countdowns"
+DIRECTORY_SCRIPT_PATH="<your raycast script command folder path>"
 RAYCAST="@raycast"
 
 SCRIPT="#!/bin/bash\n\
@@ -54,9 +54,9 @@ DAYS_REMAINING=\$((\$REMAINING / 86400))\n\
 HOURS_REMAINING=\$((\$REMAINING % 86400 / 3600))\n\
 \n\
 if [[  \$HOURS_REMAINING > 0 ]]; then\n\
-    echo There are \$DAYS_REMAINING days and \$HOURS_REMAINING hours left until ${1// /%20}.\n\
+    echo \"There are \$DAYS_REMAINING days and \$HOURS_REMAINING hours left until ${1// /%20}.\"\n\
 else\n\
-    echo Your message\!\n\
+    echo \"Your message\!\"\n\
 fi"
 
 echo -e $SCRIPT > "$DIRECTORY_SCRIPT_PATH/countdown-${1// /%20}.sh"
