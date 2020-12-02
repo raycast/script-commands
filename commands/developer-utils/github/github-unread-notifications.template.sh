@@ -23,6 +23,7 @@ detailed=true
 # @raycast.description Display (detailed) number of unread GitHub notifications.
 
 # @raycast.icon images/github-logo.png
+# @raycast.iconDark images/github-logo-iconDark.png
 # @raycast.mode inline
 # @raycast.packageName GitHub
 # @raycast.refreshTime 5m
