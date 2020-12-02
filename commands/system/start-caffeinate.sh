@@ -16,7 +16,7 @@ regex='^[0-9]+$'
 if ! [[ $value =~ $regex ]] ; then
   echo "Provide a number, please  ❌"
 else
-  caffeinate -u -t $1 '&'
+  caffeinate -u -t $1 &
   echo "Won't sleep for" $value "seconds"
 fi
 
