@@ -1575,24 +1575,6 @@
                 }
               ],
               "currentDirectoryPath" : null,
-              "description" : "Show Cloudup popup.",
-              "filename" : "cloudup-show.sh",
-              "icon" : "images\/cloudup-logo.png",
-              "mode" : "silent",
-              "needsConfirmation" : null,
-              "packageName" : "Cloudup",
-              "refreshTime" : null,
-              "schemaVersion" : 1,
-              "title" : "Show"
-            },
-            {
-              "authors" : [
-                {
-                  "name" : "Caleb Stauffer",
-                  "url" : "https:\/\/github.com\/crstauf"
-                }
-              ],
-              "currentDirectoryPath" : null,
               "description" : "Upload path or URL in clipboard to [Cloudup](https:\/\/cloudup.com\/).",
               "filename" : "cloudup-upload.sh",
               "icon" : "images\/cloudup-logo.png",
@@ -1824,6 +1806,24 @@
           "title" : "Search in Twitter"
         },
         {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search [Unsplash](https:\/\/unsplash.com).",
+          "filename" : "search-unsplash.sh",
+          "icon" : "images\/unsplash-logo.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search Unsplash"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : null,
@@ -2019,13 +2019,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "wayback-machine.sh",
-          "icon" : "⬅️",
+          "icon" : "images\/ia-logo.jpg",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
           "refreshTime" : null,
           "schemaVersion" : 1,
-          "title" : "Wayback Machine search"
+          "title" : "Wayback Machine Search"
         }
       ],
       "subGroups" : [
@@ -2550,5 +2550,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-12-02T18:57:39Z"
+  "updatedAt" : "2020-12-02T20:31:51Z"
 }
