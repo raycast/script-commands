@@ -23,6 +23,7 @@ This repository contains sample commands and documentation to write your own one
   - [Github](#github)
   - [Google](#google)
   - [Ip](#ip)
+  - [Sentry](#sentry)
 - [Media](#media)
   - [Apple Music](#apple-music)
   - [Apple Tv](#apple-tv)
@@ -159,6 +160,12 @@ This repository contains sample commands and documentation to write your own one
 | 🌐 | [Local IPv6](developer-utils/ip/get-local-ip-v6.sh) | N/A | Raycast |
 | 🌐 | [URL IPv4](developer-utils/ip/get-url-ip-v4.sh) | Get IPv4 address of URL. | [Caleb Stauffer](https://github.com/crstauf) |
 | 🌐 | [URL IPv6](developer-utils/ip/get-url-ip-v6.sh) | Get IPv6 address of URL. | [Caleb Stauffer](https://github.com/crstauf) |
+
+#### Sentry
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/sentry/images/sentry.png?raw=true" width="20" height="20"> | [Unresolved Issues](developer-utils/sentry/sentry-unresolved-issues.template.py) | Show unresolved issues of the last 24 hours from Sentry. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
 
 ## Media
 
