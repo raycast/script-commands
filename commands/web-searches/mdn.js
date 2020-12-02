@@ -5,7 +5,7 @@
 //
 // Required parameters:
 // @raycast.schemaVersion 1
-// @raycast.title MDN JS Docs
+// @raycast.title Search in MDN JS Docs
 // @raycast.mode silent
 //
 // Optional parameters:
