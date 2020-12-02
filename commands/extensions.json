@@ -1320,6 +1320,30 @@
           ]
         },
         {
+          "name" : "Sentry",
+          "path" : "sentry",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Show unresolved issues of the last 24 hours from Sentry.",
+              "filename" : "sentry-unresolved-issues.template.py",
+              "icon" : "images\/sentry.png",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Sentry",
+              "refreshTime" : "1h",
+              "schemaVersion" : 1,
+              "title" : "Unresolved Issues"
+            }
+          ]
+        },
+        {
           "name" : "Ip",
           "path" : "ip",
           "scriptCommands" : [
@@ -2526,5 +2550,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-12-01T15:21:14Z"
+  "updatedAt" : "2020-12-02T18:57:39Z"
 }
