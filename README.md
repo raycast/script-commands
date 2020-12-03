@@ -114,7 +114,14 @@ open "https://www.google.com/search?q=flights%20from%20${1// /%20}%20to%20${2// 
 
 ### Error Handling
 
-If the script exits with a status code not equal to 0, Raycast interprets it as failed and shows a toast that the script failed to run.
+If the script exits with a status code not equal to 0, Raycast interprets it as failed and shows a toast that the script failed to run. If this script has inline or compact mode, the last line of the output will be used as an error message. Consider this example for bash script:
+```bash
+if ! [[ $value =~ $regex ]] ; then
+  echo "Invalid value provided"
+  exit 1
+else
+  ...
+```
 
 ### Login Shell and `$PATH`
 
