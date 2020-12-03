@@ -3,7 +3,7 @@
 # @raycast.title Refresh Wallpaper
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Refresh the current display's wallpaper.
+# @raycast.description Refresh the wallpaper of the main display's current [Space](https://support.apple.com/guide/mac-help/work-in-multiple-spaces-mh14112/mac).
 
 # @raycast.icon 🖼️
 # @raycast.mode silent
