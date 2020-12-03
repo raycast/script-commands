@@ -18,6 +18,7 @@ This repository contains sample commands and documentation to write your own one
   - [Slack](#slack)
 - [Conversions](#conversions)
 - [Dashboard](#dashboard)
+  - [Countdowns](#countdowns)
 - [Developer Utils](#developer-utils)
   - [Brew](#brew)
   - [Github](#github)
@@ -99,6 +100,14 @@ This repository contains sample commands and documentation to write your own one
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/dashboard/images/speedtest-logo.png?raw=true" width="20" height="20"> | [Speedtest](dashboard/speedtest.sh) | Test download and upload connection speed using [Speedtest](https://www.speedtest.net/apps/cli). | [Caleb Stauffer](https://github.com/crstauf) |
 | 📈 | [System Activity](dashboard/system-activity.sh) | N/A | Raycast |
 | ⏱ | [Year Progress](dashboard/year-progress.sh) | See the year progress on your desktop. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
+
+#### Countdowns
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| 🎅🏻 | [Countdown to Christmas](dashboard/countdowns/countdown-to-christmas.sh) | See how many days until Christmas. | [Valentin Chrétien](https://github.com/valentinchrt) |
+| ⏱ | [Countdown to Date](dashboard/countdowns/countdown-to-date.template.sh) | See how many days/hours until a specific date. | [Valentin Chrétien](https://github.com/valentinchrt) |
+| ⏱ | [Create Countdown](dashboard/countdowns/create-countdown.template.sh) | Create countdowns via Raycast. | [Valentin Chrétien](https://github.com/valentinchrt) |
 
 ## Developer Utils
 
@@ -236,14 +245,13 @@ This repository contains sample commands and documentation to write your own one
 | 📅 | [Copy Availability](system/copy-availability.swift) | N/A | Raycast |
 | 💁 | [Copy Last Download](system/copy-last-download.swift) | N/A | Raycast |
 | 📸 | [Copy Last Screenshot](system/copy-last-screenshot.swift) | N/A | Raycast |
-| 🗣 | [Define Word](system/define-word.swift) | Define a word using the built-in dictionary/dicionaries. | [Jesse Claven](https://github.com/jesse-c) |
 | 📀 | [Eject All Disks](system/eject-all-disks.applescript) | N/A | Raycast |
 | 🗑 | [Empty Trash](system/empty-trash.applescript) | N/A | Raycast |
 | 📈 | [Largest CPU Process](system/largest-cpu-process.sh) | Report process with largest system CPU usage. | [Caleb Stauffer](https://github.com/crstauf) |
 | 📈 | [Largest RAM Process](system/largest-ram-process.sh) | Report process with largest system RAM usage. | [Caleb Stauffer](https://github.com/crstauf) |
 | 💁‍♂️ | [Open Last Download](system/open-last-download.swift) | N/A | Raycast |
 | 💥 | [Quit All Applications](system/quit-all-apps.swift) | N/A | Raycast |
-| 🖼️ | [Refresh Wallpaper](system/wallpaper-refresh.applescript) | Refresh the current display's wallpaper. | [Caleb Stauffer](https://github.com/crstauf) |
+| 🖼️ | [Refresh Wallpaper](system/wallpaper-refresh.applescript) | Refresh the wallpaper of the main display's current [Space](https://support.apple.com/guide/mac-help/work-in-multiple-spaces-mh14112/mac). | [Caleb Stauffer](https://github.com/crstauf) |
 | 🎧 | [Reload CoreAudio](system/reload-coreaudio.sh) | Reloads CoreAudio. | [Maxim Krouk](https://github.com/maximkrouk) |
 | ♻️ | [Restart](system/restart.applescript) | N/A | Raycast |
 | 🌀 | [Screen Saver](system/screensaver.applescript) | A script command to start your current screen saver. | [Valentin Chrétien](https://twitter.com/valentinchrt) |
