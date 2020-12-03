@@ -453,6 +453,68 @@
           "schemaVersion" : 1,
           "title" : "Year Progress"
         }
+      ],
+      "subGroups" : [
+        {
+          "name" : "Countdowns",
+          "path" : "countdowns",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Valentin Chrétien",
+                  "url" : "https:\/\/github.com\/valentinchrt"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "See how many days until Christmas.",
+              "filename" : "countdown-to-christmas.sh",
+              "icon" : "🎅🏻",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Countdown To Christmas",
+              "refreshTime" : "1h",
+              "schemaVersion" : 1,
+              "title" : "Countdown to Christmas"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Valentin Chrétien",
+                  "url" : "https:\/\/github.com\/valentinchrt"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Create countdowns via Raycast.",
+              "filename" : "create-countdown.template.sh",
+              "icon" : "⏱",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Create Countdown.Template",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Create Countdown"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Valentin Chrétien",
+                  "url" : "https:\/\/github.com\/valentinchrt"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "See how many days\/hours until a specific date.",
+              "filename" : "countdown-to-date.template.sh",
+              "icon" : "⏱",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Countdown To Date.Template",
+              "refreshTime" : "10m",
+              "schemaVersion" : 1,
+              "title" : "Countdown to Date"
+            }
+          ]
+        }
       ]
     },
     {
@@ -516,7 +578,7 @@
             }
           ],
           "currentDirectoryPath" : null,
-          "description" : "Refresh the current display's wallpaper.",
+          "description" : "Refresh the wallpaper of the main display's current [Space](https:\/\/support.apple.com\/guide\/mac-help\/work-in-multiple-spaces-mh14112\/mac).",
           "filename" : "wallpaper-refresh.applescript",
           "icon" : "🖼️",
           "mode" : "silent",
@@ -654,24 +716,6 @@
           "refreshTime" : "3m",
           "schemaVersion" : 1,
           "title" : "Largest RAM Process"
-        },
-        {
-          "authors" : [
-            {
-              "name" : "Jesse Claven",
-              "url" : "https:\/\/github.com\/jesse-c"
-            }
-          ],
-          "currentDirectoryPath" : null,
-          "description" : "Define a word using the built-in dictionary\/dicionaries.",
-          "filename" : "define-word.swift",
-          "icon" : "🗣",
-          "mode" : "fullOutput",
-          "needsConfirmation" : null,
-          "packageName" : "System",
-          "refreshTime" : null,
-          "schemaVersion" : 1,
-          "title" : "Define Word"
         },
         {
           "authors" : [
@@ -2550,5 +2594,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-12-02T20:31:51Z"
+  "updatedAt" : "2020-12-03T17:07:39Z"
 }
