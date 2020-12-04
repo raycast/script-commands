@@ -12,4 +12,4 @@
 
 # @raycast.argument1 { "type": "text", "placeholder": "Command" }
 
-open "https://developer.wordpress.org/cli/commands/${1// /%20}/"
+open "https://developer.wordpress.org/cli/commands/${1// //}/"
