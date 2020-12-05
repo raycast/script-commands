@@ -1317,7 +1317,7 @@
               "currentDirectoryPath" : null,
               "description" : "Create a GitHub Gist from clipboard contents and copy Gist URL.",
               "filename" : "create-github-gist.template.sh",
-              "icon" : "images\/github-logo.png",
+              "icon" : "images\/github-logo-iconDark.png",
               "mode" : "compact",
               "needsConfirmation" : true,
               "packageName" : "GitHub",
@@ -2594,5 +2594,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-12-03T17:07:39Z"
+  "updatedAt" : "2020-12-05T15:56:57Z"
 }
