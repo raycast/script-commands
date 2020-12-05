@@ -6,6 +6,7 @@
 # @raycast.description Search [WordPress Developer documentation](https://developer.wordpress.org/reference/).
 
 # @raycast.icon images/wordpress-logo.png
+# @raycast.iconDark images/wordpress-logo-iconDark.png
 # @raycast.mode silent
 # @raycast.packageName WordPress
 # @raycast.schemaVersion 1
