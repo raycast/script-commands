@@ -6,6 +6,7 @@
 # @raycast.description Open [WordPress hooks reference](https://developer.wordpress.org/reference/hooks/) for specified hook.
 
 # @raycast.icon images/wordpress-logo.png
+# @raycast.iconDark images/wordpress-logo-iconDark.png
 # @raycast.mode silent
 # @raycast.packageName WordPress
 # @raycast.schemaVersion 1
