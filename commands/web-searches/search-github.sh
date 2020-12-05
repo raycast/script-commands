@@ -6,7 +6,7 @@
 # @raycast.description Search [GitHub](https://github.com).
 
 # @raycast.icon images/github-logo.png
-# @raycast.icon images/github-logo-iconDark.png
+# @raycast.iconDark images/github-logo-iconDark.png
 # @raycast.mode silent
 # @raycast.packageName Web Searches
 # @raycast.schemaVersion 1
