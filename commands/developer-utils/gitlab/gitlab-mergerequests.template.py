@@ -29,7 +29,14 @@
 
 
 # Configuration
-# see gitlabconfig.py
+# The easiest way to use this script command is to copy the whole
+# gitlab directory to e.g. _enabled-commands directory and remove
+# the .template from the script-command filename which you want to
+# use.
+# You need to copy gitlabconfig.py and gitlabhelper.py if you just
+# want to use only one or two script commands.
+#
+# Don't forget to set your config in the gitlabconfig.py
 
 # Main program
 
