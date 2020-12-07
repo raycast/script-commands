@@ -12,4 +12,4 @@
 
 # @raycast.argument1 { "type": "text", "placeholder": "Install" }
 
-open "https://my.wpengine.com/installs/${1// /}"
+open "https://my.wpengine.com/installs/${1// /%20}"
