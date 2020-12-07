@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# @raycast.title GMail
+# @raycast.title Gmail
 # @raycast.author Michael Aigner
 # @raycast.authorURL https://github.com/tonka3000
 # @raycast.description Open gmail.com in the default browser
