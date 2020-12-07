@@ -1883,6 +1883,24 @@
         {
           "authors" : [
             {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search [WP Engine](https:\/\/wpengine.com) installs.",
+          "filename" : "search-wpengine-installs.sh",
+          "icon" : "images\/wpengine-logo.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search WP Engine Installs"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Zander Martineau",
               "url" : "https:\/\/zander.wtf"
             }
@@ -1897,6 +1915,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Unfurl URL"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Open specified [WP Engine](https:\/\/wpengine.com) install.",
+          "filename" : "wpengine-install.sh",
+          "icon" : "images\/wpengine-logo.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open WP Engine Install"
         },
         {
           "authors" : [
@@ -2594,5 +2630,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-12-05T15:56:57Z"
+  "updatedAt" : "2020-12-07T09:07:09Z"
 }
