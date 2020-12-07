@@ -2148,6 +2148,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Wayback Machine Search"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Jesse Traynham",
+              "url" : "https:\/\/github.com\/traynham"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search in MDN (Mozilla) Docs by topic",
+          "filename" : "mdn.sh",
+          "icon" : "images\/mdn_light.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in MDN (Mozilla) Docs by Topic"
         }
       ],
       "subGroups" : [
@@ -2672,5 +2690,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-12-07T20:23:51Z"
+  "updatedAt" : "2020-12-07T20:35:48Z"
 }
