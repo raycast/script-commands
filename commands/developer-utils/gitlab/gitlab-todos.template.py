@@ -12,11 +12,8 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title GitLab To-Do List
+# @raycast.title To-Dos
 # @raycast.mode fullOutput
-
-# Conditional parameters:
-# @raycast.refreshTime 1h
 
 # Optional parameters:
 # @raycast.packageName GitLab
