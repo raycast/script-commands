@@ -12,7 +12,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title GitLab Issue List
+# @raycast.title Issues
 # @raycast.mode fullOutput
 
 # Conditional parameters:
