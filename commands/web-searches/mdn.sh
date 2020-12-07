@@ -17,4 +17,4 @@
 # @raycast.authorURL https://github.com/traynham
 # @raycast.description Search in MDN (Mozilla) Docs by topic
 
-open "https://developer.mozilla.org/en-US/search?topic=${1// /%20}&q=${2// /%20}"
+open "https://developer.mozilla.org/search?topic=${1// /%20}&q=${2// /%20}"
