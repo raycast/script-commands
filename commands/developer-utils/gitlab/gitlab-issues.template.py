@@ -15,9 +15,6 @@
 # @raycast.title Issues
 # @raycast.mode fullOutput
 
-# Conditional parameters:
-# @raycast.refreshTime 1h
-
 # Optional parameters:
 # @raycast.packageName GitLab
 # @raycast.icon images/gitlab.png
