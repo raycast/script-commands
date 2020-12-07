@@ -1979,6 +1979,24 @@
         {
           "authors" : [
             {
+              "name" : "Tanguy Le Stradic",
+              "url" : "https:\/\/github.com\/tanguyls"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search files in Figma",
+          "filename" : "figma.sh",
+          "icon" : "images\/figma.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in Figma"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Zander Martineau",
               "url" : "https:\/\/zander.wtf"
             }
@@ -2654,5 +2672,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-12-07T20:14:11Z"
+  "updatedAt" : "2020-12-07T20:23:51Z"
 }
