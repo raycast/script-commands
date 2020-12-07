@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Search in MDN (Mozilla) Docs by topic
+# @raycast.title Search in MDN (Mozilla) Docs by Topic
 # @raycast.mode silent
 #
 # Optional parameters:
