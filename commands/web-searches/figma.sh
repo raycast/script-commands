@@ -23,4 +23,4 @@
 # 3. The current URL should now have an 18-digit id, that's your team_id. If you're using a personal workspace, leave the below variable blank.
 TEAM_ID=""
 
-open "https://www.figma.com/files/$TEAM_ID/search?model_type=files&q=$1"
+open "https://www.figma.com/files/$TEAM_ID/search?model_type=files&q=${1// /%20}"
