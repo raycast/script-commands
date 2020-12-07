@@ -1708,6 +1708,30 @@
               "title" : "Search and Copy First Related Emoji"
             }
           ]
+        },
+        {
+          "name" : "Gmail",
+          "path" : "gmail",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Michael Aigner",
+                  "url" : "https:\/\/github.com\/tonka3000"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Open gmail.com in the default browser",
+              "filename" : "google-gmail.sh",
+              "icon" : "images\/google-gmail-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Google",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Gmail"
+            }
+          ]
         }
       ]
     },
@@ -2630,5 +2654,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-12-07T09:07:09Z"
+  "updatedAt" : "2020-12-07T20:14:11Z"
 }

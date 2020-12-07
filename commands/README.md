@@ -15,6 +15,7 @@ This repository contains sample commands and documentation to write your own one
 - [Communication](#communication)
   - [Cloudup](#cloudup)
   - [Emojis](#emojis)
+  - [Gmail](#gmail)
   - [Slack](#slack)
 - [Conversions](#conversions)
 - [Dashboard](#dashboard)
@@ -71,6 +72,12 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ |
 | 📙 | [Search Emojis](communication/emojis/emojis-search.sh) | Search for emojis related to input. | [Caleb Stauffer](https://github.com/crstauf) |
 | 📙 | [Search and Copy First Related Emoji](communication/emojis/emoji-copy.sh) | Copy first emoji related to input. | [Caleb Stauffer](https://github.com/crstauf) |
+
+#### Gmail
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/gmail/images/google-gmail-logo.png?raw=true" width="20" height="20"> | [Gmail](communication/gmail/google-gmail.sh) | Open gmail.com in the default browser | [Michael Aigner](https://github.com/tonka3000) |
 
 #### Slack
 
