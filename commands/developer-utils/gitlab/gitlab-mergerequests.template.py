@@ -17,6 +17,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Merge Requests
 # @raycast.mode fullOutput
+
 # Optional parameters:
 # @raycast.packageName GitLab
 # @raycast.icon images/gitlab.png
