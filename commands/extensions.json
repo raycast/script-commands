@@ -2152,6 +2152,24 @@
         {
           "authors" : [
             {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search [PHP official documentation](https:\/\/www.php.net\/docs.php).",
+          "filename" : "search-php-docs.sh",
+          "icon" : "images\/php-logo.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search PHP Docs"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Jesse Traynham",
               "url" : "https:\/\/github.com\/traynham"
             }
@@ -2690,5 +2708,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-12-07T20:35:48Z"
+  "updatedAt" : "2020-12-08T10:17:52Z"
 }
