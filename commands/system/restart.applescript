@@ -9,4 +9,7 @@
 # Optional parameters:
 # @raycast.icon ♻️
 
+# Documentation:
+# @raycast.description Restarts computer.
+
 tell application "Finder" to restart

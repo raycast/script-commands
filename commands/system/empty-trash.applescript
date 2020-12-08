@@ -9,4 +9,7 @@
 # Optional parameters:
 # @raycast.icon 🗑
 
+# Documentation:
+# @raycast.description Empty the trash.
+
 tell application "Finder" to empty trash

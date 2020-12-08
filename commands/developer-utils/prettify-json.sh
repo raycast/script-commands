@@ -9,4 +9,7 @@
 # Optional parameters:
 # @raycast.icon 💻
 
+# Documentation:
+# @raycast.description Pretty prints the JSON currently in the clipboard.
+
 pbpaste | python -m json.tool

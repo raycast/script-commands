@@ -8,6 +8,9 @@
 //
 // Optional parameters:
 // @raycast.icon 💁
+//
+// Documentation:
+// @raycast.description Copy the last downloaded file to the clipboard.
 
 import AppKit
 

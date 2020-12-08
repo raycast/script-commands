@@ -9,5 +9,8 @@
 # Optional parameters:
 # @raycast.icon 💻
 
+# Documentation:
+# @raycast.description Generates a UUID and copies it to the clipboard.
+
 uuidgen | pbcopy
 echo "UUID Generated"
