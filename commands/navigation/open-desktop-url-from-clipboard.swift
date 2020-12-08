@@ -9,6 +9,9 @@
 // Optional parameters:
 // @raycast.icon 🖥
 
+// Documentation:
+// @raycast.description Opens the URL from the clipboard in the desktop app.
+
 import Cocoa
 
 guard let string = NSPasteboard.general.string(forType: .string) else {

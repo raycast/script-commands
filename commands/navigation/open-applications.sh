@@ -9,4 +9,7 @@
 # Optional parameters:
 # @raycast.icon 📂
 
+# Documentation:
+# @raycast.description Opens the Applications folder in the Finder.
+
 open /Applications

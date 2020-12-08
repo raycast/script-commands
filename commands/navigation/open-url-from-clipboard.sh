@@ -9,6 +9,9 @@
 # Optional parameters:
 # @raycast.icon 🌐
 
+# Documentation:
+# @raycast.description Opens the URL in the clipboard.
+
 regex='(https?|ftp|file)://[-A-Za-z0-9\+&@#/%?=~_|!:,.;]*[-A-Za-z0-9\+&@#/%=~_|]'
 pasteboardString=$(pbpaste)
 

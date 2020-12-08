@@ -9,6 +9,9 @@
 // Optional parameters:
 // @raycast.icon 📸
 
+// Documentation:
+// @raycast.description Copies the last screenshot to the clipboard.
+
 import Cocoa
 
 // MARK: - Main

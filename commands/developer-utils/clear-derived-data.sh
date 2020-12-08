@@ -9,5 +9,8 @@
 # Optional parameters:
 # @raycast.icon 🧹
 
+# Documentation:
+# @raycast.description Clear the derived data of Xcode.
+
 rm -rf ~/Library/Developer/Xcode/DerivedData
 echo "Removed all derived data"

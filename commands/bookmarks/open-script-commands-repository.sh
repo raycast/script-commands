@@ -9,4 +9,7 @@
 # Optional parameters:
 # @raycast.icon 📜
 
+# Documentation:
+# @raycast.description Open the GitHub repository for Script Commands provided by the community.
+
 open https://github.com/raycast/script-commands
