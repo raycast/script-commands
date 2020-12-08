@@ -176,7 +176,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Opens the Library folder in the Finder.",
           "filename" : "open-library.sh",
           "icon" : "📂",
           "mode" : "silent",
@@ -225,7 +225,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Opens the Applications folder in the Finder.",
           "filename" : "open-applications.sh",
           "icon" : "📂",
           "mode" : "silent",
@@ -238,20 +238,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
-          "filename" : "open-utilities.sh",
-          "icon" : "📂",
-          "mode" : "silent",
-          "needsConfirmation" : null,
-          "packageName" : "Navigation",
-          "refreshTime" : null,
-          "schemaVersion" : 1,
-          "title" : "Open Utilities"
-        },
-        {
-          "authors" : null,
-          "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Opens the URL in the clipboard.",
           "filename" : "open-url-from-clipboard.sh",
           "icon" : "🌐",
           "mode" : "silent",
@@ -282,7 +269,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Opens the Desktop folder in the Finder.",
           "filename" : "open-desktop.sh",
           "icon" : "📂",
           "mode" : "silent",
@@ -295,7 +282,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Opens the Documents folder in the Finder.",
           "filename" : "open-documents.sh",
           "icon" : "📂",
           "mode" : "silent",
@@ -326,7 +313,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Opens the URL from the clipboard in the desktop app.",
           "filename" : "open-desktop-url-from-clipboard.swift",
           "icon" : "🖥",
           "mode" : "silent",
@@ -339,7 +326,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Opens the Home folder in the Finder.",
           "filename" : "open-home.sh",
           "icon" : "📂",
           "mode" : "silent",
@@ -352,7 +339,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Opens the Downloads folder in the Finder.",
           "filename" : "open-downloads.sh",
           "icon" : "📂",
           "mode" : "silent",
@@ -560,7 +547,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Empty the trash.",
           "filename" : "empty-trash.applescript",
           "icon" : "🗑",
           "mode" : "silent",
@@ -609,7 +596,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Quits all running applications except Finder and Raycast.",
           "filename" : "quit-all-apps.swift",
           "icon" : "💥",
           "mode" : "silent",
@@ -676,7 +663,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Opens the last downloaded file.",
           "filename" : "open-last-download.swift",
           "icon" : "💁‍♂️",
           "mode" : "silent",
@@ -689,7 +676,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Ejects all mounted disk images.",
           "filename" : "eject-all-disks.applescript",
           "icon" : "📀",
           "mode" : "silent",
@@ -738,7 +725,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Copy the last downloaded file to the clipboard.",
           "filename" : "copy-last-download.swift",
           "icon" : "💁",
           "mode" : "silent",
@@ -751,7 +738,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Copies the calenadar availability of today.",
           "filename" : "copy-availability.swift",
           "icon" : "📅",
           "mode" : "silent",
@@ -764,7 +751,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Copies the last screenshot to the clipboard.",
           "filename" : "copy-last-screenshot.swift",
           "icon" : "📸",
           "mode" : "silent",
@@ -777,7 +764,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Restarts computer.",
           "filename" : "restart.applescript",
           "icon" : "♻️",
           "mode" : "silent",
@@ -808,7 +795,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Shuts down computer.",
           "filename" : "shutdown.applescript",
           "icon" : "🛌",
           "mode" : "silent",
@@ -821,7 +808,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Puts computer to sleep.",
           "filename" : "sleep.applescript",
           "icon" : "😴",
           "mode" : "silent",
@@ -840,7 +827,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Open the GitHub repository for Script Commands provided by the community.",
           "filename" : "open-script-commands-repository.sh",
           "icon" : "📜",
           "mode" : "silent",
@@ -859,7 +846,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Encodes clipboard content to Base64 and copies it again.",
           "filename" : "encode-base64.sh",
           "icon" : "💻",
           "mode" : "silent",
@@ -872,7 +859,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Decodes JSON web token from the clipboard.",
           "filename" : "decode-jwt.sh",
           "icon" : "images\/jwt-logo.png",
           "mode" : "fullOutput",
@@ -944,7 +931,7 @@
             }
           ],
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Runs the specified command in the path of the frontmost Finder window.",
           "filename" : "run-command-in-finder.sh",
           "icon" : "🛠",
           "mode" : "silent",
@@ -1011,7 +998,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Generates a UUID and copies it to the clipboard.",
           "filename" : "generate-uuid.sh",
           "icon" : "💻",
           "mode" : "silent",
@@ -1042,7 +1029,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Copy one paragraph of Lorem Ipsum to clipboard.",
           "filename" : "lorem-ipsum.sh",
           "icon" : "📝",
           "mode" : "silent",
@@ -1055,7 +1042,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Decodes clipboard content to Base64 and copies it again.",
           "filename" : "decode-base64.sh",
           "icon" : "💻",
           "mode" : "silent",
@@ -1086,7 +1073,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Pretty prints the JSON currently in the clipboard.",
           "filename" : "prettify-json.sh",
           "icon" : "💻",
           "mode" : "fullOutput",
@@ -1099,7 +1086,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Clear the derived data of Xcode.",
           "filename" : "clear-derived-data.sh",
           "icon" : "🧹",
           "mode" : "compact",
@@ -1129,6 +1116,66 @@
         }
       ],
       "subGroups" : [
+        {
+          "name" : "Gitlab",
+          "path" : "gitlab",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Michael Aigner",
+                  "url" : "https:\/\/github.com\/tonka3000"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Show merge requests from GitLab",
+              "filename" : "gitlab-mergerequests.template.py",
+              "icon" : "images\/gitlab.png",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "GitLab",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Merge Requests"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Michael Aigner",
+                  "url" : "https:\/\/github.com\/tonka3000"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Show todos from GitLab",
+              "filename" : "gitlab-todos.template.py",
+              "icon" : "images\/gitlab.png",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "GitLab",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "To-Dos"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Michael Aigner",
+                  "url" : "https:\/\/github.com\/tonka3000"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Show issues from GitLab",
+              "filename" : "gitlab-issues.template.py",
+              "icon" : "images\/gitlab.png",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "GitLab",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Issues"
+            }
+          ]
+        },
         {
           "name" : "Google",
           "path" : "google",
@@ -1394,7 +1441,7 @@
             {
               "authors" : null,
               "currentDirectoryPath" : null,
-              "description" : null,
+              "description" : "Copies the local IPv4 to the clipboard.",
               "filename" : "get-local-ip-v4.sh",
               "icon" : "🌐",
               "mode" : "inline",
@@ -1425,7 +1472,7 @@
             {
               "authors" : null,
               "currentDirectoryPath" : null,
-              "description" : null,
+              "description" : "Copies the external IPv4 to the clipboard.",
               "filename" : "get-external-ip-v4.sh",
               "icon" : "🌐",
               "mode" : "inline",
@@ -1456,7 +1503,7 @@
             {
               "authors" : null,
               "currentDirectoryPath" : null,
-              "description" : null,
+              "description" : "Copies the external IPv6 to the clipboard.",
               "filename" : "get-external-ip-v6.sh",
               "icon" : "🌐",
               "mode" : "inline",
@@ -1469,7 +1516,7 @@
             {
               "authors" : null,
               "currentDirectoryPath" : null,
-              "description" : null,
+              "description" : "Copies the local IPv6 to the clipboard.",
               "filename" : "get-local-ip-v6.sh",
               "icon" : "🌐",
               "mode" : "inline",
@@ -2545,7 +2592,7 @@
             {
               "authors" : null,
               "currentDirectoryPath" : null,
-              "description" : null,
+              "description" : "Skips to the next track in Spotify.",
               "filename" : "spotify-next-track.applescript",
               "icon" : "images\/spotify-logo.png",
               "mode" : "silent",
@@ -2558,7 +2605,7 @@
             {
               "authors" : null,
               "currentDirectoryPath" : null,
-              "description" : null,
+              "description" : "Toggles play or pause of current track in Spotify.",
               "filename" : "spotify-play-pause.applescript",
               "icon" : "images\/spotify-logo.png",
               "mode" : "silent",
@@ -2589,7 +2636,7 @@
             {
               "authors" : null,
               "currentDirectoryPath" : null,
-              "description" : null,
+              "description" : "Plays current track in Spotify.",
               "filename" : "spotify-play.applescript",
               "icon" : "images\/spotify-logo.png",
               "mode" : "silent",
@@ -2620,7 +2667,7 @@
             {
               "authors" : null,
               "currentDirectoryPath" : null,
-              "description" : null,
+              "description" : "Skips to the previous track in Spotify.",
               "filename" : "spotify-previous-track.applescript",
               "icon" : "images\/spotify-logo.png",
               "mode" : "silent",
@@ -2633,7 +2680,7 @@
             {
               "authors" : null,
               "currentDirectoryPath" : null,
-              "description" : null,
+              "description" : "Pause current track in Spotify.",
               "filename" : "spotify-pause.applescript",
               "icon" : "images\/spotify-logo.png",
               "mode" : "silent",
@@ -2708,5 +2755,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-12-08T10:17:52Z"
+  "updatedAt" : "2020-12-08T16:08:12Z"
 }
