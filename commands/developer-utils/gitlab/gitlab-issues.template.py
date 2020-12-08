@@ -3,7 +3,10 @@
 # How to use this script?
 # It's a template which needs further setup. Duplicate the file,
 # remove `.template.` from the filename and set an Personal access token as
-# well as the GitLab instance url if it is not gitlab.com
+# well as the GitLab instance url if it is not gitlab.com in gitlabconfig.py
+# You need to copy gitlabconfig.py and gitlabhelper.py next to the script command
+# otherwise it won't work. gitlabconfig.py and gitlabhelper.py are shared between
+# all gitlab script commands.
 #
 # API: https://docs.gitlab.com/ee/api
 
@@ -26,14 +29,7 @@
 
 
 # Configuration
-# The easiest way to use this script command is to copy the whole
-# gitlab directory to e.g. _enabled-commands directory and remove
-# the .template from the script-command filename which you want to
-# use.
-# You need to copy gitlabconfig.py and gitlabhelper.py if you just
-# want to use only one or two script commands.
-#
-# Don't forget to set your config in the gitlabconfig.py
+# see gitlabconfig.py
 
 # Main program
 
