@@ -9,4 +9,7 @@
 # Optional parameters:
 # @raycast.icon 📂
 
+# Documentation:
+# @raycast.description Opens the Downloads folder in the Finder.
+
 open ~/Downloads

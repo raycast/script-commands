@@ -11,6 +11,9 @@
 // Optional parameters:
 // @raycast.icon 💥
 // @raycast.needsConfirmation true
+//
+// Documentation:
+// @raycast.description Quits all running applications except Finder and Raycast.
 
 import AppKit
 

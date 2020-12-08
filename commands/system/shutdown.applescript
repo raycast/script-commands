@@ -9,4 +9,7 @@
 # Optional parameters:
 # @raycast.icon 🛌
 
+# Documentation:
+# @raycast.description Shuts down computer.
+
 tell application "Finder" to shut down

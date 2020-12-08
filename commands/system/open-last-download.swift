@@ -9,6 +9,9 @@
 // Optional parameters:
 // @raycast.icon 💁‍♂️
 
+// Documentation:
+// @raycast.description Opens the last downloaded file.
+
 import AppKit
 
 // MARK: - Convenience

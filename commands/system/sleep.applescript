@@ -9,4 +9,7 @@
 # Optional parameters:
 # @raycast.icon 😴
 
+# Documentation:
+# @raycast.description Puts computer to sleep.
+
 tell application "Finder" to sleep

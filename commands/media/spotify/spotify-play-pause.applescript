@@ -9,4 +9,7 @@
 # Optional parameters:
 # @raycast.icon images/spotify-logo.png
 
+# Documentation:
+# @raycast.description Toggles play or pause of current track in Spotify.
+
 tell application "Spotify" to playpause

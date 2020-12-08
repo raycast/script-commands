@@ -8,6 +8,9 @@
 //
 // Optional parameters:
 // @raycast.icon 📅
+//
+// Documentation:
+// @raycast.description Copies the calenadar availability of today.
 
 import AppKit
 import EventKit

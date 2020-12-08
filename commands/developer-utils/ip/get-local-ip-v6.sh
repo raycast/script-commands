@@ -10,6 +10,9 @@
 # Optional parameters:
 # @raycast.icon 🌐
 
+# Documentation:
+# @raycast.description Copies the local IPv6 to the clipboard.
+
 ip=$(ifconfig | grep 'inet6.*%en' | awk '{print $2}')
 IFS=' ' read -ra array <<< "$ip"
 echo ${array[0]}
