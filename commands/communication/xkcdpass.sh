@@ -18,6 +18,7 @@ if ! command -v xkcdpass &> /dev/null; then
 	exit 1;
 fi
 
-xkcdpass | pbcopy
+passphrase=$(xkcdpass)
+echo -n $passphrase | pbcopy
 
 echo "Copied passphrase"
