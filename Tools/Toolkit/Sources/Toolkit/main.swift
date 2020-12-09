@@ -16,6 +16,7 @@ struct ToolkitCommand: ParsableCommand {
     abstract: "A tool to generate automatized documentation",
     subcommands: [
       GenerateDocumentation.self,
+      Report.self,
       Version.self
     ]
   )
