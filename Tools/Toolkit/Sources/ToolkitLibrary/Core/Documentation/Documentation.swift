@@ -29,8 +29,6 @@ final class Documentation {
 
 // MARK: - Private methods
 
-typealias SubGroups = [String: [ScriptCommand]]
-
 private extension Documentation {
   func generateMarkdown(for raycastData: RaycastData) throws {
     let documentFilePath = path.appending(
