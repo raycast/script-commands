@@ -846,6 +846,32 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
+          "description" : "Escapes shell character string and copies it again.",
+          "filename" : "escape-shell-chars.sh",
+          "icon" : "💻",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Escape String for Shell"
+        },
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : "Encodes clipboard content url and copies it again.",
+          "filename" : "encode-url.sh",
+          "icon" : "💻",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Encode URL"
+        },
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
           "description" : "Encodes clipboard content to Base64 and copies it again.",
           "filename" : "encode-base64.sh",
           "icon" : "💻",
@@ -994,6 +1020,19 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Ping"
+        },
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : "Decodes clipboard content url and copies it again.",
+          "filename" : "decode-url.sh",
+          "icon" : "💻",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Decode URL"
         },
         {
           "authors" : null,
@@ -2755,5 +2794,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-12-08T16:08:12Z"
+  "updatedAt" : "2020-12-09T22:21:25Z"
 }

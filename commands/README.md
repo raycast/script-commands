@@ -126,7 +126,10 @@ This repository contains sample commands and documentation to write your own one
 | 📝 | [Copy Lorem Ipsum](developer-utils/lorem-ipsum.sh) | Copy one paragraph of Lorem Ipsum to clipboard. | Raycast |
 | 💻 | [Decode Base64](developer-utils/decode-base64.sh) | Decodes clipboard content to Base64 and copies it again. | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/images/jwt-logo.png?raw=true" width="20" height="20"> | [Decode JWT](developer-utils/decode-jwt.sh) | Decodes JSON web token from the clipboard. | Raycast |
+| 💻 | [Decode URL](developer-utils/decode-url.sh) | Decodes clipboard content url and copies it again. | Raycast |
 | 💻 | [Encode Base64](developer-utils/encode-base64.sh) | Encodes clipboard content to Base64 and copies it again. | Raycast |
+| 💻 | [Encode URL](developer-utils/encode-url.sh) | Encodes clipboard content url and copies it again. | Raycast |
+| 💻 | [Escape String for Shell](developer-utils/escape-shell-chars.sh) | Escapes shell character string and copies it again. | Raycast |
 | 🔐 | [Generate Password](developer-utils/generate-password.sh) | Generates a random password and copies it to the clipboard. | [Sven Hofmann](https://github.com/hofmannsven) |
 | 💻 | [Generate UUID](developer-utils/generate-uuid.sh) | Generates a UUID and copies it to the clipboard. | Raycast |
 | 🌐 | [Ping](developer-utils/ping.sh) | Ping an IP address or URL. | [Caleb Stauffer](https://github.com/crstauf) |
