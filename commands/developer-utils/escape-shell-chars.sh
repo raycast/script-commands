@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Escape shell string
+# @raycast.title Escape String for Shell
 # @raycast.mode silent
 # @raycast.packageName Developer Utilities
 
