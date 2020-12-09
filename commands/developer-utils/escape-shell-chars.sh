@@ -13,4 +13,4 @@
 # @raycast.description Escapes shell character string and copies it again.
 
 escaped=$(pbpaste) && printf '%q' "$escaped" | pbcopy
-echo "Encoded URL"
+echo "Escaped shell string"
