@@ -15,10 +15,13 @@
 # @raycast.icon 🤖
 # @raycast.currentDirectoryPath ~
 # @raycast.needsConfirmation false
+# @raycast.argument1 { "type": "text", "placeholder": "Arg1" }
 #
 # Documentation:
 # @raycast.description Write a nice and descriptive summary about your script command here 
 # @raycast.author Your name
 # @raycast.authorURL An URL for one of your social medias
 
-do shell script "echo Hello from My First Script"
+on run argv
+	do shell script "echo Hello from My First Script: " & ( item 1 of argv )
+end run
