@@ -89,6 +89,7 @@ Use `argument[1..3]` metadata to specify custom arguments that will be displayed
 | type          | Input type. For now only "text" value available.                                                                                                                                            | Yes      | 1.2.0+      | 
 | placeholder   | Placeholder for the input field.                                                                                                                                                            | Yes      | 1.2.0+      |
 | optional      | Set to `true` if you want to mark argument as optional. When not provided, argument is considered to be required (Raycast will not allow to execute the script if argument input is empty)  | No       | 1.3.0+      |
+| percentEncoded| Set to `true` if you want Raycast to perform percent encoding on the argument value before passing it to the script. Can be handy for scripts that pass argument directly to URL query  | No       | 1.4.0+      |
 
 **Maximum number of arguments:** 3 (if you feel it's not enough for your use case, please let us know via feedback or in the [Slack community](https://www.raycast.com/community))
 
@@ -104,10 +105,10 @@ Here's an example of a simple web search script with two arguments:
 # Optional parameters:
 # @raycast.icon 🛩
 # @raycast.packageName Web Searches
-# @raycast.argument1 { "type": "text", "placeholder": "from city" }
-# @raycast.argument2 { "type": "text", "placeholder": "to city", "optional": true }
+# @raycast.argument1 { "type": "text", "placeholder": "from city", "percentEncoded": true }
+# @raycast.argument2 { "type": "text", "placeholder": "to city", "optional": true, "percentEncoded": true }
 
-open "https://www.google.com/search?q=flights%20from%20${1// /%20}%20to%20${2// /%20}"
+open "https://www.google.com/search?q=flights%20from%20$1%20to%20$2"
 ```
 
 *💡Pro tip:* When typing alias + space, Raycast automatically will move focus to the first input field.
