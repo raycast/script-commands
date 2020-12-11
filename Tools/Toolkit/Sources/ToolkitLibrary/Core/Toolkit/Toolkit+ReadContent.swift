@@ -116,6 +116,8 @@ extension Toolkit {
     if icons.count > 0 {
       dictionary["icon"] = icons
     }
+    
+    dictionary["hasArguments"] = extractArguments(from: content, using: results)
 
     for result in results {
       let keyValue = readKeyValue(from: result, content: content)
@@ -123,8 +125,6 @@ extension Toolkit {
       guard keyValue.authorKeys == false && keyValue.iconKeys == false else {
         continue
       }
-      
-      dictionary["hasArguments"] = keyValue.keys.first == "argument1" ? true : false
       
       dictionary.merge(keyValue) { $1 }
     }
@@ -145,11 +145,35 @@ extension Toolkit {
       return nil
     }
     
-    guard let software = shebang.split(separator: "/").last else {
+    guard var software = shebang.split(separator: "/").last else {
       return nil
     }
     
+    let values = software.split(separator: " ")
+    
+    if values.count > 1 {
+      software = values.first == "env"
+        ? values.last ?? ""
+        : values.first ?? ""
+    }
+    
     return String(software)
+  }
+  
+  func extractArguments(from content: String, using results: NSTextCheckingResults) -> Bool {
+    var hasArguments = false
+    
+    for result in results {
+      let dictionary = readKeyValue(from: result, content: content)
+      
+      guard dictionary.argumentsKeys else {
+        continue
+      }
+      
+      hasArguments = true
+    }
+    
+    return hasArguments
   }
   
   func extractIcons(from content: String, using results: NSTextCheckingResults) -> [String: String] {
@@ -306,5 +330,13 @@ fileprivate extension Dictionary where Key == String {
     }
     
     return key == iconKey || key == iconDarkKey
+  }
+  
+  var argumentsKeys: Bool {
+    guard let key = keys.first else {
+      return false
+    }
+    
+    return key == "argument1" || key == "argument2" || key == "argument3"
   }
 }
