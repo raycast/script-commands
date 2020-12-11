@@ -1,22 +1,21 @@
 #!/bin/bash
 
-# Required parameters:
-# @raycast.schemaVersion 1
-# @raycast.title 2FA from iMessages
-# @raycast.mode silent
+### Requires Raycast to have Full Disk Access:
+### https://spin.atomicobject.com/2020/05/22/search-imessage-sql/
 
-# Optional parameters:
+## Contributions welcome to improve regular expressions.
+
+# @raycast.title 2FA from iMessages
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.author Thiago Holanda
 # @raycast.authorURL https://twitter.com/tholanda
 # @raycast.description Get most recent two-factor authentication code from iMessages.
+
 # @raycast.icon 🔐
-
-
-### Requires Raycast to have Full Disk Access:
-### https://spin.atomicobject.com/2020/05/22/search-imessage-sql/
-
+# @raycast.mode silent
+# @raycast.packageName iMessage
+# @raycast.schemaVersion 1
 
 sqlite_path="$HOME/Library/Messages/chat.db"
 regex="(^| |\s|\t|\R|G-|:)([0-9]{5,8})"

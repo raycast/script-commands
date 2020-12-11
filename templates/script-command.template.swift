@@ -9,11 +9,11 @@
 // @raycast.schemaVersion 1
 // @raycast.title My First Script
 // @raycast.mode fullOutput
+// @raycast.packageName Raycast Scripts
 //
 // Optional parameters:
 // @raycast.icon 🤖
 // @raycast.currentDirectoryPath ~
-// @raycast.packageName Raycast Scripts
 // @raycast.needsConfirmation false
 //
 // Documentation:

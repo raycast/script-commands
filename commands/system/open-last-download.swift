@@ -4,9 +4,13 @@
 // @raycast.schemaVersion 1
 // @raycast.title Open Last Download
 // @raycast.mode silent
+// @raycast.packageName System
 
 // Optional parameters:
 // @raycast.icon 💁‍♂️
+
+// Documentation:
+// @raycast.description Opens the last downloaded file.
 
 import AppKit
 

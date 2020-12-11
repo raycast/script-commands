@@ -6,15 +6,18 @@
 # Set viewport resolution of screenshots
 resolutions="1920x1080 390x844"
 
-# @raycast.schemaVersion 1
-# @raycast.title Screenshot Website from Clipboard
-# @raycast.mode compact
+# @raycast.title Screenshot Website
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Takes a screenshot of the Website from your Clipboard and saves it to the Desktop.
-# @raycast.packageName Internet
+# @raycast.description Takes screenshots of the entered URL using [`pageres`](https://github.com/sindresorhus/pageres) and saves it to the Desktop.
+
 # @raycast.currentDirectoryPath ~/Desktop
 # @raycast.icon 🖼️
+# @raycast.mode compact
+# @raycast.packageName Internet
+# @raycast.schemaVersion 1
+
+# @raycast.argument1 { "type": "text", "placeholder": "URL" }
 
 if ! command -v pageres &> /dev/null; then
 	echo "pageres command is required (https://github.com/sindresorhus/pageres-cli).";
@@ -27,11 +30,11 @@ if [ -z ${resolutions+x} ]; then
 fi
 
 regex='(https?)://[-A-Za-z0-9\+&@#/%?=~_|!:,.;]*[-A-Za-z0-9\+&@#/%=~_|]'
-clipboard=$(pbpaste)
+url=$1
 
-if [[ $clipboard =~ $regex ]]; then 
-	output=$(pageres --crop "$clipboard" $resolutions)
+if [[ $url =~ $regex ]]; then 
+	output=$(pageres --crop "$url" $resolutions)
 	echo "Saved screenshot(s) to Desktop"
 else
-	echo "Clipboard does not contain a valid url"
+	echo "Input is not a valid url"
 fi

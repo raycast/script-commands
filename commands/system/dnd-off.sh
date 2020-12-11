@@ -3,14 +3,17 @@
 # Dependency: do-not-disturb-cli (https://github.com/sindresorhus/do-not-disturb-cli)
 # Install via npm: `npm install --global do-not-disturb-cli`
 
-# @raycast.schemaVersion 1
+## Contributions welcome for a reliable, dependency-free version.
+
 # @raycast.title Turn Off Do Not Disturb
-# @raycast.mode silent
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Uses sindresorhus/do-not-disturb-cli to turn on DND.
+# @raycast.description Turn off "do not disturb" mode. Does [not work on Big Sur](https://github.com/sindresorhus/do-not-disturb-cli/issues/2).
+
 # @raycast.icon 😴
+# @raycast.mode silent
 # @raycast.packageName System
+# @raycast.schemaVersion 1
 
 if ! command -v do-not-disturb &> /dev/null; then
 	echo "do-not-disturb-cli is required (https://github.com/sindresorhus/do-not-disturb-cli).";

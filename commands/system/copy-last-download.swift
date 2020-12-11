@@ -4,9 +4,13 @@
 // @raycast.schemaVersion 1
 // @raycast.title Copy Last Download
 // @raycast.mode silent
+// @raycast.packageName System
 //
 // Optional parameters:
 // @raycast.icon 💁
+//
+// Documentation:
+// @raycast.description Copy the last downloaded file to the clipboard.
 
 import AppKit
 
