@@ -19,7 +19,7 @@ struct ScriptCommand: Codable {
   let currentDirectoryPath: String?
   let needsConfirmation: Bool?
   let refreshTime: String?
-  let software: String
+  let language: String
   let isTemplate: Bool
   let hasArguments: Bool
 
@@ -37,7 +37,7 @@ struct ScriptCommand: Codable {
     case currentDirectoryPath
     case needsConfirmation
     case refreshTime
-    case software
+    case language
     case isTemplate
     case hasArguments
   }
@@ -84,7 +84,7 @@ extension ScriptCommand {
     self.schemaVersion          = try container.decode(Int.self, forKey: .schemaVersion)
     self.title                  = try container.decode(String.self, forKey: .title)
     self.filename               = try container.decode(String.self, forKey: .filename)
-    self.software               = try container.decode(String.self, forKey: .software)
+    self.language               = try container.decode(String.self, forKey: .language)
     self.isTemplate             = try container.decode(Bool.self, forKey: .isTemplate)
     self.hasArguments           = try container.decode(Bool.self, forKey: .hasArguments)
 
@@ -113,7 +113,7 @@ extension ScriptCommand {
     try container.encode(authors, forKey: .authors)
     try container.encode(needsConfirmation, forKey: .needsConfirmation)
     try container.encode(refreshTime, forKey: .refreshTime)
-    try container.encode(software, forKey: .software)
+    try container.encode(language, forKey: .language)
     try container.encode(isTemplate, forKey: .isTemplate)
     try container.encode(hasArguments, forKey: .hasArguments)
   }
@@ -151,8 +151,8 @@ extension ScriptCommand: MarkdownDescriptionProtocol {
     if let value = self.details {
       details = value
     }
-
-    let hasArguments = self.hasArguments ?? false
+    
+    let language = Language(self.language)
     
     let scriptPath = "\(leadingPath)\(filename)"
     let header = """
