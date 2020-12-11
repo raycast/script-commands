@@ -152,9 +152,11 @@ extension ScriptCommand: MarkdownDescriptionProtocol {
       details = value
     }
 
+    let hasArguments = self.hasArguments ?? false
+    
     let scriptPath = "\(leadingPath)\(filename)"
     let header = """
-        | \(iconString) | [\(title)](\(scriptPath)) | \(details) | \(author) |
+        | \(iconString) | \(isTemplate ? "✅" : "") | \(hasArguments ? "✅" : "") | \(software) | [\(title)](\(scriptPath)) | \(details) | \(author) |
         """
 
     content += .newLine + header
