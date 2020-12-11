@@ -4,12 +4,13 @@
 # @raycast.schemaVersion 1
 # @raycast.title Open Current Terminal Directory in Finder
 # @raycast.mode silent
+# @raycast.packageName Navigation
 #
 # Optional parameters:
 # @raycast.icon 📟
 #
 # Documentation:
-# @raycast.description Open curren terminal directory in Finder
+# @raycast.description Open curren Terminal directory in Finder
 # @raycast.author Kirill Gorbachyonok
 # @raycast.authorURL https://github.com/japanese-goblinn
 

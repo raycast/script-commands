@@ -6,10 +6,14 @@
 // @raycast.schemaVersion 1
 // @raycast.title Quit All Applications
 // @raycast.mode silent
+// @raycast.packageName System
 //
 // Optional parameters:
 // @raycast.icon 💥
 // @raycast.needsConfirmation true
+//
+// Documentation:
+// @raycast.description Quits all running applications except Finder and Raycast.
 
 import AppKit
 

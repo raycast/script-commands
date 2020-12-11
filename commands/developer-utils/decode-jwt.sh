@@ -4,9 +4,13 @@
 # @raycast.schemaVersion 1
 # @raycast.title Decode JWT
 # @raycast.mode fullOutput
+# @raycast.packageName Developer Utilities
 
 # Optional parameters:
 # @raycast.icon images/jwt-logo.png
+
+# Documentation:
+# @raycast.description Decodes JSON web token from the clipboard.
 
 # JWT function from: 
 # https://www.jvt.me/posts/2019/06/13/pretty-printing-jwt-openssl/

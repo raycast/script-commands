@@ -4,6 +4,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Shorten URL From Clipboard
 # @raycast.mode silent
+# @raycast.packageName Browsing
 
 # Optional parameters:
 # @raycast.icon 🔗

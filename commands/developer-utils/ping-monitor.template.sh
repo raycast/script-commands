@@ -4,17 +4,19 @@
 ## Set IP address or website URL in "target" variable. ##
 #########################################################
 
-# target=""
+# IP address or URL.
+target=""
 
-# @raycast.schemaVersion 1
 # @raycast.title Ping Monitor
-# @raycast.mode inline
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Ping an IP address or URL on an interval.
+
+# @raycast.icon 🌐
+# @raycast.mode inline
 # @raycast.packageName Internet
 # @raycast.refreshTime 10m
-# @raycast.icon 🌐
+# @raycast.schemaVersion 1
 
 if [ -z ${target+x} ]; then
 	echo "Target is undefined.";

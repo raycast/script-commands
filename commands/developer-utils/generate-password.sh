@@ -9,6 +9,7 @@
 # @raycast.author Sven Hofmann
 # @raycast.authorURL https://github.com/hofmannsven
 # @raycast.description Generates a random password and copies it to the clipboard.
+# @raycast.packageName Developer Utilities
 # @raycast.icon 🔐
 
 if ! command -v gpg &> /dev/null; then

@@ -17,16 +17,17 @@ access_key=
 # Toggle for detailed count
 detailed=true
 
-# Required parameters:
-# @raycast.schemaVersion 1
 # @raycast.title Unread Notifications
-# @raycast.mode inline
-# @raycast.refreshTime 5m
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Number of unread GitHub notifications.
-# @raycast.packageName GitHub
+# @raycast.description Display (detailed) number of unread GitHub notifications.
+
 # @raycast.icon images/github-logo.png
+# @raycast.iconDark images/github-logo-iconDark.png
+# @raycast.mode inline
+# @raycast.packageName GitHub
+# @raycast.refreshTime 5m
+# @raycast.schemaVersion 1
 
 if [ -z ${user+x} ]; then
 	echo "GitHub username is missing.";

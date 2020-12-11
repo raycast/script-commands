@@ -4,9 +4,13 @@
 // @raycast.schemaVersion 1
 // @raycast.title Open Clipboard URL on Desktop
 // @raycast.mode silent
+// @raycast.packageName Navigation
 
 // Optional parameters:
 // @raycast.icon 🖥
+
+// Documentation:
+// @raycast.description Opens the URL from the clipboard in the desktop app.
 
 import Cocoa
 

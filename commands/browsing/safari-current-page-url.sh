@@ -4,10 +4,10 @@
 # @raycast.schemaVersion 1
 # @raycast.title Copy Current Page URL
 # @raycast.mode silent
+# @raycast.packageName Safari
 #
 # Optional parameters:
 # @raycast.icon 🧭
-# @raycast.packageName Safari
 #
 # Documentation:
 # @raycast.description This script copies URL of currently opened page in Safari into clipboard.
