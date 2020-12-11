@@ -1,6 +1,6 @@
 #!/usr/bin/osascript
 
-# @raycast.title Volume
+# @raycast.title Set Volume
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Set volume in Music.
