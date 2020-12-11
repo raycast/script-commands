@@ -87,6 +87,8 @@ extension Toolkit {
     // TODO: Use the content of dictionary to implement the validation
     var dictionary = readKeyValues(of: content)
     dictionary[filenameKey] = filename
+    
+    dictionary["isTemplate"] = filename.contains("template")
 
     if dictionary[packageNameKey] == nil {
       dictionary[packageNameKey] = path.basenameWithoutExt.sanitize.capitalized
@@ -96,29 +98,78 @@ extension Toolkit {
   }
 
   func readKeyValues(of content: String) -> [String: Any] {
-    let regex = "@raycast.(?<key>[A-Za-z]+)\\s(?<value>[\\S ]+)"
+    let regex = "@raycast.(?<key>[A-Za-z0-9]+)\\s(?<value>[\\S ]+)"
     let results = RegEx.checkingResults(for: regex, in: content)
-
+    
     var dictionary: [String: Any] = [:]
-    let authors = extractAuthors(from: content, using: results)
 
+    if let software = extractSoftwareFromShebang(using: content) {
+      dictionary["software"] = software
+    }
+    
+    let authors = extractAuthors(from: content, using: results)
     if authors.count > 0 {
-      dictionary["authors"] = extractAuthors(from: content, using: results)
+      dictionary["authors"] = authors
+    }
+    
+    let icons = extractIcons(from: content, using: results)
+    if icons.count > 0 {
+      dictionary["icon"] = icons
     }
 
     for result in results {
       let keyValue = readKeyValue(from: result, content: content)
 
-      guard keyValue.isAuthorKeys == false else {
+      guard keyValue.authorKeys == false && keyValue.iconKeys == false else {
         continue
       }
-
+      
+      dictionary["hasArguments"] = keyValue.keys.first == "argument1" ? true : false
+      
       dictionary.merge(keyValue) { $1 }
     }
 
     return dictionary
   }
 
+  func extractSoftwareFromShebang(using content: String) -> String? {
+    let regex = "#!(?<shebang>[^\n]+)"
+    
+    guard let result = RegEx.checkingResult(for: regex, in: content) else {
+      return nil
+    }
+    
+    let range = result.range(withName: "shebang")
+    
+    guard let shebang = self.content(of: range, on: content) else {
+      return nil
+    }
+    
+    guard let software = shebang.split(separator: "/").last else {
+      return nil
+    }
+    
+    return String(software)
+  }
+  
+  func extractIcons(from content: String, using results: NSTextCheckingResults) -> [String: String] {
+    var icons: [String: String] = [:]
+    
+    for result in results {
+      let dictionary = readKeyValue(from: result, content: content)
+      
+      guard let key = dictionary.keys.first, dictionary.iconKeys else {
+        continue
+      }
+      
+      if let value = dictionary[key] as? String {
+        icons[key] = value
+      }
+    }
+    
+    return icons
+  }
+  
   func extractAuthors(from content: String, using results: NSTextCheckingResults) -> [[String: String]] {
     var authors: [[String: String]] = []
     var currentAuthor: [String: String] = [:]
@@ -126,7 +177,7 @@ extension Toolkit {
     for result in results {
       let dictionary = readKeyValue(from: result, content: content)
 
-      guard let key = dictionary.keys.first, dictionary.isAuthorKeys else {
+      guard let key = dictionary.keys.first, dictionary.authorKeys else {
         continue
       }
 
@@ -233,7 +284,7 @@ fileprivate extension Toolkit {
 // MARK: - Dictionary Extension
 
 fileprivate extension Dictionary where Key == String {
-  var isAuthorKeys: Bool {
+  var authorKeys: Bool {
     typealias Keys = ScriptCommand.Author.InputCodingKeys
     let authorNameKey = Keys.name.rawValue
     let authorURLKey = Keys.url.rawValue
@@ -243,5 +294,17 @@ fileprivate extension Dictionary where Key == String {
     }
 
     return key == authorNameKey || key == authorURLKey
+  }
+  
+  var iconKeys: Bool {
+    typealias Keys = ScriptCommand.Icon.InputCodingKeys
+    let iconKey = Keys.icon.rawValue
+    let iconDarkKey = Keys.iconDark.rawValue
+    
+    guard let key = keys.first else {
+      return false
+    }
+    
+    return key == iconKey || key == iconDarkKey
   }
 }

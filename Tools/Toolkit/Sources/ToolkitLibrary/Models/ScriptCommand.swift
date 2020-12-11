@@ -13,12 +13,15 @@ struct ScriptCommand: Codable {
   var filename: String
   let mode: Mode?
   var packageName: String?
-  let icon: String?
+  let icon: Icon?
   let authors: [Author]?
   let details: String?
   let currentDirectoryPath: String?
   let needsConfirmation: Bool?
   let refreshTime: String?
+  let software: String
+  let isTemplate: Bool
+  let hasArguments: Bool
 
   private var leadingPath: String = ""
 
@@ -34,6 +37,9 @@ struct ScriptCommand: Codable {
     case currentDirectoryPath
     case needsConfirmation
     case refreshTime
+    case software
+    case isTemplate
+    case hasArguments
   }
 
   var iconString: String {
@@ -41,7 +47,11 @@ struct ScriptCommand: Codable {
       "<img src=\"\(url)\" width=\"20\" height=\"20\">"
     }
 
-    guard let value = icon, value.isEmpty == false else {
+    guard let icon = self.icon else {
+      return .empty
+    }
+    
+    guard let value = icon.light, value.isEmpty == false else {
       return .empty
     }
 
@@ -74,11 +84,14 @@ extension ScriptCommand {
     self.schemaVersion          = try container.decode(Int.self, forKey: .schemaVersion)
     self.title                  = try container.decode(String.self, forKey: .title)
     self.filename               = try container.decode(String.self, forKey: .filename)
+    self.software               = try container.decode(String.self, forKey: .software)
+    self.isTemplate             = try container.decode(Bool.self, forKey: .isTemplate)
+    self.hasArguments           = try container.decode(Bool.self, forKey: .hasArguments)
 
     // Optionals
     self.mode                   = try container.decodeIfPresent(Mode.self, forKey: .mode)
     self.packageName            = try container.decodeIfPresent(String.self, forKey: .packageName)
-    self.icon                   = try container.decodeIfPresent(String.self, forKey: .icon)
+    self.icon                   = try container.decodeIfPresent(Icon.self, forKey: .icon)
     self.details                = try container.decodeIfPresent(String.self, forKey: .details)
     self.currentDirectoryPath   = try container.decodeIfPresent(String.self, forKey: .currentDirectoryPath)
     self.needsConfirmation      = try container.decodeIfPresent(Bool.self, forKey: .needsConfirmation)
@@ -100,6 +113,9 @@ extension ScriptCommand {
     try container.encode(authors, forKey: .authors)
     try container.encode(needsConfirmation, forKey: .needsConfirmation)
     try container.encode(refreshTime, forKey: .refreshTime)
+    try container.encode(software, forKey: .software)
+    try container.encode(isTemplate, forKey: .isTemplate)
+    try container.encode(hasArguments, forKey: .hasArguments)
   }
 }
 
