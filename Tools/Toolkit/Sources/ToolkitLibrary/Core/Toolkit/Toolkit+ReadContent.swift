@@ -103,8 +103,8 @@ extension Toolkit {
     
     var dictionary: [String: Any] = [:]
 
-    if let software = extractSoftwareFromShebang(using: content) {
-      dictionary["software"] = software
+    if let language = extractLanguageFromShebang(using: content) {
+      dictionary["language"] = language
     }
     
     let authors = extractAuthors(from: content, using: results)
@@ -132,7 +132,7 @@ extension Toolkit {
     return dictionary
   }
 
-  func extractSoftwareFromShebang(using content: String) -> String? {
+  func extractLanguageFromShebang(using content: String) -> String? {
     let regex = "#!(?<shebang>[^\n]+)"
     
     guard let result = RegEx.checkingResult(for: regex, in: content) else {
@@ -157,7 +157,9 @@ extension Toolkit {
         : values.first ?? ""
     }
     
-    return String(software)
+    let language = Language(String(software))
+    
+    return language.name
   }
   
   func extractArguments(from content: String, using results: NSTextCheckingResults) -> Bool {
