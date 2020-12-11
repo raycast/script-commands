@@ -16,6 +16,6 @@
 
 on run argv
 	tell application "TV"
-		to play track (item 1 of argv)
+		play track (item 1 of argv)
 	end tell
 end run
