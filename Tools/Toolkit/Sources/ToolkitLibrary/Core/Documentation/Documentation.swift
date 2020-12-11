@@ -117,8 +117,8 @@ private extension Documentation {
       }
 
       contentString += .newLine
-      contentString += .newLine + "| Icon | Title | Description | Author |"
-      contentString += .newLine + "| ---- | ----- | ----------- | ------ |"
+      contentString += .newLine + "| Icon | Templ. | Args | Language | Title | Description | Author |"
+      contentString += .newLine + "| ---- | ------ | ---- | -------- | ----- | ----------- | ------ |"
 
       for var scriptCommand in group.scriptCommands.sorted() {
         scriptCommand.setLeadingPath(leadingPath)

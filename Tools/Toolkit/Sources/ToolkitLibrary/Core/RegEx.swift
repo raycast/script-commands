@@ -21,9 +21,13 @@ final class RegEx {
       let range = NSRange(text.startIndex..., in: text)
       return regex.matches(in: text, range: range)
 
-    } catch let error {
+    } catch {
       print("Invalid regex: \(error.localizedDescription)")
       return []
     }
+  }
+  
+  static func checkingResult(for regex: String, in text: String) -> NSTextCheckingResult? {
+    return checkingResults(for: regex, in: text).first
   }
 }
