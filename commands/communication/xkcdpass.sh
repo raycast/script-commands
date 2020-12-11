@@ -1,25 +1,24 @@
 #!/bin/bash
 
-# Dependency: requires xkcdpass (https://pypi.org/project/xkcdpass/).
+# Dependency: requires xkcdpass (https://github.com/redacted/XKCD-password-generator).
 # Install via pip: `pip install xkcdpass`
 
-# Required parameters:
-# @raycast.schemaVersion 1
 # @raycast.title Generate Passphrase
-# @raycast.mode silent
-
-# Optional parameters:
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Use xkcdpass to create a passphrase.
-# @raycast.packageName Communication
+# @raycast.description Use [xkcdpass](https://github.com/redacted/XKCD-password-generator) to create a passphrase.
+
 # @raycast.icon 🔐
+# @raycast.mode silent
+# @raycast.packageName Communication
+# @raycast.schemaVersion 1
 
 if ! command -v xkcdpass &> /dev/null; then
 	echo "xkcdpass is required (https://pypi.org/project/xkcdpass/).";
 	exit 1;
 fi
 
-xkcdpass | pbcopy
+passphrase=$(xkcdpass)
+echo -n $passphrase | pbcopy
 
 echo "Copied passphrase"

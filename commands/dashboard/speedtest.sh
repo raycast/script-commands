@@ -3,15 +3,16 @@
 # Dependency: requires speedtest (https://www.speedtest.net/apps/cli)
 # Install with Homebrew: `brew tap teamookla/speedtest; brew update; brew install speedtest --force`
 
-# @raycast.schemaVersion 1
 # @raycast.title Speedtest
-# @raycast.mode inline
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Test download and upload connection speed
-# @raycast.packageName Internet
+# @raycast.description Test download and upload connection speed using [Speedtest](https://www.speedtest.net/apps/cli).
+
 # @raycast.icon images/speedtest-logo.png
+# @raycast.mode inline
+# @raycast.packageName Internet
 # @raycast.refreshTime 20m
+# @raycast.schemaVersion 1
 
 if ! command -v speedtest &> /dev/null; then
 	echo "speedtest command is required (https://www.speedtest.net/apps/cli).";

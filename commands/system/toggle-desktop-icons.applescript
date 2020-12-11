@@ -4,6 +4,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Toggle Desktop Icons
 # @raycast.mode silent
+# @raycast.packageName System
 
 # Optional parameters:
 # @raycast.icon 🖥

@@ -4,9 +4,13 @@
 // @raycast.schemaVersion 1
 // @raycast.title Copy Last Screenshot
 // @raycast.mode silent
+// @raycast.packageName System
 
 // Optional parameters:
 // @raycast.icon 📸
+
+// Documentation:
+// @raycast.description Copies the last screenshot to the clipboard.
 
 import Cocoa
 

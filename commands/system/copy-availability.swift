@@ -4,9 +4,13 @@
 // @raycast.schemaVersion 1
 // @raycast.title Copy Availability
 // @raycast.mode silent
+// @raycast.packageName System
 //
 // Optional parameters:
 // @raycast.icon 📅
+//
+// Documentation:
+// @raycast.description Copies the calenadar availability of today.
 
 import AppKit
 import EventKit
