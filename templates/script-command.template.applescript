@@ -23,5 +23,5 @@
 # @raycast.authorURL An URL for one of your social medias
 
 on run argv
-	do shell script "echo Hello from My First Script: " & ( item 1 of argv )
+  log "Hello from My First Script: " & ( item 1 of argv )
 end run
