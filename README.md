@@ -111,6 +111,8 @@ Here's an example of a simple web search script with two arguments:
 open "https://www.google.com/search?q=flights%20from%20$1%20to%20$2"
 ```
 
+Check the [templates](/tree/master/templates) for additional examples with other script languages.
+
 *💡Pro tip:* When typing alias + space, Raycast automatically will move focus to the first input field.
 
 ### Error Handling
