@@ -2779,6 +2779,24 @@
                 }
               ],
               "currentDirectoryPath" : null,
+              "description" : "Play specified movie from library in TV.",
+              "filename" : "apple-tv-play-movie.applescript",
+              "icon" : "images\/apple-tv-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "TV",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Play Movie"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
               "description" : "Play TV.",
               "filename" : "apple-tv-play.applescript",
               "icon" : "images\/apple-tv-logo.png",
@@ -2830,5 +2848,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-12-11T00:20:08Z"
+  "updatedAt" : "2020-12-12T11:57:26Z"
 }
