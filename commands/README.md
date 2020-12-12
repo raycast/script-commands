@@ -215,6 +215,7 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-tv/images/apple-tv-logo.png?raw=true" width="20" height="20"> | [Pause](media/apple-tv/apple-tv-pause.applescript) | Pause TV. | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-tv/images/apple-tv-logo.png?raw=true" width="20" height="20"> | [Play](media/apple-tv/apple-tv-play.applescript) | Play TV. | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-tv/images/apple-tv-logo.png?raw=true" width="20" height="20"> | [Play Movie](media/apple-tv/apple-tv-play-movie.applescript) | Play specified movie from library in TV. | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-tv/images/apple-tv-logo.png?raw=true" width="20" height="20"> | [Set Volume](media/apple-tv/apple-tv-set-volume.applescript) | Set volume in TV. | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-tv/images/apple-tv-logo.png?raw=true" width="20" height="20"> | [Stop](media/apple-tv/apple-tv-stop.applescript) | Stop TV. | [Caleb Stauffer](https://github.com/crstauf) |
 
