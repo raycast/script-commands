@@ -16,6 +16,11 @@
 
 on run argv
 	tell application "TV"
-		play track (item 1 of argv)
+		try
+			activate
+			play track (item 1 of argv)
+		on error
+			log "Unable to play \"" & (item 1 of argv) & "\""
+		end try	
 	end tell
 end run
