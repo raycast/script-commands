@@ -42,30 +42,18 @@ struct ScriptCommand: Codable {
     case hasArguments
   }
 
-  var iconString: String {
-    func image(for url: String) -> String {
-      "<img src=\"\(url)\" width=\"20\" height=\"20\">"
-    }
-
+  var iconDescription: String {
     guard let icon = self.icon else {
       return .empty
     }
     
-    guard let value = icon.light, value.isEmpty == false else {
-      return .empty
-    }
-
-    if value.isEmoji {
-      return "\(value)"
-    }
-
-    if value.starts(with: "http://") || value.starts(with: "https://") {
-      return image(for: value)
-    }
-
-    return image(
-      for: "https://raw.githubusercontent.com/raycast/script-commands/master/commands/\(leadingPath)\(value)?raw=true"
+    let path = "https://raw.githubusercontent.com/raycast/script-commands/master/commands/\(leadingPath)"
+    
+    let tag = icon.imageTag(
+      with: path
     )
+    
+    return tag
   }
 
   mutating func setLeadingPath(_ value: String) {
@@ -152,11 +140,11 @@ extension ScriptCommand: MarkdownDescriptionProtocol {
       details = value
     }
     
-    let language = Language(self.language)
-    
+    let language = Language(self.language).markdownDescription
     let scriptPath = "\(leadingPath)\(filename)"
+
     let header = """
-        | \(iconString) | [\(title)](\(scriptPath)) | \(details) | \(author) | \(hasArguments ? "✅" : "") | \(isTemplate ? "✅" : "") | \(language.markdownDescription) |
+        | \(iconDescription) | [\(title)](\(scriptPath)) | \(details) | \(author) | \(hasArguments ? "✅" : "") | \(isTemplate ? "✅" : "") | \(language) |
         """
 
     content += .newLine + header

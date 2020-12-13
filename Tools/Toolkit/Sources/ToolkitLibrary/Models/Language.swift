@@ -90,7 +90,6 @@ extension Language: MarkdownDescriptionProtocol {
   var markdownDescription: String {
     if let iconFilename = icon {
       return "<img src=\"images/\(iconFilename)\" width=\"20\" height=\"20\" title=\"\(socialName)\">"
-      //return "![\(socialName)](images/\(iconFilename) \"\(socialName)\")"
     }
 
     return socialName

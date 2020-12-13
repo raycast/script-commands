@@ -28,8 +28,9 @@ extension ScriptCommand {
   }
 }
 
-extension ScriptCommand.Author {
+// MARK: - Keys
 
+extension ScriptCommand.Author {
   enum InputCodingKeys: String, CodingKey {
     case url = "authorURL"
     case name = "author"
