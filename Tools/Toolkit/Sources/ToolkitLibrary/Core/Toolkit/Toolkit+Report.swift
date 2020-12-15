@@ -8,7 +8,7 @@ import TSCBasic
 
 extension Toolkit {
   
-  public func generateDocumentation(outputFilename: String) throws {
+  public func report(type: ReportType) throws {
     guard fileSystem.exists(extensionsAbsolutePath) else {
       throw Error.extensionsFolderNotFound(extensionsAbsolutePath.pathString)
     }
@@ -21,6 +21,12 @@ extension Toolkit {
       ignoreFilesInDir: true
     )
     
-//    let report = Report(
+    let report = Report()
+    
+    report.console(
+      for: data,
+      type: type
+    )
   }
 }
+

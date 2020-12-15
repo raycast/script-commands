@@ -16,48 +16,41 @@ extension ToolkitCommand {
       abstract: "Generate a report about the health of the Script Commands available in a path"
     )
     
-    @Option(name: [.customShort("t") , .customLong("type")], help: "Type of report")
-    var reportType: ReportType = .nonExecutable
+    @Option(
+        name: [
+            .customShort("t"),
+            .customLong("type")
+        ],
+        help: "\(Toolkit.ReportType.allOptions)\n "
+    )
+    var reportType: Toolkit.ReportType = .bothExecNonExec
     
-    @Argument(help: "Path of the Raycast extensions folder.\n")
+    @Argument(
+        help: "Path of the Raycast extensions folder.\n "
+    )
     var path: String = "./commands"
     
     func run() throws {
-      // TODO: To be implemented
-      
-//      let fileSystem = TSCBasic.localFileSystem
-//
-//      do {
-//        let toolkit = Toolkit(
-//          path: fileSystem.absolutePath(for: path)
-//        )
-//
-//        // TODO: Report
-//
-//        Toolkit.raycastDescription()
-//        Console.shared.writeGreen("Documents generated!")
-//      } catch {
-//        Toolkit.raycastDescription()
-//        Console.shared.writeRed("Error: \(error)")
-//      }
+      let fileSystem = TSCBasic.localFileSystem
+
+      do {
+        let toolkit = Toolkit(
+          path: fileSystem.absolutePath(for: path)
+        )
+
+        try toolkit.report(type: reportType)
+      } catch {
+        Toolkit.raycastDescription()
+        Console.shared.writeRed("Error: \(error)")
+      }
     }
   }
 }
 
-extension ToolkitCommand.Report {
-  enum ReportType: String, CaseIterable, Codable, CustomStringConvertible {
-    case executable
-    case nonExecutable = "non-executable"
-    case metadata
-    
-    var description: String {
-      return rawValue
-    }
-    
-    var dirname: String {
-      description
-    }
+// MARK: - Expressible By Argument
+
+extension ToolkitLibrary.Toolkit.ReportType: ExpressibleByArgument {
+  static var allOptions: String {
+    Self.allValueStrings.joined(separator: "|")
   }
 }
-
-extension ToolkitCommand.Report.ReportType: ExpressibleByArgument {}
