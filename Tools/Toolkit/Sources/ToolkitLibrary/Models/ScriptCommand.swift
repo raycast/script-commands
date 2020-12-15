@@ -23,7 +23,8 @@ struct ScriptCommand: Codable {
   let isTemplate: Bool
   let hasArguments: Bool
 
-  private var leadingPath: String = ""
+  private(set) var leadingPath: String = ""
+  private(set) var isExecutable: Bool = false
 
   enum CodingKeys: String, CodingKey {
     case schemaVersion
@@ -56,8 +57,16 @@ struct ScriptCommand: Codable {
     return tag
   }
 
-  mutating func setLeadingPath(_ value: String) {
-    self.leadingPath = value
+  var fullPath: String {
+    "\(leadingPath)/\(filename)"
+  }
+  
+  mutating func configure(leadingPath: String) {
+    self.leadingPath = leadingPath
+  }
+  
+  mutating func configure(isExecutable: Bool) {
+    self.isExecutable = isExecutable
   }
 }
 

@@ -121,7 +121,7 @@ private extension Documentation {
       contentString += .newLine + "| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |"
 
       for var scriptCommand in group.scriptCommands.sorted() {
-        scriptCommand.setLeadingPath(leadingPath)
+        scriptCommand.configure(leadingPath: leadingPath)
         contentString += scriptCommand.markdownDescription
       }
     }
