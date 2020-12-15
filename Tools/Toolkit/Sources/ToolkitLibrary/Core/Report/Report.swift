@@ -7,101 +7,155 @@ import Foundation
 import TSCBasic
 
 final class Report {
-  private let fileSystem = TSCBasic.localFileSystem
+  private lazy var scriptCommands = ScriptCommands()
+  private lazy var console        = Console.shared
   
-  private let path: AbsolutePath
-  
-  private let markdownFilename: String
-  private let jsonFilename: String
-  
-  init(path: AbsolutePath, jsonFilename: String, markdownFilename: String) {
-    self.path             = path
-    self.jsonFilename     = jsonFilename
-    self.markdownFilename = markdownFilename
+  func console(for data: RaycastData, type: Toolkit.ReportType) {
+    report(for: data.groups, type: type)
   }
-  
-//  func generateDocuments(for data: RaycastData) throws {
-//    try generateMarkdown(for: data)
-//    try generateJSON(for: data)
-//  }
   
 }
 
 // MARK: - Private methods
 
 private extension Report {
+  typealias Cell = (title: String, length: Int)
+  typealias Cells = [Cell]
   
-  func markdownData(for groups: Groups) -> Data? {
-    var tableOfContents = String.empty
-    var contentString = String.empty
-    
-    let sortedGroups = groups.sorted()
-    
-    sortedGroups.forEach {
-      tableOfContents += $0.markdownDescription
+  func report(for groups: Groups, type: Toolkit.ReportType) {
+    groups.sorted().forEach { group in
+      filter(for: group, leadingPath: group.path, by: type)
     }
-    
-    sortedGroups.forEach { group in
-      contentString += .newLine + group.sectionTitle
-      
-      contentString += renderMarkdown(for: group, leadingPath: "\(group.path)/")
-    }
-    
-    let markdown = """
-        <!-- AUTO GENERATED FILE. DO NOT EDIT. -->
-        # Raycast Script Commands
 
-        [Raycast](https://raycast.com) lets you control your tools with a few keystrokes
-        and Script Commands makes it possible to execute scripts from anywhere on your desktop.
-        They are a great way to speed up every-day tasks such as converting data, opening bookmarks
-        or triggering dev workflows.
-
-        This repository contains sample commands and documentation to write your own ones.
-
-        ### Categories
-        \(tableOfContents)\(contentString)
-
-        ## Community
-
-        This is a shared place and we're always looking for new Script Commands or other ways to improve Raycast.
-        If you have anything cool to show, please send us a pull request. If we screwed something up,
-        please report a bug. Join our
-        [Slack community](https://www.raycast.com/community)
-        to brainstorm ideas with like-minded folks.
-        """
-    
-    guard let contentData = markdown.data(using: .utf8) else {
-      return nil
-    }
-    
-    return contentData
+    print(
+      renderReport(for: scriptCommands)
+    )
   }
-  
-  func renderMarkdown(for group: Group, headline: Bool = false, leadingPath: String = .empty) -> String {
-    var contentString = String.empty
-    
+
+  func filter(for group: Group, leadingPath: String = .empty, by type: Toolkit.ReportType) {
     if group.scriptCommands.count > 0 {
-      if headline {
-        contentString += .newLine
-        contentString += .newLine + "#### \(group.name)"
-      }
-      
-      contentString += .newLine
-      contentString += .newLine + "| Icon | Title | Description | Author |"
-      contentString += .newLine + "| ---- | ----- | ----------- | ------ |"
-      
       for var scriptCommand in group.scriptCommands.sorted() {
-        scriptCommand.setLeadingPath(leadingPath)
-        contentString += scriptCommand.markdownDescription
+        scriptCommand.configure(leadingPath: leadingPath)
+        
+        switch (type, scriptCommand.isExecutable) {
+          case (.executable, true):
+            self.scriptCommands.append(scriptCommand)
+          case (.nonExecutable, false):
+            self.scriptCommands.append(scriptCommand)
+          case (.bothExecNonExec, _):
+            self.scriptCommands.append(scriptCommand)
+          default:
+            break
+        }
       }
     }
     
     if let subGroups = group.subGroups?.sorted() {
       for subGroup in subGroups {
-        contentString += renderMarkdown(for: subGroup, headline: true, leadingPath: "\(leadingPath)\(subGroup.path)/")
+        filter(
+          for: subGroup,
+          leadingPath: "\(leadingPath)/\(subGroup.path)",
+          by: type
+        )
+      }
+    }
+  }
+  
+  func renderReport(for scriptCommands: ScriptCommands) -> String {
+    Toolkit.raycastDescription()
+    
+    var firstColumn = 0
+    var secondColumn = 0
+    let thirdColumn = 10
+    
+    scriptCommands.forEach {
+      let author: String = $0.authors?.description ?? "Raycast"
+
+      if author.count >= firstColumn {
+        firstColumn = author.count
+      }
+
+      if $0.fullPath.count >= secondColumn {
+        secondColumn = $0.fullPath.count
       }
     }
     
+    let columnLengthList = [firstColumn, secondColumn, thirdColumn]
+    
+    var contentString = String.empty
+    
+    let titleCells = [
+      Cell(title: "Author", length: firstColumn),
+      Cell(title: "Path", length: secondColumn),
+      Cell(title: "Executable", length: thirdColumn),
+    ]
+    
+    contentString += renderDivisor(with: columnLengthList)
+    contentString += .newLine
+    contentString += renderRow(for: titleCells)
+    contentString += .newLine
+    contentString += renderDivisor(with: columnLengthList)
+    
+    scriptCommands.forEach {
+      let author: String = $0.authors?.description ?? "Raycast"
+      
+      let rowCells = [
+        Cell(title: author, length: firstColumn),
+        Cell(title: $0.fullPath, length: secondColumn),
+        Cell(title: String($0.isExecutable), length: thirdColumn),
+      ]
+      
+      contentString += .newLine
+      contentString += renderRow(for: rowCells)
+    }
+    
+    contentString += .newLine
+    contentString += renderDivisor(with: columnLengthList)
+    
     return contentString
+  }
+  
+  func renderRow(for cells: Cells) -> String {
+    var content = "|"
+    
+    cells.forEach { cell in
+      let length = cell.length - cell.title.count
+      
+      content += " "
+      content += cell.title
+      content += " ".`repeat`(by: length)
+      content += "|"
+    }
+    
+    return content
+  }
+  
+  func renderDivisor(with maxWidthList: [Int]) -> String {
+    var divisor = "+"
+    
+    maxWidthList.forEach { maxWidth in
+      divisor += "-".`repeat`(by: maxWidth + 1)
+      divisor += "+"
+    }
+    
+    return divisor
+  }
+}
+
+// MARK: - Extension for Array<Author>
+
+fileprivate extension Array where Element == ScriptCommand.Author {
+  /// Return the name of the author or in case of multiple authors, just "Multiple"
+  var description: String {
+    var author = String.empty
+
+    if count == 1 {
+      author = self[0].name ?? "Raycast"
+    }
+    else if count > 1 {
+      author = "Multiple"
+    }
+
+    return author
   }
 }
