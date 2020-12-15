@@ -9,11 +9,28 @@ import TSCBasic
 final class Report {
   private lazy var scriptCommands = ScriptCommands()
   private lazy var console        = Console.shared
+
+  private let data: RaycastData
+  private let type: Toolkit.ReportType
   
-  func console(for data: RaycastData, type: Toolkit.ReportType) {
-    report(for: data.groups, type: type)
+  init(data: RaycastData, type: Toolkit.ReportType) {
+    self.data = data
+    self.type = type
   }
   
+  func showResult() {
+    data.groups.sorted().forEach { group in
+      filter(
+        for: group,
+        leadingPath: group.path,
+        by: type
+      )
+    }
+    
+    print(
+      renderReport(for: scriptCommands)
+    )
+  }
 }
 
 // MARK: - Private methods
@@ -21,16 +38,6 @@ final class Report {
 private extension Report {
   typealias Cell = (title: String, length: Int)
   typealias Cells = [Cell]
-  
-  func report(for groups: Groups, type: Toolkit.ReportType) {
-    groups.sorted().forEach { group in
-      filter(for: group, leadingPath: group.path, by: type)
-    }
-
-    print(
-      renderReport(for: scriptCommands)
-    )
-  }
 
   func filter(for group: Group, leadingPath: String = .empty, by type: Toolkit.ReportType) {
     if group.scriptCommands.count > 0 {
@@ -60,7 +67,7 @@ private extension Report {
       }
     }
   }
-  
+
   func renderReport(for scriptCommands: ScriptCommands) -> String {
     Toolkit.raycastDescription()
     

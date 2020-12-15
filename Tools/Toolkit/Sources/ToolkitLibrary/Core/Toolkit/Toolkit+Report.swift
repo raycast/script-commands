@@ -21,12 +21,12 @@ extension Toolkit {
       ignoreFilesInDir: true
     )
     
-    let report = Report()
-    
-    report.console(
-      for: data,
+    let report = Report(
+      data: data,
       type: type
     )
+    
+    report.showResult()
   }
 }
 
