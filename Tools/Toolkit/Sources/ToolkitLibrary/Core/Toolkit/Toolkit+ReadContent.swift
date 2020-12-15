@@ -44,8 +44,13 @@ extension Toolkit {
         continue
       }
 
-      if let scriptCommand = readScriptCommand(from: file) {
+      if var scriptCommand = readScriptCommand(from: file) {
         self.totalScriptCommands += 1
+        
+        scriptCommand.configure(
+          isExecutable: fileSystem.isExecutableFile(file)
+        )
+
         scriptCommands.append(scriptCommand)
       }
     }
