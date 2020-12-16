@@ -33,9 +33,13 @@ public final class Console {
 
   public func write(string: String, color: TerminalController.Color, bold: Bool = false, endLine: Bool = true) {
     terminalController?.write(string, inColor: color, bold: bold)
-
+    
     if endLine {
       terminalController?.endLine()
     }
+  }
+  
+  public func endLine() {
+    terminalController?.endLine()
   }
 }
