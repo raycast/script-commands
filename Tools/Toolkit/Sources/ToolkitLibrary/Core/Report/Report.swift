@@ -49,7 +49,7 @@ private extension Report {
             self.scriptCommands.append(scriptCommand)
           case (.nonExecutable, false):
             self.scriptCommands.append(scriptCommand)
-          case (.bothExecNonExec, _):
+          case (.allScripts, _):
             self.scriptCommands.append(scriptCommand)
           default:
             break
