@@ -9,7 +9,7 @@ public extension Toolkit {
   enum ReportType: String, CaseIterable, CustomStringConvertible {
     case executable
     case nonExecutable   = "non-executable"
-    case bothExecNonExec = "both-exec-nonexec"
+    case allScripts = "all-scripts"
     case metadata
 
     public var description: String {

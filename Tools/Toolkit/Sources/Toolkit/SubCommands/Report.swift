@@ -23,7 +23,7 @@ extension ToolkitCommand {
         ],
         help: "\(Toolkit.ReportType.allOptions)\n "
     )
-    var reportType: Toolkit.ReportType = .bothExecNonExec
+    var reportType: Toolkit.ReportType = .allScripts
     
     @Argument(
         help: "Path of the Raycast extensions folder.\n "
