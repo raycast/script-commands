@@ -103,7 +103,7 @@ private extension Report {
     
     let titleCells = [
       Title(value: raycast, color: .red, bold: true),
-      Title(value: "Script Commands", color: .green, bold: false),
+      Title(value: "Script Commands", color: .green, bold: true),
     ]
     
     let descriptionCells = [
@@ -123,7 +123,7 @@ private extension Report {
     scriptCommands.forEach {
       let author = $0.authors?.description ?? raycast
       
-      let executableColor: TerminalController.Color = $0.isExecutable ? .yellow : .red
+      let executableColor: TerminalController.Color = $0.isExecutable ? .cyan : .yellow 
       
       let rowCells = [
         Cell(title: author, length: firstColumnLength, color: .green, bold: true),
@@ -135,8 +135,8 @@ private extension Report {
     }
 
     renderDivider(with: columnsLength)
-    console.write("    Total of", endLine: false)
-    console.writeYellow(" \(scriptCommands.count) ", bold: true, endLine: false)
+    console.write("  Total of", endLine: false)
+    console.write(string: " \(scriptCommands.count) ", color: .cyan, bold: true, endLine: false)
     console.write("script commands")
   }
   
