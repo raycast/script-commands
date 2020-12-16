@@ -33,6 +33,16 @@ final class Report {
   }
 }
 
+// MARK: - Signs
+extension Report {
+  enum Divisor {
+    static let pipe = "|"
+    static let plus = "+"
+    static let minus = "-"
+    static let space = " "
+  }
+}
+
 // MARK: - Private methods
 
 private extension Report {
@@ -111,7 +121,7 @@ private extension Report {
     renderDivisor(with: columnsLength)
     
     scriptCommands.forEach {
-      let author: String = $0.authors?.description ?? raycast
+      let author = $0.authors?.description ?? raycast
       
       let executableColor: TerminalController.Color = $0.isExecutable ? .yellow : .red
       
@@ -138,17 +148,17 @@ private extension Report {
     let halfTitleWidth = titleLength / 2
     
     let leadingOffset = halfMaxWidth - halfTitleWidth
-    let titleLeadingMargin = " ".`repeat`(by: leadingOffset)
+    let titleLeadingMargin = Divisor.space.`repeat`(by: leadingOffset)
     
     let trailingOffset = maxWidth - (leadingOffset + titleCount)
-    let titleTrailingMargin = " ".`repeat`(by: trailingOffset)
+    let titleTrailingMargin = Divisor.space.`repeat`(by: trailingOffset)
     
-    console.write("|", endLine: false)
+    console.write(Divisor.pipe, endLine: false)
     console.write(titleLeadingMargin, endLine: false)
 
     titles.enumerated().forEach { (i, title) in
       if i > 0 {
-        console.write(" ", endLine: false)
+        console.write(Divisor.space, endLine: false)
       }
       
       console.write(
@@ -160,19 +170,19 @@ private extension Report {
     }
     
     console.write(titleTrailingMargin, endLine: false)
-    console.write("|")
+    console.write(Divisor.pipe)
   }
 
   func renderRow(for cells: Cells) {
-    console.write("|", endLine: false)
+    console.write(Divisor.pipe, endLine: false)
     
     cells.forEach { cell in
       let length = cell.length - cell.title.count
       
       var cellString = String.empty
-      cellString += " "
+      cellString += Divisor.space
       cellString += cell.title
-      cellString += " ".`repeat`(by: length)
+      cellString += Divisor.space.`repeat`(by: length)
       
       console.write(
         string: cellString,
@@ -180,18 +190,18 @@ private extension Report {
         bold: cell.bold,
         endLine: false
       )
-      console.write("|", endLine: false)
+      console.write(Divisor.pipe, endLine: false)
     }
     
     console.endLine()
   }
   
   func renderDivisor(with maxWidthList: [Int]) {
-    var divisor = "+"
+    var divisor = Divisor.plus
     
     maxWidthList.forEach { maxWidth in
-      divisor += "-".`repeat`(by: maxWidth + 1)
-      divisor += "+"
+      divisor += Divisor.minus.`repeat`(by: maxWidth + 1)
+      divisor += Divisor.plus
     }
     
     console.write(divisor, endLine: true)
