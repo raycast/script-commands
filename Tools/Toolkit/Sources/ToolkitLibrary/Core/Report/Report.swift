@@ -73,23 +73,23 @@ private extension Report {
   func renderReport(for scriptCommands: ScriptCommands) {
     let raycast = "Raycast"
     let cellMargin = 2
-    var firstColumn = 0
-    var secondColumn = 0
-    let thirdColumn = 10
+    var firstColumnLength = 0
+    var secondColumnLength = 0
+    let thirdColumnLength = 10
     
     scriptCommands.forEach {
       let author: String = $0.authors?.description ?? raycast
 
-      if author.count >= firstColumn {
-        firstColumn = author.count
+      if author.count >= firstColumnLength {
+        firstColumnLength = author.count
       }
 
-      if $0.fullPath.count >= secondColumn {
-        secondColumn = $0.fullPath.count
+      if $0.fullPath.count >= secondColumnLength {
+        secondColumnLength = $0.fullPath.count
       }
     }
     
-    let columnLengthList = [firstColumn, secondColumn, thirdColumn]
+    let columnsLength = [firstColumnLength, secondColumnLength, thirdColumnLength]
     
     let titleCells = [
       Title(value: raycast, color: .red, bold: true),
@@ -97,18 +97,18 @@ private extension Report {
     ]
     
     let descriptionCells = [
-      Cell(title: "Author", length: firstColumn, color: .noColor, bold: false),
-      Cell(title: "Path", length: secondColumn, color: .noColor, bold: false),
-      Cell(title: "Executable", length: thirdColumn, color: .noColor, bold: false)
+      Cell(title: "Author", length: firstColumnLength, color: .noColor, bold: false),
+      Cell(title: "Path", length: secondColumnLength, color: .noColor, bold: false),
+      Cell(title: "Executable", length: thirdColumnLength, color: .noColor, bold: false)
     ]
     
-    let headerMaxWidth = columnLengthList.reduce(0, +) + (descriptionCells.count * cellMargin)
+    let headerWidth = columnsLength.reduce(0, +) + (descriptionCells.count * cellMargin)
     
-    renderDivisor(with: columnLengthList)
-    renderHeader(maxWidth: headerMaxWidth, titles: titleCells)
-    renderDivisor(with: columnLengthList)
+    renderDivisor(with: columnsLength)
+    renderHeader(with: headerWidth, titles: titleCells)
+    renderDivisor(with: columnsLength)
     renderRow(for: descriptionCells)
-    renderDivisor(with: columnLengthList)
+    renderDivisor(with: columnsLength)
     
     scriptCommands.forEach {
       let author: String = $0.authors?.description ?? raycast
@@ -116,21 +116,21 @@ private extension Report {
       let executableColor: TerminalController.Color = $0.isExecutable ? .yellow : .red
       
       let rowCells = [
-        Cell(title: author, length: firstColumn, color: .green, bold: true),
-        Cell(title: $0.fullPath, length: secondColumn, color: .noColor, bold: false),
-        Cell(title: String($0.isExecutable), length: thirdColumn, color: executableColor, bold: !$0.isExecutable)
+        Cell(title: author, length: firstColumnLength, color: .green, bold: true),
+        Cell(title: $0.fullPath, length: secondColumnLength, color: .noColor, bold: false),
+        Cell(title: String($0.isExecutable), length: thirdColumnLength, color: executableColor, bold: !$0.isExecutable)
       ]
       
       renderRow(for: rowCells)
     }
 
-    renderDivisor(with: columnLengthList)
+    renderDivisor(with: columnsLength)
     console.write("    Total of", endLine: false)
     console.writeYellow(" \(scriptCommands.count) ", bold: true, endLine: false)
     console.write("script commands")
   }
   
-  func renderHeader(maxWidth: Int, titles: Titles) {
+  func renderHeader(with maxWidth: Int, titles: Titles) {
     let titleCount = titles.map { $0.value }.joined(separator: " ").count
     
     let titleLength = titleCount % 2 == 0 ? titleCount : titleCount + 1
