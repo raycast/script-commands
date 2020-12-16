@@ -35,7 +35,7 @@ final class Report {
 
 // MARK: - Signs
 extension Report {
-  enum Divisor {
+  enum Divider {
     static let pipe = "|"
     static let plus = "+"
     static let minus = "-"
@@ -114,11 +114,11 @@ private extension Report {
     
     let headerWidth = columnsLength.reduce(0, +) + (descriptionCells.count * cellMargin)
     
-    renderDivisor(with: columnsLength)
+    renderDivider(with: columnsLength)
     renderHeader(with: headerWidth, titles: titleCells)
-    renderDivisor(with: columnsLength)
+    renderDivider(with: columnsLength)
     renderRow(for: descriptionCells)
-    renderDivisor(with: columnsLength)
+    renderDivider(with: columnsLength)
     
     scriptCommands.forEach {
       let author = $0.authors?.description ?? raycast
@@ -134,7 +134,7 @@ private extension Report {
       renderRow(for: rowCells)
     }
 
-    renderDivisor(with: columnsLength)
+    renderDivider(with: columnsLength)
     console.write("    Total of", endLine: false)
     console.writeYellow(" \(scriptCommands.count) ", bold: true, endLine: false)
     console.write("script commands")
@@ -148,17 +148,17 @@ private extension Report {
     let halfTitleWidth = titleLength / 2
     
     let leadingOffset = halfMaxWidth - halfTitleWidth
-    let titleLeadingMargin = Divisor.space.`repeat`(by: leadingOffset)
+    let titleLeadingMargin = Divider.space.`repeat`(by: leadingOffset)
     
     let trailingOffset = maxWidth - (leadingOffset + titleCount)
-    let titleTrailingMargin = Divisor.space.`repeat`(by: trailingOffset)
+    let titleTrailingMargin = Divider.space.`repeat`(by: trailingOffset)
     
-    console.write(Divisor.pipe, endLine: false)
+    console.write(Divider.pipe, endLine: false)
     console.write(titleLeadingMargin, endLine: false)
 
     titles.enumerated().forEach { (i, title) in
       if i > 0 {
-        console.write(Divisor.space, endLine: false)
+        console.write(Divider.space, endLine: false)
       }
       
       console.write(
@@ -170,19 +170,19 @@ private extension Report {
     }
     
     console.write(titleTrailingMargin, endLine: false)
-    console.write(Divisor.pipe)
+    console.write(Divider.pipe)
   }
 
   func renderRow(for cells: Cells) {
-    console.write(Divisor.pipe, endLine: false)
+    console.write(Divider.pipe, endLine: false)
     
     cells.forEach { cell in
       let length = cell.length - cell.title.count
       
       var cellString = String.empty
-      cellString += Divisor.space
+      cellString += Divider.space
       cellString += cell.title
-      cellString += Divisor.space.`repeat`(by: length)
+      cellString += Divider.space.`repeat`(by: length)
       
       console.write(
         string: cellString,
@@ -190,18 +190,18 @@ private extension Report {
         bold: cell.bold,
         endLine: false
       )
-      console.write(Divisor.pipe, endLine: false)
+      console.write(Divider.pipe, endLine: false)
     }
     
     console.endLine()
   }
   
-  func renderDivisor(with maxWidthList: [Int]) {
-    var divisor = Divisor.plus
+  func renderDivider(with maxWidthList: [Int]) {
+    var divisor = Divider.plus
     
     maxWidthList.forEach { maxWidth in
-      divisor += Divisor.minus.`repeat`(by: maxWidth + 1)
-      divisor += Divisor.plus
+      divisor += Divider.minus.`repeat`(by: maxWidth + 1)
+      divisor += Divider.plus
     }
     
     console.write(divisor, endLine: true)
