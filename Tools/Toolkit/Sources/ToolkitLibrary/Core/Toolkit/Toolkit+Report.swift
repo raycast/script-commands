@@ -8,7 +8,7 @@ import TSCBasic
 
 extension Toolkit {
   
-  public func report(type: ReportType) throws {
+  public func report(type: ReportType, noColor: Bool) throws {
     guard fileSystem.exists(extensionsAbsolutePath) else {
       throw Error.extensionsFolderNotFound(extensionsAbsolutePath.pathString)
     }
@@ -23,7 +23,8 @@ extension Toolkit {
     
     let report = Report(
       data: data,
-      type: type
+      type: type,
+      noColor: noColor
     )
     
     report.showResult()

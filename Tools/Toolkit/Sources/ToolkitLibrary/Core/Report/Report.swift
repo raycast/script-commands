@@ -8,12 +8,16 @@ import TSCBasic
 
 final class Report {
   private lazy var scriptCommands = ScriptCommands()
-  private lazy var console        = Console.shared
+  private let console: Console
 
   private let data: RaycastData
   private let type: Toolkit.ReportType
   
-  init(data: RaycastData, type: Toolkit.ReportType) {
+  init(data: RaycastData, type: Toolkit.ReportType, noColor: Bool) {
+    self.console = Console(
+      noColor: noColor
+    )
+
     self.data = data
     self.type = type
   }

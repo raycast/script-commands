@@ -30,6 +30,9 @@ extension ToolkitCommand {
     )
     var path: String = "./commands"
     
+    @Flag(help: "Print report without colors")
+    var noColor: Bool = false
+    
     func run() throws {
       let fileSystem = TSCBasic.localFileSystem
 
@@ -38,7 +41,10 @@ extension ToolkitCommand {
           path: fileSystem.absolutePath(for: path)
         )
 
-        try toolkit.report(type: reportType)
+        try toolkit.report(
+          type: reportType,
+          noColor: noColor
+        )
       } catch {
         Toolkit.raycastDescription()
         Console.shared.writeRed("Error: \(error)")
