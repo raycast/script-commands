@@ -529,6 +529,24 @@
         {
           "authors" : [
             {
+              "name" : "Jesse Claven",
+              "url" : "https:\/\/github.com\/jesse-c"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Sample a colour from anywhere on your screen.",
+          "filename" : "sample-colour.swift",
+          "icon" : "🎨",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Sample Colour"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -2848,5 +2866,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-12-12T11:57:26Z"
+  "updatedAt" : "2020-12-18T16:54:42Z"
 }

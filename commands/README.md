@@ -275,6 +275,7 @@ This repository contains sample commands and documentation to write your own one
 | 🖼️ | [Refresh Wallpaper](system/wallpaper-refresh.applescript) | Refresh the wallpaper of the main display's current [Space](https://support.apple.com/guide/mac-help/work-in-multiple-spaces-mh14112/mac). | [Caleb Stauffer](https://github.com/crstauf) |
 | 🎧 | [Reload CoreAudio](system/reload-coreaudio.sh) | Reloads CoreAudio. | [Maxim Krouk](https://github.com/maximkrouk) |
 | ♻️ | [Restart](system/restart.applescript) | Restarts computer. | Raycast |
+| 🎨 | [Sample Colour](system/sample-colour.swift) | Sample a colour from anywhere on your screen. | [Jesse Claven](https://github.com/jesse-c) |
 | 🌀 | [Screen Saver](system/screensaver.applescript) | A script command to start your current screen saver. | [Valentin Chrétien](https://twitter.com/valentinchrt) |
 | 🛌 | [Shut Down](system/shutdown.applescript) | Shuts down computer. | Raycast |
 | 😴 | [Sleep](system/sleep.applescript) | Puts computer to sleep. | Raycast |
