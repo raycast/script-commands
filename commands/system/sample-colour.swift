@@ -54,25 +54,18 @@ func copyToPasteboard(_ colour: String) {
   NSPasteboard.general.writeObjects([colour as NSPasteboardWriting])
 }
 
-class AppDelegate: NSObject, NSApplicationDelegate {
-  func applicationDidFinishLaunching(_: Notification) {
-    let sampler = NSColorSampler()
+let sampler = NSColorSampler()
 
-    sampler.show { selectedColor in
-      if let selectedColor = selectedColor {
-        let (hexTuple, _, _) = selectedColor.components()!
-        copyToPasteboard(hexTuple.css)
-        print("Sampled colour: \(hexTuple.css)")
-        exit(0)
-      } else {
-        print("Sampled colour: none")
-        exit(0)
-      }
-    }
+sampler.show { selectedColor in
+  if let selectedColor = selectedColor {
+    let (hexTuple, _, _) = selectedColor.components()!
+    copyToPasteboard(hexTuple.css)
+    print("Sampled colour: \(hexTuple.css)")
+    exit(0)
+  } else {
+    print("Sampled colour: none")
+    exit(0)
   }
 }
 
-let app = NSApplication.shared
-let delegate = AppDelegate()
-app.delegate = delegate
-app.run()
+RunLoop.main.run()
