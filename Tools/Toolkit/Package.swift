@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
   name: "toolkit",
   platforms: [
-    .macOS(.v10_14)
+    .macOS(.v11)
   ],
   dependencies: [
     .package(

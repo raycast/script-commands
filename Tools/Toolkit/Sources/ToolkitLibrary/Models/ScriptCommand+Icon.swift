@@ -45,7 +45,7 @@ extension ScriptCommand.Icon {
 
 extension ScriptCommand.Icon {
 
-  fileprivate func htmlImageTag(for lightFilepath: String?, darkFilepath: String?, path: String) -> String {
+  private func htmlImageTag(for lightFilepath: String?, darkFilepath: String?, path: String) -> String {
     if let iconLight = lightFilepath, let iconDark = darkFilepath {
       var darkURL: String { iconDark.isURL ? iconDark : path + iconDark }
       var lightURL: String { iconLight.isURL ? iconLight : path + iconLight }
@@ -110,7 +110,7 @@ extension ScriptCommand.Icon {
 
 // MARK: -
 
-fileprivate extension String {
+private extension String {
   var isURL: Bool {
     starts(with: "http://") || starts(with: "https://")
   }

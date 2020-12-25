@@ -12,7 +12,7 @@ public final class Console {
   
   public static let shared = Console()
 
-  init(noColor: Bool = true) {
+  init(noColor: Bool = false) {
     self.noColor = noColor
     self.terminalController = TerminalController(stream: stdoutStream)
   }

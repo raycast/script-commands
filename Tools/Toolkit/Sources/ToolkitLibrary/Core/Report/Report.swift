@@ -214,7 +214,7 @@ private extension Report {
 
 // MARK: - Extension for Array<Author>
 
-fileprivate extension Array where Element == ScriptCommand.Author {
+private extension Array where Element == ScriptCommand.Author {
   /// Return the name of the author or in case of multiple authors, just "Multiple"
   var description: String {
     var author = String.empty

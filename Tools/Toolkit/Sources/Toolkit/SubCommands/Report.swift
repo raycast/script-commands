@@ -13,7 +13,7 @@ extension ToolkitCommand {
   struct Report: ParsableCommand {
     
     static var configuration = CommandConfiguration(
-      abstract: "Generate a report about the health of the Script Commands available in a path"
+      abstract: "Generate a report about the health of the Script Commands"
     )
     
     @Option(
