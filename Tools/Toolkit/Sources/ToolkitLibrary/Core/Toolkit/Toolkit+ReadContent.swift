@@ -12,6 +12,7 @@ extension Toolkit {
   func readFolderContent(path: AbsolutePath,
                          parentGroups: inout Groups,
                          ignoreFilesInDir: Bool = false) throws -> ScriptCommands {
+    
     var scriptCommands = ScriptCommands()
 
     for directory in onlyDirectories(at: path) {
@@ -268,7 +269,7 @@ extension Toolkit {
 
 // MARK: - Filter Extensions
 
-fileprivate extension Toolkit {
+private extension Toolkit {
   enum ContentDirType {
     case directories
     case files
@@ -314,7 +315,7 @@ fileprivate extension Toolkit {
 
 // MARK: - Dictionary Extension
 
-fileprivate extension Dictionary where Key == String {
+private extension Dictionary where Key == String {
   var authorKeys: Bool {
     typealias Keys = ScriptCommand.Author.InputCodingKeys
     let authorNameKey = Keys.name.rawValue
