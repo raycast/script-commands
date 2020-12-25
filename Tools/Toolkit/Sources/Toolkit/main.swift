@@ -17,6 +17,7 @@ struct ToolkitCommand: ParsableCommand {
     subcommands: [
       GenerateDocumentation.self,
       Report.self,
+      SetExecutable.self,
       Version.self
     ]
   )
