@@ -10,4 +10,4 @@
 # @raycast.icon images/youtube.png
 # @raycast.argument1 { "type": "text", "placeholder": "query" }
 
-open "https://www.youtube.com/results?search_query${1// /%20}"
+open "https://www.youtube.com/results?search_query=${1// /%20}"
