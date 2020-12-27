@@ -21,31 +21,12 @@ guard #available(OSX 10.15, *) else {
   exit(1)
 }
 
-// https://gist.github.com/superhard/6efb324410d8d0588a60
 extension NSColor {
-  func components() -> ((alpha: String, red: String, green: String, blue: String, css: String), (alpha: CGFloat, red: CGFloat, green: CGFloat, blue: CGFloat), (alpha: CGFloat, red: CGFloat, green: CGFloat, blue: CGFloat))? {
-    var red: CGFloat = 0
-    var green: CGFloat = 0
-    var blue: CGFloat = 0
-    var alpha: CGFloat = 0
-    if let color = usingColorSpace(NSColorSpace.deviceRGB) {
-      color.getRed(&red, green: &green, blue: &blue, alpha: &alpha)
-      let nsTuple = (alpha: alpha, red: red, green: green, blue: blue)
-      red = round(red * 255.0)
-      green = round(green * 255.0)
-      blue = round(blue * 255.0)
-      alpha = round(alpha * 255.0)
-      let xalpha = String(Int(alpha), radix: 16, uppercase: true)
-      let xred = String(Int(red), radix: 16, uppercase: true)
-      let xgreen = String(Int(green), radix: 16, uppercase: true)
-      let xblue = String(Int(blue), radix: 16, uppercase: true)
-      let css = "#\(xred)\(xgreen)\(xblue)"
-      let hexTuple = (alpha: xalpha, red: xred, green: xgreen, blue: xblue, css: css)
-      let rgbTuple = (alpha: alpha, red: red, green: green, blue: blue)
-      return (hexTuple, rgbTuple, nsTuple)
-    }
-
-    return nil
+  var hexAlphaString: String {
+    let r = lroundf(Float(redComponent) * 0xFF)
+    let g = lroundf(Float(greenComponent) * 0xFF)
+    let b = lroundf(Float(blueComponent) * 0xFF)
+    return String(format: "#%02lX%02lX%02lX", r, g, b)
   }
 }
 
@@ -58,9 +39,9 @@ let sampler = NSColorSampler()
 
 sampler.show { selectedColor in
   if let selectedColor = selectedColor {
-    let (hexTuple, _, _) = selectedColor.components()!
-    copyToPasteboard(hexTuple.css)
-    print("Sampled colour: \(hexTuple.css)")
+    let hexTuple = selectedColor.hexAlphaString
+    copyToPasteboard(hexTuple)
+    print("Sampled colour: \(hexTuple)")
     exit(0)
   } else {
     print("Sampled colour: none")
