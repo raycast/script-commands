@@ -79,14 +79,18 @@ extension Toolkit {
       return nil
     }
 
-    return scriptCommand(
-      with: fileContent,
+    let dictionary = keyValue(
+      for: fileContent,
       filename: filePath.basename,
       path: filePath
     )
+    
+    return ScriptCommand(
+      from: dictionary
+    )
   }
 
-  func scriptCommand(with content: String, filename: String, path: AbsolutePath) -> ScriptCommand? {
+  func keyValue(for content: String, filename: String, path: AbsolutePath) -> [String: Any] {
     let filenameKey = ScriptCommand.CodingKeys.filename.rawValue
     let packageNameKey = ScriptCommand.CodingKeys.packageName.rawValue
 
@@ -100,7 +104,7 @@ extension Toolkit {
       dictionary[packageNameKey] = path.basenameWithoutExt.sanitize.capitalized
     }
 
-    return dictionary.encodeToStruct()
+    return dictionary
   }
 
   func readKeyValues(of content: String) -> [String: Any] {
