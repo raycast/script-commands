@@ -44,11 +44,17 @@ extension Toolkit {
     let console = Console(noColor: false)
     
     Toolkit.raycastDescription()
-    console.write("Result:", endLine: false)
-    console.writeYellow(" \(newModeCount) ", bold: true, endLine: false)
-    console.write("of", endLine: false)
-    console.writeGreen(" \(rawCount) ", bold: true, endLine: false)
-    console.write("Script Commands was set as \"executable\".")
+    
+    if newModeCount > 0 {
+      console.write("Result:", endLine: false)
+      console.writeYellow(" \(newModeCount) ", bold: true, endLine: false)
+      console.write("of", endLine: false)
+      console.writeGreen(" \(rawCount) ", bold: true, endLine: false)
+      console.write("Script Commands was set as \"executable\".")
+    }
+    else {
+      console.write("✅ Nothing to be done.")
+    }
   }
 }
 
