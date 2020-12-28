@@ -74,6 +74,15 @@ struct ScriptCommand: Codable {
 
 extension ScriptCommand {
 
+  init?(from dictionary: [String: Any]) {
+    if let scriptCommand: ScriptCommand = dictionary.encodeToStruct() {
+      self = scriptCommand
+    }
+    else {
+      return nil
+    }
+  }
+  
   init(from decoder: Decoder) throws {
     let container               = try decoder.container(keyedBy: CodingKeys.self)
 
