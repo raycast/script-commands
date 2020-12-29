@@ -10,4 +10,4 @@
 # @raycast.icon images/duck-duck-go.png
 # @raycast.argument1 { "type": "text", "placeholder": "query","percentEncoded": true}
 
-open "https://duckduckgo.com/?q=${1// /%20}"
+open "https://duckduckgo.com/?q=$1"
