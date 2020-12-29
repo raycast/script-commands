@@ -7,6 +7,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Bear
 # @raycast.mode silent
+# @raycast.packageName Navigation
 
 # Optional parameters:
 # @raycast.icon images/bear.png
