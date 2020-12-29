@@ -13,4 +13,4 @@
 # @raycast.icon images/bear.png
 # @raycast.argument1 { "type": "text", "placeholder": "query","percentEncoded": true}
 
-open "bear://x-callback-url/search?term=${1// /%20}&show_window=yes&token=979709-0C37A6-F84D4D"
+open "bear://x-callback-url/search?term=$1&show_window=yes&token=979709-0C37A6-F84D4D"
