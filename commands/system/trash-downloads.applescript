@@ -14,4 +14,5 @@
 tell application "Finder"
    set allDownloads to every item of folder (path to downloads folder as text)
    move allDownloads to trash
+   log ""
 end tell
