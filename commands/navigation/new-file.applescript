@@ -6,6 +6,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title New File
 # @raycast.mode silent
+# @raycast.packageName Navigation
 
 # Optional parameters:
 # @raycast.icon images/new-file.png

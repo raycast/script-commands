@@ -6,6 +6,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Search in Baidu
 # @raycast.mode silent
+# @raycast.packageName Web Searches
 
 # Optional parameters:
 # @raycast.icon images/baidu.png
