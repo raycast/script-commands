@@ -6,7 +6,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Trash Downloads
 # @raycast.mode silent
-# @raycast.packageName Navigation
+# @raycast.packageName System
 
 # Optional parameters:
 # @raycast.icon images/trash-downloads.png
