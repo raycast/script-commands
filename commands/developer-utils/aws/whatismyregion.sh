@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Dependency: requires curl (https://curl.se/)
-# Download: https://curl.haxx.se/download.html
+# Install via homebrew: `brew install curl`
 
 # Dependency: requires jq (https://stedolan.github.io/jq/)
-# Download: https://stedolan.github.io/jq/download/
+# Install via homebrew: `brew install jq`
 
 # Dependency: requires grepcidr (http://www.pc-tools.net/unix/grepcidr/)
-# Download: http://www.pc-tools.net/unix/grepcidr/
+# Install via homebrew: `brew install grepcidr`
 
 # @raycast.schemaVersion 1
 # @raycast.author Oğuzhan Yılmaz
