@@ -4,7 +4,7 @@
 # @raycast.author Jax0rz
 # @authorURL https://github.com/Jax0rz
 # @raycast.schemaVersion 1
-# @raycast.title Dash
+# @raycast.title Search in Dash
 # @raycast.mode silent
 # @raycast.packageName Navigation
 
