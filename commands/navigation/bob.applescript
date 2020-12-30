@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Bob
+# @raycast.title Translate in Bob
 # @raycast.mode silent
 # @raycast.packageName Navigation
 
