@@ -4,7 +4,7 @@
 # @raycast.author Jax0rz
 # @authorURL https://github.com/Jax0rz
 # @raycast.schemaVersion 1
-# @raycast.title New File
+# @raycast.title Create New File in Finder
 # @raycast.mode silent
 # @raycast.packageName System
 
