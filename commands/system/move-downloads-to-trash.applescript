@@ -7,9 +7,10 @@
 # @raycast.title Move Downloads to Trash
 # @raycast.mode silent
 # @raycast.packageName System
+# @raycast.needsConfirmation true
 
 # Optional parameters:
-# @raycast.icon images/trash-downloads.png
+# @raycast.icon images/move-downloads-to-trash.png
 
 tell application "Finder"
    set allDownloads to every item of folder (path to downloads folder as text)

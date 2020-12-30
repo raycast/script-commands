@@ -7,7 +7,7 @@
 # @raycast.title Create New File in Finder
 # @raycast.mode silent
 # @raycast.packageName System
-
+# @raycast.description Create New File in Finder is a script to make your Finder better.You can use this script to create a plain text file.
 # Optional parameters:
 # @raycast.icon images/new-file.png
 
