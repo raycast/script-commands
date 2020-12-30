@@ -4,7 +4,7 @@
 # @raycast.author Jax0rz
 # @authorURL https://github.com/Jax0rz
 # @raycast.schemaVersion 1
-# @raycast.title Trash Downloads
+# @raycast.title Move Downloads to Trash
 # @raycast.mode silent
 # @raycast.packageName System
 
