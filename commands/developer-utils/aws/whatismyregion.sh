@@ -72,7 +72,7 @@ check_requirements(){
 
 check_valid_ipv4(){
     if [[ ! $IPADDR =~ ^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
-        echo "Invalid IPv4 address"
+        echo "Couldn't read valid IPv4 address from clipboard"
         exit
     fi
 }
