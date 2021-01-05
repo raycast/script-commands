@@ -10,6 +10,6 @@
 
 # Optional parameters:
 # @raycast.icon images/baidu.png
-# @raycast.argument1 { "type": "text", "placeholder": "关键词...","percentEncoded": true }
+# @raycast.argument1 { "type": "text", "placeholder": "关键词...", "percentEncoded": true }
 
 open "https://www.baidu.com/s?wd=$1"
