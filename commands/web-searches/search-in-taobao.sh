@@ -10,6 +10,6 @@
 
 # Optional parameters:
 # @raycast.icon images/taobao.png
-# @raycast.argument1 { "type": "text", "placeholder": "Placeholder","percentEncoded": true }
+# @raycast.argument1 { "type": "text", "placeholder": "Placeholder", "percentEncoded": true }
 
 open "https://s.taobao.com/search?q=$1"
