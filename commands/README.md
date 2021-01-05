@@ -21,6 +21,7 @@ This repository contains sample commands and documentation to write your own one
 - [Dashboard](#dashboard)
   - [Countdowns](#countdowns)
 - [Developer Utils](#developer-utils)
+  - [Aws](#aws)
   - [Brew](#brew)
   - [Github](#github)
   - [Gitlab](#gitlab)
@@ -142,6 +143,12 @@ This repository contains sample commands and documentation to write your own one
 | 🔎 | [Search Script Command](developer-utils/search-script-command.swift) | Search for Script Commands available in the Raycast repository | [Thiago Holanda](https://twitter.com/tholanda) |
 | 🌐 | [Whois](developer-utils/whois.sh) | Whois of URL. | [Caleb Stauffer](https://github.com/crstauf) |
 
+#### Aws
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| 🤖 | [Find AWS Region by IP](developer-utils/aws/whatismyregion.sh) | Copies the AWS IPv4 to the clipboard. | [Oğuzhan Yılmaz](https://github.com/c1982) |
+
 #### Brew
 
 | Icon | Title | Description | Author |
@@ -246,6 +253,7 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/navigation/images/justfocus.png?raw=true" width="20" height="20"> | [JustFocus](navigation/justfocus.applescript) | N/A | Jax0rz |
 | 📂 | [Open Applications](navigation/open-applications.sh) | Opens the Applications folder in the Finder. | Raycast |
 | 🖥 | [Open Clipboard URL on Desktop](navigation/open-desktop-url-from-clipboard.swift) | Opens the URL from the clipboard in the desktop app. | Raycast |
 | 📟 | [Open Current Finder Directory in Terminal](navigation/open-terminal-from-finder.applescript) | Open current Finder directory in Terminal | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
@@ -258,6 +266,9 @@ This repository contains sample commands and documentation to write your own one
 | 📂 | [Open Home](navigation/open-home.sh) | Opens the Home folder in the Finder. | Raycast |
 | 📂 | [Open Library](navigation/open-library.sh) | Opens the Library folder in the Finder. | Raycast |
 | 🌐 | [Open URL From Clipboard](navigation/open-url-from-clipboard.sh) | Opens the URL in the clipboard. | Raycast |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/navigation/images/bear.png?raw=true" width="20" height="20"> | [Search in Bear](navigation/search-in-bear.sh) | N/A | Jax0rz |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/navigation/images/dash.png?raw=true" width="20" height="20"> | [Search in Dash](navigation/search-in-dash.sh) | N/A | Jax0rz |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/navigation/images/devdocs.png?raw=true" width="20" height="20"> | [Search in Devdocs](navigation/search-in-devdocs.sh) | N/A | Jax0rz |
 
 ## System
 
@@ -266,10 +277,12 @@ This repository contains sample commands and documentation to write your own one
 | 📅 | [Copy Availability](system/copy-availability.swift) | Copies the calenadar availability of today. | Raycast |
 | 💁 | [Copy Last Download](system/copy-last-download.swift) | Copy the last downloaded file to the clipboard. | Raycast |
 | 📸 | [Copy Last Screenshot](system/copy-last-screenshot.swift) | Copies the last screenshot to the clipboard. | Raycast |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/system/images/new-file.png?raw=true" width="20" height="20"> | [Create New File in Finder](system/create-new-file-in-finder.applescript) | Create New File in Finder is a script to make your Finder better.You can use this script to create a plain text file. | Jax0rz |
 | 📀 | [Eject All Disks](system/eject-all-disks.applescript) | Ejects all mounted disk images. | Raycast |
 | 🗑 | [Empty Trash](system/empty-trash.applescript) | Empty the trash. | Raycast |
 | 📈 | [Largest CPU Process](system/largest-cpu-process.sh) | Report process with largest system CPU usage. | [Caleb Stauffer](https://github.com/crstauf) |
 | 📈 | [Largest RAM Process](system/largest-ram-process.sh) | Report process with largest system RAM usage. | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/system/images/move-downloads-to-trash.png?raw=true" width="20" height="20"> | [Move Downloads to Trash](system/move-downloads-to-trash.applescript) | N/A | Jax0rz |
 | 💁‍♂️ | [Open Last Download](system/open-last-download.swift) | Opens the last downloaded file. | Raycast |
 | 💥 | [Quit All Applications](system/quit-all-apps.swift) | Quits all running applications except Finder and Raycast. | Raycast |
 | 🖼️ | [Refresh Wallpaper](system/wallpaper-refresh.applescript) | Refresh the wallpaper of the main display's current [Space](https://support.apple.com/guide/mac-help/work-in-multiple-spaces-mh14112/mac). | [Caleb Stauffer](https://github.com/crstauf) |
@@ -302,14 +315,19 @@ This repository contains sample commands and documentation to write your own one
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/wpengine-logo.png?raw=true" width="20" height="20"> | [Search WP Engine Installs](web-searches/search-wpengine-installs.sh) | Search [WP Engine](https://wpengine.com) installs. | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/cloudflare-logo.png?raw=true" width="20" height="20"> | [Search cdnjs](web-searches/search-cdnjs.sh) | Search [cdnjs.com](https://cdnjs.com/) for library. | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/amazon.png?raw=true" width="20" height="20"> | [Search in Amazon](web-searches/amazon.sh) | N/A | Raycast |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/baidu.png?raw=true" width="20" height="20"> | [Search in Baidu](web-searches/search-in-baidu.sh) | N/A | Jax0rz |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/bilibili.png?raw=true" width="20" height="20"> | [Search in Bilibili](web-searches/search-in-bilibili.sh) | N/A | Jax0rz |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/crunchbase.png?raw=true" width="20" height="20"> | [Search in Crunchbase](web-searches/crunchbase.sh) | N/A | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/duck-duck-go.png?raw=true" width="20" height="20"> | [Search in DuckDuckGo](web-searches/duck-duck-go.sh) | N/A | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/ecosia.png?raw=true" width="20" height="20"> | [Search in Ecosia](web-searches/ecosia.sh) | N/A | [Sasivarnan R](https://github.com/sasivarnan) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/figma.png?raw=true" width="20" height="20"> | [Search in Figma](web-searches/figma.sh) | Search files in Figma | [Tanguy Le Stradic](https://github.com/tanguyls) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/google.png?raw=true" width="20" height="20"> | [Search in Google](web-searches/google-search.sh) | N/A | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/mdn_light.png?raw=true" width="20" height="20"> | [Search in MDN (Mozilla) Docs by Topic](web-searches/mdn.sh) | Search in MDN (Mozilla) Docs by topic | [Jesse Traynham](https://github.com/traynham) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/taobao.png?raw=true" width="20" height="20"> | [Search in Taobao](web-searches/search-in-taobao.sh) | N/A | Jax0rz |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/twitter.png?raw=true" width="20" height="20"> | [Search in Twitter](web-searches/twitter-search.sh) | N/A | Raycast |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/wikipedia.png?raw=true" width="20" height="20"> | [Search in Wikipedia](web-searches/search-in-wikipedia.sh) | N/A | Jax0rz |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/youtube.png?raw=true" width="20" height="20"> | [Search in YouTube](web-searches/youtube.sh) | N/A | Raycast |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/zhihu.png?raw=true" width="20" height="20"> | [Search in Zhihu](web-searches/search-in-zhihu.sh) | N/A | Jax0rz |
 | <img src="https://grep.app/favicon.ico" width="20" height="20"> | [Search in grep.app](web-searches/grep-app-search.sh) | N/A | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/npmjs.png?raw=true" width="20" height="20"> | [Search npm Packages](web-searches/npmjs.sh) | N/A | Raycast |
 | 🔗 | [Unfurl URL](web-searches/unfurl.sh) | N/A | [Zander Martineau](https://zander.wtf) |
