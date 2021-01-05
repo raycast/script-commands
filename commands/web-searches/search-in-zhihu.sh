@@ -10,6 +10,6 @@
 
 # Optional parameters:
 # @raycast.icon images/zhihu.png
-# @raycast.argument1 { "type": "text", "placeholder": "关键词...","percentEncoded": true}
+# @raycast.argument1 { "type": "text", "placeholder": "关键词...", "percentEncoded": true}
 
 open "https://www.zhihu.com/search?type=content&q=$1"

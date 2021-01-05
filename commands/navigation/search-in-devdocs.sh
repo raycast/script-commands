@@ -10,7 +10,7 @@
 
 # Optional parameters:
 # @raycast.icon images/devdocs.png
-# @raycast.argument1 { "type": "text", "placeholder": "doc","percentEncoded": true}
-# @raycast.argument2 { "type": "text", "placeholder": "term","percentEncoded": true}
+# @raycast.argument1 { "type": "text", "placeholder": "doc", "percentEncoded": true}
+# @raycast.argument2 { "type": "text", "placeholder": "term", "percentEncoded": true}
 
 open "devdocs-macos://search?doc=$1&term=$2"

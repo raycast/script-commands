@@ -10,6 +10,6 @@
 
 # Optional parameters:
 # @raycast.icon images/bear.png
-# @raycast.argument1 { "type": "text", "placeholder": "query","percentEncoded": true}
+# @raycast.argument1 { "type": "text", "placeholder": "query", "percentEncoded": true}
 
 open "bear://x-callback-url/search?term=$1&show_window=yes"

@@ -10,7 +10,7 @@
 
 # Optional parameters:
 # @raycast.icon images/dash.png
-# @raycast.argument1 { "type": "text", "placeholder": "Doc(egs:javascript)","percentEncoded": true}
-# @raycast.argument2 { "type": "text", "placeholder": "Keyword","percentEncoded": true}
+# @raycast.argument1 { "type": "text", "placeholder": "Doc(egs:javascript)", "percentEncoded": true}
+# @raycast.argument2 { "type": "text", "placeholder": "Keyword", "percentEncoded": true}
 
 open "dash-plugin://keys=$1&query=$2"
