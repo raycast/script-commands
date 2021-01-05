@@ -223,6 +223,24 @@
           "title" : "Open Current Terminal Directory in Finder"
         },
         {
+          "authors" : [
+            {
+              "name" : "Jax0rz",
+              "url" : null
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "search-in-devdocs.sh",
+          "icon" : "images\/devdocs.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Navigation",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in Devdocs"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : "Opens the Applications folder in the Finder.",
@@ -247,6 +265,42 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Open URL From Clipboard"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Jax0rz",
+              "url" : null
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "justfocus.applescript",
+          "icon" : "images\/justfocus.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Navigation",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "JustFocus"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Jax0rz",
+              "url" : null
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "search-in-dash.sh",
+          "icon" : "images\/dash.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Navigation",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in Dash"
         },
         {
           "authors" : [
@@ -322,6 +376,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Open Clipboard URL on Desktop"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Jax0rz",
+              "url" : null
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "search-in-bear.sh",
+          "icon" : "images\/bear.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Navigation",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in Bear"
         },
         {
           "authors" : null,
@@ -627,6 +699,24 @@
         {
           "authors" : [
             {
+              "name" : "Jax0rz",
+              "url" : null
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "move-downloads-to-trash.applescript",
+          "icon" : "images\/move-downloads-to-trash.png",
+          "mode" : "silent",
+          "needsConfirmation" : true,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Move Downloads to Trash"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Maxim Krouk",
               "url" : "https:\/\/github.com\/maximkrouk"
             }
@@ -703,6 +793,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Eject All Disks"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Jax0rz",
+              "url" : null
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Create New File in Finder is a script to make your Finder better.You can use this script to create a plain text file.",
+          "filename" : "create-new-file-in-finder.applescript",
+          "icon" : "images\/new-file.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Create New File in Finder"
         },
         {
           "authors" : [
@@ -1468,6 +1576,30 @@
           ]
         },
         {
+          "name" : "Aws",
+          "path" : "aws",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Oğuzhan Yılmaz",
+                  "url" : "https:\/\/github.com\/c1982"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Copies the AWS IPv4 to the clipboard.",
+              "filename" : "whatismyregion.sh",
+              "icon" : "🤖",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Developer Utilities",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Find AWS Region by IP"
+            }
+          ]
+        },
+        {
           "name" : "Sentry",
           "path" : "sentry",
           "scriptCommands" : [
@@ -1864,6 +1996,24 @@
         {
           "authors" : [
             {
+              "name" : "Jax0rz",
+              "url" : null
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "search-in-bilibili.sh",
+          "icon" : "images\/bilibili.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in Bilibili"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -1965,6 +2115,24 @@
           "title" : "Open npm Package Repo"
         },
         {
+          "authors" : [
+            {
+              "name" : "Jax0rz",
+              "url" : null
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "search-in-baidu.sh",
+          "icon" : "images\/baidu.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in Baidu"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : null,
@@ -1976,6 +2144,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search in Twitter"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Jax0rz",
+              "url" : null
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "search-in-zhihu.sh",
+          "icon" : "images\/zhihu.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in Zhihu"
         },
         {
           "authors" : [
@@ -2043,6 +2229,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Unfurl URL"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Jax0rz",
+              "url" : null
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "search-in-wikipedia.sh",
+          "icon" : "images\/wikipedia.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in Wikipedia"
         },
         {
           "authors" : [
@@ -2288,6 +2492,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search in MDN (Mozilla) Docs by Topic"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Jax0rz",
+              "url" : null
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "search-in-taobao.sh",
+          "icon" : "images\/taobao.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in Taobao"
         }
       ],
       "subGroups" : [
@@ -2866,5 +3088,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-12-18T16:54:42Z"
+  "updatedAt" : "2021-01-05T12:35:22Z"
 }
