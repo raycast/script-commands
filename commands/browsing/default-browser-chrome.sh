@@ -13,6 +13,8 @@
 # @raycast.icon 🧭
 
 # Documentation:
+# @raycast.author Marc Klingen
+# @raycast.authorURL https://github.com/marcklingen
 # @raycast.description Set Chrome as the default browser.
 
 defaultbrowser chrome
