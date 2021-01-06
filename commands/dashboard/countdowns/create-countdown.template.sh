@@ -53,7 +53,7 @@ REMAINING=\$((\$TIMESTAMP_EVENT - \$TIMESTAMP_TODAY))\n\
 DAYS_REMAINING=\$((\$REMAINING / 86400))\n\
 HOURS_REMAINING=\$((\$REMAINING % 86400 / 3600))\n\
 \n\
-if [[  \$HOURS_REMAINING > 0 ]]; then\n\
+if [[ \$DAYS_REMAINING > 0 || \$HOURS_REMAINING > 0 ]]; then\n\
     echo \"There are \$DAYS_REMAINING days and \$HOURS_REMAINING hours left until ${1// /%20}.\"\n\
 else\n\
     echo \"Your message\!\"\n\
