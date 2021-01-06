@@ -1024,6 +1024,24 @@
         {
           "authors" : [
             {
+              "name" : "Jesse Claven",
+              "url" : "https:\/\/github.com\/jesse-c"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Check if a website is up",
+          "filename" : "is-it-up.sh",
+          "icon" : "🩺",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utils",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Is It Up?"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -3088,5 +3106,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-01-05T12:35:22Z"
+  "updatedAt" : "2021-01-06T09:21:28Z"
 }
