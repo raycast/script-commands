@@ -10,6 +10,7 @@ This repository contains sample commands and documentation to write your own one
 
 ### Categories
 
+- [Amphetamine](#amphetamine)
 - [Bookmarks](#bookmarks)
 - [Browsing](#browsing)
 - [Communication](#communication)
@@ -37,6 +38,13 @@ This repository contains sample commands and documentation to write your own one
 - [System](#system)
 - [Web Searches](#web-searches)
   - [Wordpress](#wordpress)
+
+## Amphetamine
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/amphetamine/images/amp-icon.png?raw=true" width="20" height="20"> | [End Session](amphetamine/amphetamine-off.applescript) | Stop Current Amphetamine Session | [James Lyons](https://github.com/jamesjlyons) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/amphetamine/images/amp-icon.png?raw=true" width="20" height="20"> | [Start Default Session](amphetamine/amphetamine-on.applescript) | Start Default Amphetamine Session | [James Lyons](https://github.com/jamesjlyons) |
 
 ## Bookmarks
 
