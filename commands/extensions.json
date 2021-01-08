@@ -92,6 +92,48 @@
       ]
     },
     {
+      "name" : "Amphetamine",
+      "path" : "amphetamine",
+      "scriptCommands" : [
+        {
+          "authors" : [
+            {
+              "name" : "James Lyons",
+              "url" : "https:\/\/github.com\/jamesjlyons"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Start Default Amphetamine Session",
+          "filename" : "amphetamine-on.applescript",
+          "icon" : "images\/amp-icon.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Amphetamine",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Start Default Session"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "James Lyons",
+              "url" : "https:\/\/github.com\/jamesjlyons"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Stop Current Amphetamine Session",
+          "filename" : "amphetamine-off.applescript",
+          "icon" : "images\/amp-icon.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Amphetamine",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "End Session"
+        }
+      ]
+    },
+    {
       "name" : "Browsing",
       "path" : "browsing",
       "scriptCommands" : [
@@ -3106,5 +3148,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-01-06T09:21:28Z"
+  "updatedAt" : "2021-01-08T13:42:11Z"
 }
