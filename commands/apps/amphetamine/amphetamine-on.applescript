@@ -11,3 +11,5 @@
 # @raycast.schemaVersion 1
 
 tell application "Amphetamine" to start new session
+
+log "Started default session"
