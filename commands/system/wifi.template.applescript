@@ -12,7 +12,9 @@
 # @raycast.schemaVersion 1
 
 # Wi-Fi interface, should normally be either `en0` or `en1`
+# ⌥ + click the wifi icon in your menu bar to display the Wi-Fi interface name
 set Interface to "en0"
+
 set NetworkStatus to (do shell script "networksetup -getairportnetwork " & Interface)
 if (NetworkStatus contains "off") then
   # turn Wi-Fi on
