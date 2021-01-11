@@ -769,6 +769,24 @@
           "title" : "Toggle System Appearance"
         },
         {
+          "authors" : [
+            {
+              "name" : "Vincent Dörig",
+              "url" : "https:\/\/github.com\/vincentdoerig"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Toggle your Bluetooth connection.",
+          "filename" : "bluetooth.template.applescript",
+          "icon" : "images\/bluetooth.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle Bluetooth"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : "Opens the last downloaded file.",
@@ -847,6 +865,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Toggle Desktop Icons"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Vincent Dörig",
+              "url" : "https:\/\/github.com\/vincentdoerig"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Toggle your Wi-Fi connection.",
+          "filename" : "wifi.template.applescript",
+          "icon" : "images\/wifi-dark.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle Wi-Fi"
         },
         {
           "authors" : null,
@@ -3157,5 +3193,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-01-08T14:01:53Z"
+  "updatedAt" : "2021-01-11T23:14:36Z"
 }
