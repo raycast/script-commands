@@ -2,6 +2,9 @@
 
 # Raycast Script Command Template
 #
+# Dependency: This script requires Ruby
+# Install Ruby: http://www.ruby-lang.org/
+#
 # Duplicate this file and remove ".template." from the filename to get started.
 # See full documentation here: https://github.com/raycast/script-commands
 #
