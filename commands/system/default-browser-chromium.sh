@@ -17,5 +17,10 @@
 # @raycast.authorURL https://github.com/marcklingen
 # @raycast.description Set Chromium as the default browser.
 
+if ! command -v defaultbrowser &> /dev/null; then
+      echo "defaultbrowser is required (https://github.com/kerma/defaultbrowser/).";
+      exit 1;
+fi
+
 defaultbrowser chromium
 exit 0
