@@ -70,7 +70,7 @@ The following parameters are available to customize your Script Command in Rayca
 
 ### Standard Output
 
-You can use the standard output to present messages in Raycast. Depending on the `mode`, the standard output of your scripts is differently presented. 
+You can use the standard output to present messages in Raycast. Depending on the `mode`, the standard output of your scripts is differently presented.
 
 ![Toast](https://github.com/raycast/script-commands/blob/master/screenshots/toast.png?raw=true)
 
@@ -86,7 +86,7 @@ Use `argument[1..3]` metadata to specify custom arguments that will be displayed
 
 | Field         | Description                                                                                                                                                                                 | Required | App Version |
 |---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|-------------|
-| type          | Input type. For now only "text" value available.                                                                                                                                            | Yes      | 1.2.0+      | 
+| type          | Input type. For now only "text" value available.                                                                                                                                            | Yes      | 1.2.0+      |
 | placeholder   | Placeholder for the input field.                                                                                                                                                            | Yes      | 1.2.0+      |
 | optional      | Set to `true` if you want to mark argument as optional. When not provided, argument is considered to be required (Raycast will not allow to execute the script if argument input is empty)  | No       | 1.3.0+      |
 | percentEncoded| Set to `true` if you want Raycast to perform percent encoding on the argument value before passing it to the script. Can be handy for scripts that pass argument directly to URL query  | No       | 1.4.0+      |
@@ -136,7 +136,7 @@ We also append `/usr/local/bin` to `$PATH` variable so you can use your local sh
 ## Troubleshooting
 
 If a script doesn't appear in the commands list, make sure these requirements are met:
-* Script file is executable (you can run `file <path to script>` command in terminal to check it). To make the script executable, run: `chmod +x <path to script>` 
+* Script file is executable (you can run `file <path to script>` command in terminal to check it). To make the script executable, run: `chmod +x <path to script>`
 * Filename doesn't contain `.template.` string
 * All required metadata parameters are provided. See the table above which parameters are required.
 * You use either `#` or `//` comments for metadata parameters
