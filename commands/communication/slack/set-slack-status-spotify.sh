@@ -25,7 +25,6 @@
 # 2. Add `users.profile:write` to the user token scopes
 # 3. Install the app to your workplace
 # 4. Insert your OAuth access token below
-# 5. Fill you OFFICE_WIFI + HOME_WIFI - this will set different emoji when WFH vs WFO
 
 # SLACK Token
 API_TOKEN="XXXX"
@@ -39,30 +38,6 @@ STATUS_EXPIRATION_IN_MINUTES="2"
 # Lock is used to know if this script updated the status in slack, so not to just clear the status.
 LOCK="spotify.lock"
 
-# Define home and office WiFi
-HOME_WIFI="HOME-WIFI"
-OFFICE_WIFI="OFFICE-WIFI"
-
-# Set default emoji according to the WiFi network
-function setDefaultEmoji() {
-  wifi_name=`/System/Library/PrivateFrameworks/Apple80211.framework/Resources/airport -I | awk -F: '/ SSID/{print $2}'`
-  if [[ "$wifi_name" == " $HOME_WIFI" ]]; then
-    DEFAULT_EMOJI=":house_with_garden:"
-  elif [[ "$wifi_name" == " $OFFICE_WIFI" ]]; then
-    DEFAULT_EMOJI=":office:"
-  fi
-}
-
-function setExperation() {
-  if [[ -z "$STATUS_EXPIRATION_IN_MINUTES" ]]
-  then
-    STATUS_EXPIRATION=0
-  else 
-    CURRENT_UNIX_TIME=$(date +%s)
-    STATUS_EXPIRATION=$(($CURRENT_UNIX_TIME + ($STATUS_EXPIRATION_IN_MINUTES * 60)))
-  fi
-}
-
 function getSongAndState() {
   SONG="$(osascript -e 'tell application "Spotify" to artist of current track & " - " & name of current track' | cut -c1-99)"
   STATE=$(osascript -e 'tell application "Spotify" to player state')
@@ -75,11 +50,21 @@ function resetStatus() {
     return
   fi
   echo 'Resetting status'
-  STATUS_EMOJI="$DEFAULT_EMOJI"
+  STATUS_EMOJI=""
   SONG=""
-  STATUS_EXPIRATION_IN_MINUTES="480" # Default status is set for 8 hours
+  STATUS_EXPIRATION_IN_MINUTES=""
   setStatus
   rm $LOCK
+}
+
+function setExperation() {
+  if [[ -z "$STATUS_EXPIRATION_IN_MINUTES" ]]
+  then
+    STATUS_EXPIRATION=0
+  else 
+    CURRENT_UNIX_TIME=$(date +%s)
+    STATUS_EXPIRATION=$(($CURRENT_UNIX_TIME + ($STATUS_EXPIRATION_IN_MINUTES * 60)))
+  fi
 }
 
 function setStatus() {
@@ -115,7 +100,6 @@ if [ $? -ne 0 ]; then
   exit 0
 fi
 
-setDefaultEmoji
 getSongAndState
 if [[ "$STATE" != "playing" ]]; then
   resetStatus
