@@ -33,6 +33,19 @@
 
 This repository contains sample commands, community commands, and documentation to write your own ones.
 
+- [Raycast Script Commands](#raycast-script-commands)
+  - [Awesome Script Commands](#awesome-script-commands)
+  - [Install Script Commands](#install-script-commands)
+  - [How to use this repository](#how-to-use-this-repository)
+  - [Write Script Commands](#write-script-commands)
+    - [API](#api)
+    - [Standard Output](#standard-output)
+    - [Passing Arguments](#passing-arguments)
+    - [Error Handling](#error-handling)
+    - [Login Shell and `$PATH`](#login-shell-and-path)
+  - [Troubleshooting](#troubleshooting)
+  - [Community](#community)
+
 ## Awesome Script Commands
 
 You can find a lot of [useful script commands built by our community](commands/) here.
