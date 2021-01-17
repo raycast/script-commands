@@ -25,26 +25,23 @@
 
 <hr>
 
-# Raycast Script Commands
-
 [Raycast](https://raycast.com) lets you control your tools with a few keystrokes and Script Commands makes it possible to execute scripts from anywhere on your desktop. They are a great way to speed up every-day tasks such as converting data, opening bookmarks or triggering dev workflows.
 
 ![Demo](images/screenshots/demo.gif)
 
 This repository contains sample commands, community commands, and documentation to write your own ones.
 
-- [Raycast Script Commands](#raycast-script-commands)
-  - [Awesome Script Commands](#awesome-script-commands)
-  - [Install Script Commands](#install-script-commands)
-  - [How to use this repository](#how-to-use-this-repository)
-  - [Write Script Commands](#write-script-commands)
-    - [API](#api)
-    - [Standard Output](#standard-output)
-    - [Passing Arguments](#passing-arguments)
-    - [Error Handling](#error-handling)
-    - [Login Shell and `$PATH`](#login-shell-and-path)
-  - [Troubleshooting](#troubleshooting)
-  - [Community](#community)
+- [Awesome Script Commands](#awesome-script-commands)
+- [Install Script Commands](#install-script-commands)
+- [How to use this repository](#how-to-use-this-repository)
+- [Write Script Commands](#write-script-commands)
+  - [API](#api)
+  - [Standard Output](#standard-output)
+  - [Passing Arguments](#passing-arguments)
+  - [Error Handling](#error-handling)
+  - [Login Shell and `$PATH`](#login-shell-and-path)
+- [Troubleshooting](#troubleshooting)
+- [Community](#community)
 
 ## Awesome Script Commands
 
