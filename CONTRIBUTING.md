@@ -2,6 +2,18 @@
 
 Thank you for your interest in contributing to Raycast Script Commands! Here you will find simple guidelines that can help you with getting started.
 
+- [Contributing](#contributing)
+  - [Guidelines](#guidelines)
+    - [Git and Pull Requests](#git-and-pull-requests)
+    - [Folder structure](#folder-structure)
+    - [File naming convention](#file-naming-convention)
+    - [Metadata convention](#metadata-convention)
+    - [Scripts that require additional modification](#scripts-that-require-additional-modification)
+    - [Scripts that require installation of runtimes and dependencies](#scripts-that-require-installation-of-runtimes-and-dependencies)
+    - [Bash profiles and environmental variables](#bash-profiles-and-environmental-variables)
+    - [Auto generated files](#auto-generated-files)
+  - [Examples](#examples)
+
 ## Guidelines
 
 ### Git and Pull Requests
