@@ -1,3 +1,30 @@
+<div align="center">
+  <a href="https://raycast.com">
+    <img src="./images/logo.png" height="250px">
+  </a>
+
+  <br/>
+  <br/>
+  <h1>Raycast Script Commands</h1>
+
+  <!-- Images -->
+  <a href="https://github.com/raycast/script-commands/graphs/contributors">
+    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/raycast/script-commands">
+  </a>
+  <a href="https://twitter.com/raycastapp">
+    <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/raycastapp?style=social">
+  </a>
+  <a href="https://github.com/raycast/script-commands/stargazers">
+    <img alt="GitHub Org's stars" src="https://img.shields.io/github/stars/raycast?style=social">
+  </a>
+
+  <br/>
+  <br/>
+  <i>Script Commands lets you tailor Raycast to your needs. <br/> Think of them as little productivity boosts throughout your day.</i>
+</div>
+
+<hr>
+
 # Raycast Script Commands
 
 [Raycast](https://raycast.com) lets you control your tools with a few keystrokes and Script Commands makes it possible to execute scripts from anywhere on your desktop. They are a great way to speed up every-day tasks such as converting data, opening bookmarks or triggering dev workflows.
