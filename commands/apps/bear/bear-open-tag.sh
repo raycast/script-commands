@@ -1,17 +1,16 @@
 #!/bin/bash
 
-# Raycast Script Command Template
+# @raycast.title Open Tag
+# @raycast.author Tanay Nistala
+# @raycast.authorURL https://github.com/tanaynistala
+# @raycast.description Open the specified tag in Bear.
 #
-# Required parameters:
-# @raycast.schemaVersion 1
-# @raycast.title Open Tag in Bear
-# @raycast.mode silent
-#
-# Optional parameters:
 # @raycast.icon images/bear-light.png
 # @raycast.iconDark images/bear-dark.png
-# @raycast.currentDirectoryPath ~
+#
+# @raycast.mode silent
 # @raycast.packageName Bear
-# @raycast.argument1 { "type": "text", "placeholder": "Name" }
+# @raycast.schemaVersion 1
+# @raycast.argument1 { "type": "text", "placeholder": "Tag" }
 
 open "bear://x-callback-url/open-tag?name=${1// /%20}"

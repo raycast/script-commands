@@ -1,17 +1,16 @@
 #!/bin/bash
 
-# Raycast Script Command Template
+# @raycast.title Open Todos
+# @raycast.author Tanay Nistala
+# @raycast.authorURL https://github.com/tanaynistala
+# @raycast.description Open the Todo section in Bear.
 #
-# Required parameters:
-# @raycast.schemaVersion 1
-# @raycast.title Open Todo in Bear
-# @raycast.mode silent
-#
-# Optional parameters:
 # @raycast.icon images/bear-light.png
 # @raycast.iconDark images/bear-dark.png
-# @raycast.currentDirectoryPath ~
+#
+# @raycast.mode silent
 # @raycast.packageName Bear
+# @raycast.schemaVersion 1
 # @raycast.argument1 { "type": "text", "placeholder": "Search Query", "optional": true }
 
 open "bear://x-callback-url/todo?search=${1// /%20}"
