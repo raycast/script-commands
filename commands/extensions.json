@@ -287,6 +287,24 @@
         {
           "authors" : [
             {
+              "name" : "Bryce Carr",
+              "url" : "https:\/\/github.com\/bdcarr"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Creates a new document in Pixelmator Pro from the image stored in your clipboard.",
+          "filename" : "open-clipboard-in-pixelmator-pro.applescript",
+          "icon" : ".\/images\/pixelmator-pro-2.0.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Pixelmator Pro",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open Image From Clipboard"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Jax0rz",
               "url" : null
             }
@@ -2153,6 +2171,24 @@
         {
           "authors" : [
             {
+              "name" : "Phil Salant",
+              "url" : "https:\/\/github.com\/PSalant726"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search pkg.go.dev for package documentation",
+          "filename" : "pkg-go-dev.sh",
+          "icon" : "images\/go.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search Go Package Documentation"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Zander Martineau",
               "url" : "https:\/\/zander.wtf"
             }
@@ -3193,5 +3229,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-01-11T23:14:36Z"
+  "updatedAt" : "2021-01-18T16:50:00Z"
 }
