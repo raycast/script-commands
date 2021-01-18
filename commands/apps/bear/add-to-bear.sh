@@ -1,17 +1,16 @@
 #!/bin/bash
 
-# Raycast Script Command Template
-#
-# Required parameters:
-# @raycast.schemaVersion 1
 # @raycast.title Add to Bear
-# @raycast.mode silent
+# @raycast.author Tanay Nistala
+# @raycast.authorURL https://github.com/tanaynistala
+# @raycast.description Add a new note to Bear.
 #
-# Optional parameters:
 # @raycast.icon images/bear-light.png
 # @raycast.iconDark images/bear-dark.png
-# @raycast.currentDirectoryPath ~
+#
+# @raycast.mode silent
 # @raycast.packageName Bear
+# @raycast.schemaVersion 1
 # @raycast.argument1 { "type": "text", "placeholder": "Title" }
 # @raycast.argument2 { "type": "text", "placeholder": "Content", "optional": true}
 # @raycast.argument3 { "type": "text", "placeholder": "Use Clipboard?", "optional": true }
