@@ -1,10 +1,14 @@
 #!/bin/bash
 
-# This script requires `whois` CLI which is already installed on macOS. But if for some reason you don't have: brew install whois
+# Dependency: This script requires `whois` CLI which is already installed on macOS.
+# But if for some reason you don't have: brew install whois
 
 # @raycast.title Whois
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
+# @raycast.author Ronan Rodrigo Nunes
+# @raycast.authorURL ronanrodrigo.dev
+
 # @raycast.description Whois of URL.
 
 # @raycast.icon 🌐
