@@ -7,7 +7,7 @@
 #
 # Optional parameters:
 # @raycast.packageName Web Searches
-# @raycast.icon 🐹
+# @raycast.icon images/go.png
 # @raycast.argument1 { "type": "text", "placeholder": "Package", "percentEncoded": true }
 # @raycast.argument2 { "type": "text", "placeholder": "Version (default: latest)", "optional": true }
 #   Note: For standard library packages, prefix the version with 'go'. For others, prefix with 'v'.
