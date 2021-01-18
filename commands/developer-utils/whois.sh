@@ -6,10 +6,14 @@
 # @raycast.description Whois of URL.
 
 # @raycast.icon 🌐
-# @raycast.mode silent
+# @raycast.mode fullOutput
 # @raycast.packageName Internet
 # @raycast.schemaVersion 1
 
 # @raycast.argument1 { "type": "text", "placeholder": "URL" }
 
-open https://who.is/whois/$1
+if type "whois" &> /dev/null; then
+    whois $1
+else
+    open https://who.is/whois/$1
+fi
