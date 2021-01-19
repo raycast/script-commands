@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
   name: "toolkit",
   platforms: [
-    .macOS(.v10_14)
+    .macOS(.v10_14),
   ],
   dependencies: [
     .package(
@@ -15,7 +15,7 @@ let package = Package(
     .package(
       url: "https://github.com/apple/swift-argument-parser.git",
       .upToNextMinor(from: "0.3.0")
-    )
+    ),
   ],
   targets: [
     .target(
@@ -23,17 +23,17 @@ let package = Package(
       dependencies: [
         "ToolkitLibrary",
         .product(name: "SwiftToolsSupport-auto", package: "swift-tools-support-core"),
-        .product(name: "ArgumentParser", package: "swift-argument-parser")
+        .product(name: "ArgumentParser", package: "swift-argument-parser"),
       ]
     ),
     .target(
       name: "ToolkitLibrary",
       dependencies: [
-        .product(name: "SwiftToolsSupport-auto", package: "swift-tools-support-core")
+        .product(name: "SwiftToolsSupport-auto", package: "swift-tools-support-core"),
       ]
     ),
     .testTarget(
       name: "ToolkitLibraryTests",
-      dependencies: ["ToolkitLibrary"])
+      dependencies: ["ToolkitLibrary"]),
   ]
 )

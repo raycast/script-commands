@@ -41,7 +41,7 @@ struct ScriptCommand: Codable {
       "<img src=\"\(url)\" width=\"20\" height=\"20\">"
     }
 
-    guard let value = icon, value.isEmpty == false else {
+    guard let value = icon, !value.isEmpty == false else {
       return .empty
     }
 
@@ -135,8 +135,8 @@ extension ScriptCommand: MarkdownDescriptionProtocol {
 
     let scriptPath = "\(leadingPath)\(filename)"
     let header = """
-        | \(iconString) | [\(title)](\(scriptPath)) | \(details) | \(author) |
-        """
+      | \(iconString) | [\(title)](\(scriptPath)) | \(details) | \(author) |
+      """
 
     content += .newLine + header
 

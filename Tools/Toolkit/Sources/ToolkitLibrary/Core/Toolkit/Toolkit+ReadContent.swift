@@ -8,9 +8,10 @@ import TSCBasic
 
 extension Toolkit {
   @discardableResult
-  func readFolderContent(path: AbsolutePath,
-                         parentGroups: inout Groups,
-                         ignoreFilesInDir: Bool = false) throws -> ScriptCommands {
+  func readFolderContent(
+    path: AbsolutePath,
+    parentGroups: inout Groups,
+    ignoreFilesInDir: Bool = false) throws -> ScriptCommands {
     var scriptCommands = ScriptCommands()
 
     for directory in onlyDirectories(at: path) {
@@ -27,11 +28,11 @@ extension Toolkit {
 
       let values = try readFolderContent(path: directory, parentGroups: &subGroups)
 
-      if values.count > 0 {
+      if !values.isEmpty {
         group.scriptCommands = values
       }
 
-      if subGroups.count > 0 {
+      if !subGroups.isEmpty {
         group.subGroups = subGroups
       }
 
@@ -100,7 +101,7 @@ extension Toolkit {
     var dictionary: [String: Any] = [:]
     let authors = extractAuthors(from: content, using: results)
 
-    if authors.count > 0 {
+    if !authors.isEmpty {
       dictionary["authors"] = extractAuthors(from: content, using: results)
     }
 
@@ -156,7 +157,7 @@ extension Toolkit {
     let valueRange = result.range(withName: "value")
 
     if let key = self.content(of: keyRange, on: content),
-       let value = self.content(of: valueRange, on: content) {
+      let value = self.content(of: valueRange, on: content) {
       if let intValue = Int(value) {
         dictionary[key] = intValue
       } else if let boolValue = Bool(value) {
@@ -173,7 +174,7 @@ extension Toolkit {
     var value: String?
 
     if range.location != NSNotFound, range.length > 0,
-       let rangeString = Range<String.Index>(range, in: content) {
+      let rangeString = Range<String.Index>(range, in: content) {
       value = String(content[rangeString])
     }
 

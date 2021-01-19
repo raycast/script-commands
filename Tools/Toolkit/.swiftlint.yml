@@ -40,8 +40,7 @@ indentation_width:
 trailing_comma:
   mandatory_comma: true
 file_header:
-  required_pattern: |
-    \/\/ Copyright © \d{4} Raycast\. All rights reserved\.
+  required_pattern: ([Copyright (c) 2020 Raycast. All rights reserved.])\w+
 identifier_name:
   min_length:
     error: 3

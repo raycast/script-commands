@@ -4,22 +4,22 @@ import class Foundation.Bundle
 final class ToolkitLibraryTests: XCTestCase {
   func testExample() throws {
     let fooBinary = productsDirectory.appendingPathComponent("toolkit")
-    
+
     let process = Process()
     process.executableURL = fooBinary
-    
+
     let pipe = Pipe()
     process.standardOutput = pipe
-    
+
     try process.run()
     process.waitUntilExit()
-    
+
     let data = pipe.fileHandleForReading.readDataToEndOfFile()
     let output = String(data: data, encoding: .utf8)
-    
+
     XCTAssertEqual(output, "Hello, world!\n")
   }
-  
+
   /// Returns path to the built products directory.
   var productsDirectory: URL {
     #if os(macOS)
@@ -31,8 +31,8 @@ final class ToolkitLibraryTests: XCTestCase {
     return Bundle.main.bundleURL
     #endif
   }
-  
+
   static var allTests = [
-    ("testExample", testExample)
+    ("testExample", testExample),
   ]
 }

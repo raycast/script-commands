@@ -108,7 +108,7 @@ private extension Documentation {
   func renderMarkdown(for group: Group, headline: Bool = false, leadingPath: String = .empty) -> String {
     var contentString = String.empty
 
-    if group.scriptCommands.count > 0 {
+    if !group.scriptCommands.isEmpty {
       if headline {
         contentString += .newLine
         contentString += .newLine + "#### \(group.name)"
