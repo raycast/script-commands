@@ -18,18 +18,16 @@
 # @raycast.authorURL https://github.com/PSalant726
 # @raycast.description Open a repository, pull request, or issue on GitHub
 
-pull_request=""
-issue=""
-
+path=""
 if [[ -n "$2" && -n "$3" ]]; then
   echo "Do not pass both a pull request and an issue."
   exit 1
 elif [[ -n "$2" ]]; then
-  pull_request="/pull/$2"
+  path="/pull/$2"
 elif [[ -n "$3" ]]; then
-  issue="/issues/$3"
+  path="/issues/$3"
 fi
 
-echo "Opening $1$pull_request$issue on GitHub..."
-open "https://github.com/$1$pull_request$issue"
+echo "Opening $1$path on GitHub..."
+open "https://github.com/$1$path"
 exit 0
