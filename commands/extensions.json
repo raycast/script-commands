@@ -529,6 +529,24 @@
           "refreshTime" : "1h",
           "schemaVersion" : 1,
           "title" : "Year Progress"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Jesse Claven",
+              "url" : "https:\/\/github.com\/jesse-c"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Show the time from elsewhere in the world",
+          "filename" : "world-time.sh",
+          "icon" : "🕐",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Dashboard",
+          "refreshTime" : "5s",
+          "schemaVersion" : 1,
+          "title" : "World Time"
         }
       ],
       "subGroups" : [
@@ -3229,5 +3247,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-01-18T16:50:00Z"
+  "updatedAt" : "2021-01-19T15:46:25Z"
 }
