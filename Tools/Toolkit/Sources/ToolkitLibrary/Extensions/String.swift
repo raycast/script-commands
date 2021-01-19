@@ -11,7 +11,7 @@ extension String {
 
     let entities = [
       "_",
-      "-"
+      "-",
     ]
 
     entities.forEach { entity in

@@ -24,7 +24,6 @@ final class Documentation {
     try generateMarkdown(for: data)
     try generateJSON(for: data)
   }
-
 }
 
 // MARK: - Private methods
@@ -77,27 +76,27 @@ private extension Documentation {
     }
 
     let markdown = """
-        <!-- AUTO GENERATED FILE. DO NOT EDIT. -->
-        # Raycast Script Commands
+      <!-- AUTO GENERATED FILE. DO NOT EDIT. -->
+      # Raycast Script Commands
 
-        [Raycast](https://raycast.com) lets you control your tools with a few keystrokes
-        and Script Commands makes it possible to execute scripts from anywhere on your desktop.
-        They are a great way to speed up every-day tasks such as converting data, opening bookmarks
-        or triggering dev workflows.
+      [Raycast](https://raycast.com) lets you control your tools with a few keystrokes
+      and Script Commands makes it possible to execute scripts from anywhere on your desktop.
+      They are a great way to speed up every-day tasks such as converting data, opening bookmarks
+      or triggering dev workflows.
 
-        This repository contains sample commands and documentation to write your own ones.
+      This repository contains sample commands and documentation to write your own ones.
 
-        ### Categories
-        \(tableOfContents)\(contentString)
+      ### Categories
+      \(tableOfContents)\(contentString)
 
-        ## Community
+      ## Community
 
-        This is a shared place and we're always looking for new Script Commands or other ways to improve Raycast.
-        If you have anything cool to show, please send us a pull request. If we screwed something up,
-        please report a bug. Join our
-        [Slack community](https://www.raycast.com/community)
-        to brainstorm ideas with like-minded folks.
-        """
+      This is a shared place and we're always looking for new Script Commands or other ways to improve Raycast.
+      If you have anything cool to show, please send us a pull request. If we screwed something up,
+      please report a bug. Join our
+      [Slack community](https://www.raycast.com/community)
+      to brainstorm ideas with like-minded folks.
+      """
 
     guard let contentData = markdown.data(using: .utf8) else {
       return nil

@@ -10,13 +10,12 @@ import ToolkitLibrary
 import TSCBasic
 
 struct ToolkitCommand: ParsableCommand {
-
   static var configuration = CommandConfiguration(
     commandName: "toolkit",
     abstract: "A tool to generate automatized documentation",
     subcommands: [
       GenerateDocumentation.self,
-      Version.self
+      Version.self,
     ]
   )
 }

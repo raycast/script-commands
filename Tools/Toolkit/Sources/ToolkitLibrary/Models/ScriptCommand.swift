@@ -66,7 +66,6 @@ struct ScriptCommand: Codable {
 // MARK: - Encode/Decode
 
 extension ScriptCommand {
-
   init(from decoder: Decoder) throws {
     let container               = try decoder.container(keyedBy: CodingKeys.self)
 
@@ -106,7 +105,6 @@ extension ScriptCommand {
 // MARK: - Comparable
 
 extension ScriptCommand: Comparable {
-
   static func < (lhs: ScriptCommand, rhs: ScriptCommand) -> Bool {
     lhs.title < rhs.title
   }
@@ -121,7 +119,6 @@ extension ScriptCommand: Comparable {
 // MARK: - MarkdownDescription Protocol
 
 extension ScriptCommand: MarkdownDescriptionProtocol {
-
   var markdownDescription: String {
     var content: String = .empty
 

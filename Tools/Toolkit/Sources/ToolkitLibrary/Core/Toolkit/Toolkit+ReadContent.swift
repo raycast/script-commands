@@ -7,7 +7,6 @@ import Foundation
 import TSCBasic
 
 extension Toolkit {
-
   @discardableResult
   func readFolderContent(path: AbsolutePath,
                          parentGroups: inout Groups,
@@ -158,7 +157,6 @@ extension Toolkit {
 
     if let key = self.content(of: keyRange, on: content),
        let value = self.content(of: valueRange, on: content) {
-
       if let intValue = Int(value) {
         dictionary[key] = intValue
       } else if let boolValue = Bool(value) {
