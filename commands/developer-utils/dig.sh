@@ -15,6 +15,6 @@
 #
 # @raycast.description Perform a dig command with the specified options
 # @raycast.author Tommaso Panozzo
-# @raycase.authorURL "https://github.com/tom139"
+# @raycase.authorURL https://github.com/tom139
 
 dig $1 $2
