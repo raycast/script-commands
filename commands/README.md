@@ -75,6 +75,7 @@ This repository contains sample commands and documentation to write your own one
 | 🧭 | [Copy Current Window URLs](browsing/safari-current-window-urls.applescript) | This script copies to clipboard all URLs from frontmost Safari window. | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
 | 🖼️ | [Screenshot Website](browsing/website-screenshots.sh) | Takes screenshots of the entered URL using [`pageres`](https://github.com/sindresorhus/pageres) and saves it to the Desktop. | [Caleb Stauffer](https://github.com/crstauf) |
 | 🔗 | [Shorten URL From Clipboard](browsing/shorten-url.sh) | Shorten the URL in your Clipboard with Tiny URL. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
+| 🔗 | [Open URL at Outline](browsing/go-to-outline.sh) | Open the website at Outline. | [Ronan Rodrigo Nunes](https://ronanrodrigo.dev) |
 
 ## Communication
 
