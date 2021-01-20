@@ -13,9 +13,8 @@
 # @raycast.argument1 { "type": "text", "placeholder": "name" }
 # @raycast.argument2 { "type": "text", "placeholder": "type", "optional": true }
 #
-# @raycast.description "Perform a dig command with the specified options"
+# @raycast.description Perform a dig command with the specified options
 # @raycast.author Tommaso Panozzo
 # @raycase.authorURL "https://github.com/tom139"
 
 dig $1 $2
-
