@@ -10,7 +10,7 @@
 // @raycast.icon 📅
 //
 // Documentation:
-// @raycast.description Copies the calenadar availability of today.
+// @raycast.description Copies the calendar availability of today.
 
 import AppKit
 import EventKit
