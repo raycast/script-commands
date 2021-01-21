@@ -5,7 +5,6 @@
 # @raycast.title Strong Password Generator
 # @raycast.mode compact
 # @raycast.packageName Developer Utils
-# @raycast.currentDirectoryPath /Users/nitin/Documents/Code/Raycast
 
 # Optional parameters:
 # @raycast.icon 🔐
