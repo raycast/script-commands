@@ -8,7 +8,7 @@
 
 # Optional parameters:
 # @raycast.icon 🔐
-# @raycast.argument1 { "type": "text", "placeholder": "lenth", "percentEncoded": false }
+# @raycast.argument1 { "type": "text", "placeholder": "Length"}
 
 # Documentation:
 # @raycast.author Nitin Gupta
