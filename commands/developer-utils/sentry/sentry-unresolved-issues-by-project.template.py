@@ -25,7 +25,9 @@
 # @raycast.argument1 { "type": "text", "placeholder": "Project" }
 
 # Documentation:
-# @raycast.author Thomas Paul Mann & Phil Salant
+# @raycast.author Phil Salant
+# @raycast.authorURL https://github.com/PSalant726
+# @raycast.author Thomas Paul Mann
 # @raycast.authorURL https://github.com/thomaspaulmann
 # @raycast.description Show unresolved issues in the last 24 hours (by project) from Sentry.
 
