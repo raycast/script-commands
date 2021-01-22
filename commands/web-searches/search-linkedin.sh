@@ -8,7 +8,7 @@
 
 # Optional parameters:
 # @raycast.icon https://s3-us-west-2.amazonaws.com/iconduck.prod/assets.00/asstqik48oc9
-# @raycast.argument1 { "type": "text", "placeholder": "Search for?" }
+# @raycast.argument1 { "type": "text", "placeholder": "Search for?", "percentEncoded": true}
 
 # Documentation:
 # @raycast.author Nitin Gupta
