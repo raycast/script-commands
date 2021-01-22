@@ -7,7 +7,7 @@
 # @raycast.packageName Web Searches
 
 # Optional parameters:
-# @raycast.icon https://s3-us-west-2.amazonaws.com/iconduck.prod/assets.00/asstqik48oc9
+# @raycast.icon images/linkedin.png
 # @raycast.argument1 { "type": "text", "placeholder": "Search for?", "percentEncoded": true}
 
 # Documentation:
