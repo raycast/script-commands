@@ -15,4 +15,4 @@
 # @raycast.authorURL https://twitter.com/gniting
 # @raycast.description Search LinkedIn
 
-open "https://www.linkedin.com/search/results/all/?keywords=${1// /%20}"
+open "https://www.linkedin.com/search/results/all/?keywords=${1}"
