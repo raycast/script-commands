@@ -56,18 +56,21 @@ if not project:
   print("No Sentry project provided")
   exit(1)
 
-url = f"https://sentry.io/api/0/projects/{ORGANIZATION}/{project}/issues/?statsPeriod=24h&query=is:unresolved"
-request = urllib.request.Request(url)
-request.add_header("Authorization", f"Bearer {API_TOKEN}")
+request = urllib.request.Request(
+  method="GET",
+  url=f"https://sentry.io/api/0/projects/{ORGANIZATION}/{project}/issues/?statsPeriod=24h&query=is:unresolved",
+  headers={ "Authorization": f"Bearer {API_TOKEN}" }
+)
 
 try:
   response = urllib.request.urlopen(request)
 except urllib.error.HTTPError as e:
-  print("Failed to get unresolved issues from Sentry")
+  print("Failed to get unresolved issues from Sentry:")
+  print(e.code, e.reason)
   exit(1)
 except urllib.error.URLError as e:
-  print("Error reason: ", e.reason)
-  print("Failed to reach Sentry")
+  print("Failed to reach Sentry:")
+  print("Error:", e.reason)
   exit(1)
 else:
   data = response.read().decode("utf-8")
