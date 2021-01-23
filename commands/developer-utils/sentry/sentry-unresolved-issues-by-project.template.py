@@ -51,10 +51,7 @@ if not ORGANIZATION:
 import json, sys, urllib.request
 from datetime import datetime as dt
 
-project = ""
-if len(sys.argv) > 1:
-  project = sys.argv[1]
-
+project = sys.argv[1]
 if not project:
   print("No Sentry project provided")
   exit(1)
