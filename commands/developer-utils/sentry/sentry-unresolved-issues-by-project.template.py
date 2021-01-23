@@ -47,7 +47,6 @@ if not ORGANIZATION:
   exit(1)
 
 # Main program
-
 import json, sys, urllib.request
 from datetime import datetime as dt
 
@@ -73,8 +72,7 @@ except urllib.error.URLError as e:
   print("Error:", e.reason)
   exit(1)
 else:
-  data = response.read().decode("utf-8")
-  unresolved_issues = json.loads(data)
+  unresolved_issues = json.loads(response.read().decode("utf-8"))
   unresolved_issues_count = len(unresolved_issues)
 
   if unresolved_issues_count == 0:
@@ -83,11 +81,8 @@ else:
     issue_text = "issue" if unresolved_issues_count == 1 else "issues"
     print(f"{unresolved_issues_count} unresolved {issue_text} in the last 24 hours:")
 
-    count = 1
-    for issue in unresolved_issues:
+    for i, issue in enumerate(unresolved_issues, 1):
       last_seen = dt.strptime(issue['lastSeen'], "%Y-%m-%dT%H:%M:%S.%fZ")
 
-      print(f"  {count}. {issue['title']} ({last_seen.strftime('%b %d, %Y %I:%M %p')})")
+      print(f"  {i}. {issue['title']} ({last_seen.strftime('%b %d, %Y at %I:%M %p')})")
       print(f"     {issue['permalink']}\n")
-
-      count += 1
