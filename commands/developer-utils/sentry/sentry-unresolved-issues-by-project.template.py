@@ -12,7 +12,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Sentry Unresolved Issues (By Project)
+# @raycast.title Unresolved Issues By Project
 # @raycast.mode fullOutput
 
 # Conditional parameters:
