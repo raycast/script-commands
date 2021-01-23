@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title GitHub Repository PRs & Issues
+# @raycast.title Visit a Repository, Pull Request, or Issue
 # @raycast.mode compact
 #
 # Optional parameters:
