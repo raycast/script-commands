@@ -936,7 +936,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : "Copies the calenadar availability of today.",
+          "description" : "Copies the calendar availability of today.",
           "filename" : "copy-availability.swift",
           "icon" : "📅",
           "mode" : "silent",
@@ -1710,6 +1710,28 @@
               "refreshTime" : "1h",
               "schemaVersion" : 1,
               "title" : "Unresolved Issues"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                },
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Show unresolved issues in the last 24 hours (by project) from Sentry.",
+              "filename" : "sentry-unresolved-issues-by-project.template.py",
+              "icon" : "images\/sentry.png",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Sentry",
+              "refreshTime" : "1h",
+              "schemaVersion" : 1,
+              "title" : "Unresolved Issues By Project"
             }
           ]
         },
@@ -3247,5 +3269,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-01-19T15:46:25Z"
+  "updatedAt" : "2021-01-24T19:25:48Z"
 }
