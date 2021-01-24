@@ -116,6 +116,24 @@
         {
           "authors" : [
             {
+              "name" : "Ronan Rodrigo Nunes",
+              "url" : "ronanrodrigo.dev"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Open the website at Outline",
+          "filename" : "go-to-outine.sh",
+          "icon" : "images\/outline.png",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Browsing",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Go to Outline"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Kirill Gorbachyonok",
               "url" : "https:\/\/github.com\/japanese-goblinn"
             }
@@ -1055,6 +1073,42 @@
           "title" : "Escape String for Shell"
         },
         {
+          "authors" : [
+            {
+              "name" : "Tommaso Panozzo",
+              "url" : null
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Perform a dig command with the specified options",
+          "filename" : "dig.sh",
+          "icon" : "🌍",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Internet",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Dig"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Nitin Gupta",
+              "url" : "https:\/\/twitter.com\/gniting"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Transform the case of clipboard content. Defaults to lower case if no conversion type is specified.",
+          "filename" : "transform-case.sh",
+          "icon" : "🔠",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utils",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Transform Case"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : "Encodes clipboard content url and copies it again.",
@@ -1315,6 +1369,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Copy Lorem Ipsum"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Nitin Gupta",
+              "url" : "https:\/\/twitter.com\/gniting"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Generate a strong password of requested character length",
+          "filename" : "strong-password-generator.sh",
+          "icon" : "🔐",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utils",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Strong Password Generator"
         },
         {
           "authors" : null,
@@ -1666,6 +1738,24 @@
               "refreshTime" : "1h",
               "schemaVersion" : 1,
               "title" : "Repository Statistics"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Open a repository, pull request, or issue on GitHub",
+              "filename" : "open-gh-repo-pr-or-issue.sh",
+              "icon" : "images\/github-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "GitHub",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Visit a Repository, Pull Request, or Issue"
             },
             {
               "authors" : [
@@ -2648,6 +2738,24 @@
         {
           "authors" : [
             {
+              "name" : "Nitin Gupta",
+              "url" : "https:\/\/twitter.com\/gniting"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search LinkedIn",
+          "filename" : "search-linkedin.sh",
+          "icon" : "images\/linkedin.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search LinkedIn"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Jax0rz",
               "url" : null
             }
@@ -2925,6 +3033,48 @@
               "title" : "Open Note"
             }
           ]
+        },
+        {
+          "name" : "Hazeover",
+          "path" : "hazeover",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Set dimming intensity of background windows.",
+              "filename" : "hazeover-set-intensity.applescript",
+              "icon" : "images\/hazeover.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "HazeOver",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Set Intensity"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Toggle dimming of all background windows.",
+              "filename" : "hazeover-toggle-dimming.applescript",
+              "icon" : "images\/hazeover.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "HazeOver",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Toggle Dimming"
+            }
+          ]
         }
       ]
     },
@@ -3082,6 +3232,24 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Next Track"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "mmerle",
+                  "url" : "https:\/\/github.com\/mmerle"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Show currently playing track in Music.",
+              "filename" : "apple-music-current-track.applescript",
+              "icon" : "images\/apple-music-logo.png",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Music",
+              "refreshTime" : "10s",
+              "schemaVersion" : 1,
+              "title" : "Current Track"
             }
           ]
         },
@@ -3405,5 +3573,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-01-24T20:03:58Z"
+  "updatedAt" : "2021-01-24T20:21:30Z"
 }
