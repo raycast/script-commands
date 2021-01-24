@@ -13,6 +13,7 @@
 # Optional parameters:
 # @raycast.packageName Slack
 # @raycast.argument1 { "type": "text", "placeholder": "number of minutes" }
+# @raycast.icon images/slack-logo.png
 
 # Documentation:
 # @raycast.description Set your DND status in Slack
