@@ -12,6 +12,7 @@ This repository contains sample commands and documentation to write your own one
 
 - [Apps](#apps)
   - [Amphetamine](#amphetamine)
+  - [Bear](#bear)
 - [Bookmarks](#bookmarks)
 - [Browsing](#browsing)
 - [Communication](#communication)
@@ -48,6 +49,17 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/amphetamine/images/amphetamine.png?raw=true" width="20" height="20"> | [End Session](apps/amphetamine/amphetamine-off.applescript) | Stop Current Amphetamine Session | [James Lyons](https://github.com/jamesjlyons) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/amphetamine/images/amphetamine.png?raw=true" width="20" height="20"> | [Start Default Session](apps/amphetamine/amphetamine-on.applescript) | Start Default Amphetamine Session | [James Lyons](https://github.com/jamesjlyons) |
+
+#### Bear
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/bear/images/bear-light.png?raw=true" width="20" height="20"> | [Add Note](apps/bear/bear-add-note.sh) | Add a new note to Bear. | [Tanay Nistala](https://github.com/tanaynistala) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/bear/images/bear-light.png?raw=true" width="20" height="20"> | [Open Note](apps/bear/bear-open-note.sh) | Open the specified note in Bear. | [Tanay Nistala](https://github.com/tanaynistala) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/bear/images/bear-light.png?raw=true" width="20" height="20"> | [Open Tag](apps/bear/bear-open-tag.sh) | Open the specified tag in Bear. | [Tanay Nistala](https://github.com/tanaynistala) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/bear/images/bear-light.png?raw=true" width="20" height="20"> | [Open Today](apps/bear/bear-today.sh) | Open the Today section in Bear. | [Tanay Nistala](https://github.com/tanaynistala) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/bear/images/bear-light.png?raw=true" width="20" height="20"> | [Open Todos](apps/bear/bear-todo.sh) | Open the Todo section in Bear. | [Tanay Nistala](https://github.com/tanaynistala) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/bear/images/bear-light.png?raw=true" width="20" height="20"> | [Search](apps/bear/bear-search.sh) | Search notes by keyword and/or tag in Bear. | [Tanay Nistala](https://github.com/tanaynistala) |
 
 ## Bookmarks
 
@@ -143,6 +155,7 @@ This repository contains sample commands and documentation to write your own one
 | 💻 | [Encode Base64](developer-utils/encode-base64.sh) | Encodes clipboard content to Base64 and copies it again. | Raycast |
 | 💻 | [Encode URL](developer-utils/encode-url.sh) | Encodes clipboard content url and copies it again. | Raycast |
 | 💻 | [Escape String for Shell](developer-utils/escape-shell-chars.sh) | Escapes shell character string and copies it again. | Raycast |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/images/swift.png?raw=true" width="20" height="20"> | [Format Swift](developer-utils/format-swift.sh) | Use [swiftformat](https://github.com/nicklockwood/SwiftFormat) to format clipboard content. | [Dean Moore](https://github.com/moored) |
 | 🔐 | [Generate Password](developer-utils/generate-password.sh) | Generates a random password and copies it to the clipboard. | [Sven Hofmann](https://github.com/hofmannsven) |
 | 💻 | [Generate UUID](developer-utils/generate-uuid.sh) | Generates a UUID and copies it to the clipboard. | Raycast |
 | 🩺 | [Is It Up?](developer-utils/is-it-up.sh) | Check if a website is up | [Jesse Claven](https://github.com/jesse-c) |
@@ -154,7 +167,7 @@ This repository contains sample commands and documentation to write your own one
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/images/pa11y-logo.png?raw=true" width="20" height="20"> | [Run Pa11y](developer-utils/pa11y.sh) | Run [Pa11y](https://github.com/pa11y/pa11y) web accessibility tool on specified path or URL. | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/images/ia-logo.jpg?raw=true" width="20" height="20"> | [Save URL to Wayback Machine](developer-utils/wayback-machine-save.sh) | Save URL to [Wayback Machine](https://web.archive.org/). | [Caleb Stauffer](https://github.com/crstauf) |
 | 🔎 | [Search Script Command](developer-utils/search-script-command.swift) | Search for Script Commands available in the Raycast repository | [Thiago Holanda](https://twitter.com/tholanda) |
-| 🌐 | [Whois](developer-utils/whois.sh) | Whois of URL. | [Caleb Stauffer](https://github.com/crstauf) |
+| 🌐 | [Whois](developer-utils/whois.sh) | Whois of URL. | [Caleb Stauffer](https://github.com/crstauf) and [Ronan Rodrigo Nunes](ronanrodrigo.dev) |
 
 #### Aws
 

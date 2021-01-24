@@ -1116,13 +1116,17 @@
             {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
+            },
+            {
+              "name" : "Ronan Rodrigo Nunes",
+              "url" : "ronanrodrigo.dev"
             }
           ],
           "currentDirectoryPath" : null,
           "description" : "Whois of URL.",
           "filename" : "whois.sh",
           "icon" : "🌐",
-          "mode" : "silent",
+          "mode" : "fullOutput",
           "needsConfirmation" : null,
           "packageName" : "Internet",
           "refreshTime" : null,
@@ -1146,6 +1150,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Record Simulator"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Dean Moore",
+              "url" : "https:\/\/github.com\/moored"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Use [swiftformat](https:\/\/github.com\/nicklockwood\/SwiftFormat) to format clipboard content.",
+          "filename" : "format-swift.sh",
+          "icon" : "images\/swift.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Format Swift"
         },
         {
           "authors" : [
@@ -2789,6 +2811,120 @@
               "title" : "End Session"
             }
           ]
+        },
+        {
+          "name" : "Bear",
+          "path" : "bear",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Tanay Nistala",
+                  "url" : "https:\/\/github.com\/tanaynistala"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Open the Today section in Bear.",
+              "filename" : "bear-today.sh",
+              "icon" : "images\/bear-light.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bear",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Today"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Tanay Nistala",
+                  "url" : "https:\/\/github.com\/tanaynistala"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Open the specified tag in Bear.",
+              "filename" : "bear-open-tag.sh",
+              "icon" : "images\/bear-light.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bear",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Tag"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Tanay Nistala",
+                  "url" : "https:\/\/github.com\/tanaynistala"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Add a new note to Bear.",
+              "filename" : "bear-add-note.sh",
+              "icon" : "images\/bear-light.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bear",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Add Note"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Tanay Nistala",
+                  "url" : "https:\/\/github.com\/tanaynistala"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Search notes by keyword and\/or tag in Bear.",
+              "filename" : "bear-search.sh",
+              "icon" : "images\/bear-light.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bear",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Search"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Tanay Nistala",
+                  "url" : "https:\/\/github.com\/tanaynistala"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Open the Todo section in Bear.",
+              "filename" : "bear-todo.sh",
+              "icon" : "images\/bear-light.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bear",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Todos"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Tanay Nistala",
+                  "url" : "https:\/\/github.com\/tanaynistala"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Open the specified note in Bear.",
+              "filename" : "bear-open-note.sh",
+              "icon" : "images\/bear-light.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bear",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Note"
+            }
+          ]
         }
       ]
     },
@@ -3269,5 +3405,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-01-24T19:25:48Z"
+  "updatedAt" : "2021-01-24T20:03:58Z"
 }
