@@ -11,6 +11,6 @@
 # @raycast.mode silent
 # @raycast.packageName Bear
 # @raycast.schemaVersion 1
-# @raycast.argument1 { "type": "text", "placeholder": "Search Query", "optional": true }
+# @raycast.argument1 { "type": "text", "placeholder": "Search Query", "optional": true, "percentEncoded": true}
 
-open "bear://x-callback-url/todo?search=${1// /%20}"
+open "bear://x-callback-url/todo?search=${1}"
