@@ -11,6 +11,6 @@
 # @raycast.mode silent
 # @raycast.packageName Bear
 # @raycast.schemaVersion 1
-# @raycast.argument1 { "type": "text", "placeholder": "Title" }
+# @raycast.argument1 { "type": "text", "placeholder": "Title", "percentEncoded": true}
 
-open "bear://x-callback-url/open-note?title=${1// /%20}"
+open "bear://x-callback-url/open-note?title=${1}"

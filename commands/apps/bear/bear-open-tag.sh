@@ -11,6 +11,6 @@
 # @raycast.mode silent
 # @raycast.packageName Bear
 # @raycast.schemaVersion 1
-# @raycast.argument1 { "type": "text", "placeholder": "Tag" }
+# @raycast.argument1 { "type": "text", "placeholder": "Tag", "percentEncoded": true}
 
-open "bear://x-callback-url/open-tag?name=${1// /%20}"
+open "bear://x-callback-url/open-tag?name=${1}"
