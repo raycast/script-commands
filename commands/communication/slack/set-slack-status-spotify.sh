@@ -12,7 +12,7 @@
 
 # Optional parameters:
 # @raycast.packageName Slack
-# @raycast.icon ../../media/images/spotify-logo.png
+# @raycast.icon images/slack-logo.png
 
 # Documentation:
 # @raycast.description Set your status in Slack to a song currently playing in Spotify.

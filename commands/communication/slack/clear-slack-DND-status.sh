@@ -11,6 +11,7 @@
 
 # Optional parameters:
 # @raycast.packageName Slack
+# @raycast.icon images/slack-logo.png
 
 # Documentation:
 # @raycast.description Clear DND Status in Slack
