@@ -117,10 +117,12 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
-|  | [Clear Slack DND](communication/slack/clear-slack-DND-status.sh) | Clear DND Status in Slack | [Sam Ching](https://github.com/samching) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/slack/images/slack-logo.png?raw=true" width="20" height="20"> | [Clear Slack DND](communication/slack/clear-slack-DND-status.sh) | Clear DND Status in Slack | [Sam Ching](https://github.com/samching) |
 | 🧼 | [Clear Status](communication/slack/clear-slack-status.template.sh) | Clear your status in Slack. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
-|  | [Set DND Status](communication/slack/set-slack-DND-status.sh) | Set your DND status in Slack | [Sam Ching](https://github.com/samching) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/slack/images/slack-logo.png?raw=true" width="20" height="20"> | [Set DND Status](communication/slack/set-slack-DND-status.sh) | Set your DND status in Slack | [Sam Ching](https://github.com/samching) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/slack/images/slack-logo.png?raw=true" width="20" height="20"> | [Set Status in Slack to Spotify Song](communication/slack/set-slack-status-spotify.sh) | Set your status in Slack to a song currently playing in Spotify. | [alongat](https://github.com/alongat) |
 | ☕️ | [Set Status to Coffee](communication/slack/set-slack-status.template.sh) | Set your status in Slack. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/slack/images/slack-logo.png?raw=true" width="20" height="20"> | [Set WFH Status in Slack](communication/slack/set-slack-wfh-status.sh) | Set your status in Slack to WFH or WFO depending on your WiFi | [alongat](https://github.com/alongat) |
 
 ## Conversions
 
