@@ -1996,6 +1996,24 @@
             {
               "authors" : [
                 {
+                  "name" : "alongat",
+                  "url" : "https:\/\/github.com\/alongat"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Set your status in Slack to a song currently playing in Spotify.",
+              "filename" : "set-slack-status-spotify.sh",
+              "icon" : "images\/slack-logo.png",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Slack",
+              "refreshTime" : "30s",
+              "schemaVersion" : 1,
+              "title" : "Set Status in Slack to Spotify Song"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Sam Ching",
                   "url" : "https:\/\/github.com\/samching"
                 }
@@ -2003,7 +2021,7 @@
               "currentDirectoryPath" : null,
               "description" : "Clear DND Status in Slack",
               "filename" : "clear-slack-DND-status.sh",
-              "icon" : null,
+              "icon" : "images\/slack-logo.png",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Slack",
@@ -2028,6 +2046,24 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Clear Status"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "alongat",
+                  "url" : "https:\/\/github.com\/alongat"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Set your status in Slack to WFH or WFO depending on your WiFi",
+              "filename" : "set-slack-wfh-status.sh",
+              "icon" : "images\/slack-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Slack",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Set WFH Status in Slack"
             },
             {
               "authors" : [
@@ -2057,7 +2093,7 @@
               "currentDirectoryPath" : null,
               "description" : "Set your DND status in Slack",
               "filename" : "set-slack-DND-status.sh",
-              "icon" : null,
+              "icon" : "images\/slack-logo.png",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Slack",
@@ -3573,5 +3609,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-01-24T20:21:30Z"
+  "updatedAt" : "2021-01-25T13:41:11Z"
 }
