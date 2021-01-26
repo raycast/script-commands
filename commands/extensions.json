@@ -533,6 +533,24 @@
         {
           "authors" : [
             {
+              "name" : "Phil Salant",
+              "url" : "https:\/\/github.com\/PSalant726"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Check if this machine is using NextDNS.",
+          "filename" : "nextdns-status-check.py",
+          "icon" : "images\/nextdns.png",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Dashboard",
+          "refreshTime" : "1h",
+          "schemaVersion" : 1,
+          "title" : "NextDNS Status"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Thomas Paul Mann",
               "url" : "https:\/\/github.com\/thomaspaulmann"
             }
@@ -3452,6 +3470,24 @@
               "title" : "Copy Current Playing Song URL"
             },
             {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Play playlist or track in Spotify.",
+              "filename" : "spotify-play-playlist.template.applescript",
+              "icon" : "images\/spotify-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Spotify",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Play Track or Playlist"
+            },
+            {
               "authors" : null,
               "currentDirectoryPath" : null,
               "description" : "Plays current track in Spotify.",
@@ -3609,5 +3645,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-01-25T13:41:11Z"
+  "updatedAt" : "2021-01-26T20:57:50Z"
 }
