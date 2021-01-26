@@ -17,6 +17,6 @@
 # Customization:
 # 1. Copy URI of track or playlist from Spotify, e.g. your discover weekly
 # 2. Adjust title and description of command
-property uri: "spotify:playlist:123456789"
+property uri: ""
 
 tell application "Spotify" to play track uri
