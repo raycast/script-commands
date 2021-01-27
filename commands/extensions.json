@@ -518,6 +518,24 @@
           "title" : "Speedtest"
         },
         {
+          "authors" : [
+            {
+              "name" : "Thomas Paul Mann",
+              "url" : "https:\/\/github.com\/thomaspaulmann"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Shows the followers, favourites and friends count of your Twitter account.",
+          "filename" : "twitter-statistics.template.rb",
+          "icon" : "images\/twitter.png",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Twitter",
+          "refreshTime" : "1h",
+          "schemaVersion" : 1,
+          "title" : "Twitter Statistics"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : null,
@@ -3717,5 +3735,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-01-27T14:06:23Z"
+  "updatedAt" : "2021-01-27T23:18:16Z"
 }
