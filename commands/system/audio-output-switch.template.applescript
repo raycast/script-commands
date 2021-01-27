@@ -28,6 +28,8 @@ tell application "System Preferences"
 		end tell
 	end tell
 	
-do shell script "echo Audio switched to <Device Name>"
+	quit
 	
 end tell
+
+do shell script "echo Audio switched to <Device Name>"
