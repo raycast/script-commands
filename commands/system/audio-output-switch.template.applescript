@@ -10,7 +10,7 @@
 # @raycast.mode silent
 
 # @raycast.packageName Audio
-# @raycast.icon ??
+# @raycast.icon 🔊
 
 # @raycast.author mmerle
 # @raycast.authorURL https://github.com/mmerle
