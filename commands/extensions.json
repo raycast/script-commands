@@ -673,6 +673,24 @@
         {
           "authors" : [
             {
+              "name" : "Marc Klingen",
+              "url" : "https:\/\/github.com\/marcklingen"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Set Chrome as the default browser.",
+          "filename" : "default-browser-chrome.sh",
+          "icon" : "🧭",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Browsing",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Switch Default Browser to Chrome"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Jesse Claven",
               "url" : "https:\/\/github.com\/jesse-c"
             }
@@ -705,6 +723,24 @@
           "refreshTime" : "3m",
           "schemaVersion" : 1,
           "title" : "Largest CPU Process"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Marc Klingen",
+              "url" : "https:\/\/github.com\/marcklingen"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Set Safari as the default browser.",
+          "filename" : "default-browser-safari.sh",
+          "icon" : "🧭",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Browsing",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Switch Default Browser to Safari"
         },
         {
           "authors" : null,
@@ -756,6 +792,24 @@
           "title" : "Turn On Do Not Disturb"
         },
         {
+          "authors" : [
+            {
+              "name" : "Marc Klingen",
+              "url" : "https:\/\/github.com\/marcklingen"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Set Chromium as the default browser.",
+          "filename" : "default-browser-chromium.sh",
+          "icon" : "🧭",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Browsing",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Switch Default Browser to Chromium"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : "Quits all running applications except Finder and Raycast.",
@@ -767,6 +821,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Quit All Applications"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Marc Klingen",
+              "url" : "https:\/\/github.com\/marcklingen"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Set Firefox as the default browser.",
+          "filename" : "default-browser-firefox.sh",
+          "icon" : "🧭",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Browsing",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Switch Default Browser to Firefox"
         },
         {
           "authors" : [
@@ -3645,5 +3717,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-01-26T20:57:50Z"
+  "updatedAt" : "2021-01-27T14:06:23Z"
 }
