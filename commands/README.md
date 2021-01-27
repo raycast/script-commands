@@ -143,6 +143,7 @@ This repository contains sample commands and documentation to write your own one
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/dashboard/images/nextdns.png?raw=true" width="20" height="20"> | [NextDNS Status](dashboard/nextdns-status-check.py) | Check if this machine is using NextDNS. | [Phil Salant](https://github.com/PSalant726) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/dashboard/images/speedtest-logo.png?raw=true" width="20" height="20"> | [Speedtest](dashboard/speedtest.sh) | Test download and upload connection speed using [Speedtest](https://www.speedtest.net/apps/cli). | [Caleb Stauffer](https://github.com/crstauf) |
 | 📈 | [System Activity](dashboard/system-activity.sh) | N/A | Raycast |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/dashboard/images/twitter.png?raw=true" width="20" height="20"> | [Twitter Statistics](dashboard/twitter-statistics.template.rb) | Shows the followers, favourites and friends count of your Twitter account. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
 | 🕐 | [World Time](dashboard/world-time.sh) | Show the time from elsewhere in the world | [Jesse Claven](https://github.com/jesse-c) |
 | ⏱ | [Year Progress](dashboard/year-progress.sh) | See the year progress on your desktop. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
 
