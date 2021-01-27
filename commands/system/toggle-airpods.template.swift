@@ -24,7 +24,7 @@ func toggleAirPods() {
 
     if !bluetoothDevice.isPaired() {
         print("Device not paired")
-        exit(-4)
+        exit(1)
     }
 
     if bluetoothDevice.isConnected() {
