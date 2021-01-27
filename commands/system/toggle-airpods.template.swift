@@ -19,7 +19,7 @@ import IOBluetooth
 func toggleAirPods() {
     guard let bluetoothDevice = IOBluetoothDevice(addressString: "Your AirPods MAC address") else {
         print("Device not found")
-        exit(-2)
+        exit(1)
     }
 
     if !bluetoothDevice.isPaired() {
