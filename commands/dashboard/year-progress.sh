@@ -44,7 +44,7 @@ else
   DAYS=365
 fi
 
-percentage=$((100 * $current_day / $DAYS))
+percentage=$((100 * 10#$current_day / $DAYS))
 
 filled_element_count=$(($BAR_LENGTH * $percentage / 100))
 blank_element_count=$(($BAR_LENGTH - $filled_element_count))
