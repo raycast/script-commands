@@ -339,10 +339,12 @@ This repository contains sample commands and documentation to write your own one
 | 🌀 | [Screen Saver](system/screensaver.applescript) | A script command to start your current screen saver. | [Valentin Chrétien](https://twitter.com/valentinchrt) |
 | 🛌 | [Shut Down](system/shutdown.applescript) | Shuts down computer. | Raycast |
 | 😴 | [Sleep](system/sleep.applescript) | Puts computer to sleep. | Raycast |
+| 🔊 | [Switch Audio to <Device Name>](system/audio-output-switch.template.applescript) | Switch audio output to desired device. | [mmerle](https://github.com/mmerle) |
 | 🧭 | [Switch Default Browser to Chrome](system/default-browser-chrome.sh) | Set Chrome as the default browser. | [Marc Klingen](https://github.com/marcklingen) |
 | 🧭 | [Switch Default Browser to Chromium](system/default-browser-chromium.sh) | Set Chromium as the default browser. | [Marc Klingen](https://github.com/marcklingen) |
 | 🧭 | [Switch Default Browser to Firefox](system/default-browser-firefox.sh) | Set Firefox as the default browser. | [Marc Klingen](https://github.com/marcklingen) |
 | 🧭 | [Switch Default Browser to Safari](system/default-browser-safari.sh) | Set Safari as the default browser. | [Marc Klingen](https://github.com/marcklingen) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/system/images/airpod.png?raw=true" width="20" height="20"> | [Toggle AirPods](system/toggle-airpods.template.swift) | Toggle AirPods bluetooth device | [Nichlas W. Andersen](https://github.com/itsnwa) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/system/images/bluetooth.png?raw=true" width="20" height="20"> | [Toggle Bluetooth](system/bluetooth.template.applescript) | Toggle your Bluetooth connection. | [Vincent Dörig](https://github.com/vincentdoerig) |
 | 🖥 | [Toggle Desktop Icons](system/toggle-desktop-icons.applescript) | A script command to show and hide icons of Desktop folder | [Raycast](https://raycast.com) |
 | 👓 | [Toggle Hidden Files](system/toggle-hidden-files.applescript) | Show and hide hidden files/folders which starts with "." (dot), i.e: .bash_rc, .ssh | [Thiago Holanda](https://twitter.com/tholanda) |
