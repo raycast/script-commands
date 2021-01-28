@@ -812,6 +812,24 @@
         {
           "authors" : [
             {
+              "name" : "Nichlas W. Andersen",
+              "url" : "https:\/\/github.com\/itsnwa"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Toggle AirPods bluetooth device",
+          "filename" : "toggle-airpods.template.swift",
+          "icon" : "images\/airpod.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Audio",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle AirPods"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Marc Klingen",
               "url" : "https:\/\/github.com\/marcklingen"
             }
@@ -857,6 +875,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Switch Default Browser to Firefox"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "mmerle",
+              "url" : "https:\/\/github.com\/mmerle"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Switch audio output to desired device.",
+          "filename" : "audio-output-switch.template.applescript",
+          "icon" : "🔊",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Audio",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Switch Audio to <Device Name>"
         },
         {
           "authors" : [
@@ -3735,5 +3771,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-01-27T23:18:16Z"
+  "updatedAt" : "2021-01-28T15:47:45Z"
 }
