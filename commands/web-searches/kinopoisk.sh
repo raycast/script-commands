@@ -10,4 +10,8 @@
 # @raycast.icon images/kinopoisk.png
 # @raycast.argument1 { "type": "text", "placeholder": "query", "percentEncoded": true }
 
+# Documentation
+# @raycast.author Andrei Borisov
+# @raycast.authorURL https://github.com/andreiborisov
+
 open "https://www.kinopoisk.ru/index.php?kp_query=$1"
