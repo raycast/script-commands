@@ -2436,6 +2436,24 @@
         {
           "authors" : [
             {
+              "name" : "Andrei Borisov",
+              "url" : "https:\/\/github.com\/andreiborisov"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "kinopoisk.sh",
+          "icon" : "images\/kinopoisk.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in Kinopoisk"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Zander Martineau",
               "url" : "https:\/\/zander.wtf"
             }
@@ -2468,6 +2486,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search Netflix"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Andrei Borisov",
+              "url" : "https:\/\/github.com\/andreiborisov"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search in App Store app",
+          "filename" : "app-store.sh",
+          "icon" : "images\/app-store.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in App Store"
         },
         {
           "authors" : [
@@ -3771,5 +3807,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-01-28T15:47:45Z"
+  "updatedAt" : "2021-01-31T20:44:19Z"
 }
