@@ -1,27 +1,30 @@
 # Contributing to Raycast's Toolkit
 
-Raycast's toolkit is a command-line program for automating certain repetitive tasks in this repo. At the moment the toolkit just automates the generation of the [README for the script-commands](../../commands/README.md).
+Raycast Toolkit is a command-line application for automating repetitive tasks in this repo. At the moment the Toolkit automates the generation of the [Awesome Script Commands](../../commands/README.md) and the [extensions.json](../../extensions.json) which contains information about each Script Command.
 
 ## Tech Stack
 
-The Toolkit uses the [swift programming language](https://developer.apple.com/swift/), the [swift package manager](https://swift.org/package-manager/), and [Apple's argument parser for parsing arguments](https://github.com/apple/swift-argument-parser). We also use [swiftlint](https://github.com/realm/SwiftLint) for linting our swift code.
+- [Swift](https://developer.apple.com/swift) 5.3
+- [Swift Package Manager](https://github.com/apple/swift-package-manager/)
+- [Swift Argument Parser](https://github.com/apple/swift-argument-parser)
+- [SwiftLint](https://github.com/realm/SwiftLint)
 
 ## Code Structure
 
 ```txt
 .
 ├── Sources
-│   ├── Toolkit - Command-line tool that calls the ToolkitLibrary to automate certain tasks
-│   │   ├── Extensions - Custom swift extensions specific to the CLI
-│   │   └── SubCommands - Sub-commands such as version
-│   └── ToolkitLibrary - Most features of the toolkit
+│   ├── Toolkit - Command-line Interface tool that makes calls to ToolkitLibrary. This is the interface used by the user or by the CI.
+│   │   ├── Extensions - Custom Swift extensions specific to the CLI
+│   │   └── SubCommands - Sub-commands are the interfaces that are exposed to the user
+│   └── ToolkitLibrary - The main library
 │       ├── Core - Core functionally
-│       │   ├── Documentation - Documentation generation for markdown and JSON
-│       │   └── Toolkit - Public and easy to use version of the Toolkit
-│       ├── Errors - Errors for the toolkit
-│       ├── Extensions - Custom swift extensions
+│       │   ├── Documentation - Documentation generation for Markdown and JSON
+│       │   └── Toolkit - Contains the public interface which will be consumed by the Toolkit CLI
+│       ├── Errors - Errors for the Toolkit
+│       ├── Extensions - Custom Swift extensions
 │       ├── Models - Data models
-│       └── Protocols - Custom swift protocols
+│       └── Protocols - Custom Swift protocols
 └── Tests - Unit tests
     └── ToolkitLibraryTests - Unit tests for the library
 ```
@@ -34,7 +37,7 @@ Open this folder in Xcode with the following terminal command:
 open -a Xcode.app .
 ```
 
-This will automatically install the swift packages for you.
+Xcode will automatically download the Swift Packages for you.
 
 ## Running the CLI
 
