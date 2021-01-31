@@ -1,10 +1,12 @@
 #!/bin/bash
 
-# Dependency: This script requires the Bitwarden CLI: https://bitwarden.com/help/article/cli/
+# Dependency: This script requires the Bitwarden CLI:
+# https://bitwarden.com/help/article/cli/
+#
 # Install via homebrew: `brew install bitwarden-cli`
 
-# If logging in with multi-factor authentication, set the `MFA_METHOD` as necessary. Otherwise,
-# leave this variable set to the empty string.
+# If logging in with multi-factor authentication, set the `MFA_METHOD`
+# as necessary. Otherwise, leave this variable set to the empty string.
 #
 # Authenticator: 0
 # Email: 1
@@ -14,7 +16,7 @@ MFA_METHOD=""
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Log In
-# @raycast.mode compact
+# @raycast.mode silent
 #
 # Optional parameters:
 # @raycast.packageName Bitwarden
