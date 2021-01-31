@@ -45,7 +45,7 @@ This repository contains sample commands, community commands, and documentation 
 
 ## Awesome Script Commands
 
-You can find a lot of [useful script commands built by our community](commands/) here.
+You can find a lot of [useful Script Commands built by our community](commands/) here.
 
 Want to contribute? What a brilliant idea, please see this [contribution guide](CONTRIBUTING.md), it will help you with getting started.
 
@@ -60,7 +60,7 @@ To install new commands, follow these steps:
 
 ![Preferences](images/screenshots/preferences.png)
 
-To get started, download one of the sample commands in this repository or [write a custom script](#write-script-commands).
+To get started, download one of the sample commands in this repository or [write a custom Script Command](#write-script-commands).
 
 ## How to use this repository
 
@@ -70,7 +70,7 @@ Grab scripts that you want to use and copy them to a separate directory on your 
 
 ## Write Script Commands
 
-To write your custom Script Commands, go over the following steps and follow the [troubleshooting section](#troubleshooting) if your script command does not show up in Raycast.
+To write your custom Script Commands, go over the following steps and follow the [troubleshooting section](#troubleshooting) if your Script Command does not show up in Raycast.
 
 1. Create a new directory for your commands
 2. Open the Extensions preferences in Raycast and select Script Commands
@@ -179,7 +179,7 @@ If a script doesn't appear in the commands list, make sure these requirements ar
 * You use either `#` or `//` comments for metadata parameters
 * You have reloaded the scripts, via 1) the "Reload" button in preferences or 2), the "Reload Script Directories" command in root search (v0.33+), or 3) automatically via the activated "Auto Reload" feature in preferences (v0.33+)
 
-If nothing helps, try to go step by step from a [template](templates/script-command.template.sh) script command or use one of the examples in this repo.
+If nothing helps, try to go step by step from a [template](templates/script-command.template.sh) Script Command or use one of the examples in this repo.
 
 ## Community
 
