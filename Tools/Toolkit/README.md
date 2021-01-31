@@ -21,18 +21,18 @@ SUBCOMMANDS:
 
 ## How does the Toolkit work?
 
-The Toolkit runs on every push to master using [this GitHub action workflow](../../.github/workflows/documentation.yml). That workflow goes through the following process:
+The Toolkit runs on every push to master using [this GitHub Action workflow](../../.github/workflows/documentation.yml). That workflow goes through the following process:
 
 1. Setup a version of Xcode
-2. Build the toolkit into a binary located at the root of the repo
+2. Build the Toolkit using the [Makefile](../../Makefile) located at the root of the repo
 3. Run `make gen-docs-and-commit`
    1. Runs the [integration shell script](integration.sh)
    2. Commits the changes (if there are any)
-4. Pushes the changes to the master branch.
+4. Pushes the changes to the master branch using the Raycast bot.
 
 ## Contributing
 
-We would love to have your contribution! Check out our [CONTRIBUTING.md file to get started](CONTRIBUTING.md).
+We would love to have your contribution! Check out our [CONTRIBUTING.md](CONTRIBUTING.md) file to get started.
 
 ## Community
 
