@@ -5,7 +5,9 @@ BUILD_PATH_RELEASE = $(TOOLKIT_PATH)/.build/release
 EXECUTABLE_PATH_RELEASE = $(BUILD_PATH_RELEASE)/Toolkit
 
 BUILD_PATH_DEBUG = $(TOOLKIT_PATH)/.build/debug
-EXECUTABLE_PATH_DEBUG= $(BUILD_PATH_DEBUG)/Toolkit
+EXECUTABLE_PATH_DEBUG = $(BUILD_PATH_DEBUG)/Toolkit
+
+SWIFTLINT_CONFIG_PATH = ../../.swiftlint.yml
 
 clean:
 	rm -rf $(TOOLKIT_PATH)/.build $(EXECUTABLE_NAME)
@@ -20,8 +22,14 @@ build-debug:
 	swift build --package-path $(TOOLKIT_PATH)
 	ln -s $(EXECUTABLE_PATH_DEBUG) $(EXECUTABLE_NAME)
 
-gen-docs: 
+gen-docs:
 	./$(EXECUTABLE_NAME) generate-documentation
 
 gen-docs-and-commit: gen-docs
 	./$(TOOLKIT_PATH)/integration.sh commit
+
+lint:
+	cd $(TOOLKIT_PATH) && swiftlint --config $(SWIFTLINT_CONFIG_PATH) --path $(TOOLKIT_PATH)
+
+fix:
+	cd $(TOOLKIT_PATH) && swiftlint --config $(SWIFTLINT_CONFIG_PATH) autocorrect

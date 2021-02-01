@@ -28,11 +28,11 @@ extension Toolkit {
 
       let values = try readFolderContent(path: directory, parentGroups: &subGroups)
 
-      if !values.isEmpty {
+      if values.isEmpty == false {
         group.scriptCommands = values
       }
 
-      if !subGroups.isEmpty {
+      if subGroups.isEmpty == false {
         group.subGroups = subGroups
       }
 
@@ -101,7 +101,7 @@ extension Toolkit {
     var dictionary: [String: Any] = [:]
     let authors = extractAuthors(from: content, using: results)
 
-    if !authors.isEmpty {
+    if authors.isEmpty == false {
       dictionary["authors"] = extractAuthors(from: content, using: results)
     }
 
@@ -157,7 +157,7 @@ extension Toolkit {
     let valueRange = result.range(withName: "value")
 
     if let key = self.content(of: keyRange, on: content),
-      let value = self.content(of: valueRange, on: content) {
+       let value = self.content(of: valueRange, on: content) {
       if let intValue = Int(value) {
         dictionary[key] = intValue
       } else if let boolValue = Bool(value) {
