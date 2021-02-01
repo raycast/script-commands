@@ -31,14 +31,14 @@ MFA_METHOD=""
 # @raycast.description Log in to a Bitwarden vault.
 
 if [ -n "$MFA_METHOD" ]; then
-  mfa_args=" --method $MFA_METHOD --code $3"
+  mfa="--method $MFA_METHOD --code $3"
 fi
 
-out=$(bw --raw login $1 $2$mfa_args)
+out=$(bw --raw login $1 $2 $mfa)
 status=$?
 
 if [ $status -eq 0 ]; then
-  security add-generic-password -U -a ${USER} -s raycast-bitwarden -j "Bitwarden session token for use with Raycast" -w "$out"
+  security add-generic-password -U -a ${USER} -s raycast-bitwarden -j "Bitwarden session token for use with Raycast" -w $out
   unset $out
   echo "Login successful! Your vault is now unlocked."
   exit 0
