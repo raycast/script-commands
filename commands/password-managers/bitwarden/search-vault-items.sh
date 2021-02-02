@@ -48,10 +48,12 @@ if [ $unlocked_status -ne 0 ]; then
   exit 0
 fi
 
-passwords=""
+password=""
+fields=", fields: [.fields[]? | select(.type != 1)]"
 if [[ -n $2 && $2 == "y" ]]; then
-  passwords="password: .login.password,"
+  password="password: .login.password,"
+  fields=", fields"
 fi
 
-output_format="{ name: .name, username: .login.username, $passwords uris: [.login.uris[]?.uri], lastUpdated: .revisionDate, notes: .notes, fields: .fields }"
+output_format="{ name, username: .login.username, $password uris: [.login.uris[]?.uri], lastUpdated: .revisionDate, notes $fields }"
 bw list items $session_args --search "$1" | jq ".[] | $output_format"

@@ -64,7 +64,7 @@ This command executes in `fullOutput` mode, searches **items** in the unlocked B
 {
   "name": "Service Name",
   "username": "username",
-  "password": "password", # optional
+  "password": "password", // optional password
   "uris": [
     "https://www.example.com",
     "https://www.another-example.com"
@@ -72,11 +72,11 @@ This command executes in `fullOutput` mode, searches **items** in the unlocked B
   "lastUpdated": "2020-11-29T20:39:56.509Z",
   "notes": "Notes appear here",
   "fields": [
-    {
-      "name": "Custom Field Name 1",
-      "value": "Custom Field Value 1",
-      "type": 1
-    },
+    {                                   //
+      "name": "Custom Field Name 1",    //   optional
+      "value": "Custom Field Value 1",  // hidden field
+      "type": 1                         //  (type = 1)
+    },                                  //
     {
       "name": "Custom Field Name 2",
       "value": "Custom Field Value 2",
@@ -86,7 +86,7 @@ This command executes in `fullOutput` mode, searches **items** in the unlocked B
 }
 ```
 
-Passwords are omitted by default. Pass `y` as the value of the `Include Passwords?` argument to include them. You can modify the above format using the `output_format` variable.
+Passwords and hidden fields are omitted by default. Pass `y` as the value of the `Include Passwords?` argument to include them. You can modify the above format using the `output_format` variable.
 
 ### Copy First Matching Password
 
