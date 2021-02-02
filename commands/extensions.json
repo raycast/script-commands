@@ -3095,6 +3095,30 @@
       ],
       "subGroups" : [
         {
+          "name" : "Iterm",
+          "path" : "iterm",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Andrei Borisov",
+                  "url" : "https:\/\/github.com\/andreiborisov"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "iterm-run-shell-command.applescript",
+              "icon" : "images\/iterm.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "iTerm",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Run Shell Command"
+            }
+          ]
+        },
+        {
           "name" : "Amphetamine",
           "path" : "amphetamine",
           "scriptCommands" : [
@@ -3807,5 +3831,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-01-31T20:44:19Z"
+  "updatedAt" : "2021-02-02T09:03:54Z"
 }
