@@ -96,21 +96,43 @@ This command executes in `silent` mode, searches the unlocked Bitwarden vault, a
 
 Vaults are separately authenticated and locked. All unlocked vaults are authenticated, but not all authenticated vaults are unlocked. The included _Log In_ command will both authenticate **and** unlock the authenticated vault, but you do not need to log out in order to secure your vault. Simply using the _Lock_ command will do so, and you can then use _Unlock_ later before searching again.
 
-The package commands utilize the macOS keychain to store and maintain session tokens. Tokens are stored under the user's account and the `raycast-bitwarden` service. When the vault is both authenticated and unlocked, you can retrieve your session token via the command line with:
+> For more information on session management, see the [Bitwarden CLI documentation](https://bitwarden.com/help/article/cli/#session-management).
+
+### Session Tokens
+
+The Bitwarden CLI uses a session token system to maintain the Lock/Unlock state of an authenticated vault, and this package utilizes the macOS keychain to store and maintain these session tokens. Running the _Lock_ and _Log Out_ commands in this package will invalidate any existing session tokens and remove them from the keychain. Conversely, running the _Log In_ and _Unlock_ commands will create a new session token and store it in the keychain accordingly, overwriting any existing session token that may exist.
+
+#### Session Token Manipulation
+
+> Manipulating your session token directly, via either the command line or the Keychain Access UI is discouraged. See below for troubleshooting if you choose to do so anyway.
+
+Tokens are stored in the macOS keychain under the user's account and the `raycast-bitwarden` service. When the vault is both authenticated and unlocked, you can retrieve your session token via the command line with:
 
 ```sh
 $ security find-generic-password -a ${USER} -s raycast-bitwarden
 ```
 
-> Manipulating your session token directly, via either the command line or the Keychain Access UI is discouraged. See below for troubleshooting if you choose to do so anyway.
+You can manually remove your session token with:
+
+```sh
+$ security delete-generic-password -a ${USER} -s raycast-bitwarden
+```
+
+> **IMPORTANT:**<br/>
+>Removing your session token will only prevent this package from interacting with your vault. The Bitwarden vault itself will remain unlocked, and accessible via the Bitwarden CLI by including the `--session {{ token }}` argument when executing commands.
+
+New session tokens can only be created using the Bitwarden CLI. Creating a new session token will invalidate any tokens created previously. To create a new session token, use [the `bw login` command](https://bitwarden.com/help/article/cli/#logging-in) if not already authenticated, otherwise use [the `bw unlock` command](https://bitwarden.com/help/article/cli/#locking). To restore access to the vault via this package after creating a new session token, run:
+
+```sh
+security add-generic-password -U -a ${USER} -s raycast-bitwarden -w {{ token }}
+```
 
 ### Troubleshooting
 
-If you use the Bitwarden CLI and/or `security` command in your command line, or the Keychain Access UI to manipulate your session token (and therefore your vault's lock or authentication status), you may encounter errors using this package. In the event that the _Vault Status_ command does not align with the CLI status' output, try running the _Log Out_ command, or:
+If you use the Bitwarden CLI and/or `security` command in your command line, or the Keychain Access UI to manipulate your session token (and therefore your vault's lock status, from the perspective of this package), you may encounter errors using package commands. In the event that the _Vault Status_ command does not align with the CLI status' output, try running the _Log Out_ command, or:
 
 ```sh
 $ bw logout && security delete-generic-password -a ${USER} -s raycast-bitwarden
 ```
-Then, log in and unlock again using the _Log In_ script.
 
-> For more information on session management, see the [Bitwarden CLI documentation](https://bitwarden.com/help/article/cli/#session-management).
+This will invalidate any existing session tokens and remove them from your keychain. You may then create a new session token, and store it accordingly, using the _Log In_ command.
