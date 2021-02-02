@@ -18,6 +18,8 @@ Additional installation options are available in the tools' respective documenta
 
 <img src="./images/log-in.png">
 
+This command executes in `silent` mode, and both authenticates and unlocks a Bitwarden vault.
+
 This is the only template command in the package. **If you use multifactor authentication to log in to Bitwarden, be sure to set the value of the `MFA_METHOD` variable.** The [values available to use](https://bitwarden.com/help/article/cli/#enums) are:
 
 | MFA Method        | Value |
