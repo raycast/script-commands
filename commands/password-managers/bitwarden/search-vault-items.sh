@@ -22,6 +22,16 @@
 # @raycast.authorURL https://github.com/PSalant726
 # @raycast.description Search all items in a Bitwarden vault.
 
+if ! command -v bw &> /dev/null; then
+  echo "The Bitwarden CLI is not installed (https://bitwarden.com/help/article/cli/)."
+  echo "Install via Homebrew with 'brew install bitwarden-cli'"
+  exit 1
+elif ! command -v jq &> /dev/null; then
+  echo "The jq utility is not installed (https://stedolan.github.io/jq/)."
+  echo "Install via Homebrew with 'brew install jq'"
+  exit 1
+fi
+
 token=$(security find-generic-password -a ${USER} -s raycast-bitwarden -w 2> /dev/null)
 token_status=$?
 

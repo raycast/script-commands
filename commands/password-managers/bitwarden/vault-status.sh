@@ -32,6 +32,14 @@
 # @raycast.authorURL https://github.com/PSalant726
 # @raycast.description Display the authentication and lock status of the user's Bitwarden vault.
 
+if ! command -v bw &> /dev/null; then
+  echo "⚠️  The Bitwarden CLI is not installed"
+  exit 1
+elif ! command -v jq &> /dev/null; then
+  echo "⚠️  The jq utility is not installed"
+  exit 1
+fi
+
 token=$(security find-generic-password -a ${USER} -s raycast-bitwarden -w 2> /dev/null)
 token_status=$?
 
@@ -68,7 +76,7 @@ case $(bw --raw status $session 2> /dev/null | jq -r '.status') in
     ;;
 
   *)
-    echo "❌  An error occurred. Please try again."
+    echo "⚠️  An error occurred. Please try again."
     unset $token
     exit 1
     ;;

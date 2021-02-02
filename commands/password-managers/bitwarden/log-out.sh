@@ -19,5 +19,10 @@
 # @raycast.authorURL https://github.com/PSalant726
 # @raycast.description Log out of a Bitwarden vault.
 
+if ! command -v bw &> /dev/null; then
+  echo "The Bitwarden CLI is not installed."
+  exit 1
+fi
+
 security delete-generic-password -a ${USER} -s raycast-bitwarden > /dev/null 2>&1
 bw logout

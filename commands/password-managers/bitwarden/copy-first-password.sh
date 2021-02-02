@@ -21,6 +21,14 @@
 # @raycast.authorURL https://github.com/PSalant726
 # @raycast.description Search all items in a Bitwarden vault, and copy the password of the first matching item to the clipboard.
 
+if ! command -v bw &> /dev/null; then
+  echo "The Bitwarden CLI is not installed."
+  exit 1
+elif ! command -v jq &> /dev/null; then
+  echo "The jq utility is not installed."
+  exit 1
+fi
+
 token=$(security find-generic-password -a ${USER} -s raycast-bitwarden -w 2> /dev/null)
 token_status=$?
 

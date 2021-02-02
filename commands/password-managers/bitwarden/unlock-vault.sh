@@ -30,6 +30,11 @@
 # @raycast.authorURL https://github.com/PSalant726
 # @raycast.description Unlock an authenticated Bitwarden vault.
 
+if ! command -v bw &> /dev/null; then
+  echo "The Bitwarden CLI is not installed."
+  exit 1
+fi
+
 out=$(bw --raw unlock $1)
 status=$?
 

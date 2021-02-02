@@ -30,6 +30,11 @@ MFA_METHOD=""
 # @raycast.authorURL https://github.com/PSalant726
 # @raycast.description Log in to a Bitwarden vault.
 
+if ! command -v bw &> /dev/null; then
+  echo "The Bitwarden CLI is not installed."
+  exit 1
+fi
+
 if [ -n "$MFA_METHOD" ]; then
   mfa="--method $MFA_METHOD --code $3"
 fi
