@@ -8,7 +8,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Copy First Password
+# @raycast.title Copy First Matching Password
 # @raycast.mode silent
 #
 # Optional parameters:
@@ -19,7 +19,7 @@
 # Documentation
 # @raycast.author Phil Salant
 # @raycast.authorURL https://github.com/PSalant726
-# @raycast.description Search all items in a Bitwarden vault, and copy the password of the first matching item to the clipboard.
+# @raycast.description Search all items in a Bitwarden vault, and copy the password of the first search result to the clipboard.
 
 if ! command -v bw &> /dev/null; then
   echo "The Bitwarden CLI is not installed."

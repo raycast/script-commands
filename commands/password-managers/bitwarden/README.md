@@ -4,7 +4,7 @@ A package of script commands to interact with a [Bitwarden](https://bitwarden.co
 
 ## Dependencies
 
-All commands in this package require the [Bitwarden CLI](https://bitwarden.com/help/article/cli/). The _Vault Status_, _Search Vault Items_, and _Copy First Password_ commands also require the [`jq` utility](https://stedolan.github.io/jq/). Install both via homebrew:
+All commands in this package require the [Bitwarden CLI](https://bitwarden.com/help/article/cli/). The _Vault Status_, _Search Vault Items_, and _Copy First Matching Password_ commands also require the [`jq` utility](https://stedolan.github.io/jq/). Install both via homebrew:
 
 ```sh
 $ brew install bitwarden-cli jq
@@ -86,9 +86,9 @@ This command executes in `fullOutput` mode, searches **items** in the unlocked B
 
 Passwords are omitted by default. Pass `y` as the value of the `Include Passwords?` argument to include them. You can modify the above format using the `output_format` variable.
 
-### Copy First Password
+### Copy First Matching Password
 
-<img src="./images/copy-first-password.png">
+<img src="./images/copy-first-matching-password.png">
 
 This command executes in `silent` mode, searches the unlocked Bitwarden vault, and copies the password associated with the first search result to the clipboard.
 
