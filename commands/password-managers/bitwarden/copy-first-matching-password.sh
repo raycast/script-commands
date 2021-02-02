@@ -45,7 +45,7 @@ if [ $unlocked_status -ne 0 ]; then
   exit 1
 fi
 
-item=$(bw get item $1 $session 2> /dev/null | jq ". | { name: .name, password: .login.password }")
+item=$(bw list items --search $1 $session 2> /dev/null | jq ".[0] | { name: .name, password: .login.password }")
 name=$(echo $item | jq ".name")
 password=$(echo $item | jq -r ".password")
 
@@ -55,5 +55,6 @@ if [[ -z $name || -z $password ]]; then
 fi
 
 echo $password | pbcopy
+unset $password
 echo "Copied the password for '$name' to the clipboard."
 exit 0
