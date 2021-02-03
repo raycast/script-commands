@@ -170,6 +170,24 @@
         {
           "authors" : [
             {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Use [Peekalink.io](https:\/\/peekalink.io) API to peek specified URL.",
+          "filename" : "peekalink.sh",
+          "icon" : "images\/peekalink-logo.png",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Internet",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Peek a link"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Kirill Gorbachyonok",
               "url" : "https:\/\/github.com\/japanese-goblinn"
             }
@@ -3831,5 +3849,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-02-02T09:03:54Z"
+  "updatedAt" : "2021-02-03T07:53:03Z"
 }
