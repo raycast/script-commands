@@ -89,6 +89,7 @@ This repository contains sample commands and documentation to write your own one
 | 🧭 | [Copy Current Page URL](browsing/safari-current-page-url.sh) | This script copies URL of currently opened page in Safari into clipboard. | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
 | 🧭 | [Copy Current Window URLs](browsing/safari-current-window-urls.applescript) | This script copies to clipboard all URLs from frontmost Safari window. | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/browsing/images/outline.png?raw=true" width="20" height="20"> | [Go to Outline](browsing/go-to-outine.sh) | Open the website at Outline | [Ronan Rodrigo Nunes](ronanrodrigo.dev) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/browsing/images/peekalink-logo.png?raw=true" width="20" height="20"> | [Peek a link](browsing/peekalink.sh) | Use [Peekalink.io](https://peekalink.io) API to peek specified URL. | [Caleb Stauffer](https://github.com/crstauf) |
 | 🖼️ | [Screenshot Website](browsing/website-screenshots.sh) | Takes screenshots of the entered URL using [`pageres`](https://github.com/sindresorhus/pageres) and saves it to the Desktop. | [Caleb Stauffer](https://github.com/crstauf) |
 | 🔗 | [Shorten URL From Clipboard](browsing/shorten-url.sh) | Shorten the URL in your Clipboard with Tiny URL. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
 
