@@ -56,7 +56,7 @@ if [ $token_status -eq 0 ]; then
   session="--session $token"
 fi
 
-case $(bw --raw status $session 2> /dev/null | jq -r '.status') in
+case $(bw --raw status $session 2> /dev/null | jq --raw-output '.status') in
   unauthenticated)
     delete_token
     echo "❌  Logged out"
