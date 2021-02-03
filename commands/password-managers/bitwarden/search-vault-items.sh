@@ -49,10 +49,10 @@ if [ $unlocked_status -ne 0 ]; then
 fi
 
 password=""
-fields=", fields: [.fields[]? | select(.type != 1)]"
+fields=", fields: [[.fields[]? | select(.type != 1)][]? | { name, value }]"
 if [[ -n $2 && $2 == "y" ]]; then
   password="password: .login.password,"
-  fields=", fields"
+  fields=", fields: [.fields[]? | { name, value }]"
 fi
 
 output_format="{ name, username: .login.username, $password uris: [.login.uris[]?.uri], lastUpdated: .revisionDate, notes $fields }"

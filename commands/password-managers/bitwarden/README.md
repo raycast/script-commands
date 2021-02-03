@@ -64,7 +64,8 @@ This command executes in `fullOutput` mode, searches **items** in the unlocked B
 {
   "name": "Service Name",
   "username": "username",
-  "password": "password", // optional password
+  // optional password
+  "password": "password",
   "uris": [
     "https://www.example.com",
     "https://www.another-example.com"
@@ -72,19 +73,21 @@ This command executes in `fullOutput` mode, searches **items** in the unlocked B
   "lastUpdated": "2020-11-29T20:39:56.509Z",
   "notes": "Notes appear here",
   "fields": [
-    {                                   //
-      "name": "Custom Field Name 1",    //   optional
-      "value": "Custom Field Value 1",  // hidden field
-      "type": 1                         //  (type = 1)
-    },                                  //
+    {
+      "name": "Custom Field Name 1",
+      "value": "Custom Field Value 1",
+      "type": 0
+    },
+    // Optional hidden field
     {
       "name": "Custom Field Name 2",
       "value": "Custom Field Value 2",
-      "type": 0
+      "type": 1
     }
   ]
 }
 ```
+> The `"type"` property of `fields` objects are not included in the actual output. They are displayed here to illustrate that the first field is not a hidden field, but the second field is.
 
 Passwords and hidden fields are omitted by default. Pass `y` as the value of the `Include Passwords?` argument to include them. You can modify the above format using the `output_format` variable.
 
