@@ -119,14 +119,14 @@ In `inline` mode, the first line of output will be directly shown in the command
 
 ![Custom Arguments](images/screenshots/custom-arguments.png)
 
-Use `argument[1..3]` metadata to specify custom arguments that will be displayed as inputs in the search bar when the script is selected. Value of the argument metadata paratmeter should be valid json with these fields:
+Use `argument[1..3]` metadata to specify custom arguments that will be displayed as inputs in the search bar when the script is selected. The value of the argument metadata parameter should be valid json with these fields:
 
 | Field         | Description                                                                                                                                                                                 | Required | App Version |
 |---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|-------------|
 | type          | Input type. For now only "text" value available.                                                                                                                                            | Yes      | 1.2.0+      |
 | placeholder   | Placeholder for the input field.                                                                                                                                                            | Yes      | 1.2.0+      |
-| optional      | Set to `true` if you want to mark argument as optional. When not provided, argument is considered to be required (Raycast will not allow to execute the script if argument input is empty)  | No       | 1.3.0+      |
-| percentEncoded| Set to `true` if you want Raycast to perform percent encoding on the argument value before passing it to the script. Can be handy for scripts that pass argument directly to URL query  | No       | 1.4.0+      |
+| optional      | Set to `true` if you want to mark the argument as optional. When not provided, the argument is considered to be required (Raycast will not allow to execute the script if the argument input is empty)  | No       | 1.3.0+      |
+| percentEncoded| Set to `true` if you want Raycast to perform percent encoding on the argument value before passing it to the script. Can be handy for scripts that pass the argument directly to URL query  | No       | 1.4.0+      |
 
 **Maximum number of arguments:** 3 (if you feel it's not enough for your use case, please let us know via feedback or in the [Slack community](https://www.raycast.com/community))
 
@@ -154,7 +154,7 @@ Check the [templates](templates/) for additional examples with other script lang
 
 ### Error Handling
 
-If the script exits with a status code not equal to 0, Raycast interprets it as failed and shows a toast that the script failed to run. If this script has inline or compact mode, the last line of the output will be used as an error message. Consider this example for bash script:
+If the script exits with a status code not equal to 0, Raycast interprets it as failed and shows a toast that the script failed to run. If this script has inline or compact mode, the last line of the output will be used as an error message. Consider this example for a bash script:
 ```bash
 if ! [[ $value =~ $regex ]] ; then
   echo "Invalid value provided"
