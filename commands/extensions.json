@@ -2106,6 +2106,147 @@
       ]
     },
     {
+      "name" : "Password Managers",
+      "path" : "password-managers",
+      "scriptCommands" : [
+
+      ],
+      "subGroups" : [
+        {
+          "name" : "Bitwarden",
+          "path" : "bitwarden",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Search all items in a Bitwarden vault, and copy the password of the first search result to the clipboard.",
+              "filename" : "copy-first-matching-password.sh",
+              "icon" : "images\/bitwarden.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Copy First Matching Password"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Lock a Bitwarden vault.",
+              "filename" : "lock-vault.sh",
+              "icon" : "images\/bitwarden.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Lock Vault"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Search all items in a Bitwarden vault.",
+              "filename" : "search-vault-items.sh",
+              "icon" : "images\/bitwarden.png",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Search Vault Items"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Log out of a Bitwarden vault.",
+              "filename" : "log-out.sh",
+              "icon" : "images\/bitwarden.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Log Out"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Unlock an authenticated Bitwarden vault.",
+              "filename" : "unlock-vault.sh",
+              "icon" : "images\/bitwarden.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Unlock Vault"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Log in to a Bitwarden vault.",
+              "filename" : "log-in.template.sh",
+              "icon" : "images\/bitwarden.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Log In"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Display the authentication and lock status of the user's Bitwarden vault.",
+              "filename" : "vault-status.sh",
+              "icon" : "images\/bitwarden.png",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "refreshTime" : "5m",
+              "schemaVersion" : 1,
+              "title" : "Vault Status"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name" : "Communication",
       "path" : "communication",
       "scriptCommands" : [
@@ -3849,5 +3990,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-02-03T07:53:03Z"
+  "updatedAt" : "2021-02-03T08:26:40Z"
 }

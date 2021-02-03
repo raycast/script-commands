@@ -39,6 +39,8 @@ This repository contains sample commands and documentation to write your own one
   - [Cmus](#cmus)
   - [Spotify](#spotify)
 - [Navigation](#navigation)
+- [Password Managers](#password-managers)
+  - [Bitwarden](#bitwarden)
 - [System](#system)
 - [Web Searches](#web-searches)
   - [Wordpress](#wordpress)
@@ -324,6 +326,20 @@ This repository contains sample commands and documentation to write your own one
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/navigation/images/bear.png?raw=true" width="20" height="20"> | [Search in Bear](navigation/search-in-bear.sh) | N/A | Jax0rz |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/navigation/images/dash.png?raw=true" width="20" height="20"> | [Search in Dash](navigation/search-in-dash.sh) | N/A | Jax0rz |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/navigation/images/devdocs.png?raw=true" width="20" height="20"> | [Search in Devdocs](navigation/search-in-devdocs.sh) | N/A | Jax0rz |
+
+## Password Managers
+
+#### Bitwarden
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png?raw=true" width="20" height="20"> | [Copy First Matching Password](password-managers/bitwarden/copy-first-matching-password.sh) | Search all items in a Bitwarden vault, and copy the password of the first search result to the clipboard. | [Phil Salant](https://github.com/PSalant726) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png?raw=true" width="20" height="20"> | [Lock Vault](password-managers/bitwarden/lock-vault.sh) | Lock a Bitwarden vault. | [Phil Salant](https://github.com/PSalant726) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png?raw=true" width="20" height="20"> | [Log In](password-managers/bitwarden/log-in.template.sh) | Log in to a Bitwarden vault. | [Phil Salant](https://github.com/PSalant726) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png?raw=true" width="20" height="20"> | [Log Out](password-managers/bitwarden/log-out.sh) | Log out of a Bitwarden vault. | [Phil Salant](https://github.com/PSalant726) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png?raw=true" width="20" height="20"> | [Search Vault Items](password-managers/bitwarden/search-vault-items.sh) | Search all items in a Bitwarden vault. | [Phil Salant](https://github.com/PSalant726) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png?raw=true" width="20" height="20"> | [Unlock Vault](password-managers/bitwarden/unlock-vault.sh) | Unlock an authenticated Bitwarden vault. | [Phil Salant](https://github.com/PSalant726) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png?raw=true" width="20" height="20"> | [Vault Status](password-managers/bitwarden/vault-status.sh) | Display the authentication and lock status of the user's Bitwarden vault. | [Phil Salant](https://github.com/PSalant726) |
 
 ## System
 
