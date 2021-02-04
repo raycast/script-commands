@@ -1,6 +1,110 @@
 {
   "groups" : [
     {
+      "name" : "Home",
+      "path" : "home",
+      "scriptCommands" : [
+        {
+          "authors" : [
+            {
+              "name" : "Thomas Paul Mann",
+              "url" : "https:\/\/github.com\/thomaspaulmann"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Decrease brightness of Elgato Key Light by 5%.",
+          "filename" : "elgato-key-light-decrease-brightness.template..rb",
+          "icon" : "images\/elgato.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Elgato Key Light",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Decrease Brightness"
+        }
+      ],
+      "subGroups" : [
+        {
+          "name" : "Elgato",
+          "path" : "elgato",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Increase brightness of Elgato Key Light by 5%.",
+              "filename" : "elgato-key-light-increase-brightness.template.rb",
+              "icon" : "images\/elgato.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Elgato Key Light",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Increase Brightness"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Turn on Elgato Key Light.",
+              "filename" : "elgato-key-light-turn-on.template.rb",
+              "icon" : "images\/elgato.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Elgato Key Light",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Turn On"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Turn off Elgato Key Light.",
+              "filename" : "elgato-key-light-turn-off.template.rb",
+              "icon" : "images\/elgato.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Elgato Key Light",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Turn Off"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Decrease brightness of Elgato Key Light by 5%.",
+              "filename" : "elgato-key-light-decrease-brightness.template..rb",
+              "icon" : "images\/elgato.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Elgato Key Light",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Decrease Brightness"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name" : "Conversions",
       "path" : "conversions",
       "scriptCommands" : [
@@ -176,7 +280,7 @@
           ],
           "currentDirectoryPath" : null,
           "description" : "Use [Peekalink.io](https:\/\/peekalink.io) API to peek specified URL.",
-          "filename" : "peekalink.sh",
+          "filename" : "peekalink.template.sh",
           "icon" : "images\/peekalink-logo.png",
           "mode" : "fullOutput",
           "needsConfirmation" : null,
@@ -4008,5 +4112,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-02-04T08:48:06Z"
+  "updatedAt" : "2021-02-04T20:25:30Z"
 }

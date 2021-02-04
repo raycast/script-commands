@@ -33,6 +33,8 @@ This repository contains sample commands and documentation to write your own one
   - [Google](#google)
   - [Ip](#ip)
   - [Sentry](#sentry)
+- [Home](#home)
+  - [Elgato](#elgato)
 - [Media](#media)
   - [Apple Music](#apple-music)
   - [Apple Tv](#apple-tv)
@@ -91,7 +93,7 @@ This repository contains sample commands and documentation to write your own one
 | 🧭 | [Copy Current Page URL](browsing/safari-current-page-url.sh) | This script copies URL of currently opened page in Safari into clipboard. | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
 | 🧭 | [Copy Current Window URLs](browsing/safari-current-window-urls.applescript) | This script copies to clipboard all URLs from frontmost Safari window. | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/browsing/images/outline.png?raw=true" width="20" height="20"> | [Go to Outline](browsing/go-to-outine.sh) | Open the website at Outline | [Ronan Rodrigo Nunes](ronanrodrigo.dev) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/browsing/images/peekalink-logo.png?raw=true" width="20" height="20"> | [Peek a link](browsing/peekalink.sh) | Use [Peekalink.io](https://peekalink.io) API to peek specified URL. | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/browsing/images/peekalink-logo.png?raw=true" width="20" height="20"> | [Peek a link](browsing/peekalink.template.sh) | Use [Peekalink.io](https://peekalink.io) API to peek specified URL. | [Caleb Stauffer](https://github.com/crstauf) |
 | 🖼️ | [Screenshot Website](browsing/website-screenshots.sh) | Takes screenshots of the entered URL using [`pageres`](https://github.com/sindresorhus/pageres) and saves it to the Desktop. | [Caleb Stauffer](https://github.com/crstauf) |
 | 🔗 | [Shorten URL From Clipboard](browsing/shorten-url.sh) | Shorten the URL in your Clipboard with Tiny URL. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
 
@@ -255,6 +257,21 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/sentry/images/sentry.png?raw=true" width="20" height="20"> | [Unresolved Issues](developer-utils/sentry/sentry-unresolved-issues.template.py) | Show unresolved issues of the last 24 hours from Sentry. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/sentry/images/sentry.png?raw=true" width="20" height="20"> | [Unresolved Issues By Project](developer-utils/sentry/sentry-unresolved-issues-by-project.template.py) | Show unresolved issues in the last 24 hours (by project) from Sentry. | [Phil Salant](https://github.com/PSalant726) and [Thomas Paul Mann](https://github.com/thomaspaulmann) |
+
+## Home
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/home/images/elgato.png?raw=true" width="20" height="20"> | [Decrease Brightness](home/elgato-key-light-decrease-brightness.template..rb) | Decrease brightness of Elgato Key Light by 5%. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
+
+#### Elgato
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/home/elgato/images/elgato.png?raw=true" width="20" height="20"> | [Decrease Brightness](home/elgato/elgato-key-light-decrease-brightness.template..rb) | Decrease brightness of Elgato Key Light by 5%. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/home/elgato/images/elgato.png?raw=true" width="20" height="20"> | [Increase Brightness](home/elgato/elgato-key-light-increase-brightness.template.rb) | Increase brightness of Elgato Key Light by 5%. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/home/elgato/images/elgato.png?raw=true" width="20" height="20"> | [Turn Off](home/elgato/elgato-key-light-turn-off.template.rb) | Turn off Elgato Key Light. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/home/elgato/images/elgato.png?raw=true" width="20" height="20"> | [Turn On](home/elgato/elgato-key-light-turn-on.template.rb) | Turn on Elgato Key Light. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
 
 ## Media
 
