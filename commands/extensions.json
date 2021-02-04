@@ -538,6 +538,24 @@
         {
           "authors" : [
             {
+              "name" : "Clark Dinnison",
+              "url" : "https:\/\/github.com\/cdinnison"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Get current Ethereum price from CoinGecko.",
+          "filename" : "ethereum-price-usd.sh",
+          "icon" : "images\/ethereum-logo.png",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Dashboard",
+          "refreshTime" : "1h",
+          "schemaVersion" : 1,
+          "title" : "Ethereum Price"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Thomas Paul Mann",
               "url" : "https:\/\/github.com\/thomaspaulmann"
             }
@@ -3990,5 +4008,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-02-03T08:26:40Z"
+  "updatedAt" : "2021-02-04T08:48:06Z"
 }
