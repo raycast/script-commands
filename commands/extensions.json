@@ -4,24 +4,7 @@
       "name" : "Home",
       "path" : "home",
       "scriptCommands" : [
-        {
-          "authors" : [
-            {
-              "name" : "Thomas Paul Mann",
-              "url" : "https:\/\/github.com\/thomaspaulmann"
-            }
-          ],
-          "currentDirectoryPath" : null,
-          "description" : "Decrease brightness of Elgato Key Light by 5%.",
-          "filename" : "elgato-key-light-decrease-brightness.template..rb",
-          "icon" : "images\/elgato.png",
-          "mode" : "silent",
-          "needsConfirmation" : null,
-          "packageName" : "Elgato Key Light",
-          "refreshTime" : null,
-          "schemaVersion" : 1,
-          "title" : "Decrease Brightness"
-        }
+
       ],
       "subGroups" : [
         {
@@ -91,7 +74,7 @@
               ],
               "currentDirectoryPath" : null,
               "description" : "Decrease brightness of Elgato Key Light by 5%.",
-              "filename" : "elgato-key-light-decrease-brightness.template..rb",
+              "filename" : "elgato-key-light-decrease-brightness.template.rb",
               "icon" : "images\/elgato.png",
               "mode" : "silent",
               "needsConfirmation" : null,
@@ -4112,5 +4095,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-02-04T20:25:30Z"
+  "updatedAt" : "2021-02-04T21:24:07Z"
 }
