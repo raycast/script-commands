@@ -260,15 +260,11 @@ This repository contains sample commands and documentation to write your own one
 
 ## Home
 
-| Icon | Title | Description | Author |
-| ---- | ----- | ----------- | ------ |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/home/images/elgato.png?raw=true" width="20" height="20"> | [Decrease Brightness](home/elgato-key-light-decrease-brightness.template..rb) | Decrease brightness of Elgato Key Light by 5%. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
-
 #### Elgato
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/home/elgato/images/elgato.png?raw=true" width="20" height="20"> | [Decrease Brightness](home/elgato/elgato-key-light-decrease-brightness.template..rb) | Decrease brightness of Elgato Key Light by 5%. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/home/elgato/images/elgato.png?raw=true" width="20" height="20"> | [Decrease Brightness](home/elgato/elgato-key-light-decrease-brightness.template.rb) | Decrease brightness of Elgato Key Light by 5%. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/home/elgato/images/elgato.png?raw=true" width="20" height="20"> | [Increase Brightness](home/elgato/elgato-key-light-increase-brightness.template.rb) | Increase brightness of Elgato Key Light by 5%. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/home/elgato/images/elgato.png?raw=true" width="20" height="20"> | [Turn Off](home/elgato/elgato-key-light-turn-off.template.rb) | Turn off Elgato Key Light. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/home/elgato/images/elgato.png?raw=true" width="20" height="20"> | [Turn On](home/elgato/elgato-key-light-turn-on.template.rb) | Turn on Elgato Key Light. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
