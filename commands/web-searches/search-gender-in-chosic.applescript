@@ -8,7 +8,7 @@
 
 # Optional parameters:
 # @raycast.packageName Web Searches
-# @raycast.icon https://cdn.iconscout.com/icon/free/png-512/spotify-11-432546.png
+# @raycast.icon images/chosic.png
 
 # Documentation:
 # @raycast.description Find the current Spotify track's gender in Chosic
