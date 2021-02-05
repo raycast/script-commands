@@ -3,7 +3,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Chosic Genre Finder
+# @raycast.title Search Genre in Chosic
 # @raycast.mode inline
 
 # Optional parameters:
