@@ -19,12 +19,12 @@ tell application "Spotify"
 	try
 		set spotifyURI to spotify url of the current track
 		set trackName to name of the current track
-		set artist to artist of the current track
+		set trackArtist to artist of the current track
 	end try
 end tell
 
 set AppleScript's text item delimiters to ":"
-set id to third text item of spotifyURI
+set trackID to third text item of spotifyURI
 
-log trackName & " ~ " & artist
-open location "https://www.chosic.com/music-genre-finder/?track=" & id
+log trackName & " ~ " & trackArtist
+open location "https://www.chosic.com/music-genre-finder/?track=" & trackID
