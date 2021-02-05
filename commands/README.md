@@ -35,6 +35,7 @@ This repository contains sample commands and documentation to write your own one
   - [Sentry](#sentry)
 - [Home](#home)
   - [Elgato](#elgato)
+- [Math](#math)
 - [Media](#media)
   - [Apple Music](#apple-music)
   - [Apple Tv](#apple-tv)
@@ -268,6 +269,12 @@ This repository contains sample commands and documentation to write your own one
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/home/elgato/images/elgato.png?raw=true" width="20" height="20"> | [Increase Brightness](home/elgato/elgato-key-light-increase-brightness.template.rb) | Increase brightness of Elgato Key Light by 5%. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/home/elgato/images/elgato.png?raw=true" width="20" height="20"> | [Turn Off](home/elgato/elgato-key-light-turn-off.template.rb) | Turn off Elgato Key Light. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/home/elgato/images/elgato.png?raw=true" width="20" height="20"> | [Turn On](home/elgato/elgato-key-light-turn-on.template.rb) | Turn on Elgato Key Light. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
+
+## Math
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| 📈 | [Calculate Growth %](math/calculate-growth.sh) | Calculate percentage increase between "from" and "to" values. | [Petr Nikolaev](https://github.com/pitnikola) |
 
 ## Media
 

@@ -565,6 +565,30 @@
       ]
     },
     {
+      "name" : "Math",
+      "path" : "math",
+      "scriptCommands" : [
+        {
+          "authors" : [
+            {
+              "name" : "Petr Nikolaev",
+              "url" : "https:\/\/github.com\/pitnikola"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Calculate percentage increase between \"from\" and \"to\" values.",
+          "filename" : "calculate-growth.sh",
+          "icon" : "📈",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Calculate Growth",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Calculate Growth %"
+        }
+      ]
+    },
+    {
       "name" : "Dashboard",
       "path" : "dashboard",
       "scriptCommands" : [
@@ -4095,5 +4119,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-02-04T21:24:07Z"
+  "updatedAt" : "2021-02-05T13:49:19Z"
 }
