@@ -7,7 +7,7 @@
 # @raycast.mode inline
 
 # Optional parameters:
-# @raycast.packageName Spotify
+# @raycast.packageName Web Searches
 # @raycast.icon https://cdn.iconscout.com/icon/free/png-512/spotify-11-432546.png
 
 # Documentation:
