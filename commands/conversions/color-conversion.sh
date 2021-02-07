@@ -3,7 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Color Conversion
-# @raycast.mode silent
+# @raycast.mode fullOutput
 # @raycast.packageName Conversions
 
 # Optional parameters:
@@ -18,28 +18,23 @@
 # @raycast.author quelhasu
 # @raycast.authorURL https://github.com/quelhasu
 
-color=$(echo "$1" | tr '[:upper:]' '[:lower:]')
-to_format=$(echo "$2" | tr '[:upper:]' '[:lower:]')
-
-if [ "${color:0:1}" = "#" ]; then
-  hex=$(echo "${color:1:6}")
-elif [ "${color:0:4}" = "rgba" ]; then
-  RGBA=$(echo "$color" | awk -F '[()]' '{print $2}')
-  IFS=,
-  set $RGBA
-  R=$1
-  G=$2
-  B=$3
-  A=$4
-  hex=$(printf "%02x%02x%02x" "$R" "$G" "$B")
-elif [ "${color:0:3}" = "rgb" ]; then
-  RGB=$(printf "$color" | awk -F '[()]' '{print $2}')
+function rgbToHex() {
+  RGB=$(echo "$1" | awk -F '[()]' '{print $2}')
   IFS=,
   set $RGB
   R=$1
   G=$2
   B=$3
-  hex=$(printf "%02x%02x%02x" "$R" "$G" "$B")
+  printf "%02x%02x%02x" "$R" "$G" "$B"
+}
+
+color=$(echo "$1" | tr '[:upper:]' '[:lower:]')
+to_format=$(echo "$2" | tr '[:upper:]' '[:lower:]')
+
+if [ "${color:0:1}" = "#" ]; then
+  hex=$(echo "${color:1:6}")
+elif [ "${color:0:4}" = "rgba" ] || [ "${color:0:3}" = "rgb" ]; then
+  hex=$(rgbToHex $color)
 else
   echo "Color format unknown"
 fi
@@ -65,6 +60,5 @@ esac
 
 if [ "${transformed_color}" ]; then
   echo $transformed_color | pbcopy
-
   echo "Color ${color} -> ${transformed_color}"
 fi
