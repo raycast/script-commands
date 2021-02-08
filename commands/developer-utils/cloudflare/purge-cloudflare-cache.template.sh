@@ -18,6 +18,21 @@ cf_api_key=''
 # @raycast.packageName Developer Utilities
 # @raycast.schemaVersion 1
 
+if [ -z ${cf_zone_id+x} ]; then
+	echo "Zone ID is missing.";
+	exit 1;
+fi
+
+if [ -z ${cf_email_address+x} ]; then
+	echo "Email address is missing.";
+	exit 1;
+fi
+
+if [ -z ${cf_api_key+x} ]; then
+	echo "API key is missing.";
+	exit 1;
+fi
+
 curl -X POST "https://api.cloudflare.com/client/v4/zones/${cf_zone_id}/purge_cache" \
      -H "X-Auth-Email: $cf_email_address" \
      -H "X-Auth-Key: $cf_api_key" \
