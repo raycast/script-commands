@@ -8,10 +8,9 @@
 
 # Optional parameters:
 # @raycast.icon 🎨
-# @raycast.currentDirectoryPath ~
 # @raycast.needsConfirmation false
-# @raycast.argument1 { "type": "text", "placeholder": "Color (e.g. #FFEEFF)" }
-# @raycast.argument2 { "type": "text", "placeholder": "New format (e.g. RGB)" }
+# @raycast.argument1 { "type": "text", "placeholder": "Color (e.g. #FFEEFF | RGB(..) | RGBA(..))" }
+# @raycast.argument2 { "type": "text", "placeholder": "New format (e.g. RGB | RGBA | HEX)" }
 
 # Documentation:
 # @raycast.description Convert color formats (e.g. #FFEEFF -> rgba(255,238,255,1)
@@ -54,7 +53,7 @@ hex)
   ;;
 
 *)
-  echo "Select a correct format!"
+  echo "Use correct format {HEX|RGBA|RGB}"
   ;;
 esac
 
