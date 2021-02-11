@@ -143,6 +143,24 @@
         {
           "authors" : [
             {
+              "name" : "quelhasu",
+              "url" : "https:\/\/github.com\/quelhasu"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Convert color formats (e.g. #FFEEFF -> rgba(255,238,255,1)",
+          "filename" : "color-conversion.sh",
+          "icon" : "🎨",
+          "mode" : "fullOutput",
+          "needsConfirmation" : false,
+          "packageName" : "Conversions",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Color Conversion"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Siyuan Zhang",
               "url" : "https:\/\/github.com\/kastnerorz"
             }
@@ -182,6 +200,24 @@
       "name" : "Browsing",
       "path" : "browsing",
       "scriptCommands" : [
+        {
+          "authors" : [
+            {
+              "name" : "Nitin Gupta",
+              "url" : "https:\/\/twitter.com\/gniting"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Transform the clipboard contents to a short Bitly URL",
+          "filename" : "shorten-url-bitly.template.sh",
+          "icon" : "🔗",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Browsing",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Shorten URL with Bitly"
+        },
         {
           "authors" : [
             {
@@ -1873,6 +1909,30 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Lighthouse"
+            }
+          ]
+        },
+        {
+          "name" : "Cloudflare",
+          "path" : "cloudflare",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Purge Cloudflare cache for zone.",
+              "filename" : "purge-cloudflare-cache.template.sh",
+              "icon" : "images\/cloudflare-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Developer Utilities",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Purge Cloudflare cache"
             }
           ]
         },
@@ -4119,5 +4179,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-02-05T13:49:19Z"
+  "updatedAt" : "2021-02-11T21:26:54Z"
 }

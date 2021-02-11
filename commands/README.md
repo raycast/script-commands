@@ -28,6 +28,7 @@ This repository contains sample commands and documentation to write your own one
 - [Developer Utils](#developer-utils)
   - [Aws](#aws)
   - [Brew](#brew)
+  - [Cloudflare](#cloudflare)
   - [Github](#github)
   - [Gitlab](#gitlab)
   - [Google](#google)
@@ -97,6 +98,7 @@ This repository contains sample commands and documentation to write your own one
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/browsing/images/peekalink-logo.png?raw=true" width="20" height="20"> | [Peek a link](browsing/peekalink.template.sh) | Use [Peekalink.io](https://peekalink.io) API to peek specified URL. | [Caleb Stauffer](https://github.com/crstauf) |
 | 🖼️ | [Screenshot Website](browsing/website-screenshots.sh) | Takes screenshots of the entered URL using [`pageres`](https://github.com/sindresorhus/pageres) and saves it to the Desktop. | [Caleb Stauffer](https://github.com/crstauf) |
 | 🔗 | [Shorten URL From Clipboard](browsing/shorten-url.sh) | Shorten the URL in your Clipboard with Tiny URL. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
+| 🔗 | [Shorten URL with Bitly](browsing/shorten-url-bitly.template.sh) | Transform the clipboard contents to a short Bitly URL | [Nitin Gupta](https://twitter.com/gniting) |
 
 ## Communication
 
@@ -141,6 +143,7 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
+| 🎨 | [Color Conversion](conversions/color-conversion.sh) | Convert color formats (e.g. #FFEEFF -> rgba(255,238,255,1) | [quelhasu](https://github.com/quelhasu) |
 |  | [Column to Comma](conversions/column-to-comma.sh) | N/A | Raycast |
 | ⏱ | [Convert Epoch to Human-Readable Date](conversions/epoch-to-human-date.sh) | Convert epoch to human-readable date. | [Siyuan Zhang](https://github.com/kastnerorz) |
 | ⏱ | [Convert Human-Readable Date To Epoch](conversions/human-date-to-epoch.sh) | Convert human-readable date to timestamp epoch. | [Siyuan Zhang](https://github.com/kastnerorz) |
@@ -215,6 +218,12 @@ This repository contains sample commands and documentation to write your own one
 | 🍺 | [Start Service](developer-utils/brew/brew-services-start.sh) | Start Service in Brew | [Thiago Holanda](https://twitter.com/tholanda) |
 | 🍺 | [Stop Service](developer-utils/brew/brew-services-stop.sh) | Stop Service in Brew | [Thiago Holanda](https://twitter.com/tholanda) |
 | 🍺 | [Upgrade](developer-utils/brew/brew-upgrade.sh) | Run Brew Upgrade | [Thiago Holanda](https://twitter.com/tholanda) |
+
+#### Cloudflare
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/cloudflare/images/cloudflare-logo.png?raw=true" width="20" height="20"> | [Purge Cloudflare cache](developer-utils/cloudflare/purge-cloudflare-cache.template.sh) | Purge Cloudflare cache for zone. | [Caleb Stauffer](https://github.com/crstauf) |
 
 #### Github
 
