@@ -10,6 +10,6 @@
 
 # Optional parameters:
 # @raycast.icon images/wikipedia.png
-# @raycast.argument1 { "type": "text", "placeholder": "关键词...", "percentEncoded": true }
+# @raycast.argument1 { "type": "text", "placeholder": "Search term...", "percentEncoded": true }
 
-open "https://zh.wikipedia.org/w/index.php?search=$1"
+open "https://wikipedia.org/w/index.php?search=$1"
