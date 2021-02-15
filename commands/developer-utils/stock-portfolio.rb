@@ -17,7 +17,6 @@
 # @raycast.description Keep track of your stock portfolio.
 
 
-
 # Configuration
 
 SYMBOLS = [
