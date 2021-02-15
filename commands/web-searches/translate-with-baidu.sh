@@ -12,4 +12,4 @@
 # @raycast.icon images/baidu-translate.png
 # @raycast.argument1 { "type": "text", "placeholder": "keyword", "percentEncoded": true }
 
-open "https://fanyi.baidu.com/#lit/zh/$1"
+open "https://fanyi.baidu.com/#en/zh/$1"
