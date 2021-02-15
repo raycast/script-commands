@@ -1775,6 +1775,24 @@
         {
           "authors" : [
             {
+              "name" : "Thomas Paul Mann",
+              "url" : "https:\/\/github.com\/thomaspaulmann"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Keep track of your stock portfolio.",
+          "filename" : "stock-portfolio.rb",
+          "icon" : "📈",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Stock Portfolio",
+          "refreshTime" : "1h",
+          "schemaVersion" : 1,
+          "title" : "Stocks"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Sven Hofmann",
               "url" : "https:\/\/github.com\/hofmannsven"
             }
@@ -3284,6 +3302,24 @@
         {
           "authors" : [
             {
+              "name" : "quelhasu",
+              "url" : "https:\/\/github.com\/quelhasu"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Find the current Spotify track's gender in Chosic",
+          "filename" : "search-gender-in-chosic.applescript",
+          "icon" : "images\/chosic.png",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search Genre in Chosic"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Jesse Traynham",
               "url" : "https:\/\/github.com\/traynham"
             }
@@ -4179,5 +4215,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-02-11T21:26:54Z"
+  "updatedAt" : "2021-02-15T16:00:47Z"
 }
