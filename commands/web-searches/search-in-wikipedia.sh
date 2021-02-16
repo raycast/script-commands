@@ -12,4 +12,6 @@
 # @raycast.icon images/wikipedia.png
 # @raycast.argument1 { "type": "text", "placeholder": "Search term...", "percentEncoded": true }
 
-open "https://wikipedia.org/w/index.php?search=$1"
+domain="zh"
+
+open "https://$domain.wikipedia.org/w/index.php?search=$1"
