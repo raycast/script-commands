@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.author sunbufu
-# @authorURL https://sunbufu.github.io/
+# @raycast.authorURL https://sunbufu.github.io/
 # @raycast.schemaVersion 1
 # @raycast.title Search in Jingdong
 # @raycast.mode silent
