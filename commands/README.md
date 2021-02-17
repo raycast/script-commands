@@ -180,6 +180,7 @@ This repository contains sample commands and documentation to write your own one
 | 🔑 | [Add SSH Keys (with Terminal)](developer-utils/add-ssh-keys.template.applescript) | Add one or multiple SSH keys to your SSH agent (with Terminal). | [Caleb Stauffer](https://github.com/crstauf) |
 | 🧹 | [Clear Derived Data](developer-utils/clear-derived-data.sh) | Clear the derived data of Xcode. | Raycast |
 | 📝 | [Copy Lorem Ipsum](developer-utils/lorem-ipsum.sh) | Copy one paragraph of Lorem Ipsum to clipboard. | Raycast |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/./images/ray-so.png?raw=true" width="20" height="20"> | [Create Image from Code](developer-utils/create-image-from-code.sh) | Create beautiful images of your code with https://ray.so | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
 | 💻 | [Decode Base64](developer-utils/decode-base64.sh) | Decodes clipboard content to Base64 and copies it again. | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/images/jwt-logo.png?raw=true" width="20" height="20"> | [Decode JWT](developer-utils/decode-jwt.sh) | Decodes JSON web token from the clipboard. | Raycast |
 | 💻 | [Decode URL](developer-utils/decode-url.sh) | Decodes clipboard content url and copies it again. | Raycast |

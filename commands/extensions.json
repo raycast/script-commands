@@ -1703,6 +1703,24 @@
           "title" : "Run Pa11y"
         },
         {
+          "authors" : [
+            {
+              "name" : "Thomas Paul Mann",
+              "url" : "https:\/\/github.com\/thomaspaulmann"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Create beautiful images of your code with https:\/\/ray.so",
+          "filename" : "create-image-from-code.sh",
+          "icon" : ".\/images\/ray-so.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Create Image From Code",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Create Image from Code"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : "Copy one paragraph of Lorem Ipsum to clipboard.",
@@ -4215,5 +4233,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-02-15T16:08:49Z"
+  "updatedAt" : "2021-02-17T08:17:21Z"
 }
