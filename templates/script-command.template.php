@@ -24,4 +24,6 @@
 # @raycast.author Your name
 # @raycast.authorURL An URL for one of your social medias
 
+<?php
+
 print("Hello World!");
