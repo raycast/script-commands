@@ -34,5 +34,7 @@ else
 fi
 
 CODE=$(pbpaste | base64)
+# Urlencode any + symbols in the base64 encoded string
+CODE=${CODE//+/%2B}
 
 open "https://ray.so/?colors=$COLORS&background=$BACKGROUND&darkMode=$DARK_MODE&padding=$PADDING&title=$TITLE&code=$CODE"
