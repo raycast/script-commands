@@ -28,7 +28,7 @@ while true; do
   URL=$(osascript -e 'tell application "Chrome" to URL of active tab of first window as text')
 
   # First, we'll check if we are still on the Google Meet page.
-  if [[ $URL != "https://meet.google.com"* ]]; then    echo "1"
+  if [[ $URL != "https://meet.google.com"* ]]; then
     continue
   fi
 
