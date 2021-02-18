@@ -8,11 +8,11 @@
 // Required parameters:
 // @raycast.schemaVersion 1
 // @raycast.title Search Google Maps
-// @raycast.mode fullOutput
-// @raycast.packageName Raycast Scripts
+// @raycast.mode silent
+// @raycast.packageName Google Maps
 //
 // Optional parameters:
-// @raycast.icon 🗺
+// @raycast.icon google-map.png
 // @raycast.argument1 { "type": "text", "placeholder": "Location", "optional": true  }
 // @raycast.argument2 { "type": "text", "placeholder": "Destination", "optional": true }
 //
