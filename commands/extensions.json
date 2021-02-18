@@ -2874,6 +2874,24 @@
         {
           "authors" : [
             {
+              "name" : "sunbufu",
+              "url" : "https:\/\/sunbufu.github.io\/"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "translate-with-baidu.template.sh",
+          "icon" : "images\/baidu-translate.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Translate with Baidu"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Andrei Borisov",
               "url" : "https:\/\/github.com\/andreiborisov"
             }
@@ -3022,6 +3040,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search Unsplash"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "sunbufu",
+              "url" : "https:\/\/sunbufu.github.io\/"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "translate-with-google.template.sh",
+          "icon" : "images\/google-translate.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Translate with Google"
         },
         {
           "authors" : null,
@@ -3179,6 +3215,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search in Ecosia"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "sunbufu",
+              "url" : "https:\/\/sunbufu.github.io\/"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "search-in-jingdong.sh",
+          "icon" : "images\/jingdong.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in Jingdong"
         },
         {
           "authors" : null,
@@ -4233,5 +4287,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-02-17T08:17:21Z"
+  "updatedAt" : "2021-02-18T16:44:29Z"
 }
