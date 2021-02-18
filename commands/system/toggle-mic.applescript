@@ -10,6 +10,8 @@
 # @raycast.icon 🎙
 
 # Documentation:
+# @raycast.author Matthew Morek
+# @raycast.authorURL https://github.com/matthewmorek
 # @raycast.description Toggles microphone.
 
 
