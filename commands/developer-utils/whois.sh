@@ -7,7 +7,7 @@
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.author Ronan Rodrigo Nunes
-# @raycast.authorURL ronanrodrigo.dev
+# @raycast.authorURL https://ronanrodrigo.dev
 
 # @raycast.description Whois of URL.
 
