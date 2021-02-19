@@ -28,8 +28,8 @@
 # @raycast.icon images/run-bash-command.png
 # @raycast.currentDirectoryPath ~
 # @raycast.packageName Bash Command
-# @raycast.argument1 { "type": "text", "placeholder": "dir (blank = finder dir)", "optional": true }
-# @raycast.argument2 { "type": "text", "placeholder": "enter your command (blank = open Terminal)", "optional": true }
+# @raycast.argument1 { "type": "text", "placeholder": "dir (blank: finder dir)", "optional": true }
+# @raycast.argument2 { "type": "text", "placeholder": "cmd (blank: open Terminal)", "optional": true }
 
 dir="${1/#\~/$HOME}"
 cmd="$2"
