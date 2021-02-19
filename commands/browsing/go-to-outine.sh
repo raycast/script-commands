@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # @raycast.author Ronan Rodrigo Nunes
-# @raycast.authorURL ronanrodrigo.dev
+# @raycast.authorURL https://ronanrodrigo.dev
 # @raycast.packageName Browsing
 # @raycast.schemaVersion 1
 # @raycast.title Go to Outline
