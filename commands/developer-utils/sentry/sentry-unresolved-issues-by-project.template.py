@@ -50,9 +50,25 @@ if not ORGANIZATION:
 import json, sys, urllib.request
 from datetime import datetime as dt
 
+colors = {
+  'ok': '\033[92m',
+  'error': '\033[91m',
+  'end': '\033[0m',
+  'warn': '\033[93m',
+}
+
+def error(message):
+  return f"{colors['error']}{message}{colors['end']}"
+
+def ok(message):
+  return f"{colors['ok']}{message}{colors['end']}"
+
+def warn(message):
+  return f"{colors['warn']}{message}{colors['end']}"
+
 project = sys.argv[1]
 if not project:
-  print("No Sentry project provided")
+  print(error("No Sentry project provided"))
   exit(1)
 
 request = urllib.request.Request(
@@ -64,22 +80,20 @@ request = urllib.request.Request(
 try:
   response = urllib.request.urlopen(request)
 except urllib.error.HTTPError as e:
-  print("Failed to get unresolved issues from Sentry:")
-  print(e.code, e.reason)
+  print(f"{error('Failed to get unresolved issues from Sentry:')} {e.code} {e.reason}")
   exit(1)
 except urllib.error.URLError as e:
-  print("Failed to reach Sentry:")
-  print("Error:", e.reason)
+  print(f"{error('Failed to reach Sentry:')} {e.reason}")
   exit(1)
 else:
   unresolved_issues = json.loads(response.read().decode("utf-8"))
   unresolved_issues_count = len(unresolved_issues)
 
   if unresolved_issues_count == 0:
-    print("No unresolved issues in the last 24 hours.")
+    print(ok("No unresolved issues in the last 24 hours."))
   else:
     issue_text = "issue" if unresolved_issues_count == 1 else "issues"
-    print(f"{unresolved_issues_count} unresolved {issue_text} in the last 24 hours:")
+    print(error(f"{unresolved_issues_count} unresolved {issue_text} in the last 24 hours:\n"))
 
     for i, issue in enumerate(unresolved_issues, 1):
       last_seen = dt.strptime(issue['lastSeen'], "%Y-%m-%dT%H:%M:%S.%fZ")
