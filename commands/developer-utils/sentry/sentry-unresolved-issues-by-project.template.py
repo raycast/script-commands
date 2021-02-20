@@ -31,19 +31,22 @@
 # @raycast.authorURL https://github.com/thomaspaulmann
 # @raycast.description Show unresolved issues in the last 24 hours (by project) from Sentry.
 
-
-# Configuration
+#########################
+##### Configuration #####
+#########################
 
 # API token with `project:read` scope (https://sentry.io/settings/account/api/auth-tokens/)
 API_TOKEN = ""
-if not API_TOKEN:
-  print("No API token provided")
-  exit(1)
 
 # Slug of organization the issues belong to
 ORGANIZATION = ""
+
+if not API_TOKEN:
+  print(error("No API token provided"))
+  exit(1)
+
 if not ORGANIZATION:
-  print("No Sentry organization provided")
+  print(error("No Sentry organization provided"))
   exit(1)
 
 # Main program
