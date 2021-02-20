@@ -56,4 +56,4 @@ if [[ -n $2 && $2 == "y" ]]; then
 fi
 
 output_format="{ name, username: .login.username, $password uris: [.login.uris[]?.uri], lastUpdated: .revisionDate, notes $fields }"
-bw list items $session_args --search "$1" | jq ".[] | $output_format"
+bw list items $session_args --search "$1" | jq --color-output "map($output_format)"
