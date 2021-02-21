@@ -601,6 +601,25 @@
       ]
     },
     {
+      "name" : "Google Maps",
+      "path" : "google-maps",
+      "scriptCommands" : [
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "google-maps.sh",
+          "icon" : "google-map.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Google Maps",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search Google Maps"
+        }
+      ]
+    },
+    {
       "name" : "Math",
       "path" : "math",
       "scriptCommands" : [
@@ -1976,6 +1995,24 @@
           "name" : "Brew",
           "path" : "brew",
           "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Alex Zotov",
+                  "url" : "https:\/\/github.com\/lex4hex"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Installs specified brew package.",
+              "filename" : "brew-install.sh",
+              "icon" : "🍺",
+              "mode" : "fullOutput",
+              "needsConfirmation" : true,
+              "packageName" : "Brew",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Install a package"
+            },
             {
               "authors" : [
                 {
@@ -4287,5 +4324,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-02-18T16:44:29Z"
+  "updatedAt" : "2021-02-21T20:30:09Z"
 }

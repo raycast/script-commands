@@ -34,6 +34,7 @@ This repository contains sample commands and documentation to write your own one
   - [Google](#google)
   - [Ip](#ip)
   - [Sentry](#sentry)
+- [Google Maps](#google-maps)
 - [Home](#home)
   - [Elgato](#elgato)
 - [Math](#math)
@@ -215,6 +216,7 @@ This repository contains sample commands and documentation to write your own one
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
 | 🍺 | [Doctor](developer-utils/brew/brew-doctor.sh) | Run Brew Doctor | [Thiago Holanda](https://twitter.com/tholanda) |
+| 🍺 | [Install a package](developer-utils/brew/brew-install.sh) | Installs specified brew package. | [Alex Zotov](https://github.com/lex4hex) |
 | 🍺 | [Outdated List](developer-utils/brew/brew-outdated.sh) | Show list of outdated formulae | [Thiago Holanda](https://twitter.com/tholanda) |
 | 🍺 | [Services List](developer-utils/brew/brew-services-list.sh) | Show Brew Services List | [Thiago Holanda](https://twitter.com/tholanda) |
 | 🍺 | [Start Service](developer-utils/brew/brew-services-start.sh) | Start Service in Brew | [Thiago Holanda](https://twitter.com/tholanda) |
@@ -269,6 +271,12 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/sentry/images/sentry.png?raw=true" width="20" height="20"> | [Unresolved Issues](developer-utils/sentry/sentry-unresolved-issues.template.py) | Show unresolved issues of the last 24 hours from Sentry. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/sentry/images/sentry.png?raw=true" width="20" height="20"> | [Unresolved Issues By Project](developer-utils/sentry/sentry-unresolved-issues-by-project.template.py) | Show unresolved issues in the last 24 hours (by project) from Sentry. | [Phil Salant](https://github.com/PSalant726) and [Thomas Paul Mann](https://github.com/thomaspaulmann) |
+
+## Google Maps
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/google-maps/google-map.png?raw=true" width="20" height="20"> | [Search Google Maps](google-maps/google-maps.sh) | N/A | Raycast |
 
 ## Home
 
