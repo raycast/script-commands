@@ -99,7 +99,8 @@ else:
     print(error(f"{unresolved_issues_count} unresolved {issue_text} in the last 24 hours:\n"))
 
     for i, issue in enumerate(unresolved_issues, 1):
-      last_seen = dt.strptime(issue['lastSeen'], "%Y-%m-%dT%H:%M:%S.%fZ")
+      last_seen = dt.strptime(issue['lastSeen'], "%Y-%m-%dT%H:%M:%S.%fZ").strftime('%b %d, %Y at %I:%M %p')
 
-      print(f"  {i}. {issue['title']} ({last_seen.strftime('%b %d, %Y at %I:%M %p')})")
-      print(f"     {issue['permalink']}\n")
+      print(f"{i}. {warn(issue['title'])}")
+      print(f"   Last seen {last_seen}.")
+      print(f"   {issue['permalink']}\n")
