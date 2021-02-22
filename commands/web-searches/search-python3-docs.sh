@@ -10,6 +10,6 @@
 # @raycast.packageName Web Searches
 # @raycast.schemaVersion 1
 
-# @raycast.argument1 { "type": "text", "placeholder": "Title" }
+# @raycast.argument1 { "type": "text", "placeholder": "Title", “percentEncoded”: true }
 
-open "https://docs.python.org/3/search.html?q=${1// /+}"
+open "https://docs.python.org/3/search.html?q=${1}"
