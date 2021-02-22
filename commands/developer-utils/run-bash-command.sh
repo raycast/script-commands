@@ -18,7 +18,7 @@
 #
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title >
+# @raycast.title Run Command
 # @raycast.description Run arbitrary bash command and return output in Raycast.
 # @raycast.mode fullOutput
 # @raycast.author Boyang Xu
