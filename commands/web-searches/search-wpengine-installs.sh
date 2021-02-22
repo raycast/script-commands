@@ -10,6 +10,6 @@
 # @raycast.packageName Web Searches
 # @raycast.schemaVersion 1
 
-# @raycast.argument1 { "type": "text", "placeholder": "Query" }
+# @raycast.argument1 { "type": "text", "placeholder": "Query", "percentEncoded": true }
 
-open "https://my.wpengine.com/omni_search?q=${1// /%20}"
+open "https://my.wpengine.com/omni_search?q=${1}"

@@ -11,6 +11,6 @@
 # @raycast.packageName WordPress
 # @raycast.schemaVersion 1
 
-# @raycast.argument1 { "type": "text", "placeholder": "Function name" }
+# @raycast.argument1 { "type": "text", "placeholder": "Function name", "percentEncoded": true }
 
-open "https://developer.wordpress.org/reference/functions/${1// /%20}/"
+open "https://developer.wordpress.org/reference/functions/${1}/"

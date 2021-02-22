@@ -10,6 +10,6 @@
 # Optional parameters:
 # @raycast.icon images/giphy.png
 # @raycast.packageName Web searches
-# @raycast.argument1 { "type": "text", "placeholder": "search" }
+# @raycast.argument1 { "type": "text", "placeholder": "search", "percentEncoded": true }
 
-open "https://giphy.com/search/${1// /%20}"
+open "https://giphy.com/search/${1}"

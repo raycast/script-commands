@@ -10,6 +10,6 @@
 # Optional parameters:
 # @raycast.icon 📦
 # @raycast.packageName Web Searches
-# @raycast.argument1 { "type": "text", "placeholder": "package name" }
+# @raycast.argument1 { "type": "text", "placeholder": "package name", "percentEncoded": true }
 
-open "http://ghub.io/${1// /%20}"
+open "http://ghub.io/${1}"
