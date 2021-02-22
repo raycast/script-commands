@@ -11,6 +11,6 @@
 # @raycast.packageName WordPress
 # @raycast.schemaVersion 1
 
-# @raycast.argument1 { "type": "text", "placeholder": "Query" }
+# @raycast.argument1 { "type": "text", "placeholder": "Query", "percentEncoded": true }
 
-open "https://wordpress.org/search/${1// /%20}?in=developer_documentation"
+open "https://wordpress.org/search/${1}?in=developer_documentation"

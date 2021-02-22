@@ -12,7 +12,7 @@
 
 # Optional parameters:
 # @raycast.packageName Slack
-# @raycast.argument1 { "type": "text", "placeholder": "number of minutes" }
+# @raycast.argument1 { "type": "text", "placeholder": "number of minutes", "percentEncoded": true}
 # @raycast.icon images/slack-logo.png
 
 # Documentation:
@@ -31,7 +31,7 @@
 API_TOKEN="XXXXXX"
 
 # Minutes until the the status will expire
-STATUS_EXPIRATION_IN_MINUTES="${1// /%20}"
+STATUS_EXPIRATION_IN_MINUTES="${1}"
 
 
 # Main program

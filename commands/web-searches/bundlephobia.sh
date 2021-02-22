@@ -10,6 +10,6 @@
 # Optional parameters:
 # @raycast.icon 📦
 # @raycast.packageName Web Searches
-# @raycast.argument1 { "type": "text", "placeholder": "package name" }
+# @raycast.argument1 { "type": "text", "placeholder": "package name", "percentEncoded": true }
 
-open "https://bundlephobia.com/result?p=${1// /%20}"
+open "https://bundlephobia.com/result?p=${1}"

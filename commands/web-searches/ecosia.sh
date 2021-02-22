@@ -8,11 +8,11 @@
 
 # Optional parameters:
 # @raycast.icon images/ecosia.png
-# @raycast.argument1 { "type": "text", "placeholder": "query" }
+# @raycast.argument1 { "type": "text", "placeholder": "query", "percentEncoded": true }
 
 # Documentation:
 # @raycast.author Sasivarnan R
 # @raycast.authorURL https://github.com/sasivarnan
 
 
-open "https://www.ecosia.org/search?q=${1// /%20}"
+open "https://www.ecosia.org/search?q=${1}"

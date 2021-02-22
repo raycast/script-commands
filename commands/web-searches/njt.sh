@@ -10,6 +10,6 @@
 # Optional parameters:
 # @raycast.icon 🐸
 # @raycast.packageName Web Searches
-# @raycast.argument1 { "type": "text", "placeholder": "package-name [destination]" }
+# @raycast.argument1 { "type": "text", "placeholder": "package-name [destination]", "percentEncoded": true }
 
-open "https://njt.now.sh/jump?from=raycast&to=${1// /%20}"
+open "https://njt.now.sh/jump?from=raycast&to=${1}"
