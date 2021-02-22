@@ -2,9 +2,9 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Open directory in VSCode
+# @raycast.title Open Directory
 # @raycast.mode silent
-# @raycast.packageName Developer Utilities
+# @raycast.packageName VS Code
 #
 # Optional parameters:
 # @raycast.icon images/vscode.png
