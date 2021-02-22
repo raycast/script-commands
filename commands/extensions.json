@@ -3569,6 +3569,42 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search in Taobao"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Lucas Costa",
+              "url" : "https:\/\/github.com\/lucasrcosta"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search Python Package Index (PyPI)",
+          "filename" : "search-pypi.sh",
+          "icon" : "images\/pip.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search Python Package Index (PyPI)"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Lucas Costa",
+              "url" : "https:\/\/github.com\/lucasrcosta"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search Python 3 Documentation",
+          "filename" : "search-python3-docs.sh",
+          "icon" : "images\/python.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search Python 3 Documentation"
         }
       ],
       "subGroups" : [
@@ -4414,5 +4450,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-02-22T23:08:56Z"
+  "updatedAt" : "2021-02-22T23:14:09Z"
 }
