@@ -1884,6 +1884,24 @@
         {
           "authors" : [
             {
+              "name" : "chohner",
+              "url" : "https:\/\/github.com\/chohner"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Opens current topmost directory in VSCode",
+          "filename" : "open-folder-in-vscode.applescript",
+          "icon" : "images\/vscode.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "VS Code",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open Directory"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Sven Hofmann",
               "url" : "https:\/\/github.com\/hofmannsven"
             }
@@ -4396,5 +4414,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-02-22T09:57:54Z"
+  "updatedAt" : "2021-02-22T23:08:56Z"
 }
