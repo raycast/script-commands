@@ -195,6 +195,7 @@ This repository contains sample commands and documentation to write your own one
 | 🔐 | [Generate Password](developer-utils/generate-password.sh) | Generates a random password and copies it to the clipboard. | [Sven Hofmann](https://github.com/hofmannsven) |
 | 💻 | [Generate UUID](developer-utils/generate-uuid.sh) | Generates a UUID and copies it to the clipboard. | Raycast |
 | 🩺 | [Is It Up?](developer-utils/is-it-up.sh) | Check if a website is up | [Jesse Claven](https://github.com/jesse-c) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/images/vscode.png?raw=true" width="20" height="20"> | [Open Directory](developer-utils/open-folder-in-vscode.applescript) | Opens current topmost directory in VSCode | [chohner](https://github.com/chohner) |
 | 🌐 | [Ping](developer-utils/ping.sh) | Ping an IP address or URL. | [Caleb Stauffer](https://github.com/crstauf) |
 | 🌐 | [Ping Monitor](developer-utils/ping-monitor.template.sh) | Ping an IP address or URL on an interval. | [Caleb Stauffer](https://github.com/crstauf) |
 | 💻 | [Prettify JSON](developer-utils/prettify-json.sh) | Pretty prints the JSON currently in the clipboard. | Raycast |
