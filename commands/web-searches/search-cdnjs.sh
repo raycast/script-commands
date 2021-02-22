@@ -10,6 +10,6 @@
 # @raycast.packageName Web Searches
 # @raycast.schemaVersion 1
 
-# @raycast.argument1 { "type": "text", "placeholder": "Library" }
+# @raycast.argument1 { "type": "text", "placeholder": "Library", "percentEncoded": true }
 
-open "https://cdnjs.com/libraries?q=${1// /%20}"
+open "https://cdnjs.com/libraries?q=${1}"
