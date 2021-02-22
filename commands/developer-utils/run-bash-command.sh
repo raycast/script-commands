@@ -26,7 +26,6 @@
 #
 # Optional parameters:
 # @raycast.icon images/run-bash-command.png
-# @raycast.currentDirectoryPath ~
 # @raycast.packageName Bash Command
 # @raycast.argument1 { "type": "text", "placeholder": "dir (blank: finder dir)", "optional": true }
 # @raycast.argument2 { "type": "text", "placeholder": "cmd (blank: open Terminal)", "optional": true }
