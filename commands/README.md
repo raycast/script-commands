@@ -95,7 +95,7 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ |
 | 🧭 | [Copy Current Page URL](browsing/safari-current-page-url.sh) | This script copies URL of currently opened page in Safari into clipboard. | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
 | 🧭 | [Copy Current Window URLs](browsing/safari-current-window-urls.applescript) | This script copies to clipboard all URLs from frontmost Safari window. | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/browsing/images/outline.png?raw=true" width="20" height="20"> | [Go to Outline](browsing/go-to-outine.sh) | Open the website at Outline | [Ronan Rodrigo Nunes](ronanrodrigo.dev) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/browsing/images/outline.png?raw=true" width="20" height="20"> | [Go to Outline](browsing/go-to-outine.sh) | Open the website at Outline | [Ronan Rodrigo Nunes](https://ronanrodrigo.dev) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/browsing/images/peekalink-logo.png?raw=true" width="20" height="20"> | [Peek a link](browsing/peekalink.template.sh) | Use [Peekalink.io](https://peekalink.io) API to peek specified URL. | [Caleb Stauffer](https://github.com/crstauf) |
 | 🖼️ | [Screenshot Website](browsing/website-screenshots.sh) | Takes screenshots of the entered URL using [`pageres`](https://github.com/sindresorhus/pageres) and saves it to the Desktop. | [Caleb Stauffer](https://github.com/crstauf) |
 | 🔗 | [Shorten URL From Clipboard](browsing/shorten-url.sh) | Shorten the URL in your Clipboard with Tiny URL. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
@@ -150,6 +150,7 @@ This repository contains sample commands and documentation to write your own one
 | ⏱ | [Convert Human-Readable Date To Epoch](conversions/human-date-to-epoch.sh) | Convert human-readable date to timestamp epoch. | [Siyuan Zhang](https://github.com/kastnerorz) |
 | 🎨 | [Hex to RGB](conversions/hex-to-rgb.sh) | Convert hexadecimal color value to RGB value. | [Caleb Stauffer](https://github.com/crstauf) |
 | 🎨 | [Hex to RGBA](conversions/hex-to-rgba.sh) | Convert hexadecimal color value to RGBA value. | [Caleb Stauffer](https://github.com/crstauf) |
+| 📅 | [What Day Is...](conversions/what-day-is.py) | Return the day of the week on which a particular date falls. | [Phil Salant](https://github.com/PSalant726) |
 
 ## Dashboard
 
@@ -188,6 +189,7 @@ This repository contains sample commands and documentation to write your own one
 | 🌍 | [Dig](developer-utils/dig.sh) | Perform a dig command with the specified options | Tommaso Panozzo |
 | 💻 | [Encode Base64](developer-utils/encode-base64.sh) | Encodes clipboard content to Base64 and copies it again. | Raycast |
 | 💻 | [Encode URL](developer-utils/encode-url.sh) | Encodes clipboard content url and copies it again. | Raycast |
+| ℹ️ | [Error Info](developer-utils/error-info.sh) | Get info about Apple API errors | [Ronan Rodrigo Nunes](https://ronanrodrigo.dev) |
 | 💻 | [Escape String for Shell](developer-utils/escape-shell-chars.sh) | Escapes shell character string and copies it again. | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/images/swift.png?raw=true" width="20" height="20"> | [Format Swift](developer-utils/format-swift.sh) | Use [swiftformat](https://github.com/nicklockwood/SwiftFormat) to format clipboard content. | [Dean Moore](https://github.com/moored) |
 | 🔐 | [Generate Password](developer-utils/generate-password.sh) | Generates a random password and copies it to the clipboard. | [Sven Hofmann](https://github.com/hofmannsven) |
@@ -203,7 +205,7 @@ This repository contains sample commands and documentation to write your own one
 | 🔎 | [Search Script Command](developer-utils/search-script-command.swift) | Search for Script Commands available in the Raycast repository | [Thiago Holanda](https://twitter.com/tholanda) |
 | 🔐 | [Strong Password Generator](developer-utils/strong-password-generator.sh) | Generate a strong password of requested character length | [Nitin Gupta](https://twitter.com/gniting) |
 | 🔠 | [Transform Case](developer-utils/transform-case.sh) | Transform the case of clipboard content. Defaults to lower case if no conversion type is specified. | [Nitin Gupta](https://twitter.com/gniting) |
-| 🌐 | [Whois](developer-utils/whois.sh) | Whois of URL. | [Caleb Stauffer](https://github.com/crstauf) and [Ronan Rodrigo Nunes](ronanrodrigo.dev) |
+| 🌐 | [Whois](developer-utils/whois.sh) | Whois of URL. | [Caleb Stauffer](https://github.com/crstauf) and [Ronan Rodrigo Nunes](https://ronanrodrigo.dev) |
 
 #### Aws
 
@@ -412,6 +414,7 @@ This repository contains sample commands and documentation to write your own one
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/system/images/bluetooth.png?raw=true" width="20" height="20"> | [Toggle Bluetooth](system/bluetooth.template.applescript) | Toggle your Bluetooth connection. | [Vincent Dörig](https://github.com/vincentdoerig) |
 | 🖥 | [Toggle Desktop Icons](system/toggle-desktop-icons.applescript) | A script command to show and hide icons of Desktop folder | [Raycast](https://raycast.com) |
 | 👓 | [Toggle Hidden Files](system/toggle-hidden-files.applescript) | Show and hide hidden files/folders which starts with "." (dot), i.e: .bash_rc, .ssh | [Thiago Holanda](https://twitter.com/tholanda) |
+| 🎙 | [Toggle Microphone](system/toggle-mic.applescript) | Toggles microphone. | [Matthew Morek](https://github.com/matthewmorek) |
 | 🌗 | [Toggle System Appearance](system/toggle-system-appearance.applescript) | Script Command to switch between the system appearance, light and dark mode. | [Thiago Holanda](https://twitter.com/tholanda) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/system/images/wifi-dark.png?raw=true" width="20" height="20"> | [Toggle Wi-Fi](system/wifi.template.applescript) | Toggle your Wi-Fi connection. | [Vincent Dörig](https://github.com/vincentdoerig) |
 | 😴 | [Turn Off Do Not Disturb](system/dnd-off.sh) | Turn off "do not disturb" mode. Does [not work on Big Sur](https://github.com/sindresorhus/do-not-disturb-cli/issues/2). | [Caleb Stauffer](https://github.com/crstauf) |
@@ -429,6 +432,7 @@ This repository contains sample commands and documentation to write your own one
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/chosic.png?raw=true" width="20" height="20"> | [Search Genre in Chosic](web-searches/search-gender-in-chosic.applescript) | Find the current Spotify track's gender in Chosic | [quelhasu](https://github.com/quelhasu) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/github-logo.png?raw=true" width="20" height="20"> | [Search GitHub](web-searches/search-github.sh) | Search [GitHub](https://github.com). | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/go.png?raw=true" width="20" height="20"> | [Search Go Package Documentation](web-searches/pkg-go-dev.sh) | Search pkg.go.dev for package documentation | [Phil Salant](https://github.com/PSalant726) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/imdb.png?raw=true" width="20" height="20"> | [Search IMDB](web-searches/search-imdb.sh) | Search IMDB. | [Lucas Costa](https://github.com/lucasrcosta) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/linkedin.png?raw=true" width="20" height="20"> | [Search LinkedIn](web-searches/search-linkedin.sh) | Search LinkedIn | [Nitin Gupta](https://twitter.com/gniting) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/mozilla-developer-network.png?raw=true" width="20" height="20"> | [Search MDN (Mozilla Developer Network)](web-searches/mozilla-developer-network.sh) | N/A | [Jon Callahan](https://www.joncallahan.com) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/netflix-logo.png?raw=true" width="20" height="20"> | [Search Netflix](web-searches/search-netflix.sh) | Search Netflix. | [Caleb Stauffer](https://github.com/crstauf) |

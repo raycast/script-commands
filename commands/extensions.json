@@ -107,6 +107,24 @@
         {
           "authors" : [
             {
+              "name" : "Phil Salant",
+              "url" : "https:\/\/github.com\/PSalant726"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Return the day of the week on which a particular date falls.",
+          "filename" : "what-day-is.py",
+          "icon" : "📅",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Conversions",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "What Day Is..."
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -240,7 +258,7 @@
           "authors" : [
             {
               "name" : "Ronan Rodrigo Nunes",
-              "url" : "ronanrodrigo.dev"
+              "url" : "https:\/\/ronanrodrigo.dev"
             }
           ],
           "currentDirectoryPath" : null,
@@ -1397,6 +1415,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Sleep"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Matthew Morek",
+              "url" : "https:\/\/github.com\/matthewmorek"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Toggles microphone.",
+          "filename" : "toggle-mic.applescript",
+          "icon" : "🎙",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle Microphone"
         }
       ]
     },
@@ -1537,7 +1573,7 @@
             },
             {
               "name" : "Ronan Rodrigo Nunes",
-              "url" : "ronanrodrigo.dev"
+              "url" : "https:\/\/ronanrodrigo.dev"
             }
           ],
           "currentDirectoryPath" : null,
@@ -1751,6 +1787,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Copy Lorem Ipsum"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Ronan Rodrigo Nunes",
+              "url" : "https:\/\/ronanrodrigo.dev"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Get info about Apple API errors",
+          "filename" : "error-info.sh",
+          "icon" : "ℹ️",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Error Info"
         },
         {
           "authors" : [
@@ -3316,6 +3370,24 @@
           "title" : "Search in DuckDuckGo"
         },
         {
+          "authors" : [
+            {
+              "name" : "Lucas Costa",
+              "url" : "https:\/\/github.com\/lucasrcosta"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search IMDB.",
+          "filename" : "search-imdb.sh",
+          "icon" : "images\/imdb.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search IMDB"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : null,
@@ -4324,5 +4396,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-02-21T20:30:09Z"
+  "updatedAt" : "2021-02-22T09:57:54Z"
 }
