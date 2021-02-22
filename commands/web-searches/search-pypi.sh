@@ -10,6 +10,6 @@
 # @raycast.packageName Web Searches
 # @raycast.schemaVersion 1
 
-# @raycast.argument1 { "type": "text", "placeholder": "Title" }
+# @raycast.argument1 { "type": "text", "placeholder": "Title", “percentEncoded”: true }
 
 open "https://pypi.org/search/?q=${1// /+}"
