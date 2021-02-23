@@ -10,7 +10,6 @@
 
 # Optional parameters:
 # @raycast.packageName Browsing
-# @raycast.icon 🧭
 
 # Documentation:
 # @raycast.author Yohanes Bandung Bondowoso
