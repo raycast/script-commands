@@ -10,6 +10,6 @@
 # Optional parameters:
 # @raycast.icon 🔗
 # @raycast.packageName Web Searches
-# @raycast.argument1 { "type": "text", "placeholder": "url" }
+# @raycast.argument1 { "type": "text", "placeholder": "url", "percentEncoded": true }
 
-open "https://unfurler.com/?url=${1// /%20}"
+open "https://unfurler.com/?url=${1}"

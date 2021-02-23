@@ -11,6 +11,6 @@
 # @raycast.packageName Web Searches
 # @raycast.schemaVersion 1
 
-# @raycast.argument1 { "type": "text", "placeholder": "Query" }
+# @raycast.argument1 { "type": "text", "placeholder": "Query", "percentEncoded": true }
 
-open "https://www.php.net/manual-lookup.php?pattern=${1// /%20}&scope=quickref"
+open "https://www.php.net/manual-lookup.php?pattern=${1}&scope=quickref"

@@ -8,6 +8,6 @@
 
 # Optional parameters:
 # @raycast.icon https://grep.app/favicon.ico
-# @raycast.argument1 { "type": "text", "placeholder": "query" }
+# @raycast.argument1 { "type": "text", "placeholder": "query", "percentEncoded": true }
 
-open "https://grep.app/search?q=${1// /%20}"
+open "https://grep.app/search?q=${1}"
