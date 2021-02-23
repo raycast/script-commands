@@ -14,7 +14,7 @@
 # Documentation:
 # @raycast.author Yohanes Bandung Bondowoso
 # @raycast.authorURL https://github.com/ybbond
-# @raycast.description Set Safari, Brave or Firefox as default browser.
+# @raycast.description Set Safari, Brave, Chrome or Firefox as default browser.
 
 tell application "System Events"
 	tell (first process whose frontmost is true)
