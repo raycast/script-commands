@@ -11,7 +11,7 @@ clean:
 	rm -rf $(TOOLKIT_PATH)/.build $(EXECUTABLE_NAME)
 
 build: clean
-	swift build -c release --disable-sandbox --arch x86_64 --package-path $(TOOLKIT_PATH)
+	swift build -c release --disable-sandbox --package-path $(TOOLKIT_PATH)
 	ln -s $(EXECUTABLE_PATH_RELEASE) $(EXECUTABLE_NAME)
 
 build-debug:
