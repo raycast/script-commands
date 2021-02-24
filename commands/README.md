@@ -200,6 +200,7 @@ This repository contains sample commands and documentation to write your own one
 | 🌐 | [Ping Monitor](developer-utils/ping-monitor.template.sh) | Ping an IP address or URL on an interval. | [Caleb Stauffer](https://github.com/crstauf) |
 | 💻 | [Prettify JSON](developer-utils/prettify-json.sh) | Pretty prints the JSON currently in the clipboard. | Raycast |
 | 📱 | [Record Simulator](developer-utils/record-simulator.sh) | Records simulator to Downloads folder | [Maxim Krouk](https://github.com/maximkrouk) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/images/run-bash-command.png?raw=true" width="20" height="20"> | [Run Command](developer-utils/run-bash-command.sh) | Run arbitrary bash command and return output in Raycast. | [Boyang Xu](https://github.com/BoyangMichael) |
 | 🛠 | [Run Command On Front Finder Window](developer-utils/run-command-in-finder.sh) | Runs the specified command in the path of the frontmost Finder window. | [Wesley Martin](https://github.com/itsmewes) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/images/pa11y-logo.png?raw=true" width="20" height="20"> | [Run Pa11y](developer-utils/pa11y.sh) | Run [Pa11y](https://github.com/pa11y/pa11y) web accessibility tool on specified path or URL. | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/images/ia-logo.jpg?raw=true" width="20" height="20"> | [Save URL to Wayback Machine](developer-utils/wayback-machine-save.sh) | Save URL to [Wayback Machine](https://web.archive.org/). | [Caleb Stauffer](https://github.com/crstauf) |
@@ -404,6 +405,7 @@ This repository contains sample commands and documentation to write your own one
 | ♻️ | [Restart](system/restart.applescript) | Restarts computer. | Raycast |
 | 🎨 | [Sample Colour](system/sample-colour.swift) | Sample a colour from anywhere on your screen. | [Jesse Claven](https://github.com/jesse-c) |
 | 🌀 | [Screen Saver](system/screensaver.applescript) | A script command to start your current screen saver. | [Valentin Chrétien](https://twitter.com/valentinchrt) |
+| 🧭 | [Set Frontmost App as Default Browser](system/default-browser-front-most-app.applescript) | Set Frontmost Web Browser as Default Browser. | [Yohanes Bandung Bondowoso](https://github.com/ybbond) |
 | 🛌 | [Shut Down](system/shutdown.applescript) | Shuts down computer. | Raycast |
 | 😴 | [Sleep](system/sleep.applescript) | Puts computer to sleep. | Raycast |
 | 🔊 | [Switch Audio to <Device Name>](system/audio-output-switch.template.applescript) | Switch audio output to desired device. | [mmerle](https://github.com/mmerle) |
@@ -448,7 +450,6 @@ This repository contains sample commands and documentation to write your own one
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/baidu.png?raw=true" width="20" height="20"> | [Search in Baidu](web-searches/search-in-baidu.sh) | N/A | Jax0rz |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/bilibili.png?raw=true" width="20" height="20"> | [Search in Bilibili](web-searches/search-in-bilibili.sh) | N/A | Jax0rz |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/crunchbase.png?raw=true" width="20" height="20"> | [Search in Crunchbase](web-searches/crunchbase.sh) | N/A | Raycast |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/devhints.png?raw=true" width="20" height="20"> | [Search in Devhints](web-searches/devhints.sh) | Search [Devhints.io](https://devhints.io) for cheatsheets | François |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/duck-duck-go.png?raw=true" width="20" height="20"> | [Search in DuckDuckGo](web-searches/duck-duck-go.sh) | N/A | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/ecosia.png?raw=true" width="20" height="20"> | [Search in Ecosia](web-searches/ecosia.sh) | N/A | [Sasivarnan R](https://github.com/sasivarnan) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/figma.png?raw=true" width="20" height="20"> | [Search in Figma](web-searches/figma.sh) | Search files in Figma | [Tanguy Le Stradic](https://github.com/tanguyls) |
@@ -461,6 +462,7 @@ This repository contains sample commands and documentation to write your own one
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/wikipedia.png?raw=true" width="20" height="20"> | [Search in Wikipedia](web-searches/search-in-wikipedia.sh) | N/A | Jax0rz |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/youtube.png?raw=true" width="20" height="20"> | [Search in YouTube](web-searches/youtube.sh) | N/A | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/zhihu.png?raw=true" width="20" height="20"> | [Search in Zhihu](web-searches/search-in-zhihu.sh) | N/A | Jax0rz |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/devhints.png?raw=true" width="20" height="20"> | [Search in devhints.io](web-searches/search-in-devhints.sh) | N/A | [Francois](https://github.com/AsterYujano) |
 | <img src="https://grep.app/favicon.ico" width="20" height="20"> | [Search in grep.app](web-searches/grep-app-search.sh) | N/A | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/npmjs.png?raw=true" width="20" height="20"> | [Search npm Packages](web-searches/npmjs.sh) | N/A | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/baidu-translate.png?raw=true" width="20" height="20"> | [Translate with Baidu](web-searches/translate-with-baidu.template.sh) | N/A | [sunbufu](https://sunbufu.github.io/) |
