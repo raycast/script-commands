@@ -9,9 +9,9 @@
 # Optional parameters:
 # @raycast.icon 📧
 # @raycast.packageName System
-# @raycast.argument1 { "type": "text", "placeholder": "To:", "optional": false, "percentEncoded": true }
+# @raycast.argument1 { "type": "text", "placeholder": "To:", "optional": true, "percentEncoded": true }
 # @raycast.argument2 { "type": "text", "placeholder": "Subject", "optional": true, "percentEncoded": true }
-# @raycast.argument3 { "type": "text", "placeholder": "Body", "optional": false, "percentEncoded": true }
+# @raycast.argument3 { "type": "text", "placeholder": "Body", "optional": true, "percentEncoded": true }
 
 # Documentation:
 # @raycast.description Opens default email application, and creates a new email with the given inputs.
