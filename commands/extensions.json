@@ -1,6 +1,93 @@
 {
   "groups" : [
     {
+      "name" : "Home",
+      "path" : "home",
+      "scriptCommands" : [
+
+      ],
+      "subGroups" : [
+        {
+          "name" : "Elgato",
+          "path" : "elgato",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Increase brightness of Elgato Key Light by 5%.",
+              "filename" : "elgato-key-light-increase-brightness.template.rb",
+              "icon" : "images\/elgato.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Elgato Key Light",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Increase Brightness"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Turn on Elgato Key Light.",
+              "filename" : "elgato-key-light-turn-on.template.rb",
+              "icon" : "images\/elgato.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Elgato Key Light",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Turn On"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Turn off Elgato Key Light.",
+              "filename" : "elgato-key-light-turn-off.template.rb",
+              "icon" : "images\/elgato.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Elgato Key Light",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Turn Off"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Decrease brightness of Elgato Key Light by 5%.",
+              "filename" : "elgato-key-light-decrease-brightness.template.rb",
+              "icon" : "images\/elgato.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Elgato Key Light",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Decrease Brightness"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name" : "Conversions",
       "path" : "conversions",
       "scriptCommands" : [
@@ -16,6 +103,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Column to Comma"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Phil Salant",
+              "url" : "https:\/\/github.com\/PSalant726"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Return the day of the week on which a particular date falls.",
+          "filename" : "what-day-is.py",
+          "icon" : "📅",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Conversions",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "What Day Is..."
         },
         {
           "authors" : [
@@ -52,6 +157,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Hex to RGB"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "quelhasu",
+              "url" : "https:\/\/github.com\/quelhasu"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Convert color formats (e.g. #FFEEFF -> rgba(255,238,255,1)",
+          "filename" : "color-conversion.sh",
+          "icon" : "🎨",
+          "mode" : "fullOutput",
+          "needsConfirmation" : false,
+          "packageName" : "Conversions",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Color Conversion"
         },
         {
           "authors" : [
@@ -98,6 +221,24 @@
         {
           "authors" : [
             {
+              "name" : "Nitin Gupta",
+              "url" : "https:\/\/twitter.com\/gniting"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Transform the clipboard contents to a short Bitly URL",
+          "filename" : "shorten-url-bitly.template.sh",
+          "icon" : "🔗",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Browsing",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Shorten URL with Bitly"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Thomas Paul Mann",
               "url" : "https:\/\/github.com\/thomaspaulmann"
             }
@@ -112,6 +253,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Shorten URL From Clipboard"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Ronan Rodrigo Nunes",
+              "url" : "https:\/\/ronanrodrigo.dev"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Open the website at Outline",
+          "filename" : "go-to-outine.sh",
+          "icon" : "images\/outline.png",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Browsing",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Go to Outline"
         },
         {
           "authors" : [
@@ -148,6 +307,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Screenshot Website"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Use [Peekalink.io](https:\/\/peekalink.io) API to peek specified URL.",
+          "filename" : "peekalink.template.sh",
+          "icon" : "images\/peekalink-logo.png",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Internet",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Peek a link"
         },
         {
           "authors" : [
@@ -223,6 +400,24 @@
           "title" : "Open Current Terminal Directory in Finder"
         },
         {
+          "authors" : [
+            {
+              "name" : "Jax0rz",
+              "url" : null
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "search-in-devdocs.sh",
+          "icon" : "images\/devdocs.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Navigation",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in Devdocs"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : "Opens the Applications folder in the Finder.",
@@ -247,6 +442,60 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Open URL From Clipboard"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Jax0rz",
+              "url" : null
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "justfocus.applescript",
+          "icon" : "images\/justfocus.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Navigation",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "JustFocus"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Bryce Carr",
+              "url" : "https:\/\/github.com\/bdcarr"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Creates a new document in Pixelmator Pro from the image stored in your clipboard.",
+          "filename" : "open-clipboard-in-pixelmator-pro.applescript",
+          "icon" : ".\/images\/pixelmator-pro-2.0.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Pixelmator Pro",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open Image From Clipboard"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Jax0rz",
+              "url" : null
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "search-in-dash.sh",
+          "icon" : "images\/dash.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Navigation",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in Dash"
         },
         {
           "authors" : [
@@ -324,6 +573,24 @@
           "title" : "Open Clipboard URL on Desktop"
         },
         {
+          "authors" : [
+            {
+              "name" : "Jax0rz",
+              "url" : null
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "search-in-bear.sh",
+          "icon" : "images\/bear.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Navigation",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in Bear"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : "Opens the Home folder in the Finder.",
@@ -348,6 +615,49 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Open Downloads"
+        }
+      ]
+    },
+    {
+      "name" : "Google Maps",
+      "path" : "google-maps",
+      "scriptCommands" : [
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "google-maps.sh",
+          "icon" : "google-map.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Google Maps",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search Google Maps"
+        }
+      ]
+    },
+    {
+      "name" : "Math",
+      "path" : "math",
+      "scriptCommands" : [
+        {
+          "authors" : [
+            {
+              "name" : "Petr Nikolaev",
+              "url" : "https:\/\/github.com\/pitnikola"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Calculate percentage increase between \"from\" and \"to\" values.",
+          "filename" : "calculate-growth.sh",
+          "icon" : "📈",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Calculate Growth",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Calculate Growth %"
         }
       ]
     },
@@ -410,6 +720,42 @@
           "title" : "Speedtest"
         },
         {
+          "authors" : [
+            {
+              "name" : "Clark Dinnison",
+              "url" : "https:\/\/github.com\/cdinnison"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Get current Ethereum price from CoinGecko.",
+          "filename" : "ethereum-price-usd.sh",
+          "icon" : "images\/ethereum-logo.png",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Dashboard",
+          "refreshTime" : "1h",
+          "schemaVersion" : 1,
+          "title" : "Ethereum Price"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Thomas Paul Mann",
+              "url" : "https:\/\/github.com\/thomaspaulmann"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Shows the followers, favourites and friends count of your Twitter account.",
+          "filename" : "twitter-statistics.template.rb",
+          "icon" : "images\/twitter.png",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Twitter",
+          "refreshTime" : "1h",
+          "schemaVersion" : 1,
+          "title" : "Twitter Statistics"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : null,
@@ -421,6 +767,24 @@
           "refreshTime" : "5s",
           "schemaVersion" : 1,
           "title" : "System Activity"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Phil Salant",
+              "url" : "https:\/\/github.com\/PSalant726"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Check if this machine is using NextDNS.",
+          "filename" : "nextdns-status-check.py",
+          "icon" : "images\/nextdns.png",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Dashboard",
+          "refreshTime" : "1h",
+          "schemaVersion" : 1,
+          "title" : "NextDNS Status"
         },
         {
           "authors" : [
@@ -439,6 +803,42 @@
           "refreshTime" : "1h",
           "schemaVersion" : 1,
           "title" : "Year Progress"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Thomas Paul Mann",
+              "url" : "https:\/\/github.com\/thomaspaulmann"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Keep track of your stock portfolio.",
+          "filename" : "stock-portfolio.rb",
+          "icon" : "📈",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Stock Portfolio",
+          "refreshTime" : "1h",
+          "schemaVersion" : 1,
+          "title" : "Stocks"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Jesse Claven",
+              "url" : "https:\/\/github.com\/jesse-c"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Show the time from elsewhere in the world",
+          "filename" : "world-time.sh",
+          "icon" : "🕐",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Dashboard",
+          "refreshTime" : "5s",
+          "schemaVersion" : 1,
+          "title" : "World Time"
         }
       ],
       "subGroups" : [
@@ -511,6 +911,24 @@
         {
           "authors" : [
             {
+              "name" : "Yohanes Bandung Bondowoso",
+              "url" : "https:\/\/github.com\/ybbond"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Set Frontmost Web Browser as Default Browser.",
+          "filename" : "default-browser-front-most-app.applescript",
+          "icon" : "🧭",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Browsing",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Set Frontmost App as Default Browser"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Valentin Chrétien",
               "url" : "https:\/\/twitter.com\/valentinchrt"
             }
@@ -529,6 +947,42 @@
         {
           "authors" : [
             {
+              "name" : "Marc Klingen",
+              "url" : "https:\/\/github.com\/marcklingen"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Set Chrome as the default browser.",
+          "filename" : "default-browser-chrome.sh",
+          "icon" : "🧭",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Browsing",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Switch Default Browser to Chrome"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Jesse Claven",
+              "url" : "https:\/\/github.com\/jesse-c"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Sample a colour from anywhere on your screen.",
+          "filename" : "sample-colour.swift",
+          "icon" : "🎨",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Sample Colour"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -543,6 +997,24 @@
           "refreshTime" : "3m",
           "schemaVersion" : 1,
           "title" : "Largest CPU Process"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Marc Klingen",
+              "url" : "https:\/\/github.com\/marcklingen"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Set Safari as the default browser.",
+          "filename" : "default-browser-safari.sh",
+          "icon" : "🧭",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Browsing",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Switch Default Browser to Safari"
         },
         {
           "authors" : null,
@@ -594,6 +1066,42 @@
           "title" : "Turn On Do Not Disturb"
         },
         {
+          "authors" : [
+            {
+              "name" : "Nichlas W. Andersen",
+              "url" : "https:\/\/github.com\/itsnwa"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Toggle AirPods bluetooth device",
+          "filename" : "toggle-airpods.template.swift",
+          "icon" : "images\/airpod.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Audio",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle AirPods"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Marc Klingen",
+              "url" : "https:\/\/github.com\/marcklingen"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Set Chromium as the default browser.",
+          "filename" : "default-browser-chromium.sh",
+          "icon" : "🧭",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Browsing",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Switch Default Browser to Chromium"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : "Quits all running applications except Finder and Raycast.",
@@ -605,6 +1113,60 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Quit All Applications"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Marc Klingen",
+              "url" : "https:\/\/github.com\/marcklingen"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Set Firefox as the default browser.",
+          "filename" : "default-browser-firefox.sh",
+          "icon" : "🧭",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Browsing",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Switch Default Browser to Firefox"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "mmerle",
+              "url" : "https:\/\/github.com\/mmerle"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Switch audio output to desired device.",
+          "filename" : "audio-output-switch.template.applescript",
+          "icon" : "🔊",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Audio",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Switch Audio to <Device Name>"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Jax0rz",
+              "url" : null
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "move-downloads-to-trash.applescript",
+          "icon" : "images\/move-downloads-to-trash.png",
+          "mode" : "silent",
+          "needsConfirmation" : true,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Move Downloads to Trash"
         },
         {
           "authors" : [
@@ -661,6 +1223,24 @@
           "title" : "Toggle System Appearance"
         },
         {
+          "authors" : [
+            {
+              "name" : "Vincent Dörig",
+              "url" : "https:\/\/github.com\/vincentdoerig"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Toggle your Bluetooth connection.",
+          "filename" : "bluetooth.template.applescript",
+          "icon" : "images\/bluetooth.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle Bluetooth"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : "Opens the last downloaded file.",
@@ -685,6 +1265,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Eject All Disks"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Jax0rz",
+              "url" : null
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Create New File in Finder is a script to make your Finder better.You can use this script to create a plain text file.",
+          "filename" : "create-new-file-in-finder.applescript",
+          "icon" : "images\/new-file.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Create New File in Finder"
         },
         {
           "authors" : [
@@ -723,6 +1321,24 @@
           "title" : "Toggle Desktop Icons"
         },
         {
+          "authors" : [
+            {
+              "name" : "Vincent Dörig",
+              "url" : "https:\/\/github.com\/vincentdoerig"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Toggle your Wi-Fi connection.",
+          "filename" : "wifi.template.applescript",
+          "icon" : "images\/wifi-dark.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle Wi-Fi"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : "Copy the last downloaded file to the clipboard.",
@@ -738,7 +1354,7 @@
         {
           "authors" : null,
           "currentDirectoryPath" : null,
-          "description" : "Copies the calenadar availability of today.",
+          "description" : "Copies the calendar availability of today.",
           "filename" : "copy-availability.swift",
           "icon" : "📅",
           "mode" : "silent",
@@ -817,6 +1433,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Sleep"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Matthew Morek",
+              "url" : "https:\/\/github.com\/matthewmorek"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Toggles microphone.",
+          "filename" : "toggle-mic.applescript",
+          "icon" : "🎙",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle Microphone"
         }
       ]
     },
@@ -855,6 +1489,42 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Escape String for Shell"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Tommaso Panozzo",
+              "url" : null
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Perform a dig command with the specified options",
+          "filename" : "dig.sh",
+          "icon" : "🌍",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Internet",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Dig"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Nitin Gupta",
+              "url" : "https:\/\/twitter.com\/gniting"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Transform the case of clipboard content. Defaults to lower case if no conversion type is specified.",
+          "filename" : "transform-case.sh",
+          "icon" : "🔠",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utils",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Transform Case"
         },
         {
           "authors" : null,
@@ -898,15 +1568,37 @@
         {
           "authors" : [
             {
+              "name" : "Jesse Claven",
+              "url" : "https:\/\/github.com\/jesse-c"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Check if a website is up",
+          "filename" : "is-it-up.sh",
+          "icon" : "🩺",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utils",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Is It Up?"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
+            },
+            {
+              "name" : "Ronan Rodrigo Nunes",
+              "url" : "https:\/\/ronanrodrigo.dev"
             }
           ],
           "currentDirectoryPath" : null,
           "description" : "Whois of URL.",
           "filename" : "whois.sh",
           "icon" : "🌐",
-          "mode" : "silent",
+          "mode" : "fullOutput",
           "needsConfirmation" : null,
           "packageName" : "Internet",
           "refreshTime" : null,
@@ -930,6 +1622,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Record Simulator"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Dean Moore",
+              "url" : "https:\/\/github.com\/moored"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Use [swiftformat](https:\/\/github.com\/nicklockwood\/SwiftFormat) to format clipboard content.",
+          "filename" : "format-swift.sh",
+          "icon" : "images\/swift.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Format Swift"
         },
         {
           "authors" : [
@@ -1066,6 +1776,24 @@
           "title" : "Run Pa11y"
         },
         {
+          "authors" : [
+            {
+              "name" : "Thomas Paul Mann",
+              "url" : "https:\/\/github.com\/thomaspaulmann"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Create beautiful images of your code with https:\/\/ray.so",
+          "filename" : "create-image-from-code.sh",
+          "icon" : ".\/images\/ray-so.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Create Image From Code",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Create Image from Code"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : "Copy one paragraph of Lorem Ipsum to clipboard.",
@@ -1077,6 +1805,60 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Copy Lorem Ipsum"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Boyang Xu",
+              "url" : "https:\/\/github.com\/BoyangMichael"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Run arbitrary bash command and return output in Raycast.",
+          "filename" : "run-bash-command.sh",
+          "icon" : "images\/run-bash-command.png",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Bash Command",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Run Command"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Ronan Rodrigo Nunes",
+              "url" : "https:\/\/ronanrodrigo.dev"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Get info about Apple API errors",
+          "filename" : "error-info.sh",
+          "icon" : "ℹ️",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Error Info"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Nitin Gupta",
+              "url" : "https:\/\/twitter.com\/gniting"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Generate a strong password of requested character length",
+          "filename" : "strong-password-generator.sh",
+          "icon" : "🔐",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utils",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Strong Password Generator"
         },
         {
           "authors" : null,
@@ -1134,6 +1916,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Clear Derived Data"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "chohner",
+              "url" : "https:\/\/github.com\/chohner"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Opens current topmost directory in VSCode",
+          "filename" : "open-folder-in-vscode.applescript",
+          "icon" : "images\/vscode.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "VS Code",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open Directory"
         },
         {
           "authors" : [
@@ -1276,9 +2076,51 @@
           ]
         },
         {
+          "name" : "Cloudflare",
+          "path" : "cloudflare",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Purge Cloudflare cache for zone.",
+              "filename" : "purge-cloudflare-cache.template.sh",
+              "icon" : "images\/cloudflare-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Developer Utilities",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Purge Cloudflare cache"
+            }
+          ]
+        },
+        {
           "name" : "Brew",
           "path" : "brew",
           "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Alex Zotov",
+                  "url" : "https:\/\/github.com\/lex4hex"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Installs specified brew package.",
+              "filename" : "brew-install.sh",
+              "icon" : "🍺",
+              "mode" : "fullOutput",
+              "needsConfirmation" : true,
+              "packageName" : "Brew",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Install a package"
+            },
             {
               "authors" : [
                 {
@@ -1432,6 +2274,24 @@
             {
               "authors" : [
                 {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Open a repository, pull request, or issue on GitHub",
+              "filename" : "open-gh-repo-pr-or-issue.sh",
+              "icon" : "images\/github-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "GitHub",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Visit a Repository, Pull Request, or Issue"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Caleb Stauffer",
                   "url" : "https:\/\/github.com\/crstauf"
                 }
@@ -1446,6 +2306,30 @@
               "refreshTime" : "5m",
               "schemaVersion" : 1,
               "title" : "Unread Notifications"
+            }
+          ]
+        },
+        {
+          "name" : "Aws",
+          "path" : "aws",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Oğuzhan Yılmaz",
+                  "url" : "https:\/\/github.com\/c1982"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Copies the AWS IPv4 to the clipboard.",
+              "filename" : "whatismyregion.sh",
+              "icon" : "🤖",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Developer Utilities",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Find AWS Region by IP"
             }
           ]
         },
@@ -1470,6 +2354,28 @@
               "refreshTime" : "1h",
               "schemaVersion" : 1,
               "title" : "Unresolved Issues"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                },
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Show unresolved issues in the last 24 hours (by project) from Sentry.",
+              "filename" : "sentry-unresolved-issues-by-project.template.py",
+              "icon" : "images\/sentry.png",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Sentry",
+              "refreshTime" : "1h",
+              "schemaVersion" : 1,
+              "title" : "Unresolved Issues By Project"
             }
           ]
         },
@@ -1570,6 +2476,147 @@
       ]
     },
     {
+      "name" : "Password Managers",
+      "path" : "password-managers",
+      "scriptCommands" : [
+
+      ],
+      "subGroups" : [
+        {
+          "name" : "Bitwarden",
+          "path" : "bitwarden",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Search all items in a Bitwarden vault, and copy the password of the first search result to the clipboard.",
+              "filename" : "copy-first-matching-password.sh",
+              "icon" : "images\/bitwarden.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Copy First Matching Password"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Lock a Bitwarden vault.",
+              "filename" : "lock-vault.sh",
+              "icon" : "images\/bitwarden.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Lock Vault"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Search all items in a Bitwarden vault.",
+              "filename" : "search-vault-items.sh",
+              "icon" : "images\/bitwarden.png",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Search Vault Items"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Log out of a Bitwarden vault.",
+              "filename" : "log-out.sh",
+              "icon" : "images\/bitwarden.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Log Out"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Unlock an authenticated Bitwarden vault.",
+              "filename" : "unlock-vault.sh",
+              "icon" : "images\/bitwarden.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Unlock Vault"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Log in to a Bitwarden vault.",
+              "filename" : "log-in.template.sh",
+              "icon" : "images\/bitwarden.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Log In"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Display the authentication and lock status of the user's Bitwarden vault.",
+              "filename" : "vault-status.sh",
+              "icon" : "images\/bitwarden.png",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "refreshTime" : "5m",
+              "schemaVersion" : 1,
+              "title" : "Vault Status"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name" : "Communication",
       "path" : "communication",
       "scriptCommands" : [
@@ -1622,6 +2669,24 @@
             {
               "authors" : [
                 {
+                  "name" : "alongat",
+                  "url" : "https:\/\/github.com\/alongat"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Set your status in Slack to a song currently playing in Spotify.",
+              "filename" : "set-slack-status-spotify.sh",
+              "icon" : "images\/slack-logo.png",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Slack",
+              "refreshTime" : "30s",
+              "schemaVersion" : 1,
+              "title" : "Set Status in Slack to Spotify Song"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Sam Ching",
                   "url" : "https:\/\/github.com\/samching"
                 }
@@ -1629,7 +2694,7 @@
               "currentDirectoryPath" : null,
               "description" : "Clear DND Status in Slack",
               "filename" : "clear-slack-DND-status.sh",
-              "icon" : null,
+              "icon" : "images\/slack-logo.png",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Slack",
@@ -1654,6 +2719,24 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Clear Status"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "alongat",
+                  "url" : "https:\/\/github.com\/alongat"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Set your status in Slack to WFH or WFO depending on your WiFi",
+              "filename" : "set-slack-wfh-status.sh",
+              "icon" : "images\/slack-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Slack",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Set WFH Status in Slack"
             },
             {
               "authors" : [
@@ -1683,7 +2766,7 @@
               "currentDirectoryPath" : null,
               "description" : "Set your DND status in Slack",
               "filename" : "set-slack-DND-status.sh",
-              "icon" : null,
+              "icon" : "images\/slack-logo.png",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Slack",
@@ -1846,6 +2929,24 @@
         {
           "authors" : [
             {
+              "name" : "Jax0rz",
+              "url" : null
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "search-in-bilibili.sh",
+          "icon" : "images\/bilibili.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in Bilibili"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -1860,6 +2961,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search cdnjs"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Andrei Borisov",
+              "url" : "https:\/\/github.com\/andreiborisov"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "kinopoisk.sh",
+          "icon" : "images\/kinopoisk.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in Kinopoisk"
         },
         {
           "authors" : [
@@ -1900,6 +3019,42 @@
         {
           "authors" : [
             {
+              "name" : "sunbufu",
+              "url" : "https:\/\/sunbufu.github.io\/"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "translate-with-baidu.template.sh",
+          "icon" : "images\/baidu-translate.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Translate with Baidu"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Andrei Borisov",
+              "url" : "https:\/\/github.com\/andreiborisov"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search in App Store app",
+          "filename" : "app-store.sh",
+          "icon" : "images\/app-store.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in App Store"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Zander Martineau",
               "url" : "https:\/\/zander.wtf"
             }
@@ -1931,6 +3086,24 @@
         {
           "authors" : [
             {
+              "name" : "Phil Salant",
+              "url" : "https:\/\/github.com\/PSalant726"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search pkg.go.dev for package documentation",
+          "filename" : "pkg-go-dev.sh",
+          "icon" : "images\/go.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search Go Package Documentation"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Zander Martineau",
               "url" : "https:\/\/zander.wtf"
             }
@@ -1947,6 +3120,24 @@
           "title" : "Open npm Package Repo"
         },
         {
+          "authors" : [
+            {
+              "name" : "Jax0rz",
+              "url" : null
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "search-in-baidu.sh",
+          "icon" : "images\/baidu.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in Baidu"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : null,
@@ -1958,6 +3149,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search in Twitter"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Jax0rz",
+              "url" : null
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "search-in-zhihu.sh",
+          "icon" : "images\/zhihu.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in Zhihu"
         },
         {
           "authors" : [
@@ -1976,6 +3185,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search Unsplash"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "sunbufu",
+              "url" : "https:\/\/sunbufu.github.io\/"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "translate-with-google.template.sh",
+          "icon" : "images\/google-translate.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Translate with Google"
         },
         {
           "authors" : null,
@@ -2025,6 +3252,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Unfurl URL"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Jax0rz",
+              "url" : null
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "search-in-wikipedia.sh",
+          "icon" : "images\/wikipedia.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in Wikipedia"
         },
         {
           "authors" : [
@@ -2117,6 +3362,24 @@
           "title" : "Search in Ecosia"
         },
         {
+          "authors" : [
+            {
+              "name" : "sunbufu",
+              "url" : "https:\/\/sunbufu.github.io\/"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "search-in-jingdong.sh",
+          "icon" : "images\/jingdong.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in Jingdong"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : null,
@@ -2159,6 +3422,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search in DuckDuckGo"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Lucas Costa",
+              "url" : "https:\/\/github.com\/lucasrcosta"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search IMDB.",
+          "filename" : "search-imdb.sh",
+          "icon" : "images\/imdb.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search IMDB"
         },
         {
           "authors" : null,
@@ -2256,6 +3537,24 @@
         {
           "authors" : [
             {
+              "name" : "quelhasu",
+              "url" : "https:\/\/github.com\/quelhasu"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Find the current Spotify track's gender in Chosic",
+          "filename" : "search-gender-in-chosic.applescript",
+          "icon" : "images\/chosic.png",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search Genre in Chosic"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Jesse Traynham",
               "url" : "https:\/\/github.com\/traynham"
             }
@@ -2270,6 +3569,78 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search in MDN (Mozilla) Docs by Topic"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Nitin Gupta",
+              "url" : "https:\/\/twitter.com\/gniting"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search LinkedIn",
+          "filename" : "search-linkedin.sh",
+          "icon" : "images\/linkedin.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search LinkedIn"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Jax0rz",
+              "url" : null
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "search-in-taobao.sh",
+          "icon" : "images\/taobao.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in Taobao"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Lucas Costa",
+              "url" : "https:\/\/github.com\/lucasrcosta"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search Python Package Index (PyPI)",
+          "filename" : "search-pypi.sh",
+          "icon" : "images\/pip.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search Python Package Index (PyPI)"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Lucas Costa",
+              "url" : "https:\/\/github.com\/lucasrcosta"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search Python 3 Documentation",
+          "filename" : "search-python3-docs.sh",
+          "icon" : "images\/python.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search Python 3 Documentation"
         }
       ],
       "subGroups" : [
@@ -2366,6 +3737,237 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "WordPress Hooks Reference"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name" : "Apps",
+      "path" : "apps",
+      "scriptCommands" : [
+
+      ],
+      "subGroups" : [
+        {
+          "name" : "Iterm",
+          "path" : "iterm",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Andrei Borisov",
+                  "url" : "https:\/\/github.com\/andreiborisov"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "iterm-run-shell-command.applescript",
+              "icon" : "images\/iterm.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "iTerm",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Run Shell Command"
+            }
+          ]
+        },
+        {
+          "name" : "Amphetamine",
+          "path" : "amphetamine",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "James Lyons",
+                  "url" : "https:\/\/github.com\/jamesjlyons"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Start Default Amphetamine Session",
+              "filename" : "amphetamine-on.applescript",
+              "icon" : "images\/amphetamine.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Amphetamine",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Start Default Session"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "James Lyons",
+                  "url" : "https:\/\/github.com\/jamesjlyons"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Stop Current Amphetamine Session",
+              "filename" : "amphetamine-off.applescript",
+              "icon" : "images\/amphetamine.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Amphetamine",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "End Session"
+            }
+          ]
+        },
+        {
+          "name" : "Bear",
+          "path" : "bear",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Tanay Nistala",
+                  "url" : "https:\/\/github.com\/tanaynistala"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Open the Today section in Bear.",
+              "filename" : "bear-today.sh",
+              "icon" : "images\/bear-light.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bear",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Today"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Tanay Nistala",
+                  "url" : "https:\/\/github.com\/tanaynistala"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Open the specified tag in Bear.",
+              "filename" : "bear-open-tag.sh",
+              "icon" : "images\/bear-light.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bear",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Tag"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Tanay Nistala",
+                  "url" : "https:\/\/github.com\/tanaynistala"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Add a new note to Bear.",
+              "filename" : "bear-add-note.sh",
+              "icon" : "images\/bear-light.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bear",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Add Note"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Tanay Nistala",
+                  "url" : "https:\/\/github.com\/tanaynistala"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Search notes by keyword and\/or tag in Bear.",
+              "filename" : "bear-search.sh",
+              "icon" : "images\/bear-light.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bear",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Search"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Tanay Nistala",
+                  "url" : "https:\/\/github.com\/tanaynistala"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Open the Todo section in Bear.",
+              "filename" : "bear-todo.sh",
+              "icon" : "images\/bear-light.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bear",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Todos"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Tanay Nistala",
+                  "url" : "https:\/\/github.com\/tanaynistala"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Open the specified note in Bear.",
+              "filename" : "bear-open-note.sh",
+              "icon" : "images\/bear-light.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bear",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Note"
+            }
+          ]
+        },
+        {
+          "name" : "Hazeover",
+          "path" : "hazeover",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Set dimming intensity of background windows.",
+              "filename" : "hazeover-set-intensity.applescript",
+              "icon" : "images\/hazeover.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "HazeOver",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Set Intensity"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Toggle dimming of all background windows.",
+              "filename" : "hazeover-toggle-dimming.applescript",
+              "icon" : "images\/hazeover.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "HazeOver",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Toggle Dimming"
             }
           ]
         }
@@ -2525,6 +4127,24 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Next Track"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "mmerle",
+                  "url" : "https:\/\/github.com\/mmerle"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Show currently playing track in Music.",
+              "filename" : "apple-music-current-track.applescript",
+              "icon" : "images\/apple-music-logo.png",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Music",
+              "refreshTime" : "10s",
+              "schemaVersion" : 1,
+              "title" : "Current Track"
             }
           ]
         },
@@ -2691,6 +4311,24 @@
               "title" : "Copy Current Playing Song URL"
             },
             {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Play playlist or track in Spotify.",
+              "filename" : "spotify-play-playlist.template.applescript",
+              "icon" : "images\/spotify-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Spotify",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Play Track or Playlist"
+            },
+            {
               "authors" : null,
               "currentDirectoryPath" : null,
               "description" : "Plays current track in Spotify.",
@@ -2779,6 +4417,24 @@
                 }
               ],
               "currentDirectoryPath" : null,
+              "description" : "Play specified movie from library in TV.",
+              "filename" : "apple-tv-play-movie.applescript",
+              "icon" : "images\/apple-tv-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "TV",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Play Movie"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
               "description" : "Play TV.",
               "filename" : "apple-tv-play.applescript",
               "icon" : "images\/apple-tv-logo.png",
@@ -2830,5 +4486,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-12-11T00:20:08Z"
+  "updatedAt" : "2021-02-24T18:44:18Z"
 }

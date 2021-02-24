@@ -10,6 +10,6 @@
 
 # Optional parameters:
 # @raycast.icon images/mozilla-developer-network.png
-# @raycast.argument1 { "type": "text", "placeholder": "query" }
+# @raycast.argument1 { "type": "text", "placeholder": "query", "percentEncoded": true }
 
-open "https://developer.mozilla.org/search?q=${1// /%20}"
+open "https://developer.mozilla.org/search?q=${1}"

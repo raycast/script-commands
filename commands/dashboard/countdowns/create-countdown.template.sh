@@ -17,8 +17,8 @@
 
 # Optional parameters:
 # @raycast.icon ⏱
-# @raycast.argument1 { "type": "text", "placeholder": "Event Name" }
-# @raycast.argument2 { "type": "text", "placeholder": "Date (yyyy-mm-dd)" }
+# @raycast.argument1 { "type": "text", "placeholder": "Event Name", "percentEncoded": true }
+# @raycast.argument2 { "type": "text", "placeholder": "Date (yyyy-mm-dd)", "percentEncoded": true }
 
 # Documentation:
 # @raycast.author Valentin Chrétien
@@ -37,30 +37,30 @@ SCRIPT="#!/bin/bash\n\
 \n\
 # Required parameters:\n\
 # $RAYCAST.schemaVersion 1\n\
-# $RAYCAST.title ${1// /%20} Countdown\n\
+# $RAYCAST.title ${1} Countdown\n\
 # $RAYCAST.mode inline\n\
 \n\
 # Optional parameters:\n\
 # $RAYCAST.icon ⏱\n\
-# $RAYCAST.description See how many days/hours until ${1// /%20}.\n\
+# $RAYCAST.description See how many days/hours until ${1}.\n\
 # $RAYCAST.refreshTime 10m\n\
 \n\
 TIMESTAMP_TODAY=\`gdate +%s\`\n\
-TIMESTAMP_EVENT=\`gdate  -d \"${2// /%20}T00:00:00+00:00\" +%s\`\n\
+TIMESTAMP_EVENT=\`gdate  -d \"${2}T00:00:00+00:00\" +%s\`\n\
 \n\
 REMAINING=\$((\$TIMESTAMP_EVENT - \$TIMESTAMP_TODAY))\n\
 \n\
 DAYS_REMAINING=\$((\$REMAINING / 86400))\n\
 HOURS_REMAINING=\$((\$REMAINING % 86400 / 3600))\n\
 \n\
-if [[  \$HOURS_REMAINING > 0 ]]; then\n\
-    echo \"There are \$DAYS_REMAINING days and \$HOURS_REMAINING hours left until ${1// /%20}.\"\n\
+if [[ \$DAYS_REMAINING > 0 || \$HOURS_REMAINING > 0 ]]; then\n\
+    echo \"There are \$DAYS_REMAINING days and \$HOURS_REMAINING hours left until ${1}.\"\n\
 else\n\
     echo \"Your message\!\"\n\
 fi"
 
-echo -e $SCRIPT > "$DIRECTORY_SCRIPT_PATH/countdown-${1// /%20}.sh"
+echo -e $SCRIPT > "$DIRECTORY_SCRIPT_PATH/countdown-${1}.sh"
 
-chmod +x "$DIRECTORY_SCRIPT_PATH/countdown-${1// /%20}.sh"
+chmod +x "$DIRECTORY_SCRIPT_PATH/countdown-${1}.sh"
 
 echo Countdown created! ✅
