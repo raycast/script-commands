@@ -2,11 +2,23 @@
 
 Thank you for your interest in contributing to Raycast Script Commands! Here you will find simple guidelines that can help you with getting started.
 
+- [Contributing](#contributing)
+  - [Guidelines](#guidelines)
+    - [Git and Pull Requests](#git-and-pull-requests)
+    - [Folder structure](#folder-structure)
+    - [File naming convention](#file-naming-convention)
+    - [Metadata convention](#metadata-convention)
+    - [Scripts that require additional modification](#scripts-that-require-additional-modification)
+    - [Scripts that require installation of runtimes and dependencies](#scripts-that-require-installation-of-runtimes-and-dependencies)
+    - [Bash profiles and environmental variables](#bash-profiles-and-environmental-variables)
+    - [Auto generated files](#auto-generated-files)
+  - [Examples](#examples)
+
 ## Guidelines
 
 ### Git and Pull Requests
 
-Please make sure that your pull request makes it easy for the reviewer to understand what the change is about (fill in the pull request template) and keep your change focused (do not create a PR containing multiple complex script commands). 
+Please make sure that your pull request makes it easy for the reviewer to understand what the change is about (fill in the pull request template) and keep your change focused (do not create a PR containing multiple complex Script Commands).
 
 In order to keep the Git history clean, we prefer if you rebase your branch on top of master, so that we can do a fast-forward merge back to master. Make sure to use descriptive commit messages (incl. proper spelling), and squash commits ("fix typo") already on your end.
 
@@ -90,7 +102,7 @@ If you still need a dependency, follow these guidelines:
 
 ### Bash profiles and environmental variables
 
-All Script Commands are executed in a non-login shell to avoid additional information loaded from profiles that aren't relevant to Raycast. With an argument after a shebang, you can run a script in a login shell, e.g. `#!/bin/bash -l`. We don't allow Script Commands that make use of this feature in this repository. Mainly to guarantee easy portability, explicit injection of information and best performance. 
+All Script Commands are executed in a non-login shell to avoid additional information loaded from profiles that aren't relevant to Raycast. With an argument after a shebang, you can run a script in a login shell, e.g. `#!/bin/bash -l`. We don't allow Script Commands that make use of this feature in this repository. Mainly to guarantee easy portability, explicit injection of information and best performance.
 
 *NOTE:* We will add support for environmental variables in Raycast and keep track of it in [this issue](https://github.com/raycast/script-commands/issues/77).
 
@@ -107,6 +119,6 @@ Remember to keep these files unchanged. All manual changes will be lost when our
 
 Some examples to get started:
 
-- **[Apple Music Play](https://github.com/raycast/script-commands/blob/master/commands/media/apple-music/apple-music-play.applescript)**: An `AppleScript` to start playing music.
-- **[Sentry Unresolved Issues](https://github.com/raycast/script-commands/blob/master/commands/developer-utils/sentry/sentry-unresolved-issues.template.py):** A `Python` script that fetches information from an API and parses the JSON response.
-- **[Slack Set Status](https://github.com/raycast/script-commands/blob/master/commands/communication/slack/set-slack-status.template.sh)**: A `Bash` script that sends a JSON payload with cURL.
+- **[Apple Music Play](commands/media/apple-music/apple-music-play.applescript)**: An `AppleScript` to start playing music.
+- **[Sentry Unresolved Issues](commands/developer-utils/sentry/sentry-unresolved-issues.template.py):** A `Python` script that fetches information from an API and parses the JSON response.
+- **[Slack Set Status](commands/communication/slack/set-slack-status.template.sh)**: A `Bash` script that sends a JSON payload with cURL.
