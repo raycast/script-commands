@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title New Email
+# @raycast.title Create Email
 # @raycast.mode silent
 # @raycast.author Brandon Escamilla
 # @raycast.authorURL https://github.com/brandonescamilla
