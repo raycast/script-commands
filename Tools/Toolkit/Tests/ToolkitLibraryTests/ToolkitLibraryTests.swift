@@ -17,7 +17,7 @@ final class ToolkitLibraryTests: XCTestCase {
     let data = pipe.fileHandleForReading.readDataToEndOfFile()
     let output = String(data: data, encoding: .utf8)
     
-    XCTAssertEqual(output, "Hello, world!\n")
+    XCTAssertEqual(output, "OVERVIEW: A tool to generate automatized documentation\n\nUSAGE: toolkit <subcommand>\n\nOPTIONS:\n  -h, --help              Show help information.\n\nSUBCOMMANDS:\n  generate-documentation  Generate the documentation in JSON and Markdown format\n  version                 Print the current Toolkit version\n\n  See \'toolkit help <subcommand>\' for detailed help.\n")
   }
   
   /// Returns path to the built products directory.

@@ -8,6 +8,6 @@
 
 # Optional parameters:
 # @raycast.icon images/crunchbase.png
-# @raycast.argument1 { "type": "text", "placeholder": "query" }
+# @raycast.argument1 { "type": "text", "placeholder": "query", "percentEncoded": true }
 
-open "https://www.crunchbase.com/textsearch?q=${1// /%20}"
+open "https://www.crunchbase.com/textsearch?q=${1}"

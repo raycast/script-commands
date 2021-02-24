@@ -10,6 +10,6 @@
 # Optional parameters:
 # @raycast.icon ❓
 # @raycast.packageName Web searches
-# @raycast.argument1 { "type": "text", "placeholder": "feature" }
+# @raycast.argument1 { "type": "text", "placeholder": "feature", "percentEncoded": true }
 
-open "https://caniuse.com/#search=${1// /%20}"
+open "https://caniuse.com/#search=${1}"

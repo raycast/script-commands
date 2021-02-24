@@ -11,6 +11,6 @@
 # @raycast.packageName Web Searches
 # @raycast.schemaVersion 1
 
-# @raycast.argument1 { "type": "text", "placeholder": "Query" }
+# @raycast.argument1 { "type": "text", "placeholder": "Query", "percentEncoded": true }
 
-open "https://github.com/search?q=${1// /%20}"
+open "https://github.com/search?q=${1}"

@@ -10,6 +10,6 @@
 # Optional parameters:
 # @raycast.icon images/ia-logo.jpg
 # @raycast.packageName Web Searches
-# @raycast.argument1 { "type": "text", "placeholder": "url" }
+# @raycast.argument1 { "type": "text", "placeholder": "url", "percentEncoded": true }
 
-open "https://web.archive.org/web/*/${1// /%20}"
+open "https://web.archive.org/web/*/${1}"

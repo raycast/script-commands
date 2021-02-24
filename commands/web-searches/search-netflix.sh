@@ -10,6 +10,6 @@
 # @raycast.packageName Web Searches
 # @raycast.schemaVersion 1
 
-# @raycast.argument1 { "type": "text", "placeholder": "Title" }
+# @raycast.argument1 { "type": "text", "placeholder": "Title", "percentEncoded": true }
 
-open "https://www.netflix.com/search?q=${1// /%20}"
+open "https://www.netflix.com/search?q=${1}"
