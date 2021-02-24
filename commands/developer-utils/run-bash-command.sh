@@ -27,11 +27,11 @@
 # Optional parameters:
 # @raycast.icon images/run-bash-command.png
 # @raycast.packageName Bash Command
-# @raycast.argument1 { "type": "text", "placeholder": "dir (blank: finder dir)", "optional": true }
-# @raycast.argument2 { "type": "text", "placeholder": "cmd (blank: open Terminal)", "optional": true }
+# @raycast.argument1 { "type": "text", "placeholder": "Command (Default: open Terminal)", "optional": true }
+# @raycast.argument2 { "type": "text", "placeholder": "Directory (Default: Finder)", "optional": true }
 
-dir="${1/#\~/$HOME}"
-cmd="$2"
+cmd="$1"
+dir="${2/#\~/$HOME}"
 
 # Parse directory
 if [ -z "$dir" ] ; then
