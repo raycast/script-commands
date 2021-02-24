@@ -911,6 +911,24 @@
         {
           "authors" : [
             {
+              "name" : "Yohanes Bandung Bondowoso",
+              "url" : "https:\/\/github.com\/ybbond"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Set Frontmost Web Browser as Default Browser.",
+          "filename" : "default-browser-front-most-app.applescript",
+          "icon" : "🧭",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Browsing",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Set Frontmost App as Default Browser"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Valentin Chrétien",
               "url" : "https:\/\/twitter.com\/valentinchrt"
             }
@@ -1787,6 +1805,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Copy Lorem Ipsum"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Boyang Xu",
+              "url" : "https:\/\/github.com\/BoyangMichael"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Run arbitrary bash command and return output in Raycast.",
+          "filename" : "run-bash-command.sh",
+          "icon" : "images\/run-bash-command.png",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Bash Command",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Run Command"
         },
         {
           "authors" : [
@@ -4450,5 +4486,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-02-22T23:14:09Z"
+  "updatedAt" : "2021-02-24T18:44:18Z"
 }
