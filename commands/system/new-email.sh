@@ -14,7 +14,7 @@
 # @raycast.argument3 { "type": "text", "placeholder": "Body", "optional": false, "percentEncoded": true }
 
 # Documentation:
-# @raycast.description Opens default mail application, and creates a new email with the inputs.
+# @raycast.description Opens default email application, and creates a new email with the given inputs.
 
 
 open "mailto:${1}?subject=${2}&body=${3}"
