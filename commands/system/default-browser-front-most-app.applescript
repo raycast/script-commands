@@ -50,7 +50,7 @@ try
 	else if (commandResult contains "is already set as the default HTTP handler" or commandResult is equal to "") then
 		log appName & space & "already set as default browser"
 	else if (commandResult contains "is not available as an HTTP handler") then
-		log appName & space & "is not a web browser, or not handlet yet :("
+		log appName & space & "is not a web browser, or not handled yet :("
 	end if
 on error errStr
 	set commandResult to errStr
@@ -60,7 +60,7 @@ on error errStr
 	else if (commandResult contains "is already set as the default HTTP handler" or commandResult is equal to "") then
 		log appName & space & "already set as default browser"
 	else if (commandResult contains "is not available as an HTTP handler") then
-		log appName & space & "is not a web browser, or not handlet yet :("
+		log appName & space & "is not a web browser, or not handled yet :("
 	end if
 end try
 
