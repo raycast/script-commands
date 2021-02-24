@@ -2,6 +2,7 @@
 
 # Required parameters:
 # @raycast.author Francois
+# @raycast.authorURL https://github.com/AsterYujano
 # @raycast.schemaVersion 1
 # @raycast.title Search in devhints.io
 # @raycast.mode silent
