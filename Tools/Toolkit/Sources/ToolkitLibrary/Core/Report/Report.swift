@@ -12,7 +12,7 @@ final class Report {
 
   private let data: RaycastData
   private let type: Toolkit.ReportType
-  
+
   init(data: RaycastData, type: Toolkit.ReportType, noColor: Bool) {
     self.console = Console(
       noColor: noColor
@@ -21,7 +21,7 @@ final class Report {
     self.data = data
     self.type = type
   }
-  
+
   func showResult() {
     data.groups.sorted().forEach { group in
       filter(
@@ -59,20 +59,20 @@ private extension Report {
     if group.scriptCommands.count > 0 {
       for var scriptCommand in group.scriptCommands.sorted() {
         scriptCommand.configure(leadingPath: leadingPath)
-        
+
         switch (type, scriptCommand.isExecutable) {
-          case (.executable, true):
-            self.scriptCommands.append(scriptCommand)
-          case (.nonExecutable, false):
-            self.scriptCommands.append(scriptCommand)
-          case (.allScripts, _):
-            self.scriptCommands.append(scriptCommand)
-          default:
-            break
+        case (.executable, true):
+          self.scriptCommands.append(scriptCommand)
+        case (.nonExecutable, false):
+          self.scriptCommands.append(scriptCommand)
+        case (.allScripts, _):
+          self.scriptCommands.append(scriptCommand)
+        default:
+          break
         }
       }
     }
-    
+
     if let subGroups = group.subGroups?.sorted() {
       for subGroup in subGroups {
         filter(
@@ -90,7 +90,7 @@ private extension Report {
     var firstColumnLength = 0
     var secondColumnLength = 0
     let thirdColumnLength = 10
-    
+
     scriptCommands.forEach {
       let author: String = $0.authors?.description ?? raycast
 
@@ -102,39 +102,39 @@ private extension Report {
         secondColumnLength = $0.fullPath.count
       }
     }
-    
+
     let columnsLength = [firstColumnLength, secondColumnLength, thirdColumnLength]
-    
+
     let titleCells = [
       Title(value: raycast, color: .red, bold: true),
       Title(value: "Script Commands", color: .green, bold: true),
     ]
-    
+
     let descriptionCells = [
       Cell(title: "Author", length: firstColumnLength, color: .noColor, bold: false),
       Cell(title: "Path", length: secondColumnLength, color: .noColor, bold: false),
-      Cell(title: "Executable", length: thirdColumnLength, color: .noColor, bold: false)
+      Cell(title: "Executable", length: thirdColumnLength, color: .noColor, bold: false),
     ]
-    
+
     let headerWidth = columnsLength.reduce(0, +) + (descriptionCells.count * cellMargin)
-    
+
     renderDivider(with: columnsLength)
     renderHeader(with: headerWidth, titles: titleCells)
     renderDivider(with: columnsLength)
     renderRow(for: descriptionCells)
     renderDivider(with: columnsLength)
-    
+
     scriptCommands.forEach {
       let author = $0.authors?.description ?? raycast
-      
-      let executableColor: TerminalController.Color = $0.isExecutable ? .cyan : .yellow 
-      
+
+      let executableColor: TerminalController.Color = $0.isExecutable ? .cyan : .yellow
+
       let rowCells = [
         Cell(title: author, length: firstColumnLength, color: .green, bold: true),
         Cell(title: $0.fullPath, length: secondColumnLength, color: .noColor, bold: false),
-        Cell(title: String($0.isExecutable), length: thirdColumnLength, color: executableColor, bold: !$0.isExecutable)
+        Cell(title: String($0.isExecutable), length: thirdColumnLength, color: executableColor, bold: !$0.isExecutable),
       ]
-      
+
       renderRow(for: rowCells)
     }
 
@@ -143,20 +143,20 @@ private extension Report {
     console.write(string: " \(scriptCommands.count) ", color: .cyan, bold: true, endLine: false)
     console.write("script commands")
   }
-  
+
   func renderHeader(with maxWidth: Int, titles: Titles) {
     let titleCount = titles.map { $0.value }.joined(separator: " ").count
-    
+
     let titleLength = titleCount % 2 == 0 ? titleCount : titleCount + 1
     let halfMaxWidth = maxWidth / 2
     let halfTitleWidth = titleLength / 2
-    
+
     let leadingOffset = halfMaxWidth - halfTitleWidth
     let titleLeadingMargin = Divider.space.`repeat`(by: leadingOffset)
-    
+
     let trailingOffset = maxWidth - (leadingOffset + titleCount)
     let titleTrailingMargin = Divider.space.`repeat`(by: trailingOffset)
-    
+
     console.write(Divider.pipe, endLine: false)
     console.write(titleLeadingMargin, endLine: false)
 
@@ -164,7 +164,7 @@ private extension Report {
       if i > 0 {
         console.write(Divider.space, endLine: false)
       }
-      
+
       console.write(
         string: title.value,
         color: title.color,
@@ -172,22 +172,22 @@ private extension Report {
         endLine: false
       )
     }
-    
+
     console.write(titleTrailingMargin, endLine: false)
     console.write(Divider.pipe)
   }
 
   func renderRow(for cells: Cells) {
     console.write(Divider.pipe, endLine: false)
-    
+
     cells.forEach { cell in
       let length = cell.length - cell.title.count
-      
+
       var cellString = String.empty
       cellString += Divider.space
       cellString += cell.title
       cellString += Divider.space.`repeat`(by: length)
-      
+
       console.write(
         string: cellString,
         color: cell.color,
@@ -196,18 +196,18 @@ private extension Report {
       )
       console.write(Divider.pipe, endLine: false)
     }
-    
+
     console.endLine()
   }
-  
+
   func renderDivider(with maxWidthList: [Int]) {
     var divisor = Divider.plus
-    
+
     maxWidthList.forEach { maxWidth in
       divisor += Divider.minus.`repeat`(by: maxWidth + 1)
       divisor += Divider.plus
     }
-    
+
     console.write(divisor, endLine: true)
   }
 }
@@ -221,8 +221,7 @@ private extension Array where Element == ScriptCommand.Author {
 
     if count == 1 {
       author = self[0].name ?? "Raycast"
-    }
-    else if count > 1 {
+    } else if count > 1 {
       author = "Multiple"
     }
 

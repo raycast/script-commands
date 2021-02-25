@@ -9,7 +9,7 @@ import TSCBasic
 public final class Console {
   private var noColor: Bool
   private let terminalController: TerminalController?
-  
+
   public static let shared = Console()
 
   init(noColor: Bool = false) {
@@ -35,12 +35,12 @@ public final class Console {
 
   public func write(string: String, color: TerminalController.Color, bold: Bool = false, endLine: Bool = true) {
     terminalController?.write(string, inColor: noColor ? .noColor : color, bold: bold)
-    
+
     if endLine {
       terminalController?.endLine()
     }
   }
-  
+
   public func endLine() {
     terminalController?.endLine()
   }

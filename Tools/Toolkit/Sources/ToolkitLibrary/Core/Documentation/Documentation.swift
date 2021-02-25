@@ -24,7 +24,6 @@ final class Documentation {
     try generateMarkdown(for: data)
     try generateJSON(for: data)
   }
-
 }
 
 // MARK: - Private methods
@@ -134,15 +133,15 @@ private extension Documentation {
 
     return contentString
   }
-    
+
   func renderShieldBadge(total: Int) -> String {
     let logo = "data:image/png;base64,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"
-    
+
     let style                = "for-the-badge"
     let rightPartColor       = "red"
     let labelBackgroundColor = "202123"
     let badge = "[![Raycast Script Commands](https://img.shields.io/badge/Script%20Commands-\(total)-\(rightPartColor)?style=\(style)&logo=\(logo)&labelColor=\(labelBackgroundColor))](https://github.com/raycast/script-commands)"
-    
+
     return badge
   }
 }

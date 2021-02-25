@@ -7,12 +7,10 @@ import Foundation
 import TSCBasic
 
 extension Toolkit {
-
   @discardableResult
   func readFolderContent(path: AbsolutePath,
                          parentGroups: inout Groups,
                          ignoreFilesInDir: Bool = false) throws -> ScriptCommands {
-    
     var scriptCommands = ScriptCommands()
 
     for directory in onlyDirectories(at: path) {
@@ -47,7 +45,7 @@ extension Toolkit {
 
       if var scriptCommand = readScriptCommand(from: file) {
         self.totalScriptCommands += 1
-        
+
         scriptCommand.configure(
           isExecutable: fileSystem.isExecutableFile(file)
         )
@@ -84,7 +82,7 @@ extension Toolkit {
       filename: filePath.basename,
       path: filePath
     )
-    
+
     return ScriptCommand(
       from: dictionary
     )
@@ -97,7 +95,7 @@ extension Toolkit {
     // TODO: Use the content of dictionary to implement the validation
     var dictionary = readKeyValues(of: content)
     dictionary[filenameKey] = filename
-    
+
     dictionary["isTemplate"] = filename.contains("template")
 
     if dictionary[packageNameKey] == nil {
@@ -110,23 +108,23 @@ extension Toolkit {
   func readKeyValues(of content: String) -> [String: Any] {
     let regex = "@raycast.(?<key>[A-Za-z0-9]+)\\s(?<value>[\\S ]+)"
     let results = RegEx.checkingResults(for: regex, in: content)
-    
+
     var dictionary: [String: Any] = [:]
 
     if let language = extractLanguageFromShebang(using: content) {
       dictionary["language"] = language
     }
-    
+
     let authors = extractAuthors(from: content, using: results)
     if authors.count > 0 {
       dictionary["authors"] = authors
     }
-    
+
     let icons = extractIcons(from: content, using: results)
     if icons.count > 0 {
       dictionary["icon"] = icons
     }
-    
+
     dictionary["hasArguments"] = extractArguments(from: content, using: results)
 
     for result in results {
@@ -135,7 +133,7 @@ extension Toolkit {
       guard keyValue.authorKeys == false && keyValue.iconKeys == false else {
         continue
       }
-      
+
       dictionary.merge(keyValue) { $1 }
     }
 
@@ -144,68 +142,68 @@ extension Toolkit {
 
   func extractLanguageFromShebang(using content: String) -> String? {
     let regex = "#!(?<shebang>[^\n]+)"
-    
+
     guard let result = RegEx.checkingResult(for: regex, in: content) else {
       return nil
     }
-    
+
     let range = result.range(withName: "shebang")
-    
+
     guard let shebang = self.content(of: range, on: content) else {
       return nil
     }
-    
+
     guard var software = shebang.split(separator: "/").last else {
       return nil
     }
-    
+
     let values = software.split(separator: " ")
-    
+
     if values.count > 1 {
       software = values.first == "env"
         ? values.last ?? ""
         : values.first ?? ""
     }
-    
+
     let language = Language(String(software))
-    
+
     return language.name
   }
-  
+
   func extractArguments(from content: String, using results: NSTextCheckingResults) -> Bool {
     var hasArguments = false
-    
+
     for result in results {
       let dictionary = readKeyValue(from: result, content: content)
-      
+
       guard dictionary.argumentsKeys else {
         continue
       }
-      
+
       hasArguments = true
     }
-    
+
     return hasArguments
   }
-  
+
   func extractIcons(from content: String, using results: NSTextCheckingResults) -> [String: String] {
     var icons: [String: String] = [:]
-    
+
     for result in results {
       let dictionary = readKeyValue(from: result, content: content)
-      
+
       guard let key = dictionary.keys.first, dictionary.iconKeys else {
         continue
       }
-      
+
       if let value = dictionary[key] as? String {
         icons[key] = value
       }
     }
-    
+
     return icons
   }
-  
+
   func extractAuthors(from content: String, using results: NSTextCheckingResults) -> [[String: String]] {
     var authors: [[String: String]] = []
     var currentAuthor: [String: String] = [:]
@@ -246,7 +244,6 @@ extension Toolkit {
 
     if let key = self.content(of: keyRange, on: content),
        let value = self.content(of: valueRange, on: content) {
-
       if let intValue = Int(value) {
         dictionary[key] = intValue
       } else if let boolValue = Bool(value) {
@@ -331,24 +328,24 @@ private extension Dictionary where Key == String {
 
     return key == authorNameKey || key == authorURLKey
   }
-  
+
   var iconKeys: Bool {
     typealias Keys = ScriptCommand.Icon.InputCodingKeys
     let iconKey = Keys.icon.rawValue
     let iconDarkKey = Keys.iconDark.rawValue
-    
+
     guard let key = keys.first else {
       return false
     }
-    
+
     return key == iconKey || key == iconDarkKey
   }
-  
+
   var argumentsKeys: Bool {
     guard let key = keys.first else {
       return false
     }
-    
+
     return key == "argument1" || key == "argument2" || key == "argument3"
   }
 }

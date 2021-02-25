@@ -22,5 +22,4 @@ extension String {
         $0.isEmoji == false
       } == false
   }
-
 }

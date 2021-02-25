@@ -9,14 +9,13 @@ import TSCBasic
 
 extension ToolkitCommand {
   struct SetExecutable: ParsableCommand {
-    
     static var configuration = CommandConfiguration(
       abstract: "Set file mode \"executable\" to Script Commands"
     )
-    
+
     @Argument(help: "Path of the Raycast extensions folder.\n")
     var path: String = "./commands"
-    
+
     func run() throws {
       let fileSystem = TSCBasic.localFileSystem
 
@@ -26,7 +25,6 @@ extension ToolkitCommand {
         )
 
         try toolkit.setScriptCommandsAsExecutable()
-        
       } catch {
         Toolkit.raycastDescription()
         Console.shared.writeRed("Error: \(error)")
