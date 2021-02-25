@@ -158,8 +158,8 @@ extension ScriptCommand: MarkdownDescriptionProtocol {
     let scriptPath = "\(leadingPath)\(filename)"
 
     let header = """
-        | \(iconDescription) | [\(title)](\(scriptPath)) | \(details) | \(author) | \(hasArguments ? "✅" : "") | \(isTemplate ? "✅" : "") | \(language) |
-        """
+      | \(iconDescription) | [\(title)](\(scriptPath)) | \(details) | \(author) | \(hasArguments ? "✅" : "") | \(isTemplate ? "✅" : "") | \(language) |
+    """
 
     content += .newLine + header
 
