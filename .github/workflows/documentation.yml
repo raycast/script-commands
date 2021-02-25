@@ -2,7 +2,7 @@ name: Documentation
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, Toolkit/Improvements ]
 
 jobs:
   generateDocumentation:
