@@ -56,7 +56,7 @@ private extension Report {
   typealias Cells = [Cell]
 
   func filter(for group: Group, leadingPath: String = .empty, by type: Toolkit.ReportType) {
-    if group.scriptCommands.count > 0 {
+    if group.scriptCommands.isEmpty == false {
       for var scriptCommand in group.scriptCommands.sorted() {
         scriptCommand.configure(leadingPath: leadingPath)
 

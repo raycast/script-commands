@@ -30,8 +30,8 @@ extension ScriptCommand {
 
 extension ScriptCommand.Icon {
   enum InputCodingKeys: String, CodingKey {
-    case icon = "icon"
-    case iconDark = "iconDark"
+    case icon
+    case iconDark
   }
 
   enum OutputCodingKeys: String, CodingKey {
