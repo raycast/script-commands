@@ -59,7 +59,7 @@ extension Toolkit {
 
 private extension Toolkit {
   func filter(for group: Group, leadingPath: String = .empty, scriptCommands: inout ScriptCommands) {
-    if group.scriptCommands.count > 0 {
+    if group.scriptCommands.isEmpty == false {
       for var scriptCommand in group.scriptCommands {
         scriptCommand.configure(leadingPath: leadingPath)
 

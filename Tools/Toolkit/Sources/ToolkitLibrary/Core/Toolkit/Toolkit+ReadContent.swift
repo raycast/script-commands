@@ -8,9 +8,7 @@ import TSCBasic
 
 extension Toolkit {
   @discardableResult
-  func readFolderContent(path: AbsolutePath,
-                         parentGroups: inout Groups,
-                         ignoreFilesInDir: Bool = false) throws -> ScriptCommands {
+  func readFolderContent(path: AbsolutePath, parentGroups: inout Groups, ignoreFilesInDir: Bool = false) throws -> ScriptCommands {
     var scriptCommands = ScriptCommands()
 
     for directory in onlyDirectories(at: path) {
@@ -27,11 +25,11 @@ extension Toolkit {
 
       let values = try readFolderContent(path: directory, parentGroups: &subGroups)
 
-      if values.count > 0 {
+      if values.isEmpty == false {
         group.scriptCommands = values
       }
 
-      if subGroups.count > 0 {
+      if subGroups.isEmpty == false {
         group.subGroups = subGroups
       }
 
@@ -116,12 +114,12 @@ extension Toolkit {
     }
 
     let authors = extractAuthors(from: content, using: results)
-    if authors.count > 0 {
+    if authors.isEmpty == false {
       dictionary["authors"] = authors
     }
 
     let icons = extractIcons(from: content, using: results)
-    if icons.count > 0 {
+    if icons.isEmpty == false {
       dictionary["icon"] = icons
     }
 
@@ -242,8 +240,7 @@ extension Toolkit {
     let keyRange = result.range(withName: "key")
     let valueRange = result.range(withName: "value")
 
-    if let key = self.content(of: keyRange, on: content),
-       let value = self.content(of: valueRange, on: content) {
+    if let key = self.content(of: keyRange, on: content), let value = self.content(of: valueRange, on: content) {
       if let intValue = Int(value) {
         dictionary[key] = intValue
       } else if let boolValue = Bool(value) {
@@ -259,8 +256,7 @@ extension Toolkit {
   func content(of range: NSRange, on content: String) -> String? {
     var value: String?
 
-    if range.location != NSNotFound, range.length > 0,
-       let rangeString = Range<String.Index>(range, in: content) {
+    if range.location != NSNotFound, range.length > 0, let rangeString = Range<String.Index>(range, in: content) {
       value = String(content[rangeString])
     }
 
