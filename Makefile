@@ -24,7 +24,13 @@ gen-docs:
 	./$(EXECUTABLE_NAME) generate-documentation
 
 gen-docs-and-commit: gen-docs
-	./$(TOOLKIT_PATH)/integration.sh commit
+	./$(TOOLKIT_PATH)/integration.sh commit_documentation
+
+set-executable:
+	./$(EXECUTABLE_NAME) set-executable
+
+set-executable-and-commit: set-executable
+	./$(TOOLKIT_PATH)/integration.sh commit_executable
 
 lint:
 	swiftlint lint
