@@ -10,7 +10,6 @@ public extension Toolkit {
     case executable
     case nonExecutable = "non-executable"
     case allScripts = "all-scripts"
-    case metadata
 
     public var description: String {
       return rawValue
