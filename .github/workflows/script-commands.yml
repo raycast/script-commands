@@ -1,11 +1,11 @@
-name: Set as Executablem and Generate Documentation
+name: Set as Executable and Generate Documentation
 
 on:
   push:
     branches: [ master ]
 
 jobs:
-  setAsExecutableAndGenerateDocumentation:
+  scriptCommands:
     runs-on: macos-latest
 
     steps:
