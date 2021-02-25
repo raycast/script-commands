@@ -1,7 +1,5 @@
 #!/bin/bash
 
-func
-
 function commit_documentation() {
   if `git status | grep -q "nothing to commit"`; then
     exit 0;
