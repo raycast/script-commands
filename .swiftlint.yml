@@ -43,7 +43,7 @@ indentation_width:
 trailing_comma:
   mandatory_comma: true
 file_header:
-  required_pattern: ([Copyright (c) \d{4} Raycast. All rights reserved.])\w+
+  required_pattern: ([Copyright (c) \d{4}\-\d{4} Raycast. All rights reserved.])\w+
 identifier_name:
   min_length:
     error: 3
