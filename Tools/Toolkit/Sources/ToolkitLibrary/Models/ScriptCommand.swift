@@ -47,24 +47,24 @@ struct ScriptCommand: Codable {
     guard let icon = self.icon else {
       return .empty
     }
-    
+
     let path = "https://raw.githubusercontent.com/raycast/script-commands/master/commands/\(leadingPath)"
-    
+
     let tag = icon.imageTag(
       with: path
     )
-    
+
     return tag
   }
 
   var fullPath: String {
     "\(leadingPath)/\(filename)"
   }
-  
+
   mutating func configure(leadingPath: String) {
     self.leadingPath = leadingPath
   }
-  
+
   mutating func configure(isExecutable: Bool) {
     self.isExecutable = isExecutable
   }
@@ -73,16 +73,14 @@ struct ScriptCommand: Codable {
 // MARK: - Encode/Decode
 
 extension ScriptCommand {
-
   init?(from dictionary: [String: Any]) {
     if let scriptCommand: ScriptCommand = dictionary.encodeToStruct() {
       self = scriptCommand
-    }
-    else {
+    } else {
       return nil
     }
   }
-  
+
   init(from decoder: Decoder) throws {
     let container               = try decoder.container(keyedBy: CodingKeys.self)
 
@@ -128,7 +126,6 @@ extension ScriptCommand {
 // MARK: - Comparable
 
 extension ScriptCommand: Comparable {
-
   static func < (lhs: ScriptCommand, rhs: ScriptCommand) -> Bool {
     lhs.title < rhs.title
   }
@@ -143,7 +140,6 @@ extension ScriptCommand: Comparable {
 // MARK: - MarkdownDescription Protocol
 
 extension ScriptCommand: MarkdownDescriptionProtocol {
-
   var markdownDescription: String {
     var content: String = .empty
 
@@ -157,7 +153,7 @@ extension ScriptCommand: MarkdownDescriptionProtocol {
     if let value = self.details {
       details = value
     }
-    
+
     let language = Language(self.language).markdownDescription
     let scriptPath = "\(leadingPath)\(filename)"
 

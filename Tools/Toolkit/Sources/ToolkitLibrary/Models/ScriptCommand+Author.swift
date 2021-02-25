@@ -45,7 +45,6 @@ extension ScriptCommand.Author {
 // MARK: - Comparable
 
 extension ScriptCommand.Author: Comparable {
-
   static func < (lhs: ScriptCommand.Author, rhs: ScriptCommand.Author) -> Bool {
     guard let leftName = lhs.name, let rightName = rhs.name else {
       return false
@@ -61,13 +60,11 @@ extension ScriptCommand.Author: Comparable {
 
     return leftName == rightName
   }
-
 }
 
 // MARK: - MarkdownDescription Protocol
 
 extension ScriptCommand.Author: MarkdownDescriptionProtocol {
-
   var markdownDescription: String {
     if let name = name, let url = url {
       return "[\(name)](\(url))"
@@ -83,7 +80,6 @@ extension ScriptCommand.Author: MarkdownDescriptionProtocol {
   var sectionTitle: String {
     .empty
   }
-
 }
 
 // MARK: - Authors

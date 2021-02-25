@@ -8,9 +8,7 @@ import ToolkitLibrary
 import TSCBasic
 
 extension ToolkitCommand {
-
   struct GenerateDocumentation: ParsableCommand {
-
     static var configuration = CommandConfiguration(
       abstract: "Generate the documentation in JSON and Markdown format"
     )
