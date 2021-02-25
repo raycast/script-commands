@@ -7,7 +7,6 @@ import Foundation
 import TSCBasic
 
 extension Toolkit {
-
   public func generateDocumentation(outputJSONFilename: String, outputMarkdownFilename: String) throws {
     guard fileSystem.exists(extensionsAbsolutePath) else {
       throw Error.extensionsFolderNotFound(extensionsAbsolutePath.pathString)
@@ -22,7 +21,7 @@ extension Toolkit {
     )
 
     data.totalScriptCommands = totalScriptCommands
-    
+
     let documentation = Documentation(
       path: extensionsAbsolutePath,
       jsonFilename: outputJSONFilename,

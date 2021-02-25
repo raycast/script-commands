@@ -7,9 +7,7 @@ import ArgumentParser
 import ToolkitLibrary
 
 extension ToolkitCommand {
-
   struct Version: ParsableCommand {
-
     static var configuration = CommandConfiguration(
       abstract: "Print the current Toolkit version"
     )
