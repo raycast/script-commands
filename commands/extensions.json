@@ -1287,6 +1287,24 @@
         {
           "authors" : [
             {
+              "name" : "Brandon Escamilla",
+              "url" : "https:\/\/github.com\/brandonescamilla"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Opens default email application, and creates a new email with the given inputs.",
+          "filename" : "new-email.sh",
+          "icon" : "📧",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Create Email"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -3426,6 +3444,24 @@
         {
           "authors" : [
             {
+              "name" : "Francois",
+              "url" : "https:\/\/github.com\/AsterYujano"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "search-in-devhints.sh",
+          "icon" : "images\/devhints.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in devhints.io"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Lucas Costa",
               "url" : "https:\/\/github.com\/lucasrcosta"
             }
@@ -4486,5 +4522,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-02-24T18:44:18Z"
+  "updatedAt" : "2021-02-25T10:48:58Z"
 }
