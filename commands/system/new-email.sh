@@ -18,4 +18,3 @@
 
 
 open "mailto:${1}?subject=${2}&body=${3}"
-echo "Done"
