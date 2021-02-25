@@ -392,6 +392,7 @@ This repository contains sample commands and documentation to write your own one
 | 📅 | [Copy Availability](system/copy-availability.swift) | Copies the calendar availability of today. | Raycast |
 | 💁 | [Copy Last Download](system/copy-last-download.swift) | Copy the last downloaded file to the clipboard. | Raycast |
 | 📸 | [Copy Last Screenshot](system/copy-last-screenshot.swift) | Copies the last screenshot to the clipboard. | Raycast |
+| 📧 | [Create Email](system/new-email.sh) | Opens default email application, and creates a new email with the given inputs. | [Brandon Escamilla](https://github.com/brandonescamilla) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/system/images/new-file.png?raw=true" width="20" height="20"> | [Create New File in Finder](system/create-new-file-in-finder.applescript) | Create New File in Finder is a script to make your Finder better.You can use this script to create a plain text file. | Jax0rz |
 | 📀 | [Eject All Disks](system/eject-all-disks.applescript) | Ejects all mounted disk images. | Raycast |
 | 🗑 | [Empty Trash](system/empty-trash.applescript) | Empty the trash. | Raycast |
