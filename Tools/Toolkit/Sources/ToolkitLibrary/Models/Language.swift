@@ -49,7 +49,7 @@ enum Language {
     }
   }
 
-  var socialName: String {
+  var displayName: String {
     switch self {
     case .applescript:
       return "AppleScript"
@@ -89,10 +89,10 @@ enum Language {
 extension Language: MarkdownDescriptionProtocol {
   var markdownDescription: String {
     if let iconFilename = icon {
-      return "<img src=\"images/\(iconFilename)\" width=\"20\" height=\"20\" title=\"\(socialName)\">"
+      return "<img src=\"images/\(iconFilename)\" width=\"20\" height=\"20\" title=\"\(displayName)\">"
     }
 
-    return socialName
+    return displayName
   }
 
   var sectionTitle: String {
