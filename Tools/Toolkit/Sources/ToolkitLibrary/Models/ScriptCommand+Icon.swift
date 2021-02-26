@@ -45,16 +45,16 @@ extension ScriptCommand.Icon {
 extension ScriptCommand.Icon {
   private func htmlImageTag(for lightFilepath: String?, darkFilepath: String?, path: String) -> String {
     if let iconLight = lightFilepath, let iconDark = darkFilepath {
-      var darkURL: String { iconDark.isURL ? iconDark : path + iconDark }
-      var lightURL: String { iconLight.isURL ? iconLight : path + iconLight }
+      var darkURL: String { iconDark.isValidURL ? iconDark : path + iconDark }
+      var lightURL: String { iconLight.isValidURL ? iconLight : path + iconLight }
 
       // This is the way to make modern HTML change images based on the theme (light or dark) used by the user
       return "<picture><source srcset=\"\(darkURL)\" media=\"(prefers-color-scheme: dark)\"><img src=\"\(lightURL)\" width=\"20\" height=\"20\"></picture>"
     } else if let icon = lightFilepath {
-      var url: String { icon.isURL ? icon : path + icon }
+      var url: String { icon.isValidURL ? icon : path + icon }
       return "<img src=\"\(url)\" width=\"20\" height=\"20\">"
     } else if let icon = darkFilepath {
-      var url: String { icon.isURL ? icon : path + icon }
+      var url: String { icon.isValidURL ? icon : path + icon }
       return "<img src=\"\(url)\" width=\"20\" height=\"20\">"
     }
 
@@ -65,7 +65,7 @@ extension ScriptCommand.Icon {
     if let iconLight = light, let iconDark = dark {
       if iconLight.isEmoji && iconDark.isEmoji {
         return iconLight
-      } else if iconLight.isImage && iconDark.isImage || iconLight.isURL && iconDark.isURL {
+      } else if iconLight.isImage && iconDark.isImage || iconLight.isValidURL && iconDark.isValidURL {
         let tag = htmlImageTag(
           for: iconLight,
           darkFilepath: iconDark,
@@ -77,7 +77,7 @@ extension ScriptCommand.Icon {
       return iconLight
     } else if let iconDark = dark, iconDark.isEmoji {
       return iconDark
-    } else if let icon = light, icon.isImage || icon.isURL {
+    } else if let icon = light, icon.isImage || icon.isValidURL {
       let tag = htmlImageTag(
         for: icon,
         darkFilepath: nil,
@@ -85,7 +85,7 @@ extension ScriptCommand.Icon {
       )
 
       return tag
-    } else if let icon = dark, icon.isImage || icon.isURL {
+    } else if let icon = dark, icon.isImage || icon.isValidURL {
       let tag = htmlImageTag(
         for: nil,
         darkFilepath: icon,
@@ -102,10 +102,6 @@ extension ScriptCommand.Icon {
 // MARK: -
 
 private extension String {
-  var isURL: Bool {
-    starts(with: "http://") || starts(with: "https://")
-  }
-
   var isImage: Bool {
     hasSuffix(".png") || hasSuffix(".jpeg") || hasSuffix(".jpg") || hasSuffix(".gif")
   }
