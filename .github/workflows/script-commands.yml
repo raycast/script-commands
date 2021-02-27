@@ -1,11 +1,11 @@
-name: Documentation
+name: Set as Executable and Generate Documentation
 
 on:
   push:
-    branches: [master]
+    branches: [ master ]
 
 jobs:
-  generateDocumentation:
+  scriptCommands:
     runs-on: macos-latest
 
     steps:
@@ -18,6 +18,10 @@ jobs:
       - name: Build Toolkit
         run: |
           make build
+
+      - name: Check and adjust scripts
+        run: |
+          make set-executable-and-commit
 
       - name: Generate Script Commands Documentation
         run: |

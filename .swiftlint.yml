@@ -1,8 +1,11 @@
 indentation: 2
 included:
-  - Sources
+  - Tools/Toolkit
 excluded:
-  - .build
+  - Tools/Toolkit/.build
+  - _enabled-commands
+  - commands
+  - templates
 disabled_rules:
   - cyclomatic_complexity
   - file_length
@@ -40,8 +43,7 @@ indentation_width:
 trailing_comma:
   mandatory_comma: true
 file_header:
-  required_pattern: |
-    \/\/ Copyright © \d{4} Raycast\. All rights reserved\.
+  required_pattern: ([Copyright (c) \d{4}\-\d{4} Raycast. All rights reserved.])\w+
 identifier_name:
   min_length:
     error: 3
