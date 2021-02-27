@@ -21,5 +21,4 @@ if ! command -v brew &> /dev/null; then
   exit 1;
 fi
 
-brew install {$1}
-
+brew install $1
