@@ -1,5 +1,18 @@
 <!-- AUTO GENERATED FILE. DO NOT EDIT. -->
-[![Raycast Script Commands](https://img.shields.io/badge/Script%20Commands-251-red?style=for-the-badge&logo=data:image/png;base64,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&labelColor=202123)](https://github.com/raycast/script-commands)
+<div align="center">
+  <a href="https://github.com/raycast/script-commands">
+    <img alt="GitHub contributors" src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=202123&label=Script%20Commands&query=$.totalScriptCommands&url=https:%2F%2Fraw.githubusercontent.com%2Fraycast%2Fscript-commands%2Fmaster%2Fcommands%2Fextensions.json&logo=data:image/png;base64,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&labelColor=202123">
+  </a>
+  <a href="https://github.com/raycast/script-commands/graphs/contributors">
+    <img alt="GitHub contributors" src="https://img.shields.io/github/stars/raycast?style=for-the-badge">
+  </a>
+  <a href="https://github.com/raycast/script-commands/stargazers">
+    <img alt="GitHub Org's stars" src="https://img.shields.io/github/contributors/raycast/script-commands?style=for-the-badge">
+  </a>
+  <a href="https://twitter.com/raycastapp">
+    <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/raycastapp?style=for-the-badge">
+  </a>
+</div>
 
 # Raycast Script Commands
 
@@ -57,14 +70,14 @@ This repository contains sample commands and documentation to write your own one
 #### Amphetamine
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/amphetamine/images/amphetamine.png" width="20" height="20"> | [End Session](apps/amphetamine/amphetamine-off.applescript) | Stop Current Amphetamine Session | [James Lyons](https://github.com/jamesjlyons) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/amphetamine/images/amphetamine.png" width="20" height="20"> | [Start Default Session](apps/amphetamine/amphetamine-on.applescript) | Start Default Amphetamine Session | [James Lyons](https://github.com/jamesjlyons) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 #### Bear
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/bear/images/bear-dark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/bear/images/bear-light.png" width="20" height="20"></picture> | [Add Note](apps/bear/bear-add-note.sh) | Add a new note to Bear. | [Tanay Nistala](https://github.com/tanaynistala) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/bear/images/bear-dark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/bear/images/bear-light.png" width="20" height="20"></picture> | [Open Note](apps/bear/bear-open-note.sh) | Open the specified note in Bear. | [Tanay Nistala](https://github.com/tanaynistala) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/bear/images/bear-dark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/bear/images/bear-light.png" width="20" height="20"></picture> | [Open Tag](apps/bear/bear-open-tag.sh) | Open the specified tag in Bear. | [Tanay Nistala](https://github.com/tanaynistala) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
@@ -75,26 +88,26 @@ This repository contains sample commands and documentation to write your own one
 #### Hazeover
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/hazeover/images/hazeover.png" width="20" height="20"> | [Set Intensity](apps/hazeover/hazeover-set-intensity.applescript) | Set dimming intensity of background windows. | [Thomas Paul Mann](https://github.com/thomaspaulmann) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/hazeover/images/hazeover.png" width="20" height="20"> | [Toggle Dimming](apps/hazeover/hazeover-toggle-dimming.applescript) | Toggle dimming of all background windows. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 #### Iterm
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/iterm/images/iterm.png" width="20" height="20"> | [Run Shell Command](apps/iterm/iterm-run-shell-command.applescript) | N/A | [Andrei Borisov](https://github.com/andreiborisov) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 ## Bookmarks
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | 📜 | [Open Script Commands Repository](bookmarks/open-script-commands-repository.sh) | Open the GitHub repository for Script Commands provided by the community. | Raycast |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 ## Browsing
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | 🧭 | [Copy Current Page URL](browsing/safari-current-page-url.sh) | This script copies URL of currently opened page in Safari into clipboard. | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🧭 | [Copy Current Window URLs](browsing/safari-current-window-urls.applescript) | This script copies to clipboard all URLs from frontmost Safari window. | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/browsing/images/outline.png" width="20" height="20"> | [Go to Outline](browsing/go-to-outine.sh) | Open the website at Outline | [Ronan Rodrigo Nunes](https://ronanrodrigo.dev) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
@@ -106,14 +119,14 @@ This repository contains sample commands and documentation to write your own one
 ## Communication
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | 🔐 | [2FA from iMessages](communication/imessage-2fa.sh) | Get most recent two-factor authentication code from iMessages. | [Caleb Stauffer](https://github.com/crstauf) and [Thiago Holanda](https://twitter.com/tholanda) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🔐 | [Generate Passphrase](communication/xkcdpass.sh) | Use [xkcdpass](https://github.com/redacted/XKCD-password-generator) to create a passphrase. | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Cloudup
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/cloudup/images/cloudup-logo.png" width="20" height="20"> | [Paste](communication/cloudup/cloudup-paste.sh) | Upload clipboard contents to [Cloudup](https://cloudup.com/). | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/cloudup/images/cloudup-logo.png" width="20" height="20"> | [Pick](communication/cloudup/cloudup-pick.sh) | Open file dialog and upload to [Cloudup](https://cloudup.com/). | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/cloudup/images/cloudup-logo.png" width="20" height="20"> | [Upload](communication/cloudup/cloudup-upload.sh) | Upload path or URL in clipboard to [Cloudup](https://cloudup.com/). | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
@@ -121,20 +134,20 @@ This repository contains sample commands and documentation to write your own one
 #### Emojis
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | 📙 | [Search Emojis](communication/emojis/emojis-search.sh) | Search for emojis related to input. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 📙 | [Search and Copy First Related Emoji](communication/emojis/emoji-copy.sh) | Copy first emoji related to input. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Gmail
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/gmail/images/google-gmail-logo.png" width="20" height="20"> | [Gmail](communication/gmail/google-gmail.sh) | Open gmail.com in the default browser | [Michael Aigner](https://github.com/tonka3000) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Slack
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/slack/images/slack-logo.png" width="20" height="20"> | [Clear Slack DND](communication/slack/clear-slack-DND-status.sh) | Clear DND Status in Slack | [Sam Ching](https://github.com/samching) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🧼 | [Clear Status](communication/slack/clear-slack-status.template.sh) | Clear your status in Slack. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/slack/images/slack-logo.png" width="20" height="20"> | [Set DND Status](communication/slack/set-slack-DND-status.sh) | Set your DND status in Slack | [Sam Ching](https://github.com/samching) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
@@ -145,7 +158,7 @@ This repository contains sample commands and documentation to write your own one
 ## Conversions
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | 🎨 | [Color Conversion](conversions/color-conversion.sh) | Convert color formats (e.g. #FFEEFF -> rgba(255,238,255,1) | [quelhasu](https://github.com/quelhasu) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   |  | [Column to Comma](conversions/column-to-comma.sh) | N/A | Raycast |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | ⏱ | [Convert Epoch to Human-Readable Date](conversions/epoch-to-human-date.sh) | Convert epoch to human-readable date. | [Siyuan Zhang](https://github.com/kastnerorz) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
@@ -157,7 +170,7 @@ This repository contains sample commands and documentation to write your own one
 ## Dashboard
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/dashboard/images/bitcoin-logo.png" width="20" height="20"> | [Bitcoin Price](dashboard/bitcoin-price-usd.sh) | Get current Bitcoin price from Coindesk. | [Tanguy Le Stradic](https://github.com/tanguyls) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🌦️ | [Current Weather](dashboard/current-weather.sh) | Get current weather report from [wttr.in](https://wttr.in/). | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/dashboard/images/ethereum-logo.png" width="20" height="20"> | [Ethereum Price](dashboard/ethereum-price-usd.sh) | Get current Ethereum price from CoinGecko. | [Clark Dinnison](https://github.com/cdinnison) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
@@ -172,7 +185,7 @@ This repository contains sample commands and documentation to write your own one
 #### Countdowns
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | 🎅🏻 | [Countdown to Christmas](dashboard/countdowns/countdown-to-christmas.sh) | See how many days until Christmas. | [Valentin Chrétien](https://github.com/valentinchrt) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | ⏱ | [Countdown to Date](dashboard/countdowns/countdown-to-date.template.sh) | See how many days/hours until a specific date. | [Valentin Chrétien](https://github.com/valentinchrt) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | ⏱ | [Create Countdown](dashboard/countdowns/create-countdown.template.sh) | Create countdowns via Raycast. | [Valentin Chrétien](https://github.com/valentinchrt) | ✅ | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
@@ -180,7 +193,7 @@ This repository contains sample commands and documentation to write your own one
 ## Developer Utils
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | 🔑 | [Add SSH Keys (with Terminal)](developer-utils/add-ssh-keys.template.applescript) | Add one or multiple SSH keys to your SSH agent (with Terminal). | [Caleb Stauffer](https://github.com/crstauf) |  | ✅ | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🧹 | [Clear Derived Data](developer-utils/clear-derived-data.sh) | Clear the derived data of Xcode. | Raycast |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 📝 | [Copy Lorem Ipsum](developer-utils/lorem-ipsum.sh) | Copy one paragraph of Lorem Ipsum to clipboard. | Raycast |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
@@ -214,13 +227,13 @@ This repository contains sample commands and documentation to write your own one
 #### Aws
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | 🤖 | [Find AWS Region by IP](developer-utils/aws/whatismyregion.sh) | Copies the AWS IPv4 to the clipboard. | [Oğuzhan Yılmaz](https://github.com/c1982) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Brew
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | 🍺 | [Doctor](developer-utils/brew/brew-doctor.sh) | Run Brew Doctor | [Thiago Holanda](https://twitter.com/tholanda) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🍺 | [Install a package](developer-utils/brew/brew-install.sh) | Installs specified brew package. | [Alex Zotov](https://github.com/lex4hex) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🍺 | [Outdated List](developer-utils/brew/brew-outdated.sh) | Show list of outdated formulae | [Thiago Holanda](https://twitter.com/tholanda) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
@@ -232,13 +245,13 @@ This repository contains sample commands and documentation to write your own one
 #### Cloudflare
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/cloudflare/images/cloudflare-logo.png" width="20" height="20"> | [Purge Cloudflare cache](developer-utils/cloudflare/purge-cloudflare-cache.template.sh) | Purge Cloudflare cache for zone. | [Caleb Stauffer](https://github.com/crstauf) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Github
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/github/images/github-logo-iconDark.png" width="20" height="20"> | [Create GitHub Gist from Clipboard](developer-utils/github/create-github-gist.template.sh) | Create a GitHub Gist from clipboard contents and copy Gist URL. | [Caleb Stauffer](https://github.com/crstauf) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | ⭐️ | [Repository Statistics](developer-utils/github/github-repository-stars.template.rb) | Show statistics of your GitHub repository. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  | ✅ | <img src="images/icon-ruby.png" width="20" height="20" title="Ruby"> |
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/github/images/github-logo-iconDark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/github/images/github-logo.png" width="20" height="20"></picture> | [Unread Notifications](developer-utils/github/github-unread-notifications.template.sh) | Display (detailed) number of unread GitHub notifications. | [Caleb Stauffer](https://github.com/crstauf) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
@@ -247,7 +260,7 @@ This repository contains sample commands and documentation to write your own one
 #### Gitlab
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/gitlab/images/gitlab.png" width="20" height="20"> | [Issues](developer-utils/gitlab/gitlab-issues.template.py) | Show issues from GitLab | [Michael Aigner](https://github.com/tonka3000) |  | ✅ | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/gitlab/images/gitlab.png" width="20" height="20"> | [Merge Requests](developer-utils/gitlab/gitlab-mergerequests.template.py) | Show merge requests from GitLab | [Michael Aigner](https://github.com/tonka3000) |  | ✅ | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/gitlab/images/gitlab.png" width="20" height="20"> | [To-Dos](developer-utils/gitlab/gitlab-todos.template.py) | Show todos from GitLab | [Michael Aigner](https://github.com/tonka3000) |  | ✅ | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
@@ -255,7 +268,7 @@ This repository contains sample commands and documentation to write your own one
 #### Google
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/google/images/google-lighthouse-logo.png" width="20" height="20"> | [Lighthouse](developer-utils/google/google-lighthouse.sh) | Open a [Lighthouse](https://developers.google.com/web/tools/lighthouse/) report of URL. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/google/images/google-psi-logo.png" width="20" height="20"> | [PageSpeed Insights - Desktop](developer-utils/google/google-psi-desktop.sh) | Run a [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) analysis on desktop of URL. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/google/images/google-psi-logo.png" width="20" height="20"> | [PageSpeed Insights - Mobile](developer-utils/google/google-psi-mobile.sh) | Run a [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) analysis on mobile of URL. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
@@ -263,7 +276,7 @@ This repository contains sample commands and documentation to write your own one
 #### Ip
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | 🌐 | [External IPv4](developer-utils/ip/get-external-ip-v4.sh) | Copies the external IPv4 to the clipboard. | Raycast |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🌐 | [External IPv6](developer-utils/ip/get-external-ip-v6.sh) | Copies the external IPv6 to the clipboard. | Raycast |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🌐 | [Local IPv4](developer-utils/ip/get-local-ip-v4.sh) | Copies the local IPv4 to the clipboard. | Raycast |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
@@ -274,14 +287,14 @@ This repository contains sample commands and documentation to write your own one
 #### Sentry
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/sentry/images/sentry-dark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/sentry/images/sentry.png" width="20" height="20"></picture> | [Unresolved Issues](developer-utils/sentry/sentry-unresolved-issues.template.py) | Show unresolved issues of the last 24 hours from Sentry. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  | ✅ | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/sentry/images/sentry-dark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/sentry/images/sentry.png" width="20" height="20"></picture> | [Unresolved Issues By Project](developer-utils/sentry/sentry-unresolved-issues-by-project.template.py) | Show unresolved issues in the last 24 hours (by project) from Sentry. | [Phil Salant](https://github.com/PSalant726) and [Thomas Paul Mann](https://github.com/thomaspaulmann) | ✅ | ✅ | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
 
 ## Google Maps
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/google-maps/google-map.png" width="20" height="20"> | [Search Google Maps](google-maps/google-maps.sh) | N/A | Raycast | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 ## Home
@@ -289,7 +302,7 @@ This repository contains sample commands and documentation to write your own one
 #### Elgato
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/home/elgato/images/elgato.png" width="20" height="20"> | [Decrease Brightness](home/elgato/elgato-key-light-decrease-brightness.template.rb) | Decrease brightness of Elgato Key Light by 5%. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  | ✅ | <img src="images/icon-ruby.png" width="20" height="20" title="Ruby"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/home/elgato/images/elgato.png" width="20" height="20"> | [Increase Brightness](home/elgato/elgato-key-light-increase-brightness.template.rb) | Increase brightness of Elgato Key Light by 5%. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  | ✅ | <img src="images/icon-ruby.png" width="20" height="20" title="Ruby"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/home/elgato/images/elgato.png" width="20" height="20"> | [Turn Off](home/elgato/elgato-key-light-turn-off.template.rb) | Turn off Elgato Key Light. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  | ✅ | <img src="images/icon-ruby.png" width="20" height="20" title="Ruby"> |
@@ -298,7 +311,7 @@ This repository contains sample commands and documentation to write your own one
 ## Math
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | 📈 | [Calculate Growth %](math/calculate-growth.sh) | Calculate percentage increase between "from" and "to" values. | [Petr Nikolaev](https://github.com/pitnikola) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 ## Media
@@ -306,7 +319,7 @@ This repository contains sample commands and documentation to write your own one
 #### Apple Music
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-music/images/apple-music-logo.png" width="20" height="20"> | [Current Track](media/apple-music/apple-music-current-track.applescript) | Show currently playing track in Music. | [mmerle](https://github.com/mmerle) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-music/images/apple-music-logo.png" width="20" height="20"> | [Next Track](media/apple-music/apple-music-next.applescript) | Next track in Music. | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-music/images/apple-music-logo.png" width="20" height="20"> | [Pause](media/apple-music/apple-music-pause.applescript) | Pause Music. | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
@@ -320,7 +333,7 @@ This repository contains sample commands and documentation to write your own one
 #### Apple Tv
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-tv/images/apple-tv-logo.png" width="20" height="20"> | [Pause](media/apple-tv/apple-tv-pause.applescript) | Pause TV. | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-tv/images/apple-tv-logo.png" width="20" height="20"> | [Play](media/apple-tv/apple-tv-play.applescript) | Play TV. | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-tv/images/apple-tv-logo.png" width="20" height="20"> | [Play Movie](media/apple-tv/apple-tv-play-movie.applescript) | Play specified movie from library in TV. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
@@ -330,7 +343,7 @@ This repository contains sample commands and documentation to write your own one
 #### Cmus
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | ℹ️ | [Current Track](media/cmus/track-info.sh) | Shows info on the current track if cmus is running | [mmerle](https://github.com/mmerle) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | ⏩ | [Next Track](media/cmus/next-track.sh) | Goes forward a track if cmus is running | [mmerle](https://github.com/mmerle) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | ⏪ | [Previous Track](media/cmus/previous-track.sh) | Goes back a track if cmus is running | [mmerle](https://github.com/mmerle) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
@@ -341,7 +354,7 @@ This repository contains sample commands and documentation to write your own one
 #### Spotify
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/spotify/images/spotify-logo.png" width="20" height="20"> | [Copy Current Playing Song URL](media/spotify/spotify-now-playing-url.applescript) | Get link to current Spotify playing song | [Jack LaFond](https://github.com/jacc) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/spotify/images/spotify-logo.png" width="20" height="20"> | [Current Track](media/spotify/spotify-current-track.applescript) | Show currently playing track in Spotify. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/spotify/images/spotify-logo.png" width="20" height="20"> | [Next Track](media/spotify/spotify-next-track.applescript) | Skips to the next track in Spotify. | Raycast |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
@@ -354,7 +367,7 @@ This repository contains sample commands and documentation to write your own one
 ## Navigation
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/navigation/images/justfocus.png" width="20" height="20"> | [JustFocus](navigation/justfocus.applescript) | N/A | Jax0rz | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 📂 | [Open Applications](navigation/open-applications.sh) | Opens the Applications folder in the Finder. | Raycast |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🖥 | [Open Clipboard URL on Desktop](navigation/open-desktop-url-from-clipboard.swift) | Opens the URL from the clipboard in the desktop app. | Raycast |  |  | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
@@ -378,7 +391,7 @@ This repository contains sample commands and documentation to write your own one
 #### Bitwarden
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png" width="20" height="20"> | [Copy First Matching Password](password-managers/bitwarden/copy-first-matching-password.sh) | Search all items in a Bitwarden vault, and copy the password of the first search result to the clipboard. | [Phil Salant](https://github.com/PSalant726) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png" width="20" height="20"> | [Lock Vault](password-managers/bitwarden/lock-vault.sh) | Lock a Bitwarden vault. | [Phil Salant](https://github.com/PSalant726) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png" width="20" height="20"> | [Log In](password-managers/bitwarden/log-in.template.sh) | Log in to a Bitwarden vault. | [Phil Salant](https://github.com/PSalant726) | ✅ | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
@@ -390,7 +403,7 @@ This repository contains sample commands and documentation to write your own one
 ## System
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | 📅 | [Copy Availability](system/copy-availability.swift) | Copies the calendar availability of today. | Raycast |  |  | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
   | 💁 | [Copy Last Download](system/copy-last-download.swift) | Copy the last downloaded file to the clipboard. | Raycast |  |  | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
   | 📸 | [Copy Last Screenshot](system/copy-last-screenshot.swift) | Copies the last screenshot to the clipboard. | Raycast |  |  | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
@@ -429,7 +442,7 @@ This repository contains sample commands and documentation to write your own one
 ## Web Searches
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | 📦 | [Bundlephobia cost](web-searches/bundlephobia.sh) | N/A | [Zander Martineau](https://zander.wtf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | ❓ | [Caniuse.com search](web-searches/caniuse.sh) | N/A | [Zander Martineau](https://zander.wtf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/giphy.png" width="20" height="20"> | [Giphy search](web-searches/giphy.sh) | N/A | [Zander Martineau](https://zander.wtf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
@@ -479,7 +492,7 @@ This repository contains sample commands and documentation to write your own one
 #### Wordpress
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ---- | ----------- | ------ | ---- | ----- | ----- |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/wordpress/images/wordpress-logo-iconDark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/wordpress/images/wordpress-logo.png" width="20" height="20"></picture> | [Search WordPress Docs](web-searches/wordpress/search-wordpress-docs.sh) | Search [WordPress Developer documentation](https://developer.wordpress.org/reference/). | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/wordpress/images/wordpress-logo-iconDark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/wordpress/images/wordpress-logo.png" width="20" height="20"></picture> | [WordPress CLI Command](web-searches/wordpress/wordpress-cli-command.sh) | Open [WordPress CLI command reference](https://developer.wordpress.org/cli/commands/) for specified command. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/wordpress/images/wordpress-logo-iconDark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/wordpress/images/wordpress-logo.png" width="20" height="20"></picture> | [WordPress Classes Reference](web-searches/wordpress/wordpress-classes-reference.sh) | Open [WordPress classes reference](https://developer.wordpress.org/reference/classes/) for specified class. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
