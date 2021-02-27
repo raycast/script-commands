@@ -21,7 +21,13 @@
               "currentDirectoryPath" : null,
               "description" : "Increase brightness of Elgato Key Light by 5%.",
               "filename" : "elgato-key-light-increase-brightness.template.rb",
-              "icon" : "images\/elgato.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/elgato.png"
+              },
+              "isTemplate" : true,
+              "language" : "ruby",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Elgato Key Light",
@@ -39,7 +45,13 @@
               "currentDirectoryPath" : null,
               "description" : "Turn on Elgato Key Light.",
               "filename" : "elgato-key-light-turn-on.template.rb",
-              "icon" : "images\/elgato.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/elgato.png"
+              },
+              "isTemplate" : true,
+              "language" : "ruby",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Elgato Key Light",
@@ -57,7 +69,13 @@
               "currentDirectoryPath" : null,
               "description" : "Turn off Elgato Key Light.",
               "filename" : "elgato-key-light-turn-off.template.rb",
-              "icon" : "images\/elgato.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/elgato.png"
+              },
+              "isTemplate" : true,
+              "language" : "ruby",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Elgato Key Light",
@@ -75,7 +93,13 @@
               "currentDirectoryPath" : null,
               "description" : "Decrease brightness of Elgato Key Light by 5%.",
               "filename" : "elgato-key-light-decrease-brightness.template.rb",
-              "icon" : "images\/elgato.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/elgato.png"
+              },
+              "isTemplate" : true,
+              "language" : "ruby",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Elgato Key Light",
@@ -96,7 +120,10 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "column-to-comma.sh",
+          "hasArguments" : false,
           "icon" : null,
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Conversions",
@@ -114,7 +141,13 @@
           "currentDirectoryPath" : null,
           "description" : "Return the day of the week on which a particular date falls.",
           "filename" : "what-day-is.py",
-          "icon" : "📅",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "📅"
+          },
+          "isTemplate" : false,
+          "language" : "python",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Conversions",
@@ -132,7 +165,13 @@
           "currentDirectoryPath" : null,
           "description" : "Convert hexadecimal color value to RGBA value.",
           "filename" : "hex-to-rgba.sh",
-          "icon" : "🎨",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🎨"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Conversions",
@@ -150,7 +189,13 @@
           "currentDirectoryPath" : null,
           "description" : "Convert hexadecimal color value to RGB value.",
           "filename" : "hex-to-rgb.sh",
-          "icon" : "🎨",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🎨"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Conversions",
@@ -168,7 +213,13 @@
           "currentDirectoryPath" : null,
           "description" : "Convert color formats (e.g. #FFEEFF -> rgba(255,238,255,1)",
           "filename" : "color-conversion.sh",
-          "icon" : "🎨",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🎨"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "fullOutput",
           "needsConfirmation" : false,
           "packageName" : "Conversions",
@@ -186,7 +237,13 @@
           "currentDirectoryPath" : null,
           "description" : "Convert human-readable date to timestamp epoch.",
           "filename" : "human-date-to-epoch.sh",
-          "icon" : "⏱",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "⏱"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : false,
           "packageName" : "Conversions",
@@ -204,7 +261,13 @@
           "currentDirectoryPath" : null,
           "description" : "Convert epoch to human-readable date.",
           "filename" : "epoch-to-human-date.sh",
-          "icon" : "⏱",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "⏱"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : false,
           "packageName" : "Conversions",
@@ -228,7 +291,13 @@
           "currentDirectoryPath" : null,
           "description" : "Transform the clipboard contents to a short Bitly URL",
           "filename" : "shorten-url-bitly.template.sh",
-          "icon" : "🔗",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔗"
+          },
+          "isTemplate" : true,
+          "language" : "bash",
           "mode" : "compact",
           "needsConfirmation" : null,
           "packageName" : "Browsing",
@@ -246,7 +315,13 @@
           "currentDirectoryPath" : null,
           "description" : "Shorten the URL in your Clipboard with Tiny URL.",
           "filename" : "shorten-url.sh",
-          "icon" : "🔗",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔗"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Browsing",
@@ -264,7 +339,13 @@
           "currentDirectoryPath" : null,
           "description" : "Open the website at Outline",
           "filename" : "go-to-outine.sh",
-          "icon" : "images\/outline.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/outline.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "compact",
           "needsConfirmation" : null,
           "packageName" : "Browsing",
@@ -282,7 +363,13 @@
           "currentDirectoryPath" : null,
           "description" : "This script copies to clipboard all URLs from frontmost Safari window.",
           "filename" : "safari-current-window-urls.applescript",
-          "icon" : "🧭",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🧭"
+          },
+          "isTemplate" : false,
+          "language" : "applescript",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Safari",
@@ -300,7 +387,13 @@
           "currentDirectoryPath" : "~\/Desktop",
           "description" : "Takes screenshots of the entered URL using [`pageres`](https:\/\/github.com\/sindresorhus\/pageres) and saves it to the Desktop.",
           "filename" : "website-screenshots.sh",
-          "icon" : "🖼️",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🖼️"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "compact",
           "needsConfirmation" : null,
           "packageName" : "Internet",
@@ -318,7 +411,13 @@
           "currentDirectoryPath" : null,
           "description" : "Use [Peekalink.io](https:\/\/peekalink.io) API to peek specified URL.",
           "filename" : "peekalink.template.sh",
-          "icon" : "images\/peekalink-logo.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/peekalink-logo.png"
+          },
+          "isTemplate" : true,
+          "language" : "bash",
           "mode" : "fullOutput",
           "needsConfirmation" : null,
           "packageName" : "Internet",
@@ -336,7 +435,13 @@
           "currentDirectoryPath" : null,
           "description" : "This script copies URL of currently opened page in Safari into clipboard.",
           "filename" : "safari-current-page-url.sh",
-          "icon" : "🧭",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🧭"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Safari",
@@ -355,7 +460,13 @@
           "currentDirectoryPath" : null,
           "description" : "Opens the Library folder in the Finder.",
           "filename" : "open-library.sh",
-          "icon" : "📂",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📂"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Navigation",
@@ -373,7 +484,13 @@
           "currentDirectoryPath" : null,
           "description" : "Open current Finder directory in Terminal",
           "filename" : "open-terminal-from-finder.applescript",
-          "icon" : "📟",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📟"
+          },
+          "isTemplate" : false,
+          "language" : "applescript",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Navigation",
@@ -391,7 +508,13 @@
           "currentDirectoryPath" : null,
           "description" : "Open curren Terminal directory in Finder",
           "filename" : "open-finder-from-terminal.applescript",
-          "icon" : "📟",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📟"
+          },
+          "isTemplate" : false,
+          "language" : "applescript",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Navigation",
@@ -409,7 +532,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "search-in-devdocs.sh",
-          "icon" : "images\/devdocs.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/devdocs.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Navigation",
@@ -422,7 +551,13 @@
           "currentDirectoryPath" : null,
           "description" : "Opens the Applications folder in the Finder.",
           "filename" : "open-applications.sh",
-          "icon" : "📂",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📂"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Navigation",
@@ -435,7 +570,13 @@
           "currentDirectoryPath" : null,
           "description" : "Opens the URL in the clipboard.",
           "filename" : "open-url-from-clipboard.sh",
-          "icon" : "🌐",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🌐"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Navigation",
@@ -453,7 +594,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "justfocus.applescript",
-          "icon" : "images\/justfocus.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/justfocus.png"
+          },
+          "isTemplate" : false,
+          "language" : "applescript",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Navigation",
@@ -471,7 +618,13 @@
           "currentDirectoryPath" : null,
           "description" : "Creates a new document in Pixelmator Pro from the image stored in your clipboard.",
           "filename" : "open-clipboard-in-pixelmator-pro.applescript",
-          "icon" : ".\/images\/pixelmator-pro-2.0.png",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : ".\/images\/pixelmator-pro-2.0.png"
+          },
+          "isTemplate" : false,
+          "language" : "applescript",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Pixelmator Pro",
@@ -489,7 +642,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "search-in-dash.sh",
-          "icon" : "images\/dash.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/dash.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Navigation",
@@ -507,7 +666,13 @@
           "currentDirectoryPath" : null,
           "description" : "Open current Finder directory in iTerm",
           "filename" : "open-iterm-from-finder.applescript",
-          "icon" : "images\/iterm-logo.png",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/iterm-logo.png"
+          },
+          "isTemplate" : false,
+          "language" : "applescript",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Navigation",
@@ -520,7 +685,13 @@
           "currentDirectoryPath" : null,
           "description" : "Opens the Desktop folder in the Finder.",
           "filename" : "open-desktop.sh",
-          "icon" : "📂",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📂"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Navigation",
@@ -533,7 +704,13 @@
           "currentDirectoryPath" : null,
           "description" : "Opens the Documents folder in the Finder.",
           "filename" : "open-documents.sh",
-          "icon" : "📂",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📂"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Navigation",
@@ -551,7 +728,13 @@
           "currentDirectoryPath" : null,
           "description" : "Open current iTerm directory in Finder",
           "filename" : "open-finder-from-iterm.applescript",
-          "icon" : "images\/iterm-logo.png",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/iterm-logo.png"
+          },
+          "isTemplate" : false,
+          "language" : "applescript",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Navigation",
@@ -564,7 +747,13 @@
           "currentDirectoryPath" : null,
           "description" : "Opens the URL from the clipboard in the desktop app.",
           "filename" : "open-desktop-url-from-clipboard.swift",
-          "icon" : "🖥",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🖥"
+          },
+          "isTemplate" : false,
+          "language" : "swift",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Navigation",
@@ -582,7 +771,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "search-in-bear.sh",
-          "icon" : "images\/bear.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/bear.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Navigation",
@@ -595,7 +790,13 @@
           "currentDirectoryPath" : null,
           "description" : "Opens the Home folder in the Finder.",
           "filename" : "open-home.sh",
-          "icon" : "📂",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📂"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Navigation",
@@ -608,7 +809,13 @@
           "currentDirectoryPath" : null,
           "description" : "Opens the Downloads folder in the Finder.",
           "filename" : "open-downloads.sh",
-          "icon" : "📂",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📂"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Navigation",
@@ -627,7 +834,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "google-maps.sh",
-          "icon" : "google-map.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "google-map.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Google Maps",
@@ -651,7 +864,13 @@
           "currentDirectoryPath" : null,
           "description" : "Calculate percentage increase between \"from\" and \"to\" values.",
           "filename" : "calculate-growth.sh",
-          "icon" : "📈",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "📈"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "compact",
           "needsConfirmation" : null,
           "packageName" : "Calculate Growth",
@@ -675,7 +894,13 @@
           "currentDirectoryPath" : null,
           "description" : "Get current weather report from [wttr.in](https:\/\/wttr.in\/).",
           "filename" : "current-weather.sh",
-          "icon" : "🌦️",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🌦️"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "inline",
           "needsConfirmation" : null,
           "packageName" : "Dashboard",
@@ -693,7 +918,13 @@
           "currentDirectoryPath" : null,
           "description" : "Get current Bitcoin price from Coindesk.",
           "filename" : "bitcoin-price-usd.sh",
-          "icon" : "images\/bitcoin-logo.png",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/bitcoin-logo.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "inline",
           "needsConfirmation" : null,
           "packageName" : "Dashboard",
@@ -711,7 +942,13 @@
           "currentDirectoryPath" : null,
           "description" : "Test download and upload connection speed using [Speedtest](https:\/\/www.speedtest.net\/apps\/cli).",
           "filename" : "speedtest.sh",
-          "icon" : "images\/speedtest-logo.png",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/speedtest-logo.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "inline",
           "needsConfirmation" : null,
           "packageName" : "Internet",
@@ -729,7 +966,13 @@
           "currentDirectoryPath" : null,
           "description" : "Get current Ethereum price from CoinGecko.",
           "filename" : "ethereum-price-usd.sh",
-          "icon" : "images\/ethereum-logo.png",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/ethereum-logo.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "inline",
           "needsConfirmation" : null,
           "packageName" : "Dashboard",
@@ -747,7 +990,13 @@
           "currentDirectoryPath" : null,
           "description" : "Shows the followers, favourites and friends count of your Twitter account.",
           "filename" : "twitter-statistics.template.rb",
-          "icon" : "images\/twitter.png",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/twitter.png"
+          },
+          "isTemplate" : true,
+          "language" : "ruby",
           "mode" : "inline",
           "needsConfirmation" : null,
           "packageName" : "Twitter",
@@ -760,7 +1009,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "system-activity.sh",
-          "icon" : "📈",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📈"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "inline",
           "needsConfirmation" : null,
           "packageName" : "Dashboard",
@@ -778,7 +1033,13 @@
           "currentDirectoryPath" : null,
           "description" : "Check if this machine is using NextDNS.",
           "filename" : "nextdns-status-check.py",
-          "icon" : "images\/nextdns.png",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/nextdns.png"
+          },
+          "isTemplate" : false,
+          "language" : "python",
           "mode" : "inline",
           "needsConfirmation" : null,
           "packageName" : "Dashboard",
@@ -796,7 +1057,13 @@
           "currentDirectoryPath" : null,
           "description" : "See the year progress on your desktop.",
           "filename" : "year-progress.sh",
-          "icon" : "⏱",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "⏱"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "inline",
           "needsConfirmation" : null,
           "packageName" : "Dashboard",
@@ -814,7 +1081,13 @@
           "currentDirectoryPath" : null,
           "description" : "Keep track of your stock portfolio.",
           "filename" : "stock-portfolio.rb",
-          "icon" : "📈",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📈"
+          },
+          "isTemplate" : false,
+          "language" : "ruby",
           "mode" : "inline",
           "needsConfirmation" : null,
           "packageName" : "Stock Portfolio",
@@ -832,7 +1105,13 @@
           "currentDirectoryPath" : null,
           "description" : "Show the time from elsewhere in the world",
           "filename" : "world-time.sh",
-          "icon" : "🕐",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🕐"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "inline",
           "needsConfirmation" : null,
           "packageName" : "Dashboard",
@@ -856,7 +1135,13 @@
               "currentDirectoryPath" : null,
               "description" : "See how many days until Christmas.",
               "filename" : "countdown-to-christmas.sh",
-              "icon" : "🎅🏻",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🎅🏻"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "inline",
               "needsConfirmation" : null,
               "packageName" : "Countdown To Christmas",
@@ -874,7 +1159,13 @@
               "currentDirectoryPath" : null,
               "description" : "Create countdowns via Raycast.",
               "filename" : "create-countdown.template.sh",
-              "icon" : "⏱",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "⏱"
+              },
+              "isTemplate" : true,
+              "language" : "bash",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Create Countdown.Template",
@@ -892,7 +1183,13 @@
               "currentDirectoryPath" : null,
               "description" : "See how many days\/hours until a specific date.",
               "filename" : "countdown-to-date.template.sh",
-              "icon" : "⏱",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "⏱"
+              },
+              "isTemplate" : true,
+              "language" : "bash",
               "mode" : "inline",
               "needsConfirmation" : null,
               "packageName" : "Countdown To Date.Template",
@@ -918,7 +1215,13 @@
           "currentDirectoryPath" : null,
           "description" : "Set Frontmost Web Browser as Default Browser.",
           "filename" : "default-browser-front-most-app.applescript",
-          "icon" : "🧭",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🧭"
+          },
+          "isTemplate" : false,
+          "language" : "applescript",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Browsing",
@@ -936,7 +1239,13 @@
           "currentDirectoryPath" : null,
           "description" : "A script command to start your current screen saver.",
           "filename" : "screensaver.applescript",
-          "icon" : "🌀",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🌀"
+          },
+          "isTemplate" : false,
+          "language" : "applescript",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "System",
@@ -954,7 +1263,13 @@
           "currentDirectoryPath" : null,
           "description" : "Set Chrome as the default browser.",
           "filename" : "default-browser-chrome.sh",
-          "icon" : "🧭",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🧭"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Browsing",
@@ -972,7 +1287,13 @@
           "currentDirectoryPath" : null,
           "description" : "Sample a colour from anywhere on your screen.",
           "filename" : "sample-colour.swift",
-          "icon" : "🎨",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🎨"
+          },
+          "isTemplate" : false,
+          "language" : "swift",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "System",
@@ -990,7 +1311,13 @@
           "currentDirectoryPath" : null,
           "description" : "Report process with largest system CPU usage.",
           "filename" : "largest-cpu-process.sh",
-          "icon" : "📈",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📈"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "inline",
           "needsConfirmation" : null,
           "packageName" : "System",
@@ -1008,7 +1335,13 @@
           "currentDirectoryPath" : null,
           "description" : "Set Safari as the default browser.",
           "filename" : "default-browser-safari.sh",
-          "icon" : "🧭",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🧭"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Browsing",
@@ -1021,7 +1354,13 @@
           "currentDirectoryPath" : null,
           "description" : "Empty the trash.",
           "filename" : "empty-trash.applescript",
-          "icon" : "🗑",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🗑"
+          },
+          "isTemplate" : false,
+          "language" : "applescript",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "System",
@@ -1039,7 +1378,13 @@
           "currentDirectoryPath" : null,
           "description" : "Refresh the wallpaper of the main display's current [Space](https:\/\/support.apple.com\/guide\/mac-help\/work-in-multiple-spaces-mh14112\/mac).",
           "filename" : "wallpaper-refresh.applescript",
-          "icon" : "🖼️",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🖼️"
+          },
+          "isTemplate" : false,
+          "language" : "applescript",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "System",
@@ -1057,7 +1402,13 @@
           "currentDirectoryPath" : null,
           "description" : "Turn on \"do not disturb\" mode. Does [not work on Big Sur](https:\/\/github.com\/sindresorhus\/do-not-disturb-cli\/issues\/2).",
           "filename" : "dnd-on.sh",
-          "icon" : "😴",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "😴"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "System",
@@ -1075,7 +1426,13 @@
           "currentDirectoryPath" : null,
           "description" : "Toggle AirPods bluetooth device",
           "filename" : "toggle-airpods.template.swift",
-          "icon" : "images\/airpod.png",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/airpod.png"
+          },
+          "isTemplate" : true,
+          "language" : "swift",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Audio",
@@ -1093,7 +1450,13 @@
           "currentDirectoryPath" : null,
           "description" : "Set Chromium as the default browser.",
           "filename" : "default-browser-chromium.sh",
-          "icon" : "🧭",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🧭"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Browsing",
@@ -1106,7 +1469,13 @@
           "currentDirectoryPath" : null,
           "description" : "Quits all running applications except Finder and Raycast.",
           "filename" : "quit-all-apps.swift",
-          "icon" : "💥",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "💥"
+          },
+          "isTemplate" : false,
+          "language" : "swift",
           "mode" : "silent",
           "needsConfirmation" : true,
           "packageName" : "System",
@@ -1124,7 +1493,13 @@
           "currentDirectoryPath" : null,
           "description" : "Set Firefox as the default browser.",
           "filename" : "default-browser-firefox.sh",
-          "icon" : "🧭",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🧭"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Browsing",
@@ -1142,7 +1517,13 @@
           "currentDirectoryPath" : null,
           "description" : "Switch audio output to desired device.",
           "filename" : "audio-output-switch.template.applescript",
-          "icon" : "🔊",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔊"
+          },
+          "isTemplate" : true,
+          "language" : "applescript",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Audio",
@@ -1160,7 +1541,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "move-downloads-to-trash.applescript",
-          "icon" : "images\/move-downloads-to-trash.png",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/move-downloads-to-trash.png"
+          },
+          "isTemplate" : false,
+          "language" : "applescript",
           "mode" : "silent",
           "needsConfirmation" : true,
           "packageName" : "System",
@@ -1178,7 +1565,13 @@
           "currentDirectoryPath" : null,
           "description" : "Reloads CoreAudio.",
           "filename" : "reload-coreaudio.sh",
-          "icon" : "🎧",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🎧"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "System",
@@ -1196,7 +1589,13 @@
           "currentDirectoryPath" : null,
           "description" : "Show and hide hidden files\/folders which starts with \".\" (dot), i.e: .bash_rc, .ssh",
           "filename" : "toggle-hidden-files.applescript",
-          "icon" : "👓",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "👓"
+          },
+          "isTemplate" : false,
+          "language" : "applescript",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "System",
@@ -1214,7 +1613,13 @@
           "currentDirectoryPath" : null,
           "description" : "Script Command to switch between the system appearance, light and dark mode.",
           "filename" : "toggle-system-appearance.applescript",
-          "icon" : "🌗",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🌗"
+          },
+          "isTemplate" : false,
+          "language" : "applescript",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "System",
@@ -1232,7 +1637,13 @@
           "currentDirectoryPath" : null,
           "description" : "Toggle your Bluetooth connection.",
           "filename" : "bluetooth.template.applescript",
-          "icon" : "images\/bluetooth.png",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/bluetooth.png"
+          },
+          "isTemplate" : true,
+          "language" : "applescript",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "System",
@@ -1245,7 +1656,13 @@
           "currentDirectoryPath" : null,
           "description" : "Opens the last downloaded file.",
           "filename" : "open-last-download.swift",
-          "icon" : "💁‍♂️",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "💁‍♂️"
+          },
+          "isTemplate" : false,
+          "language" : "swift",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "System",
@@ -1258,7 +1675,13 @@
           "currentDirectoryPath" : null,
           "description" : "Ejects all mounted disk images.",
           "filename" : "eject-all-disks.applescript",
-          "icon" : "📀",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📀"
+          },
+          "isTemplate" : false,
+          "language" : "applescript",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "System",
@@ -1276,7 +1699,13 @@
           "currentDirectoryPath" : null,
           "description" : "Create New File in Finder is a script to make your Finder better.You can use this script to create a plain text file.",
           "filename" : "create-new-file-in-finder.applescript",
-          "icon" : "images\/new-file.png",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/new-file.png"
+          },
+          "isTemplate" : false,
+          "language" : "applescript",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "System",
@@ -1294,7 +1723,13 @@
           "currentDirectoryPath" : null,
           "description" : "Opens default email application, and creates a new email with the given inputs.",
           "filename" : "new-email.sh",
-          "icon" : "📧",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "📧"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "System",
@@ -1312,7 +1747,13 @@
           "currentDirectoryPath" : null,
           "description" : "Report process with largest system RAM usage.",
           "filename" : "largest-ram-process.sh",
-          "icon" : "📈",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📈"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "inline",
           "needsConfirmation" : null,
           "packageName" : "System",
@@ -1330,7 +1771,13 @@
           "currentDirectoryPath" : null,
           "description" : "A script command to show and hide icons of Desktop folder",
           "filename" : "toggle-desktop-icons.applescript",
-          "icon" : "🖥",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🖥"
+          },
+          "isTemplate" : false,
+          "language" : "applescript",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "System",
@@ -1348,7 +1795,13 @@
           "currentDirectoryPath" : null,
           "description" : "Toggle your Wi-Fi connection.",
           "filename" : "wifi.template.applescript",
-          "icon" : "images\/wifi-dark.png",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : "images\/wifi.png",
+            "light" : "images\/wifi-dark.png"
+          },
+          "isTemplate" : true,
+          "language" : "applescript",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "System",
@@ -1361,7 +1814,13 @@
           "currentDirectoryPath" : null,
           "description" : "Copy the last downloaded file to the clipboard.",
           "filename" : "copy-last-download.swift",
-          "icon" : "💁",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "💁"
+          },
+          "isTemplate" : false,
+          "language" : "swift",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "System",
@@ -1374,7 +1833,13 @@
           "currentDirectoryPath" : null,
           "description" : "Copies the calendar availability of today.",
           "filename" : "copy-availability.swift",
-          "icon" : "📅",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📅"
+          },
+          "isTemplate" : false,
+          "language" : "swift",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "System",
@@ -1387,7 +1852,13 @@
           "currentDirectoryPath" : null,
           "description" : "Copies the last screenshot to the clipboard.",
           "filename" : "copy-last-screenshot.swift",
-          "icon" : "📸",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📸"
+          },
+          "isTemplate" : false,
+          "language" : "swift",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "System",
@@ -1400,7 +1871,13 @@
           "currentDirectoryPath" : null,
           "description" : "Restarts computer.",
           "filename" : "restart.applescript",
-          "icon" : "♻️",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "♻️"
+          },
+          "isTemplate" : false,
+          "language" : "applescript",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "System",
@@ -1418,7 +1895,13 @@
           "currentDirectoryPath" : null,
           "description" : "Turn off \"do not disturb\" mode. Does [not work on Big Sur](https:\/\/github.com\/sindresorhus\/do-not-disturb-cli\/issues\/2).",
           "filename" : "dnd-off.sh",
-          "icon" : "😴",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "😴"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "System",
@@ -1431,7 +1914,13 @@
           "currentDirectoryPath" : null,
           "description" : "Shuts down computer.",
           "filename" : "shutdown.applescript",
-          "icon" : "🛌",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🛌"
+          },
+          "isTemplate" : false,
+          "language" : "applescript",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "System",
@@ -1444,7 +1933,13 @@
           "currentDirectoryPath" : null,
           "description" : "Puts computer to sleep.",
           "filename" : "sleep.applescript",
-          "icon" : "😴",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "😴"
+          },
+          "isTemplate" : false,
+          "language" : "applescript",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "System",
@@ -1462,7 +1957,13 @@
           "currentDirectoryPath" : null,
           "description" : "Toggles microphone.",
           "filename" : "toggle-mic.applescript",
-          "icon" : "🎙",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🎙"
+          },
+          "isTemplate" : false,
+          "language" : "applescript",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "System",
@@ -1481,7 +1982,13 @@
           "currentDirectoryPath" : null,
           "description" : "Open the GitHub repository for Script Commands provided by the community.",
           "filename" : "open-script-commands-repository.sh",
-          "icon" : "📜",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📜"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Bookmarks",
@@ -1500,7 +2007,13 @@
           "currentDirectoryPath" : null,
           "description" : "Escapes shell character string and copies it again.",
           "filename" : "escape-shell-chars.sh",
-          "icon" : "💻",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "💻"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Developer Utilities",
@@ -1518,7 +2031,13 @@
           "currentDirectoryPath" : null,
           "description" : "Perform a dig command with the specified options",
           "filename" : "dig.sh",
-          "icon" : "🌍",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🌍"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "fullOutput",
           "needsConfirmation" : null,
           "packageName" : "Internet",
@@ -1536,7 +2055,13 @@
           "currentDirectoryPath" : null,
           "description" : "Transform the case of clipboard content. Defaults to lower case if no conversion type is specified.",
           "filename" : "transform-case.sh",
-          "icon" : "🔠",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔠"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "compact",
           "needsConfirmation" : null,
           "packageName" : "Developer Utils",
@@ -1549,7 +2074,13 @@
           "currentDirectoryPath" : null,
           "description" : "Encodes clipboard content url and copies it again.",
           "filename" : "encode-url.sh",
-          "icon" : "💻",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "💻"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Developer Utilities",
@@ -1562,7 +2093,13 @@
           "currentDirectoryPath" : null,
           "description" : "Encodes clipboard content to Base64 and copies it again.",
           "filename" : "encode-base64.sh",
-          "icon" : "💻",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "💻"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Developer Utilities",
@@ -1575,7 +2112,13 @@
           "currentDirectoryPath" : null,
           "description" : "Decodes JSON web token from the clipboard.",
           "filename" : "decode-jwt.sh",
-          "icon" : "images\/jwt-logo.png",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/jwt-logo.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "fullOutput",
           "needsConfirmation" : null,
           "packageName" : "Developer Utilities",
@@ -1593,7 +2136,13 @@
           "currentDirectoryPath" : null,
           "description" : "Check if a website is up",
           "filename" : "is-it-up.sh",
-          "icon" : "🩺",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🩺"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "compact",
           "needsConfirmation" : null,
           "packageName" : "Developer Utils",
@@ -1615,7 +2164,13 @@
           "currentDirectoryPath" : null,
           "description" : "Whois of URL.",
           "filename" : "whois.sh",
-          "icon" : "🌐",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🌐"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "fullOutput",
           "needsConfirmation" : null,
           "packageName" : "Internet",
@@ -1633,7 +2188,13 @@
           "currentDirectoryPath" : "~\/Downloads",
           "description" : "Records simulator to Downloads folder",
           "filename" : "record-simulator.sh",
-          "icon" : "📱",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "📱"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "compact",
           "needsConfirmation" : true,
           "packageName" : "Developer Utilities",
@@ -1651,7 +2212,13 @@
           "currentDirectoryPath" : null,
           "description" : "Use [swiftformat](https:\/\/github.com\/nicklockwood\/SwiftFormat) to format clipboard content.",
           "filename" : "format-swift.sh",
-          "icon" : "images\/swift.png",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/swift.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Developer Utilities",
@@ -1669,7 +2236,13 @@
           "currentDirectoryPath" : null,
           "description" : "Ping an IP address or URL on an interval.",
           "filename" : "ping-monitor.template.sh",
-          "icon" : "🌐",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🌐"
+          },
+          "isTemplate" : true,
+          "language" : "bash",
           "mode" : "inline",
           "needsConfirmation" : null,
           "packageName" : "Internet",
@@ -1687,7 +2260,13 @@
           "currentDirectoryPath" : null,
           "description" : "Runs the specified command in the path of the frontmost Finder window.",
           "filename" : "run-command-in-finder.sh",
-          "icon" : "🛠",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🛠"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Developer Utils",
@@ -1705,7 +2284,13 @@
           "currentDirectoryPath" : null,
           "description" : "Search for Script Commands available in the Raycast repository",
           "filename" : "search-script-command.swift",
-          "icon" : "🔎",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔎"
+          },
+          "isTemplate" : false,
+          "language" : "swift",
           "mode" : "fullOutput",
           "needsConfirmation" : null,
           "packageName" : "Searches",
@@ -1723,7 +2308,13 @@
           "currentDirectoryPath" : null,
           "description" : "Add one or multiple SSH keys to your SSH agent (with Terminal).",
           "filename" : "add-ssh-keys.template.applescript",
-          "icon" : "🔑",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔑"
+          },
+          "isTemplate" : true,
+          "language" : "applescript",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Developer Utilities",
@@ -1741,7 +2332,13 @@
           "currentDirectoryPath" : null,
           "description" : "Ping an IP address or URL.",
           "filename" : "ping.sh",
-          "icon" : "🌐",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🌐"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "fullOutput",
           "needsConfirmation" : null,
           "packageName" : "Internet",
@@ -1754,7 +2351,13 @@
           "currentDirectoryPath" : null,
           "description" : "Decodes clipboard content url and copies it again.",
           "filename" : "decode-url.sh",
-          "icon" : "💻",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "💻"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Developer Utilities",
@@ -1767,7 +2370,13 @@
           "currentDirectoryPath" : null,
           "description" : "Generates a UUID and copies it to the clipboard.",
           "filename" : "generate-uuid.sh",
-          "icon" : "💻",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "💻"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Developer Utilities",
@@ -1785,7 +2394,13 @@
           "currentDirectoryPath" : "~\/Desktop",
           "description" : "Run [Pa11y](https:\/\/github.com\/pa11y\/pa11y) web accessibility tool on specified path or URL.",
           "filename" : "pa11y.sh",
-          "icon" : "images\/pa11y-logo.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/pa11y-logo.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "compact",
           "needsConfirmation" : null,
           "packageName" : "Developer Utilities",
@@ -1803,7 +2418,13 @@
           "currentDirectoryPath" : null,
           "description" : "Create beautiful images of your code with https:\/\/ray.so",
           "filename" : "create-image-from-code.sh",
-          "icon" : ".\/images\/ray-so.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : ".\/images\/ray-so.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Create Image From Code",
@@ -1816,7 +2437,13 @@
           "currentDirectoryPath" : null,
           "description" : "Copy one paragraph of Lorem Ipsum to clipboard.",
           "filename" : "lorem-ipsum.sh",
-          "icon" : "📝",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📝"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Developer Utilities",
@@ -1834,7 +2461,13 @@
           "currentDirectoryPath" : null,
           "description" : "Run arbitrary bash command and return output in Raycast.",
           "filename" : "run-bash-command.sh",
-          "icon" : "images\/run-bash-command.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/run-bash-command.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "fullOutput",
           "needsConfirmation" : null,
           "packageName" : "Bash Command",
@@ -1852,7 +2485,13 @@
           "currentDirectoryPath" : null,
           "description" : "Get info about Apple API errors",
           "filename" : "error-info.sh",
-          "icon" : "ℹ️",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "ℹ️"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "fullOutput",
           "needsConfirmation" : null,
           "packageName" : "Developer Utilities",
@@ -1870,7 +2509,13 @@
           "currentDirectoryPath" : null,
           "description" : "Generate a strong password of requested character length",
           "filename" : "strong-password-generator.sh",
-          "icon" : "🔐",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔐"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "compact",
           "needsConfirmation" : null,
           "packageName" : "Developer Utils",
@@ -1883,7 +2528,13 @@
           "currentDirectoryPath" : null,
           "description" : "Decodes clipboard content to Base64 and copies it again.",
           "filename" : "decode-base64.sh",
-          "icon" : "💻",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "💻"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Developer Utilities",
@@ -1901,7 +2552,13 @@
           "currentDirectoryPath" : null,
           "description" : "Save URL to [Wayback Machine](https:\/\/web.archive.org\/).",
           "filename" : "wayback-machine-save.sh",
-          "icon" : "images\/ia-logo.jpg",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/ia-logo.jpg"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "compact",
           "needsConfirmation" : null,
           "packageName" : "Internet",
@@ -1914,7 +2571,13 @@
           "currentDirectoryPath" : null,
           "description" : "Pretty prints the JSON currently in the clipboard.",
           "filename" : "prettify-json.sh",
-          "icon" : "💻",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "💻"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "fullOutput",
           "needsConfirmation" : null,
           "packageName" : "Developer Utilities",
@@ -1927,7 +2590,13 @@
           "currentDirectoryPath" : null,
           "description" : "Clear the derived data of Xcode.",
           "filename" : "clear-derived-data.sh",
-          "icon" : "🧹",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🧹"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "compact",
           "needsConfirmation" : null,
           "packageName" : "Xcode",
@@ -1945,7 +2614,13 @@
           "currentDirectoryPath" : null,
           "description" : "Opens current topmost directory in VSCode",
           "filename" : "open-folder-in-vscode.applescript",
-          "icon" : "images\/vscode.png",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/vscode.png"
+          },
+          "isTemplate" : false,
+          "language" : "applescript",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "VS Code",
@@ -1963,7 +2638,13 @@
           "currentDirectoryPath" : null,
           "description" : "Generates a random password and copies it to the clipboard.",
           "filename" : "generate-password.sh",
-          "icon" : "🔐",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔐"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Developer Utilities",
@@ -1987,7 +2668,13 @@
               "currentDirectoryPath" : null,
               "description" : "Show merge requests from GitLab",
               "filename" : "gitlab-mergerequests.template.py",
-              "icon" : "images\/gitlab.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/gitlab.png"
+              },
+              "isTemplate" : true,
+              "language" : "python",
               "mode" : "fullOutput",
               "needsConfirmation" : null,
               "packageName" : "GitLab",
@@ -2005,7 +2692,13 @@
               "currentDirectoryPath" : null,
               "description" : "Show todos from GitLab",
               "filename" : "gitlab-todos.template.py",
-              "icon" : "images\/gitlab.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/gitlab.png"
+              },
+              "isTemplate" : true,
+              "language" : "python",
               "mode" : "fullOutput",
               "needsConfirmation" : null,
               "packageName" : "GitLab",
@@ -2023,7 +2716,13 @@
               "currentDirectoryPath" : null,
               "description" : "Show issues from GitLab",
               "filename" : "gitlab-issues.template.py",
-              "icon" : "images\/gitlab.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/gitlab.png"
+              },
+              "isTemplate" : true,
+              "language" : "python",
               "mode" : "fullOutput",
               "needsConfirmation" : null,
               "packageName" : "GitLab",
@@ -2047,7 +2746,13 @@
               "currentDirectoryPath" : null,
               "description" : "Run a [PageSpeed Insights](https:\/\/developers.google.com\/speed\/pagespeed\/insights\/) analysis on desktop of URL.",
               "filename" : "google-psi-desktop.sh",
-              "icon" : "images\/google-psi-logo.png",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/google-psi-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "fullOutput",
               "needsConfirmation" : null,
               "packageName" : "Google",
@@ -2065,7 +2770,13 @@
               "currentDirectoryPath" : null,
               "description" : "Run a [PageSpeed Insights](https:\/\/developers.google.com\/speed\/pagespeed\/insights\/) analysis on mobile of URL.",
               "filename" : "google-psi-mobile.sh",
-              "icon" : "images\/google-psi-logo.png",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/google-psi-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "fullOutput",
               "needsConfirmation" : null,
               "packageName" : "Google",
@@ -2083,7 +2794,13 @@
               "currentDirectoryPath" : "~\/Desktop",
               "description" : "Open a [Lighthouse](https:\/\/developers.google.com\/web\/tools\/lighthouse\/) report of URL.",
               "filename" : "google-lighthouse.sh",
-              "icon" : "images\/google-lighthouse-logo.png",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/google-lighthouse-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Google",
@@ -2107,7 +2824,13 @@
               "currentDirectoryPath" : null,
               "description" : "Purge Cloudflare cache for zone.",
               "filename" : "purge-cloudflare-cache.template.sh",
-              "icon" : "images\/cloudflare-logo.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/cloudflare-logo.png"
+              },
+              "isTemplate" : true,
+              "language" : "bash",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Developer Utilities",
@@ -2131,7 +2854,13 @@
               "currentDirectoryPath" : null,
               "description" : "Installs specified brew package.",
               "filename" : "brew-install.sh",
-              "icon" : "🍺",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "🍺"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "fullOutput",
               "needsConfirmation" : true,
               "packageName" : "Brew",
@@ -2149,7 +2878,13 @@
               "currentDirectoryPath" : null,
               "description" : "Run Brew Doctor",
               "filename" : "brew-doctor.sh",
-              "icon" : "🍺",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🍺"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "fullOutput",
               "needsConfirmation" : null,
               "packageName" : "Brew",
@@ -2167,7 +2902,13 @@
               "currentDirectoryPath" : null,
               "description" : "Show list of outdated formulae",
               "filename" : "brew-outdated.sh",
-              "icon" : "🍺",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🍺"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "fullOutput",
               "needsConfirmation" : null,
               "packageName" : "Brew",
@@ -2185,7 +2926,13 @@
               "currentDirectoryPath" : null,
               "description" : "Start Service in Brew",
               "filename" : "brew-services-start.sh",
-              "icon" : "🍺",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "🍺"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "fullOutput",
               "needsConfirmation" : null,
               "packageName" : "Brew",
@@ -2203,7 +2950,13 @@
               "currentDirectoryPath" : null,
               "description" : "Run Brew Upgrade",
               "filename" : "brew-upgrade.sh",
-              "icon" : "🍺",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🍺"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "fullOutput",
               "needsConfirmation" : null,
               "packageName" : "Brew",
@@ -2221,7 +2974,13 @@
               "currentDirectoryPath" : null,
               "description" : "Stop Service in Brew",
               "filename" : "brew-services-stop.sh",
-              "icon" : "🍺",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "🍺"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "fullOutput",
               "needsConfirmation" : null,
               "packageName" : "Brew",
@@ -2239,7 +2998,13 @@
               "currentDirectoryPath" : null,
               "description" : "Show Brew Services List",
               "filename" : "brew-services-list.sh",
-              "icon" : "🍺",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🍺"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "fullOutput",
               "needsConfirmation" : null,
               "packageName" : "Brew",
@@ -2263,7 +3028,13 @@
               "currentDirectoryPath" : null,
               "description" : "Create a GitHub Gist from clipboard contents and copy Gist URL.",
               "filename" : "create-github-gist.template.sh",
-              "icon" : "images\/github-logo-iconDark.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/github-logo-iconDark.png"
+              },
+              "isTemplate" : true,
+              "language" : "bash",
               "mode" : "compact",
               "needsConfirmation" : true,
               "packageName" : "GitHub",
@@ -2281,7 +3052,13 @@
               "currentDirectoryPath" : null,
               "description" : "Show statistics of your GitHub repository.",
               "filename" : "github-repository-stars.template.rb",
-              "icon" : "⭐️",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "⭐️"
+              },
+              "isTemplate" : true,
+              "language" : "ruby",
               "mode" : "inline",
               "needsConfirmation" : null,
               "packageName" : "GitHub",
@@ -2299,7 +3076,13 @@
               "currentDirectoryPath" : null,
               "description" : "Open a repository, pull request, or issue on GitHub",
               "filename" : "open-gh-repo-pr-or-issue.sh",
-              "icon" : "images\/github-logo.png",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : "images\/github-logo-iconDark.png",
+                "light" : "images\/github-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "GitHub",
@@ -2317,7 +3100,13 @@
               "currentDirectoryPath" : null,
               "description" : "Display (detailed) number of unread GitHub notifications.",
               "filename" : "github-unread-notifications.template.sh",
-              "icon" : "images\/github-logo.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : "images\/github-logo-iconDark.png",
+                "light" : "images\/github-logo.png"
+              },
+              "isTemplate" : true,
+              "language" : "bash",
               "mode" : "inline",
               "needsConfirmation" : null,
               "packageName" : "GitHub",
@@ -2341,7 +3130,13 @@
               "currentDirectoryPath" : null,
               "description" : "Copies the AWS IPv4 to the clipboard.",
               "filename" : "whatismyregion.sh",
-              "icon" : "🤖",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🤖"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "fullOutput",
               "needsConfirmation" : null,
               "packageName" : "Developer Utilities",
@@ -2365,7 +3160,13 @@
               "currentDirectoryPath" : null,
               "description" : "Show unresolved issues of the last 24 hours from Sentry.",
               "filename" : "sentry-unresolved-issues.template.py",
-              "icon" : "images\/sentry.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : "images\/sentry-dark.png",
+                "light" : "images\/sentry.png"
+              },
+              "isTemplate" : true,
+              "language" : "python",
               "mode" : "inline",
               "needsConfirmation" : null,
               "packageName" : "Sentry",
@@ -2387,7 +3188,13 @@
               "currentDirectoryPath" : null,
               "description" : "Show unresolved issues in the last 24 hours (by project) from Sentry.",
               "filename" : "sentry-unresolved-issues-by-project.template.py",
-              "icon" : "images\/sentry.png",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : "images\/sentry-dark.png",
+                "light" : "images\/sentry.png"
+              },
+              "isTemplate" : true,
+              "language" : "python",
               "mode" : "fullOutput",
               "needsConfirmation" : null,
               "packageName" : "Sentry",
@@ -2406,7 +3213,13 @@
               "currentDirectoryPath" : null,
               "description" : "Copies the local IPv4 to the clipboard.",
               "filename" : "get-local-ip-v4.sh",
-              "icon" : "🌐",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🌐"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "inline",
               "needsConfirmation" : null,
               "packageName" : "Internet",
@@ -2424,7 +3237,13 @@
               "currentDirectoryPath" : null,
               "description" : "Get IPv6 address of URL.",
               "filename" : "get-url-ip-v6.sh",
-              "icon" : "🌐",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "🌐"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "compact",
               "needsConfirmation" : null,
               "packageName" : "Internet",
@@ -2437,7 +3256,13 @@
               "currentDirectoryPath" : null,
               "description" : "Copies the external IPv4 to the clipboard.",
               "filename" : "get-external-ip-v4.sh",
-              "icon" : "🌐",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🌐"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "inline",
               "needsConfirmation" : null,
               "packageName" : "Internet",
@@ -2455,7 +3280,13 @@
               "currentDirectoryPath" : null,
               "description" : "Get IPv4 address of URL.",
               "filename" : "get-url-ip-v4.sh",
-              "icon" : "🌐",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "🌐"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "compact",
               "needsConfirmation" : null,
               "packageName" : "Internet",
@@ -2468,7 +3299,13 @@
               "currentDirectoryPath" : null,
               "description" : "Copies the external IPv6 to the clipboard.",
               "filename" : "get-external-ip-v6.sh",
-              "icon" : "🌐",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🌐"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "inline",
               "needsConfirmation" : null,
               "packageName" : "Internet",
@@ -2481,7 +3318,13 @@
               "currentDirectoryPath" : null,
               "description" : "Copies the local IPv6 to the clipboard.",
               "filename" : "get-local-ip-v6.sh",
-              "icon" : "🌐",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🌐"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "inline",
               "needsConfirmation" : null,
               "packageName" : "Internet",
@@ -2514,7 +3357,13 @@
               "currentDirectoryPath" : null,
               "description" : "Search all items in a Bitwarden vault, and copy the password of the first search result to the clipboard.",
               "filename" : "copy-first-matching-password.sh",
-              "icon" : "images\/bitwarden.png",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/bitwarden.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Bitwarden",
@@ -2532,7 +3381,13 @@
               "currentDirectoryPath" : null,
               "description" : "Lock a Bitwarden vault.",
               "filename" : "lock-vault.sh",
-              "icon" : "images\/bitwarden.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/bitwarden.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Bitwarden",
@@ -2550,7 +3405,13 @@
               "currentDirectoryPath" : null,
               "description" : "Search all items in a Bitwarden vault.",
               "filename" : "search-vault-items.sh",
-              "icon" : "images\/bitwarden.png",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/bitwarden.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "fullOutput",
               "needsConfirmation" : null,
               "packageName" : "Bitwarden",
@@ -2568,7 +3429,13 @@
               "currentDirectoryPath" : null,
               "description" : "Log out of a Bitwarden vault.",
               "filename" : "log-out.sh",
-              "icon" : "images\/bitwarden.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/bitwarden.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Bitwarden",
@@ -2586,7 +3453,13 @@
               "currentDirectoryPath" : null,
               "description" : "Unlock an authenticated Bitwarden vault.",
               "filename" : "unlock-vault.sh",
-              "icon" : "images\/bitwarden.png",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/bitwarden.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Bitwarden",
@@ -2604,7 +3477,13 @@
               "currentDirectoryPath" : null,
               "description" : "Log in to a Bitwarden vault.",
               "filename" : "log-in.template.sh",
-              "icon" : "images\/bitwarden.png",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/bitwarden.png"
+              },
+              "isTemplate" : true,
+              "language" : "bash",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Bitwarden",
@@ -2622,7 +3501,13 @@
               "currentDirectoryPath" : null,
               "description" : "Display the authentication and lock status of the user's Bitwarden vault.",
               "filename" : "vault-status.sh",
-              "icon" : "images\/bitwarden.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/bitwarden.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "inline",
               "needsConfirmation" : null,
               "packageName" : "Bitwarden",
@@ -2648,7 +3533,13 @@
           "currentDirectoryPath" : null,
           "description" : "Use [xkcdpass](https:\/\/github.com\/redacted\/XKCD-password-generator) to create a passphrase.",
           "filename" : "xkcdpass.sh",
-          "icon" : "🔐",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔐"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Communication",
@@ -2670,7 +3561,13 @@
           "currentDirectoryPath" : null,
           "description" : "Get most recent two-factor authentication code from iMessages.",
           "filename" : "imessage-2fa.sh",
-          "icon" : "🔐",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔐"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "iMessage",
@@ -2694,7 +3591,13 @@
               "currentDirectoryPath" : null,
               "description" : "Set your status in Slack to a song currently playing in Spotify.",
               "filename" : "set-slack-status-spotify.sh",
-              "icon" : "images\/slack-logo.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/slack-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "inline",
               "needsConfirmation" : null,
               "packageName" : "Slack",
@@ -2712,7 +3615,13 @@
               "currentDirectoryPath" : null,
               "description" : "Clear DND Status in Slack",
               "filename" : "clear-slack-DND-status.sh",
-              "icon" : "images\/slack-logo.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/slack-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Slack",
@@ -2730,7 +3639,13 @@
               "currentDirectoryPath" : null,
               "description" : "Clear your status in Slack.",
               "filename" : "clear-slack-status.template.sh",
-              "icon" : "🧼",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🧼"
+              },
+              "isTemplate" : true,
+              "language" : "bash",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Slack",
@@ -2748,7 +3663,13 @@
               "currentDirectoryPath" : null,
               "description" : "Set your status in Slack to WFH or WFO depending on your WiFi",
               "filename" : "set-slack-wfh-status.sh",
-              "icon" : "images\/slack-logo.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/slack-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Slack",
@@ -2766,7 +3687,13 @@
               "currentDirectoryPath" : null,
               "description" : "Set your status in Slack.",
               "filename" : "set-slack-status.template.sh",
-              "icon" : "☕️",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "☕️"
+              },
+              "isTemplate" : true,
+              "language" : "bash",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Slack",
@@ -2784,7 +3711,13 @@
               "currentDirectoryPath" : null,
               "description" : "Set your DND status in Slack",
               "filename" : "set-slack-DND-status.sh",
-              "icon" : "images\/slack-logo.png",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/slack-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Slack",
@@ -2808,7 +3741,13 @@
               "currentDirectoryPath" : null,
               "description" : "Upload path or URL in clipboard to [Cloudup](https:\/\/cloudup.com\/).",
               "filename" : "cloudup-upload.sh",
-              "icon" : "images\/cloudup-logo.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/cloudup-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Cloudup",
@@ -2826,7 +3765,13 @@
               "currentDirectoryPath" : null,
               "description" : "Open file dialog and upload to [Cloudup](https:\/\/cloudup.com\/).",
               "filename" : "cloudup-pick.sh",
-              "icon" : "images\/cloudup-logo.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/cloudup-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Cloudup",
@@ -2844,7 +3789,13 @@
               "currentDirectoryPath" : null,
               "description" : "Upload clipboard contents to [Cloudup](https:\/\/cloudup.com\/).",
               "filename" : "cloudup-paste.sh",
-              "icon" : "images\/cloudup-logo.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/cloudup-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Cloudup",
@@ -2868,7 +3819,13 @@
               "currentDirectoryPath" : null,
               "description" : "Search for emojis related to input.",
               "filename" : "emojis-search.sh",
-              "icon" : "📙",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "📙"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "fullOutput",
               "needsConfirmation" : null,
               "packageName" : "Communication",
@@ -2886,7 +3843,13 @@
               "currentDirectoryPath" : null,
               "description" : "Copy first emoji related to input.",
               "filename" : "emoji-copy.sh",
-              "icon" : "📙",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "📙"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "compact",
               "needsConfirmation" : null,
               "packageName" : "Communication",
@@ -2910,7 +3873,13 @@
               "currentDirectoryPath" : null,
               "description" : "Open gmail.com in the default browser",
               "filename" : "google-gmail.sh",
-              "icon" : "images\/google-gmail-logo.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/google-gmail-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Google",
@@ -2936,7 +3905,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "mozilla-developer-network.sh",
-          "icon" : "images\/mozilla-developer-network.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/mozilla-developer-network.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -2954,7 +3929,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "search-in-bilibili.sh",
-          "icon" : "images\/bilibili.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/bilibili.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -2972,7 +3953,13 @@
           "currentDirectoryPath" : null,
           "description" : "Search [cdnjs.com](https:\/\/cdnjs.com\/) for library.",
           "filename" : "search-cdnjs.sh",
-          "icon" : "images\/cloudflare-logo.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/cloudflare-logo.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -2990,7 +3977,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "kinopoisk.sh",
-          "icon" : "images\/kinopoisk.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/kinopoisk.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3008,7 +4001,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "giphy.sh",
-          "icon" : "images\/giphy.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/giphy.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web searches",
@@ -3026,7 +4025,13 @@
           "currentDirectoryPath" : null,
           "description" : "Search Netflix.",
           "filename" : "search-netflix.sh",
-          "icon" : "images\/netflix-logo.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/netflix-logo.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3044,7 +4049,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "translate-with-baidu.template.sh",
-          "icon" : "images\/baidu-translate.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/baidu-translate.png"
+          },
+          "isTemplate" : true,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3062,7 +4073,13 @@
           "currentDirectoryPath" : null,
           "description" : "Search in App Store app",
           "filename" : "app-store.sh",
-          "icon" : "images\/app-store.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/app-store.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3080,7 +4097,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "njt.sh",
-          "icon" : "🐸",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🐸"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3093,7 +4116,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "npmjs.sh",
-          "icon" : "images\/npmjs.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/npmjs.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3111,7 +4140,13 @@
           "currentDirectoryPath" : null,
           "description" : "Search pkg.go.dev for package documentation",
           "filename" : "pkg-go-dev.sh",
-          "icon" : "images\/go.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/go.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3129,7 +4164,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "repo.sh",
-          "icon" : "📦",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "📦"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3147,7 +4188,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "search-in-baidu.sh",
-          "icon" : "images\/baidu.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/baidu.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3160,7 +4207,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "twitter-search.sh",
-          "icon" : "images\/twitter.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/twitter.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3178,7 +4231,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "search-in-zhihu.sh",
-          "icon" : "images\/zhihu.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/zhihu.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3196,7 +4255,13 @@
           "currentDirectoryPath" : null,
           "description" : "Search [Unsplash](https:\/\/unsplash.com).",
           "filename" : "search-unsplash.sh",
-          "icon" : "images\/unsplash-logo.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : "images\/unsplash-logo-iconDark.png",
+            "light" : "images\/unsplash-logo.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3214,7 +4279,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "translate-with-google.template.sh",
-          "icon" : "images\/google-translate.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/google-translate.png"
+          },
+          "isTemplate" : true,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3227,7 +4298,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "amazon.sh",
-          "icon" : "images\/amazon.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/amazon.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3245,7 +4322,13 @@
           "currentDirectoryPath" : null,
           "description" : "Search [WP Engine](https:\/\/wpengine.com) installs.",
           "filename" : "search-wpengine-installs.sh",
-          "icon" : "images\/wpengine-logo.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/wpengine-logo.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3263,7 +4346,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "unfurl.sh",
-          "icon" : "🔗",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔗"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3281,7 +4370,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "search-in-wikipedia.sh",
-          "icon" : "images\/wikipedia.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/wikipedia.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3299,7 +4394,13 @@
           "currentDirectoryPath" : null,
           "description" : "Open specified [WP Engine](https:\/\/wpengine.com) install.",
           "filename" : "wpengine-install.sh",
-          "icon" : "images\/wpengine-logo.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/wpengine-logo.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3317,7 +4418,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "caniuse.sh",
-          "icon" : "❓",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "❓"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web searches",
@@ -3335,7 +4442,13 @@
           "currentDirectoryPath" : null,
           "description" : "Search files in Figma",
           "filename" : "figma.sh",
-          "icon" : "images\/figma.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/figma.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3353,7 +4466,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "npms.sh",
-          "icon" : "images\/npms.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/npms.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3371,7 +4490,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "ecosia.sh",
-          "icon" : "images\/ecosia.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/ecosia.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3389,7 +4514,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "search-in-jingdong.sh",
-          "icon" : "images\/jingdong.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/jingdong.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3402,7 +4533,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "grep-app-search.sh",
-          "icon" : "https:\/\/grep.app\/favicon.ico",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "https:\/\/grep.app\/favicon.ico"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3415,7 +4552,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "search-swift-github.sh",
-          "icon" : ".\/images\/swift.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : ".\/images\/swift.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3433,7 +4576,13 @@
           "currentDirectoryPath" : null,
           "description" : "Search [GitHub](https:\/\/github.com).",
           "filename" : "search-github.sh",
-          "icon" : "images\/github-logo.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : "images\/github-logo-iconDark.png",
+            "light" : "images\/github-logo.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3446,7 +4595,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "duck-duck-go.sh",
-          "icon" : "images\/duck-duck-go.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/duck-duck-go.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3464,7 +4619,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "search-in-devhints.sh",
-          "icon" : "images\/devhints.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/devhints.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3482,7 +4643,13 @@
           "currentDirectoryPath" : null,
           "description" : "Search IMDB.",
           "filename" : "search-imdb.sh",
-          "icon" : "images\/imdb.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/imdb.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3495,7 +4662,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "youtube.sh",
-          "icon" : "images\/youtube.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/youtube.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3513,7 +4686,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "bundlephobia.sh",
-          "icon" : "📦",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "📦"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3526,7 +4705,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "crunchbase.sh",
-          "icon" : "images\/crunchbase.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/crunchbase.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3539,7 +4724,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "google-search.sh",
-          "icon" : "images\/google.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/google.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3557,7 +4748,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "wayback-machine.sh",
-          "icon" : "images\/ia-logo.jpg",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/ia-logo.jpg"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3575,7 +4772,13 @@
           "currentDirectoryPath" : null,
           "description" : "Search [PHP official documentation](https:\/\/www.php.net\/docs.php).",
           "filename" : "search-php-docs.sh",
-          "icon" : "images\/php-logo.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : "images\/php-logo-iconDark.png",
+            "light" : "images\/php-logo.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3593,7 +4796,13 @@
           "currentDirectoryPath" : null,
           "description" : "Find the current Spotify track's gender in Chosic",
           "filename" : "search-gender-in-chosic.applescript",
-          "icon" : "images\/chosic.png",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/chosic.png"
+          },
+          "isTemplate" : false,
+          "language" : "applescript",
           "mode" : "inline",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3611,7 +4820,13 @@
           "currentDirectoryPath" : null,
           "description" : "Search in MDN (Mozilla) Docs by topic",
           "filename" : "mdn.sh",
-          "icon" : "images\/mdn_light.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : "images\/mdn_dark.png",
+            "light" : "images\/mdn_light.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3629,7 +4844,13 @@
           "currentDirectoryPath" : null,
           "description" : "Search LinkedIn",
           "filename" : "search-linkedin.sh",
-          "icon" : "images\/linkedin.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/linkedin.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3647,7 +4868,13 @@
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "search-in-taobao.sh",
-          "icon" : "images\/taobao.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/taobao.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3665,7 +4892,13 @@
           "currentDirectoryPath" : null,
           "description" : "Search Python Package Index (PyPI)",
           "filename" : "search-pypi.sh",
-          "icon" : "images\/pip.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/pip.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3683,7 +4916,13 @@
           "currentDirectoryPath" : null,
           "description" : "Search Python 3 Documentation",
           "filename" : "search-python3-docs.sh",
-          "icon" : "images\/python.png",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/python.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "Web Searches",
@@ -3707,7 +4946,13 @@
               "currentDirectoryPath" : null,
               "description" : "Search [WordPress Developer documentation](https:\/\/developer.wordpress.org\/reference\/).",
               "filename" : "search-wordpress-docs.sh",
-              "icon" : "images\/wordpress-logo.png",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : "images\/wordpress-logo-iconDark.png",
+                "light" : "images\/wordpress-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "WordPress",
@@ -3725,7 +4970,13 @@
               "currentDirectoryPath" : null,
               "description" : "Open [WordPress CLI command reference](https:\/\/developer.wordpress.org\/cli\/commands\/) for specified command.",
               "filename" : "wordpress-cli-command.sh",
-              "icon" : "images\/wordpress-logo.png",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : "images\/wordpress-logo-iconDark.png",
+                "light" : "images\/wordpress-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "WordPress",
@@ -3743,7 +4994,13 @@
               "currentDirectoryPath" : null,
               "description" : "Open [WordPress functions reference](https:\/\/developer.wordpress.org\/reference\/functions\/) for specified function.",
               "filename" : "wordpress-functions-reference.sh",
-              "icon" : "images\/wordpress-logo.png",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : "images\/wordpress-logo-iconDark.png",
+                "light" : "images\/wordpress-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "WordPress",
@@ -3761,7 +5018,13 @@
               "currentDirectoryPath" : null,
               "description" : "Open [WordPress classes reference](https:\/\/developer.wordpress.org\/reference\/classes\/) for specified class.",
               "filename" : "wordpress-classes-reference.sh",
-              "icon" : "images\/wordpress-logo.png",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : "images\/wordpress-logo-iconDark.png",
+                "light" : "images\/wordpress-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "WordPress",
@@ -3779,7 +5042,13 @@
               "currentDirectoryPath" : null,
               "description" : "Open [WordPress hooks reference](https:\/\/developer.wordpress.org\/reference\/hooks\/) for specified hook.",
               "filename" : "wordpress-hooks-reference.sh",
-              "icon" : "images\/wordpress-logo.png",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : "images\/wordpress-logo-iconDark.png",
+                "light" : "images\/wordpress-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "WordPress",
@@ -3812,7 +5081,13 @@
               "currentDirectoryPath" : null,
               "description" : null,
               "filename" : "iterm-run-shell-command.applescript",
-              "icon" : "images\/iterm.png",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/iterm.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "iTerm",
@@ -3836,7 +5111,13 @@
               "currentDirectoryPath" : null,
               "description" : "Start Default Amphetamine Session",
               "filename" : "amphetamine-on.applescript",
-              "icon" : "images\/amphetamine.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/amphetamine.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Amphetamine",
@@ -3854,7 +5135,13 @@
               "currentDirectoryPath" : null,
               "description" : "Stop Current Amphetamine Session",
               "filename" : "amphetamine-off.applescript",
-              "icon" : "images\/amphetamine.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/amphetamine.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Amphetamine",
@@ -3878,7 +5165,13 @@
               "currentDirectoryPath" : null,
               "description" : "Open the Today section in Bear.",
               "filename" : "bear-today.sh",
-              "icon" : "images\/bear-light.png",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : "images\/bear-dark.png",
+                "light" : "images\/bear-light.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Bear",
@@ -3896,7 +5189,13 @@
               "currentDirectoryPath" : null,
               "description" : "Open the specified tag in Bear.",
               "filename" : "bear-open-tag.sh",
-              "icon" : "images\/bear-light.png",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : "images\/bear-dark.png",
+                "light" : "images\/bear-light.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Bear",
@@ -3914,7 +5213,13 @@
               "currentDirectoryPath" : null,
               "description" : "Add a new note to Bear.",
               "filename" : "bear-add-note.sh",
-              "icon" : "images\/bear-light.png",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : "images\/bear-dark.png",
+                "light" : "images\/bear-light.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Bear",
@@ -3932,7 +5237,13 @@
               "currentDirectoryPath" : null,
               "description" : "Search notes by keyword and\/or tag in Bear.",
               "filename" : "bear-search.sh",
-              "icon" : "images\/bear-light.png",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : "images\/bear-dark.png",
+                "light" : "images\/bear-light.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Bear",
@@ -3950,7 +5261,13 @@
               "currentDirectoryPath" : null,
               "description" : "Open the Todo section in Bear.",
               "filename" : "bear-todo.sh",
-              "icon" : "images\/bear-light.png",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : "images\/bear-dark.png",
+                "light" : "images\/bear-light.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Bear",
@@ -3968,7 +5285,13 @@
               "currentDirectoryPath" : null,
               "description" : "Open the specified note in Bear.",
               "filename" : "bear-open-note.sh",
-              "icon" : "images\/bear-light.png",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : "images\/bear-dark.png",
+                "light" : "images\/bear-light.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Bear",
@@ -3992,7 +5315,13 @@
               "currentDirectoryPath" : null,
               "description" : "Set dimming intensity of background windows.",
               "filename" : "hazeover-set-intensity.applescript",
-              "icon" : "images\/hazeover.png",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/hazeover.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "HazeOver",
@@ -4010,7 +5339,13 @@
               "currentDirectoryPath" : null,
               "description" : "Toggle dimming of all background windows.",
               "filename" : "hazeover-toggle-dimming.applescript",
-              "icon" : "images\/hazeover.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/hazeover.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "HazeOver",
@@ -4043,7 +5378,13 @@
               "currentDirectoryPath" : null,
               "description" : "Stop Music.",
               "filename" : "apple-music-stop.applescript",
-              "icon" : "images\/apple-music-logo.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/apple-music-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Music",
@@ -4061,7 +5402,13 @@
               "currentDirectoryPath" : null,
               "description" : "Toggle shuffle setting in Music.",
               "filename" : "apple-music-shuffle.applescript",
-              "icon" : "images\/apple-music-logo.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/apple-music-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Music",
@@ -4079,7 +5426,13 @@
               "currentDirectoryPath" : null,
               "description" : "Toggle repeat setting in Music.",
               "filename" : "apple-music-repeat.applescript",
-              "icon" : "images\/apple-music-logo.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/apple-music-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Music",
@@ -4097,7 +5450,13 @@
               "currentDirectoryPath" : null,
               "description" : "Previous track in Music.",
               "filename" : "apple-music-previous.applescript",
-              "icon" : "images\/apple-music-logo.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/apple-music-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Music",
@@ -4115,7 +5474,13 @@
               "currentDirectoryPath" : null,
               "description" : "Pause Music.",
               "filename" : "apple-music-pause.applescript",
-              "icon" : "images\/apple-music-logo.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/apple-music-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Music",
@@ -4133,7 +5498,13 @@
               "currentDirectoryPath" : null,
               "description" : "Set volume in Music.",
               "filename" : "apple-music-set-volume.applescript",
-              "icon" : "images\/apple-music-logo.png",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/apple-music-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Music",
@@ -4151,7 +5522,13 @@
               "currentDirectoryPath" : null,
               "description" : "Play Music.",
               "filename" : "apple-music-play.applescript",
-              "icon" : "images\/apple-music-logo.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/apple-music-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Music",
@@ -4169,7 +5546,13 @@
               "currentDirectoryPath" : null,
               "description" : "Next track in Music.",
               "filename" : "apple-music-next.applescript",
-              "icon" : "images\/apple-music-logo.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/apple-music-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Music",
@@ -4187,7 +5570,13 @@
               "currentDirectoryPath" : null,
               "description" : "Show currently playing track in Music.",
               "filename" : "apple-music-current-track.applescript",
-              "icon" : "images\/apple-music-logo.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/apple-music-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
               "mode" : "inline",
               "needsConfirmation" : null,
               "packageName" : "Music",
@@ -4211,7 +5600,13 @@
               "currentDirectoryPath" : null,
               "description" : "Toggles the shuffle option if cmus is running",
               "filename" : "toggle-shuffle.sh",
-              "icon" : "🔀",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🔀"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Cmus",
@@ -4229,7 +5624,13 @@
               "currentDirectoryPath" : null,
               "description" : "Goes back a track if cmus is running",
               "filename" : "previous-track.sh",
-              "icon" : "⏪",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "⏪"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Cmus",
@@ -4247,7 +5648,13 @@
               "currentDirectoryPath" : null,
               "description" : "Toggles the play\/pause state if cmus is running",
               "filename" : "play-pause.sh",
-              "icon" : "⏯",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "⏯"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Cmus",
@@ -4265,7 +5672,13 @@
               "currentDirectoryPath" : null,
               "description" : "Toggles the repeat option if cmus is running",
               "filename" : "toggle-repeat.sh",
-              "icon" : "🔁",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🔁"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Cmus",
@@ -4283,7 +5696,13 @@
               "currentDirectoryPath" : null,
               "description" : "Goes forward a track if cmus is running",
               "filename" : "next-track.sh",
-              "icon" : "⏩",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "⏩"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Cmus",
@@ -4301,7 +5720,13 @@
               "currentDirectoryPath" : null,
               "description" : "Shows info on the current track if cmus is running",
               "filename" : "track-info.sh",
-              "icon" : "ℹ️",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "ℹ️"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
               "mode" : "inline",
               "needsConfirmation" : null,
               "packageName" : "Cmus",
@@ -4320,7 +5745,13 @@
               "currentDirectoryPath" : null,
               "description" : "Skips to the next track in Spotify.",
               "filename" : "spotify-next-track.applescript",
-              "icon" : "images\/spotify-logo.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/spotify-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Spotify",
@@ -4333,7 +5764,13 @@
               "currentDirectoryPath" : null,
               "description" : "Toggles play or pause of current track in Spotify.",
               "filename" : "spotify-play-pause.applescript",
-              "icon" : "images\/spotify-logo.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/spotify-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Spotify",
@@ -4351,7 +5788,13 @@
               "currentDirectoryPath" : null,
               "description" : "Get link to current Spotify playing song",
               "filename" : "spotify-now-playing-url.applescript",
-              "icon" : "images\/spotify-logo.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/spotify-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Spotify",
@@ -4369,7 +5812,13 @@
               "currentDirectoryPath" : null,
               "description" : "Play playlist or track in Spotify.",
               "filename" : "spotify-play-playlist.template.applescript",
-              "icon" : "images\/spotify-logo.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/spotify-logo.png"
+              },
+              "isTemplate" : true,
+              "language" : "applescript",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Spotify",
@@ -4382,7 +5831,13 @@
               "currentDirectoryPath" : null,
               "description" : "Plays current track in Spotify.",
               "filename" : "spotify-play.applescript",
-              "icon" : "images\/spotify-logo.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/spotify-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Spotify",
@@ -4400,7 +5855,13 @@
               "currentDirectoryPath" : null,
               "description" : "Show currently playing track in Spotify.",
               "filename" : "spotify-current-track.applescript",
-              "icon" : "images\/spotify-logo.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/spotify-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
               "mode" : "inline",
               "needsConfirmation" : null,
               "packageName" : "Spotify",
@@ -4413,7 +5874,13 @@
               "currentDirectoryPath" : null,
               "description" : "Skips to the previous track in Spotify.",
               "filename" : "spotify-previous-track.applescript",
-              "icon" : "images\/spotify-logo.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/spotify-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Spotify",
@@ -4426,7 +5893,13 @@
               "currentDirectoryPath" : null,
               "description" : "Pause current track in Spotify.",
               "filename" : "spotify-pause.applescript",
-              "icon" : "images\/spotify-logo.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/spotify-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Spotify",
@@ -4450,7 +5923,13 @@
               "currentDirectoryPath" : null,
               "description" : "Set volume in TV.",
               "filename" : "apple-tv-set-volume.applescript",
-              "icon" : "images\/apple-tv-logo.png",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/apple-tv-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "TV",
@@ -4468,7 +5947,13 @@
               "currentDirectoryPath" : null,
               "description" : "Play specified movie from library in TV.",
               "filename" : "apple-tv-play-movie.applescript",
-              "icon" : "images\/apple-tv-logo.png",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/apple-tv-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "TV",
@@ -4486,7 +5971,13 @@
               "currentDirectoryPath" : null,
               "description" : "Play TV.",
               "filename" : "apple-tv-play.applescript",
-              "icon" : "images\/apple-tv-logo.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/apple-tv-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "TV",
@@ -4504,7 +5995,13 @@
               "currentDirectoryPath" : null,
               "description" : "Pause TV.",
               "filename" : "apple-tv-pause.applescript",
-              "icon" : "images\/apple-tv-logo.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/apple-tv-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "TV",
@@ -4522,7 +6019,13 @@
               "currentDirectoryPath" : null,
               "description" : "Stop TV.",
               "filename" : "apple-tv-stop.applescript",
-              "icon" : "images\/apple-tv-logo.png",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/apple-tv-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "TV",
@@ -4535,5 +6038,6 @@
       ]
     }
   ],
-  "updatedAt" : "2021-02-26T19:20:33Z"
+  "totalScriptCommands" : 251,
+  "updatedAt" : "2021-02-27T13:10:59Z"
 }
