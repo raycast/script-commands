@@ -1,6 +1,6 @@
 //
 //  MIT License
-//  Copyright (c) 2020 Raycast. All rights reserved.
+//  Copyright (c) 2020-2021 Raycast. All rights reserved.
 //
 
 import Foundation
@@ -28,8 +28,9 @@ extension ScriptCommand {
   }
 }
 
-extension ScriptCommand.Author {
+// MARK: - Keys
 
+extension ScriptCommand.Author {
   enum InputCodingKeys: String, CodingKey {
     case url = "authorURL"
     case name = "author"
@@ -44,7 +45,6 @@ extension ScriptCommand.Author {
 // MARK: - Comparable
 
 extension ScriptCommand.Author: Comparable {
-
   static func < (lhs: ScriptCommand.Author, rhs: ScriptCommand.Author) -> Bool {
     guard let leftName = lhs.name, let rightName = rhs.name else {
       return false
@@ -60,13 +60,11 @@ extension ScriptCommand.Author: Comparable {
 
     return leftName == rightName
   }
-
 }
 
 // MARK: - MarkdownDescription Protocol
 
 extension ScriptCommand.Author: MarkdownDescriptionProtocol {
-
   var markdownDescription: String {
     if let name = name, let url = url {
       return "[\(name)](\(url))"
@@ -82,7 +80,6 @@ extension ScriptCommand.Author: MarkdownDescriptionProtocol {
   var sectionTitle: String {
     .empty
   }
-
 }
 
 // MARK: - Authors
