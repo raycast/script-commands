@@ -2,6 +2,7 @@
 
 # Dependency: requires speedtest (https://www.speedtest.net/apps/cli)
 # Install with Homebrew: `brew tap teamookla/speedtest; brew update; brew install speedtest --force`
+# Afterward, accept license: `speedtest --accept-license`
 
 # @raycast.title Speedtest
 # @raycast.author Caleb Stauffer
