@@ -7,7 +7,7 @@ import Foundation
 import TSCBasic
 
 extension Toolkit {
-  public func generateDocumentation(outputJSONFilename: String, outputMarkdownFilename: String) throws {
+  public func report(type: ReportType, noColor: Bool) throws {
     guard fileSystem.exists(extensionsAbsolutePath) else {
       throw Error.extensionsFolderNotFound(extensionsAbsolutePath.pathString)
     }
@@ -20,16 +20,12 @@ extension Toolkit {
       ignoreFilesInDir: true
     )
 
-    data.totalScriptCommands = totalScriptCommands
-
-    let documentation = Documentation(
-      path: extensionsAbsolutePath,
-      jsonFilename: outputJSONFilename,
-      markdownFilename: outputMarkdownFilename
+    let report = Report(
+      data: data,
+      type: type,
+      noColor: noColor
     )
 
-    try documentation.generateDocuments(
-      for: data
-    )
+    report.showResult()
   }
 }

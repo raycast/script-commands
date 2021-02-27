@@ -1,6 +1,6 @@
 //
 //  MIT License
-//  Copyright (c) 2020 Raycast. All rights reserved.
+//  Copyright (c) 2020-2021 Raycast. All rights reserved.
 //
 
 import Foundation
@@ -13,14 +13,18 @@ struct ScriptCommand: Codable {
   var filename: String
   let mode: Mode?
   var packageName: String?
-  let icon: String?
+  let icon: Icon?
   let authors: [Author]?
   let details: String?
   let currentDirectoryPath: String?
   let needsConfirmation: Bool?
   let refreshTime: String?
+  let language: String
+  let isTemplate: Bool
+  let hasArguments: Bool
 
-  private var leadingPath: String = ""
+  private(set) var leadingPath: String = ""
+  private(set) var isExecutable: Bool = false
 
   enum CodingKeys: String, CodingKey {
     case schemaVersion
@@ -34,38 +38,48 @@ struct ScriptCommand: Codable {
     case currentDirectoryPath
     case needsConfirmation
     case refreshTime
+    case language
+    case isTemplate
+    case hasArguments
   }
 
-  var iconString: String {
-    func image(for url: String) -> String {
-      "<img src=\"\(url)\" width=\"20\" height=\"20\">"
-    }
-
-    guard let value = icon, value.isEmpty == false else {
+  var iconDescription: String {
+    guard let icon = self.icon else {
       return .empty
     }
 
-    if value.isEmoji {
-      return "\(value)"
-    }
+    let path = "https://raw.githubusercontent.com/raycast/script-commands/master/commands/\(leadingPath)"
 
-    if value.starts(with: "http://") || value.starts(with: "https://") {
-      return image(for: value)
-    }
-
-    return image(
-      for: "https://raw.githubusercontent.com/raycast/script-commands/master/commands/\(leadingPath)\(value)?raw=true"
+    let tag = icon.imageTag(
+      with: path
     )
+
+    return tag
   }
 
-  mutating func setLeadingPath(_ value: String) {
-    self.leadingPath = value
+  var fullPath: String {
+    "\(leadingPath)/\(filename)"
+  }
+
+  mutating func configure(leadingPath: String) {
+    self.leadingPath = leadingPath
+  }
+
+  mutating func configure(isExecutable: Bool) {
+    self.isExecutable = isExecutable
   }
 }
 
 // MARK: - Encode/Decode
 
 extension ScriptCommand {
+  init?(from dictionary: [String: Any]) {
+    if let scriptCommand: ScriptCommand = dictionary.encodeToStruct() {
+      self = scriptCommand
+    } else {
+      return nil
+    }
+  }
 
   init(from decoder: Decoder) throws {
     let container               = try decoder.container(keyedBy: CodingKeys.self)
@@ -74,11 +88,14 @@ extension ScriptCommand {
     self.schemaVersion          = try container.decode(Int.self, forKey: .schemaVersion)
     self.title                  = try container.decode(String.self, forKey: .title)
     self.filename               = try container.decode(String.self, forKey: .filename)
+    self.language               = try container.decode(String.self, forKey: .language)
+    self.isTemplate             = try container.decode(Bool.self, forKey: .isTemplate)
+    self.hasArguments           = try container.decode(Bool.self, forKey: .hasArguments)
 
     // Optionals
     self.mode                   = try container.decodeIfPresent(Mode.self, forKey: .mode)
     self.packageName            = try container.decodeIfPresent(String.self, forKey: .packageName)
-    self.icon                   = try container.decodeIfPresent(String.self, forKey: .icon)
+    self.icon                   = try container.decodeIfPresent(Icon.self, forKey: .icon)
     self.details                = try container.decodeIfPresent(String.self, forKey: .details)
     self.currentDirectoryPath   = try container.decodeIfPresent(String.self, forKey: .currentDirectoryPath)
     self.needsConfirmation      = try container.decodeIfPresent(Bool.self, forKey: .needsConfirmation)
@@ -100,13 +117,15 @@ extension ScriptCommand {
     try container.encode(authors, forKey: .authors)
     try container.encode(needsConfirmation, forKey: .needsConfirmation)
     try container.encode(refreshTime, forKey: .refreshTime)
+    try container.encode(language, forKey: .language)
+    try container.encode(isTemplate, forKey: .isTemplate)
+    try container.encode(hasArguments, forKey: .hasArguments)
   }
 }
 
 // MARK: - Comparable
 
 extension ScriptCommand: Comparable {
-
   static func < (lhs: ScriptCommand, rhs: ScriptCommand) -> Bool {
     lhs.title < rhs.title
   }
@@ -121,7 +140,6 @@ extension ScriptCommand: Comparable {
 // MARK: - MarkdownDescription Protocol
 
 extension ScriptCommand: MarkdownDescriptionProtocol {
-
   var markdownDescription: String {
     var content: String = .empty
 
@@ -136,10 +154,12 @@ extension ScriptCommand: MarkdownDescriptionProtocol {
       details = value
     }
 
+    let language = Language(self.language).markdownDescription
     let scriptPath = "\(leadingPath)\(filename)"
+
     let header = """
-        | \(iconString) | [\(title)](\(scriptPath)) | \(details) | \(author) |
-        """
+      | \(iconDescription) | [\(title)](\(scriptPath)) | \(details) | \(author) | \(hasArguments ? "✅" : "") | \(isTemplate ? "✅" : "") | \(language) |
+    """
 
     content += .newLine + header
 

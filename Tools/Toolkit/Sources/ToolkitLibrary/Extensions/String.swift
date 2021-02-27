@@ -1,6 +1,6 @@
 //
 //  MIT License
-//  Copyright (c) 2020 Raycast. All rights reserved.
+//  Copyright (c) 2020-2021 Raycast. All rights reserved.
 //
 
 import Foundation
@@ -11,7 +11,7 @@ extension String {
 
     let entities = [
       "_",
-      "-"
+      "-",
     ]
 
     entities.forEach { entity in
@@ -38,5 +38,19 @@ extension String {
 
   static var empty: String {
     ""
+  }
+
+  func `repeat`(by times: Int) -> String {
+    var content = self
+
+    guard times >= 0 else {
+      return .empty
+    }
+
+    for _ in 0..<times {
+      content += self
+    }
+
+    return content
   }
 }

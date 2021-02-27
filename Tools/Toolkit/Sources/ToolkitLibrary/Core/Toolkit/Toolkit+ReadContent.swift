@@ -1,17 +1,14 @@
 //
 //  MIT License
-//  Copyright (c) 2020 Raycast. All rights reserved.
+//  Copyright (c) 2020-2021 Raycast. All rights reserved.
 //
 
 import Foundation
 import TSCBasic
 
 extension Toolkit {
-
   @discardableResult
-  func readFolderContent(path: AbsolutePath,
-                         parentGroups: inout Groups,
-                         ignoreFilesInDir: Bool = false) throws -> ScriptCommands {
+  func readFolderContent(path: AbsolutePath, parentGroups: inout Groups, ignoreFilesInDir: Bool = false) throws -> ScriptCommands {
     var scriptCommands = ScriptCommands()
 
     for directory in onlyDirectories(at: path) {
@@ -28,11 +25,11 @@ extension Toolkit {
 
       let values = try readFolderContent(path: directory, parentGroups: &subGroups)
 
-      if values.count > 0 {
+      if values.isEmpty == false {
         group.scriptCommands = values
       }
 
-      if subGroups.count > 0 {
+      if subGroups.isEmpty == false {
         group.subGroups = subGroups
       }
 
@@ -44,7 +41,13 @@ extension Toolkit {
         continue
       }
 
-      if let scriptCommand = readScriptCommand(from: file) {
+      if var scriptCommand = readScriptCommand(from: file) {
+        self.totalScriptCommands += 1
+
+        scriptCommand.configure(
+          isExecutable: fileSystem.isExecutableFile(file)
+        )
+
         scriptCommands.append(scriptCommand)
       }
     }
@@ -72,14 +75,18 @@ extension Toolkit {
       return nil
     }
 
-    return scriptCommand(
-      with: fileContent,
+    let dictionary = keyValue(
+      for: fileContent,
       filename: filePath.basename,
       path: filePath
     )
+
+    return ScriptCommand(
+      from: dictionary
+    )
   }
 
-  func scriptCommand(with content: String, filename: String, path: AbsolutePath) -> ScriptCommand? {
+  func keyValue(for content: String, filename: String, path: AbsolutePath) -> [String: Any] {
     let filenameKey = ScriptCommand.CodingKeys.filename.rawValue
     let packageNameKey = ScriptCommand.CodingKeys.packageName.rawValue
 
@@ -87,28 +94,41 @@ extension Toolkit {
     var dictionary = readKeyValues(of: content)
     dictionary[filenameKey] = filename
 
+    dictionary["isTemplate"] = filename.contains("template")
+
     if dictionary[packageNameKey] == nil {
       dictionary[packageNameKey] = path.basenameWithoutExt.sanitize.capitalized
     }
 
-    return dictionary.encodeToStruct()
+    return dictionary
   }
 
   func readKeyValues(of content: String) -> [String: Any] {
-    let regex = "@raycast.(?<key>[A-Za-z]+)\\s(?<value>[\\S ]+)"
+    let regex = "@raycast.(?<key>[A-Za-z0-9]+)\\s(?<value>[\\S ]+)"
     let results = RegEx.checkingResults(for: regex, in: content)
 
     var dictionary: [String: Any] = [:]
-    let authors = extractAuthors(from: content, using: results)
 
-    if authors.count > 0 {
-      dictionary["authors"] = extractAuthors(from: content, using: results)
+    if let language = extractLanguageFromShebang(using: content) {
+      dictionary["language"] = language
     }
+
+    let authors = extractAuthors(from: content, using: results)
+    if authors.isEmpty == false {
+      dictionary["authors"] = authors
+    }
+
+    let icons = extractIcons(from: content, using: results)
+    if icons.isEmpty == false {
+      dictionary["icon"] = icons
+    }
+
+    dictionary["hasArguments"] = extractArguments(from: content, using: results)
 
     for result in results {
       let keyValue = readKeyValue(from: result, content: content)
 
-      guard keyValue.isAuthorKeys == false else {
+      guard keyValue.authorKeys == false && keyValue.iconKeys == false else {
         continue
       }
 
@@ -118,6 +138,70 @@ extension Toolkit {
     return dictionary
   }
 
+  func extractLanguageFromShebang(using content: String) -> String? {
+    let regex = "#!(?<shebang>[^\n]+)"
+
+    guard let result = RegEx.checkingResult(for: regex, in: content) else {
+      return nil
+    }
+
+    let range = result.range(withName: "shebang")
+
+    guard let shebang = self.content(of: range, on: content) else {
+      return nil
+    }
+
+    guard var software = shebang.split(separator: "/").last else {
+      return nil
+    }
+
+    let values = software.split(separator: " ")
+
+    if values.count > 1 {
+      software = values.first == "env"
+        ? values.last ?? ""
+        : values.first ?? ""
+    }
+
+    let language = Language(String(software))
+
+    return language.name
+  }
+
+  func extractArguments(from content: String, using results: NSTextCheckingResults) -> Bool {
+    var hasArguments = false
+
+    for result in results {
+      let dictionary = readKeyValue(from: result, content: content)
+
+      guard dictionary.argumentsKeys else {
+        continue
+      }
+
+      hasArguments = true
+    }
+
+    return hasArguments
+  }
+
+  func extractIcons(from content: String, using results: NSTextCheckingResults) -> [String: String] {
+    var icons: [String: String] = [:]
+
+    for result in results {
+      let dictionary = readKeyValue(from: result, content: content)
+
+      guard let key = dictionary.keys.first, dictionary.iconKeys else {
+        continue
+      }
+
+      if let value = dictionary[key] as? String {
+        icons[key] = value
+      }
+    }
+
+    return icons
+  }
+
   func extractAuthors(from content: String, using results: NSTextCheckingResults) -> [[String: String]] {
     var authors: [[String: String]] = []
     var currentAuthor: [String: String] = [:]
@@ -125,7 +209,7 @@ extension Toolkit {
     for result in results {
       let dictionary = readKeyValue(from: result, content: content)
 
-      guard let key = dictionary.keys.first, dictionary.isAuthorKeys else {
+      guard let key = dictionary.keys.first, dictionary.authorKeys else {
         continue
       }
 
@@ -156,9 +240,7 @@ extension Toolkit {
     let keyRange = result.range(withName: "key")
     let valueRange = result.range(withName: "value")
 
-    if let key = self.content(of: keyRange, on: content),
-       let value = self.content(of: valueRange, on: content) {
-
+    if let key = self.content(of: keyRange, on: content), let value = self.content(of: valueRange, on: content) {
       if let intValue = Int(value) {
         dictionary[key] = intValue
       } else if let boolValue = Bool(value) {
@@ -174,8 +256,7 @@ extension Toolkit {
   func content(of range: NSRange, on content: String) -> String? {
     var value: String?
 
-    if range.location != NSNotFound, range.length > 0,
-       let rangeString = Range<String.Index>(range, in: content) {
+    if range.location != NSNotFound, range.length > 0, let rangeString = Range<String.Index>(range, in: content) {
       value = String(content[rangeString])
     }
 
@@ -185,7 +266,7 @@ extension Toolkit {
 
 // MARK: - Filter Extensions
 
-fileprivate extension Toolkit {
+private extension Toolkit {
   enum ContentDirType {
     case directories
     case files
@@ -231,8 +312,8 @@ fileprivate extension Toolkit {
 
 // MARK: - Dictionary Extension
 
-fileprivate extension Dictionary where Key == String {
-  var isAuthorKeys: Bool {
+private extension Dictionary where Key == String {
+  var authorKeys: Bool {
     typealias Keys = ScriptCommand.Author.InputCodingKeys
     let authorNameKey = Keys.name.rawValue
     let authorURLKey = Keys.url.rawValue
@@ -242,5 +323,25 @@ fileprivate extension Dictionary where Key == String {
     }
 
     return key == authorNameKey || key == authorURLKey
+  }
+
+  var iconKeys: Bool {
+    typealias Keys = ScriptCommand.Icon.InputCodingKeys
+    let iconKey = Keys.icon.rawValue
+    let iconDarkKey = Keys.iconDark.rawValue
+
+    guard let key = keys.first else {
+      return false
+    }
+
+    return key == iconKey || key == iconDarkKey
+  }
+
+  var argumentsKeys: Bool {
+    guard let key = keys.first else {
+      return false
+    }
+
+    return key == "argument1" || key == "argument2" || key == "argument3"
   }
 }
