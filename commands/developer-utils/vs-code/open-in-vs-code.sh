@@ -5,7 +5,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Open in VS Code
+# @raycast.title Open Folder in VS Code
 # @raycast.mode compact
 # @raycast.packageName VS Code
 # @raycast.argument1 { "type": "text", "placeholder": "fuzzy-folder-name" }
