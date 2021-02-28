@@ -13,6 +13,8 @@ public final class Toolkit {
 
   var totalScriptCommands: Int = 0
 
+  let git = GitShell()
+
   public init(path: AbsolutePath) {
     extensionsAbsolutePath = path
   }
