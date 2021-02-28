@@ -8,6 +8,7 @@ import Foundation
 typealias ScriptCommands = [ScriptCommand]
 
 struct ScriptCommand: Codable {
+  let identifier: String
   let schemaVersion: Int
   let title: String
   var filename: String
@@ -22,11 +23,14 @@ struct ScriptCommand: Codable {
   let language: String
   let isTemplate: Bool
   let hasArguments: Bool
+  let createdAt: String
+  let updatedAt: String
 
   private(set) var leadingPath: String = ""
   private(set) var isExecutable: Bool = false
 
   enum CodingKeys: String, CodingKey {
+    case identifier
     case schemaVersion
     case title
     case filename
@@ -41,6 +45,8 @@ struct ScriptCommand: Codable {
     case language
     case isTemplate
     case hasArguments
+    case createdAt
+    case updatedAt
   }
 
   var iconDescription: String {
@@ -82,15 +88,32 @@ extension ScriptCommand {
   }
 
   init(from decoder: Decoder) throws {
-    let container               = try decoder.container(keyedBy: CodingKeys.self)
+    let container      = try decoder.container(keyedBy: CodingKeys.self)
 
     // Required
-    self.schemaVersion          = try container.decode(Int.self, forKey: .schemaVersion)
-    self.title                  = try container.decode(String.self, forKey: .title)
-    self.filename               = try container.decode(String.self, forKey: .filename)
-    self.language               = try container.decode(String.self, forKey: .language)
-    self.isTemplate             = try container.decode(Bool.self, forKey: .isTemplate)
-    self.hasArguments           = try container.decode(Bool.self, forKey: .hasArguments)
+    self.schemaVersion = try container.decode(Int.self, forKey: .schemaVersion)
+    self.title         = try container.decode(String.self, forKey: .title)
+    self.language      = try container.decode(String.self, forKey: .language)
+    self.isTemplate    = try container.decode(Bool.self, forKey: .isTemplate)
+    self.hasArguments  = try container.decode(Bool.self, forKey: .hasArguments)
+    
+    let filename       = try container.decode(String.self, forKey: .filename)
+    let createdAt      = try container.decode(String.self, forKey: .createdAt)
+    let updatedAt      = try container.decode(String.self, forKey: .updatedAt)
+    
+    self.filename  = filename
+    self.createdAt = createdAt
+    self.updatedAt  = updatedAt
+    
+    do {
+      let value = "\(createdAt.description)\(filename)"
+      let identifier = try value.convertToMD5()
+      
+      self.identifier = identifier
+    }
+    catch let error as StringError {
+      fatalError(error.localizedDescription)
+    }
 
     // Optionals
     self.mode                   = try container.decodeIfPresent(Mode.self, forKey: .mode)
@@ -106,6 +129,7 @@ extension ScriptCommand {
   func encode(to encoder: Encoder) throws {
     var container = encoder.container(keyedBy: CodingKeys.self)
 
+    try container.encode(identifier, forKey: .identifier)
     try container.encode(schemaVersion, forKey: .schemaVersion)
     try container.encode(title, forKey: .title)
     try container.encode(filename, forKey: .filename)
@@ -120,6 +144,8 @@ extension ScriptCommand {
     try container.encode(language, forKey: .language)
     try container.encode(isTemplate, forKey: .isTemplate)
     try container.encode(hasArguments, forKey: .hasArguments)
+    try container.encode(createdAt, forKey: .createdAt)
+    try container.encode(updatedAt, forKey: .updatedAt)
   }
 }
 
