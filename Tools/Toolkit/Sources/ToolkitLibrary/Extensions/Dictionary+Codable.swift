@@ -7,10 +7,15 @@ import Foundation
 
 extension Dictionary where Key == String, Value: Any {
   func encodeToStruct<T: Decodable>() -> T? {
-    guard let data = try? JSONSerialization.data(withJSONObject: self, options: []) else {
+    do {
+      let data = try JSONSerialization.data(
+        withJSONObject: self
+      )
+      
+      return try JSONDecoder().decode(T.self, from: data)
+    }
+    catch {
       return nil
     }
-
-    return try? JSONDecoder().decode(T.self, from: data)
   }
 }
