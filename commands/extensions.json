@@ -762,30 +762,6 @@
           "title" : "Open Clipboard URL on Desktop"
         },
         {
-          "authors" : [
-            {
-              "name" : "Jax0rz",
-              "url" : null
-            }
-          ],
-          "currentDirectoryPath" : null,
-          "description" : null,
-          "filename" : "search-in-bear.sh",
-          "hasArguments" : true,
-          "icon" : {
-            "dark" : null,
-            "light" : "images\/bear.png"
-          },
-          "isTemplate" : false,
-          "language" : "bash",
-          "mode" : "silent",
-          "needsConfirmation" : null,
-          "packageName" : "Navigation",
-          "refreshTime" : null,
-          "schemaVersion" : 1,
-          "title" : "Search in Bear"
-        },
-        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : "Opens the Home folder in the Finder.",
@@ -6038,6 +6014,6 @@
       ]
     }
   ],
-  "totalScriptCommands" : 251,
-  "updatedAt" : "2021-02-27T21:20:14Z"
+  "totalScriptCommands" : 250,
+  "updatedAt" : "2021-02-28T11:36:59Z"
 }
