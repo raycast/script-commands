@@ -36,7 +36,11 @@ extension String {
   var trimmedString: String {
     trimmingCharacters(in: .whitespacesAndNewlines)
   }
-
+  
+  var splitByNewLine: [String] {
+    split(separator: .newLine).map(String.init)
+  }
+  
   static var newLine: String {
     "\n"
   }
