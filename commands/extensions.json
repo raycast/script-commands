@@ -1002,6 +1002,30 @@
         {
           "authors" : [
             {
+              "name" : "Manan Mehta",
+              "url" : "https:\/\/github.com\/mehtamanan"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Gets crypto prices from Binance",
+          "filename" : "crypto-portfolio.py",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "💰"
+          },
+          "isTemplate" : false,
+          "language" : "python",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Money",
+          "refreshTime" : "5m",
+          "schemaVersion" : 1,
+          "title" : "Crypto"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Phil Salant",
               "url" : "https:\/\/github.com\/PSalant726"
             }
@@ -6014,6 +6038,6 @@
       ]
     }
   ],
-  "totalScriptCommands" : 250,
-  "updatedAt" : "2021-02-28T11:36:59Z"
+  "totalScriptCommands" : 251,
+  "updatedAt" : "2021-03-01T16:34:02Z"
 }
