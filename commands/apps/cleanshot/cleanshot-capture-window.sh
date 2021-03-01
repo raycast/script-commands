@@ -11,7 +11,7 @@
 # @raycast.icon ./images/capture-window.png
 # @raycast.packageName CleanShot X
 
-# @Documentation:
+# Documentation:
 # @raycast.author CleanShot X
 # @raycast.authorURL https://twitter.com/CleanShot_app
 # @raycast.description Take a screenshot of a window.

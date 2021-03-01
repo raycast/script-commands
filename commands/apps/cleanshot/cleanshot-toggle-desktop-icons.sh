@@ -11,7 +11,7 @@
 # @raycast.icon ./images/toggle-desktop-icons.png
 # @raycast.packageName CleanShot X
 
-# @Documentation:
+# Documentation:
 # @raycast.author CleanShot X
 # @raycast.authorURL https://twitter.com/CleanShot_app
 # @raycast.description Hide clutter on your Desktop.
