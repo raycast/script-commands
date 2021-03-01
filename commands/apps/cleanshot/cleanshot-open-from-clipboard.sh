@@ -11,7 +11,7 @@
 # @raycast.icon ./images/clipboard.png
 # @raycast.packageName CleanShot X
 
-# @Documentation:
+# Documentation:
 # @raycast.author CleanShot X
 # @raycast.authorURL https://twitter.com/CleanShot_app
 # @raycast.description Open screenshot that is currently in the clipboard.

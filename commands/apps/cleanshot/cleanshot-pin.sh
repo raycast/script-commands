@@ -12,7 +12,7 @@
 # @raycast.packageName CleanShot X
 # @raycast.argument1 { "type": "text", "placeholder": "Filepath", "optional": true }
 
-# @Documentation:
+# Documentation:
 # @raycast.author CleanShot X
 # @raycast.authorURL https://twitter.com/CleanShot_app
 # @raycast.description Pin a screenshot to the screen.

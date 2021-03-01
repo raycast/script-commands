@@ -11,7 +11,7 @@
 # @raycast.icon ./images/self-timer.png
 # @raycast.packageName CleanShot X
 
-# @Documentation:
+# Documentation:
 # @raycast.author CleanShot X
 # @raycast.authorURL https://twitter.com/CleanShot_app
 # @raycast.description Take a screenshot after a specified delay to capture the perfect moment.
