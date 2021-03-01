@@ -5098,6 +5098,276 @@
           ]
         },
         {
+          "name" : "Cleanshot",
+          "path" : "cleanshot",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "CleanShot X",
+                  "url" : "https:\/\/twitter.com\/CleanShot_app"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Take a screenshot of a window.",
+              "filename" : "cleanshot-capture-window.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/capture-window.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "CleanShot X",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Capture Window"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "CleanShot X",
+                  "url" : "https:\/\/twitter.com\/CleanShot_app"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Take a screenshot of the previously specified area of your screen.",
+              "filename" : "cleanshot-capture-previous-area.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/capture-previous-area.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "CleanShot X",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Capture Previous Area"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "CleanShot X",
+                  "url" : "https:\/\/twitter.com\/CleanShot_app"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Restore the recently closed file.",
+              "filename" : "cleanshot-restore.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/restore.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "CleanShot X",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Restore Recently Closed File"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "CleanShot X",
+                  "url" : "https:\/\/twitter.com\/CleanShot_app"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Pin a screenshot to the screen.",
+              "filename" : "cleanshot-pin.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/pin.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "CleanShot X",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Pin to the Screen"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "CleanShot X",
+                  "url" : "https:\/\/twitter.com\/CleanShot_app"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Take a screenshot of a specific area on your screen.",
+              "filename" : "cleanshot-capture-area.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/capture-area.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "CleanShot X",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Capture Area"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "CleanShot X",
+                  "url" : "https:\/\/twitter.com\/CleanShot_app"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Open screenshot that is currently in the clipboard.",
+              "filename" : "cleanshot-open-from-clipboard.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/clipboard.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "CleanShot X",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open from Clipboard"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "CleanShot X",
+                  "url" : "https:\/\/twitter.com\/CleanShot_app"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Take a screenshot of your screen.",
+              "filename" : "cleanshot-capture-fullscreen.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/capture-fullscreen.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "CleanShot X",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Capture Fullscreen"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "CleanShot X",
+                  "url" : "https:\/\/twitter.com\/CleanShot_app"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Take a screenshot after a specified delay to capture the perfect moment.",
+              "filename" : "cleanshot-self-timer.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/self-timer.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "CleanShot X",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Self-Timer"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "CleanShot X",
+                  "url" : "https:\/\/twitter.com\/CleanShot_app"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Capture any scrollable content.",
+              "filename" : "cleanshot-scrolling-capture.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/scrolling-capture.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "CleanShot X",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Scrolling Capture"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "CleanShot X",
+                  "url" : "https:\/\/twitter.com\/CleanShot_app"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Start a screen recording and save it as a video or an optimized GIF file.",
+              "filename" : "cleanshot-record-screen.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/record-screen.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "CleanShot X",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Record Screen"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "CleanShot X",
+                  "url" : "https:\/\/twitter.com\/CleanShot_app"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Hide clutter on your Desktop.",
+              "filename" : "cleanshot-toggle-desktop-icons.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/toggle-desktop-icons.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "CleanShot X",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Toggle Desktop Icons"
+            }
+          ]
+        },
+        {
           "name" : "Amphetamine",
           "path" : "amphetamine",
           "scriptCommands" : [
@@ -6038,6 +6308,6 @@
       ]
     }
   ],
-  "totalScriptCommands" : 251,
-  "updatedAt" : "2021-03-01T16:34:02Z"
+  "totalScriptCommands" : 262,
+  "updatedAt" : "2021-03-01T17:01:31Z"
 }
