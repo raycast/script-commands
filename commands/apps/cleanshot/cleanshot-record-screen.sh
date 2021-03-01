@@ -11,7 +11,7 @@
 # @raycast.icon ./images/record-screen.png
 # @raycast.packageName CleanShot X
 
-# @Documentation:
+# Documentation:
 # @raycast.author CleanShot X
 # @raycast.authorURL https://twitter.com/CleanShot_app
 # @raycast.description Start a screen recording and save it as a video or an optimized GIF file.

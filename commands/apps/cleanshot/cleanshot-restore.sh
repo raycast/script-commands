@@ -11,7 +11,7 @@
 # @raycast.icon ./images/restore.png
 # @raycast.packageName CleanShot X
 
-# @Documentation:
+# Documentation:
 # @raycast.author CleanShot X
 # @raycast.authorURL https://twitter.com/CleanShot_app
 # @raycast.description Restore the recently closed file.

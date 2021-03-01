@@ -10,7 +10,7 @@
 # Optional parameters:
 # @raycast.icon 💰
 
-# @Documentation:
+# Documentation:
 # @raycast.description Gets crypto prices from Binance
 # @raycast.author Manan Mehta
 # @raycast.authorURL https://github.com/mehtamanan

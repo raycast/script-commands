@@ -11,7 +11,7 @@
 # @raycast.icon ./images/scrolling-capture.png
 # @raycast.packageName CleanShot X
 
-# @Documentation:
+# Documentation:
 # @raycast.author CleanShot X
 # @raycast.authorURL https://twitter.com/CleanShot_app
 # @raycast.description Capture any scrollable content.
