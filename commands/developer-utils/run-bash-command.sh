@@ -5,13 +5,11 @@
 #                                                                             #
 # Description: run arbitrary bash command and show ouput in Raycast window.   #                                                                            #
 #                                                                             #
-# Usage:                                                                      #
-#             > <dir> <command>                                               #
 # Arguments:                                                                  #
-#             <dir> the directory where your command will be excuted.         #
-#                   * If blank, it uses current finder directory.             #
 #         <command> Your arbitrary bash commands (oneliner).                  #
 #                   * If blank, it opens the Terminal app and cd to <dir>.    #
+#       <directory> The directory where your command will be excuted.         #
+#                   * If blank, it uses current finder directory.             #
 #                                                                             #
 ###############################################################################
 #
@@ -47,7 +45,7 @@ fi
 if [ -z "$cmd" ] ; then
 	osascript -e "set dir to \"$dir\"" -e "dir" -e "tell application \"Terminal\"" -e "do script \"cd \" & quoted form of dir" -e "activate" -e "end tell"
 else
-	TERM="xterm-256color" ; export TERM
+	TERM="linux" ; export TERM
 	cd "$dir"
 	eval "$cmd"
 	cd "$OLDPWD"
