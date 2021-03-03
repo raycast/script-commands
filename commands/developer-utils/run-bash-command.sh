@@ -9,7 +9,8 @@
 #         <command> Your arbitrary bash commands (oneliner).                  #
 #                   * If blank, it opens the Terminal app and cd to <dir>.    #
 #       <directory> The directory where your command will be excuted.         #
-#                   * If blank, it uses current finder directory.             #
+#                   * If blank, it uses current Finder directory.             #
+#                     * If no open Finder window, then use $HOME.             #
 #                                                                             #
 ###############################################################################
 #
@@ -33,7 +34,7 @@ dir="${2/#\~/$HOME}"
 
 # Parse directory
 if [ -z "$dir" ] ; then
-	finder_dir=$( osascript -e "tell application \"Finder\"" -e "set pathList to (POSIX path of (folder of the front window as alias))" -e "pathList" -e "end tell" )
+	finder_dir=$( osascript -e "tell application \"Finder\"" -e "if exists window 1 then" -e "set pathList to (POSIX path of (folder of the front window as alias))" -e "pathList" -e "end if" -e "end tell" )
 	if [ -z "$finder_dir" ] ; then
 		dir="${HOME}"
 	else
