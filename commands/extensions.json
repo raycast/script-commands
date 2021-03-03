@@ -5624,6 +5624,108 @@
               "title" : "Toggle Dimming"
             }
           ]
+        },
+        {
+          "name" : "Things",
+          "path" : "things",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Things",
+                  "url" : "https:\/\/twitter.com\/culturedcode\/"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Get an overview of your completed tasks for today.",
+              "filename" : "things-today.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/things.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Things",
+              "refreshTime" : "1m",
+              "schemaVersion" : 1,
+              "title" : "Today"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Things",
+                  "url" : "https:\/\/twitter.com\/culturedcode\/"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Search To-Dos with a query.",
+              "filename" : "things-search-to-dos.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/things.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Things",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Search To-Dos"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Things",
+                  "url" : "https:\/\/twitter.com\/culturedcode\/"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Create a new To-Do with title and optional deadline.",
+              "filename" : "things-create-todo.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/things.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Things",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Create To-Do"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Things",
+                  "url" : "https:\/\/twitter.com\/culturedcode\/"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Show your current To-Do to stay focused.",
+              "filename" : "things-current-todo.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/things.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Things",
+              "refreshTime" : "1m",
+              "schemaVersion" : 1,
+              "title" : "Current To-Do"
+            }
+          ]
         }
       ]
     },
@@ -6308,6 +6410,6 @@
       ]
     }
   ],
-  "totalScriptCommands" : 262,
-  "updatedAt" : "2021-03-01T17:01:31Z"
+  "totalScriptCommands" : 266,
+  "updatedAt" : "2021-03-03T19:22:28Z"
 }

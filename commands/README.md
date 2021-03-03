@@ -31,6 +31,7 @@ This repository contains sample commands and documentation to write your own one
   - [Cleanshot](#cleanshot)
   - [Hazeover](#hazeover)
   - [Iterm](#iterm)
+  - [Things](#things)
 - [Bookmarks](#bookmarks)
 - [Browsing](#browsing)
 - [Communication](#communication)
@@ -114,6 +115,15 @@ This repository contains sample commands and documentation to write your own one
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/iterm/images/iterm.png" width="20" height="20"> | [Run Shell Command](apps/iterm/iterm-run-shell-command.applescript) | N/A | [Andrei Borisov](https://github.com/andreiborisov) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+
+#### Things
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/things/images/things.png" width="20" height="20"> | [Create To-Do](apps/things/things-create-todo.sh) | Create a new To-Do with title and optional deadline. | [Things](https://twitter.com/culturedcode/) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/things/images/things.png" width="20" height="20"> | [Current To-Do](apps/things/things-current-todo.applescript) | Show your current To-Do to stay focused. | [Things](https://twitter.com/culturedcode/) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/things/images/things.png" width="20" height="20"> | [Search To-Dos](apps/things/things-search-to-dos.sh) | Search To-Dos with a query. | [Things](https://twitter.com/culturedcode/) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/things/images/things.png" width="20" height="20"> | [Today](apps/things/things-today.applescript) | Get an overview of your completed tasks for today. | [Things](https://twitter.com/culturedcode/) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 ## Bookmarks
 
