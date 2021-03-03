@@ -1,5 +1,5 @@
 <div>
-  <img src="./images/things.png" height="32px" align="left" style="float: left; margin-right: 4px">
+  <img src="./images/things.png" height="32px" width="32px" align="left">
   <h2>Things</h2>
 </div>
 
