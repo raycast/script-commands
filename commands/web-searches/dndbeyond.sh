@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title DnDBeyond.com search
+# @raycast.title Search in DnDBeyond.com
 # @raycast.mode silent
 # @raycast.author Chris Koerner Zeller
 # @raycast.authorURL https://github.com/ChessMess
