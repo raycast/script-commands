@@ -16,4 +16,4 @@
 
 killall Dock
 
-echo "Restarted the Dock" 
+echo "Restarted the Dock"
