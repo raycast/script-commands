@@ -14,6 +14,6 @@
 
 on run
     try
-		tell application "Finder" to empty trash
-	end try
+        tell application "Finder" to empty trash
+    end try
 end run
