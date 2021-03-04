@@ -12,4 +12,8 @@
 # Documentation:
 # @raycast.description Empty the trash.
 
-tell application "Finder" to empty trash
+on run
+    try
+		tell application "Finder" to empty trash
+	end try
+end run
