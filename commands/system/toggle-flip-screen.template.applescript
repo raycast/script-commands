@@ -65,7 +65,7 @@ tell application "System Events" to tell process "System Preferences"
           if (value) contains "Standard" then
             set currentAction to "Flipping"
             click
-            click menu item "90°" of menu 1
+            click menu item targetDegree of menu 1
           else
             set currentAction to "Reverting"
             click
