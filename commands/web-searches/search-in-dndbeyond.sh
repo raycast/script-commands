@@ -8,7 +8,7 @@
 # @raycast.authorURL https://github.com/ChessMess
 
 # Optional parameters:
-# @raycast.icon ❓
+# @raycast.icon ./images/ddbicon.png
 # @raycast.packageName Web searches
 # @raycast.argument1 { "type": "text", "placeholder": "Searching for", "percentEncoded": true }
 # @raycast.argument2 { "type": "text", "placeholder": "Catagory", "optional": true}
