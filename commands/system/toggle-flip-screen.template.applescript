@@ -23,65 +23,68 @@
 
 use scripting additions
 
+set displayName to "<display>"
+set targetDegree to "<degree>°"
+
 if running of application "System Preferences" then
-	quit application "System Preferences"
+  quit application "System Preferences"
 end if
 
 tell application "System Preferences"
-	activate
-	reveal anchor "displaysDisplayTab" of pane id "com.apple.preference.displays"
+  activate
+  reveal anchor "displaysDisplayTab" of pane id "com.apple.preference.displays"
 end tell
 
 tell application "System Events" to tell process "System Preferences"
-	set currentCount to 0
-	repeat while currentCount < 5
-		if exists tab group 1 of window "<display>" then
-			set currentCount to 5
-		else
-			delay 0.5
-			set currentCount to currentCount + 1
-		end if
-	end repeat
+  set currentCount to 0
+  repeat while currentCount < 5
+    if exists tab group 1 of window displayName then
+      set currentCount to 5
+    else
+      delay 0.5
+      set currentCount to currentCount + 1
+    end if
+  end repeat
 
-	try
-		tell window "<display>"
-			if exists pop up button 2 of tab group 1 then
-				tell pop up button 2 of tab group 1
-					if (value) contains "Standard" then
-						set currentAction to "Flipping"
-						click
-						click menu item "<degree>°" of menu 1
-					else
-						set currentAction to "Reverting"
-						click
-						click menu item "Standard" of menu 1
-					end if
-				end tell
-			else
-				tell pop up button 1 of tab group 1
-					if (value) contains "Standard" then
-						set currentAction to "Flipping"
-						click
-						click menu item "90°" of menu 1
-					else
-						set currentAction to "Reverting"
-						click
-						click menu item "Standard" of menu 1
-					end if
-				end tell
-			end if
-		end tell
-	on error
-		log "Some Error, please contact me so I can try to fix"
-	end try
+  try
+    tell window displayName
+      if exists pop up button 2 of tab group 1 then
+        tell pop up button 2 of tab group 1
+          if (value) contains "Standard" then
+            set currentAction to "Flipping"
+            click
+            click menu item targetDegree of menu 1
+          else
+            set currentAction to "Reverting"
+            click
+            click menu item "Standard" of menu 1
+          end if
+        end tell
+      else
+        tell pop up button 1 of tab group 1
+          if (value) contains "Standard" then
+            set currentAction to "Flipping"
+            click
+            click menu item "90°" of menu 1
+          else
+            set currentAction to "Reverting"
+            click
+            click menu item "Standard" of menu 1
+          end if
+        end tell
+      end if
+    end tell
+  on error errString
+    display notification "error" & errString
+  end try
 end tell
 
 log currentAction & space & "display succeed"
 
 tell application "System Preferences"
-	quit
+  quit
 end tell
 
 tell application "System Events"
-	quit
+  quit
 end tell
