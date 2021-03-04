@@ -8,7 +8,7 @@
 # @raycast.mode silent
 
 # Optional parameters:
-# @raycast.icon ./images/restore.png
+# @raycast.icon ./images/restore.pdf
 # @raycast.packageName CleanShot X
 
 # Documentation:
