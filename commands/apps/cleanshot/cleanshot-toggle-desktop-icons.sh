@@ -8,7 +8,7 @@
 # @raycast.mode silent
 
 # Optional parameters:
-# @raycast.icon ./images/toggle-desktop-icons.png
+# @raycast.icon ./images/toggle-desktop-icons.pdf
 # @raycast.packageName CleanShot X
 
 # Documentation:
