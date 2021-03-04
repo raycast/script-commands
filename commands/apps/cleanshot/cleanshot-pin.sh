@@ -8,7 +8,7 @@
 # @raycast.mode silent
 
 # Optional parameters:
-# @raycast.icon ./images/pin.pdf
+# @raycast.icon ./images/pin.png
 # @raycast.packageName CleanShot X
 # @raycast.argument1 { "type": "text", "placeholder": "Filepath", "optional": true }
 
