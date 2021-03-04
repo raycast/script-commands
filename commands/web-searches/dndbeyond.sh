@@ -10,9 +10,9 @@
 # Optional parameters:
 # @raycast.icon ❓
 # @raycast.packageName Web searches
-# @raycast.argument1 { "type": "text", "placeholder": "searching for", "percentEncoded": true }
-# @raycast.argument2 { "type": "text", "placeholder": "catagory", "optional": true}
-# @raycast.argument3 { "type": "text", "placeholder": "subcatagory", "optional": true}
+# @raycast.argument1 { "type": "text", "placeholder": "Searching for", "percentEncoded": true }
+# @raycast.argument2 { "type": "text", "placeholder": "Catagory", "optional": true}
+# @raycast.argument3 { "type": "text", "placeholder": "Subcatagory", "optional": true}
 
 case ${2} in
   'c'|'ch'|'cha'|'char'|'character')
