@@ -75,7 +75,7 @@ tell application "System Events" to tell process "System Preferences"
       end if
     end tell
   on error errString
-    display notification "error" & errString
+    log "Some error, please contact me so I can try to fix :)"
   end try
 end tell
 
