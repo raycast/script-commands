@@ -16,11 +16,11 @@
 
 case ${2} in
   'c'|'ch'|'cha'|'char'|'character')
-     c='charcters'
+     c='characters'
      f='spells,backgrounds,classes,feats,races'
      ;;
   'cl'|'class'|'classes')
-     c='charcters'
+     c='characters'
      f='classes'
      ;;
   'com'|'compendium')
@@ -32,7 +32,7 @@ case ${2} in
      f='equipment,magic-items'
      ;;
    'f'|'fe'|'ft'|'feat'|'feats')
-      c='charcters'
+      c='characters'
       f='feats'
       ;;
    'i'|'it'|'ite'|'itm'|'item'|'items')
@@ -48,7 +48,7 @@ case ${2} in
       f='magic-items'
       ;;
     'r'|'ra'|'rac'|'race'|'races')
-        c='charcters'
+        c='characters'
         f='races'
         ;;
     'r'|'rule'|'rules')
