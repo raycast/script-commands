@@ -8,7 +8,7 @@
 # @raycast.mode silent
 
 # Optional parameters:
-# @raycast.icon ./images/self-timer.pdf
+# @raycast.icon ./images/self-timer.png
 # @raycast.packageName CleanShot X
 
 # Documentation:

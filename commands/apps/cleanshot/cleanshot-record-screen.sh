@@ -8,7 +8,7 @@
 # @raycast.mode silent
 
 # Optional parameters:
-# @raycast.icon ./images/record-screen.pdf
+# @raycast.icon ./images/record-screen.png
 # @raycast.packageName CleanShot X
 
 # Documentation:
