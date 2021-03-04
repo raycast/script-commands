@@ -5114,7 +5114,7 @@
               "hasArguments" : false,
               "icon" : {
                 "dark" : null,
-                "light" : ".\/images\/capture-window.png"
+                "light" : ".\/images\/capture-window.pdf"
               },
               "isTemplate" : false,
               "language" : "bash",
@@ -5138,7 +5138,7 @@
               "hasArguments" : false,
               "icon" : {
                 "dark" : null,
-                "light" : ".\/images\/capture-previous-area.png"
+                "light" : ".\/images\/capture-previous-area.pdf"
               },
               "isTemplate" : false,
               "language" : "bash",
@@ -5162,7 +5162,7 @@
               "hasArguments" : false,
               "icon" : {
                 "dark" : null,
-                "light" : ".\/images\/restore.png"
+                "light" : ".\/images\/restore.pdf"
               },
               "isTemplate" : false,
               "language" : "bash",
@@ -5186,7 +5186,7 @@
               "hasArguments" : true,
               "icon" : {
                 "dark" : null,
-                "light" : ".\/images\/pin.png"
+                "light" : ".\/images\/pin.pdf"
               },
               "isTemplate" : false,
               "language" : "bash",
@@ -5210,7 +5210,7 @@
               "hasArguments" : false,
               "icon" : {
                 "dark" : null,
-                "light" : ".\/images\/capture-area.png"
+                "light" : ".\/images\/capture-area.pdf"
               },
               "isTemplate" : false,
               "language" : "bash",
@@ -5234,7 +5234,7 @@
               "hasArguments" : false,
               "icon" : {
                 "dark" : null,
-                "light" : ".\/images\/clipboard.png"
+                "light" : ".\/images\/clipboard.pdf"
               },
               "isTemplate" : false,
               "language" : "bash",
@@ -5258,7 +5258,7 @@
               "hasArguments" : false,
               "icon" : {
                 "dark" : null,
-                "light" : ".\/images\/capture-fullscreen.png"
+                "light" : ".\/images\/capture-fullscreen.pdf"
               },
               "isTemplate" : false,
               "language" : "bash",
@@ -5282,7 +5282,7 @@
               "hasArguments" : false,
               "icon" : {
                 "dark" : null,
-                "light" : ".\/images\/self-timer.png"
+                "light" : ".\/images\/self-timer.pdf"
               },
               "isTemplate" : false,
               "language" : "bash",
@@ -5306,7 +5306,7 @@
               "hasArguments" : false,
               "icon" : {
                 "dark" : null,
-                "light" : ".\/images\/scrolling-capture.png"
+                "light" : ".\/images\/scrolling-capture.pdf"
               },
               "isTemplate" : false,
               "language" : "bash",
@@ -5330,7 +5330,7 @@
               "hasArguments" : false,
               "icon" : {
                 "dark" : null,
-                "light" : ".\/images\/record-screen.png"
+                "light" : ".\/images\/record-screen.pdf"
               },
               "isTemplate" : false,
               "language" : "bash",
@@ -5354,7 +5354,7 @@
               "hasArguments" : false,
               "icon" : {
                 "dark" : null,
-                "light" : ".\/images\/toggle-desktop-icons.png"
+                "light" : ".\/images\/toggle-desktop-icons.pdf"
               },
               "isTemplate" : false,
               "language" : "bash",
@@ -6411,5 +6411,5 @@
     }
   ],
   "totalScriptCommands" : 266,
-  "updatedAt" : "2021-03-03T19:22:28Z"
+  "updatedAt" : "2021-03-04T12:44:22Z"
 }
