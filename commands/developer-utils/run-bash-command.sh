@@ -5,13 +5,12 @@
 #                                                                             #
 # Description: run arbitrary bash command and show ouput in Raycast window.   #                                                                            #
 #                                                                             #
-# Usage:                                                                      #
-#             > <dir> <command>                                               #
 # Arguments:                                                                  #
-#             <dir> the directory where your command will be excuted.         #
-#                   * If blank, it uses current finder directory.             #
 #         <command> Your arbitrary bash commands (oneliner).                  #
 #                   * If blank, it opens the Terminal app and cd to <dir>.    #
+#       <directory> The directory where your command will be excuted.         #
+#                   * If blank, it uses current Finder directory.             #
+#                     * If no open Finder window, then use $HOME.             #
 #                                                                             #
 ###############################################################################
 #
@@ -35,7 +34,7 @@ dir="${2/#\~/$HOME}"
 
 # Parse directory
 if [ -z "$dir" ] ; then
-	finder_dir=$( osascript -e "tell application \"Finder\"" -e "set pathList to (POSIX path of (folder of the front window as alias))" -e "pathList" -e "end tell" )
+	finder_dir=$( osascript -e "tell application \"Finder\"" -e "if exists window 1 then" -e "set pathList to (POSIX path of (folder of the front window as alias))" -e "pathList" -e "end if" -e "end tell" )
 	if [ -z "$finder_dir" ] ; then
 		dir="${HOME}"
 	else
@@ -47,7 +46,7 @@ fi
 if [ -z "$cmd" ] ; then
 	osascript -e "set dir to \"$dir\"" -e "dir" -e "tell application \"Terminal\"" -e "do script \"cd \" & quoted form of dir" -e "activate" -e "end tell"
 else
-	TERM="xterm-256color" ; export TERM
+	TERM="linux" ; export TERM
 	cd "$dir"
 	eval "$cmd"
 	cd "$OLDPWD"
