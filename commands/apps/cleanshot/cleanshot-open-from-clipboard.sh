@@ -8,7 +8,7 @@
 # @raycast.mode silent
 
 # Optional parameters:
-# @raycast.icon ./images/clipboard.pdf
+# @raycast.icon ./images/clipboard.png
 # @raycast.packageName CleanShot X
 
 # Documentation:
