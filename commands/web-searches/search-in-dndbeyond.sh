@@ -11,11 +11,11 @@
 # @raycast.icon ./images/ddbicon.png
 # @raycast.packageName Web searches
 # @raycast.argument1 { "type": "text", "placeholder": "Searching for", "percentEncoded": true }
-# @raycast.argument2 { "type": "text", "placeholder": "Catagory", "optional": true}
-# @raycast.argument3 { "type": "text", "placeholder": "Subcatagory", "optional": true}
+# @raycast.argument2 { "type": "text", "placeholder": "Category", "optional": true}
+# @raycast.argument3 { "type": "text", "placeholder": "Subcategory", "optional": true}
 
 case ${2} in
-  'c'|'ch'|'cha'|'char'|'character')
+  'c'|'ch'|'cha'|'char'|'character'|'characters')
      c='characters'
      f='spells,backgrounds,classes,feats,races'
      ;;
