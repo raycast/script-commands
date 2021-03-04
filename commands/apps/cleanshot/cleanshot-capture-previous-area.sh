@@ -8,7 +8,7 @@
 # @raycast.mode silent
 
 # Optional parameters:
-# @raycast.icon ./images/capture-previous-area.png
+# @raycast.icon ./images/capture-previous-area.pdf
 # @raycast.packageName CleanShot X
 
 # Documentation:

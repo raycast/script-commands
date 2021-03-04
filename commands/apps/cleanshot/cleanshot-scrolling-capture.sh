@@ -8,7 +8,7 @@
 # @raycast.mode silent
 
 # Optional parameters:
-# @raycast.icon ./images/scrolling-capture.png
+# @raycast.icon ./images/scrolling-capture.pdf
 # @raycast.packageName CleanShot X
 
 # Documentation:

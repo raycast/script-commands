@@ -8,7 +8,7 @@
 # @raycast.mode silent
 
 # Optional parameters:
-# @raycast.icon ./images/capture-fullscreen.png
+# @raycast.icon ./images/capture-fullscreen.pdf
 # @raycast.packageName CleanShot X
 
 # Documentation:
