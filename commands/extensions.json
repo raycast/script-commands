@@ -1582,6 +1582,30 @@
         {
           "authors" : [
             {
+              "name" : "Yohanes Bandung Bondowoso",
+              "url" : "https:\/\/github.com\/ybbond"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Toggle flip (rotate) or revert the <display> to <degree>°",
+          "filename" : "toggle-flip-screen.template.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🖥"
+          },
+          "isTemplate" : true,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Toggle Flip Screen.Template",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle Flip Screen <display> to <degree>°"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Thiago Holanda",
               "url" : "https:\/\/twitter.com\/tholanda"
             }
@@ -4548,6 +4572,30 @@
           "title" : "Search in grep.app"
         },
         {
+          "authors" : [
+            {
+              "name" : "Phil Salant",
+              "url" : "https:\/\/github.com\/PSalant726"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search PostgreSQL documentation",
+          "filename" : "postgresql.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/psql.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "PostgreSQL Documentation"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : null,
@@ -6410,6 +6458,6 @@
       ]
     }
   ],
-  "totalScriptCommands" : 266,
-  "updatedAt" : "2021-03-04T14:21:59Z"
+  "totalScriptCommands" : 268,
+  "updatedAt" : "2021-03-05T08:50:41Z"
 }
