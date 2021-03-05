@@ -15,15 +15,41 @@
 # @raycast.authorURL https://github.com/japanese-goblinn
 
 tell application "Finder"
-    set pathList to (quoted form of POSIX path of (folder of the front window as alias))
-    set command to "clear; cd " & pathList
+    -- Check if there's a selection; works if there's a window open or not.
+    if selection is not {} then
+        set i to item 1 of (get selection)
+
+        -- If it's an alias, set the item to the original item.
+        if class of i is alias file then
+            set i to original item of i
+        end if
+
+        -- If it's a folder, use its path.
+        if class of i is folder then
+            set path to i
+        else
+            -- If it's an item, use its container's path.
+            set path to container of i
+        end if
+    else if (exists window 1) and current view of window 1 is in {list view, flow view} then
+        -- If a window exist, use its folder property as the path.
+        set path to folder of window 1
+    else
+        -- Fallback to the Desktop, as nothing is open or selected.
+        set path to path to desktop folder
+    end if
+
+    set command to "clear; cd " & quoted form of POSIX path of (path as alias)
 end tell
-  
+
 tell application "Terminal"
     if not (exists window 1) then reopen
-        activate
+
+    activate
+
     if busy of window 1 then
         tell application "System Events" to keystroke "t" using command down
     end if
+
     do script command in window 1
 end tell
