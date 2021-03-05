@@ -9,7 +9,7 @@
 # @raycast.icon 💻
 
 # @Documentation:
-# @raycast.packageName System
+# @raycast.packageName Dock
 # @raycast.description Adds an invisible icon to the Dock as a separator.
 # @raycast.author Alexandru Turcanu
 # @raycast.authorURL https://github.com/Pondorasti
