@@ -13,5 +13,10 @@
 # @raycast.argument1 { "type": "text", "placeholder": "artist", "percentEncoded": true}
 # @raycast.icon images/apple-music-logo.png
 
+if ! command -v jq &> /dev/null; then
+	echo "jq is required. Install using Brew";
+	exit 1;
+fi
+
 url=$(curl -s https://itunes.apple.com/search\?term=$1\&entity=musicArtist | jq '.results[0].artistLinkUrl' | sed 's/https/itms/g' | sed 's/"//g')
 osascript -e 'on run {myurl}' -e 'open location myurl' -e 'end run' $url
