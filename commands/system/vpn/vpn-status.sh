@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# How to use this script?
-# It's a template which needs further setup. Duplicate the file,
-# remove `.template.` from the filename, and set the name of
-# your VPN config from System Preferences.
-
-
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title VPN Status
@@ -16,19 +10,14 @@
 # @raycast.icon 📡
 
 # @Documentation:
-# @raycast.packageName Dashboard
+# @raycast.packageName VPN
 # @raycast.description Stop VPN connection.
 # @raycast.author Alexandru Turcanu
 # @raycast.authorURL https://github.com/Pondorasti
 
 
-# Configuration
-
-# Name of your VPN Config
-VPN="VPN (IKEv2)"
-
-
-# Main program
+source vpn-config.sh
+VPN=$VPN_NAME
 
 status=$(scutil --nc status "$VPN" | sed -n 1p)
 
