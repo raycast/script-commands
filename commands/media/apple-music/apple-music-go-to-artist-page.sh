@@ -9,7 +9,7 @@
 # Optional parameters:
 # @raycast.author Jordi Clement
 # @raycast.authorURL https://github.com/jordicl
-# @raycast.description images/apple-music-logo.png
+# @raycast.description Go to Artist page in the Apple Music App
 # @raycast.argument1 { "type": "text", "placeholder": "artist", "percentEncoded": true}
 # @raycast.icon images/apple-music-logo.png
 
