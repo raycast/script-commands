@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Surfshark VPN connect TEST
+# @raycast.title VPN Connect
 # @raycast.mode compact
 # @raycast.packageName VPN
 
@@ -23,4 +23,3 @@ fi
 # 
 vpnutil start "${VPN}" >/dev/null 2>&1
 echo "Surfshark VPN connected"
-
