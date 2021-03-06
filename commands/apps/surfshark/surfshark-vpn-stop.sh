@@ -4,7 +4,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Surfshark VPN disconnect TEST
 # @raycast.mode compact
-# @raycast.packageName VPN
+# @raycast.packageName Surfshark
 
 # Optional parameters:
 # @raycast.icon images/surfshark.png
@@ -22,4 +22,3 @@ fi
 
 vpnutil stop "${VPN}" >/dev/null 2>&1
 echo "Surfshark VPN disconnected"
-
