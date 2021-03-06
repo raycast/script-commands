@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Surfshark VPN status TEST
+# @raycast.title Surfshark VPN Status
 # @raycast.mode inline
 # @raycast.refreshTime 10s
 # @raycast.packageName Surfshark
