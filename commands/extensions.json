@@ -4227,6 +4227,30 @@
           "title" : "Search in Baidu"
         },
         {
+          "authors" : [
+            {
+              "name" : "Chris Koerner Zeller",
+              "url" : "https:\/\/github.com\/ChessMess"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "search-in-dndbeyond.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : ".\/images\/ddbicon.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in DnDBeyond.com"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : null,
@@ -6458,6 +6482,6 @@
       ]
     }
   ],
-  "totalScriptCommands" : 268,
-  "updatedAt" : "2021-03-05T08:50:41Z"
+  "totalScriptCommands" : 269,
+  "updatedAt" : "2021-03-06T21:24:38Z"
 }
