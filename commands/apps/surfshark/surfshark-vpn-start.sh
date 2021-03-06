@@ -4,7 +4,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title VPN Connect
 # @raycast.mode compact
-# @raycast.packageName VPN
+# @raycast.packageName Surfshark
 
 # Optional parameters:
 # @raycast.icon images/surfshark.png
