@@ -12,14 +12,8 @@
 # @raycast.authorURL https://github.com/jordicl
 # @raycast.description Start Surfshark VPN connection
 
-# You can find the VPN name in the Network preference pane 
-VPN="Surfshark. IKEv2"
+source surfshark.config.sh
+VPN=$SURFSHARK_VPN_NAME
 
-if ! command -v vpnutil &> /dev/null; then
-	echo "vpnutil command is required. Download here: https://github.com/Timac/VPNStatus/releases/tag/1.0";
-	exit 1;
-fi
-
-# 
 vpnutil start "${VPN}" >/dev/null 2>&1
 echo "Surfshark VPN connected"
