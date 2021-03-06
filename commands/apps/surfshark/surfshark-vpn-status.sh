@@ -5,7 +5,7 @@
 # @raycast.title Surfshark VPN status TEST
 # @raycast.mode inline
 # @raycast.refreshTime 10s
-# @raycast.packageName VPN
+# @raycast.packageName Surfshark
 
 # Optional parameters:
 # @raycast.icon images/surfshark.png
