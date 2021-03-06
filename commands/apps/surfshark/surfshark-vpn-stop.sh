@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Surfshark VPN disconnect TEST
+# @raycast.title VPN Disconnect
 # @raycast.mode compact
 # @raycast.packageName Surfshark
 
