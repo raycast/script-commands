@@ -43,4 +43,5 @@ if poll_until_connected "$VPN"; then
 else
     echo "Couldn't connect to $VPN"
     scutil --nc stop "$VPN"
+    exit 1;
 fi
