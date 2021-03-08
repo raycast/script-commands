@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Dependency: This script requires `jq` cli installed: https://stedolan.github.io/jq/
+# Install via homebrew: `brew install jq`
+
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Go to Artist in Apple Music
@@ -14,7 +17,7 @@
 # @raycast.icon images/apple-music-logo.png
 
 if ! command -v jq &> /dev/null; then
-	echo "jq is required. Install using Brew";
+	echo "jq is required. Install using homebrew: brew install jq";
 	exit 1;
 fi
 
