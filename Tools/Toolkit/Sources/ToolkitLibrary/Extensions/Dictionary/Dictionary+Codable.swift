@@ -12,7 +12,10 @@ extension Dictionary where Key == String, Value: Any {
         withJSONObject: self
       )
       
-      return try JSONDecoder().decode(T.self, from: data)
+      let decoder = JSONDecoder()
+      decoder.dateDecodingStrategy = .iso8601
+      
+      return try decoder.decode(T.self, from: data)
     }
     catch {
       return nil
