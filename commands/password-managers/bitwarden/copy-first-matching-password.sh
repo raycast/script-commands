@@ -54,7 +54,7 @@ if [[ -z $name || -z $password ]]; then
   exit 1
 fi
 
-echo $password | pbcopy
+echo $password | tr -d " \t\n\r" | pbcopy
 unset $password
 echo "Copied the password for '$name' to the clipboard."
 exit 0
