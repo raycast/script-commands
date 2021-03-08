@@ -1371,6 +1371,30 @@
         {
           "authors" : [
             {
+              "name" : "Jordi Clement",
+              "url" : "https:\/\/github.com\/jordicl"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Restart the Dock",
+          "filename" : "restart-dock.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "💀"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Restart the Dock"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Alexandru Turcanu",
               "url" : "https:\/\/github.com\/Pondorasti"
             }
@@ -6530,6 +6554,6 @@
       ]
     }
   ],
-  "totalScriptCommands" : 271,
-  "updatedAt" : "2021-03-08T15:39:12Z"
+  "totalScriptCommands" : 272,
+  "updatedAt" : "2021-03-08T16:03:47Z"
 }
