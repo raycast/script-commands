@@ -31,6 +31,7 @@ This repository contains sample commands and documentation to write your own one
   - [Cleanshot](#cleanshot)
   - [Hazeover](#hazeover)
   - [Iterm](#iterm)
+  - [Surfshark](#surfshark)
   - [Things](#things)
 - [Bookmarks](#bookmarks)
 - [Browsing](#browsing)
@@ -115,6 +116,14 @@ This repository contains sample commands and documentation to write your own one
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/iterm/images/iterm.png" width="20" height="20"> | [Run Shell Command](apps/iterm/iterm-run-shell-command.applescript) | N/A | [Andrei Borisov](https://github.com/andreiborisov) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+
+#### Surfshark
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/surfshark/images/surfshark.png" width="20" height="20"> | [Surfshark VPN Status](apps/surfshark/surfshark-vpn-status.sh) | Get Surfshark VPN status | [Jordi Clement](https://github.com/jordicl) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/surfshark/images/surfshark.png" width="20" height="20"> | [VPN Connect](apps/surfshark/surfshark-vpn-start.sh) | Start Surfshark VPN connection | [Jordi Clement](https://github.com/jordicl) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/surfshark/images/surfshark.png" width="20" height="20"> | [VPN Disconnect](apps/surfshark/surfshark-vpn-stop.sh) | Stop Surfshark VPN connection | [Jordi Clement](https://github.com/jordicl) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Things
 

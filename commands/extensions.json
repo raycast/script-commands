@@ -5746,6 +5746,84 @@
           ]
         },
         {
+          "name" : "Surfshark",
+          "path" : "surfshark",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Jordi Clement",
+                  "url" : "https:\/\/github.com\/jordicl"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Start Surfshark VPN connection",
+              "filename" : "surfshark-vpn-start.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/surfshark.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Surfshark",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "VPN Connect"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jordi Clement",
+                  "url" : "https:\/\/github.com\/jordicl"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Stop Surfshark VPN connection",
+              "filename" : "surfshark-vpn-stop.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/surfshark.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Surfshark",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "VPN Disconnect"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jordi Clement",
+                  "url" : "https:\/\/github.com\/jordicl"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Get Surfshark VPN status",
+              "filename" : "surfshark-vpn-status.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/surfshark.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Surfshark",
+              "refreshTime" : "10s",
+              "schemaVersion" : 1,
+              "title" : "Surfshark VPN Status"
+            }
+          ]
+        },
+        {
           "name" : "Things",
           "path" : "things",
           "scriptCommands" : [
@@ -6554,6 +6632,6 @@
       ]
     }
   ],
-  "totalScriptCommands" : 272,
-  "updatedAt" : "2021-03-08T16:03:47Z"
+  "totalScriptCommands" : 275,
+  "updatedAt" : "2021-03-08T17:22:41Z"
 }
