@@ -16,4 +16,4 @@
 
 defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'
 killall Dock
-echo "Spacer added!"
+echo "Added spacer to dock"
