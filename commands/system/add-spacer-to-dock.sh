@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Add Spacer
+# @raycast.title Add Spacer to Dock
 # @raycast.mode compact
 
 # Optional parameters:
