@@ -26,20 +26,20 @@ tell application "Finder"
 
         -- If it's a folder, use its path.
         if class of i is folder then
-            set path to i
+            set p to i
         else
             -- If it's an item, use its container's path.
-            set path to container of i
+            set p to container of i
         end if
     else if (exists window 1) and current view of window 1 is in {list view, flow view} then
         -- If a window exist, use its folder property as the path.
-        set path to folder of window 1
+        set p to folder of window 1
     else
         -- Fallback to the Desktop, as nothing is open or selected.
-        set path to path to desktop folder
+        set p to path to desktop folder
     end if
 
-    set command to "clear; cd " & quoted form of POSIX path of (path as alias)
+    set command to "clear; cd " & quoted form of POSIX path of (p as alias)
 end tell
 
 tell application "Terminal"
