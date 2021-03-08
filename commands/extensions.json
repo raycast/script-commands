@@ -5863,6 +5863,30 @@
             {
               "authors" : [
                 {
+                  "name" : "Jordi Clement",
+                  "url" : "https:\/\/github.com\/jordicl"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Go to Artist page in the Apple Music App",
+              "filename" : "apple-music-go-to-artist-page.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/apple-music-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Music",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Go to Artist in Apple Music"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Caleb Stauffer",
                   "url" : "https:\/\/github.com\/crstauf"
                 }
@@ -6506,6 +6530,6 @@
       ]
     }
   ],
-  "totalScriptCommands" : 270,
-  "updatedAt" : "2021-03-08T00:48:59Z"
+  "totalScriptCommands" : 271,
+  "updatedAt" : "2021-03-08T15:39:12Z"
 }
