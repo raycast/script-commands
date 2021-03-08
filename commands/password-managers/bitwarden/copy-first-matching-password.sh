@@ -49,7 +49,7 @@ item=$(bw list items --search $1 $session 2> /dev/null | jq ".[0] | { name: .nam
 name=$(echo $item | jq ".name")
 password=$(echo $item | jq --raw-output ".password")
 
-if [[ -z $name || -z $password ]]; then
+if [[ -z $name || -z $password || ( $name == "null" && $password == "null") ]]; then
   echo "The query '$1' did not return a password."
   exit 1
 fi
