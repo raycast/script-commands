@@ -53,3 +53,5 @@ tell application "Terminal"
 
     do script command in window 1
 end tell
+
+return ""
