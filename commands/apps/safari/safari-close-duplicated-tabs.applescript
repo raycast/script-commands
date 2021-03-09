@@ -12,7 +12,7 @@
 # @Documentation:
 # @raycast.author Thomas Paul Mann
 # @raycast.authorURL https://github.com/thomaspaulmann
-# @raycast.description Duplicates and opens the currently active tab.
+# @raycast.description Close tabs with the same URL.
 
 tell window 1 of application "Safari"
   set visitedURLs to {}
