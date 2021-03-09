@@ -149,6 +149,8 @@ Other supported codes:
 | 24 | Not underline |
 | 29 | Not crossed |
 
+Unsupported terminal codes will be stripped out from output and ignored.
+
 Examples:
 
 <img width="186" alt="CleanShot 2021-03-09 at 03 03 40@2x" src="https://user-images.githubusercontent.com/1301068/110407409-1453b280-8084-11eb-914d-d9fa9ad23b64.png">
@@ -158,8 +160,6 @@ Examples:
 | bash | `echo -e '\033[31;42mred text on green background\033[0m'`
 | bash tput | `export TERM=linux; echo "$(tput setaf 1)$(tput setab 2)red text on green background$(tput sgr0)";`
 | swift | `print("\u{001B}[31;42mred text on green background\u{001B}[0m")`
-
-Unsupported terminal codes will be stripped out from output and ignored.
 
 ### Passing Arguments
 
