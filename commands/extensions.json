@@ -1328,6 +1328,30 @@
         {
           "authors" : [
             {
+              "name" : "Jordi Clement",
+              "url" : "https:\/\/github.com\/jordicl"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Restart the Finder",
+          "filename" : "restart-finder.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "💀"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Restart the Finder"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Marc Klingen",
               "url" : "https:\/\/github.com\/marcklingen"
             }
@@ -1385,7 +1409,7 @@
           },
           "isTemplate" : false,
           "language" : "bash",
-          "mode" : "compact",
+          "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "System",
           "refreshTime" : null,
@@ -6632,6 +6656,6 @@
       ]
     }
   ],
-  "totalScriptCommands" : 275,
-  "updatedAt" : "2021-03-08T17:22:41Z"
+  "totalScriptCommands" : 276,
+  "updatedAt" : "2021-03-09T12:59:27Z"
 }
