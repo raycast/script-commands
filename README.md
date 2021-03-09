@@ -126,6 +126,7 @@ In `inline` mode, the first line of output will be directly shown in the command
 Escape code is in linux format: `0x1B`
 
 **List of supported colours**
+
 Colours are adapted to current users apperance settings (light and dark themes)
 
 | Foreground | Background | Name | Dark | Light |
@@ -139,7 +140,7 @@ Colours are adapted to current users apperance settings (light and dark themes)
 | 36 | 46 | Cyan  | ![#52EEE5](https://via.placeholder.com/16/52EEE5?text=+)&nbsp;&nbsp;#52EEE5 | ![#3EB8BF](https://via.placeholder.com/16/3EB8BF?text=+)&nbsp;&nbsp;#3EB8BF |
 | 37 | 47 | White | ![#FFFFFF](https://via.placeholder.com/16/FFFFFF?text=+)&nbsp;&nbsp;#FFFFFF | ![#FFFFFF](https://via.placeholder.com/16/FFFFFF?text=+)&nbsp;&nbsp;#FFFFFF |
 
-Other supported codes:
+**Other supported codes:**
 
 | Code | Name |
 |-|-|
@@ -151,7 +152,7 @@ Other supported codes:
 
 Unsupported terminal codes will be stripped out from output and ignored.
 
-Examples:
+**Examples:**
 
 <img width="186" alt="CleanShot 2021-03-09 at 03 03 40@2x" src="https://user-images.githubusercontent.com/1301068/110407409-1453b280-8084-11eb-914d-d9fa9ad23b64.png">
 
