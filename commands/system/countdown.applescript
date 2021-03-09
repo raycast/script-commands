@@ -14,7 +14,8 @@
 
 # @Documentation:
 # @raycast.description Simple minutes countdown
-# @raycast.author Marco Cebri‡n
+# @raycast.author Marco Cebrian Muino
+# @raycast.authorURL https://github.com/marcocebrian
 
 on run argv
 	set theTime to (item 1 of argv as integer) * 60
