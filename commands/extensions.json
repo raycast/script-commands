@@ -5829,7 +5829,7 @@
                 }
               ],
               "currentDirectoryPath" : null,
-              "description" : "Duplicates and opens the currently active tab.",
+              "description" : "Close tabs with the same URL.",
               "filename" : "safari-close-duplicated-tabs.applescript",
               "hasArguments" : false,
               "icon" : {
@@ -6831,5 +6831,5 @@
     }
   ],
   "totalScriptCommands" : 283,
-  "updatedAt" : "2021-03-09T15:13:27Z"
+  "updatedAt" : "2021-03-09T23:24:05Z"
 }
