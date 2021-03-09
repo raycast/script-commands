@@ -3,7 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Restart the Dock
-# @raycast.mode compact
+# @raycast.mode silent
 # @raycast.packageName System
 
 # Optional parameters:
