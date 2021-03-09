@@ -31,6 +31,7 @@ This repository contains sample commands and documentation to write your own one
   - [Cleanshot](#cleanshot)
   - [Hazeover](#hazeover)
   - [Iterm](#iterm)
+  - [Safari](#safari)
   - [Surfshark](#surfshark)
   - [Things](#things)
 - [Bookmarks](#bookmarks)
@@ -116,6 +117,18 @@ This repository contains sample commands and documentation to write your own one
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/iterm/images/iterm.png" width="20" height="20"> | [Run Shell Command](apps/iterm/iterm-run-shell-command.applescript) | N/A | [Andrei Borisov](https://github.com/andreiborisov) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+
+#### Safari
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/safari/images/safari.png" width="20" height="20"> | [Add Item to Reading List](apps/safari/safari-create-reading-list-item.applescript) | Add a new Reading List item with the given URL. Allows a custom title to be specified. | [Thomas Paul Mann](https://github.com/thomaspaulmann) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/safari/images/safari.png" width="20" height="20"> | [Close All Tabs](apps/safari/safari-close-all-tabs.applescript) | Close all tabs in the frontmost window | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/safari/images/safari.png" width="20" height="20"> | [Close Duplicated Tabs](apps/safari/safari-close-duplicated-tabs.applescript) | Duplicates and opens the currently active tab. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/safari/images/safari.png" width="20" height="20"> | [Close Other Tabs](apps/safari/safari-close-other-tabs.applescript) | Close all tabs besides the currently active tab. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/safari/images/safari.png" width="20" height="20"> | [Close Tabs to the Left](apps/safari/safari-close-tabs-left.applescript) | Close all tabs to the left side of the currently active tab. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/safari/images/safari.png" width="20" height="20"> | [Close Tabs to the Right](apps/safari/safari-close-tabs-right.applescript) | Close all tabs to the right side of the currently active tab. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/safari/images/safari.png" width="20" height="20"> | [Duplicate Tab](apps/safari/safari-duplicate-tab.applescript) | Duplicates and opens the currently active tab. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 #### Surfshark
 
