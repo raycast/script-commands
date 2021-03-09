@@ -5770,6 +5770,180 @@
           ]
         },
         {
+          "name" : "Safari",
+          "path" : "safari",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Close all tabs besides the currently active tab.",
+              "filename" : "safari-close-other-tabs.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/safari.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Safari",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Close Other Tabs"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Add a new Reading List item with the given URL. Allows a custom title to be specified.",
+              "filename" : "safari-create-reading-list-item.applescript",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/safari.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Safari",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Add Item to Reading List"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Duplicates and opens the currently active tab.",
+              "filename" : "safari-close-duplicated-tabs.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/safari.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Safari",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Close Duplicated Tabs"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Close all tabs to the right side of the currently active tab.",
+              "filename" : "safari-close-tabs-right.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/safari.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Safari",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Close Tabs to the Right"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Close all tabs to the left side of the currently active tab.",
+              "filename" : "safari-close-tabs-left.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/safari.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Safari",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Close Tabs to the Left"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Duplicates and opens the currently active tab.",
+              "filename" : "safari-duplicate-tab.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/safari.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Safari",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Duplicate Tab"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Close all tabs in the frontmost window",
+              "filename" : "safari-close-all-tabs.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/safari.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Safari",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Close All Tabs"
+            }
+          ]
+        },
+        {
           "name" : "Surfshark",
           "path" : "surfshark",
           "scriptCommands" : [
@@ -6656,6 +6830,6 @@
       ]
     }
   ],
-  "totalScriptCommands" : 276,
-  "updatedAt" : "2021-03-09T12:59:27Z"
+  "totalScriptCommands" : 283,
+  "updatedAt" : "2021-03-09T15:13:27Z"
 }
