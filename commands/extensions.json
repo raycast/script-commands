@@ -1537,6 +1537,30 @@
           "title" : "Switch Default Browser to Chromium"
         },
         {
+          "authors" : [
+            {
+              "name" : "Roland Leth",
+              "url" : "https:\/\/runtimesharks.com"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Quits an app, by name or process id.",
+          "filename" : "quit-app.swift",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "💥"
+          },
+          "isTemplate" : false,
+          "language" : "swift",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Quit app"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : "Quits all running applications except Finder and Raycast.",
@@ -6830,6 +6854,6 @@
       ]
     }
   ],
-  "totalScriptCommands" : 283,
-  "updatedAt" : "2021-03-09T23:24:05Z"
+  "totalScriptCommands" : 284,
+  "updatedAt" : "2021-03-10T19:36:14Z"
 }
