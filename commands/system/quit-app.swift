@@ -18,49 +18,58 @@
 import AppKit
 
 let argument = Array(CommandLine.arguments.dropFirst()).first!
+let runningApps = NSWorkspace.shared.runningApplications
 
 if let processId = Int(argument) {
-	guard
-		let app = NSWorkspace.shared
-			.runningApplications
-			.first(where: { $0.processIdentifier == processId })
-	else {
-		print("No apps with process id \(processId)")
-		exit(1)
-	}
+	runningApps
+		.first { $0.processIdentifier == processId }
+		.map {
+			$0.terminate()
 
-	app.terminate()
-
-	print("Quit \(app.localizedName ?? "\(processId)")")
-} else {
-	let apps = NSWorkspace.shared
-		.runningApplications
-		.filter {
-			$0.localizedName?.localizedCaseInsensitiveContains(argument) == true
+			print("Quit \($0.localizedName ?? "\(processId)")")
+			exit(0)
 		}
 
-	guard !apps.isEmpty else {
-		print("No apps with name \(argument)")
-		exit(1)
-	}
+	print("No apps with process id \(processId)")
+	exit(1)
+}
 
-	guard apps.count == 1 else {
-		let names = apps
-			.compactMap { $0.localizedName }
-			.joined(separator: ", ")
+let apps = runningApps.filter {
+	$0.localizedName?.localizedCaseInsensitiveContains(argument) == true
+}
 
-		if names.isEmpty {
-			// Just in case all `localizedName` were `nil`, which shouldn't really happen.
-			print("Multiple apps found")
-		} else {
-			print("Multiple apps found: \(names)")
-		}
+if apps.isEmpty {
+	print("No apps with name \(argument)")
+	exit(1)
+}
 
-		exit(1)
-	}
+apps.first.map {
+	// If there's just one match, quit it and exit.
+	guard apps.count == 1 else { return }
 
-	apps.first.map {
+	$0.terminate()
+
+	print("Quit \($0.localizedName ?? argument)")
+	exit(0)
+}
+
+runningApps
+	.first { $0.localizedName?.localizedCaseInsensitiveCompare(argument) == .orderedSame }
+	.map {
+		// If an exact match exists, quit that and exit, even if there are several results.
 		$0.terminate()
+
 		print("Quit \($0.localizedName ?? argument)")
+		exit(0)
 	}
+
+let names = apps
+	.compactMap { $0.localizedName }
+	.joined(separator: ", ")
+
+if names.isEmpty {
+	// Just in case `localizedName` were all `nil`, which shouldn't really happen.
+	print("Multiple apps found")
+} else {
+	print("Multiple apps found: \(names)")
 }
