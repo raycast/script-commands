@@ -25,7 +25,7 @@ if let processId = Int(argument) {
 			.runningApplications
 			.first(where: { $0.processIdentifier == processId })
 	else {
-		print("Couldn't find app with process id \(processId)")
+		print("No apps with process id \(processId)")
 		exit(1)
 	}
 
@@ -33,18 +33,34 @@ if let processId = Int(argument) {
 
 	print("Quit \(app.localizedName ?? "\(processId)")")
 } else {
-	guard
-		let app = NSWorkspace.shared
-			.runningApplications
-			.first(where: {
-				$0.localizedName?.localizedCaseInsensitiveContains(argument) == true
-			})
-	else {
-		print("Couldn't find app with name \(argument)")
+	let apps = NSWorkspace.shared
+		.runningApplications
+		.filter {
+			$0.localizedName?.localizedCaseInsensitiveContains(argument) == true
+		}
+
+	guard !apps.isEmpty else {
+		print("No apps with name \(argument)")
 		exit(1)
 	}
 
-	app.terminate()
+	guard apps.count == 1 else {
+		let names = apps
+			.compactMap { $0.localizedName }
+			.joined(separator: ", ")
 
-	print("Quit \(app.localizedName ?? argument)")
+		if names.isEmpty {
+			// Just in case all `localizedName` were `nil`, which shouldn't really happen.
+			print("Multiple apps found")
+		} else {
+			print("Multiple apps found: \(names)")
+		}
+
+		exit(1)
+	}
+
+	apps.first.map {
+		$0.terminate()
+		print("Quit \($0.localizedName ?? argument)")
+	}
 }
