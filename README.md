@@ -59,8 +59,10 @@ To install new commands, follow these steps:
 
 1. Open the Extensions tab in the Raycast preferences
 2. Select the Script Commands extension
-3. Click `Add More Directories`
-4. Select the Script Command that you want to install
+3. Click `Add Directories`
+4. Select directories containing your Script Commands
+
+You can also use add menu by pressing the “+” button or using ⌘ + N shortcut.
 
 ![Preferences](images/screenshots/preferences.png)
 
