@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title countdown
+# @raycast.title Schedule notification
 # @raycast.mode silent
 # @raycast.packageName System
 
