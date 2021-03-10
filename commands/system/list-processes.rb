@@ -8,17 +8,17 @@
 
 # Optional parameters:
 # @raycast.icon 🔡
-# @raycast.argument3 { "type": "text", "placeholder": "Count (15)", "optional": true }
+# @raycast.argument1 { "type": "text", "placeholder": "Paths (no)", "optional": true }
+# @raycast.argument2 { "type": "text", "placeholder": "Count (15)", "optional": true }
 
 # Documentation:
-# @raycast.description List running processes
+# @raycast.description List running app showing their process id, CPU usage, name, and optionally the process path.
 # @raycast.author Roland Leth
 # @raycast.authorURL https://runtimesharks.com
 
-# Adapted from https://github.com/ngreenstein/alfred-process-killer
-
 items = []
-count = ARGV[0] == "" || ARGV[0] == nil ? "15" : ARGV[0]
+showPaths = ["yes", "y", "true"].include?(ARGV[0])
+count = ARGV[1] || "15"
 
 # Assemble an array of each matching process.
 # -e shows all processes, -c shows only the executable name.
@@ -33,7 +33,13 @@ processes.each do |process|
 	# Isolate the name of the process.
 	processName = processPath.match(/[^\/]*[^\/]*$/i)[0]
 
-	items.push(processCpu + "% @ " + processName + " (" + processId + ")")
+	base = processCpu + "% @ " + processName + " (" + processId + ")"
+
+	if showPaths then
+		items.push(base + " -- " + processPath)
+	else
+		items.push(base)
+	end
 end
 
 puts items.join("\n")
