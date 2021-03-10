@@ -18,7 +18,7 @@
 
 items = []
 showPaths = ["yes", "y", "true"].include?(ARGV[0])
-count = ARGV[1] || "15"
+count = ARGV[1] == "" ? "15" : ARGV[1]
 
 # Assemble an array of each matching process.
 # -e shows all processes, -c shows only the executable name.
