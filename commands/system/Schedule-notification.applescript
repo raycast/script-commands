@@ -8,7 +8,7 @@
 
 # Optional parameters:
 # @raycast.icon images/clock.png
-# @raycast.argument1 { "type": "text", "placeholder": "minutes" }
+# @raycast.argument1 { "type": "text", "placeholder": "In Minutes" }
 # @raycast.argument2 { "type": "text", "placeholder": "Title", "optional": true }
 
 
@@ -24,6 +24,7 @@ on run argv
 	if length of theTitle < 1 then
 		set theTitle to "Time is over!"
 	end if
+	do shell script "echo Scheduled notification $theTitle after $theTime minutes."
 	delay theTime
 	
 	display notification "Your countdown of " & theTime & " minutes is over." with title theTitle sound name "Jump"
