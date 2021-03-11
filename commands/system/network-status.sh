@@ -24,8 +24,7 @@ function get_wifi_ssid () {
 }
 
 function get_internet_status () {
-  ping_result=$(ping -c 2 google.com)
-  if grep -q "Request timeout" <<< "$ping_result" || grep -q "cannot resolve" <<< "$ping_result"; then
+  if ! ping -q -c 2 google.com &>/dev/null; then
     echo " (No Internet)"
   fi
 }
