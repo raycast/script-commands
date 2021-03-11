@@ -4,7 +4,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title  Add hex color to your history
+# @raycast.title  Add Color to History
 # @raycast.mode silent
 
 # Optional parameters:
