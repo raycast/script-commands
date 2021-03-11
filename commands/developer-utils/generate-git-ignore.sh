@@ -22,7 +22,7 @@ then
 	params="react,node,vscode"
 fi
 
-result=$(curl -s "https://www.toptal.com/developers/gitignore/api/$params")
+result=$(curl -s "https://www.toptal.com/developers/gitignore/api/$params" | sed -e "1d")
 
 echo "$result" | pbcopy
 echo "$result"
