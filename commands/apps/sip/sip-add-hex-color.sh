@@ -14,7 +14,7 @@
 # @raycast.author Sip
 # @raycast.authorURL https://twitter.com/sip_app/
 # @raycast.description  Add a color to your Sip history.
-# @raycast.argument1 { "type": "text", "placeholder": "Color Name" }
+# @raycast.argument1 { "type": "text", "placeholder": "Name" }
 # @raycast.argument2 { "type": "text", "placeholder": "HEX" }
 
 open "sip://color/hex/${1}/#"${2//#}"
