@@ -6046,6 +6046,108 @@
           ]
         },
         {
+          "name" : "Sip",
+          "path" : "sip",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Sip",
+                  "url" : "https:\/\/twitter.com\/sip_app\/"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : " Add a color to your Sip history.",
+              "filename" : "sip-add-hex-color.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/sip.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Sip",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : " Add Color to History"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sip",
+                  "url" : "https:\/\/twitter.com\/sip_app\/"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Open Sip Contrast Checker.",
+              "filename" : "sip-open-check-contrast.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/sip.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Sip",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Contrast Checker"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sip",
+                  "url" : "https:\/\/twitter.com\/sip_app\/"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Pick a color value from your screen.",
+              "filename" : "sip-show-picker.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/sip.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Sip",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Show Color Picker"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sip",
+                  "url" : "https:\/\/twitter.com\/sip_app\/"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Open Sip Contrast Checker.",
+              "filename" : "sip-check-contrast-hex.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/sip.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Sip",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Check Contrast"
+            }
+          ]
+        },
+        {
           "name" : "Things",
           "path" : "things",
           "scriptCommands" : [
@@ -6854,6 +6956,6 @@
       ]
     }
   ],
-  "totalScriptCommands" : 284,
-  "updatedAt" : "2021-03-10T19:36:14Z"
+  "totalScriptCommands" : 288,
+  "updatedAt" : "2021-03-11T09:21:59Z"
 }
