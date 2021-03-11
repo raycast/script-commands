@@ -4,7 +4,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Check contrast between HEX color values
+# @raycast.title Check Contrast
 # @raycast.mode silent
 
 # Optional parameters:
