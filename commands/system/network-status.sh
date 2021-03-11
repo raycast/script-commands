@@ -23,6 +23,13 @@ function get_wifi_ssid () {
   echo "$ssid"
 }
 
+function get_internet_status () {
+  ping_result=$(ping -c 2 google.com)
+  if grep -q "Request timeout" <<< "$ping_result" || grep -q "cannot resolve" <<< "$ping_result"; then
+    echo " (No Internet)"
+  fi
+}
+
 current_device=$(route get default 2>/dev/null | grep "interface" | awk '{print $2}')
 
 # Exit if there's no connection
@@ -38,6 +45,7 @@ network_status=""
 
 if grep -q "USB" <<< "$service_name"; then
   network_status+="Ethernet"
+  network_status+=$(get_internet_status)
 
   # Check if also connected to Wi-fi
   if [ -n "$wifi_ssid" ]; then
@@ -45,6 +53,7 @@ if grep -q "USB" <<< "$service_name"; then
   fi
 elif grep -q "Wi-Fi" <<< "$service_name"; then
   network_status+="$wifi_ssid"
+  network_status+=$(get_internet_status)
 fi
 
 echo "$network_status"
