@@ -32,6 +32,7 @@ This repository contains sample commands and documentation to write your own one
   - [Hazeover](#hazeover)
   - [Iterm](#iterm)
   - [Safari](#safari)
+  - [Sip](#sip)
   - [Surfshark](#surfshark)
   - [Things](#things)
 - [Bookmarks](#bookmarks)
@@ -129,6 +130,15 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/safari/images/safari.png" width="20" height="20"> | [Close Tabs to the Left](apps/safari/safari-close-tabs-left.applescript) | Close all tabs to the left side of the currently active tab. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/safari/images/safari.png" width="20" height="20"> | [Close Tabs to the Right](apps/safari/safari-close-tabs-right.applescript) | Close all tabs to the right side of the currently active tab. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/safari/images/safari.png" width="20" height="20"> | [Duplicate Tab](apps/safari/safari-duplicate-tab.applescript) | Duplicates and opens the currently active tab. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+
+#### Sip
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/sip/./images/sip.png" width="20" height="20"> | [ Add Color to History](apps/sip/sip-add-hex-color.sh) |  Add a color to your Sip history. | [Sip](https://twitter.com/sip_app/) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/sip/./images/sip.png" width="20" height="20"> | [Check Contrast](apps/sip/sip-check-contrast-hex.sh) | Open Sip Contrast Checker. | [Sip](https://twitter.com/sip_app/) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/sip/./images/sip.png" width="20" height="20"> | [Open Contrast Checker](apps/sip/sip-open-check-contrast.sh) | Open Sip Contrast Checker. | [Sip](https://twitter.com/sip_app/) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/sip/./images/sip.png" width="20" height="20"> | [Show Color Picker](apps/sip/sip-show-picker.sh) | Pick a color value from your screen. | [Sip](https://twitter.com/sip_app/) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Surfshark
 
