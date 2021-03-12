@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# List of available gitignore types: https://www.toptal.com/developers/gitignore/api/list
+
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Generate a .gitignore file
