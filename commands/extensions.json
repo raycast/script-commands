@@ -2030,6 +2030,30 @@
           "title" : "Turn Off Do Not Disturb"
         },
         {
+          "authors" : [
+            {
+              "name" : "Alexandru Turcanu",
+              "url" : "https:\/\/github.com\/Pondorasti"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Get current network connections.",
+          "filename" : "network-status.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📶"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : "1m",
+          "schemaVersion" : 1,
+          "title" : "Network Status"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : "Shuts down computer.",
@@ -6956,6 +6980,6 @@
       ]
     }
   ],
-  "totalScriptCommands" : 288,
-  "updatedAt" : "2021-03-11T09:21:59Z"
+  "totalScriptCommands" : 289,
+  "updatedAt" : "2021-03-12T09:49:23Z"
 }
