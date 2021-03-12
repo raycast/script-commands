@@ -28,7 +28,7 @@ result=$(curl -s "https://www.toptal.com/developers/gitignore/api/$params" | sed
 
 if [[ "$result" =~ !!\ ERROR.+!! ]]
 then
-	echo "The requested params couldn't be found"
+	echo "Unsupported gitignore type"
 	exit 1
 fi
 
