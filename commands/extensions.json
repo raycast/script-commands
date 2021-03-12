@@ -2711,6 +2711,30 @@
           "title" : "Save URL to Wayback Machine"
         },
         {
+          "authors" : [
+            {
+              "name" : "Roland Leth",
+              "url" : "https:\/\/runtimesharks.com"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Generates a .gitignore file via https:\/\/gitignore.io",
+          "filename" : "generate-git-ignore.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🤐"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Create .gitignore"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : "Pretty prints the JSON currently in the clipboard.",
@@ -6980,6 +7004,6 @@
       ]
     }
   ],
-  "totalScriptCommands" : 289,
-  "updatedAt" : "2021-03-12T09:49:23Z"
+  "totalScriptCommands" : 290,
+  "updatedAt" : "2021-03-12T12:28:56Z"
 }
