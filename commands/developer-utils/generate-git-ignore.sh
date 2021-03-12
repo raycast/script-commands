@@ -4,7 +4,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Generate a .gitignore file
+# @raycast.title Create .gitignore
 # @raycast.mode silent
 # @raycast.packageName Developer Utilities
 
