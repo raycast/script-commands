@@ -21,7 +21,8 @@ params="$1"
 
 if [[ -z "$params" ]]
 then
-	params="react,node,vscode"
+	echo "Missing params"
+	exit 1
 fi
 
 result=$(curl -s "https://www.toptal.com/developers/gitignore/api/$params" | sed -e "1d")
