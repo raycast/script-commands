@@ -10,7 +10,7 @@
 
 # Optional parameters:
 # @raycast.icon 🤐
-# @raycast.argument1 { "type": "text", "placeholder": "Technologies (react,node,vscode)", "optional": true }
+# @raycast.argument1 { "type": "text", "placeholder": "Type (react,node,vscode)", "optional": false }
 
 # Documentation:
 # @raycast.description Generates a .gitignore file via https://gitignore.io
