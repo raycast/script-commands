@@ -140,7 +140,7 @@ Colours are adapted to current users apperance settings (light and dark themes)
 | 34 | 44 | Blue  | ![#56C2FF](https://via.placeholder.com/16/56C2FF?text=+)&nbsp;&nbsp;#56C2FF | ![#138AF2](https://via.placeholder.com/16/138AF2?text=+)&nbsp;&nbsp;#138AF2 |
 | 35 | 45 | Magenta | ![#CF2F98](https://via.placeholder.com/16/CF2F98?text=+)&nbsp;&nbsp;#CF2F98 | ![#9A1B6E](https://via.placeholder.com/16/9A1B6E?text=+)&nbsp;&nbsp;#9A1B6E |
 | 36 | 46 | Cyan  | ![#52EEE5](https://via.placeholder.com/16/52EEE5?text=+)&nbsp;&nbsp;#52EEE5 | ![#3EB8BF](https://via.placeholder.com/16/3EB8BF?text=+)&nbsp;&nbsp;#3EB8BF |
-| 37 | 47 | White | ![#FFFFFF](https://via.placeholder.com/16/FFFFFF?text=+)&nbsp;&nbsp;#FFFFFF | ![#FFFFFF](https://via.placeholder.com/16/FFFFFF?text=+)&nbsp;&nbsp;#FFFFFF |
+| 97 | 107 | White | ![#FFFFFF](https://via.placeholder.com/16/FFFFFF?text=+)&nbsp;&nbsp;#FFFFFF | ![#FFFFFF](https://via.placeholder.com/16/FFFFFF?text=+)&nbsp;&nbsp;#FFFFFF |
 
 **Other supported codes:**
 
