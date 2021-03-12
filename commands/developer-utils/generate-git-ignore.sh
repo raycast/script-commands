@@ -3,7 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Generate a .gitignore file
-# @raycast.mode fullOutput
+# @raycast.mode silent
 # @raycast.packageName Developer Utilities
 
 # Optional parameters:
