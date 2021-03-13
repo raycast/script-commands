@@ -1,3 +1,4 @@
+/* docsify-darklight-theme */
 @import url("https://fonts.googleapis.com/css?family=PT+Sans&Source+Sans+Pro&Roboto+Mono&display=swap");
 * {
   -webkit-font-smoothing: antialiased;
@@ -1052,3 +1053,8 @@ pre:after {
 .tooltip .tooltiptext:hover {
 	visibility: hidden;
 } */
+
+/* zoom-image */
+.medium-zoom-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
