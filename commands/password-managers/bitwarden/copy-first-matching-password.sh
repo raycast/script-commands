@@ -53,7 +53,8 @@ item=$(bw list items --search $1 $session 2> /dev/null | jq ".[0] | { name: .nam
 name=$(echo $item | jq -e ".name") || notFoundError
 password=$(echo $item | jq -re ".password") || notFoundError
 
-unset $password
 echo -n $password | pbcopy
+unset password
 echo "Copied the password for '$name' to the clipboard."
+unset name
 exit 0
