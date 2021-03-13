@@ -21,4 +21,9 @@ VPN=$VPN_NAME
 
 status=$(scutil --nc status "$VPN" | sed -n 1p)
 
+if [ "$status" == "Connected" ]; then
+  echo "$status to $VPN"
+  exit 0
+fi
+
 echo "$status"
