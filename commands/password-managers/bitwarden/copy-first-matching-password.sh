@@ -20,6 +20,7 @@
 # @raycast.author Phil Salant
 # @raycast.authorURL https://github.com/PSalant726
 # @raycast.description Search all items in a Bitwarden vault, and copy the password of the first search result to the clipboard.
+
 notFound() {
   echo "The query '$1' did not return a password."
   exit 1
@@ -56,5 +57,4 @@ password=$(echo $item | jq --raw-output --exit-status ".password") || notFoundEr
 echo -n $password | pbcopy
 unset password
 echo "Copied the password for '$name' to the clipboard."
-unset name
 exit 0
