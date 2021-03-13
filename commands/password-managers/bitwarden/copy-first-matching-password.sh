@@ -20,6 +20,10 @@
 # @raycast.author Phil Salant
 # @raycast.authorURL https://github.com/PSalant726
 # @raycast.description Search all items in a Bitwarden vault, and copy the password of the first search result to the clipboard.
+notFound() {
+  echo -n "The query '$1' did not return a password."
+  exit 1
+}
 
 if ! command -v bw &> /dev/null; then
   echo "The Bitwarden CLI is not installed."
@@ -46,13 +50,8 @@ if [ $unlocked_status -ne 0 ]; then
 fi
 
 item=$(bw list items --search $1 $session 2> /dev/null | jq ".[0] | { name: .name, password: .login.password }")
-name=$(echo $item | jq ".name")
-password=$(echo $item | jq --raw-output ".password")
-
-if [[ -z $name || -z $password || ( $name == "null" && $password == "null") ]]; then
-  echo "The query '$1' did not return a password."
-  exit 1
-fi
+name=$(echo $item | jq -e ".name") || notFoundError
+password=$(echo $item | jq -re ".password") || notFoundError
 
 unset $password
 echo -n $password | pbcopy
