@@ -12,7 +12,7 @@
 # Documentation:
 # @raycast.description Run Brew Update
 # @raycast.author chengzhiqi
-# @raycast.authorURL https://twitter.com/tholanda
+# @raycast.authorURL Change to my personal address
 
 if ! command -v brew &> /dev/null; then
   echo "brew command is required (https://brew.sh).";
