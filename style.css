@@ -999,6 +999,7 @@ pre:after {
 /* toogler */
 
 #docsify-darklight-theme {
+  visibility: hidden;
   position: absolute;
   right: 10px;
   top: 15px;
