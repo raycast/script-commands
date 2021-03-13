@@ -21,6 +21,15 @@
       repo: 'https://github.com/raycast/script-commands',
       loadSidebar: true,
       subMaxLevel: 3,
+      search: {
+        noData: {
+          '/': 'No results!'
+        },
+        paths: 'auto',
+        placeholder: {
+          '/': 'Search'
+        }
+      },
       themeColor: '#ff6362',
       darklightTheme: {
         defaultTheme: 'dark',
@@ -40,6 +49,11 @@
   <!-- docsify-darklight-theme -->
   <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js" type="text/javascript">
   </script>
+
+  <!-- Search Bar -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js">
+  </script>
+
 </body>
 
 </html>
