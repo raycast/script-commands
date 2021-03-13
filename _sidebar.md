@@ -1,7 +1,7 @@
 - Getting Started
   - [About](README.md)
-  - [Contributing](CONTRIBUTING.md)
   - [Commands](commands/README.md)
+  - [Contributing](CONTRIBUTING.md)
 
 - Toolkit
   - [About](Tools/Toolkit/README.md)
