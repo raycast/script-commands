@@ -21,7 +21,7 @@
 # @raycast.authorURL https://github.com/PSalant726
 # @raycast.description Search all items in a Bitwarden vault, and copy the password of the first search result to the clipboard.
 notFound() {
-  echo -n "The query '$1' did not return a password."
+  echo "The query '$1' did not return a password."
   exit 1
 }
 
