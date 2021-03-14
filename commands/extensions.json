@@ -2115,6 +2115,86 @@
           "schemaVersion" : 1,
           "title" : "Toggle Microphone"
         }
+      ],
+      "subGroups" : [
+        {
+          "name" : "Vpn",
+          "path" : "vpn",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Alexandru Turcanu",
+                  "url" : "https:\/\/github.com\/Pondorasti"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Stop VPN connection.",
+              "filename" : "vpn-status.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "📡"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "VPN",
+              "refreshTime" : "1m",
+              "schemaVersion" : 1,
+              "title" : "VPN Status"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Alexandru Turcanu",
+                  "url" : "https:\/\/github.com\/Pondorasti"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Stop VPN connection.",
+              "filename" : "vpn-stop.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "📡"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "VPN",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Disconnect"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Alexandru Turcanu",
+                  "url" : "https:\/\/github.com\/Pondorasti"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Start VPN connection.",
+              "filename" : "vpn-start.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "📡"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "VPN",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Connect"
+            }
+          ]
+        }
       ]
     },
     {
@@ -7004,6 +7084,6 @@
       ]
     }
   ],
-  "totalScriptCommands" : 290,
-  "updatedAt" : "2021-03-12T12:28:56Z"
+  "totalScriptCommands" : 293,
+  "updatedAt" : "2021-03-14T10:32:01Z"
 }
