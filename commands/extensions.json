@@ -4755,6 +4755,30 @@
         {
           "authors" : [
             {
+              "name" : "Matthew Gleich",
+              "url" : "https:\/\/mattglei.ch"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search for a rust crate on cargos.io",
+          "filename" : "rust-crate.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : ".\/images\/cargo-logo.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Search",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search for Crate"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Zander Martineau",
               "url" : "https:\/\/zander.wtf"
             }
@@ -7108,6 +7132,6 @@
       ]
     }
   ],
-  "totalScriptCommands" : 294,
-  "updatedAt" : "2021-03-14T20:40:42Z"
+  "totalScriptCommands" : 295,
+  "updatedAt" : "2021-03-14T22:04:54Z"
 }
