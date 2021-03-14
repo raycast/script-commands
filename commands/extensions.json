@@ -3798,6 +3798,30 @@
         {
           "authors" : [
             {
+              "name" : "Petr Nikolaev",
+              "url" : "https:\/\/github.com\/PitNikola"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Share secret securely using https:\/\/share.doppler.com\/.",
+          "filename" : "share-secret-doppler.py",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/doppler-logo.png"
+          },
+          "isTemplate" : false,
+          "language" : "python",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Doppler",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Share Secret from Clipboard"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             },
@@ -7084,6 +7108,6 @@
       ]
     }
   ],
-  "totalScriptCommands" : 293,
-  "updatedAt" : "2021-03-14T10:32:01Z"
+  "totalScriptCommands" : 294,
+  "updatedAt" : "2021-03-14T20:40:42Z"
 }
