@@ -5,7 +5,7 @@
 # @raycast.title Search for Crate
 # @raycast.mode silent
 # @raycast.packageName Web Search
-# @raycast.argument1 { "type": "text", "placeholder": "name", "percentEncoded": true }
+# @raycast.argument1 { "type": "text", "placeholder": "Name", "percentEncoded": true }
 #
 # Optional parameters:
 # @raycast.icon ./images/cargo-logo.png
