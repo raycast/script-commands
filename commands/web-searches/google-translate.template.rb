@@ -32,6 +32,8 @@ query = ARGV[0]
 
 # Usually translations are short enough, which is why this uses a `compact` mode,
 # but if you'll be using it for longer translations, change line 6 to `fullOutput`.
+# If you do change to `fullOutput`, you might also want to change the last line
+# of the script to `.join("\n\n")`, so each result appears on its own line.
 
 is_custom = query[0] == "!"
 s = query.split(' ')
@@ -71,4 +73,4 @@ results = http.request(request).read_body.force_encoding('UTF-8')
 puts JSON.parse(results)[0][0]
     .filter { |r| r.is_a? String and r != q }
     .uniq
-    .join("\n\n")
+    .join(", ")
