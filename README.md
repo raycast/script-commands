@@ -123,7 +123,7 @@ In `inline` mode, the first line of output will be directly shown in the command
 
 ### ANSI Escape codes - coloured output
 
-`fullOutput` mode supports ANSI Escape codes allowing to colorize generated output by changing it's background and foreground colour.
+`fullOutput` and `inline` modes support ANSI Escape codes allowing to colorize generated output by changing it's background and foreground colour.
 
 Escape code is in linux format: `0x1B`
 
