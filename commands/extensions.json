@@ -2678,6 +2678,30 @@
         {
           "authors" : [
             {
+              "name" : "Achille Lacoin",
+              "url" : "https:\/\/github.com\/pomdtr"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Print the tldr documentation for a command",
+          "filename" : "tldr.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🤖"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utils",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Print TLDR doc"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Boyang Xu",
               "url" : "https:\/\/github.com\/BoyangMichael"
             }
@@ -7132,6 +7156,6 @@
       ]
     }
   ],
-  "totalScriptCommands" : 295,
-  "updatedAt" : "2021-03-14T22:04:54Z"
+  "totalScriptCommands" : 296,
+  "updatedAt" : "2021-03-16T06:39:37Z"
 }
