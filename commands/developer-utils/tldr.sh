@@ -7,8 +7,8 @@
 
 # Optional parameters:
 # @raycast.icon 🤖
-# @raycast.argument1 { "type": "text", "placeholder": "command" }
-# @raycast.argument2 { "type": "text", "placeholder": "os [linux, osx, sunos, windows]", "optional": true }
+# @raycast.argument1 { "type": "text", "placeholder": "Command" }
+# @raycast.argument2 { "type": "text", "placeholder": "OS [linux, osx, sunos, windows]", "optional": true }
 # @raycast.packageName Developer Utils
 
 # @Documentation:
