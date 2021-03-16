@@ -9,7 +9,7 @@
 # Optional parameters:
 # @raycast.icon images/tunnelblick.png
 # @raycast.needsConfirmation false
-# @raycast.argument1 { "type": "text", "placeholder": "configuration" }
+# @raycast.argument1 { "type": "text", "placeholder": "Configuration" }
 #
 # Documentation:
 # @raycast.description Disconnect a VPN configuration.
