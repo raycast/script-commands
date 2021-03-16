@@ -4,12 +4,12 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title DeepL Translate
+# @raycast.title DeepL App Translate
 # @raycast.mode silent
 
 # Optional parameters:
 # @raycast.icon images/deepl.png
-# @raycast.argument1 { "type": "text", "placeholder": "Text", "optional": true }
+# @raycast.argument1 { "type": "text", "placeholder": "text", "optional": true }
 # @raycast.packageName Apps
 
 # Documentation:
