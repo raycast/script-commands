@@ -1791,6 +1791,30 @@
           "title" : "Open Last Download"
         },
         {
+          "authors" : [
+            {
+              "name" : "Roland Leth",
+              "url" : "https:\/\/runtimesharks.com"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "List running app showing their process id, CPU usage, name, and optionally the process path.",
+          "filename" : "list-processes.rb",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔡"
+          },
+          "isTemplate" : false,
+          "language" : "ruby",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Running processes"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : "Ejects all mounted disk images.",
@@ -7258,6 +7282,6 @@
       ]
     }
   ],
-  "totalScriptCommands" : 300,
-  "updatedAt" : "2021-03-16T06:56:11Z"
+  "totalScriptCommands" : 301,
+  "updatedAt" : "2021-03-16T14:18:17Z"
 }
