@@ -6248,6 +6248,132 @@
               "title" : "Current To-Do"
             }
           ]
+        },
+        {
+          "name" : "Session",
+          "path" : "session",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "James Lyons",
+                  "url" : "https:\/\/github.com\/jamesjlyons"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Starts a focus session in Session app with the previous intent and duration",
+              "filename" : "session-start-previous.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/session.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Session",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Start Previous Session"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "James Lyons",
+                  "url" : "https:\/\/github.com\/jamesjlyons"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Finishes a focus session in Session app",
+              "filename" : "session-finish.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/session.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Session",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Finish Session"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "James Lyons",
+                  "url" : "https:\/\/github.com\/jamesjlyons"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Starts a focus session in Session app",
+              "filename" : "session-pause.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/session.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Session",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Pause Session"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "James Lyons",
+                  "url" : "https:\/\/github.com\/jamesjlyons"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Starts a focus session in Session app",
+              "filename" : "session-start-new.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/session.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Session",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Start Session"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "James Lyons",
+                  "url" : "https:\/\/github.com\/jamesjlyons"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Starts a focus session in Session app",
+              "filename" : "session-abandon.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/session.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Session",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Abandon Session"
+            }
+          ]
         }
       ]
     },
@@ -6956,6 +7082,6 @@
       ]
     }
   ],
-  "totalScriptCommands" : 288,
-  "updatedAt" : "2021-03-11T09:21:59Z"
+  "totalScriptCommands" : 293,
+  "updatedAt" : "2021-03-17T01:07:18Z"
 }

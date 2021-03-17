@@ -32,6 +32,7 @@ This repository contains sample commands and documentation to write your own one
   - [Hazeover](#hazeover)
   - [Iterm](#iterm)
   - [Safari](#safari)
+  - [Session](#session)
   - [Sip](#sip)
   - [Surfshark](#surfshark)
   - [Things](#things)
@@ -130,6 +131,16 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/safari/images/safari.png" width="20" height="20"> | [Close Tabs to the Left](apps/safari/safari-close-tabs-left.applescript) | Close all tabs to the left side of the currently active tab. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/safari/images/safari.png" width="20" height="20"> | [Close Tabs to the Right](apps/safari/safari-close-tabs-right.applescript) | Close all tabs to the right side of the currently active tab. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/safari/images/safari.png" width="20" height="20"> | [Duplicate Tab](apps/safari/safari-duplicate-tab.applescript) | Duplicates and opens the currently active tab. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+
+#### Session
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/session/images/session.png" width="20" height="20"> | [Abandon Session](apps/session/session-abandon.sh) | Starts a focus session in Session app | [James Lyons](https://github.com/jamesjlyons) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/session/images/session.png" width="20" height="20"> | [Finish Session](apps/session/session-finish.sh) | Finishes a focus session in Session app | [James Lyons](https://github.com/jamesjlyons) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/session/images/session.png" width="20" height="20"> | [Pause Session](apps/session/session-pause.sh) | Starts a focus session in Session app | [James Lyons](https://github.com/jamesjlyons) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/session/images/session.png" width="20" height="20"> | [Start Previous Session](apps/session/session-start-previous.sh) | Starts a focus session in Session app with the previous intent and duration | [James Lyons](https://github.com/jamesjlyons) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/session/images/session.png" width="20" height="20"> | [Start Session](apps/session/session-start-new.sh) | Starts a focus session in Session app | [James Lyons](https://github.com/jamesjlyons) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Sip
 
