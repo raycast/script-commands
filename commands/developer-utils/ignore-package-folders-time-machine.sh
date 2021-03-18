@@ -11,7 +11,7 @@
 # @raycast.icon 🧹
 
 # Documentation:
-# @raycast.description Ignore package folders (node_modules, Pods, etc) from Time Machine backups. They might not be big in size, but they usually have tens of thousands of files, making backups slower than they should be. Many files are worse than big files.
+# @raycast.description Ignore package folders (node_modules, Pods, etc) from Time Machine backups. They might not be big in size (altough they do add up), but they usually have tens of thousands of files, making backups slower than they should be. Many files are worse than big files when copying.
 # @raycast.author Roland Leth
 # @raycast.authorURL https://runtimesharks.com
 
