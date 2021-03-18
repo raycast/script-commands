@@ -13,4 +13,5 @@
 # Credits
 # @raycast.author Faye Sipiano
 # @raycast.authorURL https://github.com/FSipiano
+
 open https://github.com/pulls/
