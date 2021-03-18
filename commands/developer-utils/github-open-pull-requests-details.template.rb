@@ -23,7 +23,7 @@ end
 uri = URI('https://api.github.com/graphql')
 req = Net::HTTP::Post.new(uri)
 req['Authorization'] = "token #{API_TOKEN}"
-req.body = '{ "query": "query { viewer { pullRequests(first: 10 states: OPEN) { nodes {baseRepository {name} title number url} }}}" }'
+req.body = '{ "query": "query { viewer { pullRequests(first: 10 states: OPEN) { nodes {baseRepository {name} title number url} } } }" }'
 req_options = {
   use_ssl: uri.scheme == 'https'
 }
