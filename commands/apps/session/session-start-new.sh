@@ -17,6 +17,6 @@
 # @raycast.authorURL https://github.com/jamesjlyons
 
 # @raycast.argument1 { "type": "text", "placeholder": "Intent", "optional": true, "percentEncoded": true }
-# @raycast.argument2 { "type": "text", "placeholder": "Duration", "optional": true }
+# @raycast.argument2 { "type": "text", "placeholder": "Minutes duration", "optional": true }
 
 open "session:///start?intent=${1}&duration=${2}"
