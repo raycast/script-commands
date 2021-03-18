@@ -2,12 +2,11 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Show all Pull Requests detail
+# @raycast.title Show Open Pull Requests
 # @raycast.mode fullOutput
-# @raycast.packageName GitHub
 #
 # Optional parameters:
-# @raycast.iconDark images/github-logo-iconDark.png
+# @raycast.packageName GitHub
 # @raycast.icon images/github-logo.png
 
 require 'json'
