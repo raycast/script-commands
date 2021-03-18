@@ -4,6 +4,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Show Open Pull Requests
 # @raycast.mode fullOutput
+# @raycast.description Display (detailed) GitHub pull requests
 #
 # Optional parameters:
 # @raycast.packageName GitHub
@@ -28,7 +29,7 @@ end
 uri = URI('https://api.github.com/graphql')
 req = Net::HTTP::Post.new(uri)
 req['Authorization'] = "token #{API_TOKEN}"
-req.body = '{ "query": "query { viewer { pullRequests(first: 10 states: OPEN) { nodes {baseRepository {name} title number url}}}}" }'
+req.body = '{ "query": "query { viewer { pullRequests(first: 10 states: OPEN) { nodes { baseRepository { name } title number url } } } }" }'
 req_options = {
   use_ssl: uri.scheme == 'https'
 }
