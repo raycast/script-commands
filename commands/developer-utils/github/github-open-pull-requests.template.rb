@@ -4,6 +4,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Open Pull Requests
 # @raycast.mode inline
+# @raycast.description Display number of open pull requests
 #
 # Optional parameters:
 # @raycast.packageName GitHub

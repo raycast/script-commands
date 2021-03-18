@@ -4,6 +4,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Open Pull Requests page
 # @raycast.mode silent
+# @raycast.description Open your GitHub pull requests page
 #
 # Optional parameters:
 # @raycast.packageName GitHub
