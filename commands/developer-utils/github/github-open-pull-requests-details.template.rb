@@ -17,6 +17,7 @@ require 'json'
 require 'net/http'
 require 'uri'
 
+# Insert a personal access token (https://github.com/settings/tokens)
 API_TOKEN = ''
 
 if API_TOKEN.empty?
@@ -42,7 +43,7 @@ if res.code == '200'
 
   if pull_requests.length == 0
     puts 'No open pull requests 🎉'
-    else
+  else
     puts "You have #{pull_requests.length} open pull requests"
     pull_requests.each do |pr|
       puts "##{pr['number']} #{pr['title']} (#{pr['url']})"

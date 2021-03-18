@@ -21,7 +21,7 @@ require 'json'
 require 'net/http'
 require 'uri'
 
-#insert a personal access token (https://github.com/settings/tokens)
+# Insert a personal access token (https://github.com/settings/tokens)
 API_TOKEN = ''
 
 if API_TOKEN.empty?
