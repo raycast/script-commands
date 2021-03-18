@@ -17,7 +17,7 @@ require 'json'
 require 'net/http'
 require 'uri'
 
-API_TOKEN = '5e14cbcb1527354657eba5b1158d4bb598e20a90'
+API_TOKEN = ''
 
 if API_TOKEN.empty?
   puts 'No API token provided'
