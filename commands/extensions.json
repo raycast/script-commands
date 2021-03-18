@@ -3389,6 +3389,78 @@
             {
               "authors" : [
                 {
+                  "name" : "Faye Sipiano",
+                  "url" : "https:\/\/github.com\/FSipiano"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Display number of open pull requests",
+              "filename" : "github-open-pull-requests.template.rb",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : "images\/github-logo-iconDark.png",
+                "light" : "images\/github-logo.png"
+              },
+              "isTemplate" : true,
+              "language" : "ruby",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "GitHub",
+              "refreshTime" : "5m",
+              "schemaVersion" : 1,
+              "title" : "Open Pull Requests"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Faye Sipiano",
+                  "url" : "https:\/\/github.com\/FSipiano"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Display (detailed) GitHub pull requests",
+              "filename" : "github-open-pull-requests-details.template.rb",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/github-logo.png"
+              },
+              "isTemplate" : true,
+              "language" : "ruby",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "GitHub",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Show Open Pull Requests"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Faye Sipiano",
+                  "url" : "https:\/\/github.com\/FSipiano"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Open your GitHub pull requests page",
+              "filename" : "github-open-pull-requests-page.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : "images\/github-logo-iconDark.png",
+                "light" : "images\/github-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "GitHub",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Pull Requests page"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Caleb Stauffer",
                   "url" : "https:\/\/github.com\/crstauf"
                 }
@@ -7282,6 +7354,6 @@
       ]
     }
   ],
-  "totalScriptCommands" : 301,
-  "updatedAt" : "2021-03-16T14:18:17Z"
+  "totalScriptCommands" : 304,
+  "updatedAt" : "2021-03-18T17:47:58Z"
 }
