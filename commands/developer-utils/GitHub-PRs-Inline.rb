@@ -17,21 +17,22 @@ require 'json'
 require 'net/http'
 require 'uri'
 
-API_TOKEN = ''
-RED = 31
-GREEN = 32
-YELLOW = 33
-
+#insert a personal access token (https://github.com/settings/tokens)
+API_TOKEN = '20158b78b1882b438a787756898382b3c5bcea80'
 
 if API_TOKEN.empty?
   puts 'No API token provided'
   exit(1)
 end
 
+RED = 31
+GREEN = 32
+YELLOW = 33
+
 uri = URI('https://api.github.com/graphql')
 req = Net::HTTP::Post.new(uri)
 req['Authorization'] = "token #{API_TOKEN}"
-req.body = '{ "query": "query { viewer { pullRequests(first: 10, states:OPEN) { nodes { title number url } }}}" }'
+req.body = '{ "query": "query { viewer { pullRequests(first: 10, states:OPEN) { nodes { title number url } } } }" }'
 req_options = {
   use_ssl: uri.scheme == 'https'
 }
@@ -45,17 +46,12 @@ if res.code == '200'
   pull_requests = result['data']['viewer']['pullRequests']['nodes']
 
   if pull_requests.length == 0
-    MESSAGE = "No open pull requests 🎉"
-    puts "\e[#{GREEN}m#{MESSAGE}\e[0m"
-  elsif pull_requests.length <= 5
-    MESSAGE = "You have #{pull_requests.length} open pull requests"
-    puts "\e[#{YELLOW}m#{MESSAGE}\e[0m"
-    pull_requests.each do |pr|
-      puts "##{pr['number']} #{pr['title']} (#{pr['url']})"
-    end
-  elsif pull_requests.length > 5
-    MESSAGE = "You have #{pull_requests.length} open pull requests"
-    puts "\e[#{RED}m#{MESSAGE}\e[0m"
+    message = "No open pull requests 🎉"
+    puts "\e[#{GREEN}m#{message}\e[0m"
+  else
+    color = (pull_requests.length <= 5) ? YELLOW : RED
+    message = "You have #{pull_requests.length} open pull requests"
+    puts "\e[#{color}m#{message}\e[0m"
     pull_requests.each do |pr|
       puts "##{pr['number']} #{pr['title']} (#{pr['url']})"
     end
