@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Note: Session X v2.1.6 required: https://www.stayinsession.com/
+# Dependency: This script requires `Session X v2.1.6` installed: https://www.stayinsession.com/
 
 # Required parameters:
 # @raycast.schemaVersion 1
@@ -17,4 +17,3 @@
 # @raycast.authorURL https://github.com/jamesjlyons
 
 open "session:///abandon"
-
