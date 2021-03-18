@@ -8,12 +8,16 @@
 # Optional parameters:
 # @raycast.packageName GitHub
 # @raycast.icon images/github-logo.png
+#
+# Credits
+# @raycast.author Faye Sipiano
+# @raycast.authorURL https://github.com/FSipiano
 
 require 'json'
 require 'net/http'
 require 'uri'
 
-API_TOKEN = ''
+API_TOKEN = '5e14cbcb1527354657eba5b1158d4bb598e20a90'
 
 if API_TOKEN.empty?
   puts 'No API token provided'
@@ -23,7 +27,7 @@ end
 uri = URI('https://api.github.com/graphql')
 req = Net::HTTP::Post.new(uri)
 req['Authorization'] = "token #{API_TOKEN}"
-req.body = '{ "query": "query { viewer { pullRequests(first: 10 states: OPEN) { nodes {baseRepository {name} title number url} } } }" }'
+req.body = '{ "query": "query { viewer { pullRequests(first: 10 states: OPEN) { nodes {baseRepository {name} title number url}}}}" }'
 req_options = {
   use_ssl: uri.scheme == 'https'
 }
@@ -38,7 +42,7 @@ if res.code == '200'
 
   if pull_requests.length == 0
     puts 'No open pull requests 🎉'
-  else
+    else
     puts "You have #{pull_requests.length} open pull requests"
     pull_requests.each do |pr|
       puts "##{pr['number']} #{pr['title']} (#{pr['url']})"
