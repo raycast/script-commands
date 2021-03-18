@@ -12,13 +12,17 @@
 #
 # Conditional parameters:
 # @raycast.refreshTime 5m
+#
+# Credits
+# @raycast.author Faye Sipiano
+# @raycast.authorURL https://github.com/FSipiano
 
 require 'json'
 require 'net/http'
 require 'uri'
 
 #insert a personal access token (https://github.com/settings/tokens)
-API_TOKEN = '20158b78b1882b438a787756898382b3c5bcea80'
+API_TOKEN = ''
 
 if API_TOKEN.empty?
   puts 'No API token provided'

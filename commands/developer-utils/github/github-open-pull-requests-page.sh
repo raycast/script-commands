@@ -9,7 +9,8 @@
 # @raycast.packageName GitHub
 # @raycast.icon images/github-logo.png
 # @raycast.iconDark images/github-logo-iconDark.png
-
-
-
+#
+# Credits
+# @raycast.author Faye Sipiano
+# @raycast.authorURL https://github.com/FSipiano
 open https://github.com/pulls/
