@@ -762,30 +762,6 @@
           "title" : "Open Clipboard URL on Desktop"
         },
         {
-          "authors" : [
-            {
-              "name" : "Jax0rz",
-              "url" : null
-            }
-          ],
-          "currentDirectoryPath" : null,
-          "description" : null,
-          "filename" : "search-in-bear.sh",
-          "hasArguments" : true,
-          "icon" : {
-            "dark" : null,
-            "light" : "images\/bear.png"
-          },
-          "isTemplate" : false,
-          "language" : "bash",
-          "mode" : "silent",
-          "needsConfirmation" : null,
-          "packageName" : "Navigation",
-          "refreshTime" : null,
-          "schemaVersion" : 1,
-          "title" : "Search in Bear"
-        },
-        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : "Opens the Home folder in the Finder.",
@@ -1022,6 +998,30 @@
           "refreshTime" : "5s",
           "schemaVersion" : 1,
           "title" : "System Activity"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Manan Mehta",
+              "url" : "https:\/\/github.com\/mehtamanan"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Gets crypto prices from Binance",
+          "filename" : "crypto-portfolio.py",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "💰"
+          },
+          "isTemplate" : false,
+          "language" : "python",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Money",
+          "refreshTime" : "5m",
+          "schemaVersion" : 1,
+          "title" : "Crypto"
         },
         {
           "authors" : [
@@ -1328,6 +1328,30 @@
         {
           "authors" : [
             {
+              "name" : "Jordi Clement",
+              "url" : "https:\/\/github.com\/jordicl"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Restart the Finder",
+          "filename" : "restart-finder.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "💀"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Restart the Finder"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Marc Klingen",
               "url" : "https:\/\/github.com\/marcklingen"
             }
@@ -1367,6 +1391,54 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Empty Trash"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Jordi Clement",
+              "url" : "https:\/\/github.com\/jordicl"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Restart the Dock",
+          "filename" : "restart-dock.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "💀"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Restart the Dock"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Alexandru Turcanu",
+              "url" : "https:\/\/github.com\/Pondorasti"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Adds an invisible icon to the Dock as a separator.",
+          "filename" : "add-spacer-to-dock.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "💻"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Add Spacer to Dock"
         },
         {
           "authors" : [
@@ -1463,6 +1535,30 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Switch Default Browser to Chromium"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Roland Leth",
+              "url" : "https:\/\/runtimesharks.com"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Quits an app, by name or process id.",
+          "filename" : "quit-app.swift",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "💥"
+          },
+          "isTemplate" : false,
+          "language" : "swift",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Quit app"
         },
         {
           "authors" : null,
@@ -1582,6 +1678,30 @@
         {
           "authors" : [
             {
+              "name" : "Yohanes Bandung Bondowoso",
+              "url" : "https:\/\/github.com\/ybbond"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Toggle flip (rotate) or revert the <display> to <degree>°",
+          "filename" : "toggle-flip-screen.template.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🖥"
+          },
+          "isTemplate" : true,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Toggle Flip Screen.Template",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle Flip Screen <display> to <degree>°"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Thiago Holanda",
               "url" : "https:\/\/twitter.com\/tholanda"
             }
@@ -1669,6 +1789,30 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Open Last Download"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Roland Leth",
+              "url" : "https:\/\/runtimesharks.com"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "List running app showing their process id, CPU usage, name, and optionally the process path.",
+          "filename" : "list-processes.rb",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔡"
+          },
+          "isTemplate" : false,
+          "language" : "ruby",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Running processes"
         },
         {
           "authors" : null,
@@ -1910,6 +2054,30 @@
           "title" : "Turn Off Do Not Disturb"
         },
         {
+          "authors" : [
+            {
+              "name" : "Alexandru Turcanu",
+              "url" : "https:\/\/github.com\/Pondorasti"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Get current network connections.",
+          "filename" : "network-status.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📶"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : "1m",
+          "schemaVersion" : 1,
+          "title" : "Network Status"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : "Shuts down computer.",
@@ -1970,6 +2138,86 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Toggle Microphone"
+        }
+      ],
+      "subGroups" : [
+        {
+          "name" : "Vpn",
+          "path" : "vpn",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Alexandru Turcanu",
+                  "url" : "https:\/\/github.com\/Pondorasti"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Stop VPN connection.",
+              "filename" : "vpn-status.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "📡"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "VPN",
+              "refreshTime" : "1m",
+              "schemaVersion" : 1,
+              "title" : "VPN Status"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Alexandru Turcanu",
+                  "url" : "https:\/\/github.com\/Pondorasti"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Stop VPN connection.",
+              "filename" : "vpn-stop.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "📡"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "VPN",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Disconnect"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Alexandru Turcanu",
+                  "url" : "https:\/\/github.com\/Pondorasti"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Start VPN connection.",
+              "filename" : "vpn-start.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "📡"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "VPN",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Connect"
+            }
+          ]
         }
       ]
     },
@@ -2454,6 +2702,30 @@
         {
           "authors" : [
             {
+              "name" : "Achille Lacoin",
+              "url" : "https:\/\/github.com\/pomdtr"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Print the tldr documentation for a command",
+          "filename" : "tldr.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🤖"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utils",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Print TLDR doc"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Boyang Xu",
               "url" : "https:\/\/github.com\/BoyangMichael"
             }
@@ -2565,6 +2837,30 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Save URL to Wayback Machine"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Roland Leth",
+              "url" : "https:\/\/runtimesharks.com"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Generates a .gitignore file via https:\/\/gitignore.io",
+          "filename" : "generate-git-ignore.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🤐"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Create .gitignore"
         },
         {
           "authors" : null,
@@ -3093,6 +3389,78 @@
             {
               "authors" : [
                 {
+                  "name" : "Faye Sipiano",
+                  "url" : "https:\/\/github.com\/FSipiano"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Display number of open pull requests",
+              "filename" : "github-open-pull-requests.template.rb",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : "images\/github-logo-iconDark.png",
+                "light" : "images\/github-logo.png"
+              },
+              "isTemplate" : true,
+              "language" : "ruby",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "GitHub",
+              "refreshTime" : "5m",
+              "schemaVersion" : 1,
+              "title" : "Open Pull Requests"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Faye Sipiano",
+                  "url" : "https:\/\/github.com\/FSipiano"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Display (detailed) GitHub pull requests",
+              "filename" : "github-open-pull-requests-details.template.rb",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/github-logo.png"
+              },
+              "isTemplate" : true,
+              "language" : "ruby",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "GitHub",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Show Open Pull Requests"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Faye Sipiano",
+                  "url" : "https:\/\/github.com\/FSipiano"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Open your GitHub pull requests page",
+              "filename" : "github-open-pull-requests-page.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : "images\/github-logo-iconDark.png",
+                "light" : "images\/github-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "GitHub",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Pull Requests page"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Caleb Stauffer",
                   "url" : "https:\/\/github.com\/crstauf"
                 }
@@ -3546,6 +3914,30 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Generate Passphrase"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Petr Nikolaev",
+              "url" : "https:\/\/github.com\/PitNikola"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Share secret securely using https:\/\/share.doppler.com\/.",
+          "filename" : "share-secret-doppler.py",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/doppler-logo.png"
+          },
+          "isTemplate" : false,
+          "language" : "python",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Doppler",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Share Secret from Clipboard"
         },
         {
           "authors" : [
@@ -4203,6 +4595,30 @@
           "title" : "Search in Baidu"
         },
         {
+          "authors" : [
+            {
+              "name" : "Chris Koerner Zeller",
+              "url" : "https:\/\/github.com\/ChessMess"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "search-in-dndbeyond.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : ".\/images\/ddbicon.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in DnDBeyond.com"
+        },
+        {
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : null,
@@ -4459,6 +4875,30 @@
         {
           "authors" : [
             {
+              "name" : "Matthew Gleich",
+              "url" : "https:\/\/mattglei.ch"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search for a rust crate on cargos.io",
+          "filename" : "rust-crate.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : ".\/images\/cargo-logo.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Search",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search for Crate"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Zander Martineau",
               "url" : "https:\/\/zander.wtf"
             }
@@ -4546,6 +4986,30 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search in grep.app"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Phil Salant",
+              "url" : "https:\/\/github.com\/PSalant726"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search PostgreSQL documentation",
+          "filename" : "postgresql.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/psql.png"
+          },
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "PostgreSQL Documentation"
         },
         {
           "authors" : null,
@@ -5098,6 +5562,276 @@
           ]
         },
         {
+          "name" : "Cleanshot",
+          "path" : "cleanshot",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "CleanShot X",
+                  "url" : "https:\/\/twitter.com\/CleanShot_app"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Take a screenshot of a window.",
+              "filename" : "cleanshot-capture-window.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/capture-window.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "CleanShot X",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Capture Window"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "CleanShot X",
+                  "url" : "https:\/\/twitter.com\/CleanShot_app"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Take a screenshot of the previously specified area of your screen.",
+              "filename" : "cleanshot-capture-previous-area.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/capture-previous-area.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "CleanShot X",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Capture Previous Area"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "CleanShot X",
+                  "url" : "https:\/\/twitter.com\/CleanShot_app"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Restore the recently closed file.",
+              "filename" : "cleanshot-restore.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/restore.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "CleanShot X",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Restore Recently Closed File"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "CleanShot X",
+                  "url" : "https:\/\/twitter.com\/CleanShot_app"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Pin a screenshot to the screen.",
+              "filename" : "cleanshot-pin.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/pin.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "CleanShot X",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Pin to the Screen"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "CleanShot X",
+                  "url" : "https:\/\/twitter.com\/CleanShot_app"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Take a screenshot of a specific area on your screen.",
+              "filename" : "cleanshot-capture-area.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/capture-area.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "CleanShot X",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Capture Area"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "CleanShot X",
+                  "url" : "https:\/\/twitter.com\/CleanShot_app"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Open screenshot that is currently in the clipboard.",
+              "filename" : "cleanshot-open-from-clipboard.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/clipboard.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "CleanShot X",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open from Clipboard"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "CleanShot X",
+                  "url" : "https:\/\/twitter.com\/CleanShot_app"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Take a screenshot of your screen.",
+              "filename" : "cleanshot-capture-fullscreen.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/capture-fullscreen.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "CleanShot X",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Capture Fullscreen"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "CleanShot X",
+                  "url" : "https:\/\/twitter.com\/CleanShot_app"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Take a screenshot after a specified delay to capture the perfect moment.",
+              "filename" : "cleanshot-self-timer.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/self-timer.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "CleanShot X",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Self-Timer"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "CleanShot X",
+                  "url" : "https:\/\/twitter.com\/CleanShot_app"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Capture any scrollable content.",
+              "filename" : "cleanshot-scrolling-capture.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/scrolling-capture.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "CleanShot X",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Scrolling Capture"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "CleanShot X",
+                  "url" : "https:\/\/twitter.com\/CleanShot_app"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Start a screen recording and save it as a video or an optimized GIF file.",
+              "filename" : "cleanshot-record-screen.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/record-screen.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "CleanShot X",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Record Screen"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "CleanShot X",
+                  "url" : "https:\/\/twitter.com\/CleanShot_app"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Hide clutter on your Desktop.",
+              "filename" : "cleanshot-toggle-desktop-icons.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/toggle-desktop-icons.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "CleanShot X",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Toggle Desktop Icons"
+            }
+          ]
+        },
+        {
           "name" : "Amphetamine",
           "path" : "amphetamine",
           "scriptCommands" : [
@@ -5302,6 +6036,108 @@
           ]
         },
         {
+          "name" : "Tunnelblick",
+          "path" : "tunnelblick",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Achille Lacoin",
+                  "url" : "https:\/\/github.com\/pomdtr"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Disconnect a VPN configuration.",
+              "filename" : "tunnelblick-disconnect.applescript",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/tunnelblick.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Tunnelblick",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Tunnelblick: Disconnect"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Achille Lacoin",
+                  "url" : "https:\/\/github.com\/pomdtr"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Connect a VPN configuration.",
+              "filename" : "tunnelblick-connect.applescript",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/tunnelblick.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Tunnelblick",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Tunnelblick: Connect"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Achille Lacoin",
+                  "url" : "https:\/\/github.com\/pomdtr"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Disconnect all connected VPN configurations.",
+              "filename" : "tunnelblick-disconnect-all.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/tunnelblick.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Tunnelblick",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Tunnelblick: Disconnect All"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Achille Lacoin",
+                  "url" : "https:\/\/github.com\/pomdtr"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Connect all unconnected VPN configurations.",
+              "filename" : "tunnelblick-connect-all.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/tunnelblick.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "TunnelBlick",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Tunnelblick: Connect All"
+            }
+          ]
+        },
+        {
           "name" : "Hazeover",
           "path" : "hazeover",
           "scriptCommands" : [
@@ -5354,6 +6190,462 @@
               "title" : "Toggle Dimming"
             }
           ]
+        },
+        {
+          "name" : "Safari",
+          "path" : "safari",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Close all tabs besides the currently active tab.",
+              "filename" : "safari-close-other-tabs.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/safari.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Safari",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Close Other Tabs"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Add a new Reading List item with the given URL. Allows a custom title to be specified.",
+              "filename" : "safari-create-reading-list-item.applescript",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/safari.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Safari",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Add Item to Reading List"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Close tabs with the same URL.",
+              "filename" : "safari-close-duplicated-tabs.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/safari.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Safari",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Close Duplicated Tabs"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Close all tabs to the right side of the currently active tab.",
+              "filename" : "safari-close-tabs-right.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/safari.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Safari",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Close Tabs to the Right"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Close all tabs to the left side of the currently active tab.",
+              "filename" : "safari-close-tabs-left.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/safari.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Safari",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Close Tabs to the Left"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Duplicates and opens the currently active tab.",
+              "filename" : "safari-duplicate-tab.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/safari.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Safari",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Duplicate Tab"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Close all tabs in the frontmost window",
+              "filename" : "safari-close-all-tabs.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/safari.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Safari",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Close All Tabs"
+            }
+          ]
+        },
+        {
+          "name" : "Surfshark",
+          "path" : "surfshark",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Jordi Clement",
+                  "url" : "https:\/\/github.com\/jordicl"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Start Surfshark VPN connection",
+              "filename" : "surfshark-vpn-start.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/surfshark.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Surfshark",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "VPN Connect"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jordi Clement",
+                  "url" : "https:\/\/github.com\/jordicl"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Stop Surfshark VPN connection",
+              "filename" : "surfshark-vpn-stop.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/surfshark.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Surfshark",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "VPN Disconnect"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jordi Clement",
+                  "url" : "https:\/\/github.com\/jordicl"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Get Surfshark VPN status",
+              "filename" : "surfshark-vpn-status.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/surfshark.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Surfshark",
+              "refreshTime" : "10s",
+              "schemaVersion" : 1,
+              "title" : "Surfshark VPN Status"
+            }
+          ]
+        },
+        {
+          "name" : "Sip",
+          "path" : "sip",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Sip",
+                  "url" : "https:\/\/twitter.com\/sip_app\/"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : " Add a color to your Sip history.",
+              "filename" : "sip-add-hex-color.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/sip.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Sip",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : " Add Color to History"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sip",
+                  "url" : "https:\/\/twitter.com\/sip_app\/"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Open Sip Contrast Checker.",
+              "filename" : "sip-open-check-contrast.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/sip.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Sip",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Contrast Checker"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sip",
+                  "url" : "https:\/\/twitter.com\/sip_app\/"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Pick a color value from your screen.",
+              "filename" : "sip-show-picker.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/sip.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Sip",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Show Color Picker"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sip",
+                  "url" : "https:\/\/twitter.com\/sip_app\/"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Open Sip Contrast Checker.",
+              "filename" : "sip-check-contrast-hex.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/sip.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Sip",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Check Contrast"
+            }
+          ]
+        },
+        {
+          "name" : "Things",
+          "path" : "things",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Things",
+                  "url" : "https:\/\/twitter.com\/culturedcode\/"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Get an overview of your completed tasks for today.",
+              "filename" : "things-today.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/things.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Things",
+              "refreshTime" : "1m",
+              "schemaVersion" : 1,
+              "title" : "Today"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Things",
+                  "url" : "https:\/\/twitter.com\/culturedcode\/"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Search To-Dos with a query.",
+              "filename" : "things-search-to-dos.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/things.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Things",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Search To-Dos"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Things",
+                  "url" : "https:\/\/twitter.com\/culturedcode\/"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Create a new To-Do with title and optional deadline.",
+              "filename" : "things-create-todo.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/things.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Things",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Create To-Do"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Things",
+                  "url" : "https:\/\/twitter.com\/culturedcode\/"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Show your current To-Do to stay focused.",
+              "filename" : "things-current-todo.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/things.png"
+              },
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Things",
+              "refreshTime" : "1m",
+              "schemaVersion" : 1,
+              "title" : "Current To-Do"
+            }
+          ]
         }
       ]
     },
@@ -5391,6 +6683,30 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Stop"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jordi Clement",
+                  "url" : "https:\/\/github.com\/jordicl"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Go to Artist page in the Apple Music App",
+              "filename" : "apple-music-go-to-artist-page.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/apple-music-logo.png"
+              },
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Music",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Go to Artist in Apple Music"
             },
             {
               "authors" : [
@@ -6038,6 +7354,6 @@
       ]
     }
   ],
-  "totalScriptCommands" : 251,
-  "updatedAt" : "2021-02-27T13:10:59Z"
+  "totalScriptCommands" : 304,
+  "updatedAt" : "2021-03-18T17:47:58Z"
 }

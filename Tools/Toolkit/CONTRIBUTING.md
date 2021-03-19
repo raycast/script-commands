@@ -1,6 +1,6 @@
 # Contributing to Raycast's Toolkit
 
-Raycast Toolkit is a command-line application for automating repetitive tasks in this repo. At the moment the Toolkit automates the generation of the [Awesome Script Commands](../../commands/README.md) and the [extensions.json](../../extensions.json) which contains information about each Script Command.
+Raycast Toolkit is a command-line application for automating repetitive tasks in this repo. At the moment the Toolkit automates the generation of the [Awesome Script Commands](../../commands/README.md) and the [extensions.json](../../commands/extensions.json) which contains information about each Script Command.
 
 ## Tech Stack
 

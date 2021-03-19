@@ -12,7 +12,7 @@
 
 # Optional parameters:
 # @raycast.packageName Slack
-# @raycast.argument1 { "type": "text", "placeholder": "number of minutes", "percentEncoded": true}
+# @raycast.argument1 { "type": "text", "placeholder": "number of minutes", "percentEncoded": true, "optional": true}
 # @raycast.icon images/slack-logo.png
 
 # Documentation:
@@ -30,6 +30,9 @@
 # 4. Insert your OAuth access token below
 API_TOKEN="XXXXXX"
 
+# Default expiration (in mins)
+DEFAULT_STATUS_EXPIRATION_IN_MINUTES=30
+
 # Minutes until the the status will expire
 STATUS_EXPIRATION_IN_MINUTES="${1}"
 
@@ -44,7 +47,7 @@ fi
 
 if [[ -z "$STATUS_EXPIRATION_IN_MINUTES" ]]
 then
-  STATUS_EXPIRATION=30 # default expiration in 30 mins
+  STATUS_EXPIRATION_IN_MINUTES=$DEFAULT_STATUS_EXPIRATION_IN_MINUTES # default expiration
 fi
 
 RESPONSE=$(
