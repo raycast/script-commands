@@ -6,7 +6,6 @@
 import ArgumentParser
 import SwiftUI
 import ToolkitLibrary
-import TSCBasic
 
 extension ToolkitCommand {
   struct Report: ParsableCommand {
@@ -32,11 +31,13 @@ extension ToolkitCommand {
     var noColor: Bool = false
 
     func run() throws {
-      let fileSystem = TSCBasic.localFileSystem
-
       do {
+        let dataManager = try DataManager(
+          extensionsPath: path
+        )
+        
         let toolkit = Toolkit(
-          path: fileSystem.absolutePath(for: path)
+          dataManager: dataManager
         )
 
         try toolkit.report(

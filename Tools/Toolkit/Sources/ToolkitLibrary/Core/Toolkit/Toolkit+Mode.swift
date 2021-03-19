@@ -8,14 +8,10 @@ import TSCBasic
 
 extension Toolkit {
   public func setScriptCommandsAsExecutable() throws {
-    guard fileSystem.exists(extensionsAbsolutePath) else {
-      throw Error.extensionsFolderNotFound(extensionsAbsolutePath.pathString)
-    }
-
     var data = RaycastData()
 
     try readFolderContent(
-      path: extensionsAbsolutePath,
+      path: dataManager.extensionsPath,
       parentGroups: &data.groups,
       ignoreFilesInDir: true
     )
@@ -34,7 +30,7 @@ extension Toolkit {
     var newModeCount = 0
 
     scriptCommands.sorted().forEach { scriptCommand in
-      let filePath = extensionsAbsolutePath.appending(RelativePath(scriptCommand.fullPath))
+      let filePath = dataManager.extensionsPath.appending(RelativePath(scriptCommand.fullPath))
 
       if let _ = try? fileSystem.chmod(.executable, path: filePath) {
         newModeCount += 1
