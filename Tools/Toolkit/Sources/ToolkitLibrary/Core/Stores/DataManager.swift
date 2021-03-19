@@ -19,6 +19,7 @@ public final class DataManager {
   let extensionsPath: AbsolutePath
 
   let fileSystem: FileSystem
+  let ignoreGitInformation: Bool
 
   var isMetadataEmpty: Bool {
     data.metadata.isEmpty
@@ -37,9 +38,10 @@ public final class DataManager {
       throw ToolkitError.folderNotFound(path.pathString)
     }
 
-    self.fileSystem         = fileSystem
-    self.extensionsPath     = path
-    self.extensionsFilePath = extensionsFilePath
+    self.fileSystem           = fileSystem
+    self.extensionsPath       = path
+    self.extensionsFilePath   = extensionsFilePath
+    self.ignoreGitInformation = extensionsFilename.isEmpty
   }
 
   func increaseTotal() {

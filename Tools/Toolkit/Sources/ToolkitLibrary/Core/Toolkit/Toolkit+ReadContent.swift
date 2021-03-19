@@ -114,14 +114,19 @@ extension Toolkit {
     let scriptPath = path.dirname.dropFirst(pathCount)
     dictionary["path"] = "\(scriptPath)/"
 
-    if let dates = extractGitDates(from: path), dates.isEmpty == false {
-      if let updateAt = dates.first {
-        dictionary["updatedAt"] = updateAt
-      }
+    if dataManager.ignoreGitInformation == false {
+      if let dates = extractGitDates(from: path), dates.isEmpty == false {
+        if let updateAt = dates.first {
+          dictionary["updatedAt"] = updateAt
+        }
 
-      if let createdAt = dates.last {
-        dictionary["createdAt"] = createdAt
+        if let createdAt = dates.last {
+          dictionary["createdAt"] = createdAt
+        }
       }
+    } else {
+      dictionary["updatedAt"] = String.empty
+      dictionary["createdAt"] = String.empty
     }
 
     dictionary["isTemplate"] = filename.contains("template")
