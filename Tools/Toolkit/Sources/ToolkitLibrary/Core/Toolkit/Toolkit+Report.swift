@@ -8,7 +8,6 @@ import TSCBasic
 
 extension Toolkit {
   public func report(type: ReportType, noColor: Bool) throws {
-
     try readFolderContent(
       path: dataManager.extensionsPath,
       parentGroups: &dataManager.data.groups,

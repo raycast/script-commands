@@ -35,7 +35,7 @@ extension ToolkitCommand {
         let dataManager = try DataManager(
           extensionsPath: path
         )
-        
+
         let toolkit = Toolkit(
           dataManager: dataManager
         )

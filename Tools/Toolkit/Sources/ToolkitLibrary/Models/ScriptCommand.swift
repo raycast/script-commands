@@ -26,7 +26,7 @@ struct ScriptCommand: Codable {
   let createdAt: String
   let updatedAt: String
   var path: String
-  
+
   private(set) var isExecutable: Bool = false
 
   enum CodingKeys: String, CodingKey {
@@ -94,22 +94,21 @@ extension ScriptCommand {
     self.isTemplate    = try container.decode(Bool.self, forKey: .isTemplate)
     self.hasArguments  = try container.decode(Bool.self, forKey: .hasArguments)
     self.path          = try container.decode(String.self, forKey: .path)
-    
+
     let filename       = try container.decode(String.self, forKey: .filename)
     let createdAt      = try container.decode(String.self, forKey: .createdAt)
     let updatedAt      = try container.decode(String.self, forKey: .updatedAt)
-    
+
     self.filename  = filename
     self.createdAt = createdAt
     self.updatedAt  = updatedAt
-    
+
     do {
       let value = "\(createdAt.description)\(filename)"
       let identifier = try value.convertToMD5()
-      
+
       self.identifier = identifier
-    }
-    catch let error as StringError {
+    } catch let error as StringError {
       fatalError(error.localizedDescription)
     }
 

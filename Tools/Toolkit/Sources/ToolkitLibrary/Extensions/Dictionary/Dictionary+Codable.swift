@@ -11,13 +11,12 @@ extension Dictionary where Key == String, Value: Any {
       let data = try JSONSerialization.data(
         withJSONObject: self
       )
-      
+
       let decoder = JSONDecoder()
       decoder.dateDecodingStrategy = .iso8601
-      
+
       return try decoder.decode(T.self, from: data)
-    }
-    catch {
+    } catch {
       return nil
     }
   }
