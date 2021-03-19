@@ -11,7 +11,7 @@
 # @raycast.icon ./images/cargo-logo.png
 #
 # Documentation:
-# @raycast.description Search for a rust crate on cargos.io
+# @raycast.description Search for a rust crate on crates.io
 # @raycast.author Matthew Gleich
 # @raycast.authorURL https://mattglei.ch
 
