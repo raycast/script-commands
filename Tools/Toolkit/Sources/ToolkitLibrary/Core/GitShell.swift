@@ -12,41 +12,38 @@ struct GitError: Error {
 
 struct GitShell {
   init() {}
-  
+
   func run(_ args: String..., environment: [String: String] = Git.environment, path: AbsolutePath) throws -> String {
     do {
       return try execute(
         ["-C", path.dirname] + args,
         environment: environment
       )
-    }
-    catch {
+    } catch {
       throw error
     }
   }
-  
+
   private func execute(_ args: [String], environment: [String: String] = Git.environment) throws -> String {
     let process = Process(arguments: [Git.tool] + args, environment: environment)
     let result: ProcessResult
-    
+
     do {
       try process.launch()
       result = try process.waitUntilExit()
-      
+
       guard result.exitStatus == .terminated(code: 0) else {
         throw GitError(
           result: result
         )
       }
-      
+
       let content = try result.utf8Output().spm_chomp()
-      
+
       return content
-    }
-    catch let error as GitError {
+    } catch let error as GitError {
       throw error
-    }
-    catch {
+    } catch {
       let result = ProcessResult(
         arguments: process.arguments,
         environment: process.environment,

@@ -8,11 +8,11 @@ import Foundation
 extension Array where Element == Metadata {
   func hasIdentifier(_ identifier: Identifier) -> Bool {
     var foundValue = false
-    
+
     for item in self {
       foundValue = item.identifiers.first(where: { $0 == identifier }) != nil
     }
-    
+
     return foundValue
   }
 }

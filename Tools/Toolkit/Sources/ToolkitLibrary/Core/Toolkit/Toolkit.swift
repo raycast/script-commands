@@ -12,7 +12,7 @@ public final class Toolkit {
   var dataManager: DataManager
 
   let git = GitShell()
-  
+
   public init(dataManager: DataManager) {
     self.dataManager = dataManager
   }

@@ -68,21 +68,20 @@ extension Toolkit {
 
     return content
   }
-  
+
   func extractGitDates(from filePath: AbsolutePath) -> [String]? {
     do {
       let dates = try self.git.run(
         "log", "--format=%aI", "--follow", filePath.basename,
         path: filePath
       )
-      
+
       return dates.splitByNewLine
-    }
-    catch {
+    } catch {
       return nil
     }
   }
-  
+
   func readScriptCommand(from filePath: AbsolutePath) -> ScriptCommand? {
     guard fileSystem.isFile(filePath) else {
       return nil
@@ -114,7 +113,7 @@ extension Toolkit {
     let pathCount = dataManager.extensionsPathString.count + 1
     let scriptPath = path.dirname.dropFirst(pathCount)
     dictionary["path"] = "\(scriptPath)/"
-    
+
     if let dates = extractGitDates(from: path), dates.isEmpty == false {
       if let updateAt = dates.first {
         dictionary["updatedAt"] = updateAt
@@ -124,7 +123,7 @@ extension Toolkit {
         dictionary["createdAt"] = createdAt
       }
     }
-    
+
     dictionary["isTemplate"] = filename.contains("template")
 
     if dictionary[packageNameKey] == nil {
