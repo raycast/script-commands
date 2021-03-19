@@ -31,8 +31,11 @@ extension Toolkit {
     scriptCommands.sorted().forEach { scriptCommand in
       let filePath = dataManager.extensionsPath.appending(RelativePath(scriptCommand.fullPath))
 
-      if try? fileSystem.chmod(.executable, path: filePath) != nil {
+      do {
+        try fileSystem.chmod(.executable, path: filePath)
         newModeCount += 1
+      } catch {
+        return
       }
     }
 
