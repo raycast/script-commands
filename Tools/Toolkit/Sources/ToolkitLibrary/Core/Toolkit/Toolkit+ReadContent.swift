@@ -42,7 +42,10 @@ extension Toolkit {
       }
 
       if var scriptCommand = readScriptCommand(from: file) {
-        self.totalScriptCommands += 1
+        // This is to avoid data racing
+        DispatchQueue.global(qos: .userInitiated).async {
+          self.dataManager.increaseTotal()
+        }
 
         scriptCommand.configure(
           isExecutable: fileSystem.isExecutableFile(file)
@@ -108,11 +111,15 @@ extension Toolkit {
     var dictionary = readKeyValues(of: content)
     dictionary[filenameKey] = filename
 
+    let pathCount = dataManager.extensionsPathString.count + 1
+    let scriptPath = path.dirname.dropFirst(pathCount)
+    dictionary["path"] = "\(scriptPath)/"
+    
     if let dates = extractGitDates(from: path), dates.isEmpty == false {
       if let updateAt = dates.first {
         dictionary["updatedAt"] = updateAt
       }
-      
+
       if let createdAt = dates.last {
         dictionary["createdAt"] = createdAt
       }
