@@ -36,4 +36,4 @@ lint:
 	swiftlint lint
 
 fix:
-	swiftlint autocorrect --format
+	swiftlint --fix
