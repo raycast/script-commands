@@ -31,7 +31,7 @@ extension Toolkit {
     scriptCommands.sorted().forEach { scriptCommand in
       let filePath = dataManager.extensionsPath.appending(RelativePath(scriptCommand.fullPath))
 
-      if let _ = try? fileSystem.chmod(.executable, path: filePath) {
+      if try? fileSystem.chmod(.executable, path: filePath) != nil {
         newModeCount += 1
       }
     }
@@ -55,10 +55,8 @@ extension Toolkit {
 private extension Toolkit {
   func filter(for group: Group, scriptCommands: inout ScriptCommands) {
     if group.scriptCommands.isEmpty == false {
-      for scriptCommand in group.scriptCommands {
-        if scriptCommand.isExecutable == false {
-          scriptCommands.append(scriptCommand)
-        }
+      for scriptCommand in group.scriptCommands where scriptCommand.isExecutable == false {
+        scriptCommands.append(scriptCommand)
       }
     }
 
