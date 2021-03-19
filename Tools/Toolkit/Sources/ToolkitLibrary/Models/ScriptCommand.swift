@@ -25,8 +25,8 @@ struct ScriptCommand: Codable {
   let hasArguments: Bool
   let createdAt: String
   let updatedAt: String
-
-  private(set) var leadingPath: String = ""
+  var path: String
+  
   private(set) var isExecutable: Bool = false
 
   enum CodingKeys: String, CodingKey {
@@ -47,6 +47,7 @@ struct ScriptCommand: Codable {
     case hasArguments
     case createdAt
     case updatedAt
+    case path
   }
 
   var iconDescription: String {
@@ -54,7 +55,7 @@ struct ScriptCommand: Codable {
       return .empty
     }
 
-    let path = "https://raw.githubusercontent.com/raycast/script-commands/master/commands/\(leadingPath)"
+    let path = "https://raw.githubusercontent.com/raycast/script-commands/master/commands/\(self.path)"
 
     let tag = icon.imageTag(
       with: path
@@ -64,11 +65,7 @@ struct ScriptCommand: Codable {
   }
 
   var fullPath: String {
-    "\(leadingPath)/\(filename)"
-  }
-
-  mutating func configure(leadingPath: String) {
-    self.leadingPath = leadingPath
+    "\(path)\(filename)"
   }
 
   mutating func configure(isExecutable: Bool) {
@@ -96,6 +93,7 @@ extension ScriptCommand {
     self.language      = try container.decode(String.self, forKey: .language)
     self.isTemplate    = try container.decode(Bool.self, forKey: .isTemplate)
     self.hasArguments  = try container.decode(Bool.self, forKey: .hasArguments)
+    self.path          = try container.decode(String.self, forKey: .path)
     
     let filename       = try container.decode(String.self, forKey: .filename)
     let createdAt      = try container.decode(String.self, forKey: .createdAt)
@@ -146,6 +144,7 @@ extension ScriptCommand {
     try container.encode(hasArguments, forKey: .hasArguments)
     try container.encode(createdAt, forKey: .createdAt)
     try container.encode(updatedAt, forKey: .updatedAt)
+    try container.encode(path, forKey: .path)
   }
 }
 
@@ -181,7 +180,7 @@ extension ScriptCommand: MarkdownDescriptionProtocol {
     }
 
     let language = Language(self.language).markdownDescription
-    let scriptPath = "\(leadingPath)\(filename)"
+    let scriptPath = "\(path)\(filename)"
 
     let header = """
       | \(iconDescription) | [\(title)](\(scriptPath)) | \(details) | \(author) | \(hasArguments ? "✅" : "") | \(isTemplate ? "✅" : "") | \(language) |

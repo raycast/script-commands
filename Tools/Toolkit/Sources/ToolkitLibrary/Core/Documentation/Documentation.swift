@@ -71,7 +71,7 @@ private extension Documentation {
     sortedGroups.forEach { group in
       contentString += .newLine + group.sectionTitle
 
-      contentString += renderMarkdown(for: group, leadingPath: "\(group.path)/")
+      contentString += renderMarkdown(for: group)
     }
 
     let markdown = """
@@ -106,7 +106,7 @@ private extension Documentation {
     return contentData
   }
 
-  func renderMarkdown(for group: Group, headline: Bool = false, leadingPath: String = .empty) -> String {
+  func renderMarkdown(for group: Group, headline: Bool = false) -> String {
     var contentString = String.empty
 
     if group.scriptCommands.isEmpty == false {
@@ -119,15 +119,17 @@ private extension Documentation {
       contentString += .newLine + "| Icon | Title | Description | Author | Args | Templ | Lang |"
       contentString += .newLine + "| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |"
 
-      for var scriptCommand in group.scriptCommands.sorted() {
-        scriptCommand.configure(leadingPath: leadingPath)
+      for scriptCommand in group.scriptCommands.sorted() {
         contentString += scriptCommand.markdownDescription
       }
     }
 
     if let subGroups = group.subGroups?.sorted() {
       for subGroup in subGroups {
-        contentString += renderMarkdown(for: subGroup, headline: true, leadingPath: "\(leadingPath)\(subGroup.path)/")
+        contentString += renderMarkdown(
+          for: subGroup,
+          headline: true
+        )
       }
     }
 
