@@ -27,11 +27,11 @@ extension ToolkitCommand {
           extensionsPath: path,
           extensionsFilename: outputJSONFilename
         )
-        
+
         let toolkit = Toolkit(
           dataManager: dataManager
         )
-        
+
         try toolkit.generateDocumentation(
           outputJSONFilename: outputJSONFilename,
           outputMarkdownFilename: outputMarkdownFilename
