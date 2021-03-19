@@ -26,7 +26,6 @@ final class Report {
     data.groups.sorted().forEach { group in
       filter(
         for: group,
-        leadingPath: group.path,
         by: type
       )
     }
@@ -55,11 +54,9 @@ private extension Report {
   typealias Cell = (title: String, length: Int, color: TerminalController.Color, bold: Bool)
   typealias Cells = [Cell]
 
-  func filter(for group: Group, leadingPath: String = .empty, by type: Toolkit.ReportType) {
+  func filter(for group: Group, by type: Toolkit.ReportType) {
     if group.scriptCommands.isEmpty == false {
-      for var scriptCommand in group.scriptCommands.sorted() {
-        scriptCommand.configure(leadingPath: leadingPath)
-
+      for scriptCommand in group.scriptCommands.sorted() {
         switch (type, scriptCommand.isExecutable) {
         case (.executable, true):
           self.scriptCommands.append(scriptCommand)
@@ -77,7 +74,6 @@ private extension Report {
       for subGroup in subGroups {
         filter(
           for: subGroup,
-          leadingPath: "\(leadingPath)/\(subGroup.path)",
           by: type
         )
       }

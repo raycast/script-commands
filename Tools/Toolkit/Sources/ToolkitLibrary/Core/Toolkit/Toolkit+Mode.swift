@@ -21,7 +21,6 @@ extension Toolkit {
     data.groups.forEach { group in
       filter(
         for: group,
-        leadingPath: group.path,
         scriptCommands: &scriptCommands
       )
     }
@@ -54,11 +53,9 @@ extension Toolkit {
 }
 
 private extension Toolkit {
-  func filter(for group: Group, leadingPath: String = .empty, scriptCommands: inout ScriptCommands) {
+  func filter(for group: Group, scriptCommands: inout ScriptCommands) {
     if group.scriptCommands.isEmpty == false {
-      for var scriptCommand in group.scriptCommands {
-        scriptCommand.configure(leadingPath: leadingPath)
-
+      for scriptCommand in group.scriptCommands {
         if scriptCommand.isExecutable == false {
           scriptCommands.append(scriptCommand)
         }
@@ -69,7 +66,6 @@ private extension Toolkit {
       for subGroup in subGroups {
         filter(
           for: subGroup,
-          leadingPath: "\(leadingPath)/\(subGroup.path)",
           scriptCommands: &scriptCommands
         )
       }
