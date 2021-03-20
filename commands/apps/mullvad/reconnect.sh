@@ -12,7 +12,7 @@
 # Documentation:
 # @raycast.author Phil Salant
 # @raycast.authorURL https://github.com/PSalant726
-# @raycast.description Force the client to reconnect the Mullvad VPN tunnel.
+# @raycast.description Force the client to reconnect to the Mullvad VPN tunnel.
 #
 # Dependencies:
 # The Mullvad CLI: https://mullvad.net/en/help/cli-command-wg/

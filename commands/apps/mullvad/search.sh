@@ -57,14 +57,14 @@ wireguard_bias() {
   echo $1 | sed -r 's/OpenVPN/'$BOLD_RED'OpenVPN'$END'/' | sed -r 's/WireGuard/'$BOLD_GREEN'WireGuard'$END'/'
 }
 
-printf "The values printed in %syellow%s are meant to be used with the \"Connect to Location\" script.\n\n" $BOLD_YELLOW $END
-
 entities=$(mullvad relay list | fzf -i --filter "$1")
 
 if [ ${#entities} -eq 0 ]; then
   printf "%sNo results%s found for \"%s\".\n" $BOLD_RED $END $1
   exit 0
 fi
+
+printf "The values printed in %syellow%s are meant to be used with the \"Connect to Location\" script.\n\n" $BOLD_YELLOW $END
 
 while IFS= read -r entity; do
   if [[ "$entity" == "$(printf '\t\t')"* ]]; then

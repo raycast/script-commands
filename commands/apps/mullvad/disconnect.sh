@@ -31,4 +31,3 @@ if [ $success -ne 0 ]; then
 fi
 
 echo "Disconnected and unsecured"
-exit 0
