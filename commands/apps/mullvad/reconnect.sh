@@ -31,6 +31,11 @@ if [ $success -ne 0 ]; then
 fi
 
 status=$(mullvad status --location)
+if [[ $status == *"Tunnel status: Disconnected"* ]]; then
+  echo "No active connection to reconnect!"
+  exit 0
+fi
+
 relay=$(echo "$status" | sed -n '2 s/Relay: //p')
 location=$(echo "$status" | sed -n '5 s/Location: //p')
 echo "Successfully reconnected to $relay ($location)"
