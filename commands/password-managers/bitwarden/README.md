@@ -17,10 +17,11 @@ A package of script commands to interact with [Bitwarden Vaults](https://bitward
   * [Search Vault Items](#search-vault-items)
   * [Copy First Matching Password](#copy-first-matching-password)
 - [Bitwarden Send Command Usage](#bitwarden-send-command-usage)
+  * [Create a Text Send](#create-a-text-send)
 
 ## Dependencies
 
-All authentication and vault-related commands in this package require the [Bitwarden CLI](https://bitwarden.com/help/article/cli/) v1.14.0 or later. Bitwarden Send-related commands require v1.15.1 or later. The _Vault Status_, _Search Vault Items_, and _Copy First Matching Password_ commands also require the [`jq` utility](https://stedolan.github.io/jq/).
+All authentication and vault-related commands in this package require the [Bitwarden CLI](https://bitwarden.com/help/article/cli/) v1.14.0 or later. Bitwarden Send-related commands require v1.15.1 or later. The _Bitwarden Status_, _Search Vault Items_, _Copy First Matching Password_, and _Create a Send_ commands also require the [`jq` utility](https://stedolan.github.io/jq/).
 
 Install the latest version of both dependencies via homebrew:
 
@@ -163,3 +164,9 @@ Passwords and hidden fields are omitted by default. Pass `y` as the value of the
 This command executes in `silent` mode, searches the unlocked Bitwarden vault, and copies the password associated with the first search result to the clipboard.
 
 ## Bitwarden Send Command Usage
+
+### Create a Text Send
+
+<img src="./images/create-text-send.png">
+
+This command executes in `silent` mode, creates a new hidden text Send with the provided details, and copies the Send's URL to the clipboard. The Send's deletion date is automatically set to the default value of 7 days from the creation date.
