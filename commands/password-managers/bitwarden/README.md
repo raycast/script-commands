@@ -1,10 +1,28 @@
 # Bitwarden Package
 
-A package of script commands to interact with a [Bitwarden](https://bitwarden.com/) vault, wrapping the [Bitwarden CLI](https://bitwarden.com/help/article/cli/).
+A package of script commands to interact with [Bitwarden Vaults](https://bitwarden.com/) and [Bitwarden Sends](https://bitwarden.com/products/send/), wrapping the [Bitwarden CLI](https://bitwarden.com/help/article/cli/).
+
+- [Dependencies](#dependencies)
+- [Authentication Command Usage](#authentication-command-usage)
+  * [Log In](#log-in)
+  * [Log Out](#log-out)
+  * [Lock](#lock)
+  * [Unlock](#unlock)
+  * [Session Status](#session-status)
+  * [About Authentication](#about-authentication)
+    + [Session Tokens](#session-tokens)
+      - [Session Token Manipulation](#session-token-manipulation)
+    + [Troubleshooting](#troubleshooting)
+- [Bitwarden Vault Command Usage](#bitwarden-vault-command-usage)
+  * [Search Vault Items](#search-vault-items)
+  * [Copy First Matching Password](#copy-first-matching-password)
+- [Bitwarden Send Command Usage](#bitwarden-send-command-usage)
 
 ## Dependencies
 
-All commands in this package require the [Bitwarden CLI](https://bitwarden.com/help/article/cli/). The _Vault Status_, _Search Vault Items_, and _Copy First Matching Password_ commands also require the [`jq` utility](https://stedolan.github.io/jq/). Install both via homebrew:
+All authentication and vault-related commands in this package require the [Bitwarden CLI](https://bitwarden.com/help/article/cli/) v1.14.0 or later. Bitwarden Send-related commands require v1.15.1 or later. The _Vault Status_, _Search Vault Items_, and _Copy First Matching Password_ commands also require the [`jq` utility](https://stedolan.github.io/jq/).
+
+Install the latest version of both dependencies via homebrew:
 
 ```sh
 $ brew install bitwarden-cli jq
@@ -12,15 +30,15 @@ $ brew install bitwarden-cli jq
 
 Additional installation options are available in the tools' respective documentation.
 
-## Command Usage
+## Authentication Command Usage
 
 ### Log In
 
 <img src="./images/log-in.png">
 
-This command executes in `silent` mode, and both authenticates and unlocks a Bitwarden vault.
+This command executes in `silent` mode, and both authenticates a session and unlocks a Bitwarden account session.
 
-This is the only template command in the package. **If you use multifactor authentication to log in to Bitwarden, be sure to set the value of the `MFA_METHOD` variable.** The [values available to use](https://bitwarden.com/help/article/cli/#enums) are:
+This is the only template command in the package. **If you use multifactor authentication to log in to your Bitwarden account, be sure to set the value of the `MFA_METHOD` variable.** The [values available to use](https://bitwarden.com/help/article/cli/#enums) are:
 
 | MFA Method        | Value |
 |-------------------|:-----:|
@@ -28,31 +46,78 @@ This is the only template command in the package. **If you use multifactor authe
 | Email             | 1     |
 | Yubikey           | 3     |
 
-If you _do not_ use multifactor authentication to access your Bitwarden vault, leave this variable set to `""`, and optionally remove the MFA Code argument (or leave it blank when logging in). Enabling multifactor authentication is encouraged.
+If you _do not_ use multifactor authentication to log in to your Bitwarden account, leave this variable set to `""`, and optionally remove the MFA Code argument (or leave it blank when logging in). Enabling multifactor authentication is encouraged.
 
 ### Log Out
 
 <img src="./images/log-out.png">
 
-This command executes in `silent` mode, and deauthenticates the authenticated Bitwarden vault.
+This command executes in `silent` mode, and deauthenticates the authenticated Bitwarden session.
 
-### Lock Vault
+### Lock
 
-<img src="./images/lock-vault.png">
+<img src="./images/lock.png">
 
-This command executes in `silent` mode, and locks the authenticated Bitwarden vault without deauthenticating.
+This command executes in `silent` mode, and locks the authenticated Bitwarden session without deauthenticating.
 
-### Unlock Vault
+### Unlock
 
-<img src="./images/unlock-vault.png">
+<img src="./images/unlock.png">
 
-This command executes in `silent` mode, and unlocks the authenticated Bitwarden vault.
+This command executes in `silent` mode, and unlocks the authenticated Bitwarden session.
 
-### Vault Status
+### Session Status
 
-<img src="./images/vault-status.png">
+<img src="./images/status.png">
 
-This dashboard command will show the current authentication and/or lock state of the Bitwarden vault. It automatically updates every five minutes. The possible states are `unauthenticated`, `locked`, and `unlocked`.
+This dashboard command will show the current authentication and/or lock state of the Bitwarden session. It automatically updates every five minutes. The possible states are `unauthenticated`, `locked`, and `unlocked`.
+
+### About Authentication
+
+Bitwarden sessions are separately authenticated and locked. All unlocked sessions are authenticated, but not all authenticated sessions are unlocked. The included _Log In_ command will both authenticate **and** unlock the authenticated session, but you do not need to log out in order to secure your session. Simply using the _Lock_ command will do so, and you can then use _Unlock_ later before using commands again.
+
+> For more information on session management, see the [Bitwarden CLI documentation](https://bitwarden.com/help/article/cli/#session-management).
+
+#### Session Tokens
+
+The Bitwarden CLI uses a session token system to maintain the Lock/Unlock state of an authenticated session, and this package utilizes the macOS keychain to store and maintain these session tokens. Running the _Lock_ and _Log Out_ commands in this package will invalidate any existing session tokens and remove them from the keychain. Conversely, running the _Log In_ and _Unlock_ commands will create a new session token and store it in the keychain accordingly, overwriting any existing session token that may exist.
+
+##### Session Token Manipulation
+
+> Manipulating your session token directly, via either the command line or the Keychain Access UI is discouraged. See below for troubleshooting if you choose to do so anyway.
+
+Tokens are stored in the macOS keychain under the user's account and the `raycast-bitwarden` service. When the session is both authenticated and unlocked, you can retrieve your session token via the command line with:
+
+```sh
+$ security find-generic-password -a ${USER} -s raycast-bitwarden
+```
+
+You can manually remove your session token with:
+
+```sh
+$ security delete-generic-password -a ${USER} -s raycast-bitwarden
+```
+
+> **IMPORTANT:**<br/>
+>Removing your session token will only prevent this package from executing script commands. The Bitwarden session itself will remain unlocked, and accessible via the Bitwarden CLI by including the `--session {{ token }}` argument when executing CLI commands.
+
+New session tokens can only be created using the Bitwarden CLI. Creating a new session token will invalidate any tokens created previously. To create a new session token, use [the `bw login` command](https://bitwarden.com/help/article/cli/#logging-in) if not already authenticated, otherwise use [the `bw unlock` command](https://bitwarden.com/help/article/cli/#locking). To restore usage of this package after creating a new session token, run:
+
+```sh
+security add-generic-password -U -a ${USER} -s raycast-bitwarden -w {{ token }}
+```
+
+#### Troubleshooting
+
+If you use the Bitwarden CLI and/or `security` command in your command line, or the Keychain Access UI to manipulate your session token (and therefore your session's lock status, from the perspective of this package), you may encounter errors using the package's script commands. In the event that the _Session Status_ command does not align with the CLI status' output, try running the _Log Out_ command, or:
+
+```sh
+$ bw logout && security delete-generic-password -a ${USER} -s raycast-bitwarden
+```
+
+This will invalidate any existing session tokens and remove them from your keychain. You may then create a new session token, and store it accordingly, using the _Log In_ command.
+
+## Bitwarden Vault Command Usage
 
 ### Search Vault Items
 
@@ -97,47 +162,4 @@ Passwords and hidden fields are omitted by default. Pass `y` as the value of the
 
 This command executes in `silent` mode, searches the unlocked Bitwarden vault, and copies the password associated with the first search result to the clipboard.
 
-## About Authentication
-
-Vaults are separately authenticated and locked. All unlocked vaults are authenticated, but not all authenticated vaults are unlocked. The included _Log In_ command will both authenticate **and** unlock the authenticated vault, but you do not need to log out in order to secure your vault. Simply using the _Lock_ command will do so, and you can then use _Unlock_ later before searching again.
-
-> For more information on session management, see the [Bitwarden CLI documentation](https://bitwarden.com/help/article/cli/#session-management).
-
-### Session Tokens
-
-The Bitwarden CLI uses a session token system to maintain the Lock/Unlock state of an authenticated vault, and this package utilizes the macOS keychain to store and maintain these session tokens. Running the _Lock_ and _Log Out_ commands in this package will invalidate any existing session tokens and remove them from the keychain. Conversely, running the _Log In_ and _Unlock_ commands will create a new session token and store it in the keychain accordingly, overwriting any existing session token that may exist.
-
-#### Session Token Manipulation
-
-> Manipulating your session token directly, via either the command line or the Keychain Access UI is discouraged. See below for troubleshooting if you choose to do so anyway.
-
-Tokens are stored in the macOS keychain under the user's account and the `raycast-bitwarden` service. When the vault is both authenticated and unlocked, you can retrieve your session token via the command line with:
-
-```sh
-$ security find-generic-password -a ${USER} -s raycast-bitwarden
-```
-
-You can manually remove your session token with:
-
-```sh
-$ security delete-generic-password -a ${USER} -s raycast-bitwarden
-```
-
-> **IMPORTANT:**<br/>
->Removing your session token will only prevent this package from interacting with your vault. The Bitwarden vault itself will remain unlocked, and accessible via the Bitwarden CLI by including the `--session {{ token }}` argument when executing commands.
-
-New session tokens can only be created using the Bitwarden CLI. Creating a new session token will invalidate any tokens created previously. To create a new session token, use [the `bw login` command](https://bitwarden.com/help/article/cli/#logging-in) if not already authenticated, otherwise use [the `bw unlock` command](https://bitwarden.com/help/article/cli/#locking). To restore access to the vault via this package after creating a new session token, run:
-
-```sh
-security add-generic-password -U -a ${USER} -s raycast-bitwarden -w {{ token }}
-```
-
-### Troubleshooting
-
-If you use the Bitwarden CLI and/or `security` command in your command line, or the Keychain Access UI to manipulate your session token (and therefore your vault's lock status, from the perspective of this package), you may encounter errors using package commands. In the event that the _Vault Status_ command does not align with the CLI status' output, try running the _Log Out_ command, or:
-
-```sh
-$ bw logout && security delete-generic-password -a ${USER} -s raycast-bitwarden
-```
-
-This will invalidate any existing session tokens and remove them from your keychain. You may then create a new session token, and store it accordingly, using the _Log In_ command.
+## Bitwarden Send Command Usage

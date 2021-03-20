@@ -28,7 +28,7 @@ MFA_METHOD=""
 # Documentation
 # @raycast.author Phil Salant
 # @raycast.authorURL https://github.com/PSalant726
-# @raycast.description Log in to a Bitwarden vault.
+# @raycast.description Log in to Bitwarden.
 
 if ! command -v bw &> /dev/null; then
   echo "The Bitwarden CLI is not installed."
@@ -45,7 +45,7 @@ status=$?
 if [ $status -eq 0 ]; then
   security add-generic-password -U -a ${USER} -s raycast-bitwarden -j "Bitwarden session token for use with Raycast" -w $out
   unset $out
-  echo "Login successful! Your vault is now unlocked."
+  echo "Login successful! Your session is now unlocked."
   exit 0
 else
   echo $out
