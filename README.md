@@ -59,8 +59,10 @@ To install new commands, follow these steps:
 
 1. Open the Extensions tab in the Raycast preferences
 2. Select the Script Commands extension
-3. Click `Add More Directories`
-4. Select the Script Command that you want to install
+3. Click `Add Directories`
+4. Select directories containing your Script Commands
+
+You can also use add menu by pressing the “+” button or using ⌘ + N shortcut.
 
 ![Preferences](images/screenshots/preferences.png)
 
@@ -118,6 +120,49 @@ You can use the standard output to present messages in Raycast. Depending on the
 In `fullOutput` the entire output is presented on a separate view, similar to a terminal. This is handy when your script generates output to consume. In `compact` mode the last line of the standard output is shown in the toast. And in `silent` mode the last line (if exists) will be shown in overlaying HUD toast after Raycast window is closed.
 
 In `inline` mode, the first line of output will be directly shown in the command item and automatically refresh according to the specified `refreshTime`. Tip: Set your dashboard items as favorites via the action menu in Raycast
+
+### ANSI Escape codes - coloured output
+
+`fullOutput` and `inline` modes support ANSI Escape codes allowing to colorize generated output by changing it's background and foreground colour.
+
+Escape code is in linux format: `0x1B`
+
+**List of supported colours**
+
+Colours are adapted to current users apperance settings (light and dark themes)
+
+| Foreground | Background | Name | Dark | Light |
+|------------|------------|------|------|-------|
+| 30 | 40 | Black | ![#000000](https://via.placeholder.com/16/000000?text=+)&nbsp;&nbsp;#000000 | ![#000000](https://via.placeholder.com/16/000000?text=+)&nbsp;&nbsp;#000000 |
+| 31 | 41 | Red  | ![#FF6363](https://via.placeholder.com/16/FF6363?text=+)&nbsp;&nbsp;#FF6363 | ![#B12424](https://via.placeholder.com/16/B12424?text=+)&nbsp;&nbsp;#B12424 |
+| 32 | 42 | Green  | ![#59D499](https://via.placeholder.com/16/59D499?text=+)&nbsp;&nbsp;#59D499 | ![#006B4F](https://via.placeholder.com/16/006B4F?text=+)&nbsp;&nbsp;#006B4F |
+| 33 | 43 | Yellow  | ![#FFC531](https://via.placeholder.com/16/FFC531?text=+)&nbsp;&nbsp;#FFC531 | ![#F8A300](https://via.placeholder.com/16/F8A300?text=+)&nbsp;&nbsp;#F8A300 |
+| 34 | 44 | Blue  | ![#56C2FF](https://via.placeholder.com/16/56C2FF?text=+)&nbsp;&nbsp;#56C2FF | ![#138AF2](https://via.placeholder.com/16/138AF2?text=+)&nbsp;&nbsp;#138AF2 |
+| 35 | 45 | Magenta | ![#CF2F98](https://via.placeholder.com/16/CF2F98?text=+)&nbsp;&nbsp;#CF2F98 | ![#9A1B6E](https://via.placeholder.com/16/9A1B6E?text=+)&nbsp;&nbsp;#9A1B6E |
+| 36 | 46 | Cyan  | ![#52EEE5](https://via.placeholder.com/16/52EEE5?text=+)&nbsp;&nbsp;#52EEE5 | ![#3EB8BF](https://via.placeholder.com/16/3EB8BF?text=+)&nbsp;&nbsp;#3EB8BF |
+| 97 | 107 | White | ![#FFFFFF](https://via.placeholder.com/16/FFFFFF?text=+)&nbsp;&nbsp;#FFFFFF | ![#FFFFFF](https://via.placeholder.com/16/FFFFFF?text=+)&nbsp;&nbsp;#FFFFFF |
+
+**Other supported codes:**
+
+| Code | Name |
+|-|-|
+| 0 | Reset (normal) |
+| 4 | Underline |
+| 9 | Crossed out |
+| 24 | Not underline |
+| 29 | Not crossed |
+
+Unsupported terminal codes will be stripped out from output and ignored.
+
+**Examples:**
+
+<img width="186" alt="CleanShot 2021-03-09 at 03 03 40@2x" src="https://user-images.githubusercontent.com/1301068/110407409-1453b280-8084-11eb-914d-d9fa9ad23b64.png">
+
+| Script | Code |
+|-|-|
+| bash | `echo -e '\033[31;42mred text on green background\033[0m'`
+| bash tput | `export TERM=linux; echo "$(tput setaf 1)$(tput setab 2)red text on green background$(tput sgr0)";`
+| swift | `print("\u{001B}[31;42mred text on green background\u{001B}[0m")`
 
 ### Passing Arguments
 

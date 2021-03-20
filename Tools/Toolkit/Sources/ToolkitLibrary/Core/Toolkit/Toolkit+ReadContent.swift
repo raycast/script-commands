@@ -42,7 +42,10 @@ extension Toolkit {
       }
 
       if var scriptCommand = readScriptCommand(from: file) {
-        self.totalScriptCommands += 1
+        // This is to avoid data racing
+        DispatchQueue.global(qos: .userInitiated).async {
+          self.dataManager.increaseTotal()
+        }
 
         scriptCommand.configure(
           isExecutable: fileSystem.isExecutableFile(file)
@@ -64,6 +67,19 @@ extension Toolkit {
     let content = String(data: data, encoding: .utf8)
 
     return content
+  }
+
+  func extractGitDates(from filePath: AbsolutePath) -> [String]? {
+    do {
+      let dates = try self.git.run(
+        "log", "--format=%aI", "--follow", filePath.basename,
+        path: filePath
+      )
+
+      return dates.splitByNewLine
+    } catch {
+      return nil
+    }
   }
 
   func readScriptCommand(from filePath: AbsolutePath) -> ScriptCommand? {
@@ -93,6 +109,25 @@ extension Toolkit {
     // TODO: Use the content of dictionary to implement the validation
     var dictionary = readKeyValues(of: content)
     dictionary[filenameKey] = filename
+
+    let pathCount = dataManager.extensionsPathString.count + 1
+    let scriptPath = path.dirname.dropFirst(pathCount)
+    dictionary["path"] = "\(scriptPath)/"
+
+    if dataManager.ignoreGitInformation == false {
+      if let dates = extractGitDates(from: path), dates.isEmpty == false {
+        if let updateAt = dates.first {
+          dictionary["updatedAt"] = updateAt
+        }
+
+        if let createdAt = dates.last {
+          dictionary["createdAt"] = createdAt
+        }
+      }
+    } else {
+      dictionary["updatedAt"] = String.empty
+      dictionary["createdAt"] = String.empty
+    }
 
     dictionary["isTemplate"] = filename.contains("template")
 

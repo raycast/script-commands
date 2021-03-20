@@ -9,11 +9,11 @@ import TSCBasic
 public final class Toolkit {
   lazy var fileSystem = TSCBasic.localFileSystem
 
-  var extensionsAbsolutePath: AbsolutePath
+  var dataManager: DataManager
 
-  var totalScriptCommands: Int = 0
+  let git = GitShell()
 
-  public init(path: AbsolutePath) {
-    extensionsAbsolutePath = path
+  public init(dataManager: DataManager) {
+    self.dataManager = dataManager
   }
 }

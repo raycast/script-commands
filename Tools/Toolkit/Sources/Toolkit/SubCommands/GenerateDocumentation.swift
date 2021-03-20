@@ -5,7 +5,6 @@
 
 import ArgumentParser
 import ToolkitLibrary
-import TSCBasic
 
 extension ToolkitCommand {
   struct GenerateDocumentation: ParsableCommand {
@@ -23,11 +22,14 @@ extension ToolkitCommand {
     var outputJSONFilename: String = "extensions.json"
 
     func run() throws {
-      let fileSystem = TSCBasic.localFileSystem
-
       do {
+        let dataManager = try DataManager(
+          extensionsPath: path,
+          extensionsFilename: outputJSONFilename
+        )
+
         let toolkit = Toolkit(
-          path: fileSystem.absolutePath(for: path)
+          dataManager: dataManager
         )
 
         try toolkit.generateDocumentation(

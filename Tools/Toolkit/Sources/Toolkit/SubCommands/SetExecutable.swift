@@ -5,7 +5,6 @@
 
 import ArgumentParser
 import ToolkitLibrary
-import TSCBasic
 
 extension ToolkitCommand {
   struct SetExecutable: ParsableCommand {
@@ -17,11 +16,13 @@ extension ToolkitCommand {
     var path: String = "./commands"
 
     func run() throws {
-      let fileSystem = TSCBasic.localFileSystem
-
       do {
+        let dataManager = try DataManager(
+          extensionsPath: path
+        )
+
         let toolkit = Toolkit(
-          path: fileSystem.absolutePath(for: path)
+          dataManager: dataManager
         )
 
         try toolkit.setScriptCommandsAsExecutable()

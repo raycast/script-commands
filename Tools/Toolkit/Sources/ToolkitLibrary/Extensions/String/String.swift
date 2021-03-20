@@ -3,7 +3,12 @@
 //  Copyright (c) 2020-2021 Raycast. All rights reserved.
 //
 
+import CryptoKit
 import Foundation
+
+enum StringError: Error {
+  case convertStringToData
+}
 
 extension String {
   var sanitize: String {
@@ -32,6 +37,10 @@ extension String {
     trimmingCharacters(in: .whitespacesAndNewlines)
   }
 
+  var splitByNewLine: [String] {
+    split(separator: .newLine).map(String.init)
+  }
+
   static var newLine: String {
     "\n"
   }
@@ -52,5 +61,20 @@ extension String {
     }
 
     return content
+  }
+
+  func convertToMD5() throws -> String {
+    guard let data = data(using: .utf8) else {
+      throw StringError.convertStringToData
+    }
+
+    let digest = Insecure.MD5.hash(data: data)
+
+    let value = digest.map {
+      String(format: "%02hhx", $0)
+    }
+    .joined()
+
+    return value
   }
 }

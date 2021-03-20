@@ -8,28 +8,22 @@ import TSCBasic
 
 extension Toolkit {
   public func generateDocumentation(outputJSONFilename: String, outputMarkdownFilename: String) throws {
-    guard fileSystem.exists(extensionsAbsolutePath) else {
-      throw Error.extensionsFolderNotFound(extensionsAbsolutePath.pathString)
-    }
-
-    var data = RaycastData()
+    dataManager.loadContent()
 
     try readFolderContent(
-      path: extensionsAbsolutePath,
-      parentGroups: &data.groups,
+      path: dataManager.extensionsPath,
+      parentGroups: &dataManager.data.groups,
       ignoreFilesInDir: true
     )
 
-    data.totalScriptCommands = totalScriptCommands
-
     let documentation = Documentation(
-      path: extensionsAbsolutePath,
+      path: dataManager.extensionsPath,
       jsonFilename: outputJSONFilename,
       markdownFilename: outputMarkdownFilename
     )
 
     try documentation.generateDocuments(
-      for: data
+      for: dataManager.data
     )
   }
 }
