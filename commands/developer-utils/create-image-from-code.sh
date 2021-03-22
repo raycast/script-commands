@@ -30,7 +30,7 @@ if [[ -z "$1" ]]
 then 
   TITLE="Untitled-1"
 else
-  TITLE=$1
+  TITLE=$(php -r "echo urlencode(\"$1\");")
 fi
 
 CODE=$(pbpaste | base64)
