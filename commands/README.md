@@ -29,6 +29,7 @@ This repository contains sample commands and documentation to write your own one
   - [Amphetamine](#amphetamine)
   - [Bear](#bear)
   - [Cleanshot](#cleanshot)
+  - [Deepl](#deepl)
   - [Hazeover](#hazeover)
   - [Iterm](#iterm)
   - [Safari](#safari)
@@ -107,6 +108,13 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/cleanshot/./images/scrolling-capture.png" width="20" height="20"> | [Scrolling Capture](apps/cleanshot/cleanshot-scrolling-capture.sh) | Capture any scrollable content. | [CleanShot X](https://twitter.com/CleanShot_app) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/cleanshot/./images/self-timer.png" width="20" height="20"> | [Self-Timer](apps/cleanshot/cleanshot-self-timer.sh) | Take a screenshot after a specified delay to capture the perfect moment. | [CleanShot X](https://twitter.com/CleanShot_app) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/cleanshot/./images/toggle-desktop-icons.png" width="20" height="20"> | [Toggle Desktop Icons](apps/cleanshot/cleanshot-toggle-desktop-icons.sh) | Hide clutter on your Desktop. | [CleanShot X](https://twitter.com/CleanShot_app) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Deepl
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/deepl/images/deepl.png" width="20" height="20"> | [DeepL App Translate](apps/deepl/deepl-app-translate.applescript) | Translate text in DeepL for Mac. Copies from the clipboard if no text argument is given. | [Jono Hewitt](https://github.com/jonohewitt) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/deepl/images/deepl.png" width="20" height="20"> | [DeepL Web Translate](apps/deepl/deepl-web-translate.sh) | Translate text on the DeepL website. Translates to a default language if no "to" argument is given. | [Jono Hewitt](https://github.com/jonohewitt) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Hazeover
 
@@ -558,7 +566,7 @@ This repository contains sample commands and documentation to write your own one
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/unsplash-logo-iconDark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/unsplash-logo.png" width="20" height="20"></picture> | [Search Unsplash](web-searches/search-unsplash.sh) | Search [Unsplash](https://unsplash.com). | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/wpengine-logo.png" width="20" height="20"> | [Search WP Engine Installs](web-searches/search-wpengine-installs.sh) | Search [WP Engine](https://wpengine.com) installs. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/cloudflare-logo.png" width="20" height="20"> | [Search cdnjs](web-searches/search-cdnjs.sh) | Search [cdnjs.com](https://cdnjs.com/) for library. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
-  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/./images/cargo-logo.png" width="20" height="20"> | [Search for Crate](web-searches/rust-crate.sh) | Search for a rust crate on cargos.io | [Matthew Gleich](https://mattglei.ch) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/./images/cargo-logo.png" width="20" height="20"> | [Search for Crate](web-searches/rust-crate.sh) | Search for a rust crate on crates.io | [Matthew Gleich](https://mattglei.ch) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/amazon.png" width="20" height="20"> | [Search in Amazon](web-searches/amazon.sh) | N/A | Raycast | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/app-store.png" width="20" height="20"> | [Search in App Store](web-searches/app-store.sh) | Search in App Store app | [Andrei Borisov](https://github.com/andreiborisov) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/baidu.png" width="20" height="20"> | [Search in Baidu](web-searches/search-in-baidu.sh) | N/A | Jax0rz | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
