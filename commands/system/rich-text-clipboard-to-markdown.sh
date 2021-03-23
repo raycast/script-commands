@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Dependency: This script requires the `pandoc` cli to be installed: https://pandoc.org/
+# Install via homebrew: `brew install pandoc`
+
 # @raycast.title Rich Text to Markdown
 # @raycast.author Adam Zethraeus
 # @raycast.authorURL https://github.com/adam-zethraeus
@@ -10,9 +13,6 @@
 # @raycast.mode silent
 # @raycast.packageName System
 # @raycast.schemaVersion 1
-
-# Dependency: This script requires the `pandoc` cli to be installed: https://pandoc.org/
-# Install via homebrew: `brew install pandoc`
 
 if ! command -v pandoc &> /dev/null; then
       echo "pandoc is required (https://pandoc.org/).";
