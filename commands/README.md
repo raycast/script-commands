@@ -29,6 +29,7 @@ This repository contains sample commands and documentation to write your own one
   - [Amphetamine](#amphetamine)
   - [Bear](#bear)
   - [Cleanshot](#cleanshot)
+  - [Craft](#craft)
   - [Deepl](#deepl)
   - [Fantastical](#fantastical)
   - [Hazeover](#hazeover)
@@ -109,6 +110,13 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/cleanshot/./images/scrolling-capture.png" width="20" height="20"> | [Scrolling Capture](apps/cleanshot/cleanshot-scrolling-capture.sh) | Capture any scrollable content. | [CleanShot X](https://twitter.com/CleanShot_app) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/cleanshot/./images/self-timer.png" width="20" height="20"> | [Self-Timer](apps/cleanshot/cleanshot-self-timer.sh) | Take a screenshot after a specified delay to capture the perfect moment. | [CleanShot X](https://twitter.com/CleanShot_app) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/cleanshot/./images/toggle-desktop-icons.png" width="20" height="20"> | [Toggle Desktop Icons](apps/cleanshot/cleanshot-toggle-desktop-icons.sh) | Hide clutter on your Desktop. | [CleanShot X](https://twitter.com/CleanShot_app) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Craft
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/craft/./images/craft.png" width="20" height="20"> | [Create Doc](apps/craft/craft-create-doc.template.sh) | Creates a doc in Craft | [James Lyons](https://github.com/jamesjlyons) | ✅ | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/craft/./images/craft.png" width="20" height="20"> | [Search in Workspace](apps/craft/craft-search-workspace.template.sh) | Searches in Workspace in Craft | [James Lyons](https://github.com/jamesjlyons) | ✅ | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Deepl
 
