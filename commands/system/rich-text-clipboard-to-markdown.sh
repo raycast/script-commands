@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# @raycast.title rt2md
+# @raycast.title rtf2md
 # @raycast.author Adam Zethraeus
 # @raycast.authorURL https://github.com/adam-zethraeus
-# @raycast.description Convert rich text clipboard data to markdown using pandoc
+# @raycast.description Convert rich text clipboard data to github flavoured markdown using pandoc
 #
 # @raycast.icon 📝
 #
@@ -12,4 +12,4 @@
 # @raycast.schemaVersion 1
 
 export LC_CTYPE=UTF-8
-osascript -e 'the clipboard as "HTML"'| perl -ne 'print chr foreach unpack("C*",pack("H*",substr($_,11,-3)))' | pandoc --from=html --to=markdown | pbcopy
+osascript -e 'the clipboard as "HTML"'| perl -ne 'print chr foreach unpack("C*",pack("H*",substr($_,11,-3)))' | pandoc --from=html --to=gfm | pbcopy
