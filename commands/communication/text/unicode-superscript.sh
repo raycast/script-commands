@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# @raycast.title superscript
+# @raycast.title Unicode Superscript
 # @raycast.author Adam Zethraeus
 # @raycast.authorURL https://github.com/adam-zethraeus
 # @raycast.description Convert clipboards text to fake unicode superscript
