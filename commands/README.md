@@ -39,6 +39,7 @@ This repository contains sample commands and documentation to write your own one
   - [Surfshark](#surfshark)
   - [Things](#things)
   - [Tunnelblick](#tunnelblick)
+  - [Viscosity](#viscosity)
 - [Bookmarks](#bookmarks)
 - [Browsing](#browsing)
 - [Communication](#communication)
@@ -190,6 +191,15 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tunnelblick/images/tunnelblick.png" width="20" height="20"> | [Tunnelblick: Connect All](apps/tunnelblick/tunnelblick-connect-all.applescript) | Connect all unconnected VPN configurations. | [Achille Lacoin](https://github.com/pomdtr) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tunnelblick/images/tunnelblick.png" width="20" height="20"> | [Tunnelblick: Disconnect](apps/tunnelblick/tunnelblick-disconnect.applescript) | Disconnect a VPN configuration. | [Achille Lacoin](https://github.com/pomdtr) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tunnelblick/images/tunnelblick.png" width="20" height="20"> | [Tunnelblick: Disconnect All](apps/tunnelblick/tunnelblick-disconnect-all.applescript) | Disconnect all connected VPN configurations. | [Achille Lacoin](https://github.com/pomdtr) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+
+#### Viscosity
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/viscosity/images/viscosity.png" width="20" height="20"> | [Viscosity: Connect](apps/viscosity/viscosity-connect.applescript) | Connect a VPN viscosity configuration. | [Luigi Cardito (credits Achille Lacoin https://github.com/pomdtr)](https://github.com/lcardito) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/viscosity/images/viscosity.png" width="20" height="20"> | [Viscosity: Connect All](apps/viscosity/viscosity-connect-all.applescript) | Connect all unconnected VPN configurations. | [Luigi Cardito (credits Achille Lacoin https://github.com/pomdtr)](https://github.com/lcardito) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/viscosity/images/viscosity.png" width="20" height="20"> | [Viscosity: Disconnect](apps/viscosity/viscosity-disconnect.applescript) | Disconnect a VPN configuration. | [Luigi Cardito (credits Achille Lacoin https://github.com/pomdtr)](https://github.com/lcardito) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/viscosity/images/viscosity.png" width="20" height="20"> | [Viscosity: Disconnect All](apps/viscosity/viscosity-disconnect-all.applescript) | Disconnect all connected VPN configurations. | [Luigi Cardito (credits Achille Lacoin https://github.com/pomdtr)](https://github.com/lcardito) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 ## Bookmarks
 
