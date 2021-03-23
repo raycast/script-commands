@@ -3,7 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Open Folder
-# @raycast.mode fullOutput
+# @raycast.mode silent 
 # @raycast.packageName System
 #
 # Optional parameters:
@@ -14,7 +14,7 @@
 #
 # Documentation:
 # @raycast.description Open a folder on macOS 
-# @raycast.author Your Bin Hua
+# @raycast.author Bin Hua
 # @raycast.authorURL https://github.com/hzb
 
 if [[ ${1} =~ "~" ]]
