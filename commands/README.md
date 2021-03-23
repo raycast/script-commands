@@ -30,6 +30,7 @@ This repository contains sample commands and documentation to write your own one
   - [Bear](#bear)
   - [Cleanshot](#cleanshot)
   - [Deepl](#deepl)
+  - [Fantastical](#fantastical)
   - [Hazeover](#hazeover)
   - [Iterm](#iterm)
   - [Safari](#safari)
@@ -115,6 +116,12 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/deepl/images/deepl.png" width="20" height="20"> | [DeepL App Translate](apps/deepl/deepl-app-translate.applescript) | Translate text in DeepL for Mac. Copies from the clipboard if no text argument is given. | [Jono Hewitt](https://github.com/jonohewitt) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/deepl/images/deepl.png" width="20" height="20"> | [DeepL Web Translate](apps/deepl/deepl-web-translate.sh) | Translate text on the DeepL website. Translates to a default language if no "to" argument is given. | [Jono Hewitt](https://github.com/jonohewitt) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Fantastical
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/fantastical/./images/fantastical.png" width="20" height="20"> | [Create Event](apps/fantastical/create-event.applescript) | Create an event in Fantastical | [Robert Cooper](https://github.com/robertcoopercode) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 #### Hazeover
 
