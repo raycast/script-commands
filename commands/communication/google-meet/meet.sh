@@ -43,8 +43,6 @@ while true; do
 
   get_url
 
-  echo $URL
-
   # First, we'll check if we are still on the Google Meet page.
   if [[ $URL != "https://meet.google.com"* ]]; then
     continue
