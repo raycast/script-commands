@@ -270,6 +270,7 @@ This repository contains sample commands and documentation to write your own one
   | ⏱ | [Convert Human-Readable Date To Epoch](conversions/human-date-to-epoch.sh) | Convert human-readable date to timestamp epoch. | [Siyuan Zhang](https://github.com/kastnerorz) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🎨 | [Hex to RGB](conversions/hex-to-rgb.sh) | Convert hexadecimal color value to RGB value. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🎨 | [Hex to RGBA](conversions/hex-to-rgba.sh) | Convert hexadecimal color value to RGBA value. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🦸‍♀️ | [Unicode Superscript](conversions/unicode-superscript.sh) | Convert clipboards text to fake unicode superscript | [Adam Zethraeus](https://github.com/adam-zethraeus) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 📅 | [What Day Is...](conversions/what-day-is.py) | Return the day of the week on which a particular date falls. | [Phil Salant](https://github.com/PSalant726) | ✅ |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
 
 #### Change Case
