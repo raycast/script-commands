@@ -48,6 +48,7 @@ This repository contains sample commands and documentation to write your own one
   - [Gmail](#gmail)
   - [Slack](#slack)
 - [Conversions](#conversions)
+  - [Change Case](#change-case)
 - [Dashboard](#dashboard)
   - [Countdowns](#countdowns)
 - [Developer Utils](#developer-utils)
@@ -270,6 +271,17 @@ This repository contains sample commands and documentation to write your own one
   | 🎨 | [Hex to RGB](conversions/hex-to-rgb.sh) | Convert hexadecimal color value to RGB value. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🎨 | [Hex to RGBA](conversions/hex-to-rgba.sh) | Convert hexadecimal color value to RGBA value. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 📅 | [What Day Is...](conversions/what-day-is.py) | Return the day of the week on which a particular date falls. | [Phil Salant](https://github.com/PSalant726) | ✅ |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
+
+#### Change Case
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/conversions/change-case/./images/camelcase-dark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/conversions/change-case/./images/camelcase-light.png" width="20" height="20"></picture> | [Camel Case](conversions/change-case/camelcase.py) | Change to clipboard text to camel case | [Robert Cooper](https://github.com/robertcoopercode) |  |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
+  | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/conversions/change-case/./images/kebabcase-dark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/conversions/change-case/./images/kebabcase-light.png" width="20" height="20"></picture> | [Kebab Case](conversions/change-case/kebabcase.py) | Change to clipboard text to kebab case | [Robert Cooper](https://github.com/robertcoopercode) |  |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
+  | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/conversions/change-case/./images/lowercase-dark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/conversions/change-case/./images/lowercase-light.png" width="20" height="20"></picture> | [Lowercase](conversions/change-case/lowercase.py) | Change clipboard text to lowercase | [Robert Cooper](https://github.com/robertcoopercode) |  |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
+  | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/conversions/change-case/./images/snakecase-dark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/conversions/change-case/./images/snakecase-light.png" width="20" height="20"></picture> | [Snake Case](conversions/change-case/snakecase.py) | Change to clipboard text to snake case | [Robert Cooper](https://github.com/robertcoopercode) |  |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
+  | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/conversions/change-case/./images/titlecase-dark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/conversions/change-case/./images/titlecase-light.png" width="20" height="20"></picture> | [Title Case](conversions/change-case/titlecase.py) | Change to clipboard text to title case | [Robert Cooper](https://github.com/robertcoopercode) |  |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
+  | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/conversions/change-case/./images/uppercase-dark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/conversions/change-case/./images/uppercase-light.png" width="20" height="20"></picture> | [Uppercase](conversions/change-case/uppercase.py) | Change to clipboard text to uppercase | [Robert Cooper](https://github.com/robertcoopercode) |  |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
 
 ## Dashboard
 
