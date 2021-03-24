@@ -10,7 +10,7 @@
 # @raycast.mode silent
 # @raycast.packageName System
 # @raycast.schemaVersion 1
-# @raycast.argument1 { "type": "text", "placeholder": "Text to ˢᵘᵖᵉʳˢᶜʳᶦᵖᵗ", "optional": false, "percentEncoded": false}
+# @raycast.argument1 { "type": "text", "placeholder": "Text to superscript", "optional": false, "percentEncoded": false}
 
 JXA=$(cat <<-END
 function superscript(text) {
