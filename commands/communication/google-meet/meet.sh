@@ -15,7 +15,7 @@ MAX_TRIES=10
 TRIES=0
 
 DEFAULT_BROWSER=$(defaults read ~/Library/Preferences/com.apple.LaunchServices/com.apple.launchservices.secure.plist | awk -F'\"' '/http;/{print window[(NR)-1]}{window[NR]=$2}')
-echo $DEFAULT_BROWSER
+
 get_url () {
   if [ "$DEFAULT_BROWSER" = "com.google.chrome" ]; then
     URL=$(osascript -e 'tell application "Chrome" to URL of active tab of front window as text')
