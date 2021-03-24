@@ -26,6 +26,9 @@ get_url () {
     echo "There is no support for Firefox yet. Please copy the URL manually"
     exit 0
   fi
+
+  echo "Unsupported browser detected. Please copy the URL manually"
+  exit 0
 }
 
 while true; do
