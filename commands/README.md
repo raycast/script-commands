@@ -34,6 +34,7 @@ This repository contains sample commands and documentation to write your own one
   - [Fantastical](#fantastical)
   - [Hazeover](#hazeover)
   - [Iterm](#iterm)
+  - [Mullvad](#mullvad)
   - [Safari](#safari)
   - [Sip](#sip)
   - [Surfshark](#surfshark)
@@ -145,6 +146,17 @@ This repository contains sample commands and documentation to write your own one
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/iterm/images/iterm.png" width="20" height="20"> | [Run Shell Command](apps/iterm/iterm-run-shell-command.applescript) | N/A | [Andrei Borisov](https://github.com/andreiborisov) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+
+#### Mullvad
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/mullvad/images/mullvad.png" width="20" height="20"> | [Connect](apps/mullvad/connect.sh) | Connect the Mullvad VPN tunnel using the most recent configuration settings. | [Phil Salant](https://github.com/PSalant726) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/mullvad/images/mullvad.png" width="20" height="20"> | [Connect to Location](apps/mullvad/location.sh) | Connect the Mullvad VPN tunnel using the specified location. | [Phil Salant](https://github.com/PSalant726) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/mullvad/images/mullvad.png" width="20" height="20"> | [Disconnect](apps/mullvad/disconnect.sh) | Disconnect from the Mullvad VPN tunnel. | [Phil Salant](https://github.com/PSalant726) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/mullvad/images/mullvad.png" width="20" height="20"> | [Mullvad Status](apps/mullvad/status.sh) | Display the current status of the Mullvad VPN tunnel connection. | [Phil Salant](https://github.com/PSalant726) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/mullvad/images/mullvad.png" width="20" height="20"> | [Reconnect](apps/mullvad/reconnect.sh) | Force the client to reconnect to the Mullvad VPN tunnel. | [Phil Salant](https://github.com/PSalant726) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/mullvad/images/mullvad.png" width="20" height="20"> | [Search Countries, Cities, and Hostnames](apps/mullvad/search.sh) | Search the list of available entities to which a Mullvad VPN tunnel connection can be made. | [Phil Salant](https://github.com/PSalant726) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Safari
 
