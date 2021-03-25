@@ -3,7 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Open Folder
-# @raycast.mode silent 
+# @raycast.mode silent
 # @raycast.packageName System
 #
 # Optional parameters:
