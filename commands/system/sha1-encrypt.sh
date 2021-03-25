@@ -3,8 +3,9 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title SHA1 Encrypt
-# @raycast.mode fullOutput
+# @raycast.mode silent
 # @raycast.packageName System
+# Needs to install md5sha1sum, install it via Homebrew，`brew install md5sha1sum`
 #
 # Optional parameters:
 # @raycast.icon 🔐
