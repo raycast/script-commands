@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title MD5 Encrypt
+# @raycast.title SHA1 Hash
 # @raycast.mode silent
 # @raycast.packageName System
 #
@@ -12,10 +12,10 @@
 # @raycast.argument1 { "type": "text", "placeholder": "text", "optional": false }
 #
 # Documentation:
-# @raycast.description Encrypt any text data by using MD5 
+# @raycast.description Hashing any text data by using SHA1 
 # @raycast.author Bin Hua
 # @raycast.authorURL https://github.com/hzb
 
 
-echo -n $1 | md5 -r | pbcopy
+echo -n $1 | shasum | tr -d '-' | pbcopy
 echo "Copied to clipboard"

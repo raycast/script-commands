@@ -2,10 +2,9 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title SHA1 Encrypt
+# @raycast.title MD5 Hash
 # @raycast.mode silent
 # @raycast.packageName System
-# Needs to install md5sha1sum, install it via Homebrew，`brew install md5sha1sum`
 #
 # Optional parameters:
 # @raycast.icon 🔐
@@ -13,10 +12,10 @@
 # @raycast.argument1 { "type": "text", "placeholder": "text", "optional": false }
 #
 # Documentation:
-# @raycast.description Encrypt any text data by using SHA1 
+# @raycast.description Hasing any text data by using MD5 
 # @raycast.author Bin Hua
 # @raycast.authorURL https://github.com/hzb
 
 
-echo -n $1 | sha1sum | tr -d '-' | pbcopy
+echo -n $1 | md5 -r | pbcopy
 echo "Copied to clipboard"
