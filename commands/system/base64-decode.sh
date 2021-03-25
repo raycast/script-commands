@@ -7,7 +7,7 @@
 # @raycast.packageName System
 #
 # Optional parameters:
-# @raycast.icon 🔐
+# @raycast.icon 🔓
 # @raycast.needsConfirmation false
 # @raycast.argument1 { "type": "text", "placeholder": "text", "optional": false }
 #
