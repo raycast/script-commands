@@ -11,7 +11,7 @@
 # @raycast.icon 📝
 #
 # @raycast.mode silent
-# @raycast.packageName Communication
+# @raycast.packageName Conversions
 # @raycast.schemaVersion 1
 
 if ! command -v pandoc &> /dev/null; then
