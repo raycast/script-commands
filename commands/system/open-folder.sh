@@ -19,7 +19,7 @@
 
 if [[ ${1} =~ "~" ]]
 then
-	open $(sed -r 's/~/\/Users\/'$USER'/' <<< "$1")
+	open $(sed -r 's#~#'$HOME'#' <<< "$1")
 else
 	open ${1}
 fi
