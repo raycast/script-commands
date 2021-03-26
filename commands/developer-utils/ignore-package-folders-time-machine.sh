@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Ignore package folders from Time Machine
+# @raycast.title Ignore Package Folders from Time Machine
 # @raycast.mode inline
 # @raycast.refreshTime 1h
 # @raycast.packageName Developer Utilities
