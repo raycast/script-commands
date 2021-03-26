@@ -544,6 +544,8 @@ This repository contains sample commands and documentation to write your own one
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | 💻 | [Add Spacer to Dock](system/add-spacer-to-dock.sh) | Adds an invisible icon to the Dock as a separator. | [Alexandru Turcanu](https://github.com/Pondorasti) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🔓 | [Base64 Decode](system/base64-decode.sh) | Decode the base64 string  | [Bin Hua](https://github.com/hzb) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🔐 | [Base64 Encode](system/base64-encode.sh) | Encode any text data by using base64 | [Bin Hua](https://github.com/hzb) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 📅 | [Copy Availability](system/copy-availability.swift) | Copies the calendar availability of today. | Raycast |  |  | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
   | 💁 | [Copy Last Download](system/copy-last-download.swift) | Copy the last downloaded file to the clipboard. | Raycast |  |  | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
   | 📸 | [Copy Last Screenshot](system/copy-last-screenshot.swift) | Copies the last screenshot to the clipboard. | Raycast |  |  | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
@@ -553,6 +555,7 @@ This repository contains sample commands and documentation to write your own one
   | 🗑 | [Empty Trash](system/empty-trash.applescript) | Empty the trash. | Raycast |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 📈 | [Largest CPU Process](system/largest-cpu-process.sh) | Report process with largest system CPU usage. | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 📈 | [Largest RAM Process](system/largest-ram-process.sh) | Report process with largest system RAM usage. | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🔐 | [MD5 Hash](system/md5-hash.sh) | Hasing any text data by using MD5  | [Bin Hua](https://github.com/hzb) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/system/images/move-downloads-to-trash.png" width="20" height="20"> | [Move Downloads to Trash](system/move-downloads-to-trash.applescript) | N/A | Jax0rz |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 📶 | [Network Status](system/network-status.sh) | Get current network connections. | [Alexandru Turcanu](https://github.com/Pondorasti) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 📁 | [Open Folder](system/open-folder.sh) | Open a folder on macOS  | [Bin Hua](https://github.com/hzb) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
@@ -565,6 +568,7 @@ This repository contains sample commands and documentation to write your own one
   | 💀 | [Restart the Dock](system/restart-dock.sh) | Restart the Dock | [Jordi Clement](https://github.com/jordicl) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 💀 | [Restart the Finder](system/restart-finder.sh) | Restart the Finder | [Jordi Clement](https://github.com/jordicl) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🔡 | [Running processes](system/list-processes.rb) | List running app showing their process id, CPU usage, name, and optionally the process path. | [Roland Leth](https://runtimesharks.com) | ✅ |  | <img src="images/icon-ruby.png" width="20" height="20" title="Ruby"> |
+  | 🔐 | [SHA1 Hash](system/sha1-hash.sh) | Hashing any text data by using SHA1  | [Bin Hua](https://github.com/hzb) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🎨 | [Sample Colour](system/sample-colour.swift) | Sample a colour from anywhere on your screen. | [Jesse Claven](https://github.com/jesse-c) |  |  | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
   | 🌀 | [Screen Saver](system/screensaver.applescript) | A script command to start your current screen saver. | [Valentin Chrétien](https://twitter.com/valentinchrt) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🧭 | [Set Frontmost App as Default Browser](system/default-browser-front-most-app.applescript) | Set Frontmost Web Browser as Default Browser. | [Yohanes Bandung Bondowoso](https://github.com/ybbond) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
