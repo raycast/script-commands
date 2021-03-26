@@ -2,20 +2,20 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title SHA1 Hash
+# @raycast.title Base64 Decode
 # @raycast.mode silent
-# @raycast.packageName System
+# @raycast.packageName Developer Utilities
 #
 # Optional parameters:
-# @raycast.icon 🔐
+# @raycast.icon 🔓
 # @raycast.needsConfirmation false
 # @raycast.argument1 { "type": "text", "placeholder": "text", "optional": false }
 #
 # Documentation:
-# @raycast.description Hashing any text data by using SHA1 
+# @raycast.description Decode the base64 string 
 # @raycast.author Bin Hua
 # @raycast.authorURL https://github.com/hzb
 
 
-echo -n $1 | shasum | tr -d '-' | pbcopy
+echo $1 | base64 --decode | pbcopy
 echo "Copied to clipboard"

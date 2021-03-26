@@ -4,7 +4,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title MD5 Hash
 # @raycast.mode silent
-# @raycast.packageName System
+# @raycast.packageName Developer Utilities
 #
 # Optional parameters:
 # @raycast.icon 🔐
@@ -12,7 +12,7 @@
 # @raycast.argument1 { "type": "text", "placeholder": "text", "optional": false }
 #
 # Documentation:
-# @raycast.description Hasing any text data by using MD5 
+# @raycast.description Hashing any text data by using MD5 
 # @raycast.author Bin Hua
 # @raycast.authorURL https://github.com/hzb
 
