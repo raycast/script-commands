@@ -4,3 +4,4 @@
 *.xcodeproj
 xcuserdata/
 .swiftpm
+.idea
