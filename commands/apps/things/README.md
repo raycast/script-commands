@@ -14,4 +14,4 @@ Stay on top of your to-dos with this collection of scripts that control the [Thi
 - **Search To-Dos:** Search To-Dos with a query.
 - **Today:** Get an overview of your completed tasks.
 
-> **Pro tip:** Add the *Curent To-Do* or the *Today* script to your favorites to have it always visible when opening Raycast.
+> **Pro tip:** Add the *Current To-Do* or the *Today* script to your favorites to have it always visible when opening Raycast.
