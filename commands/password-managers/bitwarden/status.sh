@@ -48,7 +48,7 @@ delete_token() {
     security delete-generic-password -a ${USER} -s raycast-bitwarden > /dev/null 2>&1
   fi
 
-  unset $token
+  unset token
 }
 
 session=""
@@ -71,13 +71,13 @@ case $(bw --raw status $session 2> /dev/null | jq --raw-output '.status') in
 
   unlocked)
     echo "✅  Unlocked"
-    unset $token
+    unset token
     exit 0
     ;;
 
   *)
     echo "⚠️  An error occurred. Please try again."
-    unset $token
+    unset token
     exit 1
     ;;
 esac

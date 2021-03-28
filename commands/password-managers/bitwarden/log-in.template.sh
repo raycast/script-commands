@@ -44,7 +44,7 @@ status=$?
 
 if [ $status -eq 0 ]; then
   security add-generic-password -U -a ${USER} -s raycast-bitwarden -j "Bitwarden session token for use with Raycast" -w $out
-  unset $out
+  unset out
   echo "Login successful! Your session is now unlocked."
   exit 0
 else
