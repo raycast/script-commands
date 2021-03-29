@@ -16,6 +16,7 @@ A package of script commands to interact with [Bitwarden Vaults](https://bitward
   * [Create a Text Send](#create-a-text-send)
   * [Receive a Text Send](#receive-a-text-send)
   * [List All Text Sends](#list-all-text-sends)
+  * [Edit a Send](#edit-a-send)
 - [Appx: About Authentication](#appx--about-authentication)
   * [Session Tokens](#session-tokens)
     + [Session Token Manipulation](#session-token-manipulation)
@@ -23,7 +24,7 @@ A package of script commands to interact with [Bitwarden Vaults](https://bitward
 
 ## Dependencies
 
-All authentication and vault-related commands in this package require the [Bitwarden CLI](https://bitwarden.com/help/article/cli/) v1.14.0 or later. Bitwarden Send-related commands require v1.15.1 or later. The _Bitwarden Status_, _Search Vault Items_, _Copy First Matching Password_, _Create a Text Send_, _Receive a Text Send_, and _List All Text Sends_ commands also require the [`jq` utility](https://stedolan.github.io/jq/).
+All authentication and vault-related commands in this package require the [Bitwarden CLI](https://bitwarden.com/help/article/cli/) v1.14.0 or later. Bitwarden Send-related commands require v1.15.1 or later. The _Bitwarden Status_, _Search Vault Items_, _Copy First Matching Password_, and Bitwarden Send-related commands also require the [`jq` utility](https://stedolan.github.io/jq/).
 
 Install the latest version of both dependencies via homebrew:
 
@@ -141,6 +142,30 @@ This command executes in `fullOutput` mode and displays the title and text conte
 <img src="./images/list-sends.png">
 
 This command executes in `fullOutput` mode and displays all text sends created in the currently unlocked Bitwarden account. Pass "y" as the value of the "Show Hidden Text?" argument to display the text content of any hidden Sends.
+
+### Edit a Send
+
+<img src="./images/edit-send.png">
+
+This command executes in `fullOutput` mode and displays the updated Send after making the desired modifications. To determine the correct ID of the Send to update, use the _List All Text Sends_ command. The possible "Attribute"s that can be updated are:
+
+| Value in _List All Text Sends_ Output | Value to Pass as "Attribute" to Update | Notes                                                                                                                                                                                                                                                 |
+|---------------------------------------|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `name`                                | name                                   |                                                                                                                                                                                                                                                       |
+| `id`                                  |                                        | Although the [`bw send edit` command](https://bitwarden.com/help/article/send-cli/#edit) documentation states that it's possible to edit a Send's ID, a bug in v1.15.1 prevents this from being possible.                                             |
+| `text`                                | text                                   |                                                                                                                                                                                                                                                       |
+| `deletionDate`                        | deletionDate                           | Use ISO-8601 date format.                                                                                                                                                                                                                             |
+| `expirationDate`                      | expirationDate                         | Use ISO-8601 date format.                                                                                                                                                                                                                             |
+| `maxAccessCount`                      | maxAccessCount                         |                                                                                                                                                                                                                                                       |
+| `accessCount`                         | accessCount                            |                                                                                                                                                                                                                                                       |
+| `passwordSet`                         |                                        | It is not currently possible to remove a password from a Send using the `bw` CLI.                                                                                                                                                                     |
+| `notes`                               | notes                                  |                                                                                                                                                                                                                                                       |
+| `url`                                 | url                                    |                                                                                                                                                                                                                                                       |
+|                                       | password                               | A Send's password is never displayed in the JSON response from the CLI. You can still update a Send's password using this script command. Note that attempting to update a password to `""` (to effectively remove the password) will throw an error. |
+|                                       | disabled                               | (Boolean) Controls whether the Send can be received by others.                                                                                                                                                                                        |
+|                                       | hidden                                 | (Boolean) Controls whether the Send's text is hidden by default.                                                                                                                                                                                      |
+
+> Values not present in the _Value to Pass as "Attribute" to Update_ column cannot be modified.
 
 ## Appx: About Authentication
 
