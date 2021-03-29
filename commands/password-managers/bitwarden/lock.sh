@@ -7,7 +7,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Lock Vault
+# @raycast.title Lock Session
 # @raycast.mode silent
 #
 # Optional parameters:
@@ -17,7 +17,7 @@
 # Documentation
 # @raycast.author Phil Salant
 # @raycast.authorURL https://github.com/PSalant726
-# @raycast.description Lock a Bitwarden vault.
+# @raycast.description Lock a Bitwarden session.
 
 if ! command -v bw &> /dev/null; then
   echo "The Bitwarden CLI is not installed."
