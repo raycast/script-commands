@@ -15,6 +15,7 @@ A package of script commands to interact with [Bitwarden Vaults](https://bitward
 - [Bitwarden Send Command Usage](#bitwarden-send-command-usage)
   * [Create a Text Send](#create-a-text-send)
   * [View a Text Send](#view-a-text-send)
+  * [List All Text Sends](#list-all-text-sends)
 - [Appx: About Authentication](#appx--about-authentication)
   * [Session Tokens](#session-tokens)
     + [Session Token Manipulation](#session-token-manipulation)
@@ -22,7 +23,7 @@ A package of script commands to interact with [Bitwarden Vaults](https://bitward
 
 ## Dependencies
 
-All authentication and vault-related commands in this package require the [Bitwarden CLI](https://bitwarden.com/help/article/cli/) v1.14.0 or later. Bitwarden Send-related commands require v1.15.1 or later. The _Bitwarden Status_, _Search Vault Items_, _Copy First Matching Password_, _Create a Text Send_, and _View a Text Send_ commands also require the [`jq` utility](https://stedolan.github.io/jq/).
+All authentication and vault-related commands in this package require the [Bitwarden CLI](https://bitwarden.com/help/article/cli/) v1.14.0 or later. Bitwarden Send-related commands require v1.15.1 or later. The _Bitwarden Status_, _Search Vault Items_, _Copy First Matching Password_, _Create a Text Send_, _View a Text Send_, and _List All Text Sends_ commands also require the [`jq` utility](https://stedolan.github.io/jq/).
 
 Install the latest version of both dependencies via homebrew:
 
@@ -132,6 +133,12 @@ This command executes in `silent` mode, creates a new hidden text Send with the 
 <img src="./images/view-text-send.png">
 
 This command executes in `fullOutput` mode and displays the title and text content of the specified text Send. If the Send is password protected, provide the password as the value of the "Password" argument. If the Send's text is hidden by default, pass "y" as the value of the "Show Hidden Text?" argument to display it.
+
+### List All Text Sends
+
+<img src="./images/list-sends.png">
+
+This command executes in `fullOutput` mode and displays all text sends created in the currently unlocked Bitwarden account. Pass "y" as the value of the "Show Hidden Text?" argument to display the text content of any hidden Sends.
 
 ## Appx: About Authentication
 
