@@ -17,7 +17,7 @@
 # Documentation
 # @raycast.author Phil Salant
 # @raycast.authorURL https://github.com/PSalant726
-# @raycast.description Log out of a Bitwarden vault.
+# @raycast.description Log out of Bitwarden.
 
 if ! command -v bw &> /dev/null; then
   echo "The Bitwarden CLI is not installed."
