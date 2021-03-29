@@ -7,7 +7,7 @@
 # Install via homebrew: `brew install bitwarden-cli jq`
 
 # IMPORTANT:
-# This script only displays accurate vault statuses when you have
+# This script only displays accurate session statuses when you have
 # previously used the `Log In`, `Unlock`, `Lock`, and `Log Out`
 # scripts within this package. If you're getting unexpected results
 # or errors, try running the `Log Out` script, or:
@@ -17,7 +17,7 @@
 # Parameters
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Vault Status
+# @raycast.title Bitwarden Status
 # @raycast.mode inline
 
 # Conditional parameters:
@@ -30,7 +30,7 @@
 # Documentation:
 # @raycast.author Phil Salant
 # @raycast.authorURL https://github.com/PSalant726
-# @raycast.description Display the authentication and lock status of the user's Bitwarden vault.
+# @raycast.description Display the authentication and lock status of the user's Bitwarden session.
 
 if ! command -v bw &> /dev/null; then
   echo "⚠️  The Bitwarden CLI is not installed"
@@ -48,7 +48,7 @@ delete_token() {
     security delete-generic-password -a ${USER} -s raycast-bitwarden > /dev/null 2>&1
   fi
 
-  unset $token
+  unset token
 }
 
 session=""
@@ -71,13 +71,13 @@ case $(bw --raw status $session 2> /dev/null | jq --raw-output '.status') in
 
   unlocked)
     echo "✅  Unlocked"
-    unset $token
+    unset token
     exit 0
     ;;
 
   *)
     echo "⚠️  An error occurred. Please try again."
-    unset $token
+    unset token
     exit 1
     ;;
 esac
