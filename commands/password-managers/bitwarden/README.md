@@ -17,6 +17,7 @@ A package of script commands to interact with [Bitwarden Vaults](https://bitward
   * [Receive a Text Send](#receive-a-text-send)
   * [List All Text Sends](#list-all-text-sends)
   * [Edit a Send](#edit-a-send)
+  * [Delete a Send](#delete-a-send)
 - [Appx: About Authentication](#appx--about-authentication)
   * [Session Tokens](#session-tokens)
     + [Session Token Manipulation](#session-token-manipulation)
@@ -24,7 +25,7 @@ A package of script commands to interact with [Bitwarden Vaults](https://bitward
 
 ## Dependencies
 
-All authentication and vault-related commands in this package require the [Bitwarden CLI](https://bitwarden.com/help/article/cli/) v1.14.0 or later. Bitwarden Send-related commands require v1.15.1 or later. The _Bitwarden Status_, _Search Vault Items_, _Copy First Matching Password_, and Bitwarden Send-related commands also require the [`jq` utility](https://stedolan.github.io/jq/).
+All authentication and vault-related commands in this package require the [Bitwarden CLI](https://bitwarden.com/help/article/cli/) v1.14.0 or later. Bitwarden Send-related commands require v1.15.1 or later. The _Bitwarden Status_, _Search Vault Items_, _Copy First Matching Password_, and Bitwarden Send-related commands (except _Delete a Send_) also require the [`jq` utility](https://stedolan.github.io/jq/).
 
 Install the latest version of both dependencies via homebrew:
 
@@ -166,6 +167,12 @@ This command executes in `fullOutput` mode and displays the updated Send after m
 |                                       | hidden                                 | (Boolean) Controls whether the Send's text is hidden by default.                                                                                                                                                                                      |
 
 > Values not present in the _Value to Pass as "Attribute" to Update_ column cannot be modified.
+
+### Delete a Send
+
+<img src="./images/delete-send.png">
+
+This command executes in `silent` mode and deletes the Send with the passed ID value. To retrieve the ID value of a Send to delete, use the _List All Text Sends_ command.
 
 ## Appx: About Authentication
 
