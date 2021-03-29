@@ -8,7 +8,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title View a Text Send
+# @raycast.title Receive a Text Send
 # @raycast.mode fullOutput
 #
 # Optional parameters:
