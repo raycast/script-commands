@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # @raycast.schemaVersion 1
-# @raycast.title Create Google Meet meeting
+# @raycast.title Open Google Meet
 # @raycast.mode silent
 # @raycast.packageName Google
 # @raycast.icon images/logo.png
