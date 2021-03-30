@@ -17,7 +17,14 @@
 # @raycast.authorURL https://github.com/kastnerorz
 
 epoch=${1}
-human=$(echo `date -r $epoch "+%F %T"`)
-echo -n "$human" | pbcopy
+size=${#epoch}
+if [[ $size == "10" ]];
+then
+        human=$(echo `date -r $epoch "+%F %T"`)
+        echo -n "$human" | pbcopy
+else
+        human=$(echo `date -r $(($epoch/1000)) "+%F %T"`)
+        echo -n "$human" | pbcopy
+fi
 
-echo "Converted $epoch to $human" 
+echo "Converted $epoch to $human"
