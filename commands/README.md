@@ -48,6 +48,7 @@ This repository contains sample commands and documentation to write your own one
   - [Cloudup](#cloudup)
   - [Emojis](#emojis)
   - [Gmail](#gmail)
+  - [Google Meet](#google-meet)
   - [Slack](#slack)
 - [Conversions](#conversions)
   - [Change Case](#change-case)
@@ -271,6 +272,12 @@ This repository contains sample commands and documentation to write your own one
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/gmail/images/google-gmail-logo.png" width="20" height="20"> | [Gmail](communication/gmail/google-gmail.sh) | Open gmail.com in the default browser | [Michael Aigner](https://github.com/tonka3000) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Google Meet
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/google-meet/images/logo.png" width="20" height="20"> | [Open Google Meet](communication/google-meet/meet.sh) | Start a Google Meet session | [Mujib Azizi](https://github.com/mujibazizi) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Slack
 
