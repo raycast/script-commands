@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Quit AirDrop
+# @raycast.title Kill AirDrop Processes
 # @raycast.mode silent
 # @raycast.packageName System
 
@@ -10,9 +10,8 @@
 # @raycast.icon 🔫
 
 # @Documentation:
-# @raycast.description Quits all AirDrop processes
+# @raycast.description Force kill all AirDrop processes
 # @raycast.author Linus Salzmann
 # @raycast.authorURL https://github.com/linus569
 
 killall -9 'AirDrop'
-
