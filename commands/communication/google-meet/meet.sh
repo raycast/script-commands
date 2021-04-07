@@ -19,6 +19,8 @@ DEFAULT_BROWSER=$(defaults read ~/Library/Preferences/com.apple.LaunchServices/c
 get_url () {
   if [ "$DEFAULT_BROWSER" = "com.google.chrome" ]; then
     URL=$(osascript -e 'tell application "Chrome" to URL of active tab of front window as text')
+  elif [ "$DEFAULT_BROWSER" = "com.brave.browser" ]; then
+    URL=$(osascript -e 'tell application "Brave" to URL of active tab of front window as text')
   elif [ "$DEFAULT_BROWSER" = "com.apple.safari" ]; then
     URL=$(osascript -e 'tell application "Safari" to return URL of front document')
   elif [ "$DEFAULT_BROWSER" = "org.mozilla.firefox" ]; then
