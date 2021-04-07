@@ -5,7 +5,7 @@ Raycast allows you to set custom input fields into your script to enable you to 
 
 Use `argument[1..3]` metadata to specify custom arguments that will be displayed as inputs in the search bar when the script is selected.
 
-![Custom arguments](./images/screenshots/custom-arguments.png)
+![Custom arguments](/images/screenshots/custom-arguments.png)
  The value of the argument metadata parameter should be valid json with these fields:
 | Field | Description | Required | App Version |
 | ----- | ----------- | -------- | ----------- |
