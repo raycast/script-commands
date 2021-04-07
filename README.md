@@ -1,4 +1,4 @@
-<div>
+<div align="center">
   
 ![Header](images/screenshots/readme-header.png)
 <a href="https://github.com/raycast/script-commands">
