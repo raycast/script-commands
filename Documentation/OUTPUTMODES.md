@@ -1,3 +1,7 @@
+##Output modes
+
+Here, you can browse the range of ways that Raycast lets you view your data, whether you need to display a range of items such as open pull requests, or whether you just need confirmation that your script has run successfully.
+
 In `fullOutput` the entire output is presented on a separate view, similar to a terminal window. This is handy when your script generates output to consume.
 
 ![fullOutput mode](./images/screenshots/fulloutput.png)
