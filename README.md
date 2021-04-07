@@ -103,11 +103,10 @@ else
 <details>
   <summary>My script isn't appearing in Raycast!</summary>
 
-* Make sure your script file is executable (you can run `file <path to script>` command in terminal to check it). To make the script executable, run: `chmod +x <path to script>`
+
 * Ensure the filename doesn't contain `.template.` string
 * Check that all required metadata parameters are provided. See the table above which parameters are required.
 * Ensure you use either `#` or `//` comments for metadata parameters
-* Reload the scripts, via 1) the "Reload" button in preferences or 2), the "Reload Script Directories" command in root search (v0.33+), or 3) automatically via the activated "Auto Reload" feature in preferences (v0.33+)
 * 💡 If nothing helps, try to go step by step from a [template](https://github.com/raycast/script-commands/tree/master/templates) Script Command or use one of the examples in this repo.
 </details>
 
