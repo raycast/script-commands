@@ -35,7 +35,9 @@ Colours are adapted to current users apperance settings (light and dark themes)
 | Magenta | 35 | 45 | #9A1B6E | #CF2F98 |
 | Cyan | 36 | 46 | #3EB8BF | #52EEE5 |
 | White | 97 | 107 | #FFFFFF | #FFFFFF |
+
 **Other supported codes:**
+
 | Code | Name |
 | ---- | ---- |
 | 0 | Reset (normal) |
