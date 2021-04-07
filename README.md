@@ -11,8 +11,6 @@
     <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/raycastapp?style=for-the-badge"height="30" width="auto" style="border-radius:1em ">
   </a>
   </div>
-  
-  ![Header](images/screenshots/readme-header.png)
 
 </div>
 
