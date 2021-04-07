@@ -58,7 +58,7 @@ if [ -z $2 ]; then
    toLang=$defaultLang
 fi
 
-if [ -z $3]; then
+if [ -z $3 ]; then
    fromLang=$defaultLang
 fi
 
