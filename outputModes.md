@@ -25,15 +25,33 @@ We support colours for `inline` and `fullOutput` mode scripts for you to customi
 Escape code is in linux format: `0x1B`
 
 Colours are adapted to current users apperance settings (light and dark themes)
-
+| Colour | # Foreground | # Background | Light | Dark |
+| ------ | ------------ | ------------ | ----- | ---- |
+| Black | 30 | 40 | #000000 | #000000 |
+| Red | 31 | 41 | #B12424 | #FF6363 |
+| Green | 32 | 42 | #006B4F | #59D499 |
+| Yellow | 33 | 43 | #F8A300 | #FFC531 |
+| Blue | 34 | 44 | #138AF2 | #56C2FF |
+| Magenta | 35 | 45 | #9A1B6E | #CF2F98 |
+| Cyan | 36 | 46 | #3EB8BF | #52EEE5 |
+| White | 97 | 107 | #FFFFFF | #FFFFFF |
 **Other supported codes:**
+| Code | Name |
+| ---- | ---- |
+| 0 | Reset (normal) |
+| 4 | Underline |
+| 9 | Crossed out |
+| 24 | Not underlined |
+| 29 | Not crossed out |
 
-[Untitled](https://www.notion.so/550b81f90f9c48e385feba68a363abb6)
-
-Unsupported terminal codes will be stripped out from output and ignored.
+💡 Unsupported terminal codes will be stripped out from output and ignored.
 
 **Example:**
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b7507f62-3718-4e51-b3ee-c2659d73f3cc/colours.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b7507f62-3718-4e51-b3ee-c2659d73f3cc/colours.png)
+![colours inline mode](./images/screenshots/colour-example.png)
+| Script | Code |
+| ------ | ---- |
+| bash | `echo -e '\\033[31;42mred text on green background\\033[0m'` |
+| bash tput | `export TERM=linux; echo "$(tput setaf 1)$(tput setab 2)red text on green background$(tput sgr0)";` |
+| swift | `print("\\u{001B}[31;42mred text on green background\\u{001B}[0m")` |
 
-[Untitled](https://www.notion.so/40a837370fbc4eb68d41efbf9061de20)
