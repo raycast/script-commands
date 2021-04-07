@@ -11,7 +11,6 @@
   </div>
 
 <br>
-<br>
 
   <h1>Raycast Script Commands</h1>
   
