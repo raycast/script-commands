@@ -1,6 +1,12 @@
 <div align="center">
   <img alt="Raycast Logo" src="images/logo.png" height="260"/>
   
+  <h1>Raycast Script Commands</h1>
+
+  [Raycast](https://raycast.com/) lets you control your tools with a few keystrokes and installing script commands makes it possible to execute commands from anywhere on your desktop. They are a great way to speed up every-day tasks such as converting data, opening bookmarks or triggering dev workflows.
+
+  This repository contains some example scripts as well as links to our community commands and documentation to write your own ones.
+  
   <a href="https://github.com/raycast/script-commands">
 
   <div align="center">
@@ -13,12 +19,6 @@
   </div>
 
 </div>
-
-<h1>Raycast Script Commands</h1>
-
-[Raycast](https://raycast.com/) lets you control your tools with a few keystrokes and installing script commands makes it possible to execute commands from anywhere on your desktop. They are a great way to speed up every-day tasks such as converting data, opening bookmarks or triggering dev workflows.
-
-This repository contains some example scripts as well as links to our community commands and documentation to write your own ones.
 
 ## Install Script Commands from this repository
 
