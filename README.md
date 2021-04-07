@@ -2,15 +2,16 @@
 
 
 
-<div align="center">
+<div align="center" style="margin-bottom:64px;">
   <a href="https://raycast.com">
     <img src="./images/logo.png" height="164px">
   </a>
+</div>
 
-  <br/>
-  <br/>
-  <h1>Raycast Script Commands</h1>
+<h1>Raycast Script Commands</h1>
 
+<div style="margin-top:64px;">
+  
 ![Header](images/screenshots/readme-header.png)
 <a href="https://github.com/raycast/script-commands">
 
