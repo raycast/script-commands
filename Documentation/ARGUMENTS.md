@@ -1,4 +1,4 @@
-##Custom arguments
+## Custom arguments
 
 Raycast allows you to set custom input fields into your script to enable you to do things like set items on a todo list or search google for specified terms.
 
