@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Dependency: This script requires `brightness` cli installed: http://bergdesign.com/brightness/
+# Install via homebrew: `brew install brightness`
+
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Brightness
