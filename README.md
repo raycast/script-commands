@@ -41,7 +41,7 @@ To install new commands, follow these steps:
 
 💡 We recommend that you don't directly load the community script directories into Raycast to avoid potential restructuring and new script commands suddenly appearing in Raycast.
 
-![Add directory](images/screenshots/add-directory.png)
+![Add directory](./images/screenshots/add-directory.png)
 
 
 ## Create your own Script Commands
@@ -62,21 +62,21 @@ These parameters are available for you to customise your Script Command in Rayca
 |----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|---------------------|
 |schemaVersion        | Schema version to prepare for future changes in the API. Currently there is only version 1 available.                                                                                                                                                                                | Yes      | 0.29+               |
 | title                | Display name of the Script Command that is shown as title in the root search.                                                                                                                                                                                                        | Yes      | 0.29+               |
-| mode                 | Specifies how the script is executed and how the output is presented. [Details of the options for this parameter can be viewed here](https://github.com/raycast/script-commands/blob/README-update/outputModes.md) | Yes      | 0.29+               |
+| mode                 | Specifies how the script is executed and how the output is presented. [Details of the options for this parameter can be viewed here](https://github.com/raycast/script-commands/blob/README-update/Documentation/OUTPUTMODES.md) | Yes      | 0.29+               |
 | packageName          | Display name of the package that is shown as subtitle in the root search. When not provided, the name will be inferred from the script directory name.                                                                                                                               | No       | 0.29+               |
 | icon                 | Icon that is displayed in the root search. Can be an emoji, a file path (relative or full) or a remote URL (only https). Supported formats for images are PNG and JPEG. Please make sure to use small icons, recommended size - 32px.                                                | No       | 0.29+               |
 | iconDark             | Same as `icon`, but for dark theme. If not specified, then `icon` will be used in both themes.                                                                                                                             | No       | 1.3.0+              |
 | currentDirectoryPath | Path from which the script is executed. Default is the path of the script.                                                                                                                                                                                                           | No       | 0.29+               |
 | needsConfirmation    | Specify `true` if you would like to show confirmation alert dialog before running the script. Can be helpful with destructive scripts like "Quit All Apps" or "Empty Trash". Default value is `false`.                                                                               | No       | 0.30+               |
 | refreshTime          | Specify a refresh interval for inline mode scripts in seconds, minutes, hours or days. Examples: 10s, 1m, 12h, 1d. Note that the actual times can vary depending on how the OS prioritises scheduled work. The minimum refresh interval is 10 seconds, and the maximum number of refreshing inline commands is 10.| No       | 0.31+ |
-| argument[1...3]      | [Custom arguments, see Passing Arguments page](https://github.com/raycast/script-commands/blob/README-update/ARGUMENTS.md) for detail of how to use this field | No | 1.2.0+ |
+| argument[1...3]      | [Custom arguments, see Passing Arguments page](https://github.com/raycast/script-commands/blob/README-update/Documentation/ARGUMENTS.md) for detail of how to use this field | No | 1.2.0+ |
 | author               | Define an author name to be part of the script commands documentation | No | |
 | authorURL            | Author social media, website, email or anything to help the users to get in touch | No | |
 | description          | A brief description about the script command to be presented in the documentation | No | |
 
 ### Output Mode
 
-You can use the standard output to present messages in Raycast. Depending on the `mode`, the standard output of your scripts is differently presented.`fullOutput` and `inline` modes support ANSI Escape codes allowing to colour generated output by changing its background and foreground colour. [You can view the different output mode options as well as their various forms and colour options here.](https://github.com/raycast/script-commands/blob/README-update/outputModes.md)
+You can use the standard output to present messages in Raycast. Depending on the `mode`, the standard output of your scripts is differently presented.`fullOutput` and `inline` modes support ANSI Escape codes allowing to colour generated output by changing its background and foreground colour. [You can view the different output mode options as well as their various forms and colour options here.](https://github.com/raycast/script-commands/blob/README-update/Documentation/OUTPUTMODES.md)
 
 
 ### Error Handling
