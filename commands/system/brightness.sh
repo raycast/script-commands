@@ -18,4 +18,4 @@
 # @raycast.author Antonio Dal Sie
 # @raycast.authorURL https://github.com/exodusanto
 
-./brightness $(awk '{print $1*$2}' <<<"${1} 0.01")
+brightness $(awk '{print $1*$2}' <<<"${1} 0.01")
