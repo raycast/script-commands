@@ -10,6 +10,9 @@
     </a>
   </div>
 </div>
+<br>
+<br>
+<br>
   
   <h1>Raycast Script Commands</h1>
 
