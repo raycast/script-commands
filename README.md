@@ -4,7 +4,7 @@
 
 <div align="center">
   <a href="https://raycast.com">
-    <img src="./images/logo.png" height="250px">
+    <img src="./images/logo.png" height="164px">
   </a>
 
   <br/>
