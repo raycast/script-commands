@@ -4,7 +4,7 @@ Here, you can browse the range of ways that Raycast lets you view your data, whe
 
 In `fullOutput` the entire output is presented on a separate view, similar to a terminal window. This is handy when your script generates output to consume.
 
-![fullOutput mode](/images/screenshots/fullOutput.png)
+![fullOutput mode](/images/screenshots/fullOutputMode.png)
 
 In `compact` mode the last line of the standard output is shown in the toast
 
