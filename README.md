@@ -1,16 +1,4 @@
-<div align="center">
-
-
-
-<div align="center" style="margin-bottom:64px;">
-  <a href="https://raycast.com">
-    <img src="./images/logo.png" height="164px">
-  </a>
-</div>
-
-<h1>Raycast Script Commands</h1>
-
-<div style="margin-top:64px;">
+<div>
   
 ![Header](images/screenshots/readme-header.png)
 <a href="https://github.com/raycast/script-commands">
@@ -21,9 +9,9 @@
     <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/raycastapp?style=for-the-badge"height="30" width="auto" style="border-radius:1em ">
   </a>
 </div>
-  <br/>
-  <br/>
 </div>
+
+<h1>Raycast Script Commands</h1>
 
 [Raycast](https://raycast.com/) lets you control your tools with a few keystrokes and installing script commands makes it possible to execute commands from anywhere on your desktop. They are a great way to speed up every-day tasks such as converting data, opening bookmarks or triggering dev workflows.
 
