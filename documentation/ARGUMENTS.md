@@ -1,5 +1,12 @@
-![Custom arguments](./images/screenshots/custom-arguments.png)
-Use `argument[1..3]` metadata to specify custom arguments that will be displayed as inputs in the search bar when the script is selected. The value of the argument metadata parameter should be valid json with these fields:
+## Custom arguments
+
+Raycast allows you to set custom input fields into your script to enable you to do things like set items on a todo list or search google for specified terms.
+
+
+Use `argument[1..3]` metadata to specify custom arguments that will be displayed as inputs in the search bar when the script is selected.
+
+![Custom arguments](/images/screenshots/custom-arguments.png)
+ The value of the argument metadata parameter should be valid json with these fields:
 | Field | Description | Required | App Version |
 | ----- | ----------- | -------- | ----------- |
 | type | Input type. For now only "text" value available. | ✅ | 1.2.0+ |
