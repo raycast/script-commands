@@ -19,11 +19,9 @@
 
 <br>
 <br>
-<br>
 
 ![Script Command Banner](images/screenshots/readme-header.png)
 
-<br>
 <br>
 <br>
 
