@@ -70,7 +70,7 @@ These parameters are available for you to customise your Script Command in Rayca
 |----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|---------------------|
 |schemaVersion        | Schema version to prepare for future changes in the API. Currently there is only version 1 available.                                                                                                                                                                                | Yes      | 0.29+               |
 | title                | Display name of the Script Command that is shown as title in the root search.                                                                                                                                                                                                        | Yes      | 0.29+               |
-| mode                 | Specifies how the script is executed and how the output is presented. Details of the options for this parameter can be viewed [here](https://www.notion.so/raycastapp/Output-modes-08c7a8f6d1f8490b8462032251b07857#8ff72e3b6b894f03bd012f3df1a4dfbf) | Yes      | 0.29+               |
+| mode                 | Specifies how the script is executed and how the output is presented. Details of the options for this parameter can be viewed [here](https://github.com/raycast/script-commands/blob/master/outputModes.md) | Yes      | 0.29+               |
 | packageName          | Display name of the package that is shown as subtitle in the root search. When not provided, the name will be inferred from the script directory name.                                                                                                                               | No       | 0.29+               |
 | icon                 | Icon that is displayed in the root search. Can be an emoji, a file path (relative or full) or a remote URL (only https). Supported formats for images are PNG and JPEG. Please make sure to use small icons, recommended size - 32px.                                                | No       | 0.29+               |
 | iconDark             | Same as `icon`, but for dark theme. If not specified, then `icon` will be used in both themes.                                                                                                                             | No       | 1.3.0+              |
@@ -84,7 +84,7 @@ These parameters are available for you to customise your Script Command in Rayca
 
 ### Output Mode
 
-You can use the standard output to present messages in Raycast. Depending on the `mode`, the standard output of your scripts is differently presented.`fullOutput` and `inline` modes support ANSI Escape codes allowing to colour generated output by changing its background and foreground colour. You can view the different output mode options as well as their various forms and colour options [here.](https://www.notion.so/Output-modes-08c7a8f6d1f8490b8462032251b07857)
+You can use the standard output to present messages in Raycast. Depending on the `mode`, the standard output of your scripts is differently presented.`fullOutput` and `inline` modes support ANSI Escape codes allowing to colour generated output by changing its background and foreground colour. You can view the different output mode options as well as their various forms and colour options [here.](https://github.com/raycast/script-commands/blob/master/outputModes.md)
 
 
 ### Error Handling
@@ -101,14 +101,14 @@ else
 
 ## Troubleshooting and FAQs
 <details>
-  <summary>My script isn't appearing!</summary>
+  <summary>My script isn't appearing in Raycast!</summary>
 
 * Make sure your script file is executable (you can run `file <path to script>` command in terminal to check it). To make the script executable, run: `chmod +x <path to script>`
 * Ensure the filename doesn't contain `.template.` string
 * Check that all required metadata parameters are provided. See the table above which parameters are required.
 * Ensure you use either `#` or `//` comments for metadata parameters
 * Reload the scripts, via 1) the "Reload" button in preferences or 2), the "Reload Script Directories" command in root search (v0.33+), or 3) automatically via the activated "Auto Reload" feature in preferences (v0.33+)
-* 💡 If nothing helps, try to go step by step from a [template](templates/script-command.template.sh) Script Command or use one of the examples in this repo.
+* 💡 If nothing helps, try to go step by step from a [template](https://github.com/raycast/script-commands/tree/master/templates) Script Command or use one of the examples in this repo.
 </details>
 
 
@@ -116,7 +116,7 @@ else
 <details>
   <summary>Can I build in a non-login shell?</summary>
 
-**We only allow Script Commands that run in a non-login shell in this repository as agreed on in our [contribution guidelines](https://www.notion.so/raycastapp/CONTRIBUTING.md), due to any dependancies.**
+**We only allow Script Commands that run in a non-login shell in this repository as agreed on in our [contribution guidelines](https://github.com/raycast/script-commands/blob/master/CONTRIBUTING.md), due to any dependancies.**
 However, if you need to run your local script as login-shell, you can specify an argument after shebang, e.g. `#!/bin/bash -l` for bash. We also append `/usr/local/bin` to `$PATH` variable so you can use your local shell commands without any additional steps. If this is not enough, you can always extend `$PATH` by adding `export PATH='/some/extra/path:$PATH'` at the top of your script.
 </details>
 
