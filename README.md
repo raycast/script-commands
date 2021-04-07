@@ -20,7 +20,7 @@
 <br>
 <br>
 
-![Script Command Banner](images/screenshots/readme-header.png)
+![Script Command Banner](images/screenshots/script-commands-readme-header.png)
 
 <br>
 <br>
