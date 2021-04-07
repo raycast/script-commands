@@ -1,6 +1,5 @@
 <div align="center">
-  
-  ![Logo](images/logo.png)
+  <img alt="Raycast Logo" src="images/logo.png" height="320">
   ![Header](images/screenshots/readme-header.png)
   <a href="https://github.com/raycast/script-commands">
 
