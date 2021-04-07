@@ -4,19 +4,19 @@ Here, you can browse the range of ways that Raycast lets you view your data, whe
 
 In `fullOutput` the entire output is presented on a separate view, similar to a terminal window. This is handy when your script generates output to consume.
 
-![fullOutput mode](/images/screenshots/fullOutputMode.png)
+![fullOutput mode](/images/screenshots/fulloutput-mode.png)
 
 In `compact` mode the last line of the standard output is shown in the toast
 
-![compact mode](/images/screenshots/compactMode.png)
+![compact mode](/images/screenshots/compact-mode.png)
 
 In `silent` mode the last line (if exists) will be shown in overlaying HUD toast after Raycast window is closed.
 
-![silent mode](/images/screenshots/silentMode.png)
+![silent mode](/images/screenshots/silent-mode.png)
 
 In `inline` mode, the first line of output will be directly shown in the command item and automatically refresh according to the specified `refreshTime`. Tip: Set your dashboard items as favourites via the action menu in Raycast
 
-![inline mode](/images/screenshots/inlineMode.png)
+![inline mode](/images/screenshots/inline-mode.png)
 
 🚨 Hint: use `cmd k` to access extra functionality such as adding to favourites or reordering the root search preferences.
 
@@ -24,7 +24,7 @@ In `inline` mode, the first line of output will be directly shown in the command
 
 We support colours for `inline` and `fullOutput` mode scripts for you to customise generated output by changing its background and foreground colour.
 
-![colours inline mode](/images/screenshots/inlineColours.png)
+![colours inline mode](/images/screenshots/inline-colours.png)
 
 Escape code is in linux format: `0x1B`
 
