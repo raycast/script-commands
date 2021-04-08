@@ -18,38 +18,11 @@
 # @raycast.author Antonio Dal Sie
 # @raycast.authorURL https://github.com/exodusanto
 
-echo_status() {
-  echo "Do Not Disturb $(calm-notifications status)"
-}
-
-off() {
-  calm-notifications off
-  # Wait 2s for status bar apply
-  sleep 2
-}
-
-toggle() {
-  if [ "on" = $(calm-notifications status) ]
-    then
-      off
-      echo_status
-    else
-      calm-notifications on
-      echo_status
-    fi
-}
-
-if [ ! $1 ] || [ "toggle" = $1 ]
-then
-  toggle
-elif [ "status" = $1 ]
-then
-  echo_status
-elif [ "off" = $1 ]
-then
-  off
-  echo_status
-else
-  calm-notifications $1
-  echo_status
+if [[ "$1" != "on" && "$1" != "off" && "$1" != "toggle" ]]; then
+  echo "Unsupported parameter value: $1 (must be [on/off/toggle])"
+  exit 1
 fi
+
+calm-notifications $1
+sleep 2
+echo "Do Not Disturb $(calm-notifications status)"
