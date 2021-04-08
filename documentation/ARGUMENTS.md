@@ -1,7 +1,6 @@
-## Custom arguments
+## Arguments
 
-Raycast allows you to set custom input fields into your script to enable you to do things like set items on a todo list or search google for specified terms.
-
+Raycast allows you to set arguments for your script to enable you to do things like set items on a todo list or search Google for specified terms.
 
 Use `argument[1..3]` metadata to specify custom arguments that will be displayed as inputs in the search bar when the script is selected.
 

@@ -18,7 +18,7 @@ In `inline` mode, the first line of output will be directly shown in the command
 
 ![inline mode](/images/screenshots/inline-mode.png)
 
-🚨 Hint: use `cmd k` to access extra functionality such as adding to favourites or reordering the root search preferences.
+**🚨 Hint:** use `cmd k` to access extra functionality such as adding to favourites or reordering the root search preferences.
 
 # ANSII Supported Colours 🎨
 
@@ -50,7 +50,7 @@ Colours are adapted to current users apperance settings (light and dark themes)
 | 24 | Not underlined |
 | 29 | Not crossed out |
 
-💡 Unsupported terminal codes will be stripped out from output and ignored.
+**💡Hint:** Unsupported terminal codes will be stripped out from output and ignored.
 
 **Example:**
 
@@ -60,4 +60,3 @@ Colours are adapted to current users apperance settings (light and dark themes)
 | bash | `echo -e '\\033[31;42mred text on green background\\033[0m'` |
 | bash tput | `export TERM=linux; echo "$(tput setaf 1)$(tput setab 2)red text on green background$(tput sgr0)";` |
 | swift | `print("\\u{001B}[31;42mred text on green background\\u{001B}[0m")` |
-
