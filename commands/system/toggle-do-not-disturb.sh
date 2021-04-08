@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Dependency: This script requires `calm-notifications` cli installed: https://github.com/vitorgalvao/tiny-scripts/blob/master/calm-notifications
-# Install via homebrew: `brew install calm-notifications`
+# Install via homebrew: `brew install vitorgalvao/tiny-scripts/calm-notifications`
 
 # Required parameters:
 # @raycast.schemaVersion 1
