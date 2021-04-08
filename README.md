@@ -35,7 +35,7 @@ To install new commands, follow these steps:
 4. Click `Add Script Directory`
 5. Select directories containing your Script Commands
 
-💡 We recommend that you don't directly load the community script directories into Raycast to avoid potential restructuring and new script commands suddenly appearing in Raycast.
+**💡 Hint:** We recommend that you don't directly load the community script directories into Raycast to avoid potential restructuring and new script commands suddenly appearing in Raycast.
 
 ![Add directory](/images/screenshots/add-directory.png)
 
@@ -48,7 +48,7 @@ To write your own custom Script Commands, go over the following steps:
 2. Write and edit your script using your favourite code editor
 3. Run your Script Command from the Raycast root search
 
-💡 If you choose to write your script in `Bash`, we highly recommend using the [Shellcheck](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck) linter as this will ensure smooth running of your script. All  scripts uploaded to GitHub will need to have been run through ShellCheck.
+**💡 Hint:**If you choose to write your script in `Bash`, we highly recommend using the [Shellcheck](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck) linter as this will ensure smooth running of your script. All  scripts uploaded to GitHub will need to have been run through ShellCheck.
 
 ![Create Script Command](/images/screenshots/Create-Script-Command.png)
 
@@ -97,7 +97,7 @@ else
 * Ensure the filename doesn't contain `.template.` string
 * Check that all required metadata parameters are provided. See the table above which parameters are required.
 * Ensure you use either `#` or `//` comments for metadata parameters
-* 💡 If nothing helps, try to go step by step from a [template](https://github.com/raycast/script-commands/tree/master/templates) Script Command or use one of the examples in this repo.
+* If nothing helps, try to go step by step from a [template](https://github.com/raycast/script-commands/tree/master/templates) Script Command or use one of the examples in this repo.
 </details>
 
 <details>
