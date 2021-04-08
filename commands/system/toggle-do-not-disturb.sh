@@ -5,7 +5,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Toggle Do not disturb
+# @raycast.title Toggle Do Not Disturb
 # @raycast.mode compact
 #
 # Optional parameters:
@@ -13,7 +13,7 @@
 # @raycast.packageName System
 #
 # @Documentation:
-# @raycast.description Toggle Do not disturb
+# @raycast.description Toggle Do Not Disturb
 # @raycast.author Antonio Dal Sie
 # @raycast.authorURL https://github.com/exodusanto
 
@@ -22,8 +22,8 @@ then
   calm-notifications off
   # Wait 2s for status bar apply
   sleep 2
-  echo "Do not disturb off"
+  echo "Do Not Disturb off"
 else
   calm-notifications on
-  echo "Do not disturb on"
+  echo "Do Not Disturb on"
 fi
