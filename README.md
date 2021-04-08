@@ -88,11 +88,9 @@ else
   ...
 ```
 
-
 ## Troubleshooting and FAQs
 <details>
   <summary>Why isn't my script appearing in Raycast?</summary>
-
 
 * Ensure the filename doesn't contain `.template.` string
 * Check that all required metadata parameters are provided. See the table above which parameters are required.
@@ -103,11 +101,9 @@ else
 <details>
   <summary>Why isn't my Shell script  working?</summary>
 
-
 * Ensure the filename doesn't contain `.template.` string
 * Run your code through [ShellCheck](https://www.shellcheck.net/) to check for syntax errors or unexpected characters
 </details>
-
 
 <details>
   <summary>Can I build in a non-login shell?</summary>
