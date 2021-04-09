@@ -74,7 +74,7 @@ These parameters are available for you to customise your Script Command in Rayca
 
 ### Output Mode
 
-You can use the standard output to present messages in Raycast. Depending on the `mode`, the standard output of your scripts is differently presented.`fullOutput` and `inline` modes support ANSI Escape codes allowing to colour generated output by changing its background and foreground colour. [You can view the different output mode options as well as their various forms and colour options here.](https://github.com/raycast/script-commands/blob/master/documentation/OUTPUTMODES.md)
+You can use the standard output to present messages in Raycast. Depending on the `mode`, the standard output of your scripts is differently presented.`fullOutput` and `inline` modes support ANSI Escape codes allowing to color generated output by changing its background and foreground color. [You can view the different output mode options as well as their various forms and color options here.](https://github.com/raycast/script-commands/blob/master/documentation/OUTPUTMODES.md)
 
 
 ### Error Handling

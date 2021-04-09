@@ -20,16 +20,16 @@ In `inline` mode, the first line of output will be directly shown in the command
 
 **🚨 Hint:** use `cmd k` to access extra functionality such as adding to favourites or reordering the root search preferences.
 
-# ANSII Supported Colours 🎨
+# ANSII Supported Colors 🎨
 
-We support colours for `inline` and `fullOutput` mode scripts for you to customise generated output by changing its background and foreground colour.
+We support colors for `inline` and `fullOutput` mode scripts for you to customise generated output by changing its background and foreground color.
 
-![colours inline mode](/images/screenshots/inline-colours.png)
+![colors inline mode](/images/screenshots/inline-colours.png)
 
 Escape code is in linux format: `0x1B`
 
-Colours are adapted to current users apperance settings (light and dark themes)
-| Colour | # Foreground | # Background | Light | Dark |
+Colors are adapted to current users apperance settings (light and dark themes)
+| Color | # Foreground | # Background | Light | Dark |
 | ------ | ------------ | ------------ | ----- | ---- |
 | Black | 30 | 40 | #000000 | #000000 |
 | Red | 31 | 41 | #B12424 | #FF6363 |
@@ -54,7 +54,7 @@ Colours are adapted to current users apperance settings (light and dark themes)
 
 **Example:**
 
-![colours inline mode](/images/screenshots/colour-example.png)
+![colors inline mode](/images/screenshots/colour-example.png)
 | Script | Code |
 | ------ | ---- |
 | bash | `echo -e '\\033[31;42mred text on green background\\033[0m'` |
