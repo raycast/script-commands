@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Find email with Hunter
+# @raycast.title Find Email Address With Hunter
 # @raycast.mode silent
 
 # Optional parameters:
