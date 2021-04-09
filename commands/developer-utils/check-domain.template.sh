@@ -49,6 +49,12 @@ available=$(curl -s $API_URL"status?name="$1 -H "${AUTH_HEADER}")
 case $available in
 	*"true"*)
 		price=$(curl -s $API_URL"price?name="$1 -H "${AUTH_HEADER}")
+		# Alert the user if the TLD is invalid
+		if [[ $price = *"tld"* ]]; then
+			tld=$(echo $1 | cut -d '.' -f2)
+			echo "Invalid TLD ."$tld
+			exit 1
+		fi
 		# Extract the price from the JSON-formatted result
 		price=${price%,*}
 		price=${price##*:}
