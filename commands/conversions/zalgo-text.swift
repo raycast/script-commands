@@ -9,7 +9,7 @@
 // @raycast.packageName Conversions
 // @raycast.icon 👹
 // @raycast.argument1 { "type": "text", "placeholder": "Text to Z̶̶͚̯͗a̩̞͜͜l̫͕ͬͨ̿g͈̫͂ͤ͆͢o̠͚̞ͥ" }
-// @raycast.argument2 { "type": "text", "placeholder": "Intensity=5" }
+// @raycast.argument2 { "type": "text", "optional": true, "placeholder": "Intensity=5" }
 
 // Documentation:
 // @raycast.description Converts text to z̫̫̐a̳ͩl̓͂̀ͅg͔̚o̷̦̣͢ t̳͆ḛ̊͟ẍ̮̝́t̵̔ͯ͝
