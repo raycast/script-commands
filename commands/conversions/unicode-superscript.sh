@@ -8,9 +8,9 @@
 # @raycast.icon 🦸‍♀️
 #
 # @raycast.mode silent
-# @raycast.packageName System
+# @raycast.packageName Conversion
 # @raycast.schemaVersion 1
-# @raycast.argument1 { "type": "text", "placeholder": "Text to superscript", "optional": false, "percentEncoded": false}
+# @raycast.argument1 { "type": "text", "placeholder": "Text to superscript", "optional": false, "percentEncoded": true}
 
 JXA=$(cat <<-END
 function superscript(text) {
@@ -26,9 +26,10 @@ function superscript(text) {
 }
 var app = Application('System Events');  
 app.includeStandardAdditions = true;  
-var input = "$1";
+var input = decodeURIComponent("$1");
 var superscriptOutput = superscript(input);
-app.setTheClipboardTo(superscriptOutput)
+app.setTheClipboardTo(superscriptOutput);
+superscriptOutput + " copied to clipboard";
 END
 )
 
