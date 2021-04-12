@@ -37,6 +37,7 @@ This repository contains sample commands and documentation to write your own one
   - [Mullvad](#mullvad)
   - [Safari](#safari)
   - [Session](#session)
+  - [Sidenotes](#sidenotes)
   - [Sip](#sip)
   - [Surfshark](#surfshark)
   - [Things](#things)
@@ -182,6 +183,12 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/session/images/session.png" width="20" height="20"> | [Start Previous Session](apps/session/session-start-previous.sh) | Starts a focus session in Session app with the previous intent and duration | [James Lyons](https://github.com/jamesjlyons) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/session/images/session.png" width="20" height="20"> | [Start Session](apps/session/session-start-new.sh) | Starts a focus session in Session app | [James Lyons](https://github.com/jamesjlyons) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
+#### Sidenotes
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/sidenotes/images/sidenotes.png" width="20" height="20"> | [SideNotes create](apps/sidenotes/sidenotes-create-note.applescript) | Create a new note within the selected or the first SideNotes folder. | [Marcel Bochtler](https://github.com/MarcelBochtler) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+
 #### Sip
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
@@ -303,6 +310,7 @@ This repository contains sample commands and documentation to write your own one
   | 📝 | [Rich Text to Markdown](conversions/rich-text-clipboard-to-markdown.sh) | Convert rich text clipboard data to GitHub Flavoured Markdown using Pandoc | [Adam Zethraeus](https://github.com/adam-zethraeus) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🦸‍♀️ | [Unicode Superscript](conversions/unicode-superscript.sh) | Convert clipboards text to fake unicode superscript | [Adam Zethraeus](https://github.com/adam-zethraeus) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🕰 | [Unix Time Reader From Clipboard](conversions/unix-time-reader.sh) | Display Human-Readable Date from Unix Time in Clipboard | [Francis Feng](https://github.com/francisfeng) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🌇 | [Vaporwave Text](conversions/vaporwave-text.sh) | Convert clipboard text to ｖａｐｏｒｗａｖｅ | [Adam Zethraeus](https://github.com/adam-zethraeus) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 📅 | [What Day Is...](conversions/what-day-is.py) | Return the day of the week on which a particular date falls. | [Phil Salant](https://github.com/PSalant726) | ✅ |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
   | 👹 | [Zalgo Text](conversions/zalgo-text.swift) | Converts text to z̫̫̐a̳ͩl̓͂̀ͅg͔̚o̷̦̣͢ t̳͆ḛ̊͟ẍ̮̝́t̵̔ͯ͝ | [Adam Zethraeus](https://github.com/adam-zethraeus) | ✅ |  | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
 
