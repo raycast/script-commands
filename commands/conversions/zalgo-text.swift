@@ -46,5 +46,4 @@ let intensityString = CommandLine.arguments[2]
 let intensity = Int(intensityString) ?? 5
 let zalgoText = zalgo(text, intensity: intensity)
 NSPasteboard.general.setString(zalgoText, forType: .string)
-print("Clipboard: \(zalgoText)")
-
+print("\(zalgoText) copied to clipboard")
