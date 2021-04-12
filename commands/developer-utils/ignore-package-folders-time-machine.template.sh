@@ -19,6 +19,7 @@
 # You can use `$HOME` for a relative path to your home folder,
 # for example `"$HOME/web-projects"` expands to `/Users/you/web-projects`.
 WORK_DIR=""
+DEPTH=8
 
 # Add or remove as needed, separated by `|`.
 DIRS="node_modules|Carthage|Pods"
@@ -31,7 +32,7 @@ DIRS="node_modules|Carthage|Pods"
 # -iregex means case insensitive regex;
 # -prune means it'll skip matches inside matches, meaning it will skip
 # `/some/path/node_modules/other/node_modules` since `/some/path/node_modules` was matched;
-cmd=(find -E "$WORK_DIR" -maxdepth 8 -type d -iregex ".*\/($DIRS).*" -prune)
+cmd=(find -E "$WORK_DIR" -maxdepth "$DEPTH" -type d -iregex ".*\/($DIRS).*" -prune)
 
 # Use this to first confirm they're what you want; it'll print them all.
 # "${cmd[@]}"
