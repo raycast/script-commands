@@ -44,6 +44,7 @@ NSPasteboard.general.clearContents()
 let text = CommandLine.arguments[1]
 let intensityString = CommandLine.arguments[2]
 let intensity = Int(intensityString) ?? 5
-
-NSPasteboard.general.setString(zalgo(text, intensity: intensity), forType: .string)
+let zalgoText = zalgo(text, intensity: intensity)
+NSPasteboard.general.setString(zalgoText, forType: .string)
+print("Clipboard: \(zalgoText)")
 
