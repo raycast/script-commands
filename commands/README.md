@@ -304,6 +304,7 @@ This repository contains sample commands and documentation to write your own one
   | 🦸‍♀️ | [Unicode Superscript](conversions/unicode-superscript.sh) | Convert clipboards text to fake unicode superscript | [Adam Zethraeus](https://github.com/adam-zethraeus) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🕰 | [Unix Time Reader From Clipboard](conversions/unix-time-reader.sh) | Display Human-Readable Date from Unix Time in Clipboard | [Francis Feng](https://github.com/francisfeng) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 📅 | [What Day Is...](conversions/what-day-is.py) | Return the day of the week on which a particular date falls. | [Phil Salant](https://github.com/PSalant726) | ✅ |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
+  | 👹 | [Zalgo Text](conversions/zalgo-text.swift) | Converts text to z̫̫̐a̳ͩl̓͂̀ͅg͔̚o̷̦̣͢ t̳͆ḛ̊͟ẍ̮̝́t̵̔ͯ͝ | [Adam Zethraeus](https://github.com/adam-zethraeus) | ✅ |  | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
 
 #### Change Case
 
