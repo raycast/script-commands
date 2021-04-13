@@ -40,6 +40,10 @@ Colors are adapted to current users apperance settings (light and dark themes)
 | Cyan | 36 | 46 | #3EB8BF | #52EEE5 |
 | White | 97 | 107 | #FFFFFF | #FFFFFF |
 
+## Other colors
+
+We also support [8-bit](https://en.wikipedia.org/wiki/) and [24-bit](https://en.wikipedia.org/wiki/ANSI_escape_code#24-bit) color codes if you need a wider range of colors.
+
 **Other supported codes:**
 
 | Code | Name |
