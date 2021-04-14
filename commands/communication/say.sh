@@ -2,7 +2,7 @@
 
 # @raycast.title Say
 # @raycast.author Felipe Turcheti
-# @raycast.authorURL https://github.com/fturcheti
+# @raycast.authorURL https://felipeturcheti.com
 # @raycast.description Convert text to audible speech.
 
 # @raycast.icon 🗣
