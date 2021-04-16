@@ -77,6 +77,7 @@ This repository contains sample commands and documentation to write your own one
 - [Password Managers](#password-managers)
   - [Bitwarden](#bitwarden)
 - [System](#system)
+  - [Audio](#audio)
   - [Vpn](#vpn)
 - [Web Searches](#web-searches)
   - [Wordpress](#wordpress)
@@ -603,7 +604,6 @@ This repository contains sample commands and documentation to write your own one
   | 💥 | [Quit All Applications](system/quit-all-apps.swift) | Quits all running applications except Finder and Raycast. | Raycast |  |  | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
   | 💥 | [Quit app](system/quit-app.swift) | Quits an app, by name or process id. | [Roland Leth](https://runtimesharks.com) | ✅ |  | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
   | 🖼️ | [Refresh Wallpaper](system/wallpaper-refresh.applescript) | Refresh the wallpaper of the main display's current [Space](https://support.apple.com/guide/mac-help/work-in-multiple-spaces-mh14112/mac). | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
-  | 🎧 | [Reload CoreAudio](system/reload-coreaudio.sh) | Reloads CoreAudio. | [Maxim Krouk](https://github.com/maximkrouk) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | ♻️ | [Restart](system/restart.applescript) | Restarts computer. | Raycast |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 💀 | [Restart the Dock](system/restart-dock.sh) | Restart the Dock | [Jordi Clement](https://github.com/jordicl) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 💀 | [Restart the Finder](system/restart-finder.sh) | Restart the Finder | [Jordi Clement](https://github.com/jordicl) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
@@ -613,22 +613,30 @@ This repository contains sample commands and documentation to write your own one
   | 🧭 | [Set Frontmost App as Default Browser](system/default-browser-front-most-app.applescript) | Set Frontmost Web Browser as Default Browser. | [Yohanes Bandung Bondowoso](https://github.com/ybbond) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🛌 | [Shut Down](system/shutdown.applescript) | Shuts down computer. | Raycast |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 😴 | [Sleep](system/sleep.applescript) | Puts computer to sleep. | Raycast |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
-  | 🔊 | [Switch Audio to <Device Name>](system/audio-output-switch.template.applescript) | Switch audio output to desired device. | [mmerle](https://github.com/mmerle) |  | ✅ | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🧭 | [Switch Default Browser to Chrome](system/default-browser-chrome.sh) | Set Chrome as the default browser. | [Marc Klingen](https://github.com/marcklingen) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🧭 | [Switch Default Browser to Chromium](system/default-browser-chromium.sh) | Set Chromium as the default browser. | [Marc Klingen](https://github.com/marcklingen) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🧭 | [Switch Default Browser to Firefox](system/default-browser-firefox.sh) | Set Firefox as the default browser. | [Marc Klingen](https://github.com/marcklingen) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🧭 | [Switch Default Browser to Safari](system/default-browser-safari.sh) | Set Safari as the default browser. | [Marc Klingen](https://github.com/marcklingen) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
-  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/system/images/airpod.png" width="20" height="20"> | [Toggle AirPods](system/toggle-airpods.template.swift) | Toggle AirPods bluetooth device | [Nichlas W. Andersen](https://github.com/itsnwa) |  | ✅ | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/system/images/bluetooth.png" width="20" height="20"> | [Toggle Bluetooth](system/bluetooth.template.applescript) | Toggle your Bluetooth connection. | [Vincent Dörig](https://github.com/vincentdoerig) |  | ✅ | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🖥 | [Toggle Desktop Icons](system/toggle-desktop-icons.applescript) | A script command to show and hide icons of Desktop folder | [Raycast](https://raycast.com) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🖥 | [Toggle Flip Screen <display> to <degree>°](system/toggle-flip-screen.template.applescript) | Toggle flip (rotate) or revert the <display> to <degree>° | [Yohanes Bandung Bondowoso](https://github.com/ybbond) |  | ✅ | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 👓 | [Toggle Hidden Files](system/toggle-hidden-files.applescript) | Show and hide hidden files/folders which starts with "." (dot), i.e: .bash_rc, .ssh | [Thiago Holanda](https://twitter.com/tholanda) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
-  | 🎙 | [Toggle Microphone](system/toggle-mic.applescript) | Toggles microphone. | [Matthew Morek](https://github.com/matthewmorek) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🌗 | [Toggle System Appearance](system/toggle-system-appearance.applescript) | Script Command to switch between the system appearance, light and dark mode. | [Thiago Holanda](https://twitter.com/tholanda) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/system/images/wifi.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/system/images/wifi-dark.png" width="20" height="20"></picture> | [Toggle Wi-Fi](system/wifi.template.applescript) | Toggle your Wi-Fi connection. | [Vincent Dörig](https://github.com/vincentdoerig) |  | ✅ | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 😴 | [Turn Off Do Not Disturb](system/dnd-off.sh) | Turn off "do not disturb" mode. Does [not work on Big Sur](https://github.com/sindresorhus/do-not-disturb-cli/issues/2). | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 😴 | [Turn On Do Not Disturb](system/dnd-on.sh) | Turn on "do not disturb" mode. Does [not work on Big Sur](https://github.com/sindresorhus/do-not-disturb-cli/issues/2). | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🗑 | [Uninstall with AppCleaner](system/uninstall-with-appcleaner.applescript) | Uninstall applications with AppCleaner | [Felipe Turcheti](https://felipeturcheti.com) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+
+#### Audio
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | 🔈 | [Audio devices](system/audio/get-audio-devices.swift) | Lists all audio devices | [Roland Leth](https://runtimesharks.com) |  |  | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
+  | 🎧 | [Reload CoreAudio](system/audio/reload-coreaudio.sh) | Reloads CoreAudio. | [Maxim Krouk](https://github.com/maximkrouk) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🎧 | [Set audio device](system/audio/set-audio-device.swift) | Sets an input or output audio device, based on name | [Roland Leth](https://runtimesharks.com) | ✅ |  | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
+  | 🔊 | [Switch Audio to <Device Name>](system/audio/audio-output-switch.template.applescript) | Switch audio output to desired device. | [mmerle](https://github.com/mmerle) |  | ✅ | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/system/audio/images/airpod.png" width="20" height="20"> | [Toggle AirPods](system/audio/toggle-airpods.template.swift) | Toggle AirPods bluetooth device | [Nichlas W. Andersen](https://github.com/itsnwa) |  | ✅ | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
+  | 🎙 | [Toggle Microphone](system/audio/toggle-mic.applescript) | Toggles microphone. | [Matthew Morek](https://github.com/matthewmorek) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 #### Vpn
 
