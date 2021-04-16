@@ -6,8 +6,8 @@
 // @raycast.mode fullOutput
 
 // Optional parameters:
-// @raycast.icon 🎶
-// @raycast.packageName System
+// @raycast.icon 🔈
+// @raycast.packageName Audio
 
 // Documentation:
 // @raycast.description Lists all audio devices
