@@ -9,7 +9,7 @@
 // @raycast.icon 🎧
 // @raycast.argument1 { "type": "text", "placeholder": "Name" }
 // @raycast.argument2 { "type": "text", "placeholder": "Input (y/n)", "optional": true }
-// @raycast.packageName System
+// @raycast.packageName Audio
 
 // Documentation:
 // @raycast.description Sets an input or output audio device, based on name
@@ -30,7 +30,7 @@ final class AudioDevice {
 	}
 
 	var hasOutput: Bool {
-		var address: AudioObjectPropertyAddress = AudioObjectPropertyAddress(
+		var address = AudioObjectPropertyAddress(
 			mSelector: AudioObjectPropertySelector(kAudioDevicePropertyStreamConfiguration),
 			mScope: AudioObjectPropertyScope(kAudioDevicePropertyScopeOutput),
 			mElement: AudioObjectPropertyElement(0))
@@ -80,7 +80,7 @@ final class AudioDevice {
 
 let arguments = Array(CommandLine.arguments.dropFirst())
 let query = arguments.first!
-let shouldChangeInput = ["yes", "y", "true"].contains(arguments.last ?? "")
+let shouldChangeInput = arguments.count >= 2 && ["yes", "y", "true"].contains(arguments[1])
 
 func findDevices() -> [AudioDevice] {
 	var propSize: UInt32 = 0
@@ -150,7 +150,7 @@ func setDevice(to query: String) {
 		mScope: AudioObjectPropertyScope(kAudioObjectPropertyScopeGlobal),
 		mElement: AudioObjectPropertyElement(kAudioObjectPropertyElementMaster))
 
-	let s = AudioObjectSetPropertyData(
+	let result = AudioObjectSetPropertyData(
 		AudioObjectID(kAudioObjectSystemObject),
 		&deviceIdPropertyAddress,
 		0,
@@ -158,7 +158,7 @@ func setDevice(to query: String) {
 		deviceIdSize,
 		&deviceId)
 
-	if (s != 0) {
+	if (result != 0) {
 		print("Could not set \(deviceType) to \(deviceName)")
 		exit(0)
 	}
