@@ -1,6 +1,11 @@
 #!/usr/bin/osascript
 
 # Dependency: This script requires DeepL to be installed: https://deepl.com/app
+# Tested with DeepL for Mac Version 2.3.41773
+
+# Once installed, DeepL will run in the background even if you quit the app from the dock
+# This script will work as long as the DeepL icon is visible in the menu bar in the top right
+# Configuration options are available in the script below
 
 # Required parameters:
 # @raycast.schemaVersion 1
@@ -20,42 +25,43 @@
 on run translate
 	
 	### Configuration: ###
-	
-	-- choose whether the translation result should be automatically copied to the clipboard:
+    
+	-- Choose whether to use the clipboard as the input if no input argument is entered in Raycast
+    set useClipboardAsInput to false
+
+	-- Choose whether the translation result should be automatically copied to the clipboard:
 	set copyResultToClipboard to false
 	
-	-- set time in seconds to wait for DeepL to load below. It may need to be increased on slower computers
-	set delayTime to 1.2
-	
-	###
-	
-	if application "DeepL" is running then
-		tell application "System Events"
-			click UI element "DeepL" of list 1 of application process "Dock"
-		end tell
-	else
-		activate application "DeepL"
-		delay delayTime
-	end if
+	### End of configuration ###
+
+    do shell script "open -a DeepL"
 	
 	set inputText to ""
 	
-	if item 1 of translate is equal to "" then
-		set inputText to the clipboard
+	if item 1 of translate is "" then
+		if useClipboardAsInput is true
+			set inputText to the clipboard
+		end if
 	else
 		set inputText to item 1 of translate
 	end if
 	
 	tell application "System Events"
-		set value of text area 1 of group 5 of UI element 1 of scroll area 1 of group 1 of group 1 of window "DeepL" of application process "DeepL" to inputText
+		set value of text area 1 of group 5 of UI element 1 of scroll area 1 of group 1 of group 1 of window "DeepL" of process "DeepL" to inputText
 	end tell
 	
-	if copyResultToClipboard is equal to true then
+	if copyResultToClipboard is true then
 		set translation to ""
+		set timeoutSeconds to 10.0
+		set endDate to (current date) + timeoutSeconds
 		
 		tell application "System Events"
-			repeat until translation is not equal to ""
-				set translation to value of text area 1 of group 12 of UI element 1 of scroll area 1 of group 1 of group 1 of window "DeepL" of application process "DeepL"
+			repeat until translation is not ""
+				set translation to value of text area 1 of group 12 of UI element 1 of scroll area 1 of group 1 of group 1 of window "DeepL" of process "DeepL"
+				if ((current date) > endDate) then
+					exit repeat
+				end if
+				delay 0.2
 			end repeat
 		end tell
 		
