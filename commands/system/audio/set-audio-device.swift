@@ -219,7 +219,7 @@ case .both:
 	case (false, true):
 		print("Set output to \(i.1)")
 	case (true, true):
-		print("Set both to \(i.1)")
+		print("Set both to \(i.1) & \(o.1)")
 	}
 default:
 	exit(1)
