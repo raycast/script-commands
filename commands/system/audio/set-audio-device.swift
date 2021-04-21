@@ -8,18 +8,54 @@
 // Optional parameters:
 // @raycast.icon 🎧
 // @raycast.argument1 { "type": "text", "placeholder": "Name" }
-// @raycast.argument2 { "type": "text", "placeholder": "Input (y/n)", "optional": true }
+// @raycast.argument2 { "type": "text", "placeholder": "Type (i/o/b)", "optional": true }
 // @raycast.packageName Audio
 
 // Documentation:
-// @raycast.description Sets an input or output audio device, based on name
+// @raycast.description Sets the input (i), the output (o) or both (b) audio sources, based on name. If `both` is passed, but no input or output device is found with the given name, it will still try to set the other one. For example, if you're trying to set both to "External mic", which doesn't have an input source, it will still set the output to the mic; vice-versa for a speaker.
 // @raycast.author Roland Leth
 // @raycast.authorURL https://runtimesharks.com
+
+// Change lines 29 and 30 if you'd like another default,
+// which currently sets both when no parameter is passed.
+
+let arguments = Array(CommandLine.arguments.dropFirst())
+let query = arguments.first!
+let changeType: DeviceType = arguments.count >= 2
+	? ["input", "i"].contains(arguments[1])
+		? .input
+		: ["output", "o"].contains(arguments[1])
+			? .output
+			: .both
+	: .both
 
 import Foundation
 import CoreAudio
 
 // Based on https://stackoverflow.com/a/58618034/793916
+
+struct DeviceType: OptionSet {
+
+	static let input = DeviceType(rawValue: 1 << 0)
+	static let output = DeviceType(rawValue: 1 << 1)
+	static let both: DeviceType = [.input, .output]
+
+	let rawValue: Int
+
+	var value: String {
+		switch self {
+		case .input:
+			return "input"
+		case .output:
+			return "output"
+		case .both:
+			return "both"
+		default:
+			return ""
+		}
+	}
+
+}
 
 final class AudioDevice {
 
@@ -78,10 +114,6 @@ final class AudioDevice {
 
 }
 
-let arguments = Array(CommandLine.arguments.dropFirst())
-let query = arguments.first!
-let shouldChangeInput = arguments.count >= 2 && ["yes", "y", "true"].contains(arguments[1])
-
 func findDevices() -> [AudioDevice] {
 	var propSize: UInt32 = 0
 
@@ -124,24 +156,23 @@ func findDevices() -> [AudioDevice] {
 
 }
 
-func setDevice(to query: String) {
+@discardableResult
+func set(_ deviceType: DeviceType, to query: String) -> (Bool, String) {
 	let devices = findDevices()
-	let deviceType = shouldChangeInput ? "input" : "output"
 
 	guard
 		let device = devices.first(where: {
 			$0.name?.localizedCaseInsensitiveContains(query) == true
-				 && (shouldChangeInput ? !$0.hasOutput : $0.hasOutput)
+				 && (deviceType.contains(.input) ? !$0.hasOutput : $0.hasOutput)
 		})
 	else {
-		print("Could not find \(deviceType) device \(query)")
-		exit(1)
+		return (false, query)
 	}
 
 	let deviceName = device.name ?? query
 	var deviceId = device.audioDeviceID
 	let deviceIdSize = UInt32(MemoryLayout.size(ofValue: deviceId))
-	let selector = shouldChangeInput
+	let selector = deviceType.contains(.input)
 		? kAudioHardwarePropertyDefaultInputDevice
 		: kAudioHardwarePropertyDefaultOutputDevice
 
@@ -159,11 +190,37 @@ func setDevice(to query: String) {
 		&deviceId)
 
 	if (result != 0) {
-		print("Could not set \(deviceType) to \(deviceName)")
-		exit(0)
+		return (false, deviceName)
 	}
 
-	print("Set \(deviceType) to \(deviceName)")
+	return (true, deviceName)
 }
 
-setDevice(to: query)
+switch changeType {
+case .input,
+	 .output:
+	let  i = set(changeType, to: query)
+
+	guard i.0 else {
+		print("Could not set \(changeType.value) to \(i.1)")
+		exit(1)
+	}
+
+	print("Set \(changeType.value) to \(i.1)")
+case .both:
+	let i = set(.input, to: query)
+	let o = set(.output, to: query)
+
+	switch (i.0, o.0) {
+	case (false, false):
+		print("Could not set any device to \(i.1)")
+	case (true, false):
+		print("Set input to \(i.1)")
+	case (false, true):
+		print("Set output to \(i.1)")
+	case (true, true):
+		print("Set both to \(i.1) & \(o.1)")
+	}
+default:
+	exit(1)
+}
