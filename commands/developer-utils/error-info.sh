@@ -13,7 +13,7 @@
 # @raycast.icon ℹ️
 # @raycast.argument1 { "type": "text", "placeholder": "Error term" }
 
-# @Documentation:
+# Documentation:
 # @raycast.description Get info about Apple API errors
 # @raycast.author Ronan Rodrigo Nunes
 # @raycast.authorURL https://ronanrodrigo.dev

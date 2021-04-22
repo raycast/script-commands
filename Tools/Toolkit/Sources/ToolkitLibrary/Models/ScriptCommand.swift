@@ -1,6 +1,6 @@
 //
 //  MIT License
-//  Copyright (c) 2020 Raycast. All rights reserved.
+//  Copyright (c) 2020-2021 Raycast. All rights reserved.
 //
 
 import Foundation
@@ -8,21 +8,29 @@ import Foundation
 typealias ScriptCommands = [ScriptCommand]
 
 struct ScriptCommand: Codable {
+  let identifier: String
   let schemaVersion: Int
   let title: String
   var filename: String
   let mode: Mode?
   var packageName: String?
-  let icon: String?
+  let icon: Icon?
   let authors: [Author]?
   let details: String?
   let currentDirectoryPath: String?
   let needsConfirmation: Bool?
   let refreshTime: String?
+  let language: String
+  let isTemplate: Bool
+  let hasArguments: Bool
+  let createdAt: String
+  let updatedAt: String
+  var path: String
 
-  private var leadingPath: String = ""
+  private(set) var isExecutable: Bool = false
 
   enum CodingKeys: String, CodingKey {
+    case identifier
     case schemaVersion
     case title
     case filename
@@ -34,51 +42,80 @@ struct ScriptCommand: Codable {
     case currentDirectoryPath
     case needsConfirmation
     case refreshTime
+    case language
+    case isTemplate
+    case hasArguments
+    case createdAt
+    case updatedAt
+    case path
   }
 
-  var iconString: String {
-    func image(for url: String) -> String {
-      "<img src=\"\(url)\" width=\"20\" height=\"20\">"
-    }
-
-    guard let value = icon, value.isEmpty == false else {
+  var iconDescription: String {
+    guard let icon = self.icon else {
       return .empty
     }
 
-    if value.isEmoji {
-      return "\(value)"
-    }
+    let path = "https://raw.githubusercontent.com/raycast/script-commands/master/commands/\(self.path)"
 
-    if value.starts(with: "http://") || value.starts(with: "https://") {
-      return image(for: value)
-    }
-
-    return image(
-      for: "https://raw.githubusercontent.com/raycast/script-commands/master/commands/\(leadingPath)\(value)?raw=true"
+    let tag = icon.imageTag(
+      with: path
     )
+
+    return tag
   }
 
-  mutating func setLeadingPath(_ value: String) {
-    self.leadingPath = value
+  var fullPath: String {
+    "\(path)\(filename)"
+  }
+
+  mutating func configure(isExecutable: Bool) {
+    self.isExecutable = isExecutable
   }
 }
 
 // MARK: - Encode/Decode
 
 extension ScriptCommand {
+  init?(from dictionary: [String: Any]) {
+    if let scriptCommand: ScriptCommand = dictionary.encodeToStruct() {
+      self = scriptCommand
+    } else {
+      return nil
+    }
+  }
 
   init(from decoder: Decoder) throws {
-    let container               = try decoder.container(keyedBy: CodingKeys.self)
+    let container      = try decoder.container(keyedBy: CodingKeys.self)
 
     // Required
-    self.schemaVersion          = try container.decode(Int.self, forKey: .schemaVersion)
-    self.title                  = try container.decode(String.self, forKey: .title)
-    self.filename               = try container.decode(String.self, forKey: .filename)
+    self.schemaVersion = try container.decode(Int.self, forKey: .schemaVersion)
+    self.title         = try container.decode(String.self, forKey: .title)
+    self.language      = try container.decode(String.self, forKey: .language)
+    self.isTemplate    = try container.decode(Bool.self, forKey: .isTemplate)
+    self.hasArguments  = try container.decode(Bool.self, forKey: .hasArguments)
+    self.path          = try container.decode(String.self, forKey: .path)
+
+    let filename       = try container.decode(String.self, forKey: .filename)
+    let createdAt      = try container.decode(String.self, forKey: .createdAt)
+    let updatedAt      = try container.decode(String.self, forKey: .updatedAt)
+
+    self.filename  = filename
+    self.createdAt = createdAt
+    self.updatedAt  = updatedAt
+
+    do {
+      let value = "\(createdAt.description)\(filename)"
+      let identifier = try value.convertToMD5()
+
+      self.identifier = identifier
+    } catch let error as StringError {
+      fatalError(error.localizedDescription)
+    }
 
     // Optionals
     self.mode                   = try container.decodeIfPresent(Mode.self, forKey: .mode)
     self.packageName            = try container.decodeIfPresent(String.self, forKey: .packageName)
-    self.icon                   = try container.decodeIfPresent(String.self, forKey: .icon)
+    self.icon                   = try container.decodeIfPresent(Icon.self, forKey: .icon)
     self.details                = try container.decodeIfPresent(String.self, forKey: .details)
     self.currentDirectoryPath   = try container.decodeIfPresent(String.self, forKey: .currentDirectoryPath)
     self.needsConfirmation      = try container.decodeIfPresent(Bool.self, forKey: .needsConfirmation)
@@ -89,6 +126,7 @@ extension ScriptCommand {
   func encode(to encoder: Encoder) throws {
     var container = encoder.container(keyedBy: CodingKeys.self)
 
+    try container.encode(identifier, forKey: .identifier)
     try container.encode(schemaVersion, forKey: .schemaVersion)
     try container.encode(title, forKey: .title)
     try container.encode(filename, forKey: .filename)
@@ -100,13 +138,18 @@ extension ScriptCommand {
     try container.encode(authors, forKey: .authors)
     try container.encode(needsConfirmation, forKey: .needsConfirmation)
     try container.encode(refreshTime, forKey: .refreshTime)
+    try container.encode(language, forKey: .language)
+    try container.encode(isTemplate, forKey: .isTemplate)
+    try container.encode(hasArguments, forKey: .hasArguments)
+    try container.encode(createdAt, forKey: .createdAt)
+    try container.encode(updatedAt, forKey: .updatedAt)
+    try container.encode(path, forKey: .path)
   }
 }
 
 // MARK: - Comparable
 
 extension ScriptCommand: Comparable {
-
   static func < (lhs: ScriptCommand, rhs: ScriptCommand) -> Bool {
     lhs.title < rhs.title
   }
@@ -121,7 +164,6 @@ extension ScriptCommand: Comparable {
 // MARK: - MarkdownDescription Protocol
 
 extension ScriptCommand: MarkdownDescriptionProtocol {
-
   var markdownDescription: String {
     var content: String = .empty
 
@@ -136,10 +178,12 @@ extension ScriptCommand: MarkdownDescriptionProtocol {
       details = value
     }
 
-    let scriptPath = "\(leadingPath)\(filename)"
+    let language = Language(self.language).markdownDescription
+    let scriptPath = "\(path)\(filename)"
+
     let header = """
-        | \(iconString) | [\(title)](\(scriptPath)) | \(details) | \(author) |
-        """
+      | \(iconDescription) | [\(title)](\(scriptPath)) | \(details) | \(author) | \(hasArguments ? "✅" : "") | \(isTemplate ? "✅" : "") | \(language) |
+    """
 
     content += .newLine + header
 

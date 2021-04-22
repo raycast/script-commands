@@ -8,6 +8,6 @@
 
 # Optional parameters:
 # @raycast.icon images/amazon.png
-# @raycast.argument1 { "type": "text", "placeholder": "query" }
+# @raycast.argument1 { "type": "text", "placeholder": "query", "percentEncoded": true }
 
 open "https://www.amazon.com/s?k=$1"

@@ -1,0 +1,52 @@
+indentation: 2
+included:
+  - Tools/Toolkit
+excluded:
+  - Tools/Toolkit/.build
+  - _enabled-commands
+  - commands
+  - templates
+disabled_rules:
+  - cyclomatic_complexity
+  - file_length
+  - line_length
+  - nesting
+  - todo # Use custom_todo
+  - unused_setter_value
+  - generic_type_name
+  - identifier_name
+  - function_parameter_count
+  - type_name
+  - function_body_length
+  - type_body_length
+opt_in_rules:
+  - indentation_width
+  - array_init
+  - closure_end_indentation
+  - closure_spacing
+  - collection_alignment
+  - empty_collection_literal
+  - empty_count
+  - empty_string
+  - fallthrough
+  - fatal_error_message
+  - file_header
+  - overridden_super_call
+  - sorted_imports
+  - unused_declaration
+  - unused_import
+  - vertical_whitespace_closing_braces
+  - vertical_whitespace_opening_braces
+  - yoda_condition
+indentation_width:
+  indentation_width: 2
+trailing_comma:
+  mandatory_comma: true
+file_header:
+  required_pattern: ([Copyright (c) \d{4}\-\d{4} Raycast. All rights reserved.])\w+
+identifier_name:
+  min_length:
+    error: 3
+  excluded:
+    - id
+    - os

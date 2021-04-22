@@ -1,13 +1,12 @@
 //
 //  MIT License
-//  Copyright (c) 2020 Raycast. All rights reserved.
+//  Copyright (c) 2020-2021 Raycast. All rights reserved.
 //
 
 import Foundation
 import TSCBasic
 
 public extension Toolkit {
-
   internal var blockedFolderList: [String] {
     [
       ".git",
@@ -18,14 +17,14 @@ public extension Toolkit {
       "templates",
       "images",
       "_enabled-commands",
-      ".swiftpm"
+      ".swiftpm",
     ]
   }
 
   static var information: (name: String, version: String) {
     (
       name: "Raycast Toolkit",
-      version: "0.2"
+      version: "0.3.1"
     )
   }
 

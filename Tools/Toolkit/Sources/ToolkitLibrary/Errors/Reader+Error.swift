@@ -1,21 +1,20 @@
 //
 //  MIT License
-//  Copyright (c) 2020 Raycast. All rights reserved.
+//  Copyright (c) 2020-2021 Raycast. All rights reserved.
 //
 
 import Foundation
 
-extension Toolkit {
-  enum Error: Swift.Error {
-    case extensionsFolderNotFound(String)
-  }
-}
+enum ToolkitError: Swift.Error, CustomStringConvertible, LocalizedError {
+  case folderNotFound(String)
+  case fileNotFound(String)
 
-extension Toolkit.Error: CustomStringConvertible, LocalizedError {
   var description: String {
     switch self {
-    case .extensionsFolderNotFound(let folder):
-      return "Extensions folder not found. Expected: \(folder)"
+    case .folderNotFound(let folder):
+      return "Folder not found. Expected: \(folder)"
+    case .fileNotFound(let file):
+      return "File \"\(file)\" not found"
     }
   }
 }

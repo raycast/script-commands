@@ -1,6 +1,6 @@
 //
 //  MIT License
-//  Copyright (c) 2020 Raycast. All rights reserved.
+//  Copyright (c) 2020-2021 Raycast. All rights reserved.
 //
 
 import Foundation
@@ -9,9 +9,11 @@ import TSCBasic
 public final class Toolkit {
   lazy var fileSystem = TSCBasic.localFileSystem
 
-  var extensionsAbsolutePath: AbsolutePath
+  var dataManager: DataManager
 
-  public init(path: AbsolutePath) {
-    extensionsAbsolutePath = path
+  let git = GitShell()
+
+  public init(dataManager: DataManager) {
+    self.dataManager = dataManager
   }
 }

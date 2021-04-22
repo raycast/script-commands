@@ -1,16 +1,13 @@
 //
 //  MIT License
-//  Copyright (c) 2020 Raycast. All rights reserved.
+//  Copyright (c) 2020-2021 Raycast. All rights reserved.
 //
 
 import ArgumentParser
 import ToolkitLibrary
-import TSCBasic
 
 extension ToolkitCommand {
-
   struct GenerateDocumentation: ParsableCommand {
-
     static var configuration = CommandConfiguration(
       abstract: "Generate the documentation in JSON and Markdown format"
     )
@@ -25,11 +22,14 @@ extension ToolkitCommand {
     var outputJSONFilename: String = "extensions.json"
 
     func run() throws {
-      let fileSystem = TSCBasic.localFileSystem
-
       do {
+        let dataManager = try DataManager(
+          extensionsPath: path,
+          extensionsFilename: outputJSONFilename
+        )
+
         let toolkit = Toolkit(
-          path: fileSystem.absolutePath(for: path)
+          dataManager: dataManager
         )
 
         try toolkit.generateDocumentation(
