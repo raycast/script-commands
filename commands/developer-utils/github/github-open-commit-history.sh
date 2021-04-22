@@ -13,7 +13,7 @@
 # Documentation:
 # @raycast.author Thomas Paul Mann
 # @raycast.authorURL https://github.com/thomaspaulmann
-# @raycast.desciption Opens the commit history of the filepath in the clipboard or the frontmost window. Alternatively can open the file view on GitHub.
+# @raycast.description Opens the commit history of the filepath in the clipboard or the frontmost window. Alternatively can open the file view on GitHub.
 
 # Configuration:
 
