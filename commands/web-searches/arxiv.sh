@@ -9,7 +9,7 @@
 # @raycast.packageName Web Searches
 # @raycast.icon images/arxiv.png
 # @raycast.argument1 { "type": "text", "placeholder": "Query", "percentEncoded": true }
-# @raycast.argument2 { "type": "text", "placeholder": "Type - all/title/auth… (default: all)", "optional": true, "percentEncoded": true }
+# @raycast.argument2 { "type": "text", "placeholder": "Field (default: all)", "optional": true, "percentEncoded": true }
 # @raycast.author Marco Varisco
 # @raycast.authorURL https://github.com/mava
 
