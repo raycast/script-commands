@@ -1,17 +1,17 @@
 #!/bin/bash
-
+#
+# Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Search in arXiv
 # @raycast.mode silent
 #
+# Optional parameters:
 # @raycast.packageName Web Searches
 # @raycast.icon images/arxiv.png
-#
+# @raycast.argument1 { "type": "text", "placeholder": "Query", "percentEncoded": true }
+# @raycast.argument2 { "type": "text", "placeholder": "Type - all/title/auth… (default: all)", "optional": true, "percentEncoded": true }
 # @raycast.author Marco Varisco
 # @raycast.authorURL https://github.com/mava
-#
-# @raycast.argument1 { "type": "text", "placeholder": "query", "percentEncoded": true }
-# @raycast.argument2 { "type": "text", "placeholder": "all/title/auth… (default: all)", "optional": true, "percentEncoded": true }
 
 archive="" # Leave empty to search in all archives, or use one of the available archives:
 #   physics astro-ph cond-mat gr-qc hep-ex hep-lat hep-ph hep-th math-ph nlin nucl-ex nucl-th quant-ph
