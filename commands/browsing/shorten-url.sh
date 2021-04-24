@@ -23,9 +23,9 @@ then
 	if [[ $result != "Error" ]]
 	then
 		echo $result | pbcopy
-		echo "Copied shorten URL"
+		echo "Copied shortened URL"
 	else 
-		echo "URL cannot be shorten"
+		echo "URL cannot be shortened"
 		exit 1
 	fi
 else
