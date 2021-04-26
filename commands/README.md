@@ -26,6 +26,7 @@ This repository contains sample commands and documentation to write your own one
 ### Categories
 
 - [Apps](#apps)
+  - [2Do](#2DO)
   - [Amphetamine](#amphetamine)
   - [Bear](#bear)
   - [Cleanshot](#cleanshot)
@@ -84,6 +85,12 @@ This repository contains sample commands and documentation to write your own one
   - [Wordpress](#wordpress)
 
 ## Apps
+
+#### 2Do
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/2DO/images/2do-icon.png" width="20" height="20"> | [Create 2DO](apps/2DO/2do-add-todo.sh) | N/A | [张扬](https://github.com/dreamkidd) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Amphetamine
 
