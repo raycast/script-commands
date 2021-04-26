@@ -5,3 +5,5 @@
 xcuserdata/
 .swiftpm
 .idea
+
+commands/developer-utils/2fa-|-relay.sh
