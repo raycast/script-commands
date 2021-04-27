@@ -10,4 +10,4 @@
 # @raycast.argument1 { "type": "text", "placeholder": "query", "percentEncoded": true}
 # @raycast.packageName Web Searches
 
-open "https://yandex.ru/search/?text=$1"
+open "https://yandex.com/search/?text=$1"
