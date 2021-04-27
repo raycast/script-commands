@@ -7,7 +7,7 @@
 # @raycast.packageName Navigation
 
 # Optional parameters:
-# @raycast.icon images/folder-downloads.png
+# @raycast.icon images/folder-default.png
 
 # Documentation:
 # @raycast.description Opens the Downloads folder in the Finder.
