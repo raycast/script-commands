@@ -7,7 +7,7 @@
 # @raycast.packageName Navigation
 
 # Optional parameters:
-# @raycast.icon 📂
+# @raycast.icon images/folder-home.png
 
 # Documentation:
 # @raycast.description Opens the Home folder in the Finder.

@@ -7,7 +7,7 @@
 # @raycast.packageName Navigation
 
 # Optional parameters:
-# @raycast.icon 📂
+# @raycast.icon images/folder-documents.png
 
 # Documentation:
 # @raycast.description Opens the Documents folder in the Finder.
