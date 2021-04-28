@@ -10,7 +10,7 @@
 # @raycast.argument1 { "type": "text", "placeholder": "query" }
 # @raycast.packageName Math
 
-# Documentation:ter
+# Documentation:
 # @raycast.description Use Wolfram Alpha to answer your query
 # @raycast.author es183923
 # @raycast.authorURL https://github.com/es183923
