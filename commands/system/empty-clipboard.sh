@@ -13,4 +13,4 @@
 # @raycast.description Empty Clipboard
 
 /usr/bin/pbcopy < /dev/null
-echo "Done"
+echo "Clipboard emptied"
