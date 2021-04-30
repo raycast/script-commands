@@ -9,7 +9,7 @@
 # @raycast.mode fullOutput
 
 # Optional parameters:
-# @raycast.argument1 {"type": "text", "placeholder": "Word Or Sentence"}
+# @raycast.argument1 {"type": "text", "placeholder": "Word or Sentence"}
 # @raycast.icon 📖
 
 # Documentation:
