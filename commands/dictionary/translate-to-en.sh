@@ -7,6 +7,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Translate to EN
 # @raycast.mode fullOutput
+# @raycast.packageName Dictionary
 
 # Optional parameters:
 # @raycast.argument1 {"type": "text", "placeholder": "Word or Sentence"}
@@ -20,5 +21,10 @@
 export LC_ALL=en_US.UTF-8
 export PATH="/opt/homebrew/bin:$PATH"
 
-trans :en $1 -d # display dictionary
+if ! command -v trans &> /dev/null; then
+	echo "trans command is required (https://github.com/soimort/translate-shell).";
+	exit 1;
+fi
+
+trans :en $1 # display
 trans :en $1 -b | pbcopy # copy brief to clipboard
