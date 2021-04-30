@@ -16,6 +16,8 @@
 # @raycast.author tiancheng92
 # @raycast.authorURL https://github.com/tiancheng92
 # @raycast.description translate and copy brief translation to clipboard
+# @raycast.authorURL https://github.com/tiancheng92
+# @raycast.description translate and copy brief translation to clipboard
 
 export LC_ALL=en_US.UTF-8
 export PATH="/opt/homebrew/bin:$PATH"
