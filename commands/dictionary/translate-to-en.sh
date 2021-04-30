@@ -5,7 +5,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Translate To EN
+# @raycast.title Translate to EN
 # @raycast.mode fullOutput
 
 # Optional parameters:
