@@ -97,10 +97,10 @@ on run argv
         sendMessage(messageToSend)
         slashCommand("Set yourself as active")
         pressReturn()
-        log messageToSend & " sent To #general and status set to active!"
+        log messageToSend & " sent To " & channelToSendTo &" and status set to active!"
     else if setActive = "n" or setActive = "" -- default is no
         sendMessage(messageToSend)
-        log messageToSend & " sent To #general!"
+        log messageToSend & " sent To " & channelToSendTo &"!"
     else
         log "Invalid argument for set active. Specify setting active using 'y' or 'n'"
     end if
