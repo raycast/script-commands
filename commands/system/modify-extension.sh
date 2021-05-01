@@ -13,6 +13,7 @@
 # @Documentation:
 # @raycast.description Batch modify file extension
 # @raycast.author LokHsu
+# @raycast.authorURL https://github.com/LokHsu
 
 finder=$(
     osascript <<EOF
