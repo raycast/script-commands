@@ -94,9 +94,9 @@ on run argv
     openChannel(channelToSendTo)
     -- setting to active will not work if already active
     if setActive = "y" then
+        sendMessage(messageToSend)
         slashCommand("Set yourself as active")
         pressReturn()
-        sendMessage(messageToSend)
         log messageToSend & " sent To #general and status set to active!"
     else if setActive = "n" or setActive = "" -- default is no
         sendMessage(messageToSend)
