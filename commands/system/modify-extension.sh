@@ -11,15 +11,16 @@
 # @raycast.argument2 { "type": "text", "placeholder": "After" }
 
 # @Documentation:
-# @raycast.description 修改文件扩展名
+# @raycast.description Batch modify the file in the current directory or the specified extension of the selected file
 # @raycast.author LokHsu
+# @raycast.authorURL https://github.com/LokHsu
 
 finder=$(
     osascript <<EOF
         tell application "Finder"
-            try   #获取当前finder目录
+            try
                 set finderPath to (POSIX path of (the selection as alias))
-            on error   #获取当前桌面目录
+            on error
                 set finderPath to (POSIX path of (folder of the front window as alias))
             end try
         end tell
