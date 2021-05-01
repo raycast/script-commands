@@ -11,15 +11,15 @@
 # @raycast.argument2 { "type": "text", "placeholder": "After" }
 
 # @Documentation:
-# @raycast.description 修改文件扩展名
+# @raycast.description Batch modify file extension
 # @raycast.author LokHsu
 
 finder=$(
     osascript <<EOF
         tell application "Finder"
-            try   #获取当前finder目录
+            try  
                 set finderPath to (POSIX path of (folder of the front window as alias))
-            on error   #获取当前桌面目录
+            on error  
                 set finderPath to (POSIX path of (path to Desktop folder as alias))
             end try
         end tell
