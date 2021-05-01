@@ -18,10 +18,10 @@
 finder=$(
     osascript <<EOF
         tell application "Finder"
-            try  
+            try
+                set finderPath to (POSIX path of (the selection as alias))
+            on error
                 set finderPath to (POSIX path of (folder of the front window as alias))
-            on error  
-                set finderPath to (POSIX path of (path to Desktop folder as alias))
             end try
         end tell
         return finderPath
