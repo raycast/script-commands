@@ -6,7 +6,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Leave Meeting
 # @raycast.mode silent
-# @raycast.packageName Leave Zoom Meeting
+# @raycast.packageName Zoom
 # @raycast.description Leaves Current Zoom meeting
 # @raycast.needsConfirmation true
 
