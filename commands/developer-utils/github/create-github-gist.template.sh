@@ -19,7 +19,7 @@ access_key=
 # @raycast.description Create a GitHub Gist from clipboard contents and copy Gist URL.
 
 # @raycast.icon images/github-logo.png
-# @raycast.icon images/github-logo-iconDark.png
+# @raycast.iconDark images/github-logo-iconDark.png
 # @raycast.mode compact
 # @raycast.needsConfirmation true
 # @raycast.packageName GitHub
