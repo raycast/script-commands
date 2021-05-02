@@ -7,7 +7,7 @@
 # @raycast.packageName Google Maps
 
 # Optional parameters:
-# @raycast.icon google-map.png
+# @raycast.icon images/google-map.png
 # @raycast.argument1 { "type": "text", "placeholder": "Location", "optional": true}
 # @raycast.argument2 { "type": "text", "placeholder": "Destination", "optional": true}
 
