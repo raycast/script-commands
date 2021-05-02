@@ -9,6 +9,7 @@
 # Optional parameters:
 # @raycast.packageName GitHub
 # @raycast.icon images/github-logo.png
+# @raycast.iconDark images/github-logo-iconDark.png
 #
 # Credits
 # @raycast.author Faye Sipiano
