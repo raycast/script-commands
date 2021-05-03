@@ -32,6 +32,7 @@ This repository contains sample commands and documentation to write your own one
   - [Craft](#craft)
   - [Deepl](#deepl)
   - [Dnd Me](#dnd-me)
+  - [Espanso](#espanso)
   - [Fantastical](#fantastical)
   - [Hazeover](#hazeover)
   - [Iterm](#iterm)
@@ -140,6 +141,12 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | 🔕 | [Start DND](apps/dnd-me/start-dnd-me.sh) | Starts DND via DND Me. The parameter has to be a menu item or slider equivalent: 15m, 30m, 1h, 2h, ..., 12h, next, next-hour, next-half-hour; it defaults to next. next-hour means the next 60m mark, next-half-hour means the next 30m mark and next means the first of the two. For example, if it's 9:22, next-hour means 10:00, next-half-hour means 9:30 and next means 9:30. | [Roland Leth](https://runtimesharks.com/projects/dnd-me) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🔔 | [Stop DND](apps/dnd-me/stop-dnd-me.sh) | Stops DND via DND Me. | [Roland Leth](https://runtimesharks.com/projects/dnd-me) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Espanso
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  |  | [Create Text Expansion](apps/espanso/espanso-create-expansion.sh) | Add a text expansion to expanso | [Max Stoiber](https://github.com/mxstbr) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Fantastical
 
