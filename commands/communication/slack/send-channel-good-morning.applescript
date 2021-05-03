@@ -4,7 +4,7 @@
 # @raycast.author Faris Aziz
 # @raycast.authorURL https://github.com/farisaziz12
 # @raycast.schemaVersion 1
-# @raycast.title Slack Good Morning in #general
+# @raycast.title Send Message in Channel
 # @raycast.mode silent
 # @raycast.packageName Slack
 # @raycast.description This script sends a random good morning text to the #general channel and sets active status (can be changed using args)
