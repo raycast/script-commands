@@ -7,7 +7,7 @@
 # @raycast.title Send Message in Channel
 # @raycast.mode silent
 # @raycast.packageName Slack
-# @raycast.description This script sends a random good morning text to the #general channel and sets active status (can be changed using args)
+# @raycast.description This script posts a message text to a slack channel and sets active status (defaults to random good morning message in #general)
 # @raycast.needsConfirmation true
 # @raycast.argument1 { "type": "text", "placeholder": "Channel (default: #general)", "optional": true, }
 # @raycast.argument2 { "type": "text", "placeholder": "Message (default: good morning)", "optional": true, }
@@ -62,7 +62,6 @@ on pressReturn()
 		tell application "System Events"
 			delay 1
 			key code 36
-            delay 0.5
 		end tell
 	end tell
 end pressReturn
@@ -93,12 +92,12 @@ on run argv
 
     openChannel(channelToSendTo)
     -- setting to active will not work if already active
-    if setActive = "y" then
+    if setActive = "y" or setActive = "Y" then
         sendMessage(messageToSend)
         slashCommand("Set yourself as active")
         pressReturn()
         log messageToSend & " sent To " & channelToSendTo &" and status set to active!"
-    else if setActive = "n" or setActive = "" -- default is no
+    else if setActive = "n" or setActive = "N" or setActive = "" -- default is no
         sendMessage(messageToSend)
         log messageToSend & " sent To " & channelToSendTo &"!"
     else
