@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Create text expansion
+# @raycast.title Create Text Expansion
 # @raycast.mode silent
 
 # Optional parameters:
