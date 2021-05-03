@@ -7,7 +7,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Translate to ZH
 # @raycast.mode fullOutput
-# @raycast.packageName Dictionary
+# @raycast.packageName Translate Shell
 
 # Optional parameters:
 # @raycast.argument1 {"type": "text", "placeholder": "Word or Sentence"}
