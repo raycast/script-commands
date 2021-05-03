@@ -6,7 +6,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Slack Good Morning in #general
 # @raycast.mode silent
-# @raycast.packageName Slack Channel Good Morning
+# @raycast.packageName Slack
 # @raycast.description This script sends a random good morning text to the #general channel and sets active status (can be changed using args)
 # @raycast.needsConfirmation true
 # @raycast.argument1 { "type": "text", "placeholder": "channel (default: #general)", "optional": true, }
