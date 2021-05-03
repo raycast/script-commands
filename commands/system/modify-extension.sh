@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Modify extension
+# @raycast.title Modify File Extension
 # @raycast.mode compact
 
 # Optional parameters:
