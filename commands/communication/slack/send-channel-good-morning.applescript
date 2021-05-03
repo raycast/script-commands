@@ -11,7 +11,7 @@
 # @raycast.needsConfirmation true
 # @raycast.argument1 { "type": "text", "placeholder": "Channel (default: #general)", "optional": true, }
 # @raycast.argument2 { "type": "text", "placeholder": "Message (default: good morning)", "optional": true, }
-# @raycast.argument3 { "type": "text", "placeholder": "set active? y/n", "optional": true, }
+# @raycast.argument3 { "type": "text", "placeholder": "Set Active? y/n", "optional": true, }
 
 
 # Optional parameters:
