@@ -9,7 +9,7 @@
 # @raycast.packageName Slack
 # @raycast.description This script sends a random good morning text to the #general channel and sets active status (can be changed using args)
 # @raycast.needsConfirmation true
-# @raycast.argument1 { "type": "text", "placeholder": "channel (default: #general)", "optional": true, }
+# @raycast.argument1 { "type": "text", "placeholder": "Channel (default: #general)", "optional": true, }
 # @raycast.argument2 { "type": "text", "placeholder": "message (default: good morning)", "optional": true, }
 # @raycast.argument3 { "type": "text", "placeholder": "set active? y/n", "optional": true, }
 
