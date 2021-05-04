@@ -21,5 +21,4 @@
 // @raycast.author Your name
 // @raycast.authorURL An URL for one of your social medias
 
-
 print("Hello from My First Script")
