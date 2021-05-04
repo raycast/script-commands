@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Set Light Bulb
+# @raycast.title Set Room Lights
 # @raycast.mode compact
 # @raycast.packageName Philips Hue
 
@@ -10,10 +10,10 @@
 # @raycast.icon 💡
 # @raycast.argument1 { "type": "text", "placeholder": "preset", "optional": true}
 # @raycast.argument2 { "type": "text", "placeholder": "value (hsb or brightness)", "optional": true}
-# @raycast.argument3 { "type": "text", "placeholder": "bulb", "optional": true}
+# @raycast.argument3 { "type": "text", "placeholder": "room", "optional": true}
 
 # Documentation:
-# @raycast.description Set a chosen or default individual bulb to a preset, hsb or brightness value.
+# @raycast.description Set the lights in a chosen or default room to a preset, hsb or brightness value.
 # @raycast.author Jono Hewitt
 # @raycast.authorURL https://github.com/jonohewitt
 
@@ -21,24 +21,26 @@
 
 # Your Hue Bridge local IP address, e.g 192.168.1.2
 # An authorised username, e.g 1028d66426293e821ecfd9ef1a0731df
-# A light bulb ID, e.g 5
+# A group/room ID, e.g 2
 
 # Follow the steps here for the bridge IP and how to create a username:
 # https://developers.meethue.com/develop/get-started-2/
 
-# Then go to https://<bridge ip address>/api/<username>/lights to see the number ID associated with each hue bulb you've set up. Assign one of these numbers as the $defaultBulbID below, then add each other bulb to the bulb section down towards the end of the script.
+# Then go to https://<bridge ip address>/api/<username>/lights to see the number ID associated with each room you've set up. Assign one of these numbers as the $defaultRoomID below, then add each other room ID to the room section down towards the end of the script.
 
 # The script uses comma separated HSB, a.k.a HSV, (Hue: 0-360, Saturation: 0-100, Brightness: 0-100) for inputting colour information. If only one number is provided, it is assumed to be brightness (0-100)
 
+# Remember to remove .template from the file name after you have add your details to the script.
+
 hueBridgeIP="<enter bridge IP here>"
 userID="<enter username here>"
-defaultBulbID="<enter your chosen default bulb id here>"
+defaultRoomID="<enter your chosen default room id here>"
 
 declare on
 declare hue
 declare sat
 declare bri
-declare bulbID
+declare roomID
 
 ### ASSIGN PRESETS HERE
 ### Some examples are included already
@@ -150,31 +152,31 @@ fi
 
 
 
-### CHOOSE BULB NAMES AND ASSIGN BULB IDs HERE 
-### The $defaultBulbID will be used if no bulb argument is included in the Raycast command
+### CHOOSE ROOM NAMES AND ASSIGN ROOM IDs HERE 
+### The $defaultRoomID will be used if no room argument is included in the Raycast command
 
-bulbID=$defaultBulbID
+roomID=$defaultRoomID
 
 if [[ $3 ]]; then
 
-    if [[ $3 == "main" ]]; then
-        bulbID="5"
+    if [[ $3 == "bedroom" ]]; then
+        roomID="2"
 
-    elif [[ $3 == "lamp" ]]; then
-        bulbID="4"
+    elif [[ $3 == "study" ]]; then
+        roomID="3"
 
-    # Add more bulbs here with additional elif statements, e.g:
+    # Add more rooms here with additional elif statements, e.g:
 
-    # elif [[ $3 == "<your chosen bulb name>" ]]; then
-        #bulbID="<bulb ID number from the hue API>"
+    # elif [[ $3 == "<your chosen room name>" ]]; then
+    #     roomID="<room ID number from the hue API>"
 
     else
-        echo "Bulb not found!"
+        echo "Room not found!"
         exit 1
     fi
 fi
 
-# --- End of bulb section --- #
+# --- End of room section --- #
 
 
 
@@ -207,9 +209,9 @@ EOF
     fi
 }
 
-curl --show-error --silent --output /dev/null $hueBridgeIP/api/$userID/lights/$bulbID/state \
+curl --show-error --silent --output /dev/null $hueBridgeIP/api/$userID/groups/$roomID/action \
     --request PUT \
     --header "Content-Type: application/json" \
     --data "$(generateData)"
 
-echo "Light bulb changed!"
+echo "Room lights changed!"
