@@ -43,6 +43,7 @@ This repository contains sample commands and documentation to write your own one
   - [Sip](#sip)
   - [Surfshark](#surfshark)
   - [Things](#things)
+  - [Todoist](#todoist)
   - [Translate Shell](#translate-shell)
   - [Tunnelblick](#tunnelblick)
   - [Viscosity](#viscosity)
@@ -232,6 +233,13 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/things/images/things.png" width="20" height="20"> | [Current To-Do](apps/things/things-current-todo.applescript) | Show your current To-Do to stay focused. | [Things](https://twitter.com/culturedcode/) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/things/images/things.png" width="20" height="20"> | [Search To-Dos](apps/things/things-search-to-dos.sh) | Search To-Dos with a query. | [Things](https://twitter.com/culturedcode/) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/things/images/things.png" width="20" height="20"> | [Today](apps/things/things-today.applescript) | Get an overview of your completed tasks for today. | [Things](https://twitter.com/culturedcode/) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+
+#### Todoist
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/todoist/images/todoist-logo.png" width="20" height="20"> | [Create Task](apps/todoist/create-task.template.sh) | Creates Todoist task | [Faris Aziz](https://github.com/farisaziz12) | ✅ | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/todoist/images/todoist-logo.png" width="20" height="20"> | [Get Tasks](apps/todoist/get-tasks.template.sh) | Gets All Todoist tasks | [Faris Aziz](https://github.com/farisaziz12) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Translate Shell
 
