@@ -159,16 +159,16 @@ bulbID=$defaultBulbID
 
 if [[ $3 ]]; then
 
-    if [[ $3 == "main" ]]; then
-        bulbID="5"
+    if [[ $3 == "<enter chosen bulb name here>" ]]; then
+        bulbID="<ID number from the hue API>"
 
-    elif [[ $3 == "lamp" ]]; then
-        bulbID="4"
+    elif [[ $3 == "<another chosen bulb name>" ]]; then
+        bulbID="<ID number from the hue API>"
 
     # Add more bulbs here with additional elif statements, e.g:
 
-    # elif [[ $3 == "<your chosen bulb name>" ]]; then
-        #bulbID="<bulb ID number from the hue API>"
+    # elif [[ $3 == "main" ]]; then
+        #bulbID="5"
 
     else
         echo "Bulb not found!"

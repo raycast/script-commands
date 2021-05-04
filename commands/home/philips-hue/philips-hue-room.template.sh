@@ -159,16 +159,16 @@ roomID=$defaultRoomID
 
 if [[ $3 ]]; then
 
-    if [[ $3 == "bedroom" ]]; then
-        roomID="2"
+    if [[ $3 == "<enter chosen room name here>" ]]; then
+        roomID="<ID number from the hue API>"
 
-    elif [[ $3 == "study" ]]; then
-        roomID="3"
+    elif [[ $3 == "<another chosen room name>" ]]; then
+        roomID="<ID number from the hue API>"
 
     # Add more rooms here with additional elif statements, e.g:
 
-    # elif [[ $3 == "<your chosen room name>" ]]; then
-    #     roomID="<room ID number from the hue API>"
+    # elif [[ $3 == "bedroom>" ]]; then
+    #     roomID="2"
 
     else
         echo "Room not found!"
