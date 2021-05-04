@@ -6,21 +6,18 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Json to go struct
+# @raycast.title JSON to Go Struct
 # @raycast.mode fullOutput
 # @raycast.packageName Developer Utilities
 
 # Optional parameters:
 # @raycast.argument1 {"type": "text", "placeholder": "inline", "optional": true}
-# @raycast.icon images/go.jpg
+# @raycast.icon images/go.png
 
 # Documentation:
 # @raycast.author tiancheng92
 # @raycast.authorURL https://github.com/tiancheng92
-# @raycast.description convert the copied json into golang structure
-
-export LC_ALL=en_US.UTF-8
-export PATH="/opt/homebrew/bin:$PATH"
+# @raycast.description Convert the copied JSON into a golang structure.
 
 if ! command -v json-to-go &> /dev/null; then
 	echo "trans command is required (https://github.com/mholt/json-to-go).";
@@ -32,12 +29,11 @@ if ! command -v jq &> /dev/null; then
 	exit 1;
 fi
 
-
 echo "$(pbpaste)" | jq &> /dev/null
 
 if [ $(echo $?) != 0 ]; then
 	echo "json parse error";
-	echo "row data : $(pbpaste)"
+	echo "raw data: $(pbpaste)"
 	exit 1;
 fi
 
