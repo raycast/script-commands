@@ -72,6 +72,7 @@ This repository contains sample commands and documentation to write your own one
 - [Google Maps](#google-maps)
 - [Home](#home)
   - [Elgato](#elgato)
+  - [Philips Hue](#philips-hue)
 - [Math](#math)
 - [Media](#media)
   - [Apple Music](#apple-music)
@@ -523,6 +524,13 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/home/elgato/images/elgato.png" width="20" height="20"> | [Increase Brightness](home/elgato/elgato-key-light-increase-brightness.template.rb) | Increase brightness of Elgato Key Light by 5%. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  | ✅ | <img src="images/icon-ruby.png" width="20" height="20" title="Ruby"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/home/elgato/images/elgato.png" width="20" height="20"> | [Turn Off](home/elgato/elgato-key-light-turn-off.template.rb) | Turn off Elgato Key Light. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  | ✅ | <img src="images/icon-ruby.png" width="20" height="20" title="Ruby"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/home/elgato/images/elgato.png" width="20" height="20"> | [Turn On](home/elgato/elgato-key-light-turn-on.template.rb) | Turn on Elgato Key Light. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  | ✅ | <img src="images/icon-ruby.png" width="20" height="20" title="Ruby"> |
+
+#### Philips Hue
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | 💡 | [Set Light Bulb](home/philips-hue/philips-hue-bulb.template.sh) | Set a chosen or default individual bulb to a preset, hsb or brightness value. | [Jono Hewitt](https://github.com/jonohewitt) | ✅ | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 💡 | [Set Room Lights](home/philips-hue/philips-hue-room.template.sh) | Set the lights in a chosen or default room to a preset, hsb or brightness value. | [Jono Hewitt](https://github.com/jonohewitt) | ✅ | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 ## Math
 
