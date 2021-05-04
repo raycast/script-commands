@@ -36,6 +36,6 @@ TASKS=$(curl -s -X GET \
   https://api.todoist.com/rest/v1/tasks \
   -H "Authorization: Bearer $API_TOKEN")
 
-echo $TASKS | jq '.[] | .content'
+echo "$TASKS" | jq '.[] | .content'
 echo
-echo "You have $(echo $TASKS | jq 'length') tasks"
+echo "You have $(echo "$TASKS" | jq 'length') tasks"
