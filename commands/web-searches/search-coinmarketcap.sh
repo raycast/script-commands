@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title CoinMarketCap search
+# @raycast.title CoinMarketCap Search
 # @raycast.mode compact
 
 # Optional parameters:
@@ -10,7 +10,7 @@
 # @raycast.argument1 { "type": "text", "placeholder": "Placeholder" }
 
 # Documentation:
-# @raycast.description Searches coinmarketcap currencies
+# @raycast.description Searches coinmarketcap currencies.
 # @raycast.author Benedict Neo
 # @raycast.authorURL https://github.com/benthecoder
 
