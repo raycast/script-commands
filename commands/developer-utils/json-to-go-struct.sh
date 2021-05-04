@@ -11,12 +11,13 @@
 # @raycast.packageName Developer Utilities
 
 # Optional parameters:
+# @raycast.argument1 {"type": "text", "placeholder": "inline", "optional": true}
 # @raycast.icon images/go.jpg
 
 # Documentation:
 # @raycast.author tiancheng92
 # @raycast.authorURL https://github.com/tiancheng92
-# @raycast.description convert the copied json into a go structure
+# @raycast.description convert the copied json into golang structure
 
 export LC_ALL=en_US.UTF-8
 export PATH="/opt/homebrew/bin:$PATH"
@@ -31,5 +32,19 @@ if ! command -v jq &> /dev/null; then
 	exit 1;
 fi
 
-echo "$(pbpaste)" | jq > /dev/null # Judge the legitimacy of json and output an error
-json-to-go -s "$(pbpaste)"
+
+echo "$(pbpaste)" | jq &> /dev/null
+
+if [ $(echo $?) != 0 ]; then
+	echo "json parse error";
+	echo "row data : $(pbpaste)"
+	exit 1;
+fi
+
+if [ "$1" != "" ]; then
+	json-to-go -s "$(pbpaste)" -i
+	json-to-go -s "$(pbpaste)" -i | pbcopy
+else
+	json-to-go -s "$(pbpaste)"
+	json-to-go -s "$(pbpaste)" | pbcopy
+fi
