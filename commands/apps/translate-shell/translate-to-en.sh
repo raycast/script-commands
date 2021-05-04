@@ -18,9 +18,6 @@
 # @raycast.authorURL https://github.com/tiancheng92
 # @raycast.description translate and copy brief translation to clipboard
 
-export LC_ALL=en_US.UTF-8
-export PATH="/opt/homebrew/bin:$PATH"
-
 if ! command -v trans &> /dev/null; then
 	echo "trans command is required (https://github.com/soimort/translate-shell).";
 	exit 1;
