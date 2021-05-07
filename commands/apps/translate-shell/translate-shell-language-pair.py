@@ -8,7 +8,7 @@
 # translate-shell requires gawk to be accessible from PATH.
 # This is not the case if the Homebrew prefix was customized or when using macports.
 # Add your PATH here, if required.
-PATH="$PATH"
+# PATH="$PATH"
 
 # Required parameters:
 # @raycast.schemaVersion 1
