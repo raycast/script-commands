@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Search in emojipedia
+# @raycast.title Search in Emojipedia
 # @raycast.mode silent
 # @raycast.packageName Web Searches
 
@@ -11,7 +11,7 @@
 # @raycast.argument1 { "type": "text", "placeholder": "query", "percentEncoded": true}
 
 # Documentation:
-# @raycast.description Search for emojis at emojipedia
+# @raycast.description Search for emojis at emojipedia.
 # @raycast.author Benedict Neo
 # @raycast.authorURL https://github.com/benthecoder
 

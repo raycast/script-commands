@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 
-# Translate the query using translate-shell.
-# Allows to set a default language-pair that can be used to translate in both 
-# directions without setting the 'from' and 'to' languages.
-
 # Dependency: Requires translate-shell (https://www.soimort.org/translate-shell)
-# Install it with MacPorts: `sudo port install translate-shell`
-# Or with Homebrew: `brew install translate-shell`
+# Install with Homebrew: `brew install translate-shell`
+# or install with MacPorts: `sudo port install translate-shell`
+
+# translate-shell requires gawk to be accessible from PATH.
+# This is not the case if the Homebrew prefix was customized or when using macports.
+# Add your PATH here, if required.
+PATH="$PATH"
 
 # Required parameters:
 # @raycast.schemaVersion 1
@@ -26,13 +27,10 @@
 # @raycast.description Translate text using translate-shell.
 
 # Set the default language pair.
+# Allows to set a default language-pair that can be used to translate in both 
+# directions without setting the 'from' and 'to' languages.
 FROM_LANG_DEFAULT = 'de'
 TO_LANG_DEFAULT = 'en'
-
-# translate-shell requires gawk to be accessible from PATH.
-# This is not the case if the Homebrew prefix was customized or when using macports.
-# Add your PATH here, if required.
-PATH="$PATH"
 
 import json, os, sys, subprocess
 
