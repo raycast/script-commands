@@ -31,7 +31,7 @@ tell application "Finder"
 			# If it's an item, use its container's path.
 			set p to container of i
 		end if
-	else if (exists window 1) and current view of window 1 is in {list view, flow view} then
+	else if exists window 1 then
 		# If a window exist, use its folder property as the path.
 		set p to folder of window 1
 	else
