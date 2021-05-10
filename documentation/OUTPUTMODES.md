@@ -42,7 +42,7 @@ Colors are adapted to current users apperance settings (light and dark themes)
 
 ## Other colors
 
-We also support [8-bit](https://en.wikipedia.org/wiki/) and [24-bit](https://en.wikipedia.org/wiki/ANSI_escape_code#24-bit) color codes if you need a wider range of colors.
+We also support [8-bit](https://en.wikipedia.org/wiki/ANSI_escape_code#8-bit) and [24-bit](https://en.wikipedia.org/wiki/ANSI_escape_code#24-bit) color codes if you need a wider range of colors.
 
 **Other supported codes:**
 
