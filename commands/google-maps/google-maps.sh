@@ -14,10 +14,10 @@
 first_argument=${1// /+}
 second_argument=${2// /+}
 
-if [$1 == ""]; then
+if [ "$1" = "" ]; then
 	open "https://www.google.com/maps"
-elif [$2 == ""]; then
+elif [ "$2" = "" ]; then
 	open "https://www.google.com/maps/search/$first_argument"
 else
-	open "https://www.google.com/maps/dir/$second_argument/$first_argument"
+	open "https://www.google.com/maps/dir/$first_argument/$second_argument"
 fi
