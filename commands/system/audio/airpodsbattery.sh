@@ -29,7 +29,7 @@ for i in "${mac_addresses[@]}"; do
     mac_address_system_profiler=$(grep -ia11 "${i}"<<<"${system_profiler}")
     # $(grep -ia11 "${mac_addr}"<<<"${system_profiler}"|awk '/Product ID/{print $3}')
     product_id=$(echo "$mac_address_system_profiler" | awk '/Product ID/{print $3}')
-    if [[ ! "${airpods_product_ids[*]}" =~ $product_id && ! "${airpods_product_ids[*]}" =~ $product_id ]]; then
+    if [[ ! "${airpods_product_ids[*]}" =~ $product_id && ! "${airpods_max_product_ids[*]}" =~ $product_id ]]; then
         continue
     fi
     airpods_list+=("$i,$product_id,$(echo "$mac_address_system_profiler" | awk '{if ($0 ~ /Connected: Yes/) {print 1} else if ($0 ~ /Connected: No/) {print 0}}')")
