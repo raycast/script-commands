@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Dependency: This script requires `espanso` cli installed: https://espanso.org/install/
+
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Stop Espanso
