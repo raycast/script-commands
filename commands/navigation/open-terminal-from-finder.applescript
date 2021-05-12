@@ -39,7 +39,7 @@ tell application "Finder"
         set p to path to desktop folder
     end if
 
-    set command to "cd " & quoted form of POSIX path of (p as alias)
+    set command to "cd " & quoted form of POSIX path of (p as alias) & ";clear;"
 end tell
 
 tell application "Terminal"
