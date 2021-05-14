@@ -149,7 +149,12 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
-  |  | [Create Text Expansion](apps/espanso/espanso-create-expansion.sh) | Add a text expansion to expanso | [Max Stoiber](https://github.com/mxstbr) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/espanso/images/espanso.png" width="20" height="20"> | [Create Text Expansion](apps/espanso/espanso-create-expansion.sh) | Add a text expansion to expanso | [Max Stoiber](https://github.com/mxstbr) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/espanso/images/espanso.png" width="20" height="20"> | [Disable Espanso](apps/espanso/disable-espanso.sh) | N/A | [es183923](https://github.com/es183923) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/espanso/images/espanso.png" width="20" height="20"> | [Enable Espanso](apps/espanso/enable-espanso.sh) | N/A | [es183923](https://github.com/es183923) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/espanso/images/espanso.png" width="20" height="20"> | [Restart Espanso](apps/espanso/restart-espanso.sh) | N/A | [es183923](https://github.com/es183923) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/espanso/images/espanso.png" width="20" height="20"> | [Start Espanso](apps/espanso/start-espanso.sh) | N/A | [es183923](https://github.com/es183923) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/espanso/images/espanso.png" width="20" height="20"> | [Stop Espanso](apps/espanso/stop-espanso.sh) | N/A | [es183923](https://github.com/es183923) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Fantastical
 
