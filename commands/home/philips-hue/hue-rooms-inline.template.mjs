@@ -34,6 +34,17 @@ const hueBridgeIP = '<enter bridge ip here>' // e.g 192.168.1.2
 const userID = '<enter username here>' // e.g 1028d66426293e821ecfd9ef1a0731df
 const specificOutput = true // true for e.g "2/2 lights on", false for "All on" / "Some on" / "All off"
 
+// Optional:
+// Specify which rooms you want to include, in order, by their name (case sensitive).
+// These names must have already been assigned to the rooms via the Hue app.
+// Use an empty array for all rooms.
+const chosenRooms = [] // E.g ['Bedroom', 'Study']
+
+// Optional:
+// If you want to use a different room name to the name in your Hue settings, you can assign that here.
+// The object key is the Hue name and the value is your arbitrary custom name.
+const customNames = {} // E.g { Bedroom: 'My room', Study: 'Office' }
+
 // Code:
 
 // Necessary to prevent fetch logging to the console automatically
@@ -48,14 +59,25 @@ const roomsData = await fetch(`http://${hueBridgeIP}/api/${userID}/groups`, {
   method: 'get',
 }).then(res => res.json())
 
-const reducer = (output, key) => {
-  const totalLights = roomsData[key].lights.length
-  const onLights = roomsData[key].lights.filter(
+Object.keys(customNames)
+  .concat(chosenRooms)
+  .forEach(roomName => {
+    if (!Object.entries(roomsData).find(room => room[1].name === roomName)) {
+      console.error(
+        `"${roomName}" isn't a room name yet! Check chosenRooms & customNames`
+      )
+      process.exit(1)
+    }
+  })
+
+const reducer = (output, room) => {
+  const totalLights = room.lights.length
+  const onLights = room.lights.filter(
     id => lightsData[id].state.on && lightsData[id].state.reachable
   ).length
 
   if (totalLights > 0) {
-    output += `${roomsData[key].name}: `
+    output += `${customNames[room.name] || room.name}: `
     if (specificOutput) output += `${onLights}/${totalLights} lights on, `
     else {
       if (onLights === totalLights) output += 'All on, '
@@ -66,5 +88,14 @@ const reducer = (output, key) => {
   return output
 }
 
-const inlineOutput = Object.keys(roomsData).reduce(reducer, '').slice(0, -2)
-console.log(inlineOutput || 'No rooms set up yet!')
+const inlineOutput = Object.entries(roomsData)
+  .map(entry => entry[1])
+  .filter(room => !chosenRooms.length || chosenRooms.includes(room.name))
+  .sort((a, b) => {
+    if (chosenRooms.length) {
+      return chosenRooms.indexOf(a.name) - chosenRooms.indexOf(b.name)
+    }
+  })
+  .reduce(reducer, '')
+  .slice(0, -2)
+console.log(inlineOutput || 'No rooms found, check your configuration!')
