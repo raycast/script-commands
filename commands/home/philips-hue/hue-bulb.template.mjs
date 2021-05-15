@@ -47,31 +47,46 @@ $.verbose = false
 const [presetInput, valueInput, bulbInput] = process.argv.slice(3)
 let on, hue, sat, bri, bulbID, data
 
-// Assign bulb IDs to input strings here, some examples are included already
-// The defaultBulb id assigned in the top config will be used if a bulb argument isn't provided
+// Fetch existing data for all bulbs
+const prevBulbData = await fetch(
+  `http://${hueBridgeIP}/api/${userID}/lights/`,
+  { method: 'get' }
+).then(res => res.json())
+
 if (bulbInput) {
-  switch (bulbInput.toLowerCase()) {
-    // Multiple inputs can be assigned to the same bulb by stacking case statements
-    case 'main':
-    case 'ceiling':
-      bulbID = 5
-      break
-    case 'lamp':
-    case 'desk':
-      bulbID = 4
-      break
-    // Add more presets with more case statements here
-    default:
-      console.error(`${bulbInput} isn't configured yet!`)
-      process.exit(1)
+  // If the bulbInput string matches a name assigned to one of the bulbs on the Hue bridge,
+  // the script will automatically use its ID instead of testing against the names in the switch statement
+  const matchedBulb = Object.entries(prevBulbData).find(
+    bulb => bulb[1].name.toLowerCase() === bulbInput.toLowerCase()
+  )
+  if (matchedBulb) bulbID = matchedBulb[0]
+  else {
+    // Assign bulb IDs to input strings here, some examples are included already
+    // The defaultBulb id assigned in the top config will be used if a bulb argument isn't provided
+    // The switch converts all inputs to lowercase, so you should only use lowercase for the case statements.
+    // That way, the Raycast input will be case insensitive.
+    switch (bulbInput.toLowerCase()) {
+      // Multiple inputs can be assigned to the same bulb by stacking case statements
+      case 'main':
+      case 'ceiling':
+        bulbID = 5
+        break
+      case 'lamp':
+      case 'desk':
+        bulbID = 4
+        break
+      // Add more presets with more case statements here
+      default:
+        console.error(`${bulbInput} isn't configured yet!`)
+        process.exit(1)
+    }
   }
 } else bulbID = defaultBulb
 
-// Fetch existing data for the bulb
-const prevBulbData = await fetch(
-  `http://${hueBridgeIP}/api/${userID}/lights/${bulbID}`,
-  { method: 'get' }
-).then(res => res.json())
+if (!prevBulbData[bulbID]) {
+  console.error(`Bulb ID: ${bulbID} wasn't found on your Hue bridge!`)
+  process.exit(1)
+}
 
 // Assign your presets here, some examples are included already
 if (presetInput) {
@@ -101,7 +116,7 @@ if (presetInput) {
   }
   // If there isn't any presetInput or valueInput, this condition toggles the bulb on or off
   // Remove if you would rather receive a 'No data provided' error without any changes made
-} else if (!valueInput) on = !prevBulbData.state.on
+} else if (!valueInput) on = !prevBulbData[bulbID].state.on
 
 // If a colour input is provided, this section tests and assigns the values from it
 // This section doesn't require any further configuration
@@ -165,7 +180,7 @@ else {
   process.exit(1)
 }
 
-const response = await fetch(
+await fetch(
   `http://${hueBridgeIP}/api/${userID}/lights/${bulbID}/state`,
   {
     method: 'put',
@@ -176,6 +191,6 @@ const response = await fetch(
   .then(res => res.json())
   .then(data => {
     if (data.every(message => message.success)) {
-      console.log(`${prevBulbData.name} bulb updated!`)
+      console.log(`${prevBulbData[bulbID].name} bulb updated!`)
     }
   })
