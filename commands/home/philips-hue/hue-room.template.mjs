@@ -47,31 +47,47 @@ $.verbose = false
 const [presetInput, valueInput, roomInput] = process.argv.slice(3)
 let on, hue, sat, bri, roomID, data
 
-// Assign room IDs to input strings here, some examples are included already
-// The defaultRoom id assigned in the top config will be used if a room argument isn't provided
+// Fetch existing data for all rooms
+const prevRoomData = await fetch(
+  `http://${hueBridgeIP}/api/${userID}/groups/`,
+  { method: 'get' }
+).then(res => res.json())
+
 if (roomInput) {
-  switch (roomInput.toLowerCase()) {
-    // Multiple inputs can be assigned to the same room by stacking case statements
-    case 'bedroom':
-    case 'bed':
-      roomID = 2 // change these numbers to match your api results
-      break
-    case 'study':
-    case 'office':
-      roomID = 3
-      break
-    // Add more presets with more case statements here
-    default:
-      console.error(`${roomInput} isn't configured yet!`)
-      process.exit(1)
+  // If the roomInput string matches a name assigned to one of the rooms on the Hue bridge,
+  // the script will automatically use its ID instead of testing against the names in the switch statement
+  const matchedRoom = Object.entries(prevRoomData).find(
+    room => room[1].name.toLowerCase() === roomInput.toLowerCase()
+  )
+  if (matchedRoom) roomID = matchedRoom[0]
+  else {
+    // Assign room IDs to input strings here, some examples are included already
+    // The defaultRoom id assigned in the top config will be used if a room argument isn't provided
+    // The switch converts all inputs to lowercase, so you should only use lowercase for the case statements.
+    // That way, the Raycast input will be case insensitive.
+    switch (roomInput.toLowerCase()) {
+      // Multiple inputs can be assigned to the same room by stacking case statements
+      case 'dining room':
+      case 'dining':
+      case 'din':
+        roomID = 2 // Change these numbers to match your API results
+        break
+      case 'study':
+      case 'office':
+        roomID = 3
+        break
+      // Add more presets with more case statements here
+      default:
+        console.error(`${roomInput} isn't configured yet!`)
+        process.exit(1)
+    }
   }
 } else roomID = defaultRoom
 
-// Fetch existing data for the room
-const prevRoomData = await fetch(
-  `http://${hueBridgeIP}/api/${userID}/groups/${roomID}`,
-  { method: 'get' }
-).then(res => res.json())
+if (!prevRoomData[roomID]) {
+  console.error(`Room ID: ${roomID} wasn't found on your Hue bridge!`)
+  process.exit(1)
+}
 
 // Assign your presets here, some examples are included already
 if (presetInput) {
@@ -101,7 +117,7 @@ if (presetInput) {
   }
   // If there isn't any presetInput or valueInput, this condition toggles the room on or off
   // Remove if you would rather receive a 'No data provided' error without any changes made
-} else if (!valueInput) on = !prevRoomData.state.any_on
+} else if (!valueInput) on = !prevRoomData[roomID].state.any_on
 
 // If a colour input is provided, this section tests and assigns the values from it
 // This section doesn't require any further configuration
@@ -173,6 +189,6 @@ await fetch(`http://${hueBridgeIP}/api/${userID}/groups/${roomID}/action`, {
   .then(res => res.json())
   .then(data => {
     if (data.every(message => message.success)) {
-      console.log(`${prevRoomData.name} lights updated!`)
+      console.log(`${prevRoomData[roomID].name} lights updated!`)
     }
   })
