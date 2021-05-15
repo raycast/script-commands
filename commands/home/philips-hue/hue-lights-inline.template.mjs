@@ -55,9 +55,20 @@ const customNames = {} // E.g { Main: 'Ceiling', Desk: 'Lamp' }
 $.verbose = false
 
 // Collect data on all lights connected to the bridge
-const response = await fetch(`http://${hueBridgeIP}/api/${userID}/lights`, {
+const lightsData = await fetch(`http://${hueBridgeIP}/api/${userID}/lights`, {
   method: 'get',
 }).then(res => res.json())
+
+Object.keys(customNames)
+  .concat(chosenLights)
+  .forEach(lightName => {
+    if (!Object.entries(lightsData).find(bulb => bulb[1].name === lightName)) {
+      console.error(
+        `"${lightName}" isn't a bulb name yet! Check chosenLights & customNames`
+      )
+      process.exit(1)
+    }
+  })
 
 const reducer = (output, bulb) => {
   output += `${customNames[bulb.name] || bulb.name}: `
@@ -91,7 +102,7 @@ const reducer = (output, bulb) => {
   return output
 }
 
-const inlineOutput = Object.entries(response)
+const inlineOutput = Object.entries(lightsData)
   .map(entry => entry[1])
   .filter(light => !chosenLights.length || chosenLights.includes(light.name))
   .sort((a, b) => {
