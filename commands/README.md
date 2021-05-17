@@ -538,8 +538,10 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
-  | 💡 | [Set Light Bulb](home/philips-hue/philips-hue-bulb.template.sh) | Set a chosen or default individual bulb to a preset, hsb or brightness value. | [Jono Hewitt](https://github.com/jonohewitt) | ✅ | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
-  | 💡 | [Set Room Lights](home/philips-hue/philips-hue-room.template.sh) | Set the lights in a chosen or default room to a preset, hsb or brightness value. | [Jono Hewitt](https://github.com/jonohewitt) | ✅ | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 💡 | [Lights](home/philips-hue/hue-lights-inline.template.mjs) | Show inline summary of any Hue compatible lights. Choose to show on/off, brightness percentage, colour temperature or hue, saturation, brightness values. Recommended to have already assigned names to lights in the Hue app. | [Jono Hewitt](https://github.com/jonohewitt) |  | ✅ | zx |
+  | 💡 | [Rooms](home/philips-hue/hue-rooms-inline.template.mjs) | Show inline summary about your rooms of Hue compatible lights. Choose to show the number of lights on out of the room total, or use more general terms such as "All on". Requires rooms to have already been set up in the Hue app. | [Jono Hewitt](https://github.com/jonohewitt) |  | ✅ | zx |
+  | 💡 | [Set Light Bulb](home/philips-hue/hue-bulb.template.mjs) | Set a specified or default individual colour bulb to a preset, hsb or brightness value. Leave preset and value arguments empty to toggle a bulb on or off. | [Jono Hewitt](https://github.com/jonohewitt) | ✅ | ✅ | zx |
+  | 💡 | [Set Room Lights](home/philips-hue/hue-room.template.mjs) | Set a specified or default room of colour bulbs to a preset, hsb or brightness value. Leave preset and value arguments empty to toggle a room on or off. | [Jono Hewitt](https://github.com/jonohewitt) | ✅ | ✅ | zx |
 
 ## Math
 
@@ -719,6 +721,7 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | 📦 | [Bundlephobia cost](web-searches/bundlephobia.sh) | N/A | [Zander Martineau](https://zander.wtf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | ❓ | [Caniuse.com search](web-searches/caniuse.sh) | N/A | [Zander Martineau](https://zander.wtf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🌦 | [Check Weather](web-searches/check-weather.sh) | N/A | [jaklan](https://github.com/jaklan) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   |  | [CoinMarketCap Search](web-searches/search-coinmarketcap.sh) | Searches coinmarketcap currencies. | [Benedict Neo](https://github.com/benthecoder) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/hunter.png" width="20" height="20"> | [Find Email Address With Hunter](web-searches/hunter.sh) | Find emails using hunter.io | [Tanguy Le Stradic](https://github.com/tanguyls) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/giphy.png" width="20" height="20"> | [Giphy search](web-searches/giphy.sh) | N/A | [Zander Martineau](https://zander.wtf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
