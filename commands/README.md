@@ -34,6 +34,7 @@ This repository contains sample commands and documentation to write your own one
   - [Dnd Me](#dnd-me)
   - [Espanso](#espanso)
   - [Fantastical](#fantastical)
+  - [Ferdi](#ferdi)
   - [Hazeover](#hazeover)
   - [Iterm](#iterm)
   - [Mullvad](#mullvad)
@@ -161,6 +162,12 @@ This repository contains sample commands and documentation to write your own one
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/fantastical/./images/fantastical.png" width="20" height="20"> | [Create Event](apps/fantastical/create-event.applescript) | Create an event in Fantastical | [Robert Cooper](https://github.com/robertcoopercode) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+
+#### Ferdi
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/ferdi/images/ferdi.png" width="20" height="20"> | [Switch service](apps/ferdi/ferdi-switch-service.applescript) | N/A | [jaklan](https://github.com/jaklan) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 #### Hazeover
 
