@@ -4,13 +4,13 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Switch service
+# @raycast.title Open Service by Index
 # @raycast.mode silent
 
 # Optional parameters:
 # @raycast.icon images/ferdi.png
 # @raycast.packageName Ferdi
-# @raycast.argument1 { "type": "text", "placeholder": "index", "optional": true }
+# @raycast.argument1 { "type": "text", "placeholder": "Index", "optional": true }
 
 # Documentation:
 # @raycast.author jaklan
@@ -21,7 +21,7 @@ on run argv
     ### Configuration ###
 	
     # Delay time before triggering the keystroke (used only when Ferdi needs to be initialised)
-    set keystrokeDelay to 3
+    set keystrokeDelay to 5
 
     ### End of configuration ###
 
