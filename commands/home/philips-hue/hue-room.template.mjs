@@ -169,13 +169,11 @@ if (sat) sat = Math.floor((sat * 254) / 100)
 if (bri) bri = Math.floor((bri * 254) / 100)
 
 // If there is colour information, include it all in the data
-if (hue !== undefined) {
-  data = `{"on":${on}, "hue":${hue}, "sat":${sat}, "bri":${bri}}`
-}
+if (hue !== undefined) data = { on: on, hue: hue, sat: sat, bri: bri }
 // If there is only brightness info, update it without overwriting the existing colour data
-else if (bri !== undefined) data = `{"on":${on},"bri":${bri}}`
+else if (bri !== undefined) data = { on: on, bri: bri }
 // Otherwise only change the "on" state without overwriting the existing colour data
-else if (on !== undefined) data = `{"on":${on}}`
+else if (on !== undefined) data = { on: on }
 else {
   console.error('No data provided!')
   process.exit(1)
@@ -183,7 +181,7 @@ else {
 
 await fetch(`http://${hueBridgeIP}/api/${userID}/groups/${roomID}/action`, {
   method: 'put',
-  body: data,
+  body: JSON.stringify(data),
   headers: { 'Content-Type': 'application/json' },
 })
   .then(res => res.json())
