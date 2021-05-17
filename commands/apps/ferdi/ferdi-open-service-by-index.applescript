@@ -17,13 +17,13 @@
 # @raycast.authorURL https://github.com/jaklan
 
 on run argv
-    
-    ### Configuration ###
-	
-    # Delay time before triggering the keystroke (used only when Ferdi needs to be initialised)
-    set keystrokeDelay to 5
 
-    ### End of configuration ###
+	### Configuration ###
+
+	# Delay time before triggering the keystroke (used only when Ferdi needs to be initialised)
+	set keystrokeDelay to 5
+
+	### End of configuration ###
 
 	if item 1 of argv = "" then
 		set serviceIndex to 1
