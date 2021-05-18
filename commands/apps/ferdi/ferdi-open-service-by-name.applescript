@@ -13,7 +13,7 @@
 # @raycast.argument1 { "type": "text", "placeholder": "Name", "optional": true }
 
 # Documentation:
-# @raycast.author jaklan
+# @raycast.author Jakub Lanski
 # @raycast.authorURL https://github.com/jaklan
 
 on run argv

@@ -12,7 +12,7 @@
 # @raycast.argument2 { "type": "text", "placeholder": "Options", "optional": true}
 
 # Documentation:
-# @raycast.author jaklan
+# @raycast.author Jakub Lanski
 # @raycast.authorURL https://github.com/jaklan
 
 # $1 (Location) - e.g. "warsaw", "warsaw poland", "warsaw usa"; default: current location
