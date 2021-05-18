@@ -8,7 +8,7 @@
 # @raycast.mode silent
 
 # Optional parameters:
-# @raycast.icon images/slack.png
+# @raycast.icon images/slack-logo.png
 # @raycast.packageName Slack
 # @raycast.argument1 { "type": "text", "placeholder": "Channel / DM / File / Misc" }
 
