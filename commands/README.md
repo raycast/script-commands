@@ -55,6 +55,7 @@ This repository contains sample commands and documentation to write your own one
   - [Emojis](#emojis)
   - [Gmail](#gmail)
   - [Google Meet](#google-meet)
+  - [Messenger](#messenger)
   - [Slack](#slack)
   - [Zoom](#zoom)
 - [Conversions](#conversions)
@@ -335,6 +336,12 @@ This repository contains sample commands and documentation to write your own one
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/google-meet/images/logo.png" width="20" height="20"> | [Open Google Meet](communication/google-meet/meet.sh) | Start a Google Meet session | [Mujib Azizi](https://github.com/mujibazizi) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Messenger
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/messenger/images/messenger.png" width="20" height="20"> | [Open Conversation](communication/messenger/messenger-open-conversation.applescript) | N/A | [Jakub Lanski](https://github.com/jaklan) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 #### Slack
 
