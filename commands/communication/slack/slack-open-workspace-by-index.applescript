@@ -4,13 +4,13 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Jump to...
+# @raycast.title Open Workspace by Index
 # @raycast.mode silent
 
 # Optional parameters:
 # @raycast.icon images/slack-logo.png
 # @raycast.packageName Slack
-# @raycast.argument1 { "type": "text", "placeholder": "Channel / DM / File / Misc" }
+# @raycast.argument1 { "type": "text", "placeholder": "Index", "optional": true }
 
 # Documentation:
 # @raycast.author Jakub Lanski
@@ -20,15 +20,16 @@ on run argv
 
 	### Configuration ###
 
-	# Delay time before triggering the keystroke for the Quick Switcher
-	# (used only when Slack needs to be initialised)
+	# Delay time before triggering the keystroke (used only when Slack needs to be initialised)
 	set keystrokeDelay to 5
-	# Delay time before entering the input
-	set inputDelay to 0.5
-	# Delay time before triggering the "enter" keystroke
-	set enterDelay to 0.5
 
 	### End of configuration ###
+
+	if item 1 of argv = "" then
+		set serviceIndex to 1
+	else
+		set serviceIndex to item 1 of argv
+	end if
 
 	if application "Slack" is running then
 		do shell script "open -a Slack"
@@ -37,12 +38,6 @@ on run argv
 		delay keystrokeDelay
 	end if
 
-	tell application "System Events"
-		keystroke "k" using command down
-		delay inputDelay
-		keystroke item 1 of argv
-		delay enterDelay
-		key code 36
-	end tell
+	tell application "System Events" to keystroke serviceIndex using command down
 
 end run
