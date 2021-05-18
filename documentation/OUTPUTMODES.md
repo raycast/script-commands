@@ -65,3 +65,4 @@ We also support [8-bit](https://en.wikipedia.org/wiki/ANSI_escape_code#8-bit) an
 | bash tput | `export TERM=linux; echo "$(tput setaf 1)$(tput setab 2)red text on green background$(tput sgr0)";` |
 | swift | `print("\\u{001B}[31;42mred text on green background\\u{001B}[0m")` |
 | osascript | `do shell script "echo '\\033[31;42mred text on green background\\033[0m'"`|
+| node.js | `console.log('\x1b[31;42mred text on green background\x1b[0m')`
