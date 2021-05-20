@@ -14,6 +14,7 @@
 # @raycast.author Senthil Prabhu
 # @raycast.authorURL https://github.com/senthilprabhut
 
+# Get the current setting value
 try
 	set CurSet to do shell script "defaults read NSGlobalDomain AppleShowAllExtensions"
 on error
@@ -28,13 +29,10 @@ end if
 
 do shell script "defaults write NSGlobalDomain AppleShowAllExtensions -bool " & NewSet
 
-tell application "Finder"
-  quit
-  try
-    activate
-  end try
-end tell
+# Restart Finder
+do shell script "killall Finder"
 
+# Show message
 if CurSet is "1" then
 	log "Show all filename extensions disabled"
 else
