@@ -39,5 +39,7 @@ data = gitlab.get_call("issues?state=opened&scope=assigned_to_me")
 print(f"GitLab Issues assigned to you on {gitlab.instance}:\n")
 for e in data:
   title = e.get("title")
+  web_url = e.get("web_url")
   reference = e.get("references", {}).get("full")
   print(f"* {title} at {reference}")
+  print(f"{web_url}\n")
