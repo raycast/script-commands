@@ -42,4 +42,6 @@ print(f"To Do {todo_count}")
 for todo in data:
   project_name = todo.get("project", {}).get("name_with_namespace")
   title = todo.get("target", {}).get("title")
-  print(f'* "{title}" at {project_name}')
+  web_url = todo.get("target", {}).get("web_url")
+  print(f"* {title} at {project_name}")
+  print(f"{web_url}\n")
