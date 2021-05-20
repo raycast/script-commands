@@ -34,10 +34,22 @@
 # Main program
 
 from gitlabhelper import GitLab
+import textwrap
+
 gitlab = GitLab()
 data = gitlab.get_call("merge_requests?state=opened&scope=assigned_to_me")
-print(f"GitLab Merge requests assigned to you on {gitlab.instance}:\n")
+print(f"GitLab Merge requests assigned to you on {gitlab.instance}/:\n")
+
 for e in data:
   title = e.get("title")
+  state = e.get("state")
+  web_url = e.get("web_url")
+  author = e.get("author")
+  name = author.get("name")
+  username = author.get("username")
   reference = e.get("references", {}).get("full")
-  print(f"* {title} at {reference}")
+  description = textwrap.shorten(e.get("description"), width=420, placeholder="...")
+  print(f"[{state}] * {title} at {reference}\n")
+  print(f"{description}\n")
+  print(f"{web_url}\n")
+  print(f"By {name} @{username}\n")
