@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Toggle All Filename Extensions
+# @raycast.title Toggle Filename Extensions
 # @raycast.mode silent
 
 # Optional parameters:
