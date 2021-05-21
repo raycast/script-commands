@@ -26,23 +26,20 @@ if [ -z "$API_TOKEN" ]; then
 fi
 
 TASK="$1"
-DUE="$2"
+DUE="Tomorrow"
+
+if [[ $2 != "" ]]; then
+    DUE=$2
+fi
 
 if [[ $TASK != "" ]]; then
-	if [[ $DUE != "" ]]; then
-	    curl -s "https://api.todoist.com/rest/v1/tasks" \
-        	-X POST \
-        	--data '{"content": "'"$TASK"'", "due_string": "'"$DUE"'"}' \
-        	-H "Content-Type: application/json" \
-        	-H "Authorization: Bearer $API_TOKEN"
-	else
-	    curl -s "https://api.todoist.com/rest/v1/tasks" \
-        	-X POST \
-        	--data '{"content": "'"$TASK"'", "due_string": "Tomorrow"}' \
-        	-H "Content-Type: application/json" \
-        	-H "Authorization: Bearer $API_TOKEN"
-	fi
+    curl -s "https://api.todoist.com/rest/v1/tasks" \
+    	-X POST \
+    	--data '{"content": "'"$TASK"'", "due_string": "'"$DUE"'"}' \
+    	-H "Content-Type: application/json" \
+    	-H "Authorization: Bearer $API_TOKEN"
+
 	echo "Task Created" # These tasks will show up in your inbox
 else
-echo "Please specify a task"
+	echo "Please specify a task"
 fi
