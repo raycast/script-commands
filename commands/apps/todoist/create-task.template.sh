@@ -5,7 +5,7 @@
 # @raycast.authorURL https://github.com/farisaziz12
 # @raycast.schemaVersion 1
 # @raycast.title Create Task
-# @raycast.mode fullOutput
+# @raycast.mode silent
 # @raycast.packageName Todoist
 # @raycast.description Creates Todoist task
 # @raycast.needsConfirmation false
