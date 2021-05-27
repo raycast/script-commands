@@ -10,7 +10,7 @@
 
 # Optional parameters:
 # @raycast.icon images/dart-logo.png
-# @raycast.packageName Web searches
+# @raycast.packageName Web Searches
 # @raycast.argument1 { "type": "text", "placeholder": "search", "percentEncoded": true }
 
 open "https://pub.dev/packages?q=${1}"
