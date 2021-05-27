@@ -647,6 +647,7 @@ This repository contains sample commands and documentation to write your own one
   | 🌐 | [Open URL From Clipboard](navigation/open-url-from-clipboard.sh) | Opens the URL in the clipboard. | Raycast |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/navigation/images/dash.png" width="20" height="20"> | [Search in Dash](navigation/search-in-dash.sh) | N/A | Jax0rz | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/navigation/images/devdocs.png" width="20" height="20"> | [Search in Devdocs](navigation/search-in-devdocs.sh) | N/A | Jax0rz | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🔍 | [Open Finder](navigation/open-finder.sh) | Open Finder at $HOME or absolute path given | Afraz | ? |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 ## Password Managers
 
