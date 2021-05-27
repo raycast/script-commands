@@ -24,7 +24,7 @@ const scriptContent = `#!/usr/bin/osascript
 # @raycast.packageName Spotify
 #
 # Optional parameters:
-# @raycast.icon ./images/spotify-logo.png
+# @raycast.icon ./images/logo.png
 #
 # Documentation:
 # @raycast.description Play ${commandName} on Spotify
@@ -59,7 +59,10 @@ const slugify = (string) => {
 if (!/track|album|playlist/.test(type)) {
   console.log("Could not find Spotify URL in clipboard");
 } else {
-  fs.writeFileSync(`./${slugify(commandName)}.applescript`, scriptContent);
+  fs.writeFileSync(
+    `./spotify-play-${slugify(commandName)}.applescript`,
+    scriptContent
+  );
   console.log(`${commandName} is ready`);
 }
 
