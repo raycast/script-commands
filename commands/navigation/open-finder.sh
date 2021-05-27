@@ -7,7 +7,7 @@
 
 # Optional parameters:
 # @raycast.icon 🔍
-# @raycast.argument1 { "type": "text", "optional": true, "placeholder": "Placeholder" }
+# @raycast.argument1 { "type": "text", "optional": true, "placeholder": "Folder" }
 # @raycast.packageName Navigation
 
 # Documentation:
