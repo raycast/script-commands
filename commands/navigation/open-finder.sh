@@ -8,7 +8,7 @@
 # Optional parameters:
 # @raycast.icon 🔍
 # @raycast.argument1 { "type": "text", "optional": true, "placeholder": "Placeholder" }
-# @raycast.packageName open-finder
+# @raycast.packageName Navigation
 
 # Documentation:
 # @raycast.description Open Finder at $HOME or argument location
