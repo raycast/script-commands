@@ -11,7 +11,7 @@
 # @raycast.packageName Navigation
 
 # Documentation:
-# @raycast.description Open Finder at $HOME or argument location
+# @raycast.description Open Finder at Home folder or argument location
 # @raycast.author Afraz
 # @raycast.authorURL https://github.com/afrazkhan
 
