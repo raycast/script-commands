@@ -1,0 +1,16 @@
+{
+  "name": "create-spotify-command",
+  "version": "1.0.1",
+  "description": "Create Spotify commands from Raycast",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "spotify",
+    "raycast"
+  ],
+  "author": "Nichlas W. Andersen <https://twitter.com/nichlaswa>",
+  "license": "ISC"
+}
