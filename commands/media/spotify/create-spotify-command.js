@@ -24,7 +24,7 @@ const scriptContent = `#!/usr/bin/osascript
 # @raycast.packageName Spotify
 #
 # Optional parameters:
-# @raycast.icon ./assets/logo.png
+# @raycast.icon ./images/spotify-logo.png
 #
 # Documentation:
 # @raycast.description Play ${commandName} on Spotify
@@ -69,7 +69,7 @@ if (!/track|album|playlist/.test(type)) {
 // @raycast.mode silent
 
 // Optional parameters:
-// @raycast.icon ./assets/create.png
+// @raycast.icon ./images/create.png
 // @raycast.packageName Spotify
 // @raycast.argument1 { "type": "text", "placeholder": "Discover Weekly" }
 
