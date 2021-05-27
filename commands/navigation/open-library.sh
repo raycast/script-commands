@@ -7,7 +7,7 @@
 # @raycast.packageName Navigation
 
 # Optional parameters:
-# @raycast.icon 📂
+# @raycast.icon images/folder-library.png
 
 # Documentation:
 # @raycast.description Opens the Library folder in the Finder.

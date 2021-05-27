@@ -50,7 +50,7 @@ if [ $unlocked_status -ne 0 ]; then
   exit 1
 fi
 
-item=$(bw list items --search $1 $session 2> /dev/null | jq ".[0] | { name: .name, password: .login.password }")
+item=$(bw list items --search "$1" $session 2> /dev/null | jq ".[0] | { name: .name, password: .login.password }")
 name=$(echo $item | jq --exit-status ".name") || notFoundError
 password=$(echo $item | jq --raw-output --exit-status ".password") || notFoundError
 
