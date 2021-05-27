@@ -13,6 +13,7 @@
 # Documentation:
 # @raycast.description Open Finder at $HOME or argument location
 # @raycast.author Afraz
+# @raycast.authorURL https://github.com/afrazkhan
 
 LOCATION=$1
 
