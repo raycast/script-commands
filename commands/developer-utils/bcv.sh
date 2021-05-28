@@ -10,7 +10,7 @@
 # @raycast.icon 🤖
 # @raycast.packageName Base converter
 # @raycast.author Saimir S.
-# @raycast.authorURL saimirsulaj.com
+# @raycast.authorURL https://www.saimirsulaj.com
 # @raycast.description Utility to convert numbers between bases. Can be one number or a list of string-delimited numbers.
 # @raycast.argument1 { "type": "text", "placeholder": "from base", "optional": false }
 # @raycast.argument2 { "type": "text", "placeholder": "to base", "optional": false }
