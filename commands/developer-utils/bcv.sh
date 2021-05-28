@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title bcv
+# @raycast.title Base Converter
 # @raycast.mode compact
 # @raycast.refreshTime 1h
 
