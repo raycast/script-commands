@@ -4,7 +4,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Next
+# @raycast.title Next Website
 # @raycast.mode silent
 
 # Optional parameters:
