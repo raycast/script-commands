@@ -8,7 +8,7 @@
 
 # Optional parameters:
 # @raycast.icon 🤖
-# @raycast.packageName Base converter
+# @raycast.packageName Developer Utilities
 # @raycast.author Saimir S.
 # @raycast.authorURL https://www.saimirsulaj.com
 # @raycast.description Utility to convert numbers between bases. Can be one number or a list of string-delimited numbers.
