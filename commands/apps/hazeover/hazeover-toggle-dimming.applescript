@@ -1,5 +1,7 @@
 #!/usr/bin/osascript
 
+# Install HazeOver via Mac App Store: https://apps.apple.com/gb/app/hazeover-distraction-dimmer/id430798174
+
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Toggle Dimming
