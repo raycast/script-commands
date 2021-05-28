@@ -15,8 +15,6 @@
 # @raycast.argument2 { "type": "text", "placeholder": "to base", "optional": false }
 # @raycast.argument3 { "type": "text", "placeholder": "value", "optional": false }
 
-# Documentation:
-# @raycast.author Saimir S.
 
 num_re='^[0-9]+$'
 input_base=$1;
