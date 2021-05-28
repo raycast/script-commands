@@ -4,7 +4,6 @@
 # @raycast.schemaVersion 1
 # @raycast.title Base Converter
 # @raycast.mode compact
-# @raycast.refreshTime 1h
 
 # Optional parameters:
 # @raycast.icon 🤖
