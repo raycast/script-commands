@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Note: Plash v2.2.0 required
+# Install via Mac App Store: https://apps.apple.com/app/id1494023538
 
 # Required parameters:
 # @raycast.schemaVersion 1
