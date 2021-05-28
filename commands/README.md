@@ -39,6 +39,7 @@ This repository contains sample commands and documentation to write your own one
   - [Iterm](#iterm)
   - [Mail](#mail)
   - [Mullvad](#mullvad)
+  - [Plash](#plash)
   - [Safari](#safari)
   - [Session](#session)
   - [Sidenotes](#sidenotes)
@@ -202,6 +203,16 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/mullvad/images/mullvad.png" width="20" height="20"> | [Mullvad Status](apps/mullvad/status.sh) | Display the current status of the Mullvad VPN tunnel connection. | [Phil Salant](https://github.com/PSalant726) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/mullvad/images/mullvad.png" width="20" height="20"> | [Reconnect](apps/mullvad/reconnect.sh) | Force the client to reconnect to the Mullvad VPN tunnel. | [Phil Salant](https://github.com/PSalant726) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/mullvad/images/mullvad.png" width="20" height="20"> | [Search Countries, Cities, and Hostnames](apps/mullvad/search.sh) | Search the list of available entities to which a Mullvad VPN tunnel connection can be made. | [Phil Salant](https://github.com/PSalant726) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Plash
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/plash/./images/plash.png" width="20" height="20"> | [Add Website](apps/plash/plash-add.sh) | Add a website to Plash. | [Plash](https://github.com/sindresorhus/Plash) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/plash/./images/plash.png" width="20" height="20"> | [Next Website](apps/plash/plash-next.sh) | Switch to the next website in the list in Plash. | [Plash](https://github.com/sindresorhus/Plash) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/plash/./images/plash.png" width="20" height="20"> | [Previous Website](apps/plash/plash-previous.sh) | Switch to the previous website in the list in Plash. | [Plash](https://github.com/sindresorhus/Plash) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/plash/./images/plash.png" width="20" height="20"> | [Reload](apps/plash/plash-reload.sh) | Reload the current website in Plash. | [Plash](https://github.com/sindresorhus/Plash) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/plash/./images/plash.png" width="20" height="20"> | [Toggle Browsing Mode](apps/plash/plash-toggle-browser-mode.sh) | Toggle browsing mode in Plash. | [Plash](https://github.com/sindresorhus/Plash) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Safari
 
