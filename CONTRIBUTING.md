@@ -99,6 +99,19 @@ If you still need a dependency, follow these guidelines:
 	     exit 1;
    fi
    ```
+   
+### Scripts that require installation of an app
+
+Some Scripts control apps and therefore require them to be installed. Make sure to hint the requirement and add guidance on how to install it at the top of the script:
+
+```
+#!/bin/bash
+
+# Note: Plash v2.2.0 required
+# Install via Mac App Store: https://apps.apple.com/app/id1494023538
+
+# @raycast.schemaVersion 1
+```
 
 ### Bash profiles and environmental variables
 
