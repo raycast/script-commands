@@ -56,5 +56,8 @@ for num in $3; do
   output="$output $num_cov";
 done
 
+# Trim whitespace
+output="${output##}";
+
 echo "$output";
 echo "$output" | pbcopy;
