@@ -449,6 +449,7 @@ This repository contains sample commands and documentation to write your own one
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | 🔑 | [Add SSH Keys (with Terminal)](developer-utils/add-ssh-keys.template.applescript) | Add one or multiple SSH keys to your SSH agent (with Terminal). | [Caleb Stauffer](https://github.com/crstauf) |  | ✅ | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | 🤖 | [Base Converter](developer-utils/base-converter.sh) | Utility to convert numbers between bases. Can be one number or a list of string-delimited numbers. | [Saimir S.](https://www.saimirsulaj.com) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🔓 | [Base64 Decode](developer-utils/base64-decode-input.sh) | Decode the base64 string  | [Bin Hua](https://github.com/hzb) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🔐 | [Base64 Encode](developer-utils/base64-encode-input.sh) | Encode any text data by using base64 | [Bin Hua](https://github.com/hzb) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🌐 | [Check Domain](developer-utils/check-domain.template.sh) | Check the availability of a domain with the Vercel API. | [Ted Spare](https://y.at/🤘🐊🗿🚀) | ✅ | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
@@ -704,6 +705,7 @@ This repository contains sample commands and documentation to write your own one
   | 📋 | [Empty Clipboard](system/empty-clipboard.sh) | Empty Clipboard | Raycast |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🗑 | [Empty Trash](system/empty-trash.applescript) | Empty the trash. | Raycast |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🔫 | [Kill AirDrop Processes](system/kill-airdrop.processes.sh) | Force kill all AirDrop processes | [Linus Salzmann](https://github.com/linus569) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | ⚠️ | [Kill Running Process](system/kill-process.sh) | Force kill a running process | [Gustavo Santana](https://github.com/gumadeiras) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 📈 | [Largest CPU Process](system/largest-cpu-process.sh) | Report process with largest system CPU usage. | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 📈 | [Largest RAM Process](system/largest-ram-process.sh) | Report process with largest system RAM usage. | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🌵 | [Modify File Extension](system/modify-extension.sh) | Batch modify the file in the current directory or the specified extension of the selected file | [LokHsu](https://github.com/lokhsu) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
@@ -740,7 +742,6 @@ This repository contains sample commands and documentation to write your own one
   | 😴 | [Turn Off Do Not Disturb](system/dnd-off.sh) | Turn off "do not disturb" mode. Does [not work on Big Sur](https://github.com/sindresorhus/do-not-disturb-cli/issues/2). | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 😴 | [Turn On Do Not Disturb](system/dnd-on.sh) | Turn on "do not disturb" mode. Does [not work on Big Sur](https://github.com/sindresorhus/do-not-disturb-cli/issues/2). | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🗑 | [Uninstall with AppCleaner](system/uninstall-with-appcleaner.applescript) | Uninstall applications with AppCleaner | [Felipe Turcheti](https://felipeturcheti.com) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
-  | ⚠️ | [Kill Runnig Process](system/kill-process.sh) | Force kill a running process | [Gustavo Santana](https://www.gumadeiras.com) | ✅ | | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Audio
 
