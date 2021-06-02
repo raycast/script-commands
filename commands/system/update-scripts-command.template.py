@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 
+# How to use this script?
+# It's a template which needs further setup. Duplicate the file, 
+# remove `.template.` from the filename and set `path_to_scripts` and 
+# ignored_files vars.
+
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Update Community Scripts
@@ -15,7 +20,6 @@
 # @raycast.authorURL https://www.github.com/qeude
 import os
 from glob import glob
-from pathlib import Path
 from shutil import copyfile, rmtree
 from datetime import datetime
 # 🚨 SHOULD BE CHANGED ACCORDING TO YOUR NEEDS
@@ -24,6 +28,7 @@ from datetime import datetime
 path_to_scripts = "/PATH/TO/ROOT/SCRIPTS/FOLDER/"
 
 # 🚨 SHOULD BE CHANGED ACCORDING TO YOUR NEEDS
+# Keep it unchanged if you don't want to ignore scripts.
 # Here you can ignore some files if you don't want to sync some of those.
 # eg: ["toggle-airpods.swift", "airpodsbattery.sh"]
 ignored_files = []
