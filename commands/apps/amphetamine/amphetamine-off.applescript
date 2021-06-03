@@ -1,5 +1,7 @@
 #!/usr/bin/osascript
 
+# Install Amphetamine via Mac App Store: https://apps.apple.com/us/app/amphetamine/id937984704
+
 # @raycast.title End Session
 # @raycast.author James Lyons
 # @raycast.authorURL https://github.com/jamesjlyons

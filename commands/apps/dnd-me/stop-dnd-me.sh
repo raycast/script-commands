@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Install DND Me from https://runtimesharks.com/projects/dnd-me?ref=producthunt
+
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Stop DND

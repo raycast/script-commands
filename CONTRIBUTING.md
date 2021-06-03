@@ -10,6 +10,7 @@ Thank you for your interest in contributing to Raycast Script Commands! Here you
     - [Metadata convention](#metadata-convention)
     - [Scripts that require additional modification](#scripts-that-require-additional-modification)
     - [Scripts that require installation of runtimes and dependencies](#scripts-that-require-installation-of-runtimes-and-dependencies)
+    - [Scripts that require installation of apps](#scripts-that-require-installation-of-apps)
     - [Bash profiles and environmental variables](#bash-profiles-and-environmental-variables)
     - [Auto generated files](#auto-generated-files)
   - [Examples](#examples)
@@ -99,6 +100,19 @@ If you still need a dependency, follow these guidelines:
 	     exit 1;
    fi
    ```
+   
+### Scripts that require installation of apps
+
+Some Scripts control apps and therefore require them to be installed. Make sure to hint the requirement and add guidance on how to install it at the top of the script:
+
+```
+#!/bin/bash
+
+# Note: Plash v2.2.0 required
+# Install via Mac App Store: https://apps.apple.com/app/id1494023538
+
+# @raycast.schemaVersion 1
+```
 
 ### Bash profiles and environmental variables
 
