@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Install Bear via Mac App Store: https://apps.apple.com/us/app/bear/id1091189122
+
 # @raycast.title Open Today
 # @raycast.author Tanay Nistala
 # @raycast.authorURL https://github.com/tanaynistala

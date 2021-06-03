@@ -1,5 +1,7 @@
 #!/usr/bin/osascript
 
+# Install Fantastical via the Mac App Store: https://apps.apple.com/us/app/fantastical-calendar-tasks/id975937182
+
 # @raycast.title Create Event
 # @raycast.author Robert Cooper
 # @raycast.authorURL https://github.com/robertcoopercode

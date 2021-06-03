@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Note: Sip X v2.5.3 required
+# Install from https://sipapp.io
 
 # Required parameters:
 # @raycast.schemaVersion 1
