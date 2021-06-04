@@ -15,4 +15,9 @@
 # @raycast.author Sebastian Kroll
 # @raycase.authorURL https://github.com/skrollme
 
+if ! command -v docker &> /dev/null; then
+      echo "docker for mac is required (https://docs.docker.com/docker-for-mac/install/).";
+      exit 1;
+fi
+
 docker ps
