@@ -166,6 +166,7 @@ This repository contains sample commands and documentation to write your own one
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/fantastical/./images/fantastical.png" width="20" height="20"> | [Create Event](apps/fantastical/create-event.applescript) | Create an event in Fantastical | [Robert Cooper](https://github.com/robertcoopercode) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/fantastical/./images/fantastical.png" width="20" height="20"> | [Create Task](apps/fantastical/create-todo-in-fantastical.applescript) | Speed up setting reminders for Fantastical by invoking this script. | [Vardan Sawhney](https://github.com/commai) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 #### Ferdi
 
