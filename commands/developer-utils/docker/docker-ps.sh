@@ -4,14 +4,14 @@
 #
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title docker ps
+# @raycast.title List Containers
 # @raycast.mode fullOutput
 #
 # Optional parameters:
 # @raycast.icon images/docker.png
-# @raycast.packageName Developer Utilities
+# @raycast.packageName Docker
 #
-# @raycast.description Runs docker ps
+# @raycast.description List containers in Docker
 # @raycast.author Sebastian Kroll
 # @raycase.authorURL https://github.com/skrollme
 
