@@ -555,6 +555,34 @@
         {
           "authors" : [
             {
+              "name" : "Jakub Lanski",
+              "url" : "https:\/\/github.com\/jaklan"
+            }
+          ],
+          "createdAt" : "2021-06-04T04:22:35+02:00",
+          "currentDirectoryPath" : null,
+          "description" : "Converts given text (or clipboard if no argument) to t̶e̶x̶t̶",
+          "filename" : "strikethrough.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔠"
+          },
+          "identifier" : "95383104fdc831db571001adb57dd33c",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Conversions",
+          "path" : "conversions\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Strikethrough Text",
+          "updatedAt" : "2021-06-04T04:22:35+02:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Siyuan Zhang",
               "url" : "https:\/\/github.com\/kastnerorz"
             }
@@ -12030,6 +12058,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 423,
-  "updatedAt" : "2021-06-03T22:10:42Z"
+  "totalScriptCommands" : 424,
+  "updatedAt" : "2021-06-04T09:59:24Z"
 }
