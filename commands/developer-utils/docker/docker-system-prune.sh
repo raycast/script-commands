@@ -5,7 +5,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title System Prune
-# @raycast.mode inline
+# @raycast.mode compact
 #
 # Optional parameters:
 # @raycast.icon images/docker.png
