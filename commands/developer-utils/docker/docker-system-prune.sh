@@ -4,14 +4,14 @@
 #
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title docker system prune
+# @raycast.title System Prune
 # @raycast.mode inline
 #
 # Optional parameters:
 # @raycast.icon images/docker.png
-# @raycast.packageName Developer Utilities
+# @raycast.packageName Docker
 #
-# @raycast.description Runs docker system prune -f
+# @raycast.description Remove unused data (system prune)
 # @raycast.author Sebastian Kroll
 # @raycase.authorURL https://github.com/skrollme
 
