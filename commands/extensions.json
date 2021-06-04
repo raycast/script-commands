@@ -9616,13 +9616,13 @@
               "createdAt" : "2021-05-28T01:55:40+07:00",
               "currentDirectoryPath" : null,
               "description" : "Reload the current website in Plash.",
-              "filename" : "plash-reload.sh",
+              "filename" : "plash-reload-website.sh",
               "hasArguments" : false,
               "icon" : {
                 "dark" : null,
                 "light" : ".\/images\/plash.png"
               },
-              "identifier" : "e774ab57db6163705a077fa66a41077e",
+              "identifier" : "efba722b5a535ab230ffe426bbd3aa00",
               "isTemplate" : false,
               "language" : "bash",
               "mode" : "silent",
@@ -9631,8 +9631,36 @@
               "path" : "apps\/plash\/",
               "refreshTime" : null,
               "schemaVersion" : 1,
-              "title" : "Reload",
-              "updatedAt" : "2021-05-28T10:25:14+01:00"
+              "title" : "Reload Website",
+              "updatedAt" : "2021-06-04T23:56:19+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Plash",
+                  "url" : "https:\/\/github.com\/sindresorhus\/Plash"
+                }
+              ],
+              "createdAt" : "2021-05-28T01:55:40+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Switch to the next website in the list in Plash.",
+              "filename" : "plash-next-website.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/plash.png"
+              },
+              "identifier" : "4871914878a1c9aca9d14b7114a76df2",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Plash",
+              "path" : "apps\/plash\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Next Website",
+              "updatedAt" : "2021-06-04T23:56:19+07:00"
             },
             {
               "authors" : [
@@ -9644,13 +9672,13 @@
               "createdAt" : "2021-05-28T01:55:40+07:00",
               "currentDirectoryPath" : null,
               "description" : "Switch to the previous website in the list in Plash.",
-              "filename" : "plash-previous.sh",
+              "filename" : "plash-previous-website.sh",
               "hasArguments" : false,
               "icon" : {
                 "dark" : null,
                 "light" : ".\/images\/plash.png"
               },
-              "identifier" : "0b00de1b274a7cb60af1a4473d407911",
+              "identifier" : "ffed236c901c236e41814468c88c82ea",
               "isTemplate" : false,
               "language" : "bash",
               "mode" : "silent",
@@ -9660,7 +9688,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Previous Website",
-              "updatedAt" : "2021-05-28T10:25:19+01:00"
+              "updatedAt" : "2021-06-04T23:56:19+07:00"
             },
             {
               "authors" : [
@@ -9671,14 +9699,14 @@
               ],
               "createdAt" : "2021-05-28T01:55:40+07:00",
               "currentDirectoryPath" : null,
-              "description" : "Add a website to Plash.",
-              "filename" : "plash-add.sh",
-              "hasArguments" : true,
+              "description" : "Switch to a random website from the list of websites in Plash.",
+              "filename" : "plash-random-website.sh",
+              "hasArguments" : false,
               "icon" : {
                 "dark" : null,
                 "light" : ".\/images\/plash.png"
               },
-              "identifier" : "f4fb86df2d8bc335d93335f726d23137",
+              "identifier" : "10bddde306d0bfdae3624cb8cdddd0b0",
               "isTemplate" : false,
               "language" : "bash",
               "mode" : "silent",
@@ -9687,8 +9715,8 @@
               "path" : "apps\/plash\/",
               "refreshTime" : null,
               "schemaVersion" : 1,
-              "title" : "Add Website",
-              "updatedAt" : "2021-05-28T10:25:28+01:00"
+              "title" : "Switch to Random Website",
+              "updatedAt" : "2021-06-04T23:56:19+07:00"
             },
             {
               "authors" : [
@@ -9727,14 +9755,14 @@
               ],
               "createdAt" : "2021-05-28T01:55:40+07:00",
               "currentDirectoryPath" : null,
-              "description" : "Switch to the next website in the list in Plash.",
-              "filename" : "plash-next.sh",
-              "hasArguments" : false,
+              "description" : "Add a website to Plash.",
+              "filename" : "plash-add-website.sh",
+              "hasArguments" : true,
               "icon" : {
                 "dark" : null,
                 "light" : ".\/images\/plash.png"
               },
-              "identifier" : "f78469553cbe785225a452764f47565f",
+              "identifier" : "d65493aee461a49dbf2b6ef976857898",
               "isTemplate" : false,
               "language" : "bash",
               "mode" : "silent",
@@ -9743,8 +9771,8 @@
               "path" : "apps\/plash\/",
               "refreshTime" : null,
               "schemaVersion" : 1,
-              "title" : "Next Website",
-              "updatedAt" : "2021-05-28T10:25:36+01:00"
+              "title" : "Add Website",
+              "updatedAt" : "2021-06-04T23:56:19+07:00"
             }
           ]
         },
@@ -12086,6 +12114,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 425,
-  "updatedAt" : "2021-06-04T11:16:39Z"
+  "totalScriptCommands" : 426,
+  "updatedAt" : "2021-06-04T19:44:24Z"
 }
