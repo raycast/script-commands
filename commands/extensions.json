@@ -4873,6 +4873,96 @@
       ],
       "subGroups" : [
         {
+          "name" : "Docker",
+          "path" : "docker",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Sebastian Kroll",
+                  "url" : null
+                }
+              ],
+              "createdAt" : "2021-06-04T16:19:49+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Remove unused data (system prune)",
+              "filename" : "docker-system-prune.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/docker.png"
+              },
+              "identifier" : "95f636043fb2a5e955d988fa82a0d0bc",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Docker",
+              "path" : "developer-utils\/docker\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "System Prune",
+              "updatedAt" : "2021-06-04T19:48:34+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sebastian Kroll",
+                  "url" : null
+                }
+              ],
+              "createdAt" : "2021-06-04T16:19:49+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "List containers in Docker",
+              "filename" : "docker-ps.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/docker.png"
+              },
+              "identifier" : "b9734d1d53f83eeb9e6e134548846d56",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Docker",
+              "path" : "developer-utils\/docker\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "List Containers",
+              "updatedAt" : "2021-06-04T18:57:07+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sebastian Kroll",
+                  "url" : null
+                }
+              ],
+              "createdAt" : "2021-06-04T16:19:49+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "List images in Docker",
+              "filename" : "docker-images.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/docker.png"
+              },
+              "identifier" : "d510dd549de0f922fae2bebd9af9e9b9",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Docker",
+              "path" : "developer-utils\/docker\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "List Images",
+              "updatedAt" : "2021-06-04T18:57:07+02:00"
+            }
+          ]
+        },
+        {
           "name" : "Gitlab",
           "path" : "gitlab",
           "scriptCommands" : [
@@ -12114,6 +12204,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 426,
-  "updatedAt" : "2021-06-04T19:44:24Z"
+  "totalScriptCommands" : 429,
+  "updatedAt" : "2021-06-04T19:47:45Z"
 }
