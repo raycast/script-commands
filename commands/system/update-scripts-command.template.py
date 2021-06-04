@@ -7,7 +7,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Update Community Scripts 
+# @raycast.title Update Community Scripts
 # @raycast.description Updates community Script Commands to their last available version from the GitHub repository.
 # @raycast.mode compact
 # @raycast.refreshTime 1d
