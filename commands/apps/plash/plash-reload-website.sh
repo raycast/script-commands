@@ -5,7 +5,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Reload
+# @raycast.title Reload Website
 # @raycast.mode silent
 
 # Optional parameters:
