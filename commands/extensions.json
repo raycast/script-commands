@@ -10105,6 +10105,34 @@
               "schemaVersion" : 1,
               "title" : "Create Event",
               "updatedAt" : "2021-05-28T10:41:12+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Vardan Sawhney",
+                  "url" : "https:\/\/github.com\/commai"
+                }
+              ],
+              "createdAt" : "2021-06-03T00:04:35-04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Speed up setting reminders for Fantastical by invoking this script.",
+              "filename" : "create-todo-in-fantastical.applescript",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/fantastical.png"
+              },
+              "identifier" : "ed64cfea0aefdda6f31454176ecc101f",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Fantastical",
+              "path" : "apps\/fantastical\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Create Task",
+              "updatedAt" : "2021-06-03T00:04:35-04:00"
             }
           ]
         },
@@ -12058,6 +12086,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 424,
-  "updatedAt" : "2021-06-04T09:59:24Z"
+  "totalScriptCommands" : 425,
+  "updatedAt" : "2021-06-04T10:32:26Z"
 }
