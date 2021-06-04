@@ -3420,7 +3420,7 @@
           ],
           "createdAt" : "2021-05-27T23:18:58+02:00",
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Updates community Script Commands to their last available version from the GitHub repository.",
           "filename" : "update-scripts-command.template.py",
           "hasArguments" : false,
           "icon" : {
@@ -3430,14 +3430,14 @@
           "identifier" : "13f3f5d751ba32a69ff8268898874db8",
           "isTemplate" : true,
           "language" : "python",
-          "mode" : "inline",
+          "mode" : "compact",
           "needsConfirmation" : null,
           "packageName" : "Utilities",
           "path" : "system\/",
           "refreshTime" : "1d",
           "schemaVersion" : 1,
           "title" : "Update Community Scripts",
-          "updatedAt" : "2021-06-02T18:52:04+02:00"
+          "updatedAt" : "2021-06-04T12:17:34+02:00"
         }
       ],
       "subGroups" : [
@@ -12087,5 +12087,5 @@
 
   ],
   "totalScriptCommands" : 425,
-  "updatedAt" : "2021-06-04T10:32:26Z"
+  "updatedAt" : "2021-06-04T11:16:39Z"
 }
