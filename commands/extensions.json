@@ -2434,7 +2434,7 @@
           ],
           "createdAt" : "2020-11-07T10:22:15-05:00",
           "currentDirectoryPath" : null,
-          "description" : "Refresh the wallpaper of the main display's current [Space](https:\/\/support.apple.com\/guide\/mac-help\/work-in-multiple-spaces-mh14112\/mac).",
+          "description" : "Apply a random image from the [wallpaper directory](https:\/\/support.apple.com\/guide\/mac-help\/change-your-desktop-picture-mchlp3013\/mac) for the main display's current [Space](https:\/\/support.apple.com\/guide\/mac-help\/work-in-multiple-spaces-mh14112\/mac).",
           "filename" : "wallpaper-refresh.applescript",
           "hasArguments" : false,
           "icon" : {
@@ -2451,7 +2451,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Refresh Wallpaper",
-          "updatedAt" : "2020-12-02T21:17:43-05:00"
+          "updatedAt" : "2021-06-04T16:35:43-04:00"
         },
         {
           "authors" : [
@@ -12205,5 +12205,5 @@
 
   ],
   "totalScriptCommands" : 429,
-  "updatedAt" : "2021-06-04T19:47:45Z"
+  "updatedAt" : "2021-06-04T20:56:22Z"
 }
