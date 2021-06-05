@@ -83,6 +83,7 @@ struct ScriptCommand: Codable {
   let needsConfirmation: Bool?
   let refreshTime: String?
   let path: String
+  let language: String
   
   private(set) var leadingPath: String = ""
   
@@ -102,6 +103,7 @@ struct ScriptCommand: Codable {
     case needsConfirmation
     case refreshTime
     case path
+    case language
   }
   
   mutating func setLeadingPath(_ value: String) {
@@ -111,9 +113,20 @@ struct ScriptCommand: Codable {
 extension ScriptCommand {
   typealias Authors = [Author]
   
-  struct Author: Codable {
+  struct Author: Codable, CustomStringConvertible {
     let name: String?
     let url: String?
+    
+    var description: String {
+      if let name = name {
+        return "\u{001B}[0;33m\(name.trimmedText)\u{001B}[0m"
+      }
+      else if let url = url {
+        return url
+      }
+      
+      return .empty
+    }
   }
 }
 extension ScriptCommand {
@@ -122,6 +135,39 @@ extension ScriptCommand {
     case compact
     case silent
     case inline
+  }
+}
+
+// MARK: - Author Extension
+
+extension Array where Element == ScriptCommand.Author {
+  var authorDescription: String {
+    var authors = String.empty
+    
+    for author in self {
+      let separator = self.separator(for: author.name ?? .empty)
+      authors += separator + author.description
+    }
+    
+    return authors
+  }
+  
+  func separator(for currentName: String) -> String {
+    if let firstAuthor = first, currentName == firstAuthor.name {
+      return .empty
+    }
+    else if let lastAuthor = last, currentName == lastAuthor.name {
+      return Separator.and
+    }
+    
+    return Separator.comma
+  }
+}
+
+extension ScriptCommand.Authors {
+  enum Separator {
+    static let and = " and "
+    static let comma = ", "
   }
 }
 
@@ -136,8 +182,9 @@ extension ScriptCommand {
     }
     
     return title.lowercased().contains(query)
-    || filename.lowercased().contains(query)
-    || description.lowercased().contains(query)
+      || filename.lowercased().contains(query)
+      || description.lowercased().contains(query)
+      || language.lowercased().contains(query)
   }
 }
 extension ScriptCommand: Comparable {
@@ -162,8 +209,28 @@ extension Group: Comparable {
 // MARK: - Int Extension
 
 extension Int {
-  func prependZeros(by total: Int) -> String {
-    let format = "%0\(total)d"
+  enum Unit: Int {
+    case units = 1
+    case tens = 2
+    case hundreds = 3
+    case thousands = 4
+  }
+  
+  var unitForTotal: Unit {
+    switch self {
+    case 0..<10:
+      return .units
+    case 10..<100:
+      return .tens
+    case 100..<1000:
+      return .hundreds
+    default:
+      return .thousands
+    }
+  }
+  
+  func prependZeros(for unit: Unit) -> String {
+    let format = "%0\(unit.rawValue)d"
     let counter = String(format: format, self)
     
     return counter
@@ -202,8 +269,8 @@ extension String {
       }
       
       guard
-      let match = content.value(of: result.range(at: 0)),
-      let value = content.value(of: result.range(at: 1))
+        let match = content.value(of: result.range(at: 0)),
+        let value = content.value(of: result.range(at: 1))
       else {
         return nil
       }
@@ -225,18 +292,11 @@ final class ScriptCommandsStore {
     case emptyData
   }
   
+  private var totalScriptCommands: Int = 0
+  
   private var scriptCommands: ScriptCommands = []
   
   private let extensionsURL = URL(string: "https://raw.githubusercontent.com/raycast/script-commands/master/commands/extensions.json")
-  
-  private lazy var separator: String = {
-    var separator = ""
-    for i in 0...106 {
-      separator += "-"
-    }
-    
-    return separator
-  }()
   
   private func githubURL(for path: String) -> String {
     "https://github.com/raycast/script-commands/blob/master/commands/\(path)"
@@ -276,6 +336,8 @@ final class ScriptCommandsStore {
   func searchCommand(using query: String) {
     do {
       let data = try loadData()
+      totalScriptCommands = data.totalScriptCommands
+      
       search(for: query, in: data.groups)
       
       if scriptCommands.count > 0 {
@@ -333,11 +395,20 @@ final class ScriptCommandsStore {
   }
   
   private func renderOutput(for scriptCommands: ScriptCommands) -> String {
-    var contentString = "Total Script Commands found: \u{001B}[0;32m\(scriptCommands.count)\u{001B}[0m" //String.empty
+    let total = scriptCommands.count
+    let unit = total.unitForTotal
+    var contentString = "Script Commands found: \u{001B}[0;32m\(total)\u{001B}[0m in \u{001B}[0;32m\(totalScriptCommands)\u{001B}[0m"
     
     for (index, scriptCommand) in scriptCommands.enumerated() {
-      let position = (index + 1).prependZeros(by: 2)
-      let title = "\(position)) \u{001B}[0;31m\(scriptCommand.title.clearMarkdownLink())\u{001B}[0m"
+      var title = String.empty
+      var author = String.empty
+      
+      if let value = scriptCommand.authors {
+        author = "(by \(value.authorDescription))"
+      }
+      
+      let position = Int(index + 1).prependZeros(for: unit)
+      title = "\(position)) \u{001B}[0;31m\(scriptCommand.title.clearMarkdownLink())\u{001B}[0m \(author)"
       
       if contentString.count > 0 {
         contentString += .newLine + .newLine
@@ -351,6 +422,9 @@ final class ScriptCommandsStore {
       }
       
       contentString += .newLine
+      contentString += "Language: \u{001B}[0;31m\(scriptCommand.language.capitalized)\u{001B}[0m"
+      
+      contentString += .newLine
       contentString += githubURL(for: scriptCommand.leadingPath)
     }
     
@@ -360,7 +434,7 @@ final class ScriptCommandsStore {
 
 if CommandLine.arguments.count > 1 {
   let query = CommandLine.arguments[1].lowercased().trimmedText
-  
+
   if query.isEmpty {
     print("Query must not be empty")
   }
