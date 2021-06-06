@@ -14,10 +14,10 @@
 # @raycast.author Kirill Gorbachyonok
 # @raycast.authorURL https://github.com/japanese-goblinn
 
-rm -rf "~/Library/Caches/CocoaPods"
+rm -rf ~/Library/Caches/CocoaPods
 xcrun simctl delete unavailable 
-rm -rf "~/Library/Developer/Xcode/Archives"
-rm -rf "~/Library/Developer/Xcode/DerivedData"
-rm -rf "~/Library/Developer/Xcode/iOS Device Logs"
+rm -rf ~/Library/Developer/Xcode/Archives
+rm -rf ~/Library/Developer/Xcode/DerivedData
+rm -rf ~/Library/Developer/Xcode/iOS Device Logs
 
 echo "Clearing finished!"
