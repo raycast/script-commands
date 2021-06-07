@@ -4207,18 +4207,18 @@
               "url" : "https:\/\/twitter.com\/tholanda"
             }
           ],
-          "createdAt" : "2020-11-19T21:59:09+01:00",
+          "createdAt" : "2021-06-05T21:07:26+02:00",
           "currentDirectoryPath" : null,
           "description" : "Search for Script Commands available in the Raycast repository",
-          "filename" : "search-script-command.swift",
+          "filename" : "search-script-command.sh",
           "hasArguments" : true,
           "icon" : {
             "dark" : null,
             "light" : "🔎"
           },
-          "identifier" : "2376f63fd1dd06f1e8563b618f96c63c",
+          "identifier" : "15992addc83ee43764382a5e2542d881",
           "isTemplate" : false,
-          "language" : "swift",
+          "language" : "bash",
           "mode" : "fullOutput",
           "needsConfirmation" : null,
           "packageName" : "Searches",
@@ -4226,7 +4226,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search Script Command",
-          "updatedAt" : "2020-11-23T12:53:48-05:00"
+          "updatedAt" : "2021-06-05T21:13:58+02:00"
         },
         {
           "authors" : [
@@ -12205,5 +12205,5 @@
 
   ],
   "totalScriptCommands" : 429,
-  "updatedAt" : "2021-06-04T20:56:22Z"
+  "updatedAt" : "2021-06-07T09:28:26Z"
 }
