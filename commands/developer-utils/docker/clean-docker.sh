@@ -1,6 +1,6 @@
 #!/bin/bash
 
- # Dependency: This script requires `docker for mac` to be installed: https://docs.docker.com/docker-for-mac/install/
+# Dependency: This script requires `docker for mac` to be installed: https://docs.docker.com/docker-for-mac/install/
 
 # Required parameters:
 # @raycast.schemaVersion 1
