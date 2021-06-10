@@ -5,14 +5,14 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Create GIF from video
-# @raycast.mode silent
+# @raycast.mode compact
 
 # Optional parameters:
 # @raycast.icon 📹
 # @raycast.argument1 { "type": "text", "placeholder": "Path to the source file (default: take the last screen recording on the Desktop)", "optional": true }
-# @raycast.argument2 { "type": "text", "placeholder": "Path to the destination file (default: generate a file in the same directory as the source file)", "optional": true }
-# @raycast.argument3 { "type": "text", "placeholder": "FPS (between 1 and 60, default: 60)", "optional": true }
-# @raycast.packageName Conversions
+# @raycast.argument2 { "type": "text", "placeholder": "FPS (between 1 and 60, default: 20)", "optional": true }
+# @raycast.argument3 { "type": "text", "placeholder": "Width (default 600)", "optional": true }
+# @raycast.packageName Utilities
 
 # Documentation:
 # @raycast.description Create a GIF from video, by default it takes the last screen record video
@@ -53,9 +53,6 @@ def safe_get(array, index):
         return None
 
 from_file_path=safe_get(sys.argv, 1) or get_last_video_file_path()
-to_file_path=safe_get(sys.argv, 2) or get_default_destination_file_path(from_file_path=from_file_path)
-frame_rate=safe_get(sys.argv, 3) or 30
-
 if not from_file_path:
     print("No video file have been found at the specified path.")
     exit(1)
@@ -64,11 +61,18 @@ if os.path.isdir(from_file_path) and is_video_file(from_file_path):
     print("Source file should be a valid video file.")
     exit(1)
 
-if os.path.isdir(to_file_path):
-    to_file_path=os.path.join(to_file_path, default_gif_filename)
+frame_rate=safe_get(sys.argv, 2) or 20
+width=safe_get(sys.argv, 3) or 600
+to_file_path=get_default_destination_file_path(from_file_path)
 
-if not os.path.isdir(to_file_path) and Path(to_file_path).suffix != ".gif":
-    print("Destination file should be a '.gif' file.")
+try:
+    int_width = int(width)
+except Exception as e:
+    print(f"Width should be a valid integer between 1 and 5120.")
+    exit(1)
+
+if int_width > 5120 or int_width < 1:
+    print(f"Width should be a valid integer between 1 and 5120.")
     exit(1)
 
 try:
@@ -78,14 +82,14 @@ except Exception as e:
     exit(1)
 
 if int_frame_rate <= 60 and int_frame_rate >= 1:
-    mp4_filename=f".{os.path.splitext(os.path.basename(from_file_path))[0]}.mp4"
+    mp4_filename=f"{os.path.splitext(os.path.basename(from_file_path))[0]}.mp4"
     mp4_file_path=os.path.join(os.path.dirname(from_file_path), mp4_filename)
     os.system(f"ffmpeg -y -loglevel panic -err_detect aggressive -fflags discardcorrupt -i '{from_file_path}' -c:v libx264 -preset slow -crf 18 -c:a copy '{mp4_file_path}'>/dev/null")
-    os.system(f"gifski --fps {int_frame_rate} -o '{to_file_path}' '{mp4_file_path}'>/dev/null")
+    os.system(f"gifski --repeat 0 -W {int_width} --fps {int_frame_rate} -o '{to_file_path}' '{mp4_file_path}'>/dev/null")
     os.remove(mp4_file_path)
     subprocess.run("pbcopy", universal_newlines=True, input=to_file_path)
     print("GIF successfully generated 🎉")
     exit(0)
 
 print(f"Frame rate should be valid integer between 1 and 60.")
-exit(1)
+exit(0)
