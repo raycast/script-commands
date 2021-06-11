@@ -12,7 +12,7 @@
 
 # Documentation:
 # @raycast.description Generates an iOS style password
-# @raycast.author Giorgio Tropiano
+# @raycast.author everdrone
 # @raycast.authorURL https://github.com/everdrone
 
 import string
