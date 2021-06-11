@@ -20,6 +20,7 @@ import random
 import subprocess
 from textwrap import wrap
 
+
 def charset(length: int = 6) -> str:
     return ''.join(random.choices(string.ascii_lowercase, k=length))
 
@@ -74,5 +75,6 @@ def superset(
     subprocess.run("pbcopy", universal_newlines=True, input=result)
 
     return result
+
 
 print(superset())
