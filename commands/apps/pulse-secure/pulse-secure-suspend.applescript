@@ -15,7 +15,7 @@
 # Documentation:
 # @raycast.author Jakub Lanski
 # @raycast.authorURL https://github.com/jaklan
-# @raycast.description Suspend the current connection.
+# @raycast.description Suspend the active connection.
 
 on run argv
 	

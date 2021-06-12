@@ -15,7 +15,7 @@
 # Documentation:
 # @raycast.author Jakub Lanski
 # @raycast.authorURL https://github.com/jaklan
-# @raycast.description Disconnect / cancel the current connection.
+# @raycast.description Disconnect / cancel the active connection.
 
 on run argv
 	
