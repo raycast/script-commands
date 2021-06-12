@@ -4935,6 +4935,34 @@
             {
               "authors" : [
                 {
+                  "name" : "Quentin Eude",
+                  "url" : null
+                }
+              ],
+              "createdAt" : "2021-06-06T21:26:12+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Script that cleans Docker images, volumes, and containers",
+              "filename" : "clean-docker.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🧹"
+              },
+              "identifier" : "7220089fce735f0f32ad17bb19da6dd7",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : true,
+              "packageName" : "Docker",
+              "path" : "developer-utils\/docker\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Clean",
+              "updatedAt" : "2021-06-12T17:33:18+00:00"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Sebastian Kroll",
                   "url" : null
                 }
@@ -12204,6 +12232,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 429,
-  "updatedAt" : "2021-06-07T09:28:26Z"
+  "totalScriptCommands" : 430,
+  "updatedAt" : "2021-06-12T17:33:18Z"
 }
