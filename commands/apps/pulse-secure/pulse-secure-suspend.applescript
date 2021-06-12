@@ -1,7 +1,7 @@
 #!/usr/bin/osascript
 
 # Dependencies:
-# 	1. Pulse Secure: https://www.pulsesecure.net/
+# Pulse Secure: https://www.pulsesecure.net/
 
 # Required parameters:
 # @raycast.schemaVersion 1
