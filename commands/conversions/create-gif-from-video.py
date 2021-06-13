@@ -9,23 +9,24 @@
 
 # Optional parameters:
 # @raycast.icon 📹
-# @raycast.argument1 { "type": "text", "placeholder": "Path to the source file (default: take the last screen recording on the Desktop)", "optional": true }
-# @raycast.argument2 { "type": "text", "placeholder": "FPS (between 1 and 60, default: 20)", "optional": true }
-# @raycast.argument3 { "type": "text", "placeholder": "Width (default 600)", "optional": true }
-# @raycast.packageName Utilities
+# @raycast.argument1 { "type": "text", "placeholder": "Source File Path", "optional": true }
+# @raycast.argument2 { "type": "text", "placeholder": "FPS (Default: 20)", "optional": true }
+# @raycast.argument3 { "type": "text", "placeholder": "Width (Default 600)", "optional": true }
+# @raycast.packageName Conversions
 
 # Documentation:
 # @raycast.description Create a GIF from video, by default it takes the last screen record video
 # @raycast.author Quentin Eude
 # @raycast.authorURL https://github.com/qeude
 
-import sys
 import mimetypes
-from glob import glob
 import os
-from shutil import which
 import subprocess
+import sys
+
+from glob import glob
 from pathlib import Path
+from shutil import which
 
 if which("gifski") is None:
     print("gifski is required (https://gif.ski/).")
