@@ -4,19 +4,19 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Open new view based Playground
+# @raycast.title Create Basic
 # @raycast.mode silent
 
 # Optional parameters:
 # @raycast.icon 🕊
-# @raycast.argument1 { "type": "text", "placeholder": "Destination Path (eg: ~/MyPlayground)", "optional": true }
-# @raycast.argument2 { "type": "text", "placeholder": "Gist, a GitHub URL or any other URL to open in Playground (eg: https://gist.github.com/JohnSundell/b7f901e8edb89d1396ede4d8db3e8c21)", "optional": true }
-# @raycast.argument3 { "type": "text", "placeholder": "Add some dependencies to your playground (eg: ~/unbox/unbox.xcodeproj,~/files/files.xcodeproj) ", "optional": true }
+# @raycast.argument1 { "type": "text", "placeholder": "Destination Path", "optional": true }
+# @raycast.argument2 { "type": "text", "placeholder": "GitHub/Gist URL", "optional": true }
+# @raycast.argument3 { "type": "text", "placeholder": "Dependencies", "optional": true }
 
-# @raycast.packageName Developer Utils
+# @raycast.packageName Swift Playgrounds
 
 # Documentation:
-# @raycast.description Create and open a new view based Swift Playground
+# @raycast.description Create and open a new basic Swift Playground
 # @raycast.author Quentin Eude
 # @raycast.authorURL https://github.com/qeude
 
@@ -45,7 +45,7 @@ dependencies=safe_get(sys.argv, 3)
 if os.path.isdir(destination_path):
     destination_path=os.path.join(destination_path, datetime.now().astimezone().isoformat())
 
-command = f"playground -v -t '{destination_path}'"
+command = f"playground -t '{destination_path}'"
 if url_to_open:
     command = command + f" -u '{url_to_open}'"
 if dependencies:
