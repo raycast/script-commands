@@ -14,7 +14,10 @@
 # @raycast.description Generates an iOS style password
 # @raycast.author everdrone
 # @raycast.authorURL https://github.com/everdrone
+# @raycast.argument1 {"type": "text", "placeholder": "Sets (3)", "optional": true}
+# @raycast.argument2 {"type": "text", "placeholder": "Length (6)", "optional": true}
 
+import sys
 import string
 import random
 import subprocess
@@ -32,11 +35,6 @@ def superset(
     uppercase: int = 1,
     separator: str = '-'
 ) -> str:
-    print(numbers)
-    # if numbers + uppercase <= set_length * length:
-    #     print('The amount of numbers plus the capital letters must be less than or equal to the total amount of characters')
-    #     sys.exit(1)
-
     sets = []
 
     for _ in range(length):
@@ -77,4 +75,18 @@ def superset(
     return result
 
 
-print(superset())
+sets = sys.argv[1]
+if sets.isdigit():
+    sets = int(sets)
+else:
+    # do not crash, set fallback value
+    sets = 3
+
+
+s_len = sys.argv[2]
+if s_len.isdigit():
+    s_len = int(s_len)
+else:
+    s_len = 6
+
+print(superset(length=sets, set_length=s_len))
