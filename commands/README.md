@@ -40,6 +40,7 @@ This repository contains sample commands and documentation to write your own one
   - [Mail](#mail)
   - [Mullvad](#mullvad)
   - [Plash](#plash)
+  - [Playground](#playground)
   - [Pulse Secure](#pulse-secure)
   - [Safari](#safari)
   - [Session](#session)
@@ -217,6 +218,13 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/plash/./images/plash.png" width="20" height="20"> | [Reload Website](apps/plash/plash-reload-website.sh) | Reload the current website in Plash. | [Plash](https://github.com/sindresorhus/Plash) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/plash/./images/plash.png" width="20" height="20"> | [Switch to Random Website](apps/plash/plash-random-website.sh) | Switch to a random website from the list of websites in Plash. | [Plash](https://github.com/sindresorhus/Plash) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/plash/./images/plash.png" width="20" height="20"> | [Toggle Browsing Mode](apps/plash/plash-toggle-browser-mode.sh) | Toggle browsing mode in Plash. | [Plash](https://github.com/sindresorhus/Plash) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Playground
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | 🕊 | [Create Basic](apps/playground/open-new-playground.py) | Create and open a new basic Swift Playground | [Quentin Eude](https://github.com/qeude) | ✅ |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
+  | 🕊 | [Create View Based](apps/playground/open-new-view-playground.py) | Create and open a new view based Swift Playground | [Quentin Eude](https://github.com/qeude) | ✅ |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
 
 #### Pulse Secure
 
