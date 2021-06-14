@@ -32,6 +32,10 @@ if which("gifski") is None:
     print("gifski is required (https://gif.ski/).")
     exit(1)
 
+if which("ffmpeg") is None:
+    print("ffmpeg is required (https://www.ffmpeg.org/).")
+    exit(1)
+
 base_directory=f"{os.environ['HOME']}/Desktop"
 
 default_gif_filename="generated_gif.gif"
