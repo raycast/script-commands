@@ -3080,6 +3080,34 @@
         {
           "authors" : [
             {
+              "name" : "Felipe Turcheti",
+              "url" : "https:\/\/felipeturcheti.com"
+            }
+          ],
+          "createdAt" : "2021-06-14T14:36:05-03:00",
+          "currentDirectoryPath" : null,
+          "description" : "Flush DNS cache",
+          "filename" : "flush-dns.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "💨"
+          },
+          "identifier" : "63e51cac9289a2734e161cc8306805b4",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Flush DNS",
+          "updatedAt" : "2021-06-14T14:36:05-03:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Raycast",
               "url" : "https:\/\/raycast.com"
             }
@@ -3971,6 +3999,34 @@
           "schemaVersion" : 1,
           "title" : "Decode JWT",
           "updatedAt" : "2020-12-08T15:56:35+00:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "everdrone",
+              "url" : "https:\/\/github.com\/everdrone"
+            }
+          ],
+          "createdAt" : "2021-06-14T20:09:49+02:00",
+          "currentDirectoryPath" : null,
+          "description" : "Generates an iOS style password",
+          "filename" : "genpasswd.py",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : "images\/genpasswd-iconDark.png",
+            "light" : "images\/genpasswd.png"
+          },
+          "identifier" : "9dc51af4c249558a100fad853ffcc352",
+          "isTemplate" : false,
+          "language" : "python",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Security",
+          "path" : "developer-utils\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Generate Password",
+          "updatedAt" : "2021-06-14T20:09:49+02:00"
         },
         {
           "authors" : [
@@ -12260,6 +12316,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 431,
-  "updatedAt" : "2021-06-14T17:36:26Z"
+  "totalScriptCommands" : 433,
+  "updatedAt" : "2021-06-14T18:11:57Z"
 }
