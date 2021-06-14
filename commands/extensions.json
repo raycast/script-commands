@@ -9805,6 +9805,124 @@
           ]
         },
         {
+          "name" : "Pulse Secure",
+          "path" : "pulse-secure",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-06-14T20:14:26+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Resume the suspended connection.",
+              "filename" : "pulse-secure-resume.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/pulse-secure.png"
+              },
+              "identifier" : "137e52f49aba309c60fb9bc9427bda4d",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Pulse Secure",
+              "path" : "apps\/pulse-secure\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Resume",
+              "updatedAt" : "2021-06-14T20:14:26+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-06-14T20:14:26+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Connect to the given \/ default connection with the given \/ default username.",
+              "filename" : "pulse-secure-connect.applescript",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/pulse-secure.png"
+              },
+              "identifier" : "8776f55ec372ac1d0a62bc9267777ace",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Pulse Secure",
+              "path" : "apps\/pulse-secure\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Connect \/ Reconnect",
+              "updatedAt" : "2021-06-14T20:14:26+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-06-14T20:14:26+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Suspend the active connection.",
+              "filename" : "pulse-secure-suspend.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/pulse-secure.png"
+              },
+              "identifier" : "c5e03d8d6265725238c13d8b285c48f6",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Pulse Secure",
+              "path" : "apps\/pulse-secure\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Suspend",
+              "updatedAt" : "2021-06-14T20:14:26+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-06-14T20:14:26+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Disconnect \/ cancel the active connection.",
+              "filename" : "pulse-secure-disconnect.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/pulse-secure.png"
+              },
+              "identifier" : "03191a91d92833853d2a70fad5f19424",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Pulse Secure",
+              "path" : "apps\/pulse-secure\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Disconnect \/ Cancel",
+              "updatedAt" : "2021-06-14T20:14:26+02:00"
+            }
+          ]
+        },
+        {
           "name" : "Plash",
           "path" : "plash",
           "scriptCommands" : [
@@ -12316,6 +12434,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 433,
-  "updatedAt" : "2021-06-14T18:11:57Z"
+  "totalScriptCommands" : 437,
+  "updatedAt" : "2021-06-14T18:18:11Z"
 }

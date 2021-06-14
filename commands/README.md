@@ -40,6 +40,7 @@ This repository contains sample commands and documentation to write your own one
   - [Mail](#mail)
   - [Mullvad](#mullvad)
   - [Plash](#plash)
+  - [Pulse Secure](#pulse-secure)
   - [Safari](#safari)
   - [Session](#session)
   - [Sidenotes](#sidenotes)
@@ -216,6 +217,15 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/plash/./images/plash.png" width="20" height="20"> | [Reload Website](apps/plash/plash-reload-website.sh) | Reload the current website in Plash. | [Plash](https://github.com/sindresorhus/Plash) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/plash/./images/plash.png" width="20" height="20"> | [Switch to Random Website](apps/plash/plash-random-website.sh) | Switch to a random website from the list of websites in Plash. | [Plash](https://github.com/sindresorhus/Plash) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/plash/./images/plash.png" width="20" height="20"> | [Toggle Browsing Mode](apps/plash/plash-toggle-browser-mode.sh) | Toggle browsing mode in Plash. | [Plash](https://github.com/sindresorhus/Plash) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Pulse Secure
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/pulse-secure/images/pulse-secure.png" width="20" height="20"> | [Connect / Reconnect](apps/pulse-secure/pulse-secure-connect.applescript) | Connect to the given / default connection with the given / default username. | [Jakub Lanski](https://github.com/jaklan) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/pulse-secure/images/pulse-secure.png" width="20" height="20"> | [Disconnect / Cancel](apps/pulse-secure/pulse-secure-disconnect.applescript) | Disconnect / cancel the active connection. | [Jakub Lanski](https://github.com/jaklan) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/pulse-secure/images/pulse-secure.png" width="20" height="20"> | [Resume](apps/pulse-secure/pulse-secure-resume.applescript) | Resume the suspended connection. | [Jakub Lanski](https://github.com/jaklan) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/pulse-secure/images/pulse-secure.png" width="20" height="20"> | [Suspend](apps/pulse-secure/pulse-secure-suspend.applescript) | Suspend the active connection. | [Jakub Lanski](https://github.com/jaklan) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 #### Safari
 
