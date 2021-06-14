@@ -4687,6 +4687,34 @@
         {
           "authors" : [
             {
+              "name" : "Kirill Gorbachyonok",
+              "url" : "https:\/\/github.com\/japanese-goblinn"
+            }
+          ],
+          "createdAt" : "2021-06-14T20:33:34+03:00",
+          "currentDirectoryPath" : null,
+          "description" : "This script clears all Xcode related junk.",
+          "filename" : "clear_xcode.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🧹"
+          },
+          "identifier" : "f667f25957f079e625220ac6a9c06c36",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Xcode",
+          "path" : "developer-utils\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Clear All Related Junk",
+          "updatedAt" : "2021-06-14T20:33:34+03:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -12232,6 +12260,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 430,
-  "updatedAt" : "2021-06-12T17:33:18Z"
+  "totalScriptCommands" : 431,
+  "updatedAt" : "2021-06-14T17:36:26Z"
 }
