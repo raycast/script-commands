@@ -9255,6 +9255,68 @@
           ]
         },
         {
+          "name" : "Playground",
+          "path" : "playground",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Quentin Eude",
+                  "url" : "https:\/\/github.com\/qeude"
+                }
+              ],
+              "createdAt" : "2021-06-14T20:32:07+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Create and open a new view based Swift Playground",
+              "filename" : "open-new-view-playground.py",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "🕊"
+              },
+              "identifier" : "830a18fee37d756c1a00a65e286113a3",
+              "isTemplate" : false,
+              "language" : "python",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Swift Playgrounds",
+              "path" : "apps\/playground\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Create View Based",
+              "updatedAt" : "2021-06-14T20:32:07+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Quentin Eude",
+                  "url" : "https:\/\/github.com\/qeude"
+                }
+              ],
+              "createdAt" : "2021-06-14T20:32:07+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Create and open a new basic Swift Playground",
+              "filename" : "open-new-playground.py",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "🕊"
+              },
+              "identifier" : "23040420c0f901b4bd478a02943591c5",
+              "isTemplate" : false,
+              "language" : "python",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Swift Playgrounds",
+              "path" : "apps\/playground\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Create Basic",
+              "updatedAt" : "2021-06-14T20:32:07+02:00"
+            }
+          ]
+        },
+        {
           "name" : "Amphetamine",
           "path" : "amphetamine",
           "scriptCommands" : [
@@ -12434,6 +12496,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 437,
-  "updatedAt" : "2021-06-14T18:18:11Z"
+  "totalScriptCommands" : 439,
+  "updatedAt" : "2021-06-14T18:35:36Z"
 }
