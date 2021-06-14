@@ -48,6 +48,7 @@ This repository contains sample commands and documentation to write your own one
   - [Sip](#sip)
   - [Spotify](#spotify)
   - [Surfshark](#surfshark)
+  - [Tailscale](#tailscale)
   - [Things](#things)
   - [Todoist](#todoist)
   - [Translate Shell](#translate-shell)
@@ -285,6 +286,15 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/surfshark/images/surfshark.png" width="20" height="20"> | [Surfshark VPN Status](apps/surfshark/surfshark-vpn-status.sh) | Get Surfshark VPN status | [Jordi Clement](https://github.com/jordicl) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/surfshark/images/surfshark.png" width="20" height="20"> | [VPN Connect](apps/surfshark/surfshark-vpn-start.sh) | Start Surfshark VPN connection | [Jordi Clement](https://github.com/jordicl) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/surfshark/images/surfshark.png" width="20" height="20"> | [VPN Disconnect](apps/surfshark/surfshark-vpn-stop.sh) | Stop Surfshark VPN connection | [Jordi Clement](https://github.com/jordicl) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Tailscale
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tailscale/./images/tailscale-iconDark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tailscale/./images/tailscale-icon.png" width="20" height="20"></picture> | [Connect](apps/tailscale/tailscale-connect.sh) | Connects to Tailscale | [Ross Zurowski](https://github.com/rosszurowski) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tailscale/./images/tailscale-iconDark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tailscale/./images/tailscale-icon.png" width="20" height="20"></picture> | [Disconnect](apps/tailscale/tailscale-disconnect.sh) | Disconnects from Tailscale | [Ross Zurowski](https://github.com/rosszurowski) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tailscale/./images/tailscale-iconDark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tailscale/./images/tailscale-icon.png" width="20" height="20"></picture> | [Get IP](apps/tailscale/tailscale-ip.sh) | Gets your private Tailscale IP | [Ross Zurowski](https://github.com/rosszurowski) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tailscale/./images/tailscale-iconDark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tailscale/./images/tailscale-icon.png" width="20" height="20"></picture> | [Switch Account](apps/tailscale/tailscale-switch.sh) | Switches Tailscale networks | [Ross Zurowski](https://github.com/rosszurowski) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Things
 

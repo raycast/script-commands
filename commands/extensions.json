@@ -9492,7 +9492,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Search",
-              "updatedAt" : "2021-05-28T10:36:54+01:00"
+              "updatedAt" : "2021-06-14T14:17:13-05:00"
             },
             {
               "authors" : [
@@ -10897,6 +10897,124 @@
               "schemaVersion" : 1,
               "title" : "Start DND",
               "updatedAt" : "2021-05-28T10:40:03+01:00"
+            }
+          ]
+        },
+        {
+          "name" : "Tailscale",
+          "path" : "tailscale",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Ross Zurowski",
+                  "url" : "https:\/\/github.com\/rosszurowski"
+                }
+              ],
+              "createdAt" : "2021-06-14T15:33:18-04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Disconnects from Tailscale",
+              "filename" : "tailscale-disconnect.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : ".\/images\/tailscale-iconDark.png",
+                "light" : ".\/images\/tailscale-icon.png"
+              },
+              "identifier" : "e8490d25ff8264ba488daca5cf1bd686",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Tailscale",
+              "path" : "apps\/tailscale\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Disconnect",
+              "updatedAt" : "2021-06-14T15:33:18-04:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Ross Zurowski",
+                  "url" : "https:\/\/github.com\/rosszurowski"
+                }
+              ],
+              "createdAt" : "2021-06-14T15:33:18-04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Gets your private Tailscale IP",
+              "filename" : "tailscale-ip.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : ".\/images\/tailscale-iconDark.png",
+                "light" : ".\/images\/tailscale-icon.png"
+              },
+              "identifier" : "95bc0bc6cbf4aa67028652f54fc1009c",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Tailscale",
+              "path" : "apps\/tailscale\/",
+              "refreshTime" : "1d",
+              "schemaVersion" : 1,
+              "title" : "Get IP",
+              "updatedAt" : "2021-06-14T15:33:18-04:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Ross Zurowski",
+                  "url" : "https:\/\/github.com\/rosszurowski"
+                }
+              ],
+              "createdAt" : "2021-06-14T15:33:18-04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Connects to Tailscale",
+              "filename" : "tailscale-connect.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : ".\/images\/tailscale-iconDark.png",
+                "light" : ".\/images\/tailscale-icon.png"
+              },
+              "identifier" : "3264e1d35d86b9573e5d3962b64992f6",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Tailscale",
+              "path" : "apps\/tailscale\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Connect",
+              "updatedAt" : "2021-06-14T15:33:18-04:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Ross Zurowski",
+                  "url" : "https:\/\/github.com\/rosszurowski"
+                }
+              ],
+              "createdAt" : "2021-06-14T15:33:18-04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Switches Tailscale networks",
+              "filename" : "tailscale-switch.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : ".\/images\/tailscale-iconDark.png",
+                "light" : ".\/images\/tailscale-icon.png"
+              },
+              "identifier" : "d80b655296e9ce8762ff310a4dc45d7a",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Tailscale",
+              "path" : "apps\/tailscale\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Switch Account",
+              "updatedAt" : "2021-06-14T15:33:18-04:00"
             }
           ]
         },
@@ -12496,6 +12614,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 439,
-  "updatedAt" : "2021-06-14T18:35:36Z"
+  "totalScriptCommands" : 443,
+  "updatedAt" : "2021-06-14T19:35:31Z"
 }
