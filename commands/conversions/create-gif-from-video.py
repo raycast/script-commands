@@ -24,6 +24,7 @@ import os
 import subprocess
 import sys
 
+from datetime import datetime
 from glob import glob
 from pathlib import Path
 from shutil import which
@@ -38,7 +39,7 @@ if which("ffmpeg") is None:
 
 base_directory=f"{os.environ['HOME']}/Desktop"
 
-default_gif_filename="generated_gif.gif"
+default_gif_filename=f"generated_gif_{datetime.now().astimezone().isoformat()}.gif"
 
 def is_video_file(file_path):
     return mimetypes.guess_type(file_path)[0].startswith('video')
@@ -58,11 +59,12 @@ def safe_get(array, index):
         return None
 
 from_file_path=safe_get(sys.argv, 1) or get_last_video_file_path()
+
 if not from_file_path:
     print("No video file have been found at the specified path.")
     exit(1)
 
-if os.path.isdir(from_file_path) and is_video_file(from_file_path):
+if os.path.isdir(from_file_path) or not is_video_file(from_file_path):
     print("Source file should be a valid video file.")
     exit(1)
 
@@ -87,7 +89,7 @@ except Exception as e:
     exit(1)
 
 if int_frame_rate <= 60 and int_frame_rate >= 1:
-    mp4_filename=f"{os.path.splitext(os.path.basename(from_file_path))[0]}.mp4"
+    mp4_filename=f".{os.path.splitext(os.path.basename(from_file_path))[0]}_{datetime.now().astimezone().isoformat()}.mp4"
     mp4_file_path=os.path.join(os.path.dirname(from_file_path), mp4_filename)
     os.system(f"ffmpeg -y -loglevel panic -err_detect aggressive -fflags discardcorrupt -i '{from_file_path}' -c:v libx264 -preset slow -crf 18 -c:a copy '{mp4_file_path}'>/dev/null")
     os.system(f"gifski --repeat 0 -W {int_width} --fps {int_frame_rate} -o '{to_file_path}' '{mp4_file_path}'>/dev/null")
