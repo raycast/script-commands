@@ -16,7 +16,7 @@
 # @raycast.icon images/bitwarden.png
 # @raycast.argument1 { "type": "text", "placeholder": "Text" }
 # @raycast.argument2 { "type": "text", "placeholder": "Name", "optional": true }
-# @raycast.argument3 { "type": "text", "placeholder": "Password", "optional": true }
+# @raycast.argument3 { "type": "text", "placeholder": "Password", "optional": true, "secure": true }
 #
 # Documentation
 # @raycast.author Phil Salant
