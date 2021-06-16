@@ -15,7 +15,7 @@
 # @raycast.packageName Bitwarden
 # @raycast.icon images/bitwarden.png
 # @raycast.argument1 { "type": "text", "placeholder": "Send URL" }
-# @raycast.argument2 { "type": "text", "placeholder": "Password", "optional": true }
+# @raycast.argument2 { "type": "text", "placeholder": "Password", "optional": true, "secure": true }
 # @raycast.argument3 { "type": "text", "placeholder": "Show Hidden Text? (y/n)", "optional": true }
 #
 # Documentation

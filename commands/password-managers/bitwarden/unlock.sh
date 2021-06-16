@@ -23,7 +23,7 @@
 # Optional parameters:
 # @raycast.packageName Bitwarden
 # @raycast.icon images/bitwarden.png
-# @raycast.argument1 { "type": "text", "placeholder": "Master Password" }
+# @raycast.argument1 { "type": "text", "placeholder": "Master Password", "secure": true }
 #
 # Documentation
 # @raycast.author Phil Salant
