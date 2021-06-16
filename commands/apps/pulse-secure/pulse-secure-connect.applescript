@@ -13,7 +13,7 @@
 # @raycast.icon images/pulse-secure.png
 # @raycast.argument1 { "type": "text", "placeholder": "Connection", "optional": true }
 # @raycast.argument2 { "type": "text", "placeholder": "Username", "optional": true }
-# @raycast.argument3 { "type": "text", "placeholder": "Password", "optional": true }
+# @raycast.argument3 { "type": "text", "placeholder": "Password", "optional": true, "secure": true }
 
 # Documentation:
 # @raycast.author Jakub Lanski
