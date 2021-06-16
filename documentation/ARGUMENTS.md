@@ -12,6 +12,7 @@ Use `argument[1..3]` metadata to specify custom arguments that will be displayed
 | placeholder | Placeholder for the input field. | ✅ | 1.2.0+ |
 | optional | Set to `true` if you want to mark the argument as optional. When not provided, the argument is considered to be required (Raycast will not allow to execute the script if the argument input is empty) |   | 1.3.0+ |
 | percentEncoded | Set to `true` if you want Raycast to perform percent encoding on the argument value before passing it to the script. Can be handy for scripts that pass the argument directly to URL query |   | 1.4.0+ |
+| secure | When set to `true` entered text will be replaced with asterisks and won't be recorded by history. Most common use case – passing passwords or secrets to scripts. |   | 1.18.0+ |
 
 💡 **Maximum number of arguments:** 3 (if you have a use case that requires more, please let us know via feedback or in the [Slack community](https://www.raycast.com/community))
 
