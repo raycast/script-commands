@@ -5,7 +5,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Count characters
+# @raycast.title Count Characters
 # @raycast.mode compact
 
 # Optional parameters:
