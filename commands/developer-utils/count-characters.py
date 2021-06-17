@@ -11,7 +11,7 @@
 # Optional parameters:
 # @raycast.icon 🤖
 # @raycast.argument1 { "type": "text", "placeholder": "Text", "optional": true }
-# @raycast.packageName Developer Utils
+# @raycast.packageName Developer Utilities
 
 # Documentation:
 # @raycast.description Counts the characters of either the clipboard or the passed argument
