@@ -4636,6 +4636,34 @@
         {
           "authors" : [
             {
+              "name" : "Sven Bendel",
+              "url" : "https:\/\/github.com\/ubuntudroid"
+            }
+          ],
+          "createdAt" : "2021-06-18T18:55:46+02:00",
+          "currentDirectoryPath" : null,
+          "description" : "Counts the characters of either the clipboard or the passed argument",
+          "filename" : "count-characters.py",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🤖"
+          },
+          "identifier" : "e07262e8488ddcbce41dd175f24130f4",
+          "isTemplate" : false,
+          "language" : "python",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "path" : "developer-utils\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Count Characters",
+          "updatedAt" : "2021-06-18T18:55:46+02:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Ronan Rodrigo Nunes",
               "url" : "https:\/\/ronanrodrigo.dev"
             }
@@ -6153,7 +6181,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Receive a Text Send",
-              "updatedAt" : "2021-03-29T13:44:44-04:00"
+              "updatedAt" : "2021-06-16T14:43:13+02:00"
             },
             {
               "authors" : [
@@ -6181,7 +6209,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Create a Text Send",
-              "updatedAt" : "2021-03-29T17:48:36+00:00"
+              "updatedAt" : "2021-06-16T14:43:13+02:00"
             },
             {
               "authors" : [
@@ -6321,7 +6349,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Unlock Session",
-              "updatedAt" : "2021-03-29T13:44:44-04:00"
+              "updatedAt" : "2021-06-16T14:43:13+02:00"
             },
             {
               "authors" : [
@@ -6377,7 +6405,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Log In",
-              "updatedAt" : "2021-03-29T13:44:44-04:00"
+              "updatedAt" : "2021-06-17T13:37:57+02:00"
             }
           ]
         }
@@ -9924,7 +9952,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Connect \/ Reconnect",
-              "updatedAt" : "2021-06-14T20:14:26+02:00"
+              "updatedAt" : "2021-06-16T14:42:20+02:00"
             },
             {
               "authors" : [
@@ -12614,6 +12642,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 443,
-  "updatedAt" : "2021-06-14T19:35:31Z"
+  "totalScriptCommands" : 444,
+  "updatedAt" : "2021-06-18T17:07:40Z"
 }
