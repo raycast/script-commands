@@ -9,7 +9,7 @@
 # @raycast.mode fullOutput
 
 # Optional parameters:
-# @raycast.icon images/noteplan.ico
+# @raycast.icon images/noteplan3.png
 # @raycast.argument1 { "type": "text", "placeholder": "Title", "percentEncoded": true, "optional": false }
 # @raycast.packageName NotePlan3
 

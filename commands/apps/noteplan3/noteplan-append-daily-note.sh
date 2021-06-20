@@ -9,7 +9,7 @@
 # @raycast.mode silent
 
 # Optional parameters:
-# @raycast.icon images/noteplan.ico
+# @raycast.icon images/noteplan3.png
 # @raycast.argument1 { "type": "text", "placeholder": "- Quick note", "percentEncoded": true, "optional": true }
 # @raycast.packageName NotePlan3
 
