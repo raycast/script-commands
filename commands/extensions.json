@@ -3878,6 +3878,34 @@
         {
           "authors" : [
             {
+              "name" : "es183923",
+              "url" : null
+            }
+          ],
+          "createdAt" : "2021-06-21T19:28:31-04:00",
+          "currentDirectoryPath" : null,
+          "description" : "Counts the characters of either the clipboard or the passed argument",
+          "filename" : "count-characters.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🤖"
+          },
+          "identifier" : "a33b175caa4abccee75bc6ad6d6b5e67",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "path" : "developer-utils\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Count Characters Bash",
+          "updatedAt" : "2021-06-23T07:27:53+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Nitin Gupta",
               "url" : "https:\/\/twitter.com\/gniting"
             }
@@ -4632,34 +4660,6 @@
           "schemaVersion" : 1,
           "title" : "Run Command",
           "updatedAt" : "2021-03-03T20:40:04+01:00"
-        },
-        {
-          "authors" : [
-            {
-              "name" : "Sven Bendel",
-              "url" : "https:\/\/github.com\/ubuntudroid"
-            }
-          ],
-          "createdAt" : "2021-06-18T18:55:46+02:00",
-          "currentDirectoryPath" : null,
-          "description" : "Counts the characters of either the clipboard or the passed argument",
-          "filename" : "count-characters.py",
-          "hasArguments" : true,
-          "icon" : {
-            "dark" : null,
-            "light" : "🤖"
-          },
-          "identifier" : "e07262e8488ddcbce41dd175f24130f4",
-          "isTemplate" : false,
-          "language" : "python",
-          "mode" : "compact",
-          "needsConfirmation" : null,
-          "packageName" : "Developer Utilities",
-          "path" : "developer-utils\/",
-          "refreshTime" : null,
-          "schemaVersion" : 1,
-          "title" : "Count Characters",
-          "updatedAt" : "2021-06-18T18:55:46+02:00"
         },
         {
           "authors" : [
@@ -12705,5 +12705,5 @@
 
   ],
   "totalScriptCommands" : 446,
-  "updatedAt" : "2021-06-23T07:22:21Z"
+  "updatedAt" : "2021-06-23T07:27:53Z"
 }
