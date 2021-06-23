@@ -39,6 +39,7 @@ This repository contains sample commands and documentation to write your own one
   - [Iterm](#iterm)
   - [Mail](#mail)
   - [Mullvad](#mullvad)
+  - [Noteplan3](#noteplan3)
   - [Plash](#plash)
   - [Playground](#playground)
   - [Pulse Secure](#pulse-secure)
@@ -208,6 +209,13 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/mullvad/images/mullvad.png" width="20" height="20"> | [Mullvad Status](apps/mullvad/status.sh) | Display the current status of the Mullvad VPN tunnel connection. | [Phil Salant](https://github.com/PSalant726) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/mullvad/images/mullvad.png" width="20" height="20"> | [Reconnect](apps/mullvad/reconnect.sh) | Force the client to reconnect to the Mullvad VPN tunnel. | [Phil Salant](https://github.com/PSalant726) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/mullvad/images/mullvad.png" width="20" height="20"> | [Search Countries, Cities, and Hostnames](apps/mullvad/search.sh) | Search the list of available entities to which a Mullvad VPN tunnel connection can be made. | [Phil Salant](https://github.com/PSalant726) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Noteplan3
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/noteplan3/images/noteplan3.png" width="20" height="20"> | [Append To Daily Note](apps/noteplan3/noteplan-append-daily-note.sh) | Append to daily note | [Göran Damberg](https://github.com/gdamberg) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/noteplan3/images/noteplan3.png" width="20" height="20"> | [New Note From Clipboard](apps/noteplan3/noteplan-new-note-from-clipboard.sh) | Create a new note from clipboard | [Göran Damberg](https://github.com/gdamberg) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Plash
 

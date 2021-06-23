@@ -6349,7 +6349,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Unlock Session",
-              "updatedAt" : "2021-06-16T14:43:13+02:00"
+              "updatedAt" : "2021-06-20T15:07:42+02:00"
             },
             {
               "authors" : [
@@ -9341,6 +9341,68 @@
               "schemaVersion" : 1,
               "title" : "Create Basic",
               "updatedAt" : "2021-06-14T20:32:07+02:00"
+            }
+          ]
+        },
+        {
+          "name" : "Noteplan3",
+          "path" : "noteplan3",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Göran Damberg",
+                  "url" : "https:\/\/github.com\/gdamberg"
+                }
+              ],
+              "createdAt" : "2021-06-23T09:20:05+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Append to daily note",
+              "filename" : "noteplan-append-daily-note.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/noteplan3.png"
+              },
+              "identifier" : "d802c64f73f9e89996597e76af3d5094",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "NotePlan3",
+              "path" : "apps\/noteplan3\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Append To Daily Note",
+              "updatedAt" : "2021-06-23T09:20:05+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Göran Damberg",
+                  "url" : "https:\/\/github.com\/gdamberg"
+                }
+              ],
+              "createdAt" : "2021-06-23T09:20:05+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Create a new note from clipboard",
+              "filename" : "noteplan-new-note-from-clipboard.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/noteplan3.png"
+              },
+              "identifier" : "2562e5c7b3258337f783b8210e796d55",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "NotePlan3",
+              "path" : "apps\/noteplan3\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "New Note From Clipboard",
+              "updatedAt" : "2021-06-23T09:20:05+02:00"
             }
           ]
         },
@@ -12642,6 +12704,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 444,
-  "updatedAt" : "2021-06-18T17:07:40Z"
+  "totalScriptCommands" : 446,
+  "updatedAt" : "2021-06-23T07:22:21Z"
 }
