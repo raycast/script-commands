@@ -2209,6 +2209,34 @@
         {
           "authors" : [
             {
+              "name" : "Yan Smaliak",
+              "url" : "https:\/\/github.com\/ysmaliak"
+            }
+          ],
+          "createdAt" : "2021-06-23T23:17:52+03:00",
+          "currentDirectoryPath" : null,
+          "description" : "Shows caffeinate status and time left if it's running",
+          "filename" : "caffeinate-status.swift",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "☕️"
+          },
+          "identifier" : "ea698b6674bb57715a2b7c4a06fc428c",
+          "isTemplate" : false,
+          "language" : "swift",
+          "mode" : "inline",
+          "needsConfirmation" : false,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : "30s",
+          "schemaVersion" : 1,
+          "title" : "Caffeinate",
+          "updatedAt" : "2021-06-24T14:36:25+03:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Marcos Sánchez-Dehesa",
               "url" : "https:\/\/www.github.com\/dehesa"
             }
@@ -2452,6 +2480,34 @@
           "schemaVersion" : 1,
           "title" : "Refresh Wallpaper",
           "updatedAt" : "2021-06-04T16:35:43-04:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Yan Smaliak",
+              "url" : "https:\/\/github.com\/ysmaliak"
+            }
+          ],
+          "createdAt" : "2021-06-23T19:47:11+03:00",
+          "currentDirectoryPath" : null,
+          "description" : "Stops all caffeinate sessions",
+          "filename" : "caffeinate-disable.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "☕️"
+          },
+          "identifier" : "b8f343e8f5516c3671d7e09e7f5af6b5",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : false,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Disable Caffeinate",
+          "updatedAt" : "2021-06-23T19:47:11+03:00"
         },
         {
           "authors" : [
@@ -2843,6 +2899,34 @@
         {
           "authors" : [
             {
+              "name" : "Yan Smaliak",
+              "url" : "https:\/\/github.com\/ysmaliak"
+            }
+          ],
+          "createdAt" : "2021-06-23T19:47:11+03:00",
+          "currentDirectoryPath" : null,
+          "description" : "Starts a caffeinated session",
+          "filename" : "caffeinate-enable.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "☕️"
+          },
+          "identifier" : "61b64ef5d74932f70a3a2108e7055eb0",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : false,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Enable Caffeinate",
+          "updatedAt" : "2021-06-23T19:47:11+03:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Vincent Dörig",
               "url" : "https:\/\/github.com\/vincentdoerig"
             }
@@ -3020,6 +3104,34 @@
           "schemaVersion" : 1,
           "title" : "Create New File in Finder",
           "updatedAt" : "2020-12-30T22:13:18+08:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Yan Smaliak",
+              "url" : "https:\/\/github.com\/ysmaliak"
+            }
+          ],
+          "createdAt" : "2021-06-23T19:47:11+03:00",
+          "currentDirectoryPath" : null,
+          "description" : "Shows caffeinate status",
+          "filename" : "caffeinate-status.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "☕️"
+          },
+          "identifier" : "983e3f9a1dd803134bc1cd49ace17de2",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "inline",
+          "needsConfirmation" : false,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : "30s",
+          "schemaVersion" : 1,
+          "title" : "Caffeinate",
+          "updatedAt" : "2021-06-23T19:47:11+03:00"
         },
         {
           "authors" : [
@@ -12704,6 +12816,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 446,
-  "updatedAt" : "2021-06-23T07:27:53Z"
+  "totalScriptCommands" : 450,
+  "updatedAt" : "2021-06-24T12:51:00Z"
 }
