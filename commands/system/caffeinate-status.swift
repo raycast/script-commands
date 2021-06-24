@@ -52,6 +52,7 @@ utcFromatter.timeZone = TimeZone(abbreviation: "UTC")
 
 let currentTime = Date()
 var maxTime: Date?
+var latestStartTime: Date?
 
 let separate_processes = caffeinate_processes.components(separatedBy: "\n")
 
@@ -67,9 +68,11 @@ separate_processes.forEach { process in
                if let maxTimeToCompare = maxTime {
                     if endTime > maxTimeToCompare {
                         maxTime = endTime
+                        latestStartTime = startTime
                     }
                } else {
                    maxTime = endTime
+                   latestStartTime = startTime
                }
         } else {
             print("Something went wrong!")
@@ -81,10 +84,13 @@ separate_processes.forEach { process in
 let currentTimeString = formatter.string(from: currentTime)
 let currentTimeFromFormatter = utcFromatter.date(from: currentTimeString)
 
-if let maxTime = maxTime, let currentTimeFromFormatter = currentTimeFromFormatter {
+if let maxTime = maxTime,
+   let currentTimeFromFormatter = currentTimeFromFormatter,
+   let latestStartTime = latestStartTime {
     let (d, h, m) = secondsToDhm(Int(maxTime - currentTimeFromFormatter))
     let hmString: String = (d > 0 ? "\(d)d " : "") + (h > 0 ? "\(h)h " : "") + (m > 0 ? "\(m)m" : "")
-    print("Caffeinate is running. Time left: \(hmString)")
+    let startTimeString = utcFromatter.string(from: latestStartTime)
+    print("Started at \(startTimeString). Expires in \(hmString)")
 } else {
     print("Something went wrong!")
     exit(1)
