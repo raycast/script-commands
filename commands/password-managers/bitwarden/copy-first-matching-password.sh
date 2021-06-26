@@ -22,7 +22,7 @@
 # @raycast.description Search all items in a Bitwarden vault, and copy the password of the first search result to the clipboard.
 
 notFound() {
-  echo "The query '$1' did not return a password."
+  echo "The query '${BASH_ARGV[0]}' did not return a password."
   exit 1
 }
 
@@ -51,8 +51,8 @@ if [ $unlocked_status -ne 0 ]; then
 fi
 
 item=$(bw list items --search "$1" $session 2> /dev/null | jq ".[0] | { name: .name, password: .login.password }")
-name=$(echo $item | jq --exit-status ".name") || notFoundError
-password=$(echo $item | jq --raw-output --exit-status ".password") || notFoundError
+name=$(echo $item | jq --exit-status ".name") || notFound
+password=$(echo $item | jq --raw-output --exit-status ".password") || notFound
 
 echo -n $password | pbcopy
 unset password
