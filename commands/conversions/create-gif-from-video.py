@@ -58,6 +58,11 @@ def safe_get(array, index):
     except IndexError:
         return None
 
+def handle_error(stderr):
+    if stderr:
+        print(stderr)
+        exit(1)
+
 from_file_path=safe_get(sys.argv, 1) or get_last_video_file_path()
 
 if not from_file_path:
@@ -91,8 +96,12 @@ except Exception as e:
 if int_frame_rate <= 60 and int_frame_rate >= 1:
     mp4_filename=f".{os.path.splitext(os.path.basename(from_file_path))[0]}_{datetime.now().astimezone().isoformat()}.mp4"
     mp4_file_path=os.path.join(os.path.dirname(from_file_path), mp4_filename)
-    os.system(f"ffmpeg -y -loglevel panic -err_detect aggressive -fflags discardcorrupt -i '{from_file_path}' -c:v libx264 -preset slow -crf 18 -c:a copy '{mp4_file_path}'>/dev/null")
-    os.system(f"gifski --repeat 0 -W {int_width} --fps {int_frame_rate} -o '{to_file_path}' '{mp4_file_path}'>/dev/null")
+    cmd = ["ffmpeg", "-y", "-loglevel", "panic", "-err_detect", "aggressive", "-fflags", "discardcorrupt", "-i", from_file_path, "-c:v", "libx264", "-preset", "slow", "-crf", "18", "-c:a", "copy", mp4_file_path]
+    stderr_str = subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE).stderr
+    handle_error(stderr_str)
+    cmd = ["gifski", "--repeat", "0", "-W", str(int_width), "--fps", str(int_frame_rate), "-o", to_file_path, mp4_file_path]
+    stderr_str = subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE).stderr
+    handle_error(stderr_str)
     os.remove(mp4_file_path)
     subprocess.run("pbcopy", universal_newlines=True, input=to_file_path)
     print("GIF successfully generated 🎉")
