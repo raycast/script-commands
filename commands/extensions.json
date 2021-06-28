@@ -1204,6 +1204,62 @@
         {
           "authors" : [
             {
+              "name" : "Jakub Lanski",
+              "url" : "https:\/\/github.com\/jaklan"
+            }
+          ],
+          "createdAt" : "2021-06-23T14:44:22+02:00",
+          "currentDirectoryPath" : null,
+          "description" : "Quit the application. Edit the command to change the default values (Application: \"\", Force quit?: \"No\").",
+          "filename" : "quit-application.applescript",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/quit.png"
+          },
+          "identifier" : "6cadd1b2f46cf256ef300204493c98be",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Navigation",
+          "path" : "navigation\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Quit Application",
+          "updatedAt" : "2021-06-23T14:44:22+02:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Jakub Lanski",
+              "url" : "https:\/\/github.com\/jaklan"
+            }
+          ],
+          "createdAt" : "2021-06-23T14:44:22+02:00",
+          "currentDirectoryPath" : null,
+          "description" : "Restart the application. Edit the command to change the default values (Application: \"\", Force restart?: \"No\").",
+          "filename" : "restart-application.applescript",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/restart.png"
+          },
+          "identifier" : "1fd3b81609ac36ee68e94ef9d596c992",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Navigation",
+          "path" : "navigation\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Restart Application",
+          "updatedAt" : "2021-06-23T14:44:22+02:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Jax0rz",
               "url" : null
             }
@@ -12816,6 +12872,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 450,
-  "updatedAt" : "2021-06-24T12:51:00Z"
+  "totalScriptCommands" : 452,
+  "updatedAt" : "2021-06-28T05:59:06Z"
 }
