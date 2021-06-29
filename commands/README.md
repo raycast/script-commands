@@ -26,6 +26,7 @@ This repository contains sample commands and documentation to write your own one
 ### Categories
 
 - [Apps](#apps)
+  - [Agenda](#agenda)
   - [Amphetamine](#amphetamine)
   - [Bear](#bear)
   - [Cleanshot](#cleanshot)
@@ -99,6 +100,14 @@ This repository contains sample commands and documentation to write your own one
   - [Wordpress](#wordpress)
 
 ## Apps
+
+#### Agenda
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/agenda/images/agenda.png" width="20" height="20"> | [Agenda Today Overview](apps/agenda/agenda-today.sh) | Opens Agenda - Today Overview | [Michael Ellis](https://github.com/mtellis2) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/agenda/images/agenda.png" width="20" height="20"> | [Create New On the Agenda Note](apps/agenda/agenda-new-note.sh) | Creates New Note and adds it to On the Agenda | [Michael Ellis](https://github.com/mtellis2) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/agenda/images/agenda.png" width="20" height="20"> | [On the Agenda Overview](apps/agenda/agenda-on-the-agenda.sh) | Opens Agenda - On the Agenda Overview | [Michael Ellis](https://github.com/mtellis2) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Amphetamine
 

@@ -6265,7 +6265,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Copy First Matching Password",
-              "updatedAt" : "2021-05-10T10:13:49+02:00"
+              "updatedAt" : "2021-06-27T00:02:29+02:00"
             },
             {
               "authors" : [
@@ -11339,6 +11339,96 @@
           ]
         },
         {
+          "name" : "Agenda",
+          "path" : "agenda",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Michael Ellis",
+                  "url" : "https:\/\/github.com\/mtellis2"
+                }
+              ],
+              "createdAt" : "2021-06-26T15:52:43-04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Opens Agenda - Today Overview",
+              "filename" : "agenda-today.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/agenda.png"
+              },
+              "identifier" : "7f50aaf0597b597069fb354a58a4573b",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Agenda",
+              "path" : "apps\/agenda\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Agenda Today Overview",
+              "updatedAt" : "2021-06-26T15:52:43-04:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Michael Ellis",
+                  "url" : "https:\/\/github.com\/mtellis2"
+                }
+              ],
+              "createdAt" : "2021-06-26T15:52:43-04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Opens Agenda - On the Agenda Overview",
+              "filename" : "agenda-on-the-agenda.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/agenda.png"
+              },
+              "identifier" : "8e019b6506bee0ffad51b2a625ed0d0b",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Agenda",
+              "path" : "apps\/agenda\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "On the Agenda Overview",
+              "updatedAt" : "2021-06-26T15:52:43-04:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Michael Ellis",
+                  "url" : "https:\/\/github.com\/mtellis2"
+                }
+              ],
+              "createdAt" : "2021-06-26T15:52:43-04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Creates New Note and adds it to On the Agenda",
+              "filename" : "agenda-new-note.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/agenda.png"
+              },
+              "identifier" : "9b7ee4e0b61fcd48feeb8280ac0adbdf",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Agenda",
+              "path" : "apps\/agenda\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Create New On the Agenda Note",
+              "updatedAt" : "2021-06-26T15:52:43-04:00"
+            }
+          ]
+        },
+        {
           "name" : "Sip",
           "path" : "sip",
           "scriptCommands" : [
@@ -12872,6 +12962,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 452,
-  "updatedAt" : "2021-06-28T05:59:06Z"
+  "totalScriptCommands" : 455,
+  "updatedAt" : "2021-06-29T08:08:48Z"
 }
