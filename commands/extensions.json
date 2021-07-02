@@ -359,6 +359,34 @@
         {
           "authors" : [
             {
+              "name" : "Quentin Eude",
+              "url" : "https:\/\/github.com\/qeude"
+            }
+          ],
+          "createdAt" : "2021-07-02T09:59:04+02:00",
+          "currentDirectoryPath" : null,
+          "description" : "Create a GIF from video, by default it takes the last screen record video",
+          "filename" : "create-gif-from-video.py",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "📹"
+          },
+          "identifier" : "84edd7675ee0b974e699ddd28fae84f5",
+          "isTemplate" : false,
+          "language" : "python",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Conversions",
+          "path" : "conversions\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Create GIF from video",
+          "updatedAt" : "2021-07-02T09:59:04+02:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -12962,6 +12990,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 455,
-  "updatedAt" : "2021-06-29T08:08:48Z"
+  "totalScriptCommands" : 456,
+  "updatedAt" : "2021-07-02T08:01:13Z"
 }
