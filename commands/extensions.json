@@ -4511,6 +4511,34 @@
         {
           "authors" : [
             {
+              "name" : "Jakub Lanski",
+              "url" : "https:\/\/github.com\/jaklan"
+            }
+          ],
+          "createdAt" : "2021-07-04T18:33:53+02:00",
+          "currentDirectoryPath" : null,
+          "description" : "Query the cheat.sh service (https:\/\/github.com\/chubin\/cheat.sh). You can change the color style in the script.",
+          "filename" : "cheat.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/cheat.png"
+          },
+          "identifier" : "d9751e4c2bbea57167d0deb109c59ed2",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "path" : "developer-utils\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Query cheat.sh",
+          "updatedAt" : "2021-07-04T22:26:57+02:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -12990,6 +13018,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 456,
-  "updatedAt" : "2021-07-02T08:01:13Z"
+  "totalScriptCommands" : 457,
+  "updatedAt" : "2021-07-05T10:16:16Z"
 }
