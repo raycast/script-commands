@@ -2736,6 +2736,34 @@
         {
           "authors" : [
             {
+              "name" : "Seypopi",
+              "url" : "https:\/\/github.com\/Seypopi"
+            }
+          ],
+          "createdAt" : "2021-07-06T15:48:02+02:00",
+          "currentDirectoryPath" : null,
+          "description" : "Empty the desktop.",
+          "filename" : "move-desktop-to-trash.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🗑"
+          },
+          "identifier" : "cc2b535578d9865c8bfbb6deea863b05",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : true,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Move Desktop to Trash",
+          "updatedAt" : "2021-07-06T15:39:42+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Linus Salzmann",
               "url" : "https:\/\/github.com\/linus569"
             }
@@ -6153,7 +6181,7 @@
               "refreshTime" : "1h",
               "schemaVersion" : 1,
               "title" : "Local IPv4",
-              "updatedAt" : "2020-12-08T15:56:35+00:00"
+              "updatedAt" : "2021-07-06T10:54:12+02:00"
             },
             {
               "authors" : [
@@ -6181,7 +6209,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "URL IPv6",
-              "updatedAt" : "2020-11-28T12:26:29-05:00"
+              "updatedAt" : "2021-07-06T10:54:12+02:00"
             },
             {
               "authors" : null,
@@ -6204,7 +6232,7 @@
               "refreshTime" : "1h",
               "schemaVersion" : 1,
               "title" : "External IPv4",
-              "updatedAt" : "2021-02-12T11:49:03+01:00"
+              "updatedAt" : "2021-07-06T10:54:12+02:00"
             },
             {
               "authors" : [
@@ -6232,7 +6260,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "URL IPv4",
-              "updatedAt" : "2020-11-28T12:26:29-05:00"
+              "updatedAt" : "2021-07-06T10:54:12+02:00"
             },
             {
               "authors" : null,
@@ -6255,7 +6283,7 @@
               "refreshTime" : "1h",
               "schemaVersion" : 1,
               "title" : "External IPv6",
-              "updatedAt" : "2021-02-12T11:49:03+01:00"
+              "updatedAt" : "2021-07-06T10:54:12+02:00"
             },
             {
               "authors" : null,
@@ -6278,7 +6306,7 @@
               "refreshTime" : "1h",
               "schemaVersion" : 1,
               "title" : "Local IPv6",
-              "updatedAt" : "2020-12-08T15:56:35+00:00"
+              "updatedAt" : "2021-07-06T10:54:12+02:00"
             }
           ]
         }
@@ -13018,6 +13046,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 457,
-  "updatedAt" : "2021-07-05T10:16:16Z"
+  "totalScriptCommands" : 458,
+  "updatedAt" : "2021-07-06T15:39:42Z"
 }
