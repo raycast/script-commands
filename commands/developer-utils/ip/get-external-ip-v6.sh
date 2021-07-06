@@ -14,4 +14,5 @@
 # @raycast.description Copies the external IPv6 to the clipboard.
 
 ip=$(curl -6 -s -m 5 https://api64.ipify.org)
-echo $ip
+echo $ip | pbcopy
+echo "Copied $ip"

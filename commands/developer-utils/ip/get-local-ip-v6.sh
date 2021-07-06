@@ -15,4 +15,5 @@
 
 ip=$(ifconfig | grep 'inet6.*%en' | awk '{print $2}')
 IFS=' ' read -ra array <<< "$ip"
-echo ${array[0]}
+echo ${array[0]} | pbcopy
+echo "Copied $ip"
