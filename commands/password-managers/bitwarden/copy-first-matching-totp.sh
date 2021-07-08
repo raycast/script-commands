@@ -22,6 +22,11 @@
 # @raycast.description Search all items in a Bitwarden vault, and copy the password of the first search result to the clipboard.
 
 # Activate Python environment
+if ! command -v virtualenv &> /dev/null
+then
+    pip3 install virtualenv
+fi
+
 if [ ! -d virtualenv ]; then
   virtualenv venv
 fi
