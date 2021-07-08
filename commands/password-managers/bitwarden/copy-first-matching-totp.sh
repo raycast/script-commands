@@ -3,8 +3,11 @@
 # Dependencies:
 #   1. The Bitwarden CLI: https://bitwarden.com/help/article/cli/
 #   2. The `jq` utility: https://stedolan.github.io/jq/
+#   3. Python3: https://programwithus.com/learn/python/install-python3-mac
+#   4. Python3 virtualenv: https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
 #
 # Install via homebrew: `brew install bitwarden-cli jq`
+# Follow instructions on steps 3-4
 
 # Required parameters:
 # @raycast.schemaVersion 1
@@ -24,7 +27,8 @@
 # Activate Python environment
 if ! command -v virtualenv &> /dev/null
 then
-    pip3 install virtualenv
+  echo "virtualenv command is required";
+  exit 1;
 fi
 
 if [ ! -d virtualenv ]; then
@@ -35,7 +39,7 @@ source venv/bin/activate
 
 if ! command -v mintotp &> /dev/null
 then
-    pip3 install mintotp
+    pip3 install mintotp # installs in virtualenv
 fi
 
 notFound() {
