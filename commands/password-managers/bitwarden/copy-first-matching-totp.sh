@@ -53,5 +53,5 @@ fi
 totp=$(bw get totp "$1" $session)
 echo -n $totp | pbcopy
 unset totp
-echo "Copied the TOTP for '$name' to the clipboard."
+echo "Copied the TOTP for '$1' to the clipboard."
 exit 0
