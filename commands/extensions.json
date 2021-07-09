@@ -1572,6 +1572,1365 @@
       ]
     },
     {
+      "name" : "Remote Control",
+      "path" : "remote-control",
+      "scriptCommands" : [
+
+      ],
+      "subGroups" : [
+        {
+          "name" : "Lg Tv",
+          "path" : "lg-tv",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Close the application by its ID.",
+              "filename" : "close-app.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "139825c01bb2a7ea16cbbe87c4b0eea7",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Close App",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open the application with the given payload.",
+              "filename" : "open-app-with-payload.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "e78c3c2e7bc669488295056a0bb5b127",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open App With Payload",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show the configuration of the library.",
+              "filename" : "show-config.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "44ab198b6bcf302c779a63b734ce1c82",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Show Config",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show the list of launch points.",
+              "filename" : "list-launch-points.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "04bab301934dac7d4a84a6e4590cff97",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "List Launch Points",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Turn off the 3D mode.",
+              "filename" : "turn-off-3d.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "27a3333d3f495bf482a7afc5768dc86b",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Turn Off 3D",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show the audio status.",
+              "filename" : "show-audio-status.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "69a89ed81cd740a4ae70b2e41b401f5d",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Show Audio Status",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show information about the TV.",
+              "filename" : "show-tv-info.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "4ffdde8a9a73be8bdae9e0003e41cd66",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Show TV Info",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show the list of services.",
+              "filename" : "list-services.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "95174c27967fd70d9c92485f72119313",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "List Services",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Scan to find the TV. The TV has to be turned on.",
+              "filename" : "scan.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "43253c0894482fb74159234c227953b7",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Scan",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show picture settings.",
+              "filename" : "show-picture-settings.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "4ee1796b14d5028927be17ee44ebf54f",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Show Picture Settings",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show information about the software.",
+              "filename" : "show-software-info.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "d5f1dbf7b9ddfbf76eae82107e37f267",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Show Software Info",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show information about the TV channel.",
+              "filename" : "show-channel.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "5fb2727e83fcd23d8c545102ca088d3d",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Show Channel",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show the list of applications.",
+              "filename" : "list-apps.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "5e28000d1949bec829e3e2861b52e785",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "List Apps",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Authenticate the library. The TV has to be turned on. You have to provide the IP address of the TV and accept the connection on the TV.",
+              "filename" : "authenticate.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "74a50a0b785132731aaa13d435ef4a2e",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Authenticate",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open the application by its ID.",
+              "filename" : "open-app.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "e467133629c17d2130d0b6a5f58b746e",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open App",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open Youtube with the given video ID.",
+              "filename" : "open-youtube-id.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "edc01fb091bfd6952cba207273392b6e",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Youtube (ID)",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Stop the media.",
+              "filename" : "stop-media.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "2f44779614466f754e39de741154ee19",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Stop Media",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Unmute the TV.",
+              "filename" : "unmute.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "f3bc72e257bea3f096e7bd3b66cec79f",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Unmute",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Send the notification and show it on the TV.",
+              "filename" : "send-notification.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "b6323b459cfde9bd61c4e539899af6fa",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Send Notification",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show the sound output.",
+              "filename" : "show-sound-output.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "eee4d1c090fb5d4509ae13868eca9a7f",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Show Sound Output",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show the audio volume.",
+              "filename" : "show-audio-volume.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "b4fabfe5562df1ed618507177cd471aa",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Show Audio Volume",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Execute the given command on TV.",
+              "filename" : "execute-command.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "7fdbf16ac52e3e0b8da4ae75119c559c",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Execute Command",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show information about the foreground application.",
+              "filename" : "show-fg-app-info.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "534cb7263206875df399ff73306cf4e0",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Show Foreground App Info",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Turn on the screen.",
+              "filename" : "turn-on-screen.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "9f958723e90790b78f41511ee47b5aa8",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Turn On Screen",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show the power state.",
+              "filename" : "show-power-state.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "eddaa29eb8119bb1187111060f9d5261",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Show Power State",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Play the media.",
+              "filename" : "play-media.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "046b37f6df217de570cd661202f147d5",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Play Media",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Change the sound output. Possible \"Output Type\" values: tv_speaker | external_optical | external_arc | external_speaker | lineout | headphone | tv_external_speaker | tv_speaker_headphone | bt_soundbar.",
+              "filename" : "change-sound-output.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "92e31125a765419b484225d005349bbe",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Change Sound Output",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open Youtube with the given video URL. The URL has to start with \"http:\/\/\" or \"https:\/\/\" prefix.",
+              "filename" : "open-youtube-url.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "1b3173b6d5599269237ec698f7e25f5a",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Youtube (URL)",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Send the notification with the icon and show it on the TV.",
+              "filename" : "send-notification-with-icon.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "704cb889c24c763ab173ca2d6f005f97",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Send Notification With Icon",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show the list of inputs.",
+              "filename" : "list-inputs.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "be6b15255dff22445bde8a59508116f6",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "List Inputs",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Turn on the TV.",
+              "filename" : "turn-on.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "63090b3ec7187945b62fce1238cf2af3",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Turn On",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Pause the media.",
+              "filename" : "pause-media.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "8742d8e473f35985239b53c684057c57",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Pause Media",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Switch to the next TV channel.",
+              "filename" : "switch-next-channel.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "f9dce7bb8d885c0ea5f07707315b1081",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Switch To Next Channel",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Turn off the TV.",
+              "filename" : "turn-off.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "922d7eeb985eea027b7c991ed67416ca",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Turn Off",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Switch to the previous TV channel.",
+              "filename" : "switch-previous-channel.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "a20d5850aa9f2630a4f65cc78c271d0d",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Switch To Previous Channel",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Turn the volume up.",
+              "filename" : "turn-volume-up.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "5f0f0848dc260276f5355b446f10a168",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Turn Volume Up",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Change the TV channel by its ID.",
+              "filename" : "change-channel.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "18f3567ca221111e3673195b2cf9af0d",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Change Channel",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open the browser with the given URL. The URL has to start with \"http:\/\/\" or \"https:\/\/\" prefix.",
+              "filename" : "open-browser.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "f3237372781a3e881610a829fef162f2",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Browser",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Turn on the 3D mode.",
+              "filename" : "turn-on-3d.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "9349225f968d01f1c20cf93b2cf80a8b",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Turn On 3D",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Rewind the media.",
+              "filename" : "rewind-media.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "e4a54596a914816f8cee8f454d89d8f5",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Rewind Media",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Change the input by its ID.",
+              "filename" : "change-input.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "5906fe2cceeb97d71366559cf48e2008",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Change Input",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Turn off the screen.",
+              "filename" : "turn-off-screen.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "2a4ba28c6785f55fcdbef026cd4cae17",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Turn Off Screen",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Mute the TV.",
+              "filename" : "mute.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "07b43012e1ccbf2901709c0d4c84bc5d",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Mute",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Turn the volume down.",
+              "filename" : "turn-volume-down.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "b84e91ddb1aa4e95b83b9eac4ab7bf21",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Turn Volume Down",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Fast forward the media.",
+              "filename" : "fast-forward-media.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "71bfe79390a649059a900ae918bb799d",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Fast Forward Media",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show the cursor socket.",
+              "filename" : "show-cursor-socket.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "48ec07a14fd7018898c0eca7b317d3b1",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Show Cursor Socket",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Change the volume level.",
+              "filename" : "change-volume.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "bd193c0cf866ed98f4944fc6a80bf49f",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Change Volume",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-07-09T02:52:48+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show the list of TV channels.",
+              "filename" : "list-channels.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/lg.png"
+              },
+              "identifier" : "f24a8d248138846ce37350af4b5fa7df",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "LG TV",
+              "path" : "remote-control\/lg-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "List Channels",
+              "updatedAt" : "2021-07-09T02:52:48+02:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name" : "Math",
       "path" : "math",
       "scriptCommands" : [
@@ -13046,6 +14405,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 458,
-  "updatedAt" : "2021-07-06T15:39:42Z"
+  "totalScriptCommands" : 506,
+  "updatedAt" : "2021-07-09T08:57:28Z"
 }
