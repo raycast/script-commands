@@ -50,7 +50,7 @@ if [ $unlocked_status -ne 0 ]; then
   exit 1
 fi
 
-totp=$(bw get totp "$1" $session)
+totp=$(bw get totp "$1" $session) || notFound
 echo -n $totp | pbcopy
 unset totp
 echo "Copied the TOTP for '$1' to the clipboard."
