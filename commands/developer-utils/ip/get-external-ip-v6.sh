@@ -4,7 +4,6 @@
 # @raycast.schemaVersion 1
 # @raycast.title External IPv6
 # @raycast.mode inline
-# @raycast.refreshTime 1h
 # @raycast.packageName Internet
 
 # Optional parameters:
