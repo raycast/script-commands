@@ -12,6 +12,7 @@ A package of script commands to interact with [Bitwarden Vaults](https://bitward
 - [Bitwarden Vault Command Usage](#bitwarden-vault-command-usage)
   * [Search Vault Items](#search-vault-items)
   * [Copy First Matching Password](#copy-first-matching-password)
+  * [Copy First Matching TOTP](#copy-first-matching-totp)
 - [Bitwarden Send Command Usage](#bitwarden-send-command-usage)
   * [Create a Text Send](#create-a-text-send)
   * [Receive a Text Send](#receive-a-text-send)
@@ -25,7 +26,7 @@ A package of script commands to interact with [Bitwarden Vaults](https://bitward
 
 ## Dependencies
 
-All authentication and vault-related commands in this package require the [Bitwarden CLI](https://bitwarden.com/help/article/cli/) v1.14.0 or later. Bitwarden Send-related commands require v1.15.1 or later. The _Bitwarden Status_, _Search Vault Items_, _Copy First Matching Password_, and Bitwarden Send-related commands (except _Delete a Send_) also require the [`jq` utility](https://stedolan.github.io/jq/).
+All authentication and vault-related commands in this package require the [Bitwarden CLI](https://bitwarden.com/help/article/cli/) v1.14.0 or later. Bitwarden Send-related commands require v1.15.1 or later. The _Bitwarden Status_, _Search Vault Items_, _Copy First Matching Password_,, _Copy First Matching TOTP_ and Bitwarden Send-related commands (except _Delete a Send_) also require the [`jq` utility](https://stedolan.github.io/jq/).
 
 Install the latest version of both dependencies via homebrew:
 
@@ -121,6 +122,12 @@ Passwords and hidden fields are omitted by default. Pass `y` as the value of the
 <img src="./images/copy-first-matching-password.png">
 
 This command executes in `silent` mode, searches the unlocked Bitwarden vault, and copies the password associated with the first search result to the clipboard.
+
+### Copy First Matching TOTP
+
+<img src="./images/copy-first-matching-totp.png">
+
+This command executes in `silent` mode, searches the unlocked Bitwarden vault, and copies the TOTP associated with the first search result to the clipboard.
 
 ## Bitwarden Send Command Usage
 
