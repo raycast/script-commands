@@ -7537,10 +7537,10 @@
               "needsConfirmation" : null,
               "packageName" : "Internet",
               "path" : "developer-utils\/ip\/",
-              "refreshTime" : "1h",
+              "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Local IPv4",
-              "updatedAt" : "2021-07-06T10:54:12+02:00"
+              "updatedAt" : "2021-07-08T21:33:32-04:00"
             },
             {
               "authors" : [
@@ -7588,10 +7588,10 @@
               "needsConfirmation" : null,
               "packageName" : "Internet",
               "path" : "developer-utils\/ip\/",
-              "refreshTime" : "1h",
+              "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "External IPv4",
-              "updatedAt" : "2021-07-06T10:54:12+02:00"
+              "updatedAt" : "2021-07-08T21:33:12-04:00"
             },
             {
               "authors" : [
@@ -7639,10 +7639,10 @@
               "needsConfirmation" : null,
               "packageName" : "Internet",
               "path" : "developer-utils\/ip\/",
-              "refreshTime" : "1h",
+              "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "External IPv6",
-              "updatedAt" : "2021-07-06T10:54:12+02:00"
+              "updatedAt" : "2021-07-08T21:33:27-04:00"
             },
             {
               "authors" : null,
@@ -7662,10 +7662,10 @@
               "needsConfirmation" : null,
               "packageName" : "Internet",
               "path" : "developer-utils\/ip\/",
-              "refreshTime" : "1h",
+              "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Local IPv6",
-              "updatedAt" : "2021-07-06T10:54:12+02:00"
+              "updatedAt" : "2021-07-08T21:33:40-04:00"
             }
           ]
         }
@@ -10129,6 +10129,34 @@
           "schemaVersion" : 1,
           "title" : "Find Email Address With Hunter",
           "updatedAt" : "2021-04-09T11:25:34+00:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Alexandru Turcanu",
+              "url" : "https:\/\/github.com\/Pondorasti"
+            }
+          ],
+          "createdAt" : "2021-07-13T21:10:54-07:00",
+          "currentDirectoryPath" : null,
+          "description" : "Search for Script Commands in the [Unofficial Raycast Script Commands Marketplace](https:\/\/scriptcommands.com).",
+          "filename" : "search-script-command-marketplace.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/marketplace-logo.png"
+          },
+          "identifier" : "701670f20721b663d34caa4ebd42fddf",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "path" : "web-searches\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search Script Command",
+          "updatedAt" : "2021-07-13T21:10:54-07:00"
         },
         {
           "authors" : [
@@ -14405,6 +14433,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 506,
-  "updatedAt" : "2021-07-09T08:57:28Z"
+  "totalScriptCommands" : 507,
+  "updatedAt" : "2021-07-15T21:25:29Z"
 }
