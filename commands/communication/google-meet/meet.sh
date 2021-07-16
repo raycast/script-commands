@@ -9,7 +9,7 @@
 # @raycast.authorURL https://github.com/mujibazizi
 # @raycast.description Start a Google Meet session
 
-open https://meet.new
+open https://meet.google.com/new
 
 MAX_TRIES=10
 TRIES=0
