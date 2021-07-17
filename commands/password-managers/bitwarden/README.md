@@ -26,7 +26,7 @@ A package of script commands to interact with [Bitwarden Vaults](https://bitward
 
 ## Dependencies
 
-All authentication and vault-related commands in this package require the [Bitwarden CLI](https://bitwarden.com/help/article/cli/) v1.14.0 or later. Bitwarden Send-related commands require v1.15.1 or later. The _Bitwarden Status_, _Search Vault Items_, _Copy First Matching Password_,, _Copy First Matching TOTP_ and Bitwarden Send-related commands (except _Delete a Send_) also require the [`jq` utility](https://stedolan.github.io/jq/).
+All authentication and vault-related commands in this package require the [Bitwarden CLI](https://bitwarden.com/help/article/cli/) v1.14.0 or later. Bitwarden Send-related commands require v1.15.1 or later. The _Bitwarden Status_, _Search Vault Items_, _Copy First Matching Password_, _Copy First Matching TOTP_, and Bitwarden Send-related commands (except _Delete a Send_) also require the [`jq` utility](https://stedolan.github.io/jq/).
 
 Install the latest version of both dependencies via homebrew:
 
