@@ -58,16 +58,16 @@ fi
 
 item=$(bw list items --search "$1" $session 2> /dev/null | jq ".[0] | { id: .id, name: .name }")
 name=$(echo $item | jq --exit-status ".name") || itemNotFound
-id=$(echo $item | jq -r --exit-status ".id") || itemNotFound
+id=$(echo $item | jq --raw-output --exit-status ".id") || itemNotFound
 totp=$(bw get totp $id $session 2> /dev/null)
-status=$?
+totp_status=$?
 
-if [ $status -eq 0 ]; then
-  echo -n $totp | pbcopy
-  unset totp
-  echo "Copied the TOTP for '$name' to the clipboard."
-  exit 0
-else
+if [ $totp_status -ne 0 ]; then
   totpNotFound "$name"
   exit 1
 fi
+
+echo -n $totp | pbcopy
+unset totp
+echo "Copied the TOTP for '$name' to the clipboard."
+exit 0
