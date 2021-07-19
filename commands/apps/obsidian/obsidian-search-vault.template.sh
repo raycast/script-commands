@@ -21,4 +21,10 @@
 # The name of your vault, e.g., "Knowledge Base"
 VAULT_NAME=""
 
+if [ -z "$VAULT_NAME" ]
+then
+  echo "Configure VAULT_NAME"
+  exit 1
+fi
+
 open "obsidian://search?vault=$VAULT_NAME&query=${1}"
