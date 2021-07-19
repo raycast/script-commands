@@ -7696,6 +7696,180 @@
               "updatedAt" : "2021-07-08T21:33:40-04:00"
             }
           ]
+        },
+        {
+          "name" : "Git",
+          "path" : "git",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "createdAt" : "2021-07-19T15:52:56+01:00",
+              "currentDirectoryPath" : "~\/Developer\/script-commands",
+              "description" : "Shows the status of your Git repository.",
+              "filename" : "git-status.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/git.png"
+              },
+              "identifier" : "6ecda0ea71b6028d26ad0d114417d2b4",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Git",
+              "path" : "developer-utils\/git\/",
+              "refreshTime" : "5m",
+              "schemaVersion" : 1,
+              "title" : "Status",
+              "updatedAt" : "2021-07-19T15:52:56+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "createdAt" : "2021-07-19T15:52:56+01:00",
+              "currentDirectoryPath" : "~\/Developer\/script-commands",
+              "description" : "Switch to a new branch. If not name was provided, it checks out the default branch.",
+              "filename" : "git-switch-branch.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/git.png"
+              },
+              "identifier" : "8211369aa865446a41bcd4c5b1f1d6f4",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Git",
+              "path" : "developer-utils\/git\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Switch Branch",
+              "updatedAt" : "2021-07-19T15:52:56+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "createdAt" : "2021-07-19T15:52:56+01:00",
+              "currentDirectoryPath" : "~\/Developer\/script-commands",
+              "description" : "Pulls, rebases and pushes your changes.",
+              "filename" : "git-sync-changes.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/git.png"
+              },
+              "identifier" : "f2d387141a75ac5d60fb34cc853a452d",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Git",
+              "path" : "developer-utils\/git\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Sync Changes",
+              "updatedAt" : "2021-07-19T15:52:56+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "createdAt" : "2021-07-19T15:52:56+01:00",
+              "currentDirectoryPath" : "~\/Developer\/script-commands",
+              "description" : "Lists your commits from the last 24 hours. Optionally specify since when, e.g. \"1 week\".",
+              "filename" : "git-standup.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/git.png"
+              },
+              "identifier" : "1e8d6e949bd023be73d76a0b4c921ddf",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Git",
+              "path" : "developer-utils\/git\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Standup",
+              "updatedAt" : "2021-07-19T15:52:56+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "createdAt" : "2021-07-19T15:52:56+01:00",
+              "currentDirectoryPath" : "~\/Developer\/script-commands",
+              "description" : "Clear all changes",
+              "filename" : "git-clear-changes.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/git.png"
+              },
+              "identifier" : "b92aaee255e5488a0eb3b8be826ebbbb",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : true,
+              "packageName" : "Git",
+              "path" : "developer-utils\/git\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Clear Changes",
+              "updatedAt" : "2021-07-19T15:52:56+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "createdAt" : "2021-07-19T15:52:56+01:00",
+              "currentDirectoryPath" : "~\/Developer\/script-commands",
+              "description" : "Commit all pending changes. If no commit message is provided, it will amend the changes.",
+              "filename" : "git-save-changes.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/git.png"
+              },
+              "identifier" : "2db5481c5b71c36aa1723c442f12c949",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Git",
+              "path" : "developer-utils\/git\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Save Changes",
+              "updatedAt" : "2021-07-19T15:52:56+01:00"
+            }
+          ]
         }
       ]
     },
@@ -14461,6 +14635,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 508,
-  "updatedAt" : "2021-07-19T14:40:00Z"
+  "totalScriptCommands" : 514,
+  "updatedAt" : "2021-07-19T14:56:24Z"
 }

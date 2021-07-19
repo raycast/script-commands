@@ -75,6 +75,7 @@ This repository contains sample commands and documentation to write your own one
   - [Brew](#brew)
   - [Cloudflare](#cloudflare)
   - [Docker](#docker)
+  - [Git](#git)
   - [Github](#github)
   - [Gitlab](#gitlab)
   - [Google](#google)
@@ -580,6 +581,17 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/docker/images/docker.png" width="20" height="20"> | [List Containers](developer-utils/docker/docker-ps.sh) | List containers in Docker | Sebastian Kroll |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/docker/images/docker.png" width="20" height="20"> | [List Images](developer-utils/docker/docker-images.sh) | List images in Docker | Sebastian Kroll |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/docker/images/docker.png" width="20" height="20"> | [System Prune](developer-utils/docker/docker-system-prune.sh) | Remove unused data (system prune) | Sebastian Kroll |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Git
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/git/./images/git.png" width="20" height="20"> | [Clear Changes](developer-utils/git/git-clear-changes.sh) | Clear all changes | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/git/./images/git.png" width="20" height="20"> | [Save Changes](developer-utils/git/git-save-changes.sh) | Commit all pending changes. If no commit message is provided, it will amend the changes. | [Thomas Paul Mann](https://github.com/thomaspaulmann) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/git/./images/git.png" width="20" height="20"> | [Standup](developer-utils/git/git-standup.sh) | Lists your commits from the last 24 hours. Optionally specify since when, e.g. "1 week". | [Thomas Paul Mann](https://github.com/thomaspaulmann) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/git/./images/git.png" width="20" height="20"> | [Status](developer-utils/git/git-status.sh) | Shows the status of your Git repository. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/git/./images/git.png" width="20" height="20"> | [Switch Branch](developer-utils/git/git-switch-branch.sh) | Switch to a new branch. If not name was provided, it checks out the default branch. | [Thomas Paul Mann](https://github.com/thomaspaulmann) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/git/./images/git.png" width="20" height="20"> | [Sync Changes](developer-utils/git/git-sync-changes.sh) | Pulls, rebases and pushes your changes. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Github
 
