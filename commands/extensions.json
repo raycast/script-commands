@@ -13832,13 +13832,13 @@
               "createdAt" : "2021-07-19T21:12:36+01:00",
               "currentDirectoryPath" : null,
               "description" : "Stop active Pomodoro timer",
-              "filename" : "pomodor-stop-timer.sh",
+              "filename" : "pomodoro-stop-timer.sh",
               "hasArguments" : false,
               "icon" : {
                 "dark" : null,
                 "light" : "🍅"
               },
-              "identifier" : "99f60b4a1ef9c33615b0beb9c0008662",
+              "identifier" : "57bc11aa3ebc78b95739a25d57f8fbbf",
               "isTemplate" : false,
               "language" : "bash",
               "mode" : "silent",
@@ -13848,7 +13848,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Stop Timer",
-              "updatedAt" : "2021-07-19T21:12:36+01:00"
+              "updatedAt" : "2021-07-19T21:29:39+01:00"
             },
             {
               "authors" : [
@@ -13860,13 +13860,13 @@
               "createdAt" : "2021-07-19T21:12:36+01:00",
               "currentDirectoryPath" : null,
               "description" : "Start a Pomodoro timer",
-              "filename" : "pomodor-start-timer.sh",
+              "filename" : "pomodoro-start-timer.sh",
               "hasArguments" : true,
               "icon" : {
                 "dark" : null,
                 "light" : "🍅"
               },
-              "identifier" : "03d8d5f5695929a1645bbd4d2356c31b",
+              "identifier" : "a1854deed46e0b0c83de7237488abd55",
               "isTemplate" : false,
               "language" : "bash",
               "mode" : "silent",
@@ -13876,7 +13876,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Start Timer",
-              "updatedAt" : "2021-07-19T21:12:36+01:00"
+              "updatedAt" : "2021-07-19T21:29:39+01:00"
             },
             {
               "authors" : [
@@ -14735,5 +14735,5 @@
 
   ],
   "totalScriptCommands" : 517,
-  "updatedAt" : "2021-07-19T20:14:45Z"
+  "updatedAt" : "2021-07-19T20:32:00Z"
 }

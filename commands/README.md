@@ -775,9 +775,9 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
-  | 🍅 | [Start Timer](productivity/pomodoro/pomodor-start-timer.sh) | Start a Pomodoro timer | [Thomas Paul Mann](https://github.com/thomaspaulmann) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🍅 | [Start Timer](productivity/pomodoro/pomodoro-start-timer.sh) | Start a Pomodoro timer | [Thomas Paul Mann](https://github.com/thomaspaulmann) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🍅 | [Status](productivity/pomodoro/pomodoro-status.sh) | Status of a Pomodoro timer | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
-  | 🍅 | [Stop Timer](productivity/pomodoro/pomodor-stop-timer.sh) | Stop active Pomodoro timer | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🍅 | [Stop Timer](productivity/pomodoro/pomodoro-stop-timer.sh) | Stop active Pomodoro timer | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 ## Remote Control
 
