@@ -60,12 +60,7 @@ item=$(bw list items --search "$1" $session 2> /dev/null | jq ".[0] | { id: .id,
 name=$(echo $item | jq --exit-status ".name") || itemNotFound
 id=$(echo $item | jq --raw-output --exit-status ".id") || itemNotFound
 totp=$(bw get totp $id $session 2> /dev/null)
-totp_status=$?
-
-if [ $totp_status -ne 0 ]; then
-  totpNotFound "$name"
-  exit 1
-fi
+test $? -eq 0 || totpNotFound "$name"
 
 echo -n $totp | pbcopy
 unset totp
