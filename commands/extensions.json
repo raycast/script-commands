@@ -13812,6 +13812,105 @@
       ]
     },
     {
+      "name" : "Productivity",
+      "path" : "productivity",
+      "scriptCommands" : [
+
+      ],
+      "subGroups" : [
+        {
+          "name" : "Pomodoro",
+          "path" : "pomodoro",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "createdAt" : "2021-07-19T21:12:36+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Stop active Pomodoro timer",
+              "filename" : "pomodor-stop-timer.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🍅"
+              },
+              "identifier" : "99f60b4a1ef9c33615b0beb9c0008662",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Pomodoro",
+              "path" : "productivity\/pomodoro\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Stop Timer",
+              "updatedAt" : "2021-07-19T21:12:36+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "createdAt" : "2021-07-19T21:12:36+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Start a Pomodoro timer",
+              "filename" : "pomodor-start-timer.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "🍅"
+              },
+              "identifier" : "03d8d5f5695929a1645bbd4d2356c31b",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Pomodoro",
+              "path" : "productivity\/pomodoro\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Start Timer",
+              "updatedAt" : "2021-07-19T21:12:36+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "createdAt" : "2021-07-19T21:12:36+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Status of a Pomodoro timer",
+              "filename" : "pomodoro-status.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🍅"
+              },
+              "identifier" : "8d7cb365a32acef7c7539511b0b4c130",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Pomodoro",
+              "path" : "productivity\/pomodoro\/",
+              "refreshTime" : "30s",
+              "schemaVersion" : 1,
+              "title" : "Status",
+              "updatedAt" : "2021-07-19T21:12:36+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name" : "Media",
       "path" : "media",
       "scriptCommands" : [
@@ -14635,6 +14734,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 514,
-  "updatedAt" : "2021-07-19T14:56:24Z"
+  "totalScriptCommands" : 517,
+  "updatedAt" : "2021-07-19T20:14:45Z"
 }
