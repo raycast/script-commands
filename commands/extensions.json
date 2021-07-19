@@ -6568,6 +6568,34 @@
         {
           "authors" : [
             {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "createdAt" : "2021-07-16T22:04:43-04:00",
+          "currentDirectoryPath" : null,
+          "description" : "Trim full git commit hash down to seven characters.",
+          "filename" : "trim-git-commit-hash.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "✂"
+          },
+          "identifier" : "fac2d5bdb898b7e6f0d2e5ce93a44df7",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "path" : "developer-utils\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Trim Git Commit Hash",
+          "updatedAt" : "2021-07-19T14:40:00+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Sven Hofmann",
               "url" : "https:\/\/github.com\/hofmannsven"
             }
@@ -8174,7 +8202,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Open Google Meet",
-              "updatedAt" : "2021-04-07T16:40:04+02:00"
+              "updatedAt" : "2021-07-14T20:00:21+02:00"
             }
           ]
         },
@@ -12209,7 +12237,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Translate Shell",
-              "updatedAt" : "2021-05-07T07:58:55+02:00"
+              "updatedAt" : "2021-07-15T22:22:31+02:00"
             }
           ]
         },
@@ -14433,6 +14461,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 507,
-  "updatedAt" : "2021-07-15T21:25:29Z"
+  "totalScriptCommands" : 508,
+  "updatedAt" : "2021-07-19T14:40:00Z"
 }
