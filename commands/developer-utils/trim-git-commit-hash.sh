@@ -14,3 +14,5 @@
 
 str="$1"
 echo ${str:0:7} | tr -d '\n' | pbcopy
+
+echo "Copied to clipboard"
