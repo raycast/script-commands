@@ -10760,6 +10760,62 @@
               ],
               "createdAt" : "2021-03-01T16:53:29+00:00",
               "currentDirectoryPath" : null,
+              "description" : "Opens a new Quick Access Overlay with the specified image or video.",
+              "filename" : "cleanshot-add-quick-access-overlay.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/add-quick-access-overlay.png"
+              },
+              "identifier" : "91b80377dfa8efe298d18c230eaef6f2",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "CleanShot X",
+              "path" : "apps\/cleanshot\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Add Quick Access Overlay",
+              "updatedAt" : "2021-07-20T15:49:26+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "CleanShot X",
+                  "url" : "https:\/\/twitter.com\/CleanShot_app"
+                }
+              ],
+              "createdAt" : "2021-03-01T16:53:29+00:00",
+              "currentDirectoryPath" : null,
+              "description" : "Opens Text Recognition (OCR) tool or extracts text from the specified file.",
+              "filename" : "cleanshot-capture-text.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/capture-text.png"
+              },
+              "identifier" : "bc13ec469b1f9315254a99c339f94c46",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "CleanShot X",
+              "path" : "apps\/cleanshot\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Capture Text",
+              "updatedAt" : "2021-07-20T15:49:26+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "CleanShot X",
+                  "url" : "https:\/\/twitter.com\/CleanShot_app"
+                }
+              ],
+              "createdAt" : "2021-03-01T16:53:29+00:00",
+              "currentDirectoryPath" : null,
               "description" : "Take a screenshot of a window.",
               "filename" : "cleanshot-capture-window.sh",
               "hasArguments" : false,
@@ -10862,6 +10918,34 @@
               "schemaVersion" : 1,
               "title" : "Pin to the Screen",
               "updatedAt" : "2021-05-28T10:40:03+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "CleanShot X",
+                  "url" : "https:\/\/twitter.com\/CleanShot_app"
+                }
+              ],
+              "createdAt" : "2021-03-01T16:53:29+00:00",
+              "currentDirectoryPath" : null,
+              "description" : "Opens specified file in Annotate.",
+              "filename" : "cleanshot-annotate.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/annotate.png"
+              },
+              "identifier" : "e59fa63eb6231b9ade5ac4c903255949",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "CleanShot X",
+              "path" : "apps\/cleanshot\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Annotate",
+              "updatedAt" : "2021-07-20T15:49:26+01:00"
             },
             {
               "authors" : [
@@ -14796,6 +14880,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 519,
-  "updatedAt" : "2021-07-20T11:54:39Z"
+  "totalScriptCommands" : 522,
+  "updatedAt" : "2021-07-20T14:52:27Z"
 }
