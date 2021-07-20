@@ -19,6 +19,6 @@ set -e
 PROGRESS=$(./stopwatch-progress.bash)
 rm timestamp_start.txt
 
-pbcopy <<< "$FORMATTED_DIFF"
+pbcopy <<< "$PROGRESS"
 
 echo "FINAL TIME -> $PROGRESS"
