@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
 
+# Dependency: This script requires `wikipedia` python module installed: https://github.com/goldsmith/Wikipedia
+# Install via pip: `pip install wikipedia`
+
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Wikipedia Search
 # @raycast.mode fullOutput
+# @raycast.packageName Wikipedia
 
 # Optional parameters:
 # @raycast.icon images/wikipedia.png
