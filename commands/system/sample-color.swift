@@ -2,7 +2,7 @@
 
 // Required parameters:
 // @raycast.schemaVersion 1
-// @raycast.title Sample Colour
+// @raycast.title Sample Color (Sample Colour)
 // @raycast.mode silent
 // @raycast.packageName System
 //
@@ -10,7 +10,7 @@
 // @raycast.icon 🎨
 //
 // Documentation:
-// @raycast.description Sample a colour from anywhere on your screen.
+// @raycast.description Sample a color from anywhere on your screen.
 // @raycast.author Jesse Claven
 // @raycast.authorURL https://github.com/jesse-c
 
@@ -30,9 +30,9 @@ extension NSColor {
   }
 }
 
-func copyToPasteboard(_ colour: String) {
+func copyToPasteboard(_ color: String) {
   NSPasteboard.general.clearContents()
-  NSPasteboard.general.writeObjects([colour as NSPasteboardWriting])
+  NSPasteboard.general.writeObjects([color as NSPasteboardWriting])
 }
 
 let sampler = NSColorSampler()
@@ -41,10 +41,10 @@ sampler.show { selectedColor in
   if let selectedColor = selectedColor {
     let hexTuple = selectedColor.hexAlphaString
     copyToPasteboard(hexTuple)
-    print("Sampled colour: \(hexTuple)")
+    print("Sampled color: \(hexTuple)")
     exit(0)
   } else {
-    print("Sampled colour: none")
+    print("Sampled color: none")
     exit(0)
   }
 }
