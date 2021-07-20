@@ -17,7 +17,7 @@
 set -e
 
 PROGRESS=$(./stopwatch-progress.bash)
-rm timestamp_start.txt
+rm $TMPDIR/raycast-stopwatch-start.txt
 
 pbcopy <<< "$PROGRESS"
 

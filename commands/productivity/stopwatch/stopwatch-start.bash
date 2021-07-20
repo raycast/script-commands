@@ -14,10 +14,10 @@
 # @raycast.author Achille Lacoin
 # @raycast.authorURL https://github.com/pomdtr
 
-if [ -f  timestamp_start.txt ]; then
+if [ -f $TMPDIR/raycast-stopwatch-start.txt ]; then
     echo "A stopwatch already exists!" > /dev/stderr
     exit 1
 fi
 
-date +"%s" > timestamp_start.txt
+date +"%s" > $TMPDIR/raycast-stopwatch-start.txt
 echo "Stopwatch started!"
