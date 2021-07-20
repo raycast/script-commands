@@ -7,7 +7,7 @@
 
 # Optional parameters:
 # @raycast.icon ⏱
-# @raycast.packageName time
+# @raycast.packageName stopwatch
 
 # Documentation:
 # @raycast.description Stop active stopwatch, copy total time
