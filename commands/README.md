@@ -41,6 +41,7 @@ This repository contains sample commands and documentation to write your own one
   - [Mail](#mail)
   - [Mullvad](#mullvad)
   - [Noteplan3](#noteplan3)
+  - [Obsidian](#obsidian)
   - [Plash](#plash)
   - [Playground](#playground)
   - [Pulse Secure](#pulse-secure)
@@ -230,6 +231,13 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/noteplan3/images/noteplan3.png" width="20" height="20"> | [Append To Daily Note](apps/noteplan3/noteplan-append-daily-note.sh) | Append to daily note | [Göran Damberg](https://github.com/gdamberg) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/noteplan3/images/noteplan3.png" width="20" height="20"> | [New Note From Clipboard](apps/noteplan3/noteplan-new-note-from-clipboard.sh) | Create a new note from clipboard | [Göran Damberg](https://github.com/gdamberg) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Obsidian
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/obsidian/./images/obsidian.png" width="20" height="20"> | [Create Note](apps/obsidian/obsidian-create-note.template.sh) | Create a new note | [Yiyao Wei](https://github.com/HotThoughts) | ✅ | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/obsidian/./images/obsidian.png" width="20" height="20"> | [Search in Vault](apps/obsidian/obsidian-search-vault.template.sh) | Search Obsidian Vault | [Yiyao Wei](https://github.com/HotThoughts) | ✅ | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Plash
 

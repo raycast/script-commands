@@ -13220,6 +13220,68 @@
           ]
         },
         {
+          "name" : "Obsidian",
+          "path" : "obsidian",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Yiyao Wei",
+                  "url" : "https:\/\/github.com\/HotThoughts"
+                }
+              ],
+              "createdAt" : "2021-07-18T15:40:05+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Create a new note",
+              "filename" : "obsidian-create-note.template.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/obsidian.png"
+              },
+              "identifier" : "5e5d144d98524911ae3b2198de181c01",
+              "isTemplate" : true,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Obsidian",
+              "path" : "apps\/obsidian\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Create Note",
+              "updatedAt" : "2021-07-19T22:03:48+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Yiyao Wei",
+                  "url" : "https:\/\/github.com\/HotThoughts"
+                }
+              ],
+              "createdAt" : "2021-07-18T15:40:05+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Search Obsidian Vault",
+              "filename" : "obsidian-search-vault.template.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/obsidian.png"
+              },
+              "identifier" : "220bea9681acc6640802b8cb8b0ee55d",
+              "isTemplate" : true,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Obsidian",
+              "path" : "apps\/obsidian\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Search in Vault",
+              "updatedAt" : "2021-07-19T22:03:48+02:00"
+            }
+          ]
+        },
+        {
           "name" : "Things",
           "path" : "things",
           "scriptCommands" : [
@@ -14734,6 +14796,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 517,
-  "updatedAt" : "2021-07-19T20:32:00Z"
+  "totalScriptCommands" : 519,
+  "updatedAt" : "2021-07-20T11:54:39Z"
 }
