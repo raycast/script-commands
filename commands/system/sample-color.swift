@@ -2,7 +2,7 @@
 
 // Required parameters:
 // @raycast.schemaVersion 1
-// @raycast.title Sample Color (Sample Colour)
+// @raycast.title Sample Color
 // @raycast.mode silent
 // @raycast.packageName System
 //
