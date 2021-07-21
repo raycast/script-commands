@@ -8196,6 +8196,34 @@
               "authors" : [
                 {
                   "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/int3rrupt"
+                }
+              ],
+              "createdAt" : "2021-02-03T02:57:58-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Search all items in a Bitwarden vault, and copy the TOTP of the first search result to the clipboard.",
+              "filename" : "copy-first-matching-totp.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/bitwarden.png"
+              },
+              "identifier" : "5ddedd2cc4ce0ce27ea9da0db895b05d",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "path" : "password-managers\/bitwarden\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Copy First Matching TOTP",
+              "updatedAt" : "2021-07-19T06:32:07-07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
                   "url" : "https:\/\/github.com\/PSalant726"
                 }
               ],
@@ -14880,6 +14908,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 522,
-  "updatedAt" : "2021-07-20T14:52:27Z"
+  "totalScriptCommands" : 523,
+  "updatedAt" : "2021-07-21T10:15:10Z"
 }
