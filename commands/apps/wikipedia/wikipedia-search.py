@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 
-# Dependency: This script requires `wikipedia` python module installed: https://github.com/goldsmith/Wikipedia
-# Install via pip: `pip install wikipedia`
+# Dependencies:
+# Wikipedia: https://github.com/goldsmith/Wikipedia
+
+# Recommended installation: 
+# Use pipx (https://github.com/pypa/pipx) to install the package system-wide:
+# pipx install wikipedia
 
 # Required parameters:
 # @raycast.schemaVersion 1
