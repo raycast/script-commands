@@ -14,13 +14,13 @@
 # @raycast.author Achille Lacoin
 # @raycast.authorURL https://github.com/pomdtr
 
-if [ ! -f $TMPDIR/raycast-stopwatch-start.txt ]; then
+if [ ! -f "$TMPDIR/raycast-stopwatch-start.txt" ]; then
     echo "No stopwatch currently exist!" > /dev/stderr
     exit 1
 fi
 
 NOW=$(date +"%s")
-START=$(<$TMPDIR/raycast-stopwatch-start.txt)
+START=$(<"$TMPDIR/raycast-stopwatch-start.txt")
 DIFF=$((NOW - START))
 
 if [ $DIFF -lt 60 ]; then
