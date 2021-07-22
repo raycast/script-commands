@@ -57,6 +57,7 @@ This repository contains sample commands and documentation to write your own one
   - [Translate Shell](#translate-shell)
   - [Tunnelblick](#tunnelblick)
   - [Viscosity](#viscosity)
+  - [Wikipedia](#wikipedia)
 - [Bookmarks](#bookmarks)
 - [Browsing](#browsing)
 - [Communication](#communication)
@@ -370,6 +371,12 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/viscosity/images/viscosity.png" width="20" height="20"> | [Viscosity: Connect All](apps/viscosity/viscosity-connect-all.applescript) | Connect all unconnected VPN configurations. | [Luigi Cardito (credits Achille Lacoin https://github.com/pomdtr)](https://github.com/lcardito) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/viscosity/images/viscosity.png" width="20" height="20"> | [Viscosity: Disconnect](apps/viscosity/viscosity-disconnect.applescript) | Disconnect a VPN configuration. | [Luigi Cardito (credits Achille Lacoin https://github.com/pomdtr)](https://github.com/lcardito) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/viscosity/images/viscosity.png" width="20" height="20"> | [Viscosity: Disconnect All](apps/viscosity/viscosity-disconnect-all.applescript) | Disconnect all connected VPN configurations. | [Luigi Cardito (credits Achille Lacoin https://github.com/pomdtr)](https://github.com/lcardito) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+
+#### Wikipedia
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/wikipedia/images/wikipedia.png" width="20" height="20"> | [Wikipedia Search](apps/wikipedia/wikipedia-search.py) | Search Wikipedia and display the result in Raycast | [Juan I. Serra](https://twitter.com/jiserra) | ✅ |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
 
 ## Bookmarks
 

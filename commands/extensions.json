@@ -11236,6 +11236,40 @@
           ]
         },
         {
+          "name" : "Wikipedia",
+          "path" : "wikipedia",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Juan I. Serra",
+                  "url" : "https:\/\/twitter.com\/jiserra"
+                }
+              ],
+              "createdAt" : "2021-07-20T16:18:28-04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Search Wikipedia and display the result in Raycast",
+              "filename" : "wikipedia-search.py",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/wikipedia.png"
+              },
+              "identifier" : "598f86d0a3b9f15d762df1930ee39665",
+              "isTemplate" : false,
+              "language" : "python",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Wikipedia",
+              "path" : "apps\/wikipedia\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Wikipedia Search",
+              "updatedAt" : "2021-07-22T15:41:14-04:00"
+            }
+          ]
+        },
+        {
           "name" : "Playground",
           "path" : "playground",
           "scriptCommands" : [
@@ -14908,6 +14942,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 523,
-  "updatedAt" : "2021-07-21T10:15:10Z"
+  "totalScriptCommands" : 524,
+  "updatedAt" : "2021-07-22T20:53:56Z"
 }
