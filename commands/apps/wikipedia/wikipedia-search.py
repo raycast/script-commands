@@ -66,5 +66,4 @@ except wikipedia.exceptions.PageError:
     print(red(f"Sorry, there's not a Wikipedia page on {yellow(search.title())}"))
 else:
     print(yellow(wikisearch.title))
-    print('\n')
     print(wikisearch.summary)
