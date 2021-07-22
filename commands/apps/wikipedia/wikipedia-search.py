@@ -22,13 +22,6 @@
 # @raycast.author Juan I. Serra
 # @raycast.authorURL https://twitter.com/jiserra
 
-import sys
-import wikipedia
-import webbrowser
-# This is to disable the wikipedia module warning about the parser in BeatifulSoup
-import warnings
-warnings.filterwarnings("ignore")
-
 # Define some colors to work with
 colors = {
   'green': '\033[92m',
@@ -53,7 +46,19 @@ def grey(message):
 def white(message):
     return f"{colors['white']}{message}{colors['end']}"
 
+# Import Wikipedia module
+try:
+  import wikipedia
+except ImportError:
+  print(red(f"Wikipedia module not installed, run `pip install wikipedia`"))
+  exit(1)
+
+# This is to disable the wikipedia module warning about the parser in BeatifulSoup
+import warnings
+warnings.filterwarnings("ignore")
+
 # Define the argument
+import sys
 search = sys.argv[1]
 
 # Catch the exception when there's more than one definition
