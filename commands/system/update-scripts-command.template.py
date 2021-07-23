@@ -107,7 +107,7 @@ files_to_update = get_files_to_update(last_updated_date, local_scripts_files)
 
 for file in files_to_update:
     file_basename = os.path.basename(file)
-    # We are ignoring current file to avoid weird behaviour.
+    # We are ignoring current file to avoid weird behavior.
     if file == __file__ or file_basename in ignored_files:
         continue
     repo_files = [os.path.abspath(x) for x in glob(f"{repo_path}/**/{file_basename}", recursive=True)]
