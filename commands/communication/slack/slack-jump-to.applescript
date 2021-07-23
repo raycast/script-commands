@@ -21,7 +21,7 @@ on run argv
 	### Configuration ###
 
 	# Delay time before triggering the keystroke for the Quick Switcher
-	# (used only when Slack needs to be initialised)
+	# (used only when Slack needs to be initialized)
 	set keystrokeDelay to 5
 	# Delay time before entering the input
 	set inputDelay to 0.5
