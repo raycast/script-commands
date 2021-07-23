@@ -23,13 +23,13 @@ In `inline` mode, the first line of output will be directly shown in the command
 
 # ANSII Supported Colors 🎨
 
-We support colors for `inline` and `fullOutput` mode scripts for you to customise generated output by changing its background and foreground color.
+We support colors for `inline` and `fullOutput` mode scripts for you to customize generated output by changing its background and foreground color.
 
 ![colors inline mode](/images/screenshots/inline-colours.png)
 
 Escape code is in linux format: `0x1B`
 
-Colors are adapted to current users apperance settings (light and dark themes)
+Colors are adapted to current users appearance settings (light and dark themes)
 | Color | # Foreground | # Background | Light | Dark |
 | ------ | ------------ | ------------ | ----- | ---- |
 | Black | 30 | 40 | #000000 | #000000 |
