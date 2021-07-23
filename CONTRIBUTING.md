@@ -6,6 +6,7 @@ Thank you for your interest in contributing to Raycast Script Commands! Here you
   - [Guidelines](#guidelines)
     - [Git and Pull Requests](#git-and-pull-requests)
     - [Folder structure](#folder-structure)
+    - [English style convention](#english-style-convention)
     - [File naming convention](#file-naming-convention)
     - [Metadata convention](#metadata-convention)
     - [Scripts that require additional modification](#scripts-that-require-additional-modification)
@@ -48,6 +49,11 @@ Images should go into dedicated `images` folder:
       └─ spotify-next-track.applescript
       └─ spotify-prev-track.applescript
 ```
+
+### English style convention
+
+Use American English spelling and style in your code and command metadata. 
+To make sure you use the right version, refer to [Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_American_and_British_English) or use [British to American English Converted](https://www.infoenglish.net/british-to-american-english/)
 
 ### File naming convention
 
