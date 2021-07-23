@@ -14027,6 +14027,96 @@
       ],
       "subGroups" : [
         {
+          "name" : "Stopwatch",
+          "path" : "stopwatch",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Achille Lacoin",
+                  "url" : "https:\/\/github.com\/pomdtr"
+                }
+              ],
+              "createdAt" : "2021-07-20T10:03:49+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Stop active stopwatch, copy total time",
+              "filename" : "stopwatch-stop.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "⏱"
+              },
+              "identifier" : "110dc9e3b77c64b836c60d3d594188fc",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "stopwatch",
+              "path" : "productivity\/stopwatch\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Stop Stopwatch",
+              "updatedAt" : "2021-07-22T02:04:44+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Achille Lacoin",
+                  "url" : "https:\/\/github.com\/pomdtr"
+                }
+              ],
+              "createdAt" : "2021-07-20T10:03:49+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Status of active stopwatch",
+              "filename" : "stopwatch-progress.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "⏱"
+              },
+              "identifier" : "f6096eb20938dba1a3849e659fa2b2f1",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "stopwatch",
+              "path" : "productivity\/stopwatch\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Show Stopwatch Progress",
+              "updatedAt" : "2021-07-22T02:04:44+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Achille Lacoin",
+                  "url" : "https:\/\/github.com\/pomdtr"
+                }
+              ],
+              "createdAt" : "2021-07-20T10:03:49+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Start a stopwatch",
+              "filename" : "stopwatch-start.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "⏱"
+              },
+              "identifier" : "1568cbaa51ba27ed4145f76259db8858",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "stopwatch",
+              "path" : "productivity\/stopwatch\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Start Stopwatch",
+              "updatedAt" : "2021-07-22T02:04:44+02:00"
+            }
+          ]
+        },
+        {
           "name" : "Pomodoro",
           "path" : "pomodoro",
           "scriptCommands" : [
@@ -14942,6 +15032,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 524,
-  "updatedAt" : "2021-07-22T20:53:56Z"
+  "totalScriptCommands" : 527,
+  "updatedAt" : "2021-07-23T08:48:17Z"
 }

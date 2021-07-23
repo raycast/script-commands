@@ -98,6 +98,7 @@ This repository contains sample commands and documentation to write your own one
   - [Bitwarden](#bitwarden)
 - [Productivity](#productivity)
   - [Pomodoro](#pomodoro)
+  - [Stopwatch](#stopwatch)
 - [Remote Control](#remote-control)
   - [Lg Tv](#lg-tv)
 - [System](#system)
@@ -797,6 +798,14 @@ This repository contains sample commands and documentation to write your own one
   | 🍅 | [Start Timer](productivity/pomodoro/pomodoro-start-timer.sh) | Start a Pomodoro timer | [Thomas Paul Mann](https://github.com/thomaspaulmann) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🍅 | [Status](productivity/pomodoro/pomodoro-status.sh) | Status of a Pomodoro timer | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🍅 | [Stop Timer](productivity/pomodoro/pomodoro-stop-timer.sh) | Stop active Pomodoro timer | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Stopwatch
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | ⏱ | [Show Stopwatch Progress](productivity/stopwatch/stopwatch-progress.sh) | Status of active stopwatch | [Achille Lacoin](https://github.com/pomdtr) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | ⏱ | [Start Stopwatch](productivity/stopwatch/stopwatch-start.sh) | Start a stopwatch | [Achille Lacoin](https://github.com/pomdtr) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | ⏱ | [Stop Stopwatch](productivity/stopwatch/stopwatch-stop.sh) | Stop active stopwatch, copy total time | [Achille Lacoin](https://github.com/pomdtr) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 ## Remote Control
 
