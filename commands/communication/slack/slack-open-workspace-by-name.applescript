@@ -20,7 +20,7 @@ on run argv
 
 	### Configuration ###
 
-	# Delay time before triggering the click (used only when Slack needs to be initialised)
+	# Delay time before triggering the click (used only when Slack needs to be initialized)
 	set clickDelay to 5
 
 	### End of configuration ###
