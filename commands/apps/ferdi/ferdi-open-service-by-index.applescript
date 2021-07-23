@@ -20,7 +20,7 @@ on run argv
 
 	### Configuration ###
 
-	# Delay time before triggering the keystroke (used only when Ferdi needs to be initialised)
+	# Delay time before triggering the keystroke (used only when Ferdi needs to be initialized)
 	set keystrokeDelay to 5
 
 	### End of configuration ###
