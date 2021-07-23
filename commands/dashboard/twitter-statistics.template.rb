@@ -63,7 +63,7 @@ if res.code == "200"
   favorites_count = result["favorites_count"]
   friends_count = result["friends_count"]
 
-  puts "#{followers_count} Followers, #{favorites_count} favorites and #{friends_count} Friends"
+  puts "#{followers_count} Followers, #{favorites_count} Favorites and #{friends_count} Friends"
 else
   puts "Failed loading statistics"
   exit(1)
