@@ -22,7 +22,7 @@
 // • A global install of zx. To install, run 'npm i -g zx' or 'yarn global add zx'.
 //   More info: https://github.com/google/zx
 // • Your Hue Bridge local IP address, e.g 192.168.1.2
-// • An authorised username, e.g 1028d66426293e821ecfd9ef1a0731df
+// • An authorized username, e.g 1028d66426293e821ecfd9ef1a0731df
 // • A group/room ID, e.g 2
 
 // Follow the steps here for the bridge IP and how to create a username:
@@ -35,7 +35,7 @@
 // If only one number is provided, it is assumed to be brightness (0-100)
 // If neither a preset nor value are provided, the current 'on' state for the room is toggled
 
-// Remember to remove .template from the filename after customising.
+// Remember to remove .template from the filename after customizing.
 
 const hueBridgeIP = '<enter bridge ip here>' // e.g 192.168.1.2
 const userID = '<enter username here>' // e.g 1028d66426293e821ecfd9ef1a0731df
