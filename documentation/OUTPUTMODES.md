@@ -14,12 +14,12 @@ In `silent` mode the last line (if exists) will be shown in overlaying HUD toast
 
 ![silent mode](/images/screenshots/silent-mode.png)
 
-In `inline` mode, the first line of output will be directly shown in the command item and automatically refresh according to the specified `refreshTime`. Tip: Set your dashboard items as favourites via the action menu in Raycast. 
+In `inline` mode, the first line of output will be directly shown in the command item and automatically refresh according to the specified `refreshTime`. Tip: Set your dashboard items as favorites via the action menu in Raycast.
 **NOTE:** `refreshTime` parameter is required for `inline` mode. When not specified, `compact` mode will be used instead.
 
 ![inline mode](/images/screenshots/inline-mode.png)
 
-**🚨 Hint:** use `cmd k` to access extra functionality such as adding to favourites or reordering the root search preferences.
+**🚨 Hint:** use `cmd k` to access extra functionality such as adding to favorites or reordering the root search preferences.
 
 # ANSII Supported Colors 🎨
 
