@@ -48,7 +48,7 @@ To install new commands, follow these steps:
 To write your own custom Script Commands, go over the following steps:
 
 1. Use the `Create Script Command` functionality in Raycast
-2. Write and edit your script using your favorite code editor
+2. Write and edit your script using your favourite code editor
 3. Run your Script Command from the Raycast root search
 
 **💡 Hint:** If you choose to write your script in `Bash`, we highly recommend using the [Shellcheck](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck) linter as this will ensure smooth running of your script. All  scripts uploaded to GitHub will need to have been run through ShellCheck.
@@ -57,7 +57,7 @@ To write your own custom Script Commands, go over the following steps:
 
 ### Metadata
 
-These parameters are available for you to customise your Script Command in Raycast. For practical examples of how these should be used, as well as best practices and supported languages, please browse our templates and community-built scripts.
+These parameters are available for you to customize your Script Command in Raycast. For practical examples of how these should be used, as well as best practices and supported languages, please browse our templates and community-built scripts.
 
 | Name                 | Description                                                                                                                                                                                                                                                                          | Required | App Version         |
 |----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|---------------------|
