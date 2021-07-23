@@ -53,7 +53,7 @@ Images should go into dedicated `images` folder:
 ### English style convention
 
 Use American English spelling and style in your code and command metadata. 
-To make sure you use the right version, refer to [Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_American_and_British_English) or use [British to American English Converted](https://www.infoenglish.net/british-to-american-english/)
+To make sure you use the right version, refer to [Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_American_and_British_English) or use [British to American English Converter](https://www.infoenglish.net/british-to-american-english/)
 
 ### File naming convention
 
