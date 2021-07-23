@@ -24,7 +24,7 @@ on run {appName}
 	tell application "Finder"
 		-- get Finder selected items
 		set theItems to selection
-		-- get the path for the applicaction with the bundle id defined above
+		-- get the path for the application with the bundle id defined above
 		set appPath to (POSIX path of (application file id bundleId as alias))
 	end tell
 
