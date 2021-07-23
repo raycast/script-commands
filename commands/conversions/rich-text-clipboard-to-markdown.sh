@@ -6,7 +6,7 @@
 # @raycast.title Rich Text to Markdown
 # @raycast.author Adam Zethraeus
 # @raycast.authorURL https://github.com/adam-zethraeus
-# @raycast.description Convert rich text clipboard data to GitHub Flavoured Markdown using Pandoc
+# @raycast.description Convert rich text clipboard data to GitHub Flavored Markdown using Pandoc
 #
 # @raycast.icon 📝
 #
