@@ -9,7 +9,7 @@
 # @raycast.icon ./images/notes.png
 # @raycast.argument1 { "type": "text", "placeholder": "Note Name" }
 # @raycast.argument2 { "type": "text", "placeholder": "Text" }
-# @raycast.package Notes
+# @raycast.packageName Notes
 
 # Documentation:
 # @raycast.description Create a new Note 
@@ -27,4 +27,3 @@ on run argv
 		make new note at folder "Notes" with properties {name: "", body:content}
 	end tell
 end run
-
