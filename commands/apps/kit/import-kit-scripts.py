@@ -10,20 +10,25 @@
 # @raycast.packageName Kit
 
 # Documentation:
-# @raycast.description Convert all scripts defined in ~/.kenv/scripts to raycast scripts
+# @raycast.description Convert all kit scripts to raycast scripts
 # @raycast.author Achille Lacoin
 # @raycast.authorURL https://github.com/pomdtr
 
-import string
 import json
 import os
+import string
+import sys
+
+db_path = os.path.join(os.path.expanduser("~"), ".kit", "db", "scripts.json")
+if not os.path.exists(db_path):
+    print("Kit is required! Installation Link -> https://www.scriptkit.com/", file=sys.stderr)
+    sys.exit(1)
+
+with open(db_path) as f:
+    scripts_db = json.load(f)
 
 with open("template.txt") as f:
     RAYCAST_SCRIPT_TEMPLATE = string.Template(f.read())
-
-db_path = os.path.join(os.path.expanduser("~"), ".kit", "db", "scripts.json")
-with open(db_path) as f:
-    scripts_db = json.load(f)
 
 for script in scripts_db["scripts"]:
     print("Importing {}...".format(script['command']))
