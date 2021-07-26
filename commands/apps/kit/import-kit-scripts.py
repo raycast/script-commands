@@ -10,7 +10,7 @@
 # @raycast.packageName Kit
 
 # Documentation:
-# @raycast.description Convert all kit scripts to raycast scripts
+# @raycast.description Convert all Script Kit scripts to Raycast Script Commands
 # @raycast.author Achille Lacoin
 # @raycast.authorURL https://github.com/pomdtr
 
