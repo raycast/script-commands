@@ -2,12 +2,12 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title $name
+# @raycast.title $title
 # @raycast.mode silent
 
 # Optional parameters:
 # @raycast.packageName Kit
-# @raycast.icon ../img/kit_logo.png
+# @raycast.icon ../images/kit_logo.png
 
 # Documentation:
 # @raycast.description $description
