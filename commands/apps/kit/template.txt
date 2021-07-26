@@ -6,7 +6,7 @@
 # @raycast.mode silent
 
 # Optional parameters:
-# @raycast.packageName Kit
+# @raycast.packageName Script Kit
 # @raycast.icon ../images/kit_logo.png
 
 # Documentation:
