@@ -12562,6 +12562,40 @@
           ]
         },
         {
+          "name" : "Notes",
+          "path" : "notes",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Vardan Sawhney",
+                  "url" : "https:\/\/github.com\/commai"
+                }
+              ],
+              "createdAt" : "2021-07-21T23:46:22-04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Create a new Note ",
+              "filename" : "create-note.applescript",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/notes.png"
+              },
+              "identifier" : "e9cecac4bfa067f607c15ef602dae3d9",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Notes",
+              "path" : "apps\/notes\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Create Note",
+              "updatedAt" : "2021-07-23T21:06:02-04:00"
+            }
+          ]
+        },
+        {
           "name" : "Fantastical",
           "path" : "fantastical",
           "scriptCommands" : [
@@ -15032,6 +15066,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 527,
-  "updatedAt" : "2021-07-23T08:52:50Z"
+  "totalScriptCommands" : 528,
+  "updatedAt" : "2021-07-26T10:17:23Z"
 }
