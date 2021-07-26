@@ -57,7 +57,7 @@ To write your own custom Script Commands, go over the following steps:
 
 ### Metadata
 
-These parameters are available for you to customise your Script Command in Raycast. For practical examples of how these should be used, as well as best practices and supported languages, please browse our templates and community-built scripts.
+These parameters are available for you to customize your Script Command in Raycast. For practical examples of how these should be used, as well as best practices and supported languages, please browse our templates and community-built scripts.
 
 | Name                 | Description                                                                                                                                                                                                                                                                          | Required | App Version         |
 |----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|---------------------|

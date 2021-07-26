@@ -21,7 +21,7 @@ on run argv
 	### Configuration ###
 
 	# Delay time before triggering the keystroke for the Search
-	# (used only when Messenger needs to be initialised)
+	# (used only when Messenger needs to be initialized)
 	set keystrokeDelay to 2.5
 	# Delay time before triggering the "⌘1" keystroke
 	set conversationKeystrokeDelay to 1

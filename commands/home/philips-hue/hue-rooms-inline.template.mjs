@@ -20,13 +20,13 @@
 // • A global install of zx. To install, run 'npm i -g zx' or 'yarn global add zx'.
 //   More info: https://github.com/google/zx
 // • Your Hue Bridge local IP address, e.g 192.168.1.2
-// • An authorised username, e.g 1028d66426293e821ecfd9ef1a0731df
+// • An authorized username, e.g 1028d66426293e821ecfd9ef1a0731df
 // • Names to be assigned to the rooms. You can do this in the Hue app.
 
 // Follow the steps here for the bridge IP and how to create a username:
 // https://developers.meethue.com/develop/get-started-2/
 
-// Remember to remove .template from the filename after customising.
+// Remember to remove .template from the filename after customizing.
 
 // Config:
 

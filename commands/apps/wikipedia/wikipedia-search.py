@@ -3,7 +3,7 @@
 # Dependencies:
 # Wikipedia: https://github.com/goldsmith/Wikipedia
 
-# Recommended installation: 
+# Recommended installation:
 # Use pipx (https://github.com/pypa/pipx) to install the package system-wide:
 # pipx install wikipedia
 
@@ -53,7 +53,7 @@ except ImportError:
   print(red(f"Wikipedia module not installed, run `pip install wikipedia`"))
   exit(1)
 
-# This is to disable the wikipedia module warning about the parser in BeatifulSoup
+# This is to disable the wikipedia module warning about the parser in BeautifulSoup
 import warnings
 warnings.filterwarnings("ignore")
 
