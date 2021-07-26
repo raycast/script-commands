@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Import Kit Scripts
+# @raycast.title Import scripts from Script Kit
 # @raycast.mode fullOutput
 
 # Optional parameters:
@@ -43,7 +43,7 @@ for script in scripts_db["scripts"]:
             "command": script["command"]
         }
     )
-    output_path = os.path.join("kit_scripts", script["command"] + ".sh")
+    output_path = os.path.join("scripts", script["command"] + ".sh")
     with open(output_path, "w") as f:
         f.write(raycast_script_content)
 
