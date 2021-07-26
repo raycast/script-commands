@@ -13,20 +13,20 @@
 // Documentation:
 // @raycast.author Jono Hewitt
 // @raycast.authorURL https://github.com/jonohewitt
-// @raycast.description Show inline summary of any Hue compatible lights. Choose to show on/off, brightness percentage, colour temperature or hue, saturation, brightness values. Recommended to have already assigned names to lights in the Hue app.
+// @raycast.description Show inline summary of any Hue compatible lights. Choose to show on/off, brightness percentage, color temperature or hue, saturation, brightness values. Recommended to have already assigned names to lights in the Hue app.
 
 // This script requires:
 
 // • A global install of zx. To install, run 'npm i -g zx' or 'yarn global add zx'.
 //   More info: https://github.com/google/zx
 // • Your Hue Bridge local IP address, e.g 192.168.1.2
-// • An authorised username, e.g 1028d66426293e821ecfd9ef1a0731df
+// • An authorized username, e.g 1028d66426293e821ecfd9ef1a0731df
 // • Names to be assigned to the bulbs. You can do this in the Hue app.
 
 // Follow the steps here for the bridge IP and how to create a username:
 // https://developers.meethue.com/develop/get-started-2/
 
-// Remember to remove .template from the filename after customising.
+// Remember to remove .template from the filename after customizing.
 
 // Config:
 const hueBridgeIP = '<enter bridge ip here>' // e.g 192.168.1.2
@@ -34,8 +34,8 @@ const userID = '<enter username here>' // e.g 1028d66426293e821ecfd9ef1a0731df
 
 // 0 for On/Off
 // 1 for brightness percentage,
-// 2 for Hue, Saturation, Brightness if supported by full colour bulbs,
-// or colour temperature in K and brightness percentage in temperature only lights, e.g 'White Ambiance'
+// 2 for Hue, Saturation, Brightness if supported by full color bulbs,
+// or color temperature in K and brightness percentage in temperature only lights, e.g 'White Ambiance'
 const outputType = 1
 
 // Optional:
@@ -81,7 +81,7 @@ const reducer = (output, bulb) => {
       output += `${Math.round((bulb.state.bri / 254) * 100)}%, `
     } else if (outputType === 2) {
       if (bulb.type === 'Color temperature light') {
-        // Convert colour temperature from mired units to kelvin units
+        // Convert color temperature from mired units to kelvin units
         output += `${Math.round(1000000 / bulb.state.ct)} K, ${Math.round(
           (bulb.state.bri / 254) * 100
         )}%, `

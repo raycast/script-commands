@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 # How to use this script?
-# It's a template which needs further setup. Duplicate the file, 
-# remove `.template.` from the filename and set `path_to_scripts` and 
+# It's a template which needs further setup. Duplicate the file,
+# remove `.template.` from the filename and set `path_to_scripts` and
 # ignored_files vars.
 
 # Required parameters:
@@ -86,7 +86,7 @@ def get_files_to_update(base_date=None, base_local_files=None):
 
     with open(f"{repo_path}/commands/extensions.json") as json_file:
         data = json.load(json_file)
-        script_files = [RepoScriptFile(updated_at=datetime.fromisoformat(file.get("updatedAt")), filename=file.get("filename")) 
+        script_files = [RepoScriptFile(updated_at=datetime.fromisoformat(file.get("updatedAt")), filename=file.get("filename"))
             for file in flatten(find("scriptCommands", data))]
         if base_date is not None:
             script_files = [f for f in script_files if f.updated_at > base_date]
@@ -107,7 +107,7 @@ files_to_update = get_files_to_update(last_updated_date, local_scripts_files)
 
 for file in files_to_update:
     file_basename = os.path.basename(file)
-    # We are ignoring current file to avoid weird behaviour.
+    # We are ignoring current file to avoid weird behavior.
     if file == __file__ or file_basename in ignored_files:
         continue
     repo_files = [os.path.abspath(x) for x in glob(f"{repo_path}/**/{file_basename}", recursive=True)]
