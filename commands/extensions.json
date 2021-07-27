@@ -7046,6 +7046,34 @@
             {
               "authors" : [
                 {
+                  "name" : "owpac",
+                  "url" : "https:\/\/github.com\/Owpac"
+                }
+              ],
+              "createdAt" : "2020-11-30T22:12:12+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show Brew List",
+              "filename" : "brew-leaves.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🍺"
+              },
+              "identifier" : "06b8fc10bd7a10a81c62b0497065bbef",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Brew",
+              "path" : "developer-utils\/brew\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Leaves",
+              "updatedAt" : "2021-07-26T13:16:42+02:00"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Thiago Holanda",
                   "url" : "https:\/\/twitter.com\/tholanda"
                 }
@@ -15137,6 +15165,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 530,
-  "updatedAt" : "2021-07-27T07:33:50Z"
+  "totalScriptCommands" : 531,
+  "updatedAt" : "2021-07-27T07:38:18Z"
 }
