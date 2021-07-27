@@ -47,6 +47,8 @@ This repository contains sample commands and documentation to write your own one
   - [Playground](#playground)
   - [Pulse Secure](#pulse-secure)
   - [Safari](#safari)
+  - [Script Kit](#script-kit)
+    - [Scripts](#scripts)
   - [Session](#session)
   - [Sidenotes](#sidenotes)
   - [Sip](#sip)
@@ -289,6 +291,13 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/safari/images/safari.png" width="20" height="20"> | [Close Tabs to the Left](apps/safari/safari-close-tabs-left.applescript) | Close all tabs to the left side of the currently active tab. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/safari/images/safari.png" width="20" height="20"> | [Close Tabs to the Right](apps/safari/safari-close-tabs-right.applescript) | Close all tabs to the right side of the currently active tab. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/safari/images/safari.png" width="20" height="20"> | [Duplicate Tab](apps/safari/safari-duplicate-tab.applescript) | Duplicates and opens the currently active tab. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+
+#### Script Kit
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/script-kit/../images/kit_logo.png" width="20" height="20"> | [$title](apps/script-kit/template.txt) | $description | $author |  | ✅ | sh |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/script-kit/./images/kit_logo.png" width="20" height="20"> | [Import scripts from Script Kit](apps/script-kit/import-scripts-from-script-kit.py) | Convert all Script Kit scripts to Raycast Script Commands | [Achille Lacoin](https://github.com/pomdtr) |  |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
 
 #### Session
 

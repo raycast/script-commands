@@ -155,7 +155,7 @@
               "refreshTime" : "2m",
               "schemaVersion" : 1,
               "title" : "Rooms",
-              "updatedAt" : "2021-05-15T22:57:45+02:00"
+              "updatedAt" : "2021-07-23T17:49:45-04:00"
             },
             {
               "authors" : [
@@ -166,7 +166,7 @@
               ],
               "createdAt" : "2021-05-15T13:08:55+02:00",
               "currentDirectoryPath" : null,
-              "description" : "Set a specified or default individual colour bulb to a preset, hsb or brightness value. Leave preset and value arguments empty to toggle a bulb on or off.",
+              "description" : "Set a specified or default individual color bulb to a preset, hsb or brightness value. Leave preset and value arguments empty to toggle a bulb on or off.",
               "filename" : "hue-bulb.template.mjs",
               "hasArguments" : true,
               "icon" : {
@@ -183,7 +183,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Set Light Bulb",
-              "updatedAt" : "2021-05-17T15:42:48+02:00"
+              "updatedAt" : "2021-07-23T17:49:11-04:00"
             },
             {
               "authors" : [
@@ -194,7 +194,7 @@
               ],
               "createdAt" : "2021-05-15T13:09:44+02:00",
               "currentDirectoryPath" : null,
-              "description" : "Show inline summary of any Hue compatible lights. Choose to show on\/off, brightness percentage, colour temperature or hue, saturation, brightness values. Recommended to have already assigned names to lights in the Hue app.",
+              "description" : "Show inline summary of any Hue compatible lights. Choose to show on\/off, brightness percentage, color temperature or hue, saturation, brightness values. Recommended to have already assigned names to lights in the Hue app.",
               "filename" : "hue-lights-inline.template.mjs",
               "hasArguments" : false,
               "icon" : {
@@ -211,7 +211,7 @@
               "refreshTime" : "2m",
               "schemaVersion" : 1,
               "title" : "Lights",
-              "updatedAt" : "2021-05-15T22:56:37+02:00"
+              "updatedAt" : "2021-07-23T17:49:49-04:00"
             },
             {
               "authors" : [
@@ -222,7 +222,7 @@
               ],
               "createdAt" : "2021-05-15T13:08:55+02:00",
               "currentDirectoryPath" : null,
-              "description" : "Set a specified or default room of colour bulbs to a preset, hsb or brightness value. Leave preset and value arguments empty to toggle a room on or off.",
+              "description" : "Set a specified or default room of color bulbs to a preset, hsb or brightness value. Leave preset and value arguments empty to toggle a room on or off.",
               "filename" : "hue-room.template.mjs",
               "hasArguments" : true,
               "icon" : {
@@ -239,7 +239,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Set Room Lights",
-              "updatedAt" : "2021-05-17T15:42:48+02:00"
+              "updatedAt" : "2021-07-23T17:49:41-04:00"
             }
           ]
         }
@@ -286,7 +286,7 @@
           ],
           "createdAt" : "2021-03-25T14:52:38-07:00",
           "currentDirectoryPath" : null,
-          "description" : "Convert rich text clipboard data to GitHub Flavoured Markdown using Pandoc",
+          "description" : "Convert rich text clipboard data to GitHub Flavored Markdown using Pandoc",
           "filename" : "rich-text-clipboard-to-markdown.sh",
           "hasArguments" : false,
           "icon" : {
@@ -303,7 +303,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Rich Text to Markdown",
-          "updatedAt" : "2021-03-25T23:04:43+01:00"
+          "updatedAt" : "2021-07-23T17:21:58-04:00"
         },
         {
           "authors" : null,
@@ -1108,7 +1108,7 @@
           ],
           "createdAt" : "2020-11-08T21:39:17+03:00",
           "currentDirectoryPath" : null,
-          "description" : "Open curren Terminal directory in Finder",
+          "description" : "Open current Terminal directory in Finder",
           "filename" : "open-finder-from-terminal.applescript",
           "hasArguments" : false,
           "icon" : {
@@ -1125,7 +1125,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Open Current Terminal Directory in Finder",
-          "updatedAt" : "2020-11-23T12:53:48-05:00"
+          "updatedAt" : "2021-07-23T17:32:20-04:00"
         },
         {
           "authors" : [
@@ -3117,7 +3117,7 @@
           ],
           "createdAt" : "2021-01-27T23:15:56+00:00",
           "currentDirectoryPath" : null,
-          "description" : "Shows the followers, favourites and friends count of your Twitter account.",
+          "description" : "Shows the followers, favorites and friends count of your Twitter account.",
           "filename" : "twitter-statistics.template.rb",
           "hasArguments" : false,
           "icon" : {
@@ -3134,7 +3134,7 @@
           "refreshTime" : "1h",
           "schemaVersion" : 1,
           "title" : "Twitter Statistics",
-          "updatedAt" : "2021-01-27T23:15:56+00:00"
+          "updatedAt" : "2021-07-23T17:26:29-04:00"
         },
         {
           "authors" : [
@@ -3703,7 +3703,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Sidecar Switch",
-          "updatedAt" : "2021-05-10T15:37:11+02:00"
+          "updatedAt" : "2021-07-23T17:39:55-04:00"
         },
         {
           "authors" : [
@@ -5020,7 +5020,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Open Selection With",
-          "updatedAt" : "2021-04-14T12:11:14-03:00"
+          "updatedAt" : "2021-07-23T17:36:34-04:00"
         },
         {
           "authors" : [
@@ -5048,7 +5048,7 @@
           "refreshTime" : "1d",
           "schemaVersion" : 1,
           "title" : "Update Community Scripts",
-          "updatedAt" : "2021-06-04T12:17:34+02:00"
+          "updatedAt" : "2021-07-23T17:37:52-04:00"
         }
       ],
       "subGroups" : [
@@ -8438,7 +8438,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Open Conversation",
-              "updatedAt" : "2021-05-18T17:49:46+02:00"
+              "updatedAt" : "2021-07-23T17:47:14-04:00"
             }
           ]
         },
@@ -8506,7 +8506,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Open Workspace by Index",
-              "updatedAt" : "2021-05-18T10:01:58+02:00"
+              "updatedAt" : "2021-07-23T17:47:56-04:00"
             },
             {
               "authors" : [
@@ -8590,7 +8590,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Open Workspace by Name",
-              "updatedAt" : "2021-05-18T10:01:58+02:00"
+              "updatedAt" : "2021-07-23T17:48:20-04:00"
             },
             {
               "authors" : [
@@ -8646,7 +8646,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Jump to...",
-              "updatedAt" : "2021-05-18T10:01:58+02:00"
+              "updatedAt" : "2021-07-23T17:47:47-04:00"
             },
             {
               "authors" : [
@@ -11265,7 +11265,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Wikipedia Search",
-              "updatedAt" : "2021-07-22T15:41:14-04:00"
+              "updatedAt" : "2021-07-23T17:46:53-04:00"
             }
           ]
         },
@@ -11820,6 +11820,77 @@
           ]
         },
         {
+          "name" : "Script Kit",
+          "path" : "script-kit",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Achille Lacoin",
+                  "url" : "https:\/\/github.com\/pomdtr"
+                }
+              ],
+              "createdAt" : "2021-07-25T17:09:15+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Convert all Script Kit scripts to Raycast Script Commands",
+              "filename" : "import-scripts-from-script-kit.py",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/kit_logo.png"
+              },
+              "identifier" : "b5d0da0e719c56fab014833b572a9ce5",
+              "isTemplate" : false,
+              "language" : "python",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Script Kit",
+              "path" : "apps\/script-kit\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Import scripts from Script Kit",
+              "updatedAt" : "2021-07-26T17:36:30+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "$author",
+                  "url" : null
+                }
+              ],
+              "createdAt" : "2021-07-25T17:09:15+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "$description",
+              "filename" : "template.txt",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "..\/images\/kit_logo.png"
+              },
+              "identifier" : "d676fd1e337f39a609db5032cfb0895f",
+              "isTemplate" : true,
+              "language" : "sh",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Script Kit",
+              "path" : "apps\/script-kit\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "$title",
+              "updatedAt" : "2021-07-26T17:31:58+02:00"
+            }
+          ],
+          "subGroups" : [
+            {
+              "name" : "Scripts",
+              "path" : "scripts",
+              "scriptCommands" : [
+
+              ]
+            }
+          ]
+        },
+        {
           "name" : "Ferdi",
           "path" : "ferdi",
           "scriptCommands" : [
@@ -11849,7 +11920,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Open Service by Name",
-              "updatedAt" : "2021-05-18T12:34:12+02:00"
+              "updatedAt" : "2021-07-23T17:46:29-04:00"
             },
             {
               "authors" : [
@@ -11877,7 +11948,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Open Service by Index",
-              "updatedAt" : "2021-05-18T07:57:13+02:00"
+              "updatedAt" : "2021-07-23T17:46:11-04:00"
             }
           ]
         },
@@ -15066,6 +15137,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 528,
-  "updatedAt" : "2021-07-26T10:17:23Z"
+  "totalScriptCommands" : 530,
+  "updatedAt" : "2021-07-27T07:33:50Z"
 }
