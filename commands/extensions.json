@@ -11700,10 +11700,6 @@
                 {
                   "name" : "Nichlas W. Andersen",
                   "url" : "https:\/\/twitter.com\/nichlaswa"
-                },
-                {
-                  "name" : "Nichlas Wærnes Andersen",
-                  "url" : "https:\/\/twitter.com\/nichlaswa"
                 }
               ],
               "createdAt" : "2021-05-27T12:22:24+02:00",
@@ -11878,43 +11874,6 @@
               "schemaVersion" : 1,
               "title" : "Import scripts from Script Kit",
               "updatedAt" : "2021-07-26T17:36:30+02:00"
-            },
-            {
-              "authors" : [
-                {
-                  "name" : "$author",
-                  "url" : null
-                }
-              ],
-              "createdAt" : "2021-07-25T17:09:15+02:00",
-              "currentDirectoryPath" : null,
-              "description" : "$description",
-              "filename" : "template.txt",
-              "hasArguments" : false,
-              "icon" : {
-                "dark" : null,
-                "light" : "..\/images\/kit_logo.png"
-              },
-              "identifier" : "d676fd1e337f39a609db5032cfb0895f",
-              "isTemplate" : true,
-              "language" : "sh",
-              "mode" : "silent",
-              "needsConfirmation" : null,
-              "packageName" : "Script Kit",
-              "path" : "apps\/script-kit\/",
-              "refreshTime" : null,
-              "schemaVersion" : 1,
-              "title" : "$title",
-              "updatedAt" : "2021-07-26T17:31:58+02:00"
-            }
-          ],
-          "subGroups" : [
-            {
-              "name" : "Scripts",
-              "path" : "scripts",
-              "scriptCommands" : [
-
-              ]
             }
           ]
         },
@@ -15165,6 +15124,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 531,
-  "updatedAt" : "2021-07-27T07:55:58Z"
+  "totalScriptCommands" : 530,
+  "updatedAt" : "2021-07-27T13:33:42Z"
 }
