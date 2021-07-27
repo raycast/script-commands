@@ -7052,7 +7052,7 @@
               ],
               "createdAt" : "2020-11-30T22:12:12+01:00",
               "currentDirectoryPath" : null,
-              "description" : "Show Brew List",
+              "description" : "Show list of installed brew formulae that are not dependencies of other installed formula.",
               "filename" : "brew-leaves.sh",
               "hasArguments" : false,
               "icon" : {
@@ -7069,7 +7069,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Leaves",
-              "updatedAt" : "2021-07-26T13:16:42+02:00"
+              "updatedAt" : "2021-07-27T09:53:34+02:00"
             },
             {
               "authors" : [
@@ -15166,5 +15166,5 @@
 
   ],
   "totalScriptCommands" : 531,
-  "updatedAt" : "2021-07-27T07:41:28Z"
+  "updatedAt" : "2021-07-27T07:55:58Z"
 }
