@@ -33,11 +33,20 @@ extension Toolkit {
         group.subGroups = subGroups
       }
 
-      parentGroups.append(group)
+      if values.isEmpty == false || subGroups.isEmpty == false {
+        parentGroups.append(group)
+      }
     }
 
-    for file in onlyFiles(at: path) {
+    let directoryFiles = onlyFiles(at: path)
+    for file in directoryFiles where directoryFiles.isEmpty == false {
       guard ignoreFilesInDir == false else {
+        continue
+      }
+
+      guard
+        let fileExtension = file.extension,
+        blockedFilesExtensionsList.contains(fileExtension) == false else {
         continue
       }
 
@@ -257,6 +266,19 @@ extension Toolkit {
       }
 
       if currentAuthor.keys.count == 2 {
+        guard let value = dictionary[key] as? String else {
+          continue
+        }
+
+        guard authors.contains(
+          where: {
+            $0[key] == value
+          }
+        ) == false else {
+          currentAuthor = [:]
+          continue
+        }
+
         authors.append(currentAuthor)
         currentAuthor = [:]
       }
