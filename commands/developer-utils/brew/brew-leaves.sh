@@ -10,7 +10,7 @@
 # @raycast.icon 🍺
 #
 # Documentation:
-# @raycast.description Show Brew List
+# @raycast.description Show list of installed brew formulae that are not dependencies of other installed formula.
 # @raycast.author owpac
 # @raycast.authorURL https://github.com/Owpac
 
