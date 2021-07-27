@@ -7,7 +7,7 @@ import Foundation
 import TSCBasic
 
 public extension Toolkit {
-  internal var blockedFolderList: [String] {
+  var blockedFolderList: [String] {
     [
       ".git",
       "screenshots",
@@ -18,6 +18,12 @@ public extension Toolkit {
       "images",
       "_enabled-commands",
       ".swiftpm",
+    ]
+  }
+
+  var blockedFilesExtensionsList: [String] {
+    [
+      "txt",
     ]
   }
 
