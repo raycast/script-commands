@@ -48,7 +48,6 @@ This repository contains sample commands and documentation to write your own one
   - [Pulse Secure](#pulse-secure)
   - [Safari](#safari)
   - [Script Kit](#script-kit)
-    - [Scripts](#scripts)
   - [Session](#session)
   - [Sidenotes](#sidenotes)
   - [Sip](#sip)
@@ -296,7 +295,6 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
-  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/script-kit/../images/kit_logo.png" width="20" height="20"> | [$title](apps/script-kit/template.txt) | $description | $author |  | ✅ | sh |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/script-kit/./images/kit_logo.png" width="20" height="20"> | [Import scripts from Script Kit](apps/script-kit/import-scripts-from-script-kit.py) | Convert all Script Kit scripts to Raycast Script Commands | [Achille Lacoin](https://github.com/pomdtr) |  |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
 
 #### Session
@@ -328,7 +326,7 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
-  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/spotify/./images/create.png" width="20" height="20"> | [Create Spotify Command](apps/spotify/create-spotify-command.js) | Create Spotify Shortcut Command from the Spotify URL that's in your clipboard | [Nichlas W. Andersen](https://twitter.com/nichlaswa) and [Nichlas Wærnes Andersen](https://twitter.com/nichlaswa) | ✅ |  | node |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/spotify/./images/create.png" width="20" height="20"> | [Create Spotify Command](apps/spotify/create-spotify-command.js) | Create Spotify Shortcut Command from the Spotify URL that's in your clipboard | [Nichlas W. Andersen](https://twitter.com/nichlaswa) | ✅ |  | <img src="images/icon-nodejs.png" width="20" height="20" title="Node"> |
 
 #### Surfshark
 
@@ -564,7 +562,7 @@ This repository contains sample commands and documentation to write your own one
   | 🧹 | [Ignore Package Folders](developer-utils/ignore-package-folders-time-machine.template.sh) | Ignore package folders (node_modules, Pods, etc) from Time Machine backups. They might not be big in size (altough they do add up), but they usually have tens of thousands of files, making backups slower than they should be. Many files are worse than big files when copying. You can also add a Spotlight comment to each file, to easily be able to exclude the same folders from Spotlight indexing (disabled by default). | [Roland Leth](https://runtimesharks.com) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🩺 | [Is It Up?](developer-utils/is-it-up.sh) | Check if a website is up | [Jesse Claven](https://github.com/jesse-c) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/images/go.png" width="20" height="20"> | [JSON to Go Struct](developer-utils/json-to-go-struct.sh) | Convert the copied JSON into a golang structure. | [tiancheng92](https://github.com/tiancheng92) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
-  | 💻 | [Json Stringify Text](developer-utils/json-stringify-text.js) | Get JSON-formatted text | Senthil Prabhu |  |  | node |
+  | 💻 | [Json Stringify Text](developer-utils/json-stringify-text.js) | Get JSON-formatted text | Senthil Prabhu |  |  | <img src="images/icon-nodejs.png" width="20" height="20" title="Node"> |
   | 🔐 | [MD5 Hash](developer-utils/md5-hash.sh) | Hashing any text data by using MD5  | [Bin Hua](https://github.com/hzb) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/images/vscode.png" width="20" height="20"> | [Open Directory](developer-utils/open-folder-in-vscode.applescript) | Opens current topmost directory in VSCode | [chohner](https://github.com/chohner) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🌐 | [Ping](developer-utils/ping.sh) | Ping an IP address or URL. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
