@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Search Notes
+# @raycast.title Open Note
 # @raycast.mode compact
 
 # Optional parameters:
@@ -11,12 +11,16 @@
 # @raycast.packageName Notes
 
 # Documentation:
-# @raycast.description Search for a Note by Title
+# @raycast.description Open Note via its Title
 # @raycast.author Vardan Sawhney
 # @raycast.authorURL https://github.com/commai
 
 on run argv
 	tell application "Notes"
-		show note (item 1 of argv)
+		if exists note (item 1 of argv)
+			show note (item 1 of argv)
+		else 
+			log "Sorry, the note \"" & (item 1 of argv) & "\" was not found" 
+		end if
 	end tell
 end run
