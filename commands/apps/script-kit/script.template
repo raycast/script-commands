@@ -16,4 +16,4 @@
 
 curl --unix-socket "$HOME/.kit/kit.sock" --header "Content-Type: application/json" \
   --data "{\"script\":\"$command\",\"args\": [\"$1\"]}" \
-   "http://localhost"
+   "http://localhost" >/dev/null 2>&1
