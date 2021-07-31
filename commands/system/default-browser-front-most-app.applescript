@@ -1,4 +1,4 @@
-c#!/usr/bin/osascript
+#!/usr/bin/osascript
 
 # Dependency: requires defaultbrowser (https://github.com/kerma/defaultbrowser/)
 # Install via Homebrew: `brew install defaultbrowser`
