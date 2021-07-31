@@ -38,6 +38,9 @@ for file in glob.glob("scripts/*.sh"):
     os.remove(file)
 
 for script in scripts_db["scripts"]:
+    if script["exclude"]:
+        print("Skipping {} since it is excluded!".format(script["command"]))
+        continue
     print("Importing {}...".format(script["command"]))
     raycast_script_content = RAYCAST_SCRIPT_TEMPLATE.safe_substitute(
         {
