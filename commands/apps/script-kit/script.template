@@ -7,10 +7,13 @@
 
 # Optional parameters:
 # @raycast.packageName Script Kit
+# @raycast.argument1 { "type": "text", "placeholder": "arg", "optional": true, "percentEncoded": true }
 # @raycast.icon ../images/kit_logo.png
 
 # Documentation:
 # @raycast.description $description
 # @raycast.author $author
 
-~/.kit/bin/sk $command >/dev/null 2>&1
+curl --unix-socket "$HOME/.kit/kit.sock" --header "Content-Type: application/json" \
+  --data "{\"script\":\"$command\",\"args\": [\"$1\"]}" \
+   "http://localhost"
