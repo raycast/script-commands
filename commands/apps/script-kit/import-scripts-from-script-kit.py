@@ -31,7 +31,7 @@ if not os.path.exists(db_path):
 with open(db_path) as f:
     scripts_db = json.load(f)
 
-with open("script.txt") as f:
+with open("template.txt") as f:
     RAYCAST_SCRIPT_TEMPLATE = string.Template(f.read())
 
 for file in glob.glob("scripts/*.sh"):
