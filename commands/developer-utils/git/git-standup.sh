@@ -10,7 +10,7 @@
 # Optional parameters:
 # @raycast.icon ./images/git.png
 # @raycast.packageName Git
-# @raycast.argument1 { "type": "text", "placeholder": "Project name"}
+# @raycast.argument1 { "type": "text", "placeholder": "Project path"}
 # @raycast.argument2 { "type": "text", "placeholder": "Since (optional; eg. 1 week)", "optional": true }
 
 
@@ -20,9 +20,9 @@
 # @raycast.description Lists your commits from the last 24 hours. Optionally specify since when, e.g. "1 week".
 
 if [ -n "$1" ]; then
-  PROJECT="$1"
+  PROJECT_PATH="$1"
 else
-  echo "Please given project name in ~/code"
+  echo "Please give project path"
   exit 1
 fi
 
@@ -31,7 +31,7 @@ if [ -n "$2" ]; then
 else
   SINCE="yesterday.midnight"
 fi
-cd ~/code/"$PROJECT"
+cd "$PROJECT_PATH" || exit 1
 
 USER_NAME=$(git config user.name)
 git log --author="$USER_NAME" --since="$SINCE" --oneline --pretty=format:"%s %Cblue(%ar)%Creset" --color
