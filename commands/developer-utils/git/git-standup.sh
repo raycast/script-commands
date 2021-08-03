@@ -11,7 +11,7 @@
 # @raycast.icon ./images/git.png
 # @raycast.packageName Git
 # @raycast.argument1 { "type": "text", "placeholder": "Project path"}
-# @raycast.argument2 { "type": "text", "placeholder": "Since (optional; eg. 1 week)", "optional": true }
+# @raycast.argument2 { "type": "text", "placeholder": "Since (e.g: 1 week)", "optional": true }
 
 
 # Documentation:
