@@ -53,15 +53,15 @@ if (rayCastAgrv is equal to "") then
 
 else
   # appName is used for print log message
-  if (rayCastAgrv is equal to "dev")
+  if (raycastArgv is equal to "dev")
     set appName to "Chrome dev"
   else
-     set appName to rayCastAgrv
+     set appName to raycastArgv
   end if
-  set browserName to rayCastAgrv
+  set browserName to raycastArgv
 end if  
 
-# display dialog ("Set defaut browser is " & rayCastAgrv & "!")
+# display dialog ("Set defaut browser is " & raycastArgv & "!")
 
 try
 	set commandResult to do shell script "defaultbrowser" & space & browserName & space & "2>/dev/null "
