@@ -12658,6 +12658,34 @@
                   "url" : "https:\/\/github.com\/commai"
                 }
               ],
+              "createdAt" : "2021-08-03T09:54:13-04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open Note via its Title",
+              "filename" : "open-note.applescript",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/notes.png"
+              },
+              "identifier" : "9295d4230a85f19a25e491154c2cc2ae",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Notes",
+              "path" : "apps\/notes\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Note",
+              "updatedAt" : "2021-08-03T09:54:13-04:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Vardan Sawhney",
+                  "url" : "https:\/\/github.com\/commai"
+                }
+              ],
               "createdAt" : "2021-07-21T23:46:22-04:00",
               "currentDirectoryPath" : null,
               "description" : "Create a new Note ",
@@ -15152,6 +15180,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 531,
-  "updatedAt" : "2021-07-29T11:41:55Z"
+  "totalScriptCommands" : 532,
+  "updatedAt" : "2021-08-03T13:56:50Z"
 }

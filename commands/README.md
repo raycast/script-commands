@@ -244,6 +244,7 @@ This repository contains sample commands and documentation to write your own one
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/notes/./images/notes.png" width="20" height="20"> | [Create Note](apps/notes/create-note.applescript) | Create a new Note  | [Vardan Sawhney](https://github.com/commai) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/notes/./images/notes.png" width="20" height="20"> | [Open Note](apps/notes/open-note.applescript) | Open Note via its Title | [Vardan Sawhney](https://github.com/commai) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 #### Obsidian
 

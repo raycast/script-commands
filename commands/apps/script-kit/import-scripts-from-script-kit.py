@@ -18,6 +18,7 @@ import json
 import os
 import string
 import sys
+import glob
 
 db_path = os.path.join(os.path.expanduser("~"), ".kit", "db", "scripts.json")
 if not os.path.exists(db_path):
@@ -33,7 +34,13 @@ with open(db_path) as f:
 with open("template.txt") as f:
     RAYCAST_SCRIPT_TEMPLATE = string.Template(f.read())
 
+for file in glob.glob("scripts/*.sh"):
+    os.remove(file)
+
 for script in scripts_db["scripts"]:
+    if script["exclude"]:
+        print("Skipping {} since it is excluded!".format(script["command"]))
+        continue
     print("Importing {}...".format(script["command"]))
     raycast_script_content = RAYCAST_SCRIPT_TEMPLATE.safe_substitute(
         {
