@@ -7,7 +7,8 @@
 # @raycast.schemaVersion 1
 # @raycast.title Set Frontmost App as Default Browser
 # @raycast.mode silent
-# @raycast.argument1 { "type": "text", "placeholder": "Browser Name (chrome, dev, safari)", "optional": true }
+# Browser dev is developer version of Google Chrome
+# @raycast.argument1 { "type": "text", "placeholder": "Browser (chrome, dev, safari, firefox)", "optional": true }
 
 # Optional parameters:
 # @raycast.packageName Browsing
