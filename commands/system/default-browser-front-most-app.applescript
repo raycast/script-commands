@@ -21,7 +21,7 @@
 # raycastArgv is Raycast argument
 on run {raycastArgv}
 
-if (rayCastAgrv is equal to "") then
+if (raycastArgv is equal to "") then
 
   tell application "System Events"
     tell (first process whose frontmost is true)
