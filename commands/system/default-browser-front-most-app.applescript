@@ -18,7 +18,7 @@
 # @raycast.authorURL https://github.com/ybbond
 # @raycast.description Set Frontmost Web Browser as Default Browser.
 
-# rayCastAgrv is raycast argument
+# raycastArgv is Raycast argument
 on run {raycastArgv}
 
 if (rayCastAgrv is equal to "") then
