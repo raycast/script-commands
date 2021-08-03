@@ -19,7 +19,7 @@
 # @raycast.description Set Frontmost Web Browser as Default Browser.
 
 # rayCastAgrv is raycast argument
-on run {rayCastAgrv}
+on run {raycastArgv}
 
 if (rayCastAgrv is equal to "") then
 
