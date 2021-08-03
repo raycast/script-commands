@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Required parameters:
+# @raycast.schemaVersion 1
+# @raycast.title Search in Django Documentation
+# @raycast.mode silent
+# @raycast.packageName Web Searches
+
+# Optional parameters:
+# @raycast.icon images/django-light.png
+# @raycast.iconDark images/django-dark.png
+# @raycast.argument1 { "type": "text", "placeholder": "query", "percentEncoded": true }
+
+# Documentation:
+# @raycast.author Fernando Guerrero
+# @raycast.authorURL An URL for one of your social medias
+
+open "https://docs.djangoproject.com/en/3.2/search/?q=$1"
