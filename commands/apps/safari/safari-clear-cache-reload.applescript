@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Clear cache and refresh page
+# @raycast.title Clear Cache and Refresh Page
 # @raycast.mode silent
 #
 # Optional parameters:
