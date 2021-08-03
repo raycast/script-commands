@@ -13,6 +13,6 @@
 
 # Documentation:
 # @raycast.author Fernando Guerrero
-# @raycast.authorURL An URL for one of your social medias
+# @raycast.authorURL https://github.com/devrrior
 
 open "https://docs.djangoproject.com/en/3.2/search/?q=$1"
