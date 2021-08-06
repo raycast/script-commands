@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - visualize_patch
 jobs:
   get_data:
     runs-on: ubuntu-latest
