@@ -7,6 +7,8 @@
 # @raycast.schemaVersion 1
 # @raycast.title Set Frontmost App as Default Browser
 # @raycast.mode silent
+# Browser dev is developer version of Google Chrome
+# @raycast.argument1 { "type": "text", "placeholder": "Browser (chrome, dev, safari, firefox)", "optional": true }
 
 # Optional parameters:
 # @raycast.packageName Browsing
@@ -17,30 +19,50 @@
 # @raycast.authorURL https://github.com/ybbond
 # @raycast.description Set Frontmost Web Browser as Default Browser.
 
-tell application "System Events"
-	tell (first process whose frontmost is true)
-		set appName to displayed name
-	end tell
-end tell
+# raycastArgv is Raycast argument
+on run {raycastArgv}
 
-set browserName to appName
+if (raycastArgv is equal to "") then
 
-if (appName contains "Brave Browser") then
-	set browserName to "browser"
-else if (appName is equal to "Safari") then
-	set browserName to "safari"
-else if (appName is equal to "Safari Technology Preview") then
-	set browserName to "safaritechnologypreview"
-else if (appName contains "Chrome") then
-	set browserName to "chrome"
-else if (appName is equal to "Chromium") then
-	set browserName to "chromium"
-else if (appName is equal to "Firefox") then
-	set browserName to "firefox"
-else if (appName is equal to "Firefox Developer Edition") then
-	set browserName to "firefoxdeveloperedition"
-end if
+  tell application "System Events"
+    tell (first process whose frontmost is true)
+      set appName to displayed name
+    end tell
+  end tell
 
+  set browserName to appName
+
+  if (appName contains "Brave Browser") then
+    set browserName to "browser"
+  else if (appName is equal to "Safari") then
+    set browserName to "safari"
+  else if (appName is equal to "Safari Technology Preview") then
+    set browserName to "safaritechnologypreview"
+  # set Google chrome dev as default browser
+  # it need to put before Chrome
+  else if (appName contains "dev") then
+    set browserName to "dev"
+  else if (appName contains "Chrome") then
+    set browserName to "chrome"
+  else if (appName is equal to "Chromium") then
+    set browserName to "chromium"
+  else if (appName is equal to "Firefox") then
+    set browserName to "firefox"
+  else if (appName is equal to "Firefox Developer Edition") then
+    set browserName to "firefoxdeveloperedition"
+  end if
+
+else
+  # appName is used for print log message
+  if (raycastArgv is equal to "dev")
+    set appName to "Chrome dev"
+  else
+     set appName to raycastArgv
+  end if
+  set browserName to raycastArgv
+end if  
+
+# display dialog ("Set defaut browser is " & raycastArgv & "!")
 
 try
 	set commandResult to do shell script "defaultbrowser" & space & browserName & space & "2>/dev/null "
@@ -76,3 +98,5 @@ try
 		end tell
 	end tell
 end try
+
+end run
