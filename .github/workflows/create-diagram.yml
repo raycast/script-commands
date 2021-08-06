@@ -12,4 +12,4 @@ jobs:
       - name: Update diagram
         uses: githubocto/repo-visualizer@0.3.0
         with:
-          excluded_paths: "ignore,.github"
+          excluded_paths: "ignore,.github,toolkit"
