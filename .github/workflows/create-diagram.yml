@@ -2,15 +2,13 @@ name: Create diagram
 on:
   workflow_dispatch: {}
   push:
-    branches:
-      - master
-      - visualize_patch
+    branches: [master, visualize_patch]
 jobs:
   get_data:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@master
+        uses: actions/checkout@v2
       - name: Update diagram
         uses: githubocto/repo-visualizer@main
         with:
