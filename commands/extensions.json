@@ -7849,7 +7849,7 @@
                 }
               ],
               "createdAt" : "2021-07-19T15:52:56+01:00",
-              "currentDirectoryPath" : "~\/Developer\/script-commands",
+              "currentDirectoryPath" : null,
               "description" : "Lists your commits from the last 24 hours. Optionally specify since when, e.g. \"1 week\".",
               "filename" : "git-standup.sh",
               "hasArguments" : true,
@@ -7867,7 +7867,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Standup",
-              "updatedAt" : "2021-07-19T15:52:56+01:00"
+              "updatedAt" : "2021-08-06T19:27:39+02:00"
             },
             {
               "authors" : [
@@ -12806,6 +12806,34 @@
             {
               "authors" : [
                 {
+                  "name" : "Aaron Miller",
+                  "url" : "https:\/\/github.com\/aaronhmiller"
+                }
+              ],
+              "createdAt" : "2021-08-06T10:24:49-07:00",
+              "currentDirectoryPath" : null,
+              "description" : "This script clears cache and reloads the page of the frontmost Safari window.",
+              "filename" : "safari-clear-cache-reload.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/safari.png"
+              },
+              "identifier" : "ce0ee1596099e7699e99d6267b097f3d",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Safari",
+              "path" : "apps\/safari\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Clear Cache and Refresh Page",
+              "updatedAt" : "2021-08-06T10:24:49-07:00"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Thomas Paul Mann",
                   "url" : "https:\/\/github.com\/thomaspaulmann"
                 }
@@ -15180,6 +15208,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 532,
-  "updatedAt" : "2021-08-06T17:26:25Z"
+  "totalScriptCommands" : 533,
+  "updatedAt" : "2021-08-06T17:30:08Z"
 }
