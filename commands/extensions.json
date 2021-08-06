@@ -3492,7 +3492,7 @@
           "currentDirectoryPath" : null,
           "description" : "Set Frontmost Web Browser as Default Browser.",
           "filename" : "default-browser-front-most-app.applescript",
-          "hasArguments" : false,
+          "hasArguments" : true,
           "icon" : {
             "dark" : null,
             "light" : "🧭"
@@ -3507,7 +3507,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Set Frontmost App as Default Browser",
-          "updatedAt" : "2021-02-24T18:43:20+00:00"
+          "updatedAt" : "2021-08-06T19:23:46+02:00"
         },
         {
           "authors" : [
@@ -11901,7 +11901,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Import scripts from Script Kit",
-              "updatedAt" : "2021-07-26T17:36:30+02:00"
+              "updatedAt" : "2021-08-03T16:01:36+02:00"
             }
           ]
         },
@@ -15181,5 +15181,5 @@
 
   ],
   "totalScriptCommands" : 532,
-  "updatedAt" : "2021-08-03T13:56:50Z"
+  "updatedAt" : "2021-08-06T17:26:25Z"
 }
