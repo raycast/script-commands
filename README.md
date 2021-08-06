@@ -115,6 +115,10 @@ else
 However, if you need to run your local script as login-shell, you can specify an argument after shebang, e.g. `#!/bin/bash -l` for bash. We also append `/usr/local/bin` to `$PATH` variable so you can use your local shell commands without any additional steps. If this is not enough, you can always extend `$PATH` by adding `export PATH='/some/extra/path:$PATH'` at the top of your script.
 </details>
 
+## Visualizing the codebase
+
+![Visualization of the codebase](./diagram.svg)
+
 ## Community
 
 We're always looking for new Script Commands or other ways to improve Raycast. If you have anything cool to show, please send us a pull request. If we screwed something up, please report a bug. Join our [Slack community](https://www.raycast.com/community) to brainstorm ideas with like-minded folks.
