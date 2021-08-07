@@ -13,4 +13,4 @@ jobs:
         uses: githubocto/repo-visualizer@main
         with:
           output_file: "images/diagram.svg"
-          excluded_paths: "ignore,.github,toolkit"
+          excluded_paths: "ignore,.github,.gitignore,toolkit"
