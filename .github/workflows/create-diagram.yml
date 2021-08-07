@@ -2,7 +2,7 @@ name: Create diagram
 on:
   workflow_dispatch: {}
   push:
-    branches: [visualize_patch]
+    branches: [master]
 jobs:
   get_data:
     runs-on: ubuntu-latest
