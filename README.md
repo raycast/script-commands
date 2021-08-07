@@ -117,7 +117,7 @@ However, if you need to run your local script as login-shell, you can specify an
 
 ## Visualizing the codebase
 
-![Visualization of the codebase](./diagram.svg)
+![Visualization of the codebase](images/diagram.svg)
 
 ## Community
 

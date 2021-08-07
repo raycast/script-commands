@@ -2,7 +2,7 @@ name: Create diagram
 on:
   workflow_dispatch: {}
   push:
-    branches: [master]
+    branches: [visualize_patch]
 jobs:
   get_data:
     runs-on: ubuntu-latest
@@ -12,4 +12,5 @@ jobs:
       - name: Update diagram
         uses: githubocto/repo-visualizer@main
         with:
+          output_file: "images/diagram.svg"
           excluded_paths: "ignore,.github,toolkit"
