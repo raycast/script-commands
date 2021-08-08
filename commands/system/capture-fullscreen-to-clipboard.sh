@@ -1,4 +1,4 @@
-#!/usr/bin/osascript
+#!/bin/sh
 
 # Required parameters:
 # @raycast.schemaVersion 1
@@ -14,4 +14,5 @@
 # @raycast.author Aaron Miller
 # @raycast.authorURL https://github.com/aaronhmiller
 
-tell application "System Events" to key code 20 using {control down, shift down, command down}
+screencapture -c
+echo "Screenshot saved to clipboard"
