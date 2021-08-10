@@ -12710,6 +12710,35 @@
           ]
         },
         {
+          "name" : "Phpstorm",
+          "path" : "phpstorm",
+          "scriptCommands" : [
+            {
+              "authors" : null,
+              "createdAt" : "2021-08-06T16:17:35+04:00",
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "recent-projects.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "icon.icns"
+              },
+              "identifier" : "636e401e276ed8883dff6e76bf1983b4",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "PhpStorm",
+              "path" : "apps\/phpstorm\/",
+              "refreshTime" : "5m",
+              "schemaVersion" : 1,
+              "title" : "Update Recent Projects",
+              "updatedAt" : "2021-08-06T16:17:35+04:00"
+            }
+          ]
+        },
+        {
           "name" : "Fantastical",
           "path" : "fantastical",
           "scriptCommands" : [
@@ -15208,6 +15237,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 533,
-  "updatedAt" : "2021-08-06T17:30:08Z"
+  "totalScriptCommands" : 534,
+  "updatedAt" : "2021-08-10T06:03:50Z"
 }

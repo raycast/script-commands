@@ -43,6 +43,7 @@ This repository contains sample commands and documentation to write your own one
   - [Noteplan3](#noteplan3)
   - [Notes](#notes)
   - [Obsidian](#obsidian)
+  - [Phpstorm](#phpstorm)
   - [Plash](#plash)
   - [Playground](#playground)
   - [Pulse Secure](#pulse-secure)
@@ -252,6 +253,12 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/obsidian/./images/obsidian.png" width="20" height="20"> | [Create Note](apps/obsidian/obsidian-create-note.template.sh) | Create a new note | [Yiyao Wei](https://github.com/HotThoughts) | ✅ | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/obsidian/./images/obsidian.png" width="20" height="20"> | [Search in Vault](apps/obsidian/obsidian-search-vault.template.sh) | Search Obsidian Vault | [Yiyao Wei](https://github.com/HotThoughts) | ✅ | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Phpstorm
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  |  | [Update Recent Projects](apps/phpstorm/recent-projects.sh) | N/A | Raycast |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Plash
 
