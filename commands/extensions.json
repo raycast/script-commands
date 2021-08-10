@@ -3568,6 +3568,34 @@
         {
           "authors" : [
             {
+              "name" : "Aaron Miller",
+              "url" : "https:\/\/github.com\/aaronhmiller"
+            }
+          ],
+          "createdAt" : "2021-08-07T14:30:22-07:00",
+          "currentDirectoryPath" : null,
+          "description" : "This script screenshots the entire screen and saves it to the clipboard.",
+          "filename" : "capture-fullscreen-to-clipboard.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "💻"
+          },
+          "identifier" : "344e66ee76bea921b245701f7c638ece",
+          "isTemplate" : false,
+          "language" : "sh",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Capture Fullscreen to Clipboard",
+          "updatedAt" : "2021-08-07T19:28:35-07:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Marc Klingen",
               "url" : "https:\/\/github.com\/marcklingen"
             }
@@ -4151,6 +4179,34 @@
         {
           "authors" : [
             {
+              "name" : "Aaron Miller",
+              "url" : "https:\/\/github.com\/aaronhmiller"
+            }
+          ],
+          "createdAt" : "2021-08-07T14:30:22-07:00",
+          "currentDirectoryPath" : null,
+          "description" : "This script screenshots the selected area and saves it to the desktop.",
+          "filename" : "capture-screen-selection-to-desktop.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "💻"
+          },
+          "identifier" : "aa330e29461867df6c3f22fc9b9a2c68",
+          "isTemplate" : false,
+          "language" : "sh",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Capture Screen Selection to Desktop",
+          "updatedAt" : "2021-08-07T19:28:35-07:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "LokHsu",
               "url" : "https:\/\/github.com\/lokhsu"
             }
@@ -4230,6 +4286,34 @@
         {
           "authors" : [
             {
+              "name" : "Aaron Miller",
+              "url" : "https:\/\/github.com\/aaronhmiller"
+            }
+          ],
+          "createdAt" : "2021-08-07T14:30:22-07:00",
+          "currentDirectoryPath" : null,
+          "description" : "This script screenshots the entire screen and saves it to the desktop.",
+          "filename" : "capture-fullscreen-to-desktop.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "💻"
+          },
+          "identifier" : "e888ca0de9036c3e6f270c06ffa9904b",
+          "isTemplate" : false,
+          "language" : "sh",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Capture Fullscreen to Desktop",
+          "updatedAt" : "2021-08-07T19:28:35-07:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Bin Hua",
               "url" : "https:\/\/github.com\/hzb"
             }
@@ -4282,6 +4366,34 @@
           "schemaVersion" : 1,
           "title" : "Move Downloads to Trash",
           "updatedAt" : "2020-12-30T22:13:18+08:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Aaron Miller",
+              "url" : "https:\/\/github.com\/aaronhmiller"
+            }
+          ],
+          "createdAt" : "2021-08-07T14:30:22-07:00",
+          "currentDirectoryPath" : null,
+          "description" : "This script screenshots the selected area and saves it to the clipboard.",
+          "filename" : "capture-screen-selection-to-clipboard.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "💻"
+          },
+          "identifier" : "1b20aab42e5e5b6af164dbbcaedb0dfc",
+          "isTemplate" : false,
+          "language" : "sh",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Capture Screen Selection to Clipboard",
+          "updatedAt" : "2021-08-07T19:28:35-07:00"
         },
         {
           "authors" : [
@@ -15237,6 +15349,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 534,
-  "updatedAt" : "2021-08-10T06:03:50Z"
+  "totalScriptCommands" : 538,
+  "updatedAt" : "2021-08-10T06:11:20Z"
 }
