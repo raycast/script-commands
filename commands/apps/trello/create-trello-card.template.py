@@ -32,15 +32,15 @@ TRELLO_TOKEN = ''
 TRELLO_LIST_ID = ''
 
 if not TRELLO_KEY:
-  print('Command not configured correctly, Missing variable: TRELLO_KEY')
+  print('Command not configured correctly. Missing variable: TRELLO_KEY')
   exit(1)
 
 if not TRELLO_TOKEN:
-  print('Command not configured correctly, Missing variable: TRELLO_TOKEN')
+  print('Command not configured correctly. Missing variable: TRELLO_TOKEN')
   exit(1)
 
 if not TRELLO_LIST_ID:
-  print('Command not configured correctly, Missing variable: TRELLO_LIST_ID')
+  print('Command not configured correctly. Missing variable: TRELLO_LIST_ID')
   exit(1)
 
 name = sys.argv[1]
