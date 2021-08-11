@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-# Dependency: This script requires the following Python libraries: `sys`, `requests`, `dateparser`
-# Install them with `pip install {library}`
+# Dependency: This script requires the following Python libraries: `dateparser`, `requests`
+# Install them with `pip install dateparser requests`
 
 # Required parameters:
 # @raycast.schemaVersion 1
@@ -31,8 +31,16 @@ TRELLO_TOKEN = ''
 # To find the List ID, head to https://api.trello.com/1/boards/{BOARD_ID}/lists?key={TRELLO_KEY}&token={TRELLO_TOKEN}
 TRELLO_LIST_ID = ''
 
-if TRELLO_KEY == '' or TRELLO_TOKEN == '' or TRELLO_LIST_ID == '':
-  print('Command not configured correctly, missing either TRELLO_KEY, TRELLO_TOKEN or TRELLO_LIST_ID')
+if not TRELLO_KEY:
+  print('Command not configured correctly, Missing variable: TRELLO_KEY')
+  exit(1)
+
+if not TRELLO_TOKEN:
+  print('Command not configured correctly, Missing variable: TRELLO_TOKEN')
+  exit(1)
+
+if not TRELLO_LIST_ID:
+  print('Command not configured correctly, Missing variable: TRELLO_LIST_ID')
   exit(1)
 
 name = sys.argv[1]
