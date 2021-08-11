@@ -19,7 +19,6 @@
 # @raycast.author Michael Francis
 # @raycast.authorURL https://github.com/mikefrancis
 
-
 import sys
 import requests
 import dateparser
@@ -55,8 +54,11 @@ payload = {
 }
 
 if due_date:
-  datetime = dateparser.parse(due_date)
-  payload['due'] = datetime.strftime('%Y-%m-%d')
+  try:
+    datetime = dateparser.parse(due_date)
+    payload['due'] = datetime.strftime('%Y-%m-%d')
+  except:
+    pass
 
 response = requests.post('https://api.trello.com/1/cards', data=payload)
 
