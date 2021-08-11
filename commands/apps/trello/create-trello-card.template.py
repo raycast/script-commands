@@ -10,7 +10,7 @@
 # @raycast.mode compact
 
 # Optional parameters:
-# @raycast.icon 🤖
+# @raycast.icon ./images/logo.png
 # @raycast.argument1 { "type": "text", "placeholder": "Card title" }
 # @raycast.argument2 { "type": "text", "placeholder": "Due date (e.g. today)", "optional": true }
 
