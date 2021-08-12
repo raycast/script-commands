@@ -1,5 +1,7 @@
 #!/usr/bin/osascript
 
+# Assumption: Evernote running (launching and waiting not great UX)
+#
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Create Evernote Paste Clipboard
