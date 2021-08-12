@@ -58,6 +58,7 @@ This repository contains sample commands and documentation to write your own one
   - [Things](#things)
   - [Todoist](#todoist)
   - [Translate Shell](#translate-shell)
+  - [Trello](#trello)
   - [Tunnelblick](#tunnelblick)
   - [Viscosity](#viscosity)
   - [Wikipedia](#wikipedia)
@@ -377,6 +378,12 @@ This repository contains sample commands and documentation to write your own one
   | 🌍 | [Translate Shell](apps/translate-shell/translate-shell-language-pair.py) | Translate text using translate-shell. | [Marcel Bochtler](https://github.com/MarcelBochtler) | ✅ |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
   | 📖 | [Translate to EN](apps/translate-shell/translate-to-en.sh) | Translate and copy brief translation to clipboard. | [tiancheng92](https://github.com/tiancheng92) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 📖 | [Translate to ZH](apps/translate-shell/translate-to-zh.sh) | Translate and copy brief translation to clipboard. | [tiancheng92](https://github.com/tiancheng92) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Trello
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/trello/./images/logo.png" width="20" height="20"> | [Create Card](apps/trello/create-trello-card.template.py) | Create a new Trello card | [Michael Francis](https://github.com/mikefrancis) | ✅ | ✅ | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
 
 #### Tunnelblick
 
