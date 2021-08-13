@@ -34,6 +34,7 @@ This repository contains sample commands and documentation to write your own one
   - [Deepl](#deepl)
   - [Dnd Me](#dnd-me)
   - [Espanso](#espanso)
+  - [Evernote](#evernote)
   - [Fantastical](#fantastical)
   - [Ferdi](#ferdi)
   - [Hazeover](#hazeover)
@@ -189,6 +190,13 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/espanso/images/espanso.png" width="20" height="20"> | [Restart Espanso](apps/espanso/restart-espanso.sh) | N/A | [es183923](https://github.com/es183923) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/espanso/images/espanso.png" width="20" height="20"> | [Start Espanso](apps/espanso/start-espanso.sh) | N/A | [es183923](https://github.com/es183923) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/espanso/images/espanso.png" width="20" height="20"> | [Stop Espanso](apps/espanso/stop-espanso.sh) | N/A | [es183923](https://github.com/es183923) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Evernote
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/evernote/./images/evernote.png" width="20" height="20"> | [Create Evernote](apps/evernote/create-note.applescript) | Creates a new Evernote. | [Aaron Miller](https://github.com/aaronhmiller) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/evernote/./images/evernote.png" width="20" height="20"> | [Create Evernote Paste Clipboard](apps/evernote/create-note-paste-clipboard.applescript) | Creates a new Evernote, pastes in the contents of the clipboard, and positions the cursor in the title area. | [Aaron Miller](https://github.com/aaronhmiller) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 #### Fantastical
 

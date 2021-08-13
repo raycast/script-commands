@@ -11500,6 +11500,68 @@
           ]
         },
         {
+          "name" : "Evernote",
+          "path" : "evernote",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Aaron Miller",
+                  "url" : "https:\/\/github.com\/aaronhmiller"
+                }
+              ],
+              "createdAt" : "2021-08-13T13:17:23-07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Creates a new Evernote, pastes in the contents of the clipboard, and positions the cursor in the title area.",
+              "filename" : "create-note-paste-clipboard.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/evernote.png"
+              },
+              "identifier" : "d35a432612f0fce10372d3b066dc49e6",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Evernote",
+              "path" : "apps\/evernote\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Create Evernote Paste Clipboard",
+              "updatedAt" : "2021-08-13T13:17:23-07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Aaron Miller",
+                  "url" : "https:\/\/github.com\/aaronhmiller"
+                }
+              ],
+              "createdAt" : "2021-08-13T13:17:23-07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Creates a new Evernote.",
+              "filename" : "create-note.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/evernote.png"
+              },
+              "identifier" : "f546136ca9bad8f3b77a31e1ff0aecd0",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Evernote",
+              "path" : "apps\/evernote\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Create Evernote",
+              "updatedAt" : "2021-08-13T13:17:23-07:00"
+            }
+          ]
+        },
+        {
           "name" : "Noteplan3",
           "path" : "noteplan3",
           "scriptCommands" : [
@@ -15383,6 +15445,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 539,
-  "updatedAt" : "2021-08-12T07:51:38Z"
+  "totalScriptCommands" : 541,
+  "updatedAt" : "2021-08-13T20:19:46Z"
 }
