@@ -5926,6 +5926,34 @@
         {
           "authors" : [
             {
+              "name" : "Kabilan VS",
+              "url" : "https:\/\/github.com\/KABILAN235"
+            }
+          ],
+          "createdAt" : "2021-08-17T13:10:32+05:30",
+          "currentDirectoryPath" : null,
+          "description" : "Creates A Flutter Project from Raycast",
+          "filename" : "flutter-create.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/flutter.png"
+          },
+          "identifier" : "c618b8ddac2e75b88bb80f7f992ba09b",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "flutter-create",
+          "path" : "developer-utils\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Flutter Create Project",
+          "updatedAt" : "2021-08-17T16:40:16+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -15445,6 +15473,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 541,
-  "updatedAt" : "2021-08-13T20:19:46Z"
+  "totalScriptCommands" : 542,
+  "updatedAt" : "2021-08-17T16:40:16Z"
 }
