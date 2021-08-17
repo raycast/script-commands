@@ -44,6 +44,7 @@ This repository contains sample commands and documentation to write your own one
   - [Noteplan3](#noteplan3)
   - [Notes](#notes)
   - [Obsidian](#obsidian)
+  - [Openvpn](#openvpn)
   - [Phpstorm](#phpstorm)
   - [Plash](#plash)
   - [Playground](#playground)
@@ -262,6 +263,14 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/obsidian/./images/obsidian.png" width="20" height="20"> | [Create Note](apps/obsidian/obsidian-create-note.template.sh) | Create a new note | [Yiyao Wei](https://github.com/HotThoughts) | ✅ | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/obsidian/./images/obsidian.png" width="20" height="20"> | [Search in Vault](apps/obsidian/obsidian-search-vault.template.sh) | Search Obsidian Vault | [Yiyao Wei](https://github.com/HotThoughts) | ✅ | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Openvpn
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/openvpn/./images/openvpn.png" width="20" height="20"> | [Connect OpenVPN](apps/openvpn/connect-openvpn.applescript) | Prepares OpenVPN Connect client to connect or reconnect. | [Aaron Miller](https://github.com/aaronhmiller) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/openvpn/./images/openvpn.png" width="20" height="20"> | [Disconnect OpenVPN](apps/openvpn/disconnect-openvpn.applescript) | Disconnects the OpenVPN Connect client from VPN. | [Aaron Miller](https://github.com/aaronhmiller) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/openvpn/./images/openvpn.png" width="20" height="20"> | [Quit OpenVPN](apps/openvpn/quit-openvpn.applescript) | Quits the OpenVPN Connect client. | [Aaron Miller](https://github.com/aaronhmiller) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 #### Phpstorm
 
