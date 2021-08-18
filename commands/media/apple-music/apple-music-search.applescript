@@ -16,11 +16,20 @@
 # @raycast.authorURL https://github.com/StevenRCE0
 
 on run argv
+	set savedClipboard to the clipboard
+	set the clipboard to ({item 1 of argv} as text)
 	do shell script "open /System/Applications/Music.app"
 	
 	# Argh, the window title varies... Add your language if it's not here...
 	set musicWindow to {"Music", "ミュージック", "音乐", "音樂"}
 	set notShowing to true
+	set toLaunch to true
+
+	repeat while toLaunch
+		if application "Music" is running then set toLaunch to false
+		if application "iTunes" is running then set toLaunch to false
+		delay 0.5
+	end repeat
 	
 	# Thanks StactOverflow user mklement0 for the code below detecting window name ;-)
 	# Tell the *process* to count its windows and return its front window's name.
@@ -40,17 +49,14 @@ on run argv
 		tell application "System Events" to keystroke "0" using command down
 	end if
 	
-	log "Trying to search " & {item 1 of argv}
-	set savedClipboard to the clipboard
-	set the clipboard to ({item 1 of argv} as text)
+	log "Trying to search " & ({item 1 of argv} as text)
 	delay 0.1
 	tell application "System Events"
 		keystroke "f" using command down
 		keystroke "a" using command down
-		key code 51
 		keystroke "v" using command down
 		key code 36
 	end tell
-	delay 0.1
+	delay 5
 	set the clipboard to savedClipboard
 end run
