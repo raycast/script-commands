@@ -56,7 +56,6 @@ on run argv
 		tell application "System Events" to keystroke "0" using command down
 	end if
 	
-	log "Trying to search " & ({item 1 of argv} as text)
 	delay 0.1
 	tell application "System Events"
 		keystroke "f" using command down
@@ -66,4 +65,5 @@ on run argv
 	end tell
 	delay 5
 	set the clipboard to savedClipboard
+	log "Done"
 end run
