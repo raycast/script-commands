@@ -7,7 +7,7 @@
 
 # Optional parameters:
 # @raycast.icon images/apple-music-logo.png
-# @raycast.argument1 { "type": "text", "placeholder": "searching..." }
+# @raycast.argument1 { "type": "text", "placeholder": "Artist or Music" }
 # @raycast.packageName Apple Music Search
 
 # Documentation:
