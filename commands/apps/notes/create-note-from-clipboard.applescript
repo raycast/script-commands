@@ -11,7 +11,7 @@
 # @raycast.packageName Notes
 
 # Documentation:
-# @raycast.description Create Note from Clipboard
+# @raycast.description Create Note From Clipboard
 # @raycast.author Ayoub Gharbi
 # @raycast.authorURL https://github.com/ayoub-g
 
