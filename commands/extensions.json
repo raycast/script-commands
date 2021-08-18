@@ -12974,6 +12974,34 @@
             {
               "authors" : [
                 {
+                  "name" : "Ayoub Gharbi",
+                  "url" : "https:\/\/github.com\/ayoub-g"
+                }
+              ],
+              "createdAt" : "2021-07-21T23:46:22-04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Create Note From Clipboard",
+              "filename" : "create-note-from-clipboard.applescript",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/notes.png"
+              },
+              "identifier" : "4186e11daddefc7d27d89b3943eb4b44",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Notes",
+              "path" : "apps\/notes\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Create Note From Clipboard",
+              "updatedAt" : "2021-08-18T17:31:58+01:00"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Vardan Sawhney",
                   "url" : "https:\/\/github.com\/commai"
                 }
@@ -14977,6 +15005,34 @@
             {
               "authors" : [
                 {
+                  "name" : "StevenRCE0",
+                  "url" : "https:\/\/github.com\/StevenRCE0"
+                }
+              ],
+              "createdAt" : "2021-08-18T09:16:28+08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Search using the native UI",
+              "filename" : "apple-music-search.applescript",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/apple-music-logo.png"
+              },
+              "identifier" : "8596be52df39001815a5ed2803155afc",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Apple Music",
+              "path" : "media\/apple-music\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Search",
+              "updatedAt" : "2021-08-18T20:20:15+08:00"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Caleb Stauffer",
                   "url" : "https:\/\/github.com\/crstauf"
                 }
@@ -15563,6 +15619,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 545,
-  "updatedAt" : "2021-08-17T16:45:36Z"
+  "totalScriptCommands" : 547,
+  "updatedAt" : "2021-08-18T20:18:17Z"
 }
