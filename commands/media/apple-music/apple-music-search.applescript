@@ -18,7 +18,14 @@
 on run argv
 	set savedClipboard to the clipboard
 	set the clipboard to ({item 1 of argv} as text)
-	do shell script "open /System/Applications/Music.app"
+	try
+		do shell script "open /System/Applications/Music.app"
+		tell application "Music" to activate
+	end try
+	try
+	do shell script "open /Applications/iTunes.app"
+		tell application "iTunes" to activate
+	end try
 	
 	# Argh, the window title varies... Add your language if it's not here...
 	set musicWindow to {"Music", "ミュージック", "音乐", "音樂"}
