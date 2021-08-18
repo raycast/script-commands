@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Search Apple Music
+# @raycast.title Search
 # @raycast.mode silent
 
 # Optional parameters:
