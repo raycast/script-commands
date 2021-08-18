@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Create Note from Clipboard
+# @raycast.title Create Note From Clipboard
 # @raycast.mode silent
 
 # Optional parameters:
