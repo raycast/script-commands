@@ -4,6 +4,9 @@
 
 Manage your Samgsung TV via [Raycast](http://raycast.com).
 
+### Compatibility
+> [Here](https://developer.samsung.com/smarttv/develop/specifications/tv-model-groups.html) are a complete list of compatible Samsung models that will be able to use these commands
+
 ### Initial setup
 
 1. Install the `wakeonlan` module
