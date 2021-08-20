@@ -22,7 +22,7 @@ MFA_METHOD=""
 # @raycast.packageName Bitwarden
 # @raycast.icon images/bitwarden.png
 # @raycast.argument1 { "type": "text", "placeholder": "Email" }
-# @raycast.argument2 { "type": "text", "placeholder": "Master Password" }
+# @raycast.argument2 { "type": "text", "placeholder": "Master Password", "secure": true }
 # @raycast.argument3 { "type": "text", "placeholder": "MFA Code", "optional": true }
 #
 # Documentation

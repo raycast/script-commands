@@ -10,7 +10,7 @@
 # @raycast.icon 📟
 #
 # Documentation:
-# @raycast.description Open curren Terminal directory in Finder
+# @raycast.description Open current Terminal directory in Finder
 # @raycast.author Kirill Gorbachyonok
 # @raycast.authorURL https://github.com/japanese-goblinn
 

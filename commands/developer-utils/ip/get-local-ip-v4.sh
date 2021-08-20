@@ -4,7 +4,6 @@
 # @raycast.schemaVersion 1
 # @raycast.title Local IPv4
 # @raycast.mode inline
-# @raycast.refreshTime 1h
 # @raycast.packageName Internet
 
 # Optional parameters:
@@ -15,4 +14,5 @@
 
 ip=$(ifconfig | grep 'inet.*broadcast' | awk '{print $2}')
 IFS=' ' read -ra array <<< "$ip"
-echo ${array[0]}
+echo ${array[0]} | pbcopy
+echo "Copied $ip"

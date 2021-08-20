@@ -8,6 +8,8 @@
 # @raycast.mode silent
 
 # Optional parameters:
+# @raycast.icon images/espanso.png
+# @raycast.packageName Espanso
 # @raycast.argument1 { "type": "text", "placeholder": ":shortcut", "optional": false }
 # @raycast.argument2 { "type": "text", "placeholder": "Text", "optional": false }
 

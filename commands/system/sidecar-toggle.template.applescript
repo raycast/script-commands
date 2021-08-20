@@ -30,7 +30,7 @@ tell application "System Preferences"
 		tell application "System Events" to click button buttonName of first window of application process "System Preferences" of application "System Events"
 	on error
 		tell application "System Events" to click first menu button of first window of application process "System Preferences" of application "System Events"
-		# If your sidecar screen device changes, youc can change the "click menu item deviceName" by "click first menu item"
+		# If your sidecar screen device changes, you can change the "click menu item deviceName" by "click first menu item"
 		tell application "System Events" to click menu item deviceName of first menu of first menu button of first window of application process "System Preferences" of application "System Events"
 		set isConnected to true
 	end try

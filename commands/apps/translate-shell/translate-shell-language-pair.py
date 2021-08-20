@@ -5,10 +5,9 @@
 # Install with Homebrew: `brew install translate-shell`
 # or install with MacPorts: `sudo port install translate-shell`
 
-# translate-shell requires gawk to be accessible from PATH.
-# This is not the case if the Homebrew prefix was customized or when using macports.
-# Add your PATH here, if required.
-# PATH="$PATH"
+# Set required paths to binaries required for translate-shell.
+GAWK='/usr/local/bin/gawk'
+TRANS='/usr/local/bin/trans'
 
 # Required parameters:
 # @raycast.schemaVersion 1
@@ -68,8 +67,9 @@ def white(message):
 
 def translate(lang, query):
     cmd = f"""
-    PATH="{PATH}"
-    trans '{lang}' -dump '{query}' | tail -n +2  | head -n -2
+    # Ensure gawk is available in PATH, as translate-shell requires it.
+    PATH="$(dirname {GAWK}):$PATH"
+    {TRANS} '{lang}' -dump '{query}' | /usr/bin/tail -n +2  | /usr/bin/head -n 1
     """
 
     stream = os.popen(cmd)

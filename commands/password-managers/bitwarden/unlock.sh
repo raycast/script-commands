@@ -23,7 +23,7 @@
 # Optional parameters:
 # @raycast.packageName Bitwarden
 # @raycast.icon images/bitwarden.png
-# @raycast.argument1 { "type": "text", "placeholder": "Master Password" }
+# @raycast.argument1 { "type": "text", "placeholder": "Master Password", "secure": true }
 #
 # Documentation
 # @raycast.author Phil Salant
@@ -35,7 +35,7 @@ if ! command -v bw &> /dev/null; then
   exit 1
 fi
 
-out=$(bw --raw unlock $1)
+out=$(bw --raw unlock "$1")
 status=$?
 
 if [ $status -eq 0 ]; then

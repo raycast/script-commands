@@ -2,7 +2,7 @@ name: Set as Executable and Generate Documentation
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   scriptCommands:
@@ -10,6 +10,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
 
       - uses: maxim-lobanov/setup-xcode@v1
         with:

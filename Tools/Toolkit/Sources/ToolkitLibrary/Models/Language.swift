@@ -11,6 +11,7 @@ enum Language {
   case python
   case ruby
   case swift
+  case node
   case custom(String)
 
   init(_ rawValue: String) {
@@ -27,6 +28,8 @@ enum Language {
       self = .ruby
     case "swift":
       self = .swift
+    case "node", "js":
+      self = .node
     default:
       self = .custom(value)
     }
@@ -44,6 +47,8 @@ enum Language {
       return "icon-ruby.png"
     case .swift:
       return "icon-swift.png"
+    case .node:
+      return "icon-nodejs.png"
     default:
       return nil
     }
@@ -61,26 +66,15 @@ enum Language {
       return "Ruby"
     case .swift:
       return "Swift"
+    case .node:
+      return "Node"
     case .custom(let name):
       return name
     }
   }
 
   var name: String {
-    switch self {
-    case .applescript:
-      return "applescript"
-    case .bash:
-      return "bash"
-    case .python:
-      return "python"
-    case .ruby:
-      return "ruby"
-    case .swift:
-      return "swift"
-    case .custom(let name):
-      return name.lowercased()
-    }
+    displayName.lowercased()
   }
 }
 

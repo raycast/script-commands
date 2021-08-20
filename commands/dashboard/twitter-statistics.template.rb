@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
 # How to use this script?
-# It's a template which needs further setup. Duplicate the file, 
-# remove `.template.` from the filename, set a bearer token and 
+# It's a template which needs further setup. Duplicate the file,
+# remove `.template.` from the filename, set a bearer token and
 # specify your Twitter username.
 
 
@@ -19,7 +19,7 @@
 # @raycast.icon images/twitter.png
 
 # Documentation:
-# @raycast.description Shows the followers, favourites and friends count of your Twitter account.
+# @raycast.description Shows the followers, favorites and friends count of your Twitter account.
 # @raycast.author Thomas Paul Mann
 # @raycast.authorURL https://github.com/thomaspaulmann
 
@@ -58,13 +58,13 @@ res = Net::HTTP.start(uri.hostname, uri.port, req_options) { |http|
 
 if res.code == "200"
   result = JSON.parse(res.body)
-  
-  followers_count = result["followers_count"] 
-  favourites_count = result["favourites_count"] 
-  friends_count = result["friends_count"] 
 
-  puts "#{followers_count} Followers, #{favourites_count} Favourites and #{friends_count} Friends"
-else 
+  followers_count = result["followers_count"]
+  favorites_count = result["favorites_count"]
+  friends_count = result["friends_count"]
+
+  puts "#{followers_count} Followers, #{favorites_count} Favorites and #{friends_count} Friends"
+else
   puts "Failed loading statistics"
   exit(1)
 end

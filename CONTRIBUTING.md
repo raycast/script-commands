@@ -6,10 +6,12 @@ Thank you for your interest in contributing to Raycast Script Commands! Here you
   - [Guidelines](#guidelines)
     - [Git and Pull Requests](#git-and-pull-requests)
     - [Folder structure](#folder-structure)
+    - [English style convention](#english-style-convention)
     - [File naming convention](#file-naming-convention)
     - [Metadata convention](#metadata-convention)
     - [Scripts that require additional modification](#scripts-that-require-additional-modification)
     - [Scripts that require installation of runtimes and dependencies](#scripts-that-require-installation-of-runtimes-and-dependencies)
+    - [Scripts that require installation of apps](#scripts-that-require-installation-of-apps)
     - [Bash profiles and environmental variables](#bash-profiles-and-environmental-variables)
     - [Auto generated files](#auto-generated-files)
   - [Examples](#examples)
@@ -48,9 +50,14 @@ Images should go into dedicated `images` folder:
       └─ spotify-prev-track.applescript
 ```
 
+### English style convention
+
+Use American English spelling and style for your command metadata. 
+To make sure you use the right version, refer to [Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_American_and_British_English) or use [British to American English Converter](https://www.infoenglish.net/british-to-american-english/)
+
 ### File naming convention
 
-Use dash-case format for script files and directories, and use proper file extensions: Applescript should be `.applescript`, Swift should be `.swift`, Bash should be `.sh`, etc.
+Use lowercased, dash-case format for script files and directories, and use proper file extensions: Applescript should be `.applescript`, Swift should be `.swift`, Bash should be `.sh`, etc.
 Example: `spotify-next-track.applescript`
 
 ### Metadata convention
@@ -99,6 +106,19 @@ If you still need a dependency, follow these guidelines:
 	     exit 1;
    fi
    ```
+   
+### Scripts that require installation of apps
+
+Some Scripts control apps and therefore require them to be installed. Make sure to hint the requirement and add guidance on how to install it at the top of the script:
+
+```
+#!/bin/bash
+
+# Note: Plash v2.2.0 required
+# Install via Mac App Store: https://apps.apple.com/app/id1494023538
+
+# @raycast.schemaVersion 1
+```
 
 ### Bash profiles and environmental variables
 
