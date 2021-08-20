@@ -66,6 +66,8 @@ elif $detailed; then
 		
 		if [[ $reason = "ci_activity" ]]; then
 			reason="CI"
+		elif [[ $reason = "review_requested" ]]; then
+			reason="Review"
 		else
 			reason="$(tr '[:lower:]' '[:upper:]' <<< ${reason:0:1})${reason:1}"
 		fi
