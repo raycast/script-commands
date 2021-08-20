@@ -1,20 +1,13 @@
 #!/bin/bash
 
-# Upload Latest Screenshot to Imgur
-# Fahim Faisal
-# Code is free to use. Do whatever you want with it
-
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Upload Latest Screenshot to Imgur
 # @raycast.mode silent
 # @raycast.packageName Upload to Imgur
-
 #
 # Optional parameters:
 # @raycast.icon ☁️
-# @raycast.currentDirectoryPath ~
-# @raycast.needsConfirmation false
 #
 # Documentation:
 # @raycast.description Upload your last screenshot to Imgur and copy the image link to clipboard
@@ -27,8 +20,13 @@ DIR=$(defaults read com.apple.screencapture location)
 FILE=$(ls -t "$DIR" | head -n 1)
 FILELOC="$DIR/$FILE"
 
-#Client ID, use your own to avoid limits. Get from https://api.imgur.com/oauth2/addclient
-client_id="6b1da49ab5fce27"
+#Client ID, use your own client ID. Get it from https://api.imgur.com/oauth2/addclient (Select anonymous useage as auth type)
+client_id="" #CAN NOT BE EMPTY
+
+if [ "$client_id" == "" ]; then
+    echo "No API Key found. Configure your own key before running"
+    exit -1
+fi
 
 function upload {
 	curl -s -H "Authorization: Client-ID $client_id" -H "Expect: " -F "image=$1" https://api.imgur.com/3/image.xml
