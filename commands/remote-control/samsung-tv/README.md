@@ -2,7 +2,7 @@
 
 ![demo](images/demo.png)
 
-Manage your Samgsung TV via [Raycast](http://raycast.com).
+Manage your Samsung TV via [Raycast](http://raycast.com).
 
 ### Compatibility
 > [Here](https://developer.samsung.com/smarttv/develop/specifications/tv-model-groups.html) are a complete list of compatible Samsung models that will be able to use these commands
