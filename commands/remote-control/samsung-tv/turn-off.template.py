@@ -3,7 +3,7 @@
 # How to use this script?
 # It's a template which needs further setup. Duplicate the file,
 # remove `.template.` from the filename and place your TVs IP address within the host parameter
-# You need to copy samgsunghelper.py, samgsungshortcuts.py, and samsungexceptions.py next to 
+# You need to copy samsunghelper.py, samsungshortcuts.py, and samsungexceptions.py next to 
 # the enabled script command otherwise it won't work.
 
 # Required parameters:
@@ -23,7 +23,7 @@
 
 import sys
 import os
-from samgsunghelper import SamsungTVWS
+from samsunghelper import SamsungTVWS
 
 sys.path.append('../')
 
