@@ -7,7 +7,7 @@
 
 # @raycast.icon images/safari.png
 # @raycast.mode silent
-# @raycast.packageName System
+# @raycast.packageName Safari
 # @raycast.schemaVersion 1
 
 tell application "Safari"
