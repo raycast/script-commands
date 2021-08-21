@@ -12,7 +12,6 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Turn On TV
-# @raycast.packageName Samsung TV Remote Control
 # @raycast.mode compact
 
 # Optional parameters:
@@ -20,10 +19,13 @@
 # @raycast.icon images/logo.png
 
 # Documentation:
-# @raycast.author DarrylBrooks97
+# @raycast.author Darryl Brooks
 # @raycast.authorURL https://github.com/DarrylBrooks97
-# @raycast.description Turns on the TV. You have to provide the MAC Address of the TV and accept the connection on the TV.
+# @raycast.description Turns on a Samsung TV.
 
 import wakeonlan
 
-wakeonlan.send_magic_packet('xx:xx:xx:xx:xx:xx')
+# Your TVs MAC Address should be within the TV's network settings menu
+mac_address = '00:00:00:00:00:00'
+
+wakeonlan.send_magic_packet(mac_address)
