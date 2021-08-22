@@ -19,7 +19,7 @@
 SDK_PATH="/Users/$USER/DevTools/flutter/bin"
 
 # Workspace Path. Add the Path To Your Default Workspace, This Will Be The Directory Where your Projects are Created
-WORKSPACE_PATH="/Users/$USER/FlutterProjects"
+WORKSPACE_PATH=""
 
 export PATH="$PATH:$SDK_PATH"
 first_argument=${1// /+}
