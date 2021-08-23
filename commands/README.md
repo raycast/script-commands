@@ -40,6 +40,7 @@ This repository contains sample commands and documentation to write your own one
   - [Hazeover](#hazeover)
   - [Iterm](#iterm)
   - [Mail](#mail)
+  - [Meetingbar](#meetingbar)
   - [Mullvad](#mullvad)
   - [Noteplan3](#noteplan3)
   - [Notes](#notes)
@@ -232,6 +233,13 @@ This repository contains sample commands and documentation to write your own one
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | 📧 | [Copy Foreground Mail Deeplink](apps/mail/copy-foreground-mail-deeplink.applescript) | Copies the foreground Mail deeplink | [Jesse Claven](https://github.com/jesse-c) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+
+#### Meetingbar
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/meetingbar/images/meetingbar.png" width="20" height="20"> | [Create Meeting](apps/meetingbar/meetingbar-create-meeting.applescript) | Create a new meeting. | [Jakub Lanski](https://github.com/jaklan) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/meetingbar/images/meetingbar.png" width="20" height="20"> | [Join Meeting](apps/meetingbar/meetingbar-join-meeting.applescript) | Join the ongoing or upcoming meeting. | [Jakub Lanski](https://github.com/jaklan) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 #### Mullvad
 
