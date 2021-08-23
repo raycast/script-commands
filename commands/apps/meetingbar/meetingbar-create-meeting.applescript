@@ -1,6 +1,10 @@
 #!/usr/bin/osascript
 
-# Dependency: This script requires MeetingBar to be installed: https://github.com/leits/MeetingBar
+# Dependencies:
+# MeetingBar: https://github.com/leits/MeetingBar
+
+# Recommended installation:
+# brew install --cask meetingbar
 
 # Required parameters:
 # @raycast.schemaVersion 1
