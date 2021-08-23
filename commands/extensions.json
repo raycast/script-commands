@@ -359,6 +359,34 @@
         {
           "authors" : [
             {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "createdAt" : "2021-08-21T13:14:05-04:00",
+          "currentDirectoryPath" : null,
+          "description" : "Trim newlines and tabs from clipboard content.",
+          "filename" : "trim-newlines-tabs.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "✂️"
+          },
+          "identifier" : "bcbc3784b51822bb3771df707ad5b088",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Conversions",
+          "path" : "conversions\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Trim Newlines and Tabs",
+          "updatedAt" : "2021-08-23T10:12:46+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Quentin Eude",
               "url" : "https:\/\/github.com\/qeude"
             }
@@ -1578,6 +1606,68 @@
 
       ],
       "subGroups" : [
+        {
+          "name" : "Samsung Tv",
+          "path" : "samsung-tv",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Darryl Brooks",
+                  "url" : "https:\/\/github.com\/DarrylBrooks97"
+                }
+              ],
+              "createdAt" : "2021-08-20T17:37:33-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Turns off a Samsung TV.",
+              "filename" : "turn-off.template.py",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/logo.png"
+              },
+              "identifier" : "3d94ec3aa6c87dc268d5331e3dcd5f6b",
+              "isTemplate" : true,
+              "language" : "python",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Samsung TV",
+              "path" : "remote-control\/samsung-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Turn Off TV",
+              "updatedAt" : "2021-08-23T10:12:46+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Darryl Brooks",
+                  "url" : "https:\/\/github.com\/DarrylBrooks97"
+                }
+              ],
+              "createdAt" : "2021-08-20T17:37:33-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Turns on a Samsung TV.",
+              "filename" : "turn-on.template.py",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/logo.png"
+              },
+              "identifier" : "8502bb2e79d9a698a2c729d0f9b18925",
+              "isTemplate" : true,
+              "language" : "python",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Samsung TV",
+              "path" : "remote-control\/samsung-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Turn On TV",
+              "updatedAt" : "2021-08-23T10:12:46+00:00"
+            }
+          ]
+        },
         {
           "name" : "Lg Tv",
           "path" : "lg-tv",
@@ -7635,7 +7725,7 @@
               "refreshTime" : "5m",
               "schemaVersion" : 1,
               "title" : "Unread Notifications",
-              "updatedAt" : "2020-12-02T14:51:09-05:00"
+              "updatedAt" : "2021-08-20T16:42:39-04:00"
             },
             {
               "authors" : [
@@ -13003,6 +13093,34 @@
               "authors" : [
                 {
                   "name" : "Ayoub Gharbi",
+                  "url" : "github.com\/ayoub-g"
+                }
+              ],
+              "createdAt" : "2021-08-19T11:57:46+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "This script searches for a note, given its exact name, or a substring, the search does not consider case",
+              "filename" : "search-note-by-name.applescript",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/notes.png"
+              },
+              "identifier" : "2742cc92859fb01b45bbed9bd2ba3dc8",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Notes",
+              "path" : "apps\/notes\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Search Note By Name",
+              "updatedAt" : "2021-08-19T11:57:46+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Ayoub Gharbi",
                   "url" : "https:\/\/github.com\/ayoub-g"
                 }
               ],
@@ -13179,6 +13297,34 @@
               "schemaVersion" : 1,
               "title" : "Close Other Tabs",
               "updatedAt" : "2021-03-09T15:09:02+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Dave Lehman",
+                  "url" : "https:\/\/github.com\/dlehman"
+                }
+              ],
+              "createdAt" : "2021-08-19T12:49:15-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open current Safari URL in new tab in Firefox",
+              "filename" : "safari-current-page-url-in-firefox.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/safari.png"
+              },
+              "identifier" : "953364ac2c0ce7e6bbb02efeed35bfd6",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Safari",
+              "path" : "apps\/safari\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Safari URL in Firefox",
+              "updatedAt" : "2021-08-20T09:04:17-05:00"
             },
             {
               "authors" : [
@@ -13375,6 +13521,34 @@
               "schemaVersion" : 1,
               "title" : "Close All Tabs",
               "updatedAt" : "2021-03-09T15:09:02+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Dave Lehman",
+                  "url" : "https:\/\/github.com\/dlehman"
+                }
+              ],
+              "createdAt" : "2021-08-19T12:49:15-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open current Safari URL in new tab in Chrome",
+              "filename" : "safari-current-page-url-in-chrome.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/safari.png"
+              },
+              "identifier" : "82f9f4b17a97bf774484f7946245c318",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Safari",
+              "path" : "apps\/safari\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Safari URL in Chrome",
+              "updatedAt" : "2021-08-20T09:04:07-05:00"
             }
           ]
         },
@@ -15674,6 +15848,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 549,
-  "updatedAt" : "2021-08-23T10:09:29Z"
+  "totalScriptCommands" : 555,
+  "updatedAt" : "2021-08-23T10:12:46Z"
 }
