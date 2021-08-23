@@ -6145,6 +6145,34 @@
         {
           "authors" : [
             {
+              "name" : "Nikita Galaiko",
+              "url" : "https:\/\/github.com\/ngalaiko"
+            }
+          ],
+          "createdAt" : "2021-08-18T17:37:27+02:00",
+          "currentDirectoryPath" : null,
+          "description" : "Unshortens clipboard content url and copies the result again.",
+          "filename" : "unshorten-url.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔗"
+          },
+          "identifier" : "51d92211ad21137b75d754f3b9667925",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "path" : "developer-utils\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Unshorten URL",
+          "updatedAt" : "2021-08-18T17:37:27+02:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Bin Hua",
               "url" : "https:\/\/github.com\/hzb"
             }
@@ -14582,7 +14610,34 @@
       "name" : "Productivity",
       "path" : "productivity",
       "scriptCommands" : [
-
+        {
+          "authors" : [
+            {
+              "name" : "Fahim Faisal",
+              "url" : "https:\/\/github.com\/i3p9"
+            }
+          ],
+          "createdAt" : "2021-08-19T04:36:52+06:00",
+          "currentDirectoryPath" : null,
+          "description" : "Upload your last screenshot to Imgur and copy the image link to clipboard",
+          "filename" : "imgur-upload-latest-screenshot.template.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "☁️"
+          },
+          "identifier" : "fb44bae955f942707a724e0c14063627",
+          "isTemplate" : true,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Upload to Imgur",
+          "path" : "productivity\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Upload Latest Screenshot to Imgur",
+          "updatedAt" : "2021-08-20T17:46:15+06:00"
+        }
       ],
       "subGroups" : [
         {
@@ -15619,6 +15674,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 547,
-  "updatedAt" : "2021-08-18T20:18:17Z"
+  "totalScriptCommands" : 549,
+  "updatedAt" : "2021-08-23T10:09:29Z"
 }
