@@ -1636,7 +1636,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Turn Off TV",
-              "updatedAt" : "2021-08-23T10:12:46+00:00"
+              "updatedAt" : "2021-08-23T10:12:10+00:00"
             },
             {
               "authors" : [
@@ -1664,7 +1664,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Turn On TV",
-              "updatedAt" : "2021-08-23T10:12:46+00:00"
+              "updatedAt" : "2021-08-23T10:12:10+00:00"
             }
           ]
         },
@@ -11056,6 +11056,68 @@
       ],
       "subGroups" : [
         {
+          "name" : "Meetingbar",
+          "path" : "meetingbar",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-08-23T05:05:54+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Join the ongoing or upcoming meeting.",
+              "filename" : "meetingbar-join-meeting.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/meetingbar.png"
+              },
+              "identifier" : "b8993c798f512a75626c91ead46662be",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "MeetingBar",
+              "path" : "apps\/meetingbar\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Join Meeting",
+              "updatedAt" : "2021-08-23T12:18:02+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-08-23T05:05:54+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Create a new meeting.",
+              "filename" : "meetingbar-create-meeting.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/meetingbar.png"
+              },
+              "identifier" : "79b4a204b8d40f498a14d7d0623bac23",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "MeetingBar",
+              "path" : "apps\/meetingbar\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Create Meeting",
+              "updatedAt" : "2021-08-23T12:18:02+02:00"
+            }
+          ]
+        },
+        {
           "name" : "Iterm",
           "path" : "iterm",
           "scriptCommands" : [
@@ -15848,6 +15910,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 555,
-  "updatedAt" : "2021-08-23T10:12:46Z"
+  "totalScriptCommands" : 557,
+  "updatedAt" : "2021-08-23T10:43:02Z"
 }
