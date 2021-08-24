@@ -21,15 +21,15 @@ import subprocess
 def getClipboardData():
     p = subprocess.Popen(["pbpaste"], stdout=subprocess.PIPE)
     data = p.stdout.read()
-    return data.decode("utf-8")
+    return data
 
 
 def setClipboardData(data):
     p = subprocess.Popen(["pbcopy"], stdin=subprocess.PIPE)
-    p.stdin.write(data.encode("utf-8"))
+    p.stdin.write(data)
     p.stdin.close()
 
-clipboard = str(getClipboardData())
-result = clipboard.upper()
+clipboard = getClipboardData()
+result = clipboard.decode('utf-8').upper().encode('utf-8')
 setClipboardData(result)
 print(result)
