@@ -65,6 +65,7 @@ This repository contains sample commands and documentation to write your own one
   - [Tunnelblick](#tunnelblick)
   - [Viscosity](#viscosity)
   - [Wikipedia](#wikipedia)
+  - [Y Pomodoro](#y-pomodoro)
 - [Bookmarks](#bookmarks)
 - [Browsing](#browsing)
 - [Communication](#communication)
@@ -263,6 +264,7 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/notes/./images/notes.png" width="20" height="20"> | [Append Content From Clipboard](apps/notes/append-note-from-clipboard.applescript) | Script to append to an existing note content from clipboard. | [Ayoub Gharbi](https://github.com/ayoub-g) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/notes/./images/notes.png" width="20" height="20"> | [Create Note](apps/notes/create-note.applescript) | Create a new Note  | [Vardan Sawhney](https://github.com/commai) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/notes/./images/notes.png" width="20" height="20"> | [Create Note From Clipboard](apps/notes/create-note-from-clipboard.applescript) | Create Note From Clipboard | [Ayoub Gharbi](https://github.com/ayoub-g) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/notes/./images/notes.png" width="20" height="20"> | [Open Note](apps/notes/open-note.applescript) | Open Note via its Title | [Vardan Sawhney](https://github.com/commai) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
@@ -438,6 +440,16 @@ This repository contains sample commands and documentation to write your own one
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/wikipedia/images/wikipedia.png" width="20" height="20"> | [Wikipedia Search](apps/wikipedia/wikipedia-search.py) | Search Wikipedia and display the result in Raycast | [Juan I. Serra](https://twitter.com/jiserra) | ✅ |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
+
+#### Y Pomodoro
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | 🍅 | [Pause](apps/y-pomodoro/pause.sh) | Pause active pomodoro timer using  [y-pomodoro](https://github.com/jesse-c/y-pomodoro) | [Jesse Claven](https://github.com/jesse-c) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🍅 | [Resume](apps/y-pomodoro/resume.sh) | Resume active pomodoro timer using [y-pomodoro](https://github.com/jesse-c/y-pomodoro) | [Jesse Claven](https://github.com/jesse-c) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🍅 | [Show](apps/y-pomodoro/show.sh) | Show active pomodoro timer using [y-pomodoro](https://github.com/jesse-c/y-pomodoro) | [Jesse Claven](https://github.com/jesse-c) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🍅 | [Start](apps/y-pomodoro/start.sh) | Start a pomodoro timer using [y-pomodoro](https://github.com/jesse-c/y-pomodoro) | [Jesse Claven](https://github.com/jesse-c) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🍅 | [Stop](apps/y-pomodoro/stop.sh) | Stop active pomodoro timer using [y-pomodoro](https://github.com/jesse-c/y-pomodoro) | [Jesse Claven](https://github.com/jesse-c) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 ## Bookmarks
 
