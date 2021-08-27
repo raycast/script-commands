@@ -33,14 +33,18 @@ if [ ! -d "/Applications/$1.app" ]; then
     exit -2
 fi
 
-if [ $3 == "y" -o $3 == "Y"]; then
+loc=""; omit=0
+if [ -z $3 ] && [ $2 = "y" -o $2 = "Y" ]; then
     loc="-l"
-else
-    loc=""
+    omit=1
+fi
+if [ $omit -eq 0 ] && [ $3 = "y" -o $3 = "Y" ]; then
+    loc="-l"
 fi
 
-if [ -n $2 ]; then
+if [ -n $2 ] && [ $omit -eq 0 ]; then
     echo $2|sudo -S iconsur set "/Applications/$1.app" $loc
+    echo "loc-$loc-omit-$omit"
 else
     iconsur set "/Applications/$1.app" $loc
 fi
