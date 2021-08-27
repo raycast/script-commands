@@ -27,8 +27,8 @@ require 'json'
 require 'open-uri'
 
 q = ARGV[0]
-sl = ARGV[1] == "" ? "en" : ARGV[1] # Source language
-tl = ARGV[2] == "" ? "ro" : ARGV[2] # Target language
+sl = ARGV[1].nil? || ARGV[1].empty? ? "en" : ARGV[1] # Source language
+tl = ARGV[2].nil? || ARGV[2].empty? ? "ro" : ARGV[2] # Target language
 
 # If the length of the query is less than 2, it won't return anything valid.
 if q.length < 2
