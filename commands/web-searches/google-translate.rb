@@ -35,7 +35,14 @@ if q.length < 2
     exit 1
 end
 
-uri = URI("https://translate.googleapis.com/translate_a/single?client=gtx&sl=#{sl}&tl=#{tl}&dt=t&q=#{q}")
+uri = URI('https://translate.googleapis.com/translate_a/single')
+uri.query = URI::encode_www_form(
+  'client' => 'gtx',
+  'sl' => sl,
+  'tl' => tl,
+  'dt' => 't',
+  'q' => q
+)
 
 http = Net::HTTP.new(uri.host, 80)
 request = Net::HTTP::Get.new(uri, initheader = {'Content-Type' => 'application/json', 'Accept' => 'application/json'})
