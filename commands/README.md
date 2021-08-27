@@ -40,6 +40,7 @@ This repository contains sample commands and documentation to write your own one
   - [Hazeover](#hazeover)
   - [Iterm](#iterm)
   - [Mail](#mail)
+  - [Meetingbar](#meetingbar)
   - [Mullvad](#mullvad)
   - [Noteplan3](#noteplan3)
   - [Notes](#notes)
@@ -64,6 +65,7 @@ This repository contains sample commands and documentation to write your own one
   - [Tunnelblick](#tunnelblick)
   - [Viscosity](#viscosity)
   - [Wikipedia](#wikipedia)
+  - [Y Pomodoro](#y-pomodoro)
 - [Bookmarks](#bookmarks)
 - [Browsing](#browsing)
 - [Communication](#communication)
@@ -107,6 +109,7 @@ This repository contains sample commands and documentation to write your own one
   - [Stopwatch](#stopwatch)
 - [Remote Control](#remote-control)
   - [Lg Tv](#lg-tv)
+  - [Samsung Tv](#samsung-tv)
 - [System](#system)
   - [Audio](#audio)
   - [Vpn](#vpn)
@@ -232,6 +235,13 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | 📧 | [Copy Foreground Mail Deeplink](apps/mail/copy-foreground-mail-deeplink.applescript) | Copies the foreground Mail deeplink | [Jesse Claven](https://github.com/jesse-c) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
+#### Meetingbar
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/meetingbar/images/meetingbar.png" width="20" height="20"> | [Create Meeting](apps/meetingbar/meetingbar-create-meeting.applescript) | Create a new meeting. | [Jakub Lanski](https://github.com/jaklan) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/meetingbar/images/meetingbar.png" width="20" height="20"> | [Join Meeting](apps/meetingbar/meetingbar-join-meeting.applescript) | Join the ongoing or upcoming meeting. | [Jakub Lanski](https://github.com/jaklan) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+
 #### Mullvad
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
@@ -254,8 +264,11 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/notes/./images/notes.png" width="20" height="20"> | [Append Content From Clipboard](apps/notes/append-note-from-clipboard.applescript) | Script to append to an existing note content from clipboard. | [Ayoub Gharbi](https://github.com/ayoub-g) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/notes/./images/notes.png" width="20" height="20"> | [Create Note](apps/notes/create-note.applescript) | Create a new Note  | [Vardan Sawhney](https://github.com/commai) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/notes/./images/notes.png" width="20" height="20"> | [Create Note From Clipboard](apps/notes/create-note-from-clipboard.applescript) | Create Note From Clipboard | [Ayoub Gharbi](https://github.com/ayoub-g) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/notes/./images/notes.png" width="20" height="20"> | [Open Note](apps/notes/open-note.applescript) | Open Note via its Title | [Vardan Sawhney](https://github.com/commai) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/notes/./images/notes.png" width="20" height="20"> | [Search Note By Name](apps/notes/search-note-by-name.applescript) | This script searches for a note, given its exact name, or a substring, the search does not consider case | [Ayoub Gharbi](github.com/ayoub-g) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 #### Obsidian
 
@@ -317,6 +330,8 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/safari/images/safari.png" width="20" height="20"> | [Close Tabs to the Left](apps/safari/safari-close-tabs-left.applescript) | Close all tabs to the left side of the currently active tab. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/safari/images/safari.png" width="20" height="20"> | [Close Tabs to the Right](apps/safari/safari-close-tabs-right.applescript) | Close all tabs to the right side of the currently active tab. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/safari/images/safari.png" width="20" height="20"> | [Duplicate Tab](apps/safari/safari-duplicate-tab.applescript) | Duplicates and opens the currently active tab. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/safari/images/safari.png" width="20" height="20"> | [Open Safari URL in Chrome](apps/safari/safari-current-page-url-in-chrome.applescript) | Open current Safari URL in new tab in Chrome | [Dave Lehman](https://github.com/dlehman) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/safari/images/safari.png" width="20" height="20"> | [Open Safari URL in Firefox](apps/safari/safari-current-page-url-in-firefox.applescript) | Open current Safari URL in new tab in Firefox | [Dave Lehman](https://github.com/dlehman) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 #### Script Kit
 
@@ -426,6 +441,16 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/wikipedia/images/wikipedia.png" width="20" height="20"> | [Wikipedia Search](apps/wikipedia/wikipedia-search.py) | Search Wikipedia and display the result in Raycast | [Juan I. Serra](https://twitter.com/jiserra) | ✅ |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
 
+#### Y Pomodoro
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | 🍅 | [Pause](apps/y-pomodoro/pause.sh) | Pause active pomodoro timer using  [y-pomodoro](https://github.com/jesse-c/y-pomodoro) | [Jesse Claven](https://github.com/jesse-c) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🍅 | [Resume](apps/y-pomodoro/resume.sh) | Resume active pomodoro timer using [y-pomodoro](https://github.com/jesse-c/y-pomodoro) | [Jesse Claven](https://github.com/jesse-c) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🍅 | [Show](apps/y-pomodoro/show.sh) | Show active pomodoro timer using [y-pomodoro](https://github.com/jesse-c/y-pomodoro) | [Jesse Claven](https://github.com/jesse-c) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🍅 | [Start](apps/y-pomodoro/start.sh) | Start a pomodoro timer using [y-pomodoro](https://github.com/jesse-c/y-pomodoro) | [Jesse Claven](https://github.com/jesse-c) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🍅 | [Stop](apps/y-pomodoro/stop.sh) | Stop active pomodoro timer using [y-pomodoro](https://github.com/jesse-c/y-pomodoro) | [Jesse Claven](https://github.com/jesse-c) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
 ## Bookmarks
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
@@ -521,6 +546,7 @@ This repository contains sample commands and documentation to write your own one
   | 🎨 | [Hex to RGBA](conversions/hex-to-rgba.sh) | Convert hexadecimal color value to RGBA value. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 📝 | [Rich Text to Markdown](conversions/rich-text-clipboard-to-markdown.sh) | Convert rich text clipboard data to GitHub Flavored Markdown using Pandoc | [Adam Zethraeus](https://github.com/adam-zethraeus) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🔠 | [Strikethrough Text](conversions/strikethrough.sh) | Converts given text (or clipboard if no argument) to t̶e̶x̶t̶ | [Jakub Lanski](https://github.com/jaklan) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | ✂️ | [Trim Newlines and Tabs](conversions/trim-newlines-tabs.sh) | Trim newlines and tabs from clipboard content. | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🦸‍♀️ | [Unicode Superscript](conversions/unicode-superscript.sh) | Convert clipboards text to fake unicode superscript | [Adam Zethraeus](https://github.com/adam-zethraeus) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🕰 | [Unix Time Reader From Clipboard](conversions/unix-time-reader.sh) | Display Human-Readable Date from Unix Time in Clipboard | [Francis Feng](https://github.com/francisfeng) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🌇 | [Vaporwave Text](conversions/vaporwave-text.sh) | Convert clipboard text to ｖａｐｏｒｗａｖｅ | [Adam Zethraeus](https://github.com/adam-zethraeus) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
@@ -615,6 +641,7 @@ This repository contains sample commands and documentation to write your own one
   | 🔐 | [Strong Password Generator](developer-utils/strong-password-generator.sh) | Generate a strong password of requested character length | [Nitin Gupta](https://twitter.com/gniting) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🔠 | [Transform Case](developer-utils/transform-case.sh) | Transform the case of clipboard content. Defaults to lower case if no conversion type is specified. | [Nitin Gupta](https://twitter.com/gniting) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | ✂ | [Trim Git Commit Hash](developer-utils/trim-git-commit-hash.sh) | Trim full git commit hash down to seven characters. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🔗 | [Unshorten URL](developer-utils/unshorten-url.sh) | Unshortens clipboard content url and copies the result again. | [Nikita Galaiko](https://github.com/ngalaiko) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🌐 | [Whois](developer-utils/whois.sh) | Whois of URL. | [Caleb Stauffer](https://github.com/crstauf) and [Ronan Rodrigo Nunes](https://ronanrodrigo.dev) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Aws
@@ -756,6 +783,7 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-music/images/apple-music-logo.png" width="20" height="20"> | [Pause](media/apple-music/apple-music-pause.applescript) | Pause Music. | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-music/images/apple-music-logo.png" width="20" height="20"> | [Play](media/apple-music/apple-music-play.applescript) | Play Music. | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-music/images/apple-music-logo.png" width="20" height="20"> | [Previous Track](media/apple-music/apple-music-previous.applescript) | Previous track in Music. | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-music/images/apple-music-logo.png" width="20" height="20"> | [Search](media/apple-music/apple-music-search.applescript) | Search using the native UI | [StevenRCE0](https://github.com/StevenRCE0) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-music/images/apple-music-logo.png" width="20" height="20"> | [Set Volume](media/apple-music/apple-music-set-volume.applescript) | Set volume in Music. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-music/images/apple-music-logo.png" width="20" height="20"> | [Stop](media/apple-music/apple-music-stop.applescript) | Stop Music. | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-music/images/apple-music-logo.png" width="20" height="20"> | [Toggle Repeat](media/apple-music/apple-music-repeat.applescript) | Toggle repeat setting in Music. | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
@@ -841,6 +869,10 @@ This repository contains sample commands and documentation to write your own one
 
 ## Productivity
 
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | ☁️ | [Upload Latest Screenshot to Imgur](productivity/imgur-upload-latest-screenshot.template.sh) | Upload your last screenshot to Imgur and copy the image link to clipboard | [Fahim Faisal](https://github.com/i3p9) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
 #### Pomodoro
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
@@ -911,6 +943,13 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/remote-control/lg-tv/images/lg.png" width="20" height="20"> | [Turn Volume Down](remote-control/lg-tv/turn-volume-down.sh) | Turn the volume down. | [Jakub Lanski](https://github.com/jaklan) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/remote-control/lg-tv/images/lg.png" width="20" height="20"> | [Turn Volume Up](remote-control/lg-tv/turn-volume-up.sh) | Turn the volume up. | [Jakub Lanski](https://github.com/jaklan) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/remote-control/lg-tv/images/lg.png" width="20" height="20"> | [Unmute](remote-control/lg-tv/unmute.sh) | Unmute the TV. | [Jakub Lanski](https://github.com/jaklan) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Samsung Tv
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/remote-control/samsung-tv/images/logo.png" width="20" height="20"> | [Turn Off TV](remote-control/samsung-tv/turn-off.template.py) | Turns off a Samsung TV. | [Darryl Brooks](https://github.com/DarrylBrooks97) |  | ✅ | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/remote-control/samsung-tv/images/logo.png" width="20" height="20"> | [Turn On TV](remote-control/samsung-tv/turn-on.template.py) | Turns on a Samsung TV. | [Darryl Brooks](https://github.com/DarrylBrooks97) |  | ✅ | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
 
 ## System
 
