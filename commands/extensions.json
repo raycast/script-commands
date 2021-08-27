@@ -359,6 +359,34 @@
         {
           "authors" : [
             {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "createdAt" : "2021-08-21T13:14:05-04:00",
+          "currentDirectoryPath" : null,
+          "description" : "Trim newlines and tabs from clipboard content.",
+          "filename" : "trim-newlines-tabs.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "✂️"
+          },
+          "identifier" : "bcbc3784b51822bb3771df707ad5b088",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Conversions",
+          "path" : "conversions\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Trim Newlines and Tabs",
+          "updatedAt" : "2021-08-23T10:12:46+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Quentin Eude",
               "url" : "https:\/\/github.com\/qeude"
             }
@@ -1578,6 +1606,68 @@
 
       ],
       "subGroups" : [
+        {
+          "name" : "Samsung Tv",
+          "path" : "samsung-tv",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Darryl Brooks",
+                  "url" : "https:\/\/github.com\/DarrylBrooks97"
+                }
+              ],
+              "createdAt" : "2021-08-20T17:37:33-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Turns off a Samsung TV.",
+              "filename" : "turn-off.template.py",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/logo.png"
+              },
+              "identifier" : "3d94ec3aa6c87dc268d5331e3dcd5f6b",
+              "isTemplate" : true,
+              "language" : "python",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Samsung TV",
+              "path" : "remote-control\/samsung-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Turn Off TV",
+              "updatedAt" : "2021-08-23T10:12:10+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Darryl Brooks",
+                  "url" : "https:\/\/github.com\/DarrylBrooks97"
+                }
+              ],
+              "createdAt" : "2021-08-20T17:37:33-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Turns on a Samsung TV.",
+              "filename" : "turn-on.template.py",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/logo.png"
+              },
+              "identifier" : "8502bb2e79d9a698a2c729d0f9b18925",
+              "isTemplate" : true,
+              "language" : "python",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Samsung TV",
+              "path" : "remote-control\/samsung-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Turn On TV",
+              "updatedAt" : "2021-08-23T10:12:10+00:00"
+            }
+          ]
+        },
         {
           "name" : "Lg Tv",
           "path" : "lg-tv",
@@ -6145,6 +6235,34 @@
         {
           "authors" : [
             {
+              "name" : "Nikita Galaiko",
+              "url" : "https:\/\/github.com\/ngalaiko"
+            }
+          ],
+          "createdAt" : "2021-08-18T17:37:27+02:00",
+          "currentDirectoryPath" : null,
+          "description" : "Unshortens clipboard content url and copies the result again.",
+          "filename" : "unshorten-url.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔗"
+          },
+          "identifier" : "51d92211ad21137b75d754f3b9667925",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "path" : "developer-utils\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Unshorten URL",
+          "updatedAt" : "2021-08-18T17:37:27+02:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Bin Hua",
               "url" : "https:\/\/github.com\/hzb"
             }
@@ -7607,7 +7725,7 @@
               "refreshTime" : "5m",
               "schemaVersion" : 1,
               "title" : "Unread Notifications",
-              "updatedAt" : "2020-12-02T14:51:09-05:00"
+              "updatedAt" : "2021-08-20T16:42:39-04:00"
             },
             {
               "authors" : [
@@ -10938,6 +11056,68 @@
       ],
       "subGroups" : [
         {
+          "name" : "Meetingbar",
+          "path" : "meetingbar",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-08-23T05:05:54+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Join the ongoing or upcoming meeting.",
+              "filename" : "meetingbar-join-meeting.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/meetingbar.png"
+              },
+              "identifier" : "b8993c798f512a75626c91ead46662be",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "MeetingBar",
+              "path" : "apps\/meetingbar\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Join Meeting",
+              "updatedAt" : "2021-08-23T12:18:02+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-08-23T05:05:54+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Create a new meeting.",
+              "filename" : "meetingbar-create-meeting.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/meetingbar.png"
+              },
+              "identifier" : "79b4a204b8d40f498a14d7d0623bac23",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "MeetingBar",
+              "path" : "apps\/meetingbar\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Create Meeting",
+              "updatedAt" : "2021-08-23T12:18:02+02:00"
+            }
+          ]
+        },
+        {
           "name" : "Iterm",
           "path" : "iterm",
           "scriptCommands" : [
@@ -12974,6 +13154,90 @@
             {
               "authors" : [
                 {
+                  "name" : "Ayoub Gharbi",
+                  "url" : "github.com\/ayoub-g"
+                }
+              ],
+              "createdAt" : "2021-08-19T11:57:46+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "This script searches for a note, given its exact name, or a substring, the search does not consider case",
+              "filename" : "search-note-by-name.applescript",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/notes.png"
+              },
+              "identifier" : "2742cc92859fb01b45bbed9bd2ba3dc8",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Notes",
+              "path" : "apps\/notes\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Search Note By Name",
+              "updatedAt" : "2021-08-19T11:57:46+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Ayoub Gharbi",
+                  "url" : "https:\/\/github.com\/ayoub-g"
+                }
+              ],
+              "createdAt" : "2021-08-20T22:46:40+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Script to append to an existing note content from clipboard.",
+              "filename" : "append-note-from-clipboard.applescript",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/notes.png"
+              },
+              "identifier" : "8e61646606984a27fa52fabeda748f01",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Notes",
+              "path" : "apps\/notes\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Append Content From Clipboard",
+              "updatedAt" : "2021-08-20T22:46:40+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Ayoub Gharbi",
+                  "url" : "https:\/\/github.com\/ayoub-g"
+                }
+              ],
+              "createdAt" : "2021-07-21T23:46:22-04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Create Note From Clipboard",
+              "filename" : "create-note-from-clipboard.applescript",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/notes.png"
+              },
+              "identifier" : "4186e11daddefc7d27d89b3943eb4b44",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Notes",
+              "path" : "apps\/notes\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Create Note From Clipboard",
+              "updatedAt" : "2021-08-18T17:31:58+01:00"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Vardan Sawhney",
                   "url" : "https:\/\/github.com\/commai"
                 }
@@ -12998,6 +13262,152 @@
               "schemaVersion" : 1,
               "title" : "Create Note",
               "updatedAt" : "2021-07-23T21:06:02-04:00"
+            }
+          ]
+        },
+        {
+          "name" : "Y Pomodoro",
+          "path" : "y-pomodoro",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Jesse Claven",
+                  "url" : "https:\/\/github.com\/jesse-c"
+                }
+              ],
+              "createdAt" : "2021-08-20T22:47:15+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Pause active pomodoro timer using  [y-pomodoro](https:\/\/github.com\/jesse-c\/y-pomodoro)",
+              "filename" : "pause.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🍅"
+              },
+              "identifier" : "d2836820287e44cb9f83f4dd84f8fdd1",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "y-pomodoro",
+              "path" : "apps\/y-pomodoro\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Pause",
+              "updatedAt" : "2021-08-20T22:47:15+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jesse Claven",
+                  "url" : "https:\/\/github.com\/jesse-c"
+                }
+              ],
+              "createdAt" : "2021-08-20T22:47:15+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show active pomodoro timer using [y-pomodoro](https:\/\/github.com\/jesse-c\/y-pomodoro)",
+              "filename" : "show.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🍅"
+              },
+              "identifier" : "8c775fb12a394e545e09c5dc3f4f5385",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "y-pomodoro",
+              "path" : "apps\/y-pomodoro\/",
+              "refreshTime" : "15s",
+              "schemaVersion" : 1,
+              "title" : "Show",
+              "updatedAt" : "2021-08-20T22:47:15+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jesse Claven",
+                  "url" : "https:\/\/github.com\/jesse-c"
+                }
+              ],
+              "createdAt" : "2021-08-20T22:47:15+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Resume active pomodoro timer using [y-pomodoro](https:\/\/github.com\/jesse-c\/y-pomodoro)",
+              "filename" : "resume.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🍅"
+              },
+              "identifier" : "3f8075486c097397d65b6911816fba51",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "y-pomodoro",
+              "path" : "apps\/y-pomodoro\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Resume",
+              "updatedAt" : "2021-08-20T22:47:15+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jesse Claven",
+                  "url" : "https:\/\/github.com\/jesse-c"
+                }
+              ],
+              "createdAt" : "2021-08-20T22:47:15+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Stop active pomodoro timer using [y-pomodoro](https:\/\/github.com\/jesse-c\/y-pomodoro)",
+              "filename" : "stop.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🍅"
+              },
+              "identifier" : "e265864f8039fb0d44199d08a552c4f5",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "y-pomodoro",
+              "path" : "apps\/y-pomodoro\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Stop",
+              "updatedAt" : "2021-08-20T22:47:15+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jesse Claven",
+                  "url" : "https:\/\/github.com\/jesse-c"
+                }
+              ],
+              "createdAt" : "2021-08-20T22:47:15+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Start a pomodoro timer using [y-pomodoro](https:\/\/github.com\/jesse-c\/y-pomodoro)",
+              "filename" : "start.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🍅"
+              },
+              "identifier" : "205772935becd5940672978344fe329f",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "y-pomodoro",
+              "path" : "apps\/y-pomodoro\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Start",
+              "updatedAt" : "2021-08-20T22:47:15+01:00"
             }
           ]
         },
@@ -13123,6 +13533,34 @@
               "schemaVersion" : 1,
               "title" : "Close Other Tabs",
               "updatedAt" : "2021-03-09T15:09:02+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Dave Lehman",
+                  "url" : "https:\/\/github.com\/dlehman"
+                }
+              ],
+              "createdAt" : "2021-08-19T12:49:15-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open current Safari URL in new tab in Firefox",
+              "filename" : "safari-current-page-url-in-firefox.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/safari.png"
+              },
+              "identifier" : "953364ac2c0ce7e6bbb02efeed35bfd6",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Safari",
+              "path" : "apps\/safari\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Safari URL in Firefox",
+              "updatedAt" : "2021-08-20T09:04:17-05:00"
             },
             {
               "authors" : [
@@ -13319,6 +13757,34 @@
               "schemaVersion" : 1,
               "title" : "Close All Tabs",
               "updatedAt" : "2021-03-09T15:09:02+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Dave Lehman",
+                  "url" : "https:\/\/github.com\/dlehman"
+                }
+              ],
+              "createdAt" : "2021-08-19T12:49:15-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open current Safari URL in new tab in Chrome",
+              "filename" : "safari-current-page-url-in-chrome.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/safari.png"
+              },
+              "identifier" : "82f9f4b17a97bf774484f7946245c318",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Safari",
+              "path" : "apps\/safari\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Safari URL in Chrome",
+              "updatedAt" : "2021-08-20T09:04:07-05:00"
             }
           ]
         },
@@ -14554,7 +15020,34 @@
       "name" : "Productivity",
       "path" : "productivity",
       "scriptCommands" : [
-
+        {
+          "authors" : [
+            {
+              "name" : "Fahim Faisal",
+              "url" : "https:\/\/github.com\/i3p9"
+            }
+          ],
+          "createdAt" : "2021-08-19T04:36:52+06:00",
+          "currentDirectoryPath" : null,
+          "description" : "Upload your last screenshot to Imgur and copy the image link to clipboard",
+          "filename" : "imgur-upload-latest-screenshot.template.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "☁️"
+          },
+          "identifier" : "fb44bae955f942707a724e0c14063627",
+          "isTemplate" : true,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Upload to Imgur",
+          "path" : "productivity\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Upload Latest Screenshot to Imgur",
+          "updatedAt" : "2021-08-20T17:46:15+06:00"
+        }
       ],
       "subGroups" : [
         {
@@ -14973,6 +15466,34 @@
               "schemaVersion" : 1,
               "title" : "Play",
               "updatedAt" : "2020-11-28T12:26:29-05:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "StevenRCE0",
+                  "url" : "https:\/\/github.com\/StevenRCE0"
+                }
+              ],
+              "createdAt" : "2021-08-18T09:16:28+08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Search using the native UI",
+              "filename" : "apple-music-search.applescript",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/apple-music-logo.png"
+              },
+              "identifier" : "8596be52df39001815a5ed2803155afc",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Apple Music",
+              "path" : "media\/apple-music\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Search",
+              "updatedAt" : "2021-08-18T20:20:15+08:00"
             },
             {
               "authors" : [
@@ -15563,6 +16084,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 545,
-  "updatedAt" : "2021-08-17T16:45:36Z"
+  "totalScriptCommands" : 563,
+  "updatedAt" : "2021-08-26T08:41:01Z"
 }
