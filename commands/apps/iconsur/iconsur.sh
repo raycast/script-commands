@@ -24,13 +24,13 @@
 t=$(which iconsur)
 if [ -z "$t" ]; then
     echo "Iconsur not found, install using brew install iconsur"
-    exit -1
+    exit 1
 fi
 
 # Test file
 if [ ! -d "/Applications/$1.app" ]; then
     echo "Application not found, make sure it's in /Application folder"
-    exit -2
+    exit 2
 fi
 
 loc=""; omit=0
@@ -42,11 +42,19 @@ if [ $omit -eq 0 ] && [ $3 = "y" -o $3 = "Y" ]; then
     loc="-l"
 fi
 
-if [ -n $2 ] && [ $omit -eq 0 ]; then
+if [ $2 ] && [ $omit -eq 0 ]; then
+    echo "pwding"
     echo $2|sudo -S iconsur set "/Applications/$1.app" $loc
-    echo "loc-$loc-omit-$omit"
+    if [ ${PIPESTATUS[1]} -eq 1 ]; then
+        echo "Password incorrect"
+        exit 0
+    fi
 else
     iconsur set "/Applications/$1.app" $loc
+    if [ ${PIPESTATUS[0]} -eq 1 ]; then
+        echo "It didn't work, try again with password"
+        exit 0
+    fi
 fi
 
 echo "Icon changed successfully"
