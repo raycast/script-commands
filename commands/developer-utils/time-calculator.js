@@ -1,5 +1,8 @@
 #!/usr/bin/env node
 
+// Dependency: This script requires Nodejs.
+// Install Node: https://nodejs.org/en/download/
+
 // Required parameters:
 // @raycast.schemaVersion 1
 // @raycast.title Time Calculator
@@ -7,11 +10,11 @@
 
 // Optional parameters:
 // @raycast.icon 🕒
-// @raycast.argument1 { "type": "text", "placeholder": "Starting Date DEFAULT: now", "optional":true }
-// @raycast.argument2 { "type": "text", "placeholder": "Time to add or subtract eg: -44, 44, +44" }
-// @raycast.argument3 { "type": "text", "placeholder": "s, m, h, d, w, y DEFAULT: h", "optional":true}
-// @raycast.description Add and Subtract specified amount of time from given date.
-// @raycast.packageName Developer Utils
+// @raycast.argument1 { "type": "text", "placeholder": "Starting Date (Default: now)", "optional":true }
+// @raycast.argument2 { "type": "text", "placeholder": "Time to Add/Subtract (eg: -44, 44, +44)" }
+// @raycast.argument3 { "type": "text", "placeholder": "s, m, h, d, w, y (Default: h)", "optional":true}
+// @raycast.description Add or Subtract specified amount of time from given date.
+// @raycast.packageName Developer Utilities
 
 // Documentation:
 // @raycast.author Federico Miraglia
@@ -24,7 +27,7 @@ var unit = process.argv.slice(2)[2] == "" ? "h" : process.argv.slice(2)[2]
 var operator = ""
 
 if (unit != "s" && unit != "m" && unit != "h" && unit != "d" && unit != "w" && unit != "y") {
-    console.log("Use s, m, h, d, w, y as units of mesure")
+    console.log("Use s, m, h, d, w, y as units of measure")
     return null
 }
 
