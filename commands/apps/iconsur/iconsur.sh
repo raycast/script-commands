@@ -16,7 +16,7 @@
 # @raycast.packageName iconsur
 
 # Documentation:
-# @raycast.description Change App Icons to Match Big Sur
+# @raycast.description Change App icons to match Big Sur
 # @raycast.author StevenRCE0
 # @raycast.authorURL https://github.com/StevenRCE0
 
