@@ -1,5 +1,8 @@
 #!/usr/bin/env node
 
+// Dependency: This script requires Nodejs.
+// Install Node: https://nodejs.org/en/download/
+
 // Required parameters:
 // @raycast.schemaVersion 1
 // @raycast.title Time Between Dates
@@ -7,10 +10,10 @@
 
 // Optional parameters:
 // @raycast.icon 🕒
-// @raycast.argument1 { "type": "text", "placeholder": "First Date DEFAULT: now", "optional":true}
+// @raycast.argument1 { "type": "text", "placeholder": "First Date (Default: now)", "optional":true}
 // @raycast.argument2 { "type": "text", "placeholder": "Second Date" }
-// @raycast.description Given two dates returns the time between them in multiple units of mesure.
-// @raycast.packageName Developer Utils
+// @raycast.description Given two dates returns the time between them in multiple units of measure.
+// @raycast.packageName Developer Utilities
 
 // Documentation:
 // @raycast.author Federico Miraglia
@@ -51,4 +54,8 @@ var diffDays = Math.round(diffMS1Am / (1000 * 3600 * 24))
 var diffHours = Math.round(diffMS / (1000 * 3600))
 var diffYears = (diffMS / 31556952000).toFixed(2)
 
-console.log(`There are ${diffMS} milliseconds\nThere are ${diffHours} hours\nThere are ${diffDays} days today excluded\nThere are ${diffYears} years\nBetween the two given dates.`)
+console.log(`There are ${diffMS} milliseconds`);
+console.log(`There are ${diffHours} hours`);
+console.log(`There are ${diffDays} days today excluded`);
+console.log(`There are ${diffYears} years`);
+console.log(`Between the two given dates.`);
