@@ -2,7 +2,9 @@
 
 # Required parameters:
 # @raycast.author Luigi Cardito
-# @raycast.authorURL https://github.com/lcardito (credits Faris Aziz https://github.com/farisaziz12)
+# @raycast.authorURL https://github.com/lcardito
+# @raycast.author Faris Aziz
+# @raycast.authorURL https://github.com/farisaziz12
 # @raycast.schemaVersion 1
 # @raycast.title Mute microphone
 # @raycast.mode silent
