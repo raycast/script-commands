@@ -6,7 +6,7 @@
 # @raycast.mode compact
 
 # Optional parameters:
-# @raycast.argument1 { "type": "text", "placeholder": "Deep link" }
+# @raycast.argument1 { "type": "text", "placeholder": "Deep Link" }
 
 # Documentation:
 # @raycast.description Opens a URL inside the currently booted iOS Simulator. Can be used to open deeplinks
