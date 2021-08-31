@@ -6,7 +6,7 @@
 # @raycast.author Faris Aziz
 # @raycast.authorURL https://github.com/farisaziz12
 # @raycast.schemaVersion 1
-# @raycast.title Mute microphone
+# @raycast.title Mute Microphone
 # @raycast.mode silent
 # @raycast.packageName Zoom
 # @raycast.description Mutes your microphone in the current meetin
