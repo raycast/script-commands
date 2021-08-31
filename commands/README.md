@@ -105,6 +105,7 @@ This repository contains sample commands and documentation to write your own one
 - [Password Managers](#password-managers)
   - [Bitwarden](#bitwarden)
 - [Productivity](#productivity)
+  - [Imgur](#imgur)
   - [Pomodoro](#pomodoro)
   - [Stopwatch](#stopwatch)
 - [Remote Control](#remote-control)
@@ -869,9 +870,13 @@ This repository contains sample commands and documentation to write your own one
 
 ## Productivity
 
+#### Imgur
+
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
-  | ☁️ | [Upload Latest Screenshot to Imgur](productivity/imgur-upload-latest-screenshot.template.sh) | Upload your last screenshot to Imgur and copy the image link to clipboard | [Fahim Faisal](https://github.com/i3p9) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 📋 | [Clipboard to Imgur](productivity/imgur/imgur-upload-clipboard-image.template.sh) | Upload Image from your Clipboard and copy the image link to clipboard | [Fahim Faisal](https://github.com/i3p9) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 📷 | [Screenshot and Imgur](productivity/imgur/screenshot-and-imgur.sh) | Opens default screenshot interface and immediately uploads and copies link to clipboard | [Fahim Faisal](https://github.com/i3p9) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | ☁️ | [Upload Latest Screenshot to Imgur](productivity/imgur/imgur-upload-latest-screenshot.template.sh) | Upload your last screenshot to Imgur and copy the image link to clipboard | [Fahim Faisal](https://github.com/i3p9) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Pomodoro
 

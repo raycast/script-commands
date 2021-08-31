@@ -15020,36 +15020,99 @@
       "name" : "Productivity",
       "path" : "productivity",
       "scriptCommands" : [
-        {
-          "authors" : [
-            {
-              "name" : "Fahim Faisal",
-              "url" : "https:\/\/github.com\/i3p9"
-            }
-          ],
-          "createdAt" : "2021-08-19T04:36:52+06:00",
-          "currentDirectoryPath" : null,
-          "description" : "Upload your last screenshot to Imgur and copy the image link to clipboard",
-          "filename" : "imgur-upload-latest-screenshot.template.sh",
-          "hasArguments" : false,
-          "icon" : {
-            "dark" : null,
-            "light" : "☁️"
-          },
-          "identifier" : "fb44bae955f942707a724e0c14063627",
-          "isTemplate" : true,
-          "language" : "bash",
-          "mode" : "silent",
-          "needsConfirmation" : null,
-          "packageName" : "Upload to Imgur",
-          "path" : "productivity\/",
-          "refreshTime" : null,
-          "schemaVersion" : 1,
-          "title" : "Upload Latest Screenshot to Imgur",
-          "updatedAt" : "2021-08-20T17:46:15+06:00"
-        }
+
       ],
       "subGroups" : [
+        {
+          "name" : "Imgur",
+          "path" : "imgur",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Fahim Faisal",
+                  "url" : "https:\/\/github.com\/i3p9"
+                }
+              ],
+              "createdAt" : "2021-08-19T04:36:52+06:00",
+              "currentDirectoryPath" : null,
+              "description" : "Upload your last screenshot to Imgur and copy the image link to clipboard",
+              "filename" : "imgur-upload-latest-screenshot.template.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "☁️"
+              },
+              "identifier" : "fb44bae955f942707a724e0c14063627",
+              "isTemplate" : true,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Upload to Imgur",
+              "path" : "productivity\/imgur\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Upload Latest Screenshot to Imgur",
+              "updatedAt" : "2021-08-26T01:16:19+06:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Fahim Faisal",
+                  "url" : "https:\/\/github.com\/i3p9"
+                }
+              ],
+              "createdAt" : "2021-08-26T01:16:19+06:00",
+              "currentDirectoryPath" : null,
+              "description" : "Upload Image from your Clipboard and copy the image link to clipboard",
+              "filename" : "imgur-upload-clipboard-image.template.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "📋"
+              },
+              "identifier" : "4041c74c3a091d708e0e58c159d5024e",
+              "isTemplate" : true,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Uploads Copied Image or Image from Clipboard",
+              "path" : "productivity\/imgur\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Clipboard to Imgur",
+              "updatedAt" : "2021-08-26T01:16:19+06:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Fahim Faisal",
+                  "url" : "https:\/\/github.com\/i3p9"
+                }
+              ],
+              "createdAt" : "2021-08-19T04:36:52+06:00",
+              "currentDirectoryPath" : null,
+              "description" : "Opens default screenshot interface and immediately uploads and copies link to clipboard",
+              "filename" : "screenshot-and-imgur.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "📷"
+              },
+              "identifier" : "06f3fa5d901f894dba435781da31037d",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Opens Screenshot Interface and Uploads",
+              "path" : "productivity\/imgur\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Screenshot and Imgur",
+              "updatedAt" : "2021-08-26T01:16:19+06:00"
+            }
+          ]
+        },
         {
           "name" : "Stopwatch",
           "path" : "stopwatch",
@@ -16084,6 +16147,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 563,
-  "updatedAt" : "2021-08-26T08:41:01Z"
+  "totalScriptCommands" : 565,
+  "updatedAt" : "2021-08-27T10:20:28Z"
 }
