@@ -9,7 +9,7 @@
 # @raycast.title Mute Microphone
 # @raycast.mode silent
 # @raycast.packageName Zoom
-# @raycast.description Mutes your microphone in the current meetin
+# @raycast.description Mute your microphone in the current meeting
 # @raycast.needsConfirmation false
 
 
