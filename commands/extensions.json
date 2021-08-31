@@ -9406,7 +9406,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Google Translate",
-          "updatedAt" : "2021-03-19T22:12:38+05:30"
+          "updatedAt" : "2021-08-27T15:40:05+02:00"
         },
         {
           "authors" : [
@@ -12408,6 +12408,40 @@
               "schemaVersion" : 1,
               "title" : "Toggle Dimming",
               "updatedAt" : "2021-05-28T10:42:00+01:00"
+            }
+          ]
+        },
+        {
+          "name" : "Iconsur",
+          "path" : "iconsur",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "StevenRCE0",
+                  "url" : "https:\/\/github.com\/StevenRCE0"
+                }
+              ],
+              "createdAt" : "2021-08-27T15:06:06+08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Change App icons to match Big Sur",
+              "filename" : "iconsur.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "🅱️"
+              },
+              "identifier" : "10ce792f9f21acf4813a7307956a1999",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "iconsur",
+              "path" : "apps\/iconsur\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Change Application Icon",
+              "updatedAt" : "2021-08-31T08:37:29+08:00"
             }
           ]
         },
@@ -16147,6 +16181,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 565,
-  "updatedAt" : "2021-08-27T10:20:28Z"
+  "totalScriptCommands" : 566,
+  "updatedAt" : "2021-08-31T08:54:47Z"
 }
