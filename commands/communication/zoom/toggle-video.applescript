@@ -10,7 +10,6 @@
 # @raycast.mode silent
 # @raycast.packageName Zoom
 # @raycast.description Show/Hide your microphone in the current meeting
-# @raycast.needsConfirmation false
 
 
 # Optional parameters:
