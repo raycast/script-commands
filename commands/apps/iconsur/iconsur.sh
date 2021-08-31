@@ -11,7 +11,7 @@
 # Optional parameters:
 # @raycast.icon 🅱️
 # @raycast.argument1 { "type": "text", "placeholder": "Application" }
-# @raycast.argument2 { "type": "text", "placeholder": "Password (store apps)", "secure": true, "optional": true }
+# @raycast.argument2 { "type": "text", "placeholder": "Root Password", "secure": true, "optional": true }
 # @raycast.argument3 { "type": "text", "placeholder": "Use Local Icon (y)" , "optional": true }
 # @raycast.packageName iconsur
 
@@ -43,7 +43,6 @@ if [ $omit -eq 0 ] && [ $3 = "y" -o $3 = "Y" ]; then
 fi
 
 if [ $2 ] && [ $omit -eq 0 ]; then
-    echo "pwding"
     echo $2|sudo -S iconsur set "/Applications/$1.app" $loc
     if [ ${PIPESTATUS[1]} -eq 1 ]; then
         echo "Password incorrect"
