@@ -5904,6 +5904,34 @@
         {
           "authors" : [
             {
+              "name" : "Federico Miraglia",
+              "url" : "https:\/\/github.com\/Mitra98t"
+            }
+          ],
+          "createdAt" : "2021-08-30T10:40:35+02:00",
+          "currentDirectoryPath" : null,
+          "description" : "Add or Subtract specified amount of time from given date.",
+          "filename" : "time-calculator.js",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🕒"
+          },
+          "identifier" : "1de7d90505c68023321e8f8e32908e30",
+          "isTemplate" : false,
+          "language" : "node",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "path" : "developer-utils\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Time Calculator",
+          "updatedAt" : "2021-08-30T17:05:39+02:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Maxim Krouk",
               "url" : "https:\/\/github.com\/maximkrouk"
             }
@@ -6878,6 +6906,34 @@
           "schemaVersion" : 1,
           "title" : "Trim Git Commit Hash",
           "updatedAt" : "2021-07-19T14:40:00+00:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Federico Miraglia",
+              "url" : "https:\/\/github.com\/Mitra98t"
+            }
+          ],
+          "createdAt" : "2021-08-30T10:40:35+02:00",
+          "currentDirectoryPath" : null,
+          "description" : "Given two dates returns the time between them in multiple units of measure.",
+          "filename" : "time-between-dates.js",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🕒"
+          },
+          "identifier" : "61a5ca9258cedf7950981a96058b12bc",
+          "isTemplate" : false,
+          "language" : "node",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "path" : "developer-utils\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Time Between Dates",
+          "updatedAt" : "2021-08-30T17:05:39+02:00"
         },
         {
           "authors" : [
@@ -8787,6 +8843,70 @@
               "schemaVersion" : 1,
               "title" : "Leave Meeting",
               "updatedAt" : "2021-05-03T09:54:17+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Luigi Cardito",
+                  "url" : "https:\/\/github.com\/lcardito"
+                },
+                {
+                  "name" : "Faris Aziz",
+                  "url" : "https:\/\/github.com\/farisaziz12"
+                }
+              ],
+              "createdAt" : "2021-08-31T10:32:28+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show\/Hide your microphone in the current meeting",
+              "filename" : "toggle-video.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/zoom-logo.png"
+              },
+              "identifier" : "a36414a653b2c264285dc7fd4b62563b",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Zoom",
+              "path" : "communication\/zoom\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Toggle Video",
+              "updatedAt" : "2021-08-31T16:37:44+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Luigi Cardito",
+                  "url" : "https:\/\/github.com\/lcardito"
+                },
+                {
+                  "name" : "Faris Aziz",
+                  "url" : "https:\/\/github.com\/farisaziz12"
+                }
+              ],
+              "createdAt" : "2021-08-31T10:32:28+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Mute\/Unmute your microphone in the current meeting",
+              "filename" : "toggle-mic.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/zoom-logo.png"
+              },
+              "identifier" : "5f4ac638a28f19b6fa2f377204f1d6dc",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Zoom",
+              "path" : "communication\/zoom\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Toggle Microphone",
+              "updatedAt" : "2021-08-31T16:37:44+02:00"
             }
           ]
         },
@@ -16181,6 +16301,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 566,
-  "updatedAt" : "2021-08-31T08:54:47Z"
+  "totalScriptCommands" : 570,
+  "updatedAt" : "2021-09-01T13:08:52Z"
 }
