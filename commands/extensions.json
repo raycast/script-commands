@@ -6801,6 +6801,34 @@
           "updatedAt" : "2020-12-08T15:56:35+00:00"
         },
         {
+          "authors" : [
+            {
+              "name" : "Tomás Martins",
+              "url" : "https:\/\/github.com\/tfmart"
+            }
+          ],
+          "createdAt" : "2021-08-31T17:46:47-03:00",
+          "currentDirectoryPath" : null,
+          "description" : "Opens a URL inside the currently booted iOS Simulator. Can be used to open deeplinks",
+          "filename" : "open-link-simulator.applescript",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔗"
+          },
+          "identifier" : "3e18b6a937423f4bfd1058e830fe5757",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "path" : "developer-utils\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open Deep Link",
+          "updatedAt" : "2021-09-01T13:11:06+00:00"
+        },
+        {
           "authors" : null,
           "createdAt" : "2020-09-30T13:01:03+01:00",
           "currentDirectoryPath" : null,
@@ -7552,6 +7580,34 @@
               "schemaVersion" : 1,
               "title" : "Update",
               "updatedAt" : "2021-03-19T16:42:53+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "es183923",
+                  "url" : "github.com\/es183923"
+                }
+              ],
+              "createdAt" : "2020-11-30T22:12:12+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Restart Service in Brew",
+              "filename" : "brew-services-restart.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "🍺"
+              },
+              "identifier" : "9bd016400e1090535e0049cf056f61d0",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Brew",
+              "path" : "developer-utils\/brew\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Restart Service",
+              "updatedAt" : "2021-09-07T10:00:18+00:00"
             },
             {
               "authors" : [
@@ -16301,6 +16357,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 570,
-  "updatedAt" : "2021-09-01T13:08:52Z"
+  "totalScriptCommands" : 572,
+  "updatedAt" : "2021-09-07T10:00:18Z"
 }
