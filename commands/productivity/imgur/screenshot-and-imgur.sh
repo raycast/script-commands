@@ -24,7 +24,7 @@ if [ "$client_id" == "" ]; then
 fi
 
 function upload {
-	curl -s -H "Authorization: Client-ID $client_id" -H "Expect: " -F "image=$1" https://api.imgur.com/3/image.xml
+	curl --location --request POST 'https://api.imgur.com/3/image' --header "Authorization: Client-ID $client_id" --form "image=$1"
 }
 
 #Opens screenshot interface
@@ -41,8 +41,8 @@ if echo "$output" | grep -q 'success="0"'; then
 elif echo "$output" | grep -q 'Imgur is over capacity!'; then
     echo "From Imgur: Upload Error, try again" >&2
 else
-    url="${output##*<link>}"
-    url="${url%%</link>*}"
+    url="${output##*\"link\":\"}"
+    url="${url%%\"\}*}"
     delete_hash="${output##*<deletehash>}"
     delete_hash="${delete_hash%%</deletehash>*}"
 
