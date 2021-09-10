@@ -23,7 +23,7 @@ on run argv
 		tell application "Music" to activate
 	end try
 	try
-		do shell script "open /Applications/iTunes.app"
+	do shell script "open /Applications/iTunes.app"
 		tell application "iTunes" to activate
 	end try
 	
@@ -31,7 +31,7 @@ on run argv
 	set musicWindow to {"Music", "ミュージック", "音乐", "音樂"}
 	set notShowing to true
 	set toLaunch to true
-	
+
 	repeat while toLaunch
 		if application "Music" is running then set toLaunch to false
 		if application "iTunes" is running then set toLaunch to false
