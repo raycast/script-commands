@@ -9,9 +9,9 @@
 # @raycast.packageName Docker
 
 # Optional parameters:
-# @raycast.icon 🛑
+# @raycast.icon ⏹️
 # @raycast.needsConfirmation true
-# @raycast.argument1 { "type": "text", "placeholder": "image" }
+# @raycast.argument1 { "type": "text", "placeholder": "Image", "percentEncoded": true}
 
 # Documentation:
 # @raycast.description Script that stop Docker containers
@@ -23,6 +23,6 @@ if ! command -v docker &> /dev/null; then
       exit 1;
 fi
 
-docker stop ${3// /%20}
+docker stop $1
 
-echo "Successfully stopped ${3// /%20} 🛑"
+echo "Successfully stopped $1 ⏹️"

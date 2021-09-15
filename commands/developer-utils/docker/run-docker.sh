@@ -9,11 +9,11 @@
 # @raycast.packageName Docker
 
 # Optional parameters:
-# @raycast.icon 🏃
+# @raycast.icon ▶️
 # @raycast.needsConfirmation true
-# @raycast.argument1 { "type": "text", "placeholder": "port machine" }
-# @raycast.argument2 { "type": "text", "placeholder": "port docker" }
-# @raycast.argument3 { "type": "text", "placeholder": "image" }
+# @raycast.argument1 { "type": "text", "placeholder": "Port Machine" }  
+# @raycast.argument2 { "type": "text", "placeholder": "Port Docker" }
+# @raycast.argument3 { "type": "text", "placeholder": "Image", "percentEncoded": true}
 
 # Documentation:
 # @raycast.description Script that run Docker containers
@@ -25,10 +25,10 @@ if ! command -v docker &> /dev/null; then
       exit 1;
 fi
 
-if ! [[ "$(docker image inspect ${3// /%20} 2> /dev/null)" == "" ]]; then
-    docker pull ${3// /%20}
+if ! [[ "$(docker image inspect $3 2> /dev/null)" == "" ]]; then
+    docker pull $3
 fi
 
-docker run -d --rm -p $(($1)):$(($2)) ${3// /%20}
+docker run -d --rm -p $(($1)):$(($2)) $3
 
-echo "Successfully created ${3}🚀"
+echo "Successfully running ${3}🚀"
