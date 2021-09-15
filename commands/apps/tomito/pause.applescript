@@ -14,6 +14,5 @@
 # @raycast.authorURL https://github.com/pomdtr
 
 tell application "Tomito"
-	launch
 	pause
 end tell
