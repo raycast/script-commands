@@ -7000,6 +7000,34 @@
             {
               "authors" : [
                 {
+                  "name" : "Fabián Delgado",
+                  "url" : null
+                }
+              ],
+              "createdAt" : "2021-09-21T14:21:48-03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Runs a Docker container",
+              "filename" : "run-docker.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "▶️"
+              },
+              "identifier" : "79e2d77eee8042ec057f2786356d44dc",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : true,
+              "packageName" : "Docker",
+              "path" : "developer-utils\/docker\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Run",
+              "updatedAt" : "2021-09-21T14:21:48-03:00"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Sebastian Kroll",
                   "url" : null
                 }
@@ -7052,6 +7080,34 @@
               "schemaVersion" : 1,
               "title" : "List Containers",
               "updatedAt" : "2021-06-04T18:57:07+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Fabián Delgado",
+                  "url" : null
+                }
+              ],
+              "createdAt" : "2021-06-06T21:26:12+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Stops a Docker container",
+              "filename" : "stop-docker.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "⏹️"
+              },
+              "identifier" : "9684377a02881cbf7dcf91f76712c550",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : true,
+              "packageName" : "Docker",
+              "path" : "developer-utils\/docker\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Stop",
+              "updatedAt" : "2021-09-21T14:21:48-03:00"
             },
             {
               "authors" : [
@@ -15263,7 +15319,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Upload Latest Screenshot to Imgur",
-              "updatedAt" : "2021-08-26T01:16:19+06:00"
+              "updatedAt" : "2021-09-09T13:29:10+03:00"
             },
             {
               "authors" : [
@@ -15291,7 +15347,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Clipboard to Imgur",
-              "updatedAt" : "2021-08-26T01:16:19+06:00"
+              "updatedAt" : "2021-09-09T13:29:10+03:00"
             },
             {
               "authors" : [
@@ -15319,7 +15375,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Screenshot and Imgur",
-              "updatedAt" : "2021-08-26T01:16:19+06:00"
+              "updatedAt" : "2021-09-09T13:29:10+03:00"
             }
           ]
         },
@@ -16357,6 +16413,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 572,
-  "updatedAt" : "2021-09-07T10:00:18Z"
+  "totalScriptCommands" : 574,
+  "updatedAt" : "2021-09-21T17:24:03Z"
 }
