@@ -18,10 +18,14 @@
 # @raycast.icon 🤖
 # @raycast.currentDirectoryPath ~
 # @raycast.needsConfirmation false
+# @raycast.argument1 { "type": "text", "placeholder": "Placeholder text" }
 #
 # Documentation:
 # @raycast.description Write a nice and descriptive summary about your script command here 
 # @raycast.author Your name
 # @raycast.authorURL An URL for one of your social medias
+
+# If accepting an argument:
+# arg1 = ARGV[0]
 
 puts "Hello World!"
