@@ -692,6 +692,8 @@ This repository contains sample commands and documentation to write your own one
   | 🧹 | [Clean](developer-utils/docker/clean-docker.sh) | Script that cleans Docker images, volumes, and containers | Quentin Eude |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/docker/images/docker.png" width="20" height="20"> | [List Containers](developer-utils/docker/docker-ps.sh) | List containers in Docker | Sebastian Kroll |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/docker/images/docker.png" width="20" height="20"> | [List Images](developer-utils/docker/docker-images.sh) | List images in Docker | Sebastian Kroll |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | ▶️ | [Run](developer-utils/docker/run-docker.sh) | Runs a Docker container | Fabián Delgado | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | ⏹️ | [Stop](developer-utils/docker/stop-docker.sh) | Stops a Docker container | Fabián Delgado | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/docker/images/docker.png" width="20" height="20"> | [System Prune](developer-utils/docker/docker-system-prune.sh) | Remove unused data (system prune) | Sebastian Kroll |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Git
