@@ -14,7 +14,7 @@
 # @raycast.argument1 { "type": "text", "placeholder": "Image", "percentEncoded": true}
 
 # Documentation:
-# @raycast.description Script that stop Docker containers
+# @raycast.description Stops a Docker container
 # @raycast.author Fabián Delgado
 # @raycase.authorURL https://github.com/fabdelgado
 

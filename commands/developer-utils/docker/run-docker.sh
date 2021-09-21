@@ -16,7 +16,7 @@
 # @raycast.argument3 { "type": "text", "placeholder": "Image", "percentEncoded": true}
 
 # Documentation:
-# @raycast.description Script that run Docker containers
+# @raycast.description Runs a Docker container
 # @raycast.author Fabián Delgado
 # @raycase.authorURL https://github.com/fabdelgado
 
