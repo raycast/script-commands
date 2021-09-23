@@ -21,3 +21,4 @@ browser="Google Chrome"
 URL=$(osascript -e "tell application \"$browser\" to get URL of active tab of first window")
 
 open -a "$browser" -n --args --incognito --new-window "$URL"
+
