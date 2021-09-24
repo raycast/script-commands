@@ -933,6 +933,34 @@
         {
           "authors" : [
             {
+              "name" : "raulanatol",
+              "url" : "https:\/\/github.com\/raulanatol"
+            }
+          ],
+          "createdAt" : "2021-09-24T08:28:06+01:00",
+          "currentDirectoryPath" : null,
+          "description" : "Open the current site in a private browser",
+          "filename" : "to-private-browsing.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🥽"
+          },
+          "identifier" : "9f2e428dc1c53dc016ace6bb81f7e155",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Browser",
+          "path" : "browsing\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Current Website to Private Browser",
+          "updatedAt" : "2021-09-24T08:28:06+01:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Kirill Gorbachyonok",
               "url" : "https:\/\/github.com\/japanese-goblinn"
             }
@@ -16413,6 +16441,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 574,
-  "updatedAt" : "2021-09-21T17:24:03Z"
+  "totalScriptCommands" : 575,
+  "updatedAt" : "2021-09-24T07:30:53Z"
 }
