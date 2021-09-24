@@ -8,7 +8,7 @@
 
 browser="Google Chrome"
 
-# @raycast.title Current website to private browser
+# @raycast.title Current Website to Private Browser
 # @raycast.author raulanatol
 # @raycast.authorURL https://github.com/raulanatol
 # @raycast.description Open the current site in a private browser
