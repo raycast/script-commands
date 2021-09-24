@@ -15907,6 +15907,62 @@
               "schemaVersion" : 1,
               "title" : "Current Track",
               "updatedAt" : "2021-01-21T12:38:38-05:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Bryan Schuetz",
+                  "url" : "https:\/\/github.com\/bryanschuetz"
+                }
+              ],
+              "createdAt" : "2021-09-24T08:42:54-04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Let the algorithm know how you feel about the currently playing track.",
+              "filename" : "apple-music-hate-current-track.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/apple-music-logo.png"
+              },
+              "identifier" : "f7d43db5dbd64ecab0104afe7dd4c5e1",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Apple Music",
+              "path" : "media\/apple-music\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Hate Current Track",
+              "updatedAt" : "2021-09-24T08:42:54-04:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Bryan Schuetz",
+                  "url" : "https:\/\/github.com\/bryanschuetz"
+                }
+              ],
+              "createdAt" : "2021-09-24T08:42:54-04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Let the algorithm know how you feel about the currently playing track.",
+              "filename" : "apple-music-love-current-track.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/apple-music-logo.png"
+              },
+              "identifier" : "1f71dc54a2c61ca4ebede7924eaf73e8",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Apple Music",
+              "path" : "media\/apple-music\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Love Current Track",
+              "updatedAt" : "2021-09-24T08:42:54-04:00"
             }
           ]
         },
@@ -16441,6 +16497,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 575,
-  "updatedAt" : "2021-09-24T07:30:53Z"
+  "totalScriptCommands" : 577,
+  "updatedAt" : "2021-09-24T12:45:37Z"
 }
