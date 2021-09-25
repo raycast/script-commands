@@ -12,7 +12,7 @@
 # @raycast.argument1 { "type": "text", "placeholder": "directory name", "optional": false }
 
 # Documentation
-# @raycast.description Finds path to the given directory (vs code or git project) and opens it with VS Code
+# @raycast.description Finds path to the given directory which must be a vs code or git project and opens it with VS Code
 # @raycast.author Maksim Zemlyanikin
 # @raycast.authorURL https://github.com/Maksimka101
 
