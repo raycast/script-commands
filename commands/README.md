@@ -101,7 +101,7 @@ This repository contains sample commands and documentation to write your own one
   - [Apple Music](#apple-music)
   - [Apple Tv](#apple-tv)
   - [Cmus](#cmus)
-  - [Spotify](#spotify)
+  - [Spotify](#spotify-1)
 - [Navigation](#navigation)
 - [Password Managers](#password-managers)
   - [Bitwarden](#bitwarden)
