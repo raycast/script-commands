@@ -4753,6 +4753,34 @@
         {
           "authors" : [
             {
+              "name" : "Juan Luis Romero",
+              "url" : "https:\/\/github.com\/JuanluR8"
+            }
+          ],
+          "createdAt" : "2021-09-27T19:10:12+02:00",
+          "currentDirectoryPath" : null,
+          "description" : "Show free space in your mounted disks",
+          "filename" : "disk-free.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "💾"
+          },
+          "identifier" : "4d24ea15b68e1be01b6a06843150c795",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Disk Free",
+          "updatedAt" : "2021-09-28T06:22:27+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Jesse Claven",
               "url" : "https:\/\/github.com\/jesse-c"
             }
@@ -16497,6 +16525,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 577,
-  "updatedAt" : "2021-09-24T12:45:37Z"
+  "totalScriptCommands" : 578,
+  "updatedAt" : "2021-09-28T06:22:27Z"
 }
