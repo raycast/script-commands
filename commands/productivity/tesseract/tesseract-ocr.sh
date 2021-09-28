@@ -6,7 +6,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title OCR Screenshot
-# @raycast.mode silent
+# @raycast.mode fullOutput
 
 # Optional parameters:
 # @raycast.icon 🔍
@@ -23,9 +23,13 @@ if ! command -v tesseract &> /dev/null; then
     echo "tesseract command is required (https://github.com/tesseract-ocr/tesseract)"
     exit 1;
 fi
-screencapture -i /tmp/tmp.png
+
+TEMP_DIR=$(mktemp -d)
+
+screencapture -i "$TEMP_DIR/screenshot.png"
 LANG=${1:-eng}
 
-tesseract /tmp/tmp.png /tmp/tmp -l $LANG
-pbcopy < /tmp/tmp.txt
+tesseract "$TEMP_DIR/screenshot.png" "$TEMP_DIR/ocr" -l $LANG
+pbcopy < $TEMP_DIR/ocr.txt
+
 echo "Gathered text copied to clipboard"
