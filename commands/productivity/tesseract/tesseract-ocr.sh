@@ -18,7 +18,6 @@
 # @raycast.author Diego Lopes
 # @raycast.authorURL https://github.com/Dihgg
 
-# echo "Hello World! Argument1 value: "$1""
 if ! command -v tesseract &> /dev/null; then
     echo "tesseract command is required (https://github.com/tesseract-ocr/tesseract)"
     exit 1;
