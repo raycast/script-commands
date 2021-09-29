@@ -1,5 +1,20 @@
 #!/usr/bin/env node
 
+// Required parameters:
+// @raycast.schemaVersion 1
+// @raycast.title Create Spotify Command
+// @raycast.mode silent
+
+// Optional parameters:
+// @raycast.icon ./images/spotify-create.png
+// @raycast.packageName Spotify
+// @raycast.argument1 { "type": "text", "placeholder": "Discover Weekly" }
+
+// Documentation:
+// @raycast.description Create Spotify Shortcut Command from the Spotify URL that's in your clipboard
+// @raycast.author Nichlas Wærnes Andersen
+// @raycast.authorURL https://twitter.com/nichlaswa
+
 import fs from "fs";
 import { execSync } from "child_process";
 
@@ -24,7 +39,7 @@ const scriptContent = `#!/usr/bin/osascript
 # @raycast.packageName Spotify
 #
 # Optional parameters:
-# @raycast.icon ./images/logo.png
+# @raycast.icon ./images/spotify-logo.png
 #
 # Documentation:
 # @raycast.description Play ${commandName} on Spotify
@@ -65,18 +80,3 @@ if (!/track|album|playlist/.test(type)) {
   );
   console.log(`${commandName} is ready`);
 }
-
-// Required parameters:
-// @raycast.schemaVersion 1
-// @raycast.title Create Spotify Command
-// @raycast.mode silent
-
-// Optional parameters:
-// @raycast.icon ./images/create.png
-// @raycast.packageName Spotify
-// @raycast.argument1 { "type": "text", "placeholder": "Discover Weekly" }
-
-// Documentation:
-// @raycast.description Create Spotify Shortcut Command from the Spotify URL that's in your clipboard
-// @raycast.author Nichlas Wærnes Andersen
-// @raycast.authorURL https://twitter.com/nichlaswa
