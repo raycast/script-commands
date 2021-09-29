@@ -2,17 +2,16 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Open project in VS Code
+# @raycast.title Open Project
 # @raycast.mode compact
 # @raycast.packageName VS Code
 
 # Optional parameters:
-# @raycast.icon https://code.visualstudio.com/assets/branding/app-icon.png  # Alternative icon source
 # @raycast.icon images/vscode.png
-# @raycast.argument1 { "type": "text", "placeholder": "directory name", "optional": false }
+# @raycast.argument1 { "type": "text", "placeholder": "Directory Name", "optional": false }
 
 # Documentation
-# @raycast.description Finds path to the given directory which must be a vs code or git project and opens it with VS Code	
+# @raycast.description Finds path to the given directory which must be a vs code or git project and opens it with VS Code
 # @raycast.author Maksim Zemlyanikin
 # @raycast.authorURL https://github.com/Maksimka101
 
