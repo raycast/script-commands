@@ -7050,6 +7050,68 @@
       ],
       "subGroups" : [
         {
+          "name" : "Xcode",
+          "path" : "xcode",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-09-27T01:47:33+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open recent Xcode project",
+              "filename" : "xcode-recent-project.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/xcode.png"
+              },
+              "identifier" : "1e147f71972fc7e7512ae987ef3c458c",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Developer Utilities",
+              "path" : "developer-utils\/xcode\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Recent Project",
+              "updatedAt" : "2021-09-28T19:41:01+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-09-27T01:47:33+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open the last Xcode project ",
+              "filename" : "xcode-last-project.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/xcode.png"
+              },
+              "identifier" : "3604faee01a482d8272b529b4d0384b7",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Developer Utilities",
+              "path" : "developer-utils\/xcode\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Last Project",
+              "updatedAt" : "2021-09-28T19:41:01+03:00"
+            }
+          ]
+        },
+        {
           "name" : "Docker",
           "path" : "docker",
           "scriptCommands" : [
@@ -16525,6 +16587,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 578,
-  "updatedAt" : "2021-09-28T06:22:27Z"
+  "totalScriptCommands" : 580,
+  "updatedAt" : "2021-09-29T05:58:00Z"
 }
