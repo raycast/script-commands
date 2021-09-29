@@ -12452,40 +12452,6 @@
           ]
         },
         {
-          "name" : "Spotify",
-          "path" : "spotify",
-          "scriptCommands" : [
-            {
-              "authors" : [
-                {
-                  "name" : "Nichlas W. Andersen",
-                  "url" : "https:\/\/twitter.com\/nichlaswa"
-                }
-              ],
-              "createdAt" : "2021-05-27T12:22:24+02:00",
-              "currentDirectoryPath" : null,
-              "description" : "Create Spotify Shortcut Command from the Spotify URL that's in your clipboard",
-              "filename" : "create-spotify-command.js",
-              "hasArguments" : true,
-              "icon" : {
-                "dark" : null,
-                "light" : ".\/images\/create.png"
-              },
-              "identifier" : "4a0c3ae9f9dc6dd5d6e060f802ea486c",
-              "isTemplate" : false,
-              "language" : "node",
-              "mode" : "silent",
-              "needsConfirmation" : null,
-              "packageName" : "Spotify",
-              "path" : "apps\/spotify\/",
-              "refreshTime" : null,
-              "schemaVersion" : 1,
-              "title" : "Create Spotify Command",
-              "updatedAt" : "2021-05-27T13:45:09+02:00"
-            }
-          ]
-        },
-        {
           "name" : "Tunnelblick",
           "path" : "tunnelblick",
           "scriptCommands" : [
@@ -16317,6 +16283,34 @@
             {
               "authors" : [
                 {
+                  "name" : "Nichlas Wærnes Andersen",
+                  "url" : "https:\/\/twitter.com\/nichlaswa"
+                }
+              ],
+              "createdAt" : "2021-05-27T12:22:24+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Play ${commandName} on Spotify",
+              "filename" : "create-spotify-command.js",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/spotify-logo.png"
+              },
+              "identifier" : "4a0c3ae9f9dc6dd5d6e060f802ea486c",
+              "isTemplate" : false,
+              "language" : "node",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Spotify",
+              "path" : "media\/spotify\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "${commandName}",
+              "updatedAt" : "2021-09-29T08:15:53+02:00"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Jack LaFond",
                   "url" : "https:\/\/github.com\/jacc"
                 }
@@ -16622,5 +16616,5 @@
 
   ],
   "totalScriptCommands" : 581,
-  "updatedAt" : "2021-09-29T06:01:42Z"
+  "updatedAt" : "2021-09-29T06:18:15Z"
 }
