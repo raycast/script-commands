@@ -110,6 +110,7 @@ This repository contains sample commands and documentation to write your own one
   - [Imgur](#imgur)
   - [Pomodoro](#pomodoro)
   - [Stopwatch](#stopwatch)
+  - [Tesseract](#tesseract)
 - [Remote Control](#remote-control)
   - [Lg Tv](#lg-tv)
   - [Samsung Tv](#samsung-tv)
@@ -919,6 +920,12 @@ This repository contains sample commands and documentation to write your own one
   | ⏱ | [Show Stopwatch Progress](productivity/stopwatch/stopwatch-progress.sh) | Status of active stopwatch | [Achille Lacoin](https://github.com/pomdtr) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | ⏱ | [Start Stopwatch](productivity/stopwatch/stopwatch-start.sh) | Start a stopwatch | [Achille Lacoin](https://github.com/pomdtr) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | ⏱ | [Stop Stopwatch](productivity/stopwatch/stopwatch-stop.sh) | Stop active stopwatch, copy total time | [Achille Lacoin](https://github.com/pomdtr) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Tesseract
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | 🔍 | [OCR Screenshot](productivity/tesseract/tesseract-ocr.sh) | Tesseract OCR | [Diego Lopes](https://github.com/Dihgg) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 ## Remote Control
 
