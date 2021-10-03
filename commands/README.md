@@ -56,7 +56,6 @@ This repository contains sample commands and documentation to write your own one
   - [Session](#session)
   - [Sidenotes](#sidenotes)
   - [Sip](#sip)
-  - [Spotify](#spotify)
   - [Surfshark](#surfshark)
   - [Tailscale](#tailscale)
   - [Things](#things)
@@ -92,6 +91,7 @@ This repository contains sample commands and documentation to write your own one
   - [Google](#google)
   - [Ip](#ip)
   - [Sentry](#sentry)
+  - [Xcode](#xcode)
 - [Google Maps](#google-maps)
 - [Home](#home)
   - [Elgato](#elgato)
@@ -109,6 +109,7 @@ This repository contains sample commands and documentation to write your own one
   - [Imgur](#imgur)
   - [Pomodoro](#pomodoro)
   - [Stopwatch](#stopwatch)
+  - [Tesseract](#tesseract)
 - [Remote Control](#remote-control)
   - [Lg Tv](#lg-tv)
   - [Samsung Tv](#samsung-tv)
@@ -371,12 +372,6 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/sip/./images/sip.png" width="20" height="20"> | [Check Contrast](apps/sip/sip-check-contrast-hex.sh) | Open Sip Contrast Checker. | [Sip](https://twitter.com/sip_app/) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/sip/./images/sip.png" width="20" height="20"> | [Open Contrast Checker](apps/sip/sip-open-check-contrast.sh) | Open Sip Contrast Checker. | [Sip](https://twitter.com/sip_app/) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/sip/./images/sip.png" width="20" height="20"> | [Show Color Picker](apps/sip/sip-show-picker.sh) | Pick a color value from your screen. | [Sip](https://twitter.com/sip_app/) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
-
-#### Spotify
-
-| Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
-  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/spotify/./images/create.png" width="20" height="20"> | [Create Spotify Command](apps/spotify/create-spotify-command.js) | Create Spotify Shortcut Command from the Spotify URL that's in your clipboard | [Nichlas W. Andersen](https://twitter.com/nichlaswa) | ✅ |  | <img src="images/icon-nodejs.png" width="20" height="20" title="Node"> |
 
 #### Surfshark
 
@@ -755,6 +750,13 @@ This repository contains sample commands and documentation to write your own one
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/sentry/images/sentry-dark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/sentry/images/sentry.png" width="20" height="20"></picture> | [Unresolved Issues](developer-utils/sentry/sentry-unresolved-issues.template.py) | Show unresolved issues of the last 24 hours from Sentry. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  | ✅ | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/sentry/images/sentry-dark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/sentry/images/sentry.png" width="20" height="20"></picture> | [Unresolved Issues By Project](developer-utils/sentry/sentry-unresolved-issues-by-project.template.py) | Show unresolved issues in the last 24 hours (by project) from Sentry. | [Phil Salant](https://github.com/PSalant726) and [Thomas Paul Mann](https://github.com/thomaspaulmann) | ✅ | ✅ | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
 
+#### Xcode
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/xcode/images/xcode.png" width="20" height="20"> | [Last Project](developer-utils/xcode/xcode-last-project.sh) | Open the last Xcode project  | [Sergey Korobyin](https://github.com/huangsemao) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/xcode/images/xcode.png" width="20" height="20"> | [Recent Project](developer-utils/xcode/xcode-recent-project.sh) | Open recent Xcode project | [Sergey Korobyin](https://github.com/huangsemao) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
 ## Google Maps
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
@@ -833,6 +835,7 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/spotify/./images/spotify-logo.png" width="20" height="20"> | [${commandName}](media/spotify/create-spotify-command.js) | Play ${commandName} on Spotify | [Nichlas Wærnes Andersen](https://twitter.com/nichlaswa) | ✅ |  | <img src="images/icon-nodejs.png" width="20" height="20" title="Node"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/spotify/images/spotify-logo.png" width="20" height="20"> | [Copy Current Playing Song URL](media/spotify/spotify-now-playing-url.applescript) | Get link to current Spotify playing song | [Jack LaFond](https://github.com/jacc) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/spotify/images/spotify-logo.png" width="20" height="20"> | [Current Track](media/spotify/spotify-current-track.applescript) | Show currently playing track in Spotify. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/spotify/images/spotify-logo.png" width="20" height="20"> | [Next Track](media/spotify/spotify-next-track.applescript) | Skips to the next track in Spotify. | Raycast |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
@@ -911,6 +914,12 @@ This repository contains sample commands and documentation to write your own one
   | ⏱ | [Show Stopwatch Progress](productivity/stopwatch/stopwatch-progress.sh) | Status of active stopwatch | [Achille Lacoin](https://github.com/pomdtr) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | ⏱ | [Start Stopwatch](productivity/stopwatch/stopwatch-start.sh) | Start a stopwatch | [Achille Lacoin](https://github.com/pomdtr) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | ⏱ | [Stop Stopwatch](productivity/stopwatch/stopwatch-stop.sh) | Stop active stopwatch, copy total time | [Achille Lacoin](https://github.com/pomdtr) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Tesseract
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | 🔍 | [OCR Screenshot](productivity/tesseract/tesseract-ocr.sh) | Tesseract OCR | [Diego Lopes](https://github.com/Dihgg) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 ## Remote Control
 

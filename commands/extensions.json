@@ -7050,6 +7050,68 @@
       ],
       "subGroups" : [
         {
+          "name" : "Xcode",
+          "path" : "xcode",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-09-27T01:47:33+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open recent Xcode project",
+              "filename" : "xcode-recent-project.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/xcode.png"
+              },
+              "identifier" : "1e147f71972fc7e7512ae987ef3c458c",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Developer Utilities",
+              "path" : "developer-utils\/xcode\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Recent Project",
+              "updatedAt" : "2021-09-28T19:41:01+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-09-27T01:47:33+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open the last Xcode project ",
+              "filename" : "xcode-last-project.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/xcode.png"
+              },
+              "identifier" : "3604faee01a482d8272b529b4d0384b7",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Developer Utilities",
+              "path" : "developer-utils\/xcode\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Last Project",
+              "updatedAt" : "2021-09-28T19:41:01+03:00"
+            }
+          ]
+        },
+        {
           "name" : "Docker",
           "path" : "docker",
           "scriptCommands" : [
@@ -12390,40 +12452,6 @@
           ]
         },
         {
-          "name" : "Spotify",
-          "path" : "spotify",
-          "scriptCommands" : [
-            {
-              "authors" : [
-                {
-                  "name" : "Nichlas W. Andersen",
-                  "url" : "https:\/\/twitter.com\/nichlaswa"
-                }
-              ],
-              "createdAt" : "2021-05-27T12:22:24+02:00",
-              "currentDirectoryPath" : null,
-              "description" : "Create Spotify Shortcut Command from the Spotify URL that's in your clipboard",
-              "filename" : "create-spotify-command.js",
-              "hasArguments" : true,
-              "icon" : {
-                "dark" : null,
-                "light" : ".\/images\/create.png"
-              },
-              "identifier" : "4a0c3ae9f9dc6dd5d6e060f802ea486c",
-              "isTemplate" : false,
-              "language" : "node",
-              "mode" : "silent",
-              "needsConfirmation" : null,
-              "packageName" : "Spotify",
-              "path" : "apps\/spotify\/",
-              "refreshTime" : null,
-              "schemaVersion" : 1,
-              "title" : "Create Spotify Command",
-              "updatedAt" : "2021-05-27T13:45:09+02:00"
-            }
-          ]
-        },
-        {
           "name" : "Tunnelblick",
           "path" : "tunnelblick",
           "scriptCommands" : [
@@ -15436,6 +15464,40 @@
           ]
         },
         {
+          "name" : "Tesseract",
+          "path" : "tesseract",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Diego Lopes",
+                  "url" : "https:\/\/github.com\/Dihgg"
+                }
+              ],
+              "createdAt" : "2021-09-28T10:37:53-03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Tesseract OCR",
+              "filename" : "tesseract-ocr.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "🔍"
+              },
+              "identifier" : "25b6650479ec5f66c13955ef072ebf65",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "tesseract",
+              "path" : "productivity\/tesseract\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "OCR Screenshot",
+              "updatedAt" : "2021-09-28T12:28:19-03:00"
+            }
+          ]
+        },
+        {
           "name" : "Stopwatch",
           "path" : "stopwatch",
           "scriptCommands" : [
@@ -16221,6 +16283,34 @@
             {
               "authors" : [
                 {
+                  "name" : "Nichlas Wærnes Andersen",
+                  "url" : "https:\/\/twitter.com\/nichlaswa"
+                }
+              ],
+              "createdAt" : "2021-05-27T12:22:24+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Play ${commandName} on Spotify",
+              "filename" : "create-spotify-command.js",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/spotify-logo.png"
+              },
+              "identifier" : "4a0c3ae9f9dc6dd5d6e060f802ea486c",
+              "isTemplate" : false,
+              "language" : "node",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Spotify",
+              "path" : "media\/spotify\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "${commandName}",
+              "updatedAt" : "2021-09-29T08:15:53+02:00"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Jack LaFond",
                   "url" : "https:\/\/github.com\/jacc"
                 }
@@ -16525,6 +16615,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 578,
-  "updatedAt" : "2021-09-28T06:22:27Z"
+  "totalScriptCommands" : 581,
+  "updatedAt" : "2021-09-29T06:18:15Z"
 }
