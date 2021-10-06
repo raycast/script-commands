@@ -16231,6 +16231,544 @@
           ]
         },
         {
+          "name" : "Endel",
+          "path" : "endel",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Set focus mode at Endel ",
+              "filename" : "endel-sleep.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "882873a4414a4785a11184e942127bae",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Sleep",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Set relax mode at Endel ",
+              "filename" : "endel-relax.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "4b091a5a2e460f0e65e66ff8ce57ff4d",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Relax",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Run Workout scenario at Endel ",
+              "filename" : "endel-scenarios-workout.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "e12f2795c9fd7861d63892302fcce623",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Workout",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Run Deep Work scenario at Endel ",
+              "filename" : "endel-scenarios-deepwork.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "e137539f2ad45ca56293ed3f849f82a3",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Deep Work",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Set focus mode at Endel ",
+              "filename" : "endel-focus.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "0d39ac92f6ee5586b718d24e095b9477",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Focus",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Run Yoga scenario at Endel ",
+              "filename" : "endel-scenarios-yoga.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "7f208b21990d3049368276de95cef101",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Yoga",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Set study mode at Endel ",
+              "filename" : "endel-study.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "ce29578447010dd36480bd25ff785cef",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Study",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Run Read scenario at Endel ",
+              "filename" : "endel-scenarios-read.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "1b2102711e0cbd6f4b249756ddb2bdf4",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Read",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Run Power Nap scenario at Endel ",
+              "filename" : "endel-scenarios-powernap.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "1c78bc5186a9516d6ce228be1b9b188a",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Power Nap",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Set AI lullaby mode at Endel ",
+              "filename" : "endel-lullaby.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "74bec6706807ff93e3c8b524ab208bd6",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Lullaby",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Run Homework scenario at Endel ",
+              "filename" : "endel-scenarios-homework.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "279f29dacf815dc3e32427a904d21443",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Homework",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Run Meditate scenario at Endel ",
+              "filename" : "endel-scenarios-meditate.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "fd592987dee95de1ab1e746d66a296d1",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Meditate",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Set deep focus mode at Endel ",
+              "filename" : "endel-deep-focus.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "879912a57f3ee1fc9c177f5687710e68",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Deep Focus",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Run Self Care scenario at Endel ",
+              "filename" : "endel-scenarios-selfcare.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "7395fcee323302f9ebf5131b6bf01bd1",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Self Care",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Set Alarm in Endel ",
+              "filename" : "endel-alarm.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "3308542a1a6cfcabd9576c90af4d7ef1",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Set Alarm",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Set wiggly wisdom mode at Endel ",
+              "filename" : "endel-wisdom.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "63f5ba97d67a53656d14772b71d1d81c",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Wiggly Wisdom",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Run Unwind scenario at Endel ",
+              "filename" : "endel-scenarios-unwind.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "214e40e5bed0a266493139305e88d92b",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Unwind",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Set recovery mode at Endel ",
+              "filename" : "endel-recovery.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "9acba1d018ec7f24f3616937cfc303e5",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Recovery",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Set Timer in Endel ",
+              "filename" : "endel-timer.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "7b92a6f72056f8a2e67e96151c57a6c6",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Set Timer",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            }
+          ]
+        },
+        {
           "name" : "Spotify",
           "path" : "spotify",
           "scriptCommands" : [
@@ -16615,6 +17153,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 581,
-  "updatedAt" : "2021-09-29T06:18:15Z"
+  "totalScriptCommands" : 600,
+  "updatedAt" : "2021-10-06T15:18:19Z"
 }
