@@ -5,7 +5,7 @@
 
 // Required parameters:
 // @raycast.schemaVersion 1
-// @raycast.title Mood Add
+// @raycast.title Add Mood
 // @raycast.mode silent
 // @raycast.packageName Dashboard
 //
@@ -21,17 +21,25 @@
 // @raycast.authorURL https://github.com/Mitra98t
 
 
+const { exec } = require('child_process')
 const fs = require("fs")
-
-let json = fs.readFileSync("./moodTable.json")
-let parsedMoods = JSON.parse(json)
+const homedir = require('os').homedir();
+const filePath = `${homedir}/.moodTable.json`
 let now = new Date()
+
+if (!fs.existsSync(filePath)) {
+    exec(`echo '{}' > ${filePath}`)
+}
+
+
+let json = fs.readFileSync(filePath)
+let parsedMoods = JSON.parse(json)
 var moodVal = Number(process.argv.slice(2)[0])
 var dayNum = Number(process.argv.slice(2)[1])
 
 if (parsedMoods[now.getFullYear()] == null) {
     parsedMoods[now.getFullYear()] = [[], [], [], [], [], [], [], [], [], [], [], []]
-    fs.writeFileSync("./moodTable.json", JSON.stringify(parsedMoods))
+    fs.writeFileSync(filePath, JSON.stringify(parsedMoods))
 }
 
 if (moodVal > 0 && moodVal <= 5) {
@@ -41,7 +49,7 @@ if (moodVal > 0 && moodVal <= 5) {
         parsedMoods[now.getFullYear()][now.getMonth()][index] = { date: dayVal, mood: moodVal }
     else
         parsedMoods[now.getFullYear()][now.getMonth()].push({ date: dayVal, mood: moodVal })
-    fs.writeFileSync("./moodTable.json", JSON.stringify(parsedMoods))
+    fs.writeFileSync(filePath, JSON.stringify(parsedMoods))
     console.log("Added mood for today ☕️")
 }
 else console.log("Mood must be between 1 and 5")

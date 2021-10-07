@@ -5,7 +5,7 @@
 
 // Required parameters:
 // @raycast.schemaVersion 1
-// @raycast.title Mood Year Display
+// @raycast.title Display Mood Year
 // @raycast.mode fullOutput
 // @raycast.packageName Dashboard
 //
@@ -19,12 +19,19 @@
 // @raycast.authorURL https://github.com/Mitra98t
 
 
+const { exec } = require('child_process')
 const fs = require("fs")
+const homedir = require('os').homedir();
+const filePath = `${homedir}/.moodTable.json`
 const monthNames = ["January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December"
 ];
 
-let json = fs.readFileSync("./moodTable.json")
+if (!fs.existsSync(filePath)) {
+    exec(`echo '{}' > ${filePath}`)
+}
+
+let json = fs.readFileSync(filePath)
 let parsedMoods = JSON.parse(json)
 let now = new Date()
 let yearVal = Number(process.argv.slice(2)[0])
@@ -32,7 +39,7 @@ let bars = { full: "▓", empty: "░" }
 
 if (parsedMoods[now.getFullYear()] == null) {
     parsedMoods[now.getFullYear()] = [[], [], [], [], [], [], [], [], [], [], [], []]
-    fs.writeFileSync("./moodTable.json", JSON.stringify(parsedMoods))
+    fs.writeFileSync(filePath, JSON.stringify(parsedMoods))
 }
 
 let nowYear = yearVal && yearVal > 0 ? yearVal : now.getFullYear()

@@ -5,7 +5,7 @@
 
 // Required parameters:
 // @raycast.schemaVersion 1
-// @raycast.title Mood Month Display
+// @raycast.title Display Mood Month
 // @raycast.mode inline
 // @raycast.refreshTime 5s
 // @raycast.packageName Dashboard
@@ -19,16 +19,22 @@
 // @raycast.authorURL https://github.com/Mitra98t
 
 
+const { exec } = require('child_process')
 const fs = require("fs")
+const homedir = require('os').homedir();
+const filePath = `${homedir}/.moodTable.json`
 
-let json = fs.readFileSync("./moodTable.json")
+if (!fs.existsSync(filePath)) {
+    exec(`echo '{}' > ${filePath}`)
+}
+let json = fs.readFileSync(filePath)
 let parsedMoods = JSON.parse(json)
 let now = new Date()
 let bars = { full: "▓", empty: "░" }
 
 if (parsedMoods[now.getFullYear()] == null) {
     parsedMoods[now.getFullYear()] = [[], [], [], [], [], [], [], [], [], [], [], []]
-    fs.writeFileSync("./moodTable.json", JSON.stringify(parsedMoods))
+    fs.writeFileSync(filePath, JSON.stringify(parsedMoods))
     console.log("loading...")
 }
 
