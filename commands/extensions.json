@@ -3504,6 +3504,96 @@
       ],
       "subGroups" : [
         {
+          "name" : "Mood Meter",
+          "path" : "mood-meter",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Federico Miraglia",
+                  "url" : "https:\/\/github.com\/Mitra98t"
+                }
+              ],
+              "createdAt" : "2021-10-07T10:32:15+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Add mood value to current or specified date ",
+              "filename" : "add-mood.js",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "☕️"
+              },
+              "identifier" : "0e526e9f9e5f652b170303c129ed23b0",
+              "isTemplate" : false,
+              "language" : "node",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Dashboard",
+              "path" : "dashboard\/mood-meter\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Add Mood",
+              "updatedAt" : "2021-10-07T10:32:15+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Federico Miraglia",
+                  "url" : "https:\/\/github.com\/Mitra98t"
+                }
+              ],
+              "createdAt" : "2021-10-07T10:32:15+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Displays month mood table ",
+              "filename" : "display-mood-month.js",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "☕️"
+              },
+              "identifier" : "e48bdecd3f81809ea28118f115a94d95",
+              "isTemplate" : false,
+              "language" : "node",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Dashboard",
+              "path" : "dashboard\/mood-meter\/",
+              "refreshTime" : "5s",
+              "schemaVersion" : 1,
+              "title" : "Display Mood Month",
+              "updatedAt" : "2021-10-07T10:32:15+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Federico Miraglia",
+                  "url" : "https:\/\/github.com\/Mitra98t"
+                }
+              ],
+              "createdAt" : "2021-10-07T10:32:15+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Displays year mood table ",
+              "filename" : "display-mood-year.js",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "☕️"
+              },
+              "identifier" : "7c2a11ff6675fb93687733d284c4b862",
+              "isTemplate" : false,
+              "language" : "node",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Dashboard",
+              "path" : "dashboard\/mood-meter\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Display Mood Year",
+              "updatedAt" : "2021-10-07T10:32:15+02:00"
+            }
+          ]
+        },
+        {
           "name" : "Countdowns",
           "path" : "countdowns",
           "scriptCommands" : [
@@ -17153,6 +17243,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 600,
-  "updatedAt" : "2021-10-06T15:18:19Z"
+  "totalScriptCommands" : 603,
+  "updatedAt" : "2021-10-07T08:36:36Z"
 }
