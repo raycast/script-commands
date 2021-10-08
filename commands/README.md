@@ -118,6 +118,7 @@ This repository contains sample commands and documentation to write your own one
 - [System](#system)
   - [Audio](#audio)
   - [Vpn](#vpn)
+  - [Vpnutil](#vpnutil)
 - [Web Searches](#web-searches)
   - [Wordpress](#wordpress)
 
@@ -1105,6 +1106,15 @@ This repository contains sample commands and documentation to write your own one
   | 📡 | [Connect](system/vpn/vpn-start.sh) | Start VPN connection. | [Alexandru Turcanu](https://github.com/Pondorasti) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 📡 | [Disconnect](system/vpn/vpn-stop.sh) | Stop VPN connection. | [Alexandru Turcanu](https://github.com/Pondorasti) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 📡 | [VPN Status](system/vpn/vpn-status.sh) | Stop VPN connection. | [Alexandru Turcanu](https://github.com/Pondorasti) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Vpnutil
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | 📡 | [Start VPN](system/vpnutil/vpnutil-start.sh) | Start VPN connection. | [Sergey Fuksman](https://github.com/fuksman) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 📡 | [Stop VPN](system/vpnutil/vpnutil-stop.sh) | Stop VPN connection | [Sergey Fuksman](https://github.com/fuksman) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 📡 | [Toggle VPN](system/vpnutil/vpnutil-toggle.sh) | Toggle VPN connection | [Sergey Fuksman](https://github.com/fuksman) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 📡 | [VPN Status](system/vpnutil/vpnutil-status.sh) | Check VPN connection | [Sergey Fuksman](https://github.com/fuksman) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 ## Web Searches
 
