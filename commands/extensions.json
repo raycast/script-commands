@@ -5491,6 +5491,124 @@
           ]
         },
         {
+          "name" : "Vpnutil",
+          "path" : "vpnutil",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Fuksman",
+                  "url" : "https:\/\/github.com\/fuksman"
+                }
+              ],
+              "createdAt" : "2021-10-08T20:08:21+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Start VPN connection.",
+              "filename" : "vpnutil-start.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "📡"
+              },
+              "identifier" : "b65509f00ff96881390957a20ef127da",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "VPN",
+              "path" : "system\/vpnutil\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Start VPN",
+              "updatedAt" : "2021-10-08T20:08:21+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Fuksman",
+                  "url" : "https:\/\/github.com\/fuksman"
+                }
+              ],
+              "createdAt" : "2021-10-08T20:08:21+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Stop VPN connection",
+              "filename" : "vpnutil-stop.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "📡"
+              },
+              "identifier" : "bedab222fcfd49e2dd9c66d87ac8262e",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "VPN",
+              "path" : "system\/vpnutil\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Stop VPN",
+              "updatedAt" : "2021-10-08T20:08:21+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Fuksman",
+                  "url" : "https:\/\/github.com\/fuksman"
+                }
+              ],
+              "createdAt" : "2021-10-08T20:08:21+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Check VPN connection",
+              "filename" : "vpnutil-status.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "📡"
+              },
+              "identifier" : "9673d2c49273541b6cb9d367f1c89946",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "VPN",
+              "path" : "system\/vpnutil\/",
+              "refreshTime" : "30s",
+              "schemaVersion" : 1,
+              "title" : "VPN Status",
+              "updatedAt" : "2021-10-08T20:08:21+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Fuksman",
+                  "url" : "https:\/\/github.com\/fuksman"
+                }
+              ],
+              "createdAt" : "2021-10-08T20:08:21+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Toggle VPN connection",
+              "filename" : "vpnutil-toggle.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "📡"
+              },
+              "identifier" : "362f65162d24f126ffdabdf0c773d358",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "VPN",
+              "path" : "system\/vpnutil\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Toggle VPN",
+              "updatedAt" : "2021-10-08T20:08:21+03:00"
+            }
+          ]
+        },
+        {
           "name" : "Audio",
           "path" : "audio",
           "scriptCommands" : [
@@ -17243,6 +17361,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 603,
-  "updatedAt" : "2021-10-07T08:36:36Z"
+  "totalScriptCommands" : 607,
+  "updatedAt" : "2021-10-08T17:10:25Z"
 }
