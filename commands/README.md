@@ -92,6 +92,7 @@ This repository contains sample commands and documentation to write your own one
   - [Google](#google)
   - [Ip](#ip)
   - [Sentry](#sentry)
+  - [Vscode](#vscode)
   - [Xcode](#xcode)
 - [Google Maps](#google-maps)
 - [Home](#home)
@@ -643,7 +644,6 @@ This repository contains sample commands and documentation to write your own one
   | 💻 | [Json Stringify Text](developer-utils/json-stringify-text.js) | Get JSON-formatted text | Senthil Prabhu |  |  | <img src="images/icon-nodejs.png" width="20" height="20" title="Node"> |
   | 🔐 | [MD5 Hash](developer-utils/md5-hash.sh) | Hashing any text data by using MD5  | [Bin Hua](https://github.com/hzb) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🔗 | [Open Deep Link](developer-utils/open-link-simulator.applescript) | Opens a URL inside the currently booted iOS Simulator. Can be used to open deeplinks | [Tomás Martins](https://github.com/tfmart) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
-  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/images/vscode.png" width="20" height="20"> | [Open Directory](developer-utils/open-folder-in-vscode.applescript) | Opens current topmost directory in VSCode | [chohner](https://github.com/chohner) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🌐 | [Ping](developer-utils/ping.sh) | Ping an IP address or URL. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🌐 | [Ping Monitor](developer-utils/ping-monitor.template.sh) | Ping an IP address or URL on an interval. | [Caleb Stauffer](https://github.com/crstauf) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 💻 | [Prettify JSON](developer-utils/prettify-json.sh) | Pretty prints the JSON currently in the clipboard. | Raycast |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
@@ -760,6 +760,13 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/sentry/images/sentry-dark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/sentry/images/sentry.png" width="20" height="20"></picture> | [Unresolved Issues](developer-utils/sentry/sentry-unresolved-issues.template.py) | Show unresolved issues of the last 24 hours from Sentry. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  | ✅ | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/sentry/images/sentry-dark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/sentry/images/sentry.png" width="20" height="20"></picture> | [Unresolved Issues By Project](developer-utils/sentry/sentry-unresolved-issues-by-project.template.py) | Show unresolved issues in the last 24 hours (by project) from Sentry. | [Phil Salant](https://github.com/PSalant726) and [Thomas Paul Mann](https://github.com/thomaspaulmann) | ✅ | ✅ | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
+
+#### Vscode
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/vscode/images/vscode.png" width="20" height="20"> | [Open Directory](developer-utils/vscode/open-folder-in-vscode.applescript) | Opens current topmost directory in VSCode | [chohner](https://github.com/chohner) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/vscode/images/vscode.png" width="20" height="20"> | [Open Project](developer-utils/vscode/open-project-in-vscode.sh) | Finds path to the given directory which must be a vs code or git project and opens it with VS Code | [Maksim Zemlyanikin](https://github.com/Maksimka101) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Xcode
 

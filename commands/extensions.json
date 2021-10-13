@@ -7146,34 +7146,6 @@
         {
           "authors" : [
             {
-              "name" : "chohner",
-              "url" : "https:\/\/github.com\/chohner"
-            }
-          ],
-          "createdAt" : "2021-02-22T11:26:39+01:00",
-          "currentDirectoryPath" : null,
-          "description" : "Opens current topmost directory in VSCode",
-          "filename" : "open-folder-in-vscode.applescript",
-          "hasArguments" : false,
-          "icon" : {
-            "dark" : null,
-            "light" : "images\/vscode.png"
-          },
-          "identifier" : "2b0b56d7b5b14aacf924a1a6f236ecb3",
-          "isTemplate" : false,
-          "language" : "applescript",
-          "mode" : "silent",
-          "needsConfirmation" : null,
-          "packageName" : "VS Code",
-          "path" : "developer-utils\/",
-          "refreshTime" : null,
-          "schemaVersion" : 1,
-          "title" : "Open Directory",
-          "updatedAt" : "2021-05-10T09:05:19+02:00"
-        },
-        {
-          "authors" : [
-            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -8502,6 +8474,68 @@
               "schemaVersion" : 1,
               "title" : "Local IPv6",
               "updatedAt" : "2021-07-08T21:33:40-04:00"
+            }
+          ]
+        },
+        {
+          "name" : "Vscode",
+          "path" : "vscode",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Maksim Zemlyanikin",
+                  "url" : "https:\/\/github.com\/Maksimka101"
+                }
+              ],
+              "createdAt" : "2021-10-11T13:31:08+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Finds path to the given directory which must be a vs code or git project and opens it with VS Code",
+              "filename" : "open-project-in-vscode.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/vscode.png"
+              },
+              "identifier" : "66befabf033302a672d20d8d207a3dfd",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "VS Code",
+              "path" : "developer-utils\/vscode\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Project",
+              "updatedAt" : "2021-10-11T13:31:08+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "chohner",
+                  "url" : "https:\/\/github.com\/chohner"
+                }
+              ],
+              "createdAt" : "2021-02-22T11:26:39+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Opens current topmost directory in VSCode",
+              "filename" : "open-folder-in-vscode.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/vscode.png"
+              },
+              "identifier" : "2b0b56d7b5b14aacf924a1a6f236ecb3",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "VS Code",
+              "path" : "developer-utils\/vscode\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Directory",
+              "updatedAt" : "2021-10-11T13:31:08+03:00"
             }
           ]
         },
@@ -17361,6 +17395,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 607,
-  "updatedAt" : "2021-10-08T17:10:25Z"
+  "totalScriptCommands" : 608,
+  "updatedAt" : "2021-10-13T08:08:44Z"
 }
