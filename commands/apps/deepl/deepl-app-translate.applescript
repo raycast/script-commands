@@ -24,9 +24,9 @@
 
 on run translate
 	
-	### Configuration: ###
+	### Configuration ###
     
-	-- Choose whether to use the clipboard as the input if no input argument is entered in Raycast:
+	-- Choose whether to use the clipboard as the input if no input argument is entered in Raycast
     set useClipboardAsInput to false
 
 	-- Choose whether the translation result should be automatically copied to the clipboard:
@@ -57,7 +57,15 @@ on run translate
 		
 		tell application "System Events"
 			repeat until translation is not ""
-				set translation to value of text area 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of window "DeepL" of process "DeepL"
+
+			-- Attempt to handle errors from the output printing to different elements:
+
+				if exists of text area 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of window "DeepL" of process "DeepL"
+					set translation to value of text area 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of window "DeepL" of process "DeepL"
+				else if exists of text area 1 of group 14 of UI Element 1 of scroll area 1 of group 1 of group 1 of window "DeepL" of application process "DeepL"
+					set translation to value of text area 1 of group 14 of UI Element 1 of scroll area 1 of group 1 of group 1 of window "DeepL" of application process "DeepL"
+				end if
+
 				if ((current date) > endDate) then
 					exit repeat
 				end if
@@ -65,7 +73,9 @@ on run translate
 			end repeat
 		end tell
 		
-		set the clipboard to translation
+		if translation is not ""
+			set the clipboard to translation
+		end if
 	end if
 	
 end run
