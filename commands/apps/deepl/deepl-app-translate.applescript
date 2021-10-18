@@ -10,7 +10,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title DeepL App Translate
-# @raycast.mode silent
+# @raycast.mode fullOutput
 
 # Optional parameters:
 # @raycast.icon images/deepl.png
@@ -18,7 +18,7 @@
 # @raycast.packageName Apps
 
 # Documentation:
-# @raycast.description Translate text in DeepL for Mac. Features options to input from the clipboard as well as automatically copy translation results.
+# @raycast.description Translate text in DeepL for Mac. Copies from the clipboard if no text argument is given.
 # @raycast.author Jono Hewitt
 # @raycast.authorURL https://github.com/jonohewitt
 
