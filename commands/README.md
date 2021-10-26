@@ -1092,7 +1092,7 @@ This repository contains sample commands and documentation to write your own one
   | 😴 | [Turn On Do Not Disturb](system/dnd-on.sh) | Turn on "do not disturb" mode. Does [not work on Big Sur](https://github.com/sindresorhus/do-not-disturb-cli/issues/2). | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🗑 | [Uninstall with AppCleaner](system/uninstall-with-appcleaner.applescript) | Uninstall applications with AppCleaner | [Felipe Turcheti](https://felipeturcheti.com) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | ♻️ | [Update Community Scripts](system/update-scripts-command.template.py) | Updates community Script Commands to their last available version from the GitHub repository. | [Quentin Eude](https://www.github.com/qeude) |  | ✅ | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
-
+  | 📟 | [WIFI Password](system/wifi-password.sh) | Copy WIFI password from current session. | [Astrit](https://www.github.com/astrit) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 #### Audio
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
