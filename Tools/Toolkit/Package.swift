@@ -10,11 +10,11 @@ let package = Package(
   dependencies: [
     .package(
       url: "https://github.com/apple/swift-tools-support-core.git",
-      .upToNextMinor(from: "0.1.11")
+      .upToNextMinor(from: "0.2.4")
     ),
     .package(
       url: "https://github.com/apple/swift-argument-parser.git",
-      .upToNextMinor(from: "0.3.0")
+      .upToNextMinor(from: "1.0.0")
     ),
   ],
   targets: [
