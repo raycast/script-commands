@@ -11,17 +11,17 @@
 # Optional parameters:
 # @raycast.icon 🌘
 # @raycast.packageName System
-# @raycast.needsConfirmation false
 
 # Documentation:
-# @raycast.description Enable or disable (toggle) the Night Shift mode (until tomorrow/sunrise). Required: https://github.com/smudge/nightlight
+# @raycast.description Toggle Night Shift mode (until tomorrow/sunrise). Required [nightlight](https://github.com/smudge/nightlight)
 # @raycast.author BhEaN
+# @raycast.authorURL https://github.com/bhean
 
-if command -v nightlight; then
-    nightlight toggle
-    status=$(nightlight status)
-    echo "Night Shift ${status}"
-else
-    echo "Command not found, please install smudge/nightlight first!"
-    exit 1
+if ! command -v nightlight &> /dev/null; then
+    echo "Download nightlight is required (https://github.com/smudge/nightlight)".
+    exit 1;
 fi
+
+nightlight toggle
+status=$(nightlight status)
+echo "Night Shift ${status}"
