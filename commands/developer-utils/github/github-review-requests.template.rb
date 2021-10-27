@@ -4,7 +4,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Show Review Requests
 # @raycast.mode inline
-# @raycast.description Display number of pulls requesting your review
+# @raycast.description Display number of Pull Requests requesting your review
 #
 # Optional parameters:
 # @raycast.packageName GitHub
@@ -23,6 +23,7 @@ require 'net/http'
 require 'uri'
 
 # Insert a personal access token (https://github.com/settings/tokens)
+# No additional permissions are required, leave all the options unchecked
 API_TOKEN = ''
 
 if API_TOKEN.empty?
