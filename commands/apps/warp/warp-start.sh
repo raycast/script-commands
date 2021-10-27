@@ -5,7 +5,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Connect to WARP
+# @raycast.title Connect
 # @raycast.mode compact
 
 # Optional parameters:
@@ -13,7 +13,7 @@
 
 # @Documentation:
 # @raycast.packageName WARP
-# @raycast.description Connect to WARP
+# @raycast.description Create a connection to WARP
 # @raycast.author Sergey Fuksman
 # @raycast.authorURL https://github.com/fuksman
 

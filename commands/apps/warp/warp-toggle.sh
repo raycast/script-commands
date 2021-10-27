@@ -13,7 +13,7 @@
 
 # @Documentation:
 # @raycast.packageName WARP
-# @raycast.description Toggle WARP
+# @raycast.description Toggle Connection
 # @raycast.author Sergey Fuksman
 # @raycast.authorURL https://github.com/fuksman
 

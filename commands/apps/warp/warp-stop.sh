@@ -5,7 +5,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Disconnect from WARP
+# @raycast.title Disconnect
 # @raycast.mode compact
 
 # Optional parameters:
