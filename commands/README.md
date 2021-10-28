@@ -56,7 +56,6 @@ This repository contains sample commands and documentation to write your own one
   - [Session](#session)
   - [Sidenotes](#sidenotes)
   - [Sip](#sip)
-  - [Spotify](#spotify)
   - [Surfshark](#surfshark)
   - [Tailscale](#tailscale)
   - [Things](#things)
@@ -81,6 +80,7 @@ This repository contains sample commands and documentation to write your own one
   - [Change Case](#change-case)
 - [Dashboard](#dashboard)
   - [Countdowns](#countdowns)
+  - [Mood Meter](#mood-meter)
 - [Developer Utils](#developer-utils)
   - [Aws](#aws)
   - [Brew](#brew)
@@ -92,6 +92,8 @@ This repository contains sample commands and documentation to write your own one
   - [Google](#google)
   - [Ip](#ip)
   - [Sentry](#sentry)
+  - [Vscode](#vscode)
+  - [Xcode](#xcode)
 - [Google Maps](#google-maps)
 - [Home](#home)
   - [Elgato](#elgato)
@@ -101,6 +103,7 @@ This repository contains sample commands and documentation to write your own one
   - [Apple Music](#apple-music)
   - [Apple Tv](#apple-tv)
   - [Cmus](#cmus)
+  - [Endel](#endel)
   - [Spotify](#spotify)
 - [Navigation](#navigation)
 - [Password Managers](#password-managers)
@@ -109,12 +112,14 @@ This repository contains sample commands and documentation to write your own one
   - [Imgur](#imgur)
   - [Pomodoro](#pomodoro)
   - [Stopwatch](#stopwatch)
+  - [Tesseract](#tesseract)
 - [Remote Control](#remote-control)
   - [Lg Tv](#lg-tv)
   - [Samsung Tv](#samsung-tv)
 - [System](#system)
   - [Audio](#audio)
   - [Vpn](#vpn)
+  - [Vpnutil](#vpnutil)
 - [Web Searches](#web-searches)
   - [Wordpress](#wordpress)
 
@@ -372,12 +377,6 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/sip/./images/sip.png" width="20" height="20"> | [Open Contrast Checker](apps/sip/sip-open-check-contrast.sh) | Open Sip Contrast Checker. | [Sip](https://twitter.com/sip_app/) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/sip/./images/sip.png" width="20" height="20"> | [Show Color Picker](apps/sip/sip-show-picker.sh) | Pick a color value from your screen. | [Sip](https://twitter.com/sip_app/) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
-#### Spotify
-
-| Icon | Title | Description | Author | Args | Templ | Lang |
-| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
-  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/spotify/./images/create.png" width="20" height="20"> | [Create Spotify Command](apps/spotify/create-spotify-command.js) | Create Spotify Shortcut Command from the Spotify URL that's in your clipboard | [Nichlas W. Andersen](https://twitter.com/nichlaswa) | ✅ |  | <img src="images/icon-nodejs.png" width="20" height="20" title="Node"> |
-
 #### Surfshark
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
@@ -472,6 +471,7 @@ This repository contains sample commands and documentation to write your own one
   | 🧭 | [Copy Current Page URL](browsing/safari-current-page-url.sh) | This script copies URL of currently opened page in Safari into clipboard. | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🧭 | [Copy Current Page URL](browsing/chrome-current-page-url.sh) | This script copies URL of currently opened page in Google Chrome into clipboard. | [Jakub Lanski](https://github.com/jaklan) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🧭 | [Copy Current Window URLs](browsing/safari-current-window-urls.applescript) | This script copies to clipboard all URLs from frontmost Safari window. | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | 🥽 | [Current Website to Private Browser](browsing/to-private-browsing.sh) | Open the current site in a private browser | [raulanatol](https://github.com/raulanatol) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/browsing/images/outline.png" width="20" height="20"> | [Go to Outline](browsing/go-to-outine.sh) | Open the website at Outline | [Ronan Rodrigo Nunes](https://ronanrodrigo.dev) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/browsing/images/peekalink-logo.png" width="20" height="20"> | [Peek a link](browsing/peekalink.template.sh) | Use [Peekalink.io](https://peekalink.io) API to peek specified URL. | [Caleb Stauffer](https://github.com/crstauf) | ✅ | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🖼️ | [Screenshot Website](browsing/website-screenshots.sh) | Takes screenshots of the entered URL using [`pageres`](https://github.com/sindresorhus/pageres) and saves it to the Desktop. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
@@ -601,6 +601,14 @@ This repository contains sample commands and documentation to write your own one
   | ⏱ | [Countdown to Date](dashboard/countdowns/countdown-to-date.template.sh) | See how many days/hours until a specific date. | [Valentin Chrétien](https://github.com/valentinchrt) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | ⏱ | [Create Countdown](dashboard/countdowns/create-countdown.template.sh) | Create countdowns via Raycast. | [Valentin Chrétien](https://github.com/valentinchrt) | ✅ | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
+#### Mood Meter
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | ☕️ | [Add Mood](dashboard/mood-meter/add-mood.js) | Add mood value to current or specified date  | [Federico Miraglia](https://github.com/Mitra98t) | ✅ |  | <img src="images/icon-nodejs.png" width="20" height="20" title="Node"> |
+  | ☕️ | [Display Mood Month](dashboard/mood-meter/display-mood-month.js) | Displays month mood table  | [Federico Miraglia](https://github.com/Mitra98t) |  |  | <img src="images/icon-nodejs.png" width="20" height="20" title="Node"> |
+  | ☕️ | [Display Mood Year](dashboard/mood-meter/display-mood-year.js) | Displays year mood table  | [Federico Miraglia](https://github.com/Mitra98t) | ✅ |  | <img src="images/icon-nodejs.png" width="20" height="20" title="Node"> |
+
 ## Developer Utils
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
@@ -636,7 +644,6 @@ This repository contains sample commands and documentation to write your own one
   | 💻 | [Json Stringify Text](developer-utils/json-stringify-text.js) | Get JSON-formatted text | Senthil Prabhu |  |  | <img src="images/icon-nodejs.png" width="20" height="20" title="Node"> |
   | 🔐 | [MD5 Hash](developer-utils/md5-hash.sh) | Hashing any text data by using MD5  | [Bin Hua](https://github.com/hzb) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🔗 | [Open Deep Link](developer-utils/open-link-simulator.applescript) | Opens a URL inside the currently booted iOS Simulator. Can be used to open deeplinks | [Tomás Martins](https://github.com/tfmart) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
-  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/images/vscode.png" width="20" height="20"> | [Open Directory](developer-utils/open-folder-in-vscode.applescript) | Opens current topmost directory in VSCode | [chohner](https://github.com/chohner) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🌐 | [Ping](developer-utils/ping.sh) | Ping an IP address or URL. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🌐 | [Ping Monitor](developer-utils/ping-monitor.template.sh) | Ping an IP address or URL on an interval. | [Caleb Stauffer](https://github.com/crstauf) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 💻 | [Prettify JSON](developer-utils/prettify-json.sh) | Pretty prints the JSON currently in the clipboard. | Raycast |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
@@ -692,6 +699,8 @@ This repository contains sample commands and documentation to write your own one
   | 🧹 | [Clean](developer-utils/docker/clean-docker.sh) | Script that cleans Docker images, volumes, and containers | Quentin Eude |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/docker/images/docker.png" width="20" height="20"> | [List Containers](developer-utils/docker/docker-ps.sh) | List containers in Docker | Sebastian Kroll |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/docker/images/docker.png" width="20" height="20"> | [List Images](developer-utils/docker/docker-images.sh) | List images in Docker | Sebastian Kroll |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | ▶️ | [Run](developer-utils/docker/run-docker.sh) | Runs a Docker container | Fabián Delgado | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | ⏹️ | [Stop](developer-utils/docker/stop-docker.sh) | Stops a Docker container | Fabián Delgado | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/docker/images/docker.png" width="20" height="20"> | [System Prune](developer-utils/docker/docker-system-prune.sh) | Remove unused data (system prune) | Sebastian Kroll |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Git
@@ -752,6 +761,20 @@ This repository contains sample commands and documentation to write your own one
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/sentry/images/sentry-dark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/sentry/images/sentry.png" width="20" height="20"></picture> | [Unresolved Issues](developer-utils/sentry/sentry-unresolved-issues.template.py) | Show unresolved issues of the last 24 hours from Sentry. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  | ✅ | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/sentry/images/sentry-dark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/sentry/images/sentry.png" width="20" height="20"></picture> | [Unresolved Issues By Project](developer-utils/sentry/sentry-unresolved-issues-by-project.template.py) | Show unresolved issues in the last 24 hours (by project) from Sentry. | [Phil Salant](https://github.com/PSalant726) and [Thomas Paul Mann](https://github.com/thomaspaulmann) | ✅ | ✅ | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
 
+#### Vscode
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/vscode/images/vscode.png" width="20" height="20"> | [Open Directory](developer-utils/vscode/open-folder-in-vscode.applescript) | Opens current topmost directory in VSCode | [chohner](https://github.com/chohner) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/vscode/images/vscode.png" width="20" height="20"> | [Open Project](developer-utils/vscode/open-project-in-vscode.sh) | Finds path to the given directory which must be a vs code or git project and opens it with VS Code | [Maksim Zemlyanikin](https://github.com/Maksimka101) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Xcode
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/xcode/images/xcode.png" width="20" height="20"> | [Last Project](developer-utils/xcode/xcode-last-project.sh) | Open the last Xcode project  | [Sergey Korobyin](https://github.com/huangsemao) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/xcode/images/xcode.png" width="20" height="20"> | [Recent Project](developer-utils/xcode/xcode-recent-project.sh) | Open recent Xcode project | [Sergey Korobyin](https://github.com/huangsemao) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
 ## Google Maps
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
@@ -793,6 +816,8 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-music/images/apple-music-logo.png" width="20" height="20"> | [Current Track](media/apple-music/apple-music-current-track.applescript) | Show currently playing track in Music. | [mmerle](https://github.com/mmerle) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-music/images/apple-music-logo.png" width="20" height="20"> | [Go to Artist in Apple Music](media/apple-music/apple-music-go-to-artist-page.sh) | Go to Artist page in the Apple Music App | [Jordi Clement](https://github.com/jordicl) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-music/images/apple-music-logo.png" width="20" height="20"> | [Hate Current Track](media/apple-music/apple-music-hate-current-track.applescript) | Let the algorithm know how you feel about the currently playing track. | [Bryan Schuetz](https://github.com/bryanschuetz) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-music/images/apple-music-logo.png" width="20" height="20"> | [Love Current Track](media/apple-music/apple-music-love-current-track.applescript) | Let the algorithm know how you feel about the currently playing track. | [Bryan Schuetz](https://github.com/bryanschuetz) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-music/images/apple-music-logo.png" width="20" height="20"> | [Next Track](media/apple-music/apple-music-next.applescript) | Next track in Music. | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-music/images/apple-music-logo.png" width="20" height="20"> | [Pause](media/apple-music/apple-music-pause.applescript) | Pause Music. | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-music/images/apple-music-logo.png" width="20" height="20"> | [Play](media/apple-music/apple-music-play.applescript) | Play Music. | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
@@ -824,10 +849,35 @@ This repository contains sample commands and documentation to write your own one
   | 🔁 | [Toggle Repeat](media/cmus/toggle-repeat.sh) | Toggles the repeat option if cmus is running | [mmerle](https://github.com/mmerle) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🔀 | [Toggle Shuffle](media/cmus/toggle-shuffle.sh) | Toggles the shuffle option if cmus is running | [mmerle](https://github.com/mmerle) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
+#### Endel
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/endel/images/endel.png" width="20" height="20"> | [Deep Focus](media/endel/endel-deep-focus.sh) | Set deep focus mode at Endel  | [Sergey Korobyin](https://github.com/huangsemao) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/endel/images/endel.png" width="20" height="20"> | [Deep Work](media/endel/endel-scenarios-deepwork.sh) | Run Deep Work scenario at Endel  | [Sergey Korobyin](https://github.com/huangsemao) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/endel/images/endel.png" width="20" height="20"> | [Focus](media/endel/endel-focus.sh) | Set focus mode at Endel  | [Sergey Korobyin](https://github.com/huangsemao) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/endel/images/endel.png" width="20" height="20"> | [Homework](media/endel/endel-scenarios-homework.sh) | Run Homework scenario at Endel  | [Sergey Korobyin](https://github.com/huangsemao) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/endel/images/endel.png" width="20" height="20"> | [Lullaby](media/endel/endel-lullaby.sh) | Set AI lullaby mode at Endel  | [Sergey Korobyin](https://github.com/huangsemao) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/endel/images/endel.png" width="20" height="20"> | [Meditate](media/endel/endel-scenarios-meditate.sh) | Run Meditate scenario at Endel  | [Sergey Korobyin](https://github.com/huangsemao) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/endel/images/endel.png" width="20" height="20"> | [Power Nap](media/endel/endel-scenarios-powernap.sh) | Run Power Nap scenario at Endel  | [Sergey Korobyin](https://github.com/huangsemao) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/endel/images/endel.png" width="20" height="20"> | [Read](media/endel/endel-scenarios-read.sh) | Run Read scenario at Endel  | [Sergey Korobyin](https://github.com/huangsemao) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/endel/images/endel.png" width="20" height="20"> | [Recovery](media/endel/endel-recovery.sh) | Set recovery mode at Endel  | [Sergey Korobyin](https://github.com/huangsemao) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/endel/images/endel.png" width="20" height="20"> | [Relax](media/endel/endel-relax.sh) | Set relax mode at Endel  | [Sergey Korobyin](https://github.com/huangsemao) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/endel/images/endel.png" width="20" height="20"> | [Self Care](media/endel/endel-scenarios-selfcare.sh) | Run Self Care scenario at Endel  | [Sergey Korobyin](https://github.com/huangsemao) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/endel/images/endel.png" width="20" height="20"> | [Set Alarm](media/endel/endel-alarm.sh) | Set Alarm in Endel  | [Sergey Korobyin](https://github.com/huangsemao) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/endel/images/endel.png" width="20" height="20"> | [Set Timer](media/endel/endel-timer.sh) | Set Timer in Endel  | [Sergey Korobyin](https://github.com/huangsemao) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/endel/images/endel.png" width="20" height="20"> | [Sleep](media/endel/endel-sleep.sh) | Set focus mode at Endel  | [Sergey Korobyin](https://github.com/huangsemao) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/endel/images/endel.png" width="20" height="20"> | [Study](media/endel/endel-study.sh) | Set study mode at Endel  | [Sergey Korobyin](https://github.com/huangsemao) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/endel/images/endel.png" width="20" height="20"> | [Unwind](media/endel/endel-scenarios-unwind.sh) | Run Unwind scenario at Endel  | [Sergey Korobyin](https://github.com/huangsemao) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/endel/images/endel.png" width="20" height="20"> | [Wiggly Wisdom](media/endel/endel-wisdom.sh) | Set wiggly wisdom mode at Endel  | [Sergey Korobyin](https://github.com/huangsemao) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/endel/images/endel.png" width="20" height="20"> | [Workout](media/endel/endel-scenarios-workout.sh) | Run Workout scenario at Endel  | [Sergey Korobyin](https://github.com/huangsemao) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/endel/images/endel.png" width="20" height="20"> | [Yoga](media/endel/endel-scenarios-yoga.sh) | Run Yoga scenario at Endel  | [Sergey Korobyin](https://github.com/huangsemao) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
 #### Spotify
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/spotify/./images/spotify-logo.png" width="20" height="20"> | [${commandName}](media/spotify/create-spotify-command.js) | Play ${commandName} on Spotify | [Nichlas Wærnes Andersen](https://twitter.com/nichlaswa) | ✅ |  | <img src="images/icon-nodejs.png" width="20" height="20" title="Node"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/spotify/images/spotify-logo.png" width="20" height="20"> | [Copy Current Playing Song URL](media/spotify/spotify-now-playing-url.applescript) | Get link to current Spotify playing song | [Jack LaFond](https://github.com/jacc) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/spotify/images/spotify-logo.png" width="20" height="20"> | [Current Track](media/spotify/spotify-current-track.applescript) | Show currently playing track in Spotify. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/spotify/images/spotify-logo.png" width="20" height="20"> | [Next Track](media/spotify/spotify-next-track.applescript) | Skips to the next track in Spotify. | Raycast |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
@@ -906,6 +956,12 @@ This repository contains sample commands and documentation to write your own one
   | ⏱ | [Show Stopwatch Progress](productivity/stopwatch/stopwatch-progress.sh) | Status of active stopwatch | [Achille Lacoin](https://github.com/pomdtr) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | ⏱ | [Start Stopwatch](productivity/stopwatch/stopwatch-start.sh) | Start a stopwatch | [Achille Lacoin](https://github.com/pomdtr) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | ⏱ | [Stop Stopwatch](productivity/stopwatch/stopwatch-stop.sh) | Stop active stopwatch, copy total time | [Achille Lacoin](https://github.com/pomdtr) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Tesseract
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | 🔍 | [OCR Screenshot](productivity/tesseract/tesseract-ocr.sh) | Tesseract OCR | [Diego Lopes](https://github.com/Dihgg) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 ## Remote Control
 
@@ -988,6 +1044,7 @@ This repository contains sample commands and documentation to write your own one
   | 📄 | [Create New File](system/create-new-file.applescript) | Create files in the front window or desktop of the visit | [LokHsu](https://github.com/lokhsu) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/system/images/new-file.png" width="20" height="20"> | [Create New File in Finder](system/create-new-file-in-finder.applescript) | Create New File in Finder is a script to make your Finder better.You can use this script to create a plain text file. | Jax0rz |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | ☕️ | [Disable Caffeinate](system/caffeinate-disable.sh) | Stops all caffeinate sessions | [Yan Smaliak](https://github.com/ysmaliak) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 💾 | [Disk Free](system/disk-free.sh) | Show free space in your mounted disks | [Juan Luis Romero](https://github.com/JuanluR8) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 💿 | [Disk Usage](system/disk-usage.sh) | Show disk usage for / (root) | [Jesse Claven](https://github.com/jesse-c) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🔕 | [Do Not Disturb](system/do-not-disturb.sh) | Do Not Disturb | [Antonio Dal Sie](https://github.com/exodusanto) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 📀 | [Eject All Disks](system/eject-all-disks.applescript) | Ejects all mounted disk images. | Raycast |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
@@ -1057,6 +1114,15 @@ This repository contains sample commands and documentation to write your own one
   | 📡 | [Disconnect](system/vpn/vpn-stop.sh) | Stop VPN connection. | [Alexandru Turcanu](https://github.com/Pondorasti) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 📡 | [VPN Status](system/vpn/vpn-status.sh) | Stop VPN connection. | [Alexandru Turcanu](https://github.com/Pondorasti) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
+#### Vpnutil
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | 📡 | [Start VPN](system/vpnutil/vpnutil-start.sh) | Start VPN connection. | [Sergey Fuksman](https://github.com/fuksman) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 📡 | [Stop VPN](system/vpnutil/vpnutil-stop.sh) | Stop VPN connection | [Sergey Fuksman](https://github.com/fuksman) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 📡 | [Toggle VPN](system/vpnutil/vpnutil-toggle.sh) | Toggle VPN connection | [Sergey Fuksman](https://github.com/fuksman) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 📡 | [VPN Status](system/vpnutil/vpnutil-status.sh) | Check VPN connection | [Sergey Fuksman](https://github.com/fuksman) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
 ## Web Searches
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
@@ -1064,7 +1130,7 @@ This repository contains sample commands and documentation to write your own one
   | 📦 | [Bundlephobia cost](web-searches/bundlephobia.sh) | N/A | [Zander Martineau](https://zander.wtf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | ❓ | [Caniuse.com search](web-searches/caniuse.sh) | N/A | [Zander Martineau](https://zander.wtf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🌦 | [Check Weather](web-searches/check-weather.sh) | N/A | [Jakub Lanski](https://github.com/jaklan) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
-  |  | [CoinMarketCap Search](web-searches/search-coinmarketcap.sh) | Searches coinmarketcap currencies. | [Benedict Neo](https://github.com/benthecoder) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🪙 | [CoinMarketCap Search](web-searches/search-coinmarketcap.sh) | Searches coinmarketcap currencies. | [Benedict Neo](https://github.com/benthecoder) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/hunter.png" width="20" height="20"> | [Find Email Address With Hunter](web-searches/hunter.sh) | Find emails using hunter.io | [Tanguy Le Stradic](https://github.com/tanguyls) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/giphy.png" width="20" height="20"> | [Giphy search](web-searches/giphy.sh) | N/A | [Zander Martineau](https://zander.wtf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🌍 | [Google Translate](web-searches/google-translate.rb) | Translates via Google Translate | [Roland Leth](https://runtimesharks.com) | ✅ |  | <img src="images/icon-ruby.png" width="20" height="20" title="Ruby"> |
