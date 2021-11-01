@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title WIFI Password
+# @raycast.title Copy Wi-Fi Password
 # @raycast.mode silent
 
 # Optional parameters:
