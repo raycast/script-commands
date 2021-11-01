@@ -29,4 +29,4 @@ pwd=$(echo "$pwd" | sed -e "s/^.*\"\(.*\)\".*$/\1/")
 echo $pwd | pbcopy
 
 # print
-echo "Password: $pwd is copied!"
+echo "Password $pwd is copied!"
