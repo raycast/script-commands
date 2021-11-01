@@ -9,7 +9,7 @@
 # @raycast.icon 📟
 
 # Documentation:
-# @raycast.description Copy WIFI password from current session
+# @raycast.description Copy Wi-Fi password from current session
 # @raycast.author Astrit Malsia
 # @raycast.authorURL https://github.com/astrit
 # @raycast.packageName System
