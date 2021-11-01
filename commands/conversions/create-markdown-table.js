@@ -6,7 +6,7 @@
 // Required parameters:
 // @raycast.schemaVersion 1
 // @raycast.title Markdown Table
-// @raycast.packageName Utils
+// @raycast.packageName Conversions
 // @raycast.mode silent
 
 // Optional parameters:
