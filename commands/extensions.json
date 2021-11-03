@@ -522,7 +522,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Markdown Table",
-          "updatedAt" : "2021-11-03T20:05:09+00:00"
+          "updatedAt" : "2021-11-03T20:04:02+00:00"
         },
         {
           "authors" : [
@@ -4955,6 +4955,34 @@
         {
           "authors" : [
             {
+              "name" : "Astrit Malsia",
+              "url" : "https:\/\/github.com\/astrit"
+            }
+          ],
+          "createdAt" : "2021-10-26T02:13:10+02:00",
+          "currentDirectoryPath" : null,
+          "description" : "Copy Wi-Fi password from current session",
+          "filename" : "wifi-password.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📟"
+          },
+          "identifier" : "3da4fa8456e609ec2fd7fbadf9ab49a0",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Copy Wi-Fi Password",
+          "updatedAt" : "2021-11-03T20:29:35+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Jesse Claven",
               "url" : "https:\/\/github.com\/jesse-c"
             }
@@ -8248,6 +8276,34 @@
               "schemaVersion" : 1,
               "title" : "Open Pull Requests page",
               "updatedAt" : "2021-03-18T11:30:06+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Vince Picone",
+                  "url" : "https:\/\/github.com\/vpicone"
+                }
+              ],
+              "createdAt" : "2021-03-17T17:31:38+00:00",
+              "currentDirectoryPath" : null,
+              "description" : "Display number of Pull Requests requesting your review",
+              "filename" : "github-review-requests.template.rb",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : "images\/github-logo-iconDark.png",
+                "light" : "images\/github-logo.png"
+              },
+              "identifier" : "61586867ab7b6b2efa596bce302ed064",
+              "isTemplate" : true,
+              "language" : "ruby",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "GitHub",
+              "path" : "developer-utils\/github\/",
+              "refreshTime" : "5m",
+              "schemaVersion" : 1,
+              "title" : "Show Review Requests",
+              "updatedAt" : "2021-11-03T15:03:45-05:00"
             },
             {
               "authors" : [
@@ -17625,6 +17681,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 616,
-  "updatedAt" : "2021-11-03T20:05:09Z"
+  "totalScriptCommands" : 618,
+  "updatedAt" : "2021-11-03T20:29:35Z"
 }
