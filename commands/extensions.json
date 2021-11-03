@@ -471,6 +471,34 @@
         {
           "authors" : [
             {
+              "name" : "wyhaya",
+              "url" : "https:\/\/github.com\/wyhaya"
+            }
+          ],
+          "createdAt" : "2021-11-04T03:59:40+08:00",
+          "currentDirectoryPath" : null,
+          "description" : "QR Code Generation",
+          "filename" : "qrcode-generate.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/qrcode.png"
+          },
+          "identifier" : "df265285ae7ca5b6305aaada0055f872",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Conversions",
+          "path" : "conversions\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "QR Code Generation",
+          "updatedAt" : "2021-11-04T03:59:40+08:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -3939,7 +3967,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Sidecar Switch",
-          "updatedAt" : "2021-07-23T17:39:55-04:00"
+          "updatedAt" : "2021-10-29T21:12:32+02:00"
         },
         {
           "authors" : [
@@ -17395,6 +17423,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 608,
-  "updatedAt" : "2021-10-13T08:08:44Z"
+  "totalScriptCommands" : 609,
+  "updatedAt" : "2021-11-03T20:01:52Z"
 }
