@@ -583,6 +583,34 @@
         {
           "authors" : [
             {
+              "name" : "Diego Lopes",
+              "url" : "https:\/\/github.com\/Dihgg"
+            }
+          ],
+          "createdAt" : "2021-11-04T07:20:46-03:00",
+          "currentDirectoryPath" : "~",
+          "description" : "Decode QR Code from screenshot to clipboard using https:\/\/qrserver.com\/",
+          "filename" : "qr-code-screenshot-to-text.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/qrcode.icns"
+          },
+          "identifier" : "dd588b0008181dc53aab2019603ca17b",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : false,
+          "packageName" : "QR Code",
+          "path" : "conversions\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Screenshot QR Code to Clipboard",
+          "updatedAt" : "2021-11-04T07:20:46-03:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "quelhasu",
               "url" : "https:\/\/github.com\/quelhasu"
             }
@@ -17681,6 +17709,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 618,
-  "updatedAt" : "2021-11-03T20:29:35Z"
+  "totalScriptCommands" : 619,
+  "updatedAt" : "2021-11-04T10:23:04Z"
 }
