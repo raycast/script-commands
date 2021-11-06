@@ -1,7 +1,7 @@
 #!/usr/bin/osascript
 
 # Dependency: This script requires DeepL to be installed: https://deepl.com/app
-# Tested with DeepL for Mac Version 2.3.41773
+# Tested with DeepL for Mac Version 2.7.95892
 
 # Once installed, DeepL will run in the background even if you quit the app from the dock
 # This script will work as long as the DeepL icon is visible in the menu bar in the top right
@@ -47,7 +47,7 @@ on run translate
 	end if
 	
 	tell application "System Events"
-		set value of text area 1 of group 5 of UI element 1 of scroll area 1 of group 1 of group 1 of window "DeepL" of process "DeepL" to inputText
+		set value of text area 1 of group 4 of UI Element 1 of scroll area 1 of group 1 of group 1 of window "DeepL" of process "DeepL" to inputText
 	end tell
 	
 	if copyResultToClipboard is true then
@@ -57,7 +57,15 @@ on run translate
 		
 		tell application "System Events"
 			repeat until translation is not ""
-				set translation to value of text area 1 of group 12 of UI element 1 of scroll area 1 of group 1 of group 1 of window "DeepL" of process "DeepL"
+
+			-- Attempt to handle errors from the output printing to different elements:
+
+				if exists of text area 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of window "DeepL" of process "DeepL"
+					set translation to value of text area 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of window "DeepL" of process "DeepL"
+				else if exists of text area 1 of group 14 of UI Element 1 of scroll area 1 of group 1 of group 1 of window "DeepL" of application process "DeepL"
+					set translation to value of text area 1 of group 14 of UI Element 1 of scroll area 1 of group 1 of group 1 of window "DeepL" of application process "DeepL"
+				end if
+
 				if ((current date) > endDate) then
 					exit repeat
 				end if
@@ -65,7 +73,9 @@ on run translate
 			end repeat
 		end tell
 		
-		set the clipboard to translation
+		if translation is not ""
+			set the clipboard to translation
+		end if
 	end if
 	
 end run

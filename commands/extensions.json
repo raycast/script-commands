@@ -471,6 +471,62 @@
         {
           "authors" : [
             {
+              "name" : "wyhaya",
+              "url" : "https:\/\/github.com\/wyhaya"
+            }
+          ],
+          "createdAt" : "2021-11-04T03:59:40+08:00",
+          "currentDirectoryPath" : null,
+          "description" : "QR Code Generation",
+          "filename" : "qrcode-generate.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/qrcode.png"
+          },
+          "identifier" : "df265285ae7ca5b6305aaada0055f872",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Conversions",
+          "path" : "conversions\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "QR Code Generation",
+          "updatedAt" : "2021-11-04T03:59:40+08:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Ryan Nystrom",
+              "url" : "https:\/\/github.com\/rnystrom"
+            }
+          ],
+          "createdAt" : "2021-11-03T16:00:51-04:00",
+          "currentDirectoryPath" : null,
+          "description" : "Create a markdown table template",
+          "filename" : "create-markdown-table.js",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🧱"
+          },
+          "identifier" : "94dda699695f45d3562beb2acc1bed61",
+          "isTemplate" : false,
+          "language" : "node",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Conversions",
+          "path" : "conversions\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Markdown Table",
+          "updatedAt" : "2021-11-03T20:04:02+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -523,6 +579,34 @@
           "schemaVersion" : 1,
           "title" : "Unix Time Reader From Clipboard",
           "updatedAt" : "2021-03-30T15:34:59+00:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Diego Lopes",
+              "url" : "https:\/\/github.com\/Dihgg"
+            }
+          ],
+          "createdAt" : "2021-11-04T07:20:46-03:00",
+          "currentDirectoryPath" : "~",
+          "description" : "Decode QR Code from screenshot to clipboard using https:\/\/qrserver.com\/",
+          "filename" : "qr-code-screenshot-to-text.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/qrcode.icns"
+          },
+          "identifier" : "dd588b0008181dc53aab2019603ca17b",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : false,
+          "packageName" : "QR Code",
+          "path" : "conversions\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Screenshot QR Code to Clipboard",
+          "updatedAt" : "2021-11-04T07:20:46-03:00"
         },
         {
           "authors" : [
@@ -3939,7 +4023,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Sidecar Switch",
-          "updatedAt" : "2021-07-23T17:39:55-04:00"
+          "updatedAt" : "2021-10-29T21:12:32+02:00"
         },
         {
           "authors" : [
@@ -4187,6 +4271,34 @@
           "schemaVersion" : 1,
           "title" : "Disable Caffeinate",
           "updatedAt" : "2021-06-23T19:47:11+03:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "BhEaN",
+              "url" : "https:\/\/github.com\/bhean"
+            }
+          ],
+          "createdAt" : "2021-11-03T21:02:51+01:00",
+          "currentDirectoryPath" : null,
+          "description" : "Toggle Night Shift mode (until tomorrow\/sunrise). Required [nightlight](https:\/\/github.com\/smudge\/nightlight)",
+          "filename" : "nightshift.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🌘"
+          },
+          "identifier" : "574594655373e8a41dd88ae601f9466d",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle Night Shift",
+          "updatedAt" : "2021-11-03T21:02:51+01:00"
         },
         {
           "authors" : [
@@ -4867,6 +4979,34 @@
           "schemaVersion" : 1,
           "title" : "Disk Free",
           "updatedAt" : "2021-09-28T06:22:27+00:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Astrit Malsia",
+              "url" : "https:\/\/github.com\/astrit"
+            }
+          ],
+          "createdAt" : "2021-10-26T02:13:10+02:00",
+          "currentDirectoryPath" : null,
+          "description" : "Copy Wi-Fi password from current session",
+          "filename" : "wifi-password.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📟"
+          },
+          "identifier" : "3da4fa8456e609ec2fd7fbadf9ab49a0",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Copy Wi-Fi Password",
+          "updatedAt" : "2021-11-03T20:29:35+00:00"
         },
         {
           "authors" : [
@@ -8168,6 +8308,34 @@
             {
               "authors" : [
                 {
+                  "name" : "Vince Picone",
+                  "url" : "https:\/\/github.com\/vpicone"
+                }
+              ],
+              "createdAt" : "2021-03-17T17:31:38+00:00",
+              "currentDirectoryPath" : null,
+              "description" : "Display number of Pull Requests requesting your review",
+              "filename" : "github-review-requests.template.rb",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : "images\/github-logo-iconDark.png",
+                "light" : "images\/github-logo.png"
+              },
+              "identifier" : "61586867ab7b6b2efa596bce302ed064",
+              "isTemplate" : true,
+              "language" : "ruby",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "GitHub",
+              "path" : "developer-utils\/github\/",
+              "refreshTime" : "5m",
+              "schemaVersion" : 1,
+              "title" : "Show Review Requests",
+              "updatedAt" : "2021-11-03T15:03:45-05:00"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Caleb Stauffer",
                   "url" : "https:\/\/github.com\/crstauf"
                 }
@@ -9061,6 +9229,34 @@
               "schemaVersion" : 1,
               "title" : "Copy First Matching TOTP",
               "updatedAt" : "2021-07-19T06:32:07-07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Marcel Bochtler",
+                  "url" : "https:\/\/github.com\/MarcelBochtler"
+                }
+              ],
+              "createdAt" : "2021-11-03T21:02:13+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Log in to Bitwarden using an API key.",
+              "filename" : "log-in-apikey.template.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/bitwarden.png"
+              },
+              "identifier" : "837bd1e9a8fe1ed4fa905be4f9cbc492",
+              "isTemplate" : true,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "path" : "password-managers\/bitwarden\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Log In",
+              "updatedAt" : "2021-11-03T21:02:13+01:00"
             },
             {
               "authors" : [
@@ -14713,6 +14909,124 @@
           ]
         },
         {
+          "name" : "Warp",
+          "path" : "warp",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Fuksman",
+                  "url" : "https:\/\/github.com\/fuksman"
+                }
+              ],
+              "createdAt" : "2021-11-03T23:01:39+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Disconnect from WARP",
+              "filename" : "warp-stop.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/warp.png"
+              },
+              "identifier" : "84f6a46d9901c80cc7dd7a7d71e833db",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "WARP",
+              "path" : "apps\/warp\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Disconnect",
+              "updatedAt" : "2021-11-03T23:01:39+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Fuksman",
+                  "url" : "https:\/\/github.com\/fuksman"
+                }
+              ],
+              "createdAt" : "2021-11-03T23:01:39+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Toggle Connection",
+              "filename" : "warp-toggle.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/warp.png"
+              },
+              "identifier" : "7792a62e2ea9c46c3c44aa5c7ea0a3fe",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "WARP",
+              "path" : "apps\/warp\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Toggle WARP",
+              "updatedAt" : "2021-11-03T23:01:39+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Fuksman",
+                  "url" : "https:\/\/github.com\/fuksman"
+                }
+              ],
+              "createdAt" : "2021-11-03T23:01:39+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Check WARP connection",
+              "filename" : "warp-status.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/warp.png"
+              },
+              "identifier" : "e24da24122bfc2592adaf22617c9b2ee",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "WARP",
+              "path" : "apps\/warp\/",
+              "refreshTime" : "30s",
+              "schemaVersion" : 1,
+              "title" : "WARP Status",
+              "updatedAt" : "2021-11-03T23:01:39+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Fuksman",
+                  "url" : "https:\/\/github.com\/fuksman"
+                }
+              ],
+              "createdAt" : "2021-11-03T23:01:39+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Create a connection to WARP",
+              "filename" : "warp-start.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/warp.png"
+              },
+              "identifier" : "5e1bf486a85fcd82a889fc34e2f23399",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "WARP",
+              "path" : "apps\/warp\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Connect",
+              "updatedAt" : "2021-11-03T23:01:39+03:00"
+            }
+          ]
+        },
+        {
           "name" : "Agenda",
           "path" : "agenda",
           "scriptCommands" : [
@@ -17395,6 +17709,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 608,
-  "updatedAt" : "2021-10-13T08:08:44Z"
+  "totalScriptCommands" : 619,
+  "updatedAt" : "2021-11-04T10:23:04Z"
 }
