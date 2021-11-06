@@ -2,12 +2,12 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Youtube Statistics
+# @raycast.title YouTube Statistics
 # @raycast.mode inline
 # @raycast.refreshTime 1h
 
 # Optional parameters:
-# @raycast.packageName Youtube Statistics
+# @raycast.packageName YouTube Statistics
 # @raycast.icon images/youtube.png
 
 # Documentation:
