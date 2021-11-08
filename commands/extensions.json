@@ -5011,6 +5011,34 @@
         {
           "authors" : [
             {
+              "name" : "Astrit",
+              "url" : "https:\/\/github.com\/astrit"
+            }
+          ],
+          "createdAt" : "2021-11-07T13:19:22+01:00",
+          "currentDirectoryPath" : null,
+          "description" : "A script command to enable and disable .DS_Store",
+          "filename" : "toggle-ds-store.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🧬"
+          },
+          "identifier" : "3c4ebd8411dc67d65ea9d93787e1cfe1",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle .DS_Store",
+          "updatedAt" : "2021-11-07T13:19:22+01:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Jesse Claven",
               "url" : "https:\/\/github.com\/jesse-c"
             }
@@ -5834,7 +5862,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Switch Audio to <Device Name>",
-              "updatedAt" : "2021-04-16T19:18:39+03:00"
+              "updatedAt" : "2021-11-07T15:24:00-05:00"
             },
             {
               "authors" : [
@@ -14904,7 +14932,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "DeepL App Translate",
-              "updatedAt" : "2021-04-18T01:23:05+02:00"
+              "updatedAt" : "2021-11-04T11:22:42+01:00"
             }
           ]
         },
@@ -16049,7 +16077,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "OCR Screenshot",
-              "updatedAt" : "2021-09-28T12:28:19-03:00"
+              "updatedAt" : "2021-11-05T00:12:23+03:00"
             }
           ]
         },
@@ -17709,6 +17737,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 619,
-  "updatedAt" : "2021-11-04T10:23:04Z"
+  "totalScriptCommands" : 620,
+  "updatedAt" : "2021-11-08T12:30:27Z"
 }
