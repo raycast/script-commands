@@ -359,6 +359,34 @@
         {
           "authors" : [
             {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "createdAt" : "2021-08-21T13:14:05-04:00",
+          "currentDirectoryPath" : null,
+          "description" : "Trim newlines and tabs from clipboard content.",
+          "filename" : "trim-newlines-tabs.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "✂️"
+          },
+          "identifier" : "bcbc3784b51822bb3771df707ad5b088",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Conversions",
+          "path" : "conversions\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Trim Newlines and Tabs",
+          "updatedAt" : "2021-08-23T10:12:46+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Quentin Eude",
               "url" : "https:\/\/github.com\/qeude"
             }
@@ -443,6 +471,62 @@
         {
           "authors" : [
             {
+              "name" : "wyhaya",
+              "url" : "https:\/\/github.com\/wyhaya"
+            }
+          ],
+          "createdAt" : "2021-11-04T03:59:40+08:00",
+          "currentDirectoryPath" : null,
+          "description" : "QR Code Generation",
+          "filename" : "qrcode-generate.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/qrcode.png"
+          },
+          "identifier" : "df265285ae7ca5b6305aaada0055f872",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Conversions",
+          "path" : "conversions\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "QR Code Generation",
+          "updatedAt" : "2021-11-04T03:59:40+08:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Ryan Nystrom",
+              "url" : "https:\/\/github.com\/rnystrom"
+            }
+          ],
+          "createdAt" : "2021-11-03T16:00:51-04:00",
+          "currentDirectoryPath" : null,
+          "description" : "Create a markdown table template",
+          "filename" : "create-markdown-table.js",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🧱"
+          },
+          "identifier" : "94dda699695f45d3562beb2acc1bed61",
+          "isTemplate" : false,
+          "language" : "node",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Conversions",
+          "path" : "conversions\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Markdown Table",
+          "updatedAt" : "2021-11-03T20:04:02+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -495,6 +579,34 @@
           "schemaVersion" : 1,
           "title" : "Unix Time Reader From Clipboard",
           "updatedAt" : "2021-03-30T15:34:59+00:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Diego Lopes",
+              "url" : "https:\/\/github.com\/Dihgg"
+            }
+          ],
+          "createdAt" : "2021-11-04T07:20:46-03:00",
+          "currentDirectoryPath" : "~",
+          "description" : "Decode QR Code from screenshot to clipboard using https:\/\/qrserver.com\/",
+          "filename" : "qr-code-screenshot-to-text.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/qrcode.icns"
+          },
+          "identifier" : "dd588b0008181dc53aab2019603ca17b",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : false,
+          "packageName" : "QR Code",
+          "path" : "conversions\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Screenshot QR Code to Clipboard",
+          "updatedAt" : "2021-11-04T07:20:46-03:00"
         },
         {
           "authors" : [
@@ -901,6 +1013,34 @@
           "schemaVersion" : 1,
           "title" : "Go to Outline",
           "updatedAt" : "2021-02-19T19:09:37-03:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "raulanatol",
+              "url" : "https:\/\/github.com\/raulanatol"
+            }
+          ],
+          "createdAt" : "2021-09-24T08:28:06+01:00",
+          "currentDirectoryPath" : null,
+          "description" : "Open the current site in a private browser",
+          "filename" : "to-private-browsing.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🥽"
+          },
+          "identifier" : "9f2e428dc1c53dc016ace6bb81f7e155",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Browser",
+          "path" : "browsing\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Current Website to Private Browser",
+          "updatedAt" : "2021-09-24T08:28:06+01:00"
         },
         {
           "authors" : [
@@ -1578,6 +1718,68 @@
 
       ],
       "subGroups" : [
+        {
+          "name" : "Samsung Tv",
+          "path" : "samsung-tv",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Darryl Brooks",
+                  "url" : "https:\/\/github.com\/DarrylBrooks97"
+                }
+              ],
+              "createdAt" : "2021-08-20T17:37:33-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Turns off a Samsung TV.",
+              "filename" : "turn-off.template.py",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/logo.png"
+              },
+              "identifier" : "3d94ec3aa6c87dc268d5331e3dcd5f6b",
+              "isTemplate" : true,
+              "language" : "python",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Samsung TV",
+              "path" : "remote-control\/samsung-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Turn Off TV",
+              "updatedAt" : "2021-08-23T10:12:10+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Darryl Brooks",
+                  "url" : "https:\/\/github.com\/DarrylBrooks97"
+                }
+              ],
+              "createdAt" : "2021-08-20T17:37:33-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Turns on a Samsung TV.",
+              "filename" : "turn-on.template.py",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/logo.png"
+              },
+              "identifier" : "8502bb2e79d9a698a2c729d0f9b18925",
+              "isTemplate" : true,
+              "language" : "python",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Samsung TV",
+              "path" : "remote-control\/samsung-tv\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Turn On TV",
+              "updatedAt" : "2021-08-23T10:12:10+00:00"
+            }
+          ]
+        },
         {
           "name" : "Lg Tv",
           "path" : "lg-tv",
@@ -3386,6 +3588,96 @@
       ],
       "subGroups" : [
         {
+          "name" : "Mood Meter",
+          "path" : "mood-meter",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Federico Miraglia",
+                  "url" : "https:\/\/github.com\/Mitra98t"
+                }
+              ],
+              "createdAt" : "2021-10-07T10:32:15+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Add mood value to current or specified date ",
+              "filename" : "add-mood.js",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "☕️"
+              },
+              "identifier" : "0e526e9f9e5f652b170303c129ed23b0",
+              "isTemplate" : false,
+              "language" : "node",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Dashboard",
+              "path" : "dashboard\/mood-meter\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Add Mood",
+              "updatedAt" : "2021-10-07T10:32:15+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Federico Miraglia",
+                  "url" : "https:\/\/github.com\/Mitra98t"
+                }
+              ],
+              "createdAt" : "2021-10-07T10:32:15+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Displays month mood table ",
+              "filename" : "display-mood-month.js",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "☕️"
+              },
+              "identifier" : "e48bdecd3f81809ea28118f115a94d95",
+              "isTemplate" : false,
+              "language" : "node",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Dashboard",
+              "path" : "dashboard\/mood-meter\/",
+              "refreshTime" : "5s",
+              "schemaVersion" : 1,
+              "title" : "Display Mood Month",
+              "updatedAt" : "2021-10-07T10:32:15+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Federico Miraglia",
+                  "url" : "https:\/\/github.com\/Mitra98t"
+                }
+              ],
+              "createdAt" : "2021-10-07T10:32:15+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Displays year mood table ",
+              "filename" : "display-mood-year.js",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "☕️"
+              },
+              "identifier" : "7c2a11ff6675fb93687733d284c4b862",
+              "isTemplate" : false,
+              "language" : "node",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Dashboard",
+              "path" : "dashboard\/mood-meter\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Display Mood Year",
+              "updatedAt" : "2021-10-07T10:32:15+02:00"
+            }
+          ]
+        },
+        {
           "name" : "Countdowns",
           "path" : "countdowns",
           "scriptCommands" : [
@@ -3731,7 +4023,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Sidecar Switch",
-          "updatedAt" : "2021-07-23T17:39:55-04:00"
+          "updatedAt" : "2021-10-29T21:12:32+02:00"
         },
         {
           "authors" : [
@@ -3979,6 +4271,34 @@
           "schemaVersion" : 1,
           "title" : "Disable Caffeinate",
           "updatedAt" : "2021-06-23T19:47:11+03:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "BhEaN",
+              "url" : "https:\/\/github.com\/bhean"
+            }
+          ],
+          "createdAt" : "2021-11-03T21:02:51+01:00",
+          "currentDirectoryPath" : null,
+          "description" : "Toggle Night Shift mode (until tomorrow\/sunrise). Required [nightlight](https:\/\/github.com\/smudge\/nightlight)",
+          "filename" : "nightshift.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🌘"
+          },
+          "identifier" : "574594655373e8a41dd88ae601f9466d",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle Night Shift",
+          "updatedAt" : "2021-11-03T21:02:51+01:00"
         },
         {
           "authors" : [
@@ -4635,6 +4955,62 @@
         {
           "authors" : [
             {
+              "name" : "Juan Luis Romero",
+              "url" : "https:\/\/github.com\/JuanluR8"
+            }
+          ],
+          "createdAt" : "2021-09-27T19:10:12+02:00",
+          "currentDirectoryPath" : null,
+          "description" : "Show free space in your mounted disks",
+          "filename" : "disk-free.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "💾"
+          },
+          "identifier" : "4d24ea15b68e1be01b6a06843150c795",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Disk Free",
+          "updatedAt" : "2021-09-28T06:22:27+00:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Astrit Malsia",
+              "url" : "https:\/\/github.com\/astrit"
+            }
+          ],
+          "createdAt" : "2021-10-26T02:13:10+02:00",
+          "currentDirectoryPath" : null,
+          "description" : "Copy Wi-Fi password from current session",
+          "filename" : "wifi-password.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📟"
+          },
+          "identifier" : "3da4fa8456e609ec2fd7fbadf9ab49a0",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Copy Wi-Fi Password",
+          "updatedAt" : "2021-11-03T20:29:35+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Jesse Claven",
               "url" : "https:\/\/github.com\/jesse-c"
             }
@@ -5255,6 +5631,124 @@
           ]
         },
         {
+          "name" : "Vpnutil",
+          "path" : "vpnutil",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Fuksman",
+                  "url" : "https:\/\/github.com\/fuksman"
+                }
+              ],
+              "createdAt" : "2021-10-08T20:08:21+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Start VPN connection.",
+              "filename" : "vpnutil-start.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "📡"
+              },
+              "identifier" : "b65509f00ff96881390957a20ef127da",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "VPN",
+              "path" : "system\/vpnutil\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Start VPN",
+              "updatedAt" : "2021-10-08T20:08:21+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Fuksman",
+                  "url" : "https:\/\/github.com\/fuksman"
+                }
+              ],
+              "createdAt" : "2021-10-08T20:08:21+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Stop VPN connection",
+              "filename" : "vpnutil-stop.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "📡"
+              },
+              "identifier" : "bedab222fcfd49e2dd9c66d87ac8262e",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "VPN",
+              "path" : "system\/vpnutil\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Stop VPN",
+              "updatedAt" : "2021-10-08T20:08:21+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Fuksman",
+                  "url" : "https:\/\/github.com\/fuksman"
+                }
+              ],
+              "createdAt" : "2021-10-08T20:08:21+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Check VPN connection",
+              "filename" : "vpnutil-status.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "📡"
+              },
+              "identifier" : "9673d2c49273541b6cb9d367f1c89946",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "VPN",
+              "path" : "system\/vpnutil\/",
+              "refreshTime" : "30s",
+              "schemaVersion" : 1,
+              "title" : "VPN Status",
+              "updatedAt" : "2021-10-08T20:08:21+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Fuksman",
+                  "url" : "https:\/\/github.com\/fuksman"
+                }
+              ],
+              "createdAt" : "2021-10-08T20:08:21+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Toggle VPN connection",
+              "filename" : "vpnutil-toggle.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "📡"
+              },
+              "identifier" : "362f65162d24f126ffdabdf0c773d358",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "VPN",
+              "path" : "system\/vpnutil\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Toggle VPN",
+              "updatedAt" : "2021-10-08T20:08:21+03:00"
+            }
+          ]
+        },
+        {
           "name" : "Audio",
           "path" : "audio",
           "scriptCommands" : [
@@ -5814,6 +6308,34 @@
         {
           "authors" : [
             {
+              "name" : "Federico Miraglia",
+              "url" : "https:\/\/github.com\/Mitra98t"
+            }
+          ],
+          "createdAt" : "2021-08-30T10:40:35+02:00",
+          "currentDirectoryPath" : null,
+          "description" : "Add or Subtract specified amount of time from given date.",
+          "filename" : "time-calculator.js",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🕒"
+          },
+          "identifier" : "1de7d90505c68023321e8f8e32908e30",
+          "isTemplate" : false,
+          "language" : "node",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "path" : "developer-utils\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Time Calculator",
+          "updatedAt" : "2021-08-30T17:05:39+02:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Maxim Krouk",
               "url" : "https:\/\/github.com\/maximkrouk"
             }
@@ -6141,6 +6663,34 @@
           "schemaVersion" : 1,
           "title" : "Decode URL",
           "updatedAt" : "2020-12-09T16:57:40+01:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Nikita Galaiko",
+              "url" : "https:\/\/github.com\/ngalaiko"
+            }
+          ],
+          "createdAt" : "2021-08-18T17:37:27+02:00",
+          "currentDirectoryPath" : null,
+          "description" : "Unshortens clipboard content url and copies the result again.",
+          "filename" : "unshorten-url.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔗"
+          },
+          "identifier" : "51d92211ad21137b75d754f3b9667925",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "path" : "developer-utils\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Unshorten URL",
+          "updatedAt" : "2021-08-18T17:37:27+02:00"
         },
         {
           "authors" : [
@@ -6655,6 +7205,34 @@
           "updatedAt" : "2020-12-08T15:56:35+00:00"
         },
         {
+          "authors" : [
+            {
+              "name" : "Tomás Martins",
+              "url" : "https:\/\/github.com\/tfmart"
+            }
+          ],
+          "createdAt" : "2021-08-31T17:46:47-03:00",
+          "currentDirectoryPath" : null,
+          "description" : "Opens a URL inside the currently booted iOS Simulator. Can be used to open deeplinks",
+          "filename" : "open-link-simulator.applescript",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔗"
+          },
+          "identifier" : "3e18b6a937423f4bfd1058e830fe5757",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "path" : "developer-utils\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open Deep Link",
+          "updatedAt" : "2021-09-01T13:11:06+00:00"
+        },
+        {
           "authors" : null,
           "createdAt" : "2020-09-30T13:01:03+01:00",
           "currentDirectoryPath" : null,
@@ -6708,34 +7286,6 @@
         {
           "authors" : [
             {
-              "name" : "chohner",
-              "url" : "https:\/\/github.com\/chohner"
-            }
-          ],
-          "createdAt" : "2021-02-22T11:26:39+01:00",
-          "currentDirectoryPath" : null,
-          "description" : "Opens current topmost directory in VSCode",
-          "filename" : "open-folder-in-vscode.applescript",
-          "hasArguments" : false,
-          "icon" : {
-            "dark" : null,
-            "light" : "images\/vscode.png"
-          },
-          "identifier" : "2b0b56d7b5b14aacf924a1a6f236ecb3",
-          "isTemplate" : false,
-          "language" : "applescript",
-          "mode" : "silent",
-          "needsConfirmation" : null,
-          "packageName" : "VS Code",
-          "path" : "developer-utils\/",
-          "refreshTime" : null,
-          "schemaVersion" : 1,
-          "title" : "Open Directory",
-          "updatedAt" : "2021-05-10T09:05:19+02:00"
-        },
-        {
-          "authors" : [
-            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -6760,6 +7310,34 @@
           "schemaVersion" : 1,
           "title" : "Trim Git Commit Hash",
           "updatedAt" : "2021-07-19T14:40:00+00:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Federico Miraglia",
+              "url" : "https:\/\/github.com\/Mitra98t"
+            }
+          ],
+          "createdAt" : "2021-08-30T10:40:35+02:00",
+          "currentDirectoryPath" : null,
+          "description" : "Given two dates returns the time between them in multiple units of measure.",
+          "filename" : "time-between-dates.js",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🕒"
+          },
+          "identifier" : "61a5ca9258cedf7950981a96058b12bc",
+          "isTemplate" : false,
+          "language" : "node",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "path" : "developer-utils\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Time Between Dates",
+          "updatedAt" : "2021-08-30T17:05:39+02:00"
         },
         {
           "authors" : [
@@ -6792,9 +7370,99 @@
       ],
       "subGroups" : [
         {
+          "name" : "Xcode",
+          "path" : "xcode",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-09-27T01:47:33+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open recent Xcode project",
+              "filename" : "xcode-recent-project.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/xcode.png"
+              },
+              "identifier" : "1e147f71972fc7e7512ae987ef3c458c",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Developer Utilities",
+              "path" : "developer-utils\/xcode\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Recent Project",
+              "updatedAt" : "2021-09-28T19:41:01+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-09-27T01:47:33+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open the last Xcode project ",
+              "filename" : "xcode-last-project.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/xcode.png"
+              },
+              "identifier" : "3604faee01a482d8272b529b4d0384b7",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Developer Utilities",
+              "path" : "developer-utils\/xcode\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Last Project",
+              "updatedAt" : "2021-09-28T19:41:01+03:00"
+            }
+          ]
+        },
+        {
           "name" : "Docker",
           "path" : "docker",
           "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Fabián Delgado",
+                  "url" : null
+                }
+              ],
+              "createdAt" : "2021-09-21T14:21:48-03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Runs a Docker container",
+              "filename" : "run-docker.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "▶️"
+              },
+              "identifier" : "79e2d77eee8042ec057f2786356d44dc",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : true,
+              "packageName" : "Docker",
+              "path" : "developer-utils\/docker\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Run",
+              "updatedAt" : "2021-09-21T14:21:48-03:00"
+            },
             {
               "authors" : [
                 {
@@ -6850,6 +7518,34 @@
               "schemaVersion" : 1,
               "title" : "List Containers",
               "updatedAt" : "2021-06-04T18:57:07+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Fabián Delgado",
+                  "url" : null
+                }
+              ],
+              "createdAt" : "2021-06-06T21:26:12+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Stops a Docker container",
+              "filename" : "stop-docker.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "⏹️"
+              },
+              "identifier" : "9684377a02881cbf7dcf91f76712c550",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : true,
+              "packageName" : "Docker",
+              "path" : "developer-utils\/docker\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Stop",
+              "updatedAt" : "2021-09-21T14:21:48-03:00"
             },
             {
               "authors" : [
@@ -7382,6 +8078,34 @@
             {
               "authors" : [
                 {
+                  "name" : "es183923",
+                  "url" : "github.com\/es183923"
+                }
+              ],
+              "createdAt" : "2020-11-30T22:12:12+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Restart Service in Brew",
+              "filename" : "brew-services-restart.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "🍺"
+              },
+              "identifier" : "9bd016400e1090535e0049cf056f61d0",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Brew",
+              "path" : "developer-utils\/brew\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Restart Service",
+              "updatedAt" : "2021-09-07T10:00:18+00:00"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Thiago Holanda",
                   "url" : "https:\/\/twitter.com\/tholanda"
                 }
@@ -7584,6 +8308,34 @@
             {
               "authors" : [
                 {
+                  "name" : "Vince Picone",
+                  "url" : "https:\/\/github.com\/vpicone"
+                }
+              ],
+              "createdAt" : "2021-03-17T17:31:38+00:00",
+              "currentDirectoryPath" : null,
+              "description" : "Display number of Pull Requests requesting your review",
+              "filename" : "github-review-requests.template.rb",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : "images\/github-logo-iconDark.png",
+                "light" : "images\/github-logo.png"
+              },
+              "identifier" : "61586867ab7b6b2efa596bce302ed064",
+              "isTemplate" : true,
+              "language" : "ruby",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "GitHub",
+              "path" : "developer-utils\/github\/",
+              "refreshTime" : "5m",
+              "schemaVersion" : 1,
+              "title" : "Show Review Requests",
+              "updatedAt" : "2021-11-03T15:03:45-05:00"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Caleb Stauffer",
                   "url" : "https:\/\/github.com\/crstauf"
                 }
@@ -7607,7 +8359,7 @@
               "refreshTime" : "5m",
               "schemaVersion" : 1,
               "title" : "Unread Notifications",
-              "updatedAt" : "2020-12-02T14:51:09-05:00"
+              "updatedAt" : "2021-08-20T16:42:39-04:00"
             },
             {
               "authors" : [
@@ -7890,6 +8642,68 @@
               "schemaVersion" : 1,
               "title" : "Local IPv6",
               "updatedAt" : "2021-07-08T21:33:40-04:00"
+            }
+          ]
+        },
+        {
+          "name" : "Vscode",
+          "path" : "vscode",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Maksim Zemlyanikin",
+                  "url" : "https:\/\/github.com\/Maksimka101"
+                }
+              ],
+              "createdAt" : "2021-10-11T13:31:08+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Finds path to the given directory which must be a vs code or git project and opens it with VS Code",
+              "filename" : "open-project-in-vscode.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/vscode.png"
+              },
+              "identifier" : "66befabf033302a672d20d8d207a3dfd",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "VS Code",
+              "path" : "developer-utils\/vscode\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Project",
+              "updatedAt" : "2021-10-11T13:31:08+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "chohner",
+                  "url" : "https:\/\/github.com\/chohner"
+                }
+              ],
+              "createdAt" : "2021-02-22T11:26:39+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Opens current topmost directory in VSCode",
+              "filename" : "open-folder-in-vscode.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/vscode.png"
+              },
+              "identifier" : "2b0b56d7b5b14aacf924a1a6f236ecb3",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "VS Code",
+              "path" : "developer-utils\/vscode\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Directory",
+              "updatedAt" : "2021-10-11T13:31:08+03:00"
             }
           ]
         },
@@ -8419,6 +9233,34 @@
             {
               "authors" : [
                 {
+                  "name" : "Marcel Bochtler",
+                  "url" : "https:\/\/github.com\/MarcelBochtler"
+                }
+              ],
+              "createdAt" : "2021-11-03T21:02:13+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Log in to Bitwarden using an API key.",
+              "filename" : "log-in-apikey.template.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/bitwarden.png"
+              },
+              "identifier" : "837bd1e9a8fe1ed4fa905be4f9cbc492",
+              "isTemplate" : true,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "path" : "password-managers\/bitwarden\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Log In",
+              "updatedAt" : "2021-11-03T21:02:13+01:00"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Phil Salant",
                   "url" : "https:\/\/github.com\/PSalant726"
                 }
@@ -8669,6 +9511,70 @@
               "schemaVersion" : 1,
               "title" : "Leave Meeting",
               "updatedAt" : "2021-05-03T09:54:17+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Luigi Cardito",
+                  "url" : "https:\/\/github.com\/lcardito"
+                },
+                {
+                  "name" : "Faris Aziz",
+                  "url" : "https:\/\/github.com\/farisaziz12"
+                }
+              ],
+              "createdAt" : "2021-08-31T10:32:28+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show\/Hide your microphone in the current meeting",
+              "filename" : "toggle-video.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/zoom-logo.png"
+              },
+              "identifier" : "a36414a653b2c264285dc7fd4b62563b",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Zoom",
+              "path" : "communication\/zoom\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Toggle Video",
+              "updatedAt" : "2021-08-31T16:37:44+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Luigi Cardito",
+                  "url" : "https:\/\/github.com\/lcardito"
+                },
+                {
+                  "name" : "Faris Aziz",
+                  "url" : "https:\/\/github.com\/farisaziz12"
+                }
+              ],
+              "createdAt" : "2021-08-31T10:32:28+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Mute\/Unmute your microphone in the current meeting",
+              "filename" : "toggle-mic.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/zoom-logo.png"
+              },
+              "identifier" : "5f4ac638a28f19b6fa2f377204f1d6dc",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Zoom",
+              "path" : "communication\/zoom\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Toggle Microphone",
+              "updatedAt" : "2021-08-31T16:37:44+02:00"
             }
           ]
         },
@@ -9288,7 +10194,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Google Translate",
-          "updatedAt" : "2021-03-19T22:12:38+05:30"
+          "updatedAt" : "2021-08-27T15:40:05+02:00"
         },
         {
           "authors" : [
@@ -10938,6 +11844,68 @@
       ],
       "subGroups" : [
         {
+          "name" : "Meetingbar",
+          "path" : "meetingbar",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-08-23T05:05:54+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Join the ongoing or upcoming meeting.",
+              "filename" : "meetingbar-join-meeting.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/meetingbar.png"
+              },
+              "identifier" : "b8993c798f512a75626c91ead46662be",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "MeetingBar",
+              "path" : "apps\/meetingbar\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Join Meeting",
+              "updatedAt" : "2021-08-23T12:18:02+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-08-23T05:05:54+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Create a new meeting.",
+              "filename" : "meetingbar-create-meeting.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/meetingbar.png"
+              },
+              "identifier" : "79b4a204b8d40f498a14d7d0623bac23",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "MeetingBar",
+              "path" : "apps\/meetingbar\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Create Meeting",
+              "updatedAt" : "2021-08-23T12:18:02+02:00"
+            }
+          ]
+        },
+        {
           "name" : "Iterm",
           "path" : "iterm",
           "scriptCommands" : [
@@ -11922,40 +12890,6 @@
           ]
         },
         {
-          "name" : "Spotify",
-          "path" : "spotify",
-          "scriptCommands" : [
-            {
-              "authors" : [
-                {
-                  "name" : "Nichlas W. Andersen",
-                  "url" : "https:\/\/twitter.com\/nichlaswa"
-                }
-              ],
-              "createdAt" : "2021-05-27T12:22:24+02:00",
-              "currentDirectoryPath" : null,
-              "description" : "Create Spotify Shortcut Command from the Spotify URL that's in your clipboard",
-              "filename" : "create-spotify-command.js",
-              "hasArguments" : true,
-              "icon" : {
-                "dark" : null,
-                "light" : ".\/images\/create.png"
-              },
-              "identifier" : "4a0c3ae9f9dc6dd5d6e060f802ea486c",
-              "isTemplate" : false,
-              "language" : "node",
-              "mode" : "silent",
-              "needsConfirmation" : null,
-              "packageName" : "Spotify",
-              "path" : "apps\/spotify\/",
-              "refreshTime" : null,
-              "schemaVersion" : 1,
-              "title" : "Create Spotify Command",
-              "updatedAt" : "2021-05-27T13:45:09+02:00"
-            }
-          ]
-        },
-        {
           "name" : "Tunnelblick",
           "path" : "tunnelblick",
           "scriptCommands" : [
@@ -12228,6 +13162,40 @@
               "schemaVersion" : 1,
               "title" : "Toggle Dimming",
               "updatedAt" : "2021-05-28T10:42:00+01:00"
+            }
+          ]
+        },
+        {
+          "name" : "Iconsur",
+          "path" : "iconsur",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "StevenRCE0",
+                  "url" : "https:\/\/github.com\/StevenRCE0"
+                }
+              ],
+              "createdAt" : "2021-08-27T15:06:06+08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Change App icons to match Big Sur",
+              "filename" : "iconsur.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "🅱️"
+              },
+              "identifier" : "10ce792f9f21acf4813a7307956a1999",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "iconsur",
+              "path" : "apps\/iconsur\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Change Application Icon",
+              "updatedAt" : "2021-08-31T08:37:29+08:00"
             }
           ]
         },
@@ -12975,6 +13943,62 @@
               "authors" : [
                 {
                   "name" : "Ayoub Gharbi",
+                  "url" : "github.com\/ayoub-g"
+                }
+              ],
+              "createdAt" : "2021-08-19T11:57:46+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "This script searches for a note, given its exact name, or a substring, the search does not consider case",
+              "filename" : "search-note-by-name.applescript",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/notes.png"
+              },
+              "identifier" : "2742cc92859fb01b45bbed9bd2ba3dc8",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Notes",
+              "path" : "apps\/notes\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Search Note By Name",
+              "updatedAt" : "2021-08-19T11:57:46+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Ayoub Gharbi",
+                  "url" : "https:\/\/github.com\/ayoub-g"
+                }
+              ],
+              "createdAt" : "2021-08-20T22:46:40+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Script to append to an existing note content from clipboard.",
+              "filename" : "append-note-from-clipboard.applescript",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/notes.png"
+              },
+              "identifier" : "8e61646606984a27fa52fabeda748f01",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Notes",
+              "path" : "apps\/notes\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Append Content From Clipboard",
+              "updatedAt" : "2021-08-20T22:46:40+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Ayoub Gharbi",
                   "url" : "https:\/\/github.com\/ayoub-g"
                 }
               ],
@@ -13026,6 +14050,152 @@
               "schemaVersion" : 1,
               "title" : "Create Note",
               "updatedAt" : "2021-07-23T21:06:02-04:00"
+            }
+          ]
+        },
+        {
+          "name" : "Y Pomodoro",
+          "path" : "y-pomodoro",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Jesse Claven",
+                  "url" : "https:\/\/github.com\/jesse-c"
+                }
+              ],
+              "createdAt" : "2021-08-20T22:47:15+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Pause active pomodoro timer using  [y-pomodoro](https:\/\/github.com\/jesse-c\/y-pomodoro)",
+              "filename" : "pause.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🍅"
+              },
+              "identifier" : "d2836820287e44cb9f83f4dd84f8fdd1",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "y-pomodoro",
+              "path" : "apps\/y-pomodoro\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Pause",
+              "updatedAt" : "2021-08-20T22:47:15+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jesse Claven",
+                  "url" : "https:\/\/github.com\/jesse-c"
+                }
+              ],
+              "createdAt" : "2021-08-20T22:47:15+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show active pomodoro timer using [y-pomodoro](https:\/\/github.com\/jesse-c\/y-pomodoro)",
+              "filename" : "show.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🍅"
+              },
+              "identifier" : "8c775fb12a394e545e09c5dc3f4f5385",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "y-pomodoro",
+              "path" : "apps\/y-pomodoro\/",
+              "refreshTime" : "15s",
+              "schemaVersion" : 1,
+              "title" : "Show",
+              "updatedAt" : "2021-08-20T22:47:15+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jesse Claven",
+                  "url" : "https:\/\/github.com\/jesse-c"
+                }
+              ],
+              "createdAt" : "2021-08-20T22:47:15+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Resume active pomodoro timer using [y-pomodoro](https:\/\/github.com\/jesse-c\/y-pomodoro)",
+              "filename" : "resume.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🍅"
+              },
+              "identifier" : "3f8075486c097397d65b6911816fba51",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "y-pomodoro",
+              "path" : "apps\/y-pomodoro\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Resume",
+              "updatedAt" : "2021-08-20T22:47:15+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jesse Claven",
+                  "url" : "https:\/\/github.com\/jesse-c"
+                }
+              ],
+              "createdAt" : "2021-08-20T22:47:15+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Stop active pomodoro timer using [y-pomodoro](https:\/\/github.com\/jesse-c\/y-pomodoro)",
+              "filename" : "stop.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🍅"
+              },
+              "identifier" : "e265864f8039fb0d44199d08a552c4f5",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "y-pomodoro",
+              "path" : "apps\/y-pomodoro\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Stop",
+              "updatedAt" : "2021-08-20T22:47:15+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jesse Claven",
+                  "url" : "https:\/\/github.com\/jesse-c"
+                }
+              ],
+              "createdAt" : "2021-08-20T22:47:15+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Start a pomodoro timer using [y-pomodoro](https:\/\/github.com\/jesse-c\/y-pomodoro)",
+              "filename" : "start.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🍅"
+              },
+              "identifier" : "205772935becd5940672978344fe329f",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "y-pomodoro",
+              "path" : "apps\/y-pomodoro\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Start",
+              "updatedAt" : "2021-08-20T22:47:15+01:00"
             }
           ]
         },
@@ -13151,6 +14321,34 @@
               "schemaVersion" : 1,
               "title" : "Close Other Tabs",
               "updatedAt" : "2021-03-09T15:09:02+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Dave Lehman",
+                  "url" : "https:\/\/github.com\/dlehman"
+                }
+              ],
+              "createdAt" : "2021-08-19T12:49:15-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open current Safari URL in new tab in Firefox",
+              "filename" : "safari-current-page-url-in-firefox.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/safari.png"
+              },
+              "identifier" : "953364ac2c0ce7e6bbb02efeed35bfd6",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Safari",
+              "path" : "apps\/safari\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Safari URL in Firefox",
+              "updatedAt" : "2021-08-20T09:04:17-05:00"
             },
             {
               "authors" : [
@@ -13347,6 +14545,34 @@
               "schemaVersion" : 1,
               "title" : "Close All Tabs",
               "updatedAt" : "2021-03-09T15:09:02+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Dave Lehman",
+                  "url" : "https:\/\/github.com\/dlehman"
+                }
+              ],
+              "createdAt" : "2021-08-19T12:49:15-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open current Safari URL in new tab in Chrome",
+              "filename" : "safari-current-page-url-in-chrome.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/safari.png"
+              },
+              "identifier" : "82f9f4b17a97bf774484f7946245c318",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Safari",
+              "path" : "apps\/safari\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Safari URL in Chrome",
+              "updatedAt" : "2021-08-20T09:04:07-05:00"
             }
           ]
         },
@@ -13679,6 +14905,124 @@
               "schemaVersion" : 1,
               "title" : "DeepL App Translate",
               "updatedAt" : "2021-04-18T01:23:05+02:00"
+            }
+          ]
+        },
+        {
+          "name" : "Warp",
+          "path" : "warp",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Fuksman",
+                  "url" : "https:\/\/github.com\/fuksman"
+                }
+              ],
+              "createdAt" : "2021-11-03T23:01:39+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Disconnect from WARP",
+              "filename" : "warp-stop.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/warp.png"
+              },
+              "identifier" : "84f6a46d9901c80cc7dd7a7d71e833db",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "WARP",
+              "path" : "apps\/warp\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Disconnect",
+              "updatedAt" : "2021-11-03T23:01:39+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Fuksman",
+                  "url" : "https:\/\/github.com\/fuksman"
+                }
+              ],
+              "createdAt" : "2021-11-03T23:01:39+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Toggle Connection",
+              "filename" : "warp-toggle.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/warp.png"
+              },
+              "identifier" : "7792a62e2ea9c46c3c44aa5c7ea0a3fe",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "WARP",
+              "path" : "apps\/warp\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Toggle WARP",
+              "updatedAt" : "2021-11-03T23:01:39+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Fuksman",
+                  "url" : "https:\/\/github.com\/fuksman"
+                }
+              ],
+              "createdAt" : "2021-11-03T23:01:39+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Check WARP connection",
+              "filename" : "warp-status.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/warp.png"
+              },
+              "identifier" : "e24da24122bfc2592adaf22617c9b2ee",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "WARP",
+              "path" : "apps\/warp\/",
+              "refreshTime" : "30s",
+              "schemaVersion" : 1,
+              "title" : "WARP Status",
+              "updatedAt" : "2021-11-03T23:01:39+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Fuksman",
+                  "url" : "https:\/\/github.com\/fuksman"
+                }
+              ],
+              "createdAt" : "2021-11-03T23:01:39+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Create a connection to WARP",
+              "filename" : "warp-start.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/warp.png"
+              },
+              "identifier" : "5e1bf486a85fcd82a889fc34e2f23399",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "WARP",
+              "path" : "apps\/warp\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Connect",
+              "updatedAt" : "2021-11-03T23:01:39+03:00"
             }
           ]
         },
@@ -14586,6 +15930,130 @@
       ],
       "subGroups" : [
         {
+          "name" : "Imgur",
+          "path" : "imgur",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Fahim Faisal",
+                  "url" : "https:\/\/github.com\/i3p9"
+                }
+              ],
+              "createdAt" : "2021-08-19T04:36:52+06:00",
+              "currentDirectoryPath" : null,
+              "description" : "Upload your last screenshot to Imgur and copy the image link to clipboard",
+              "filename" : "imgur-upload-latest-screenshot.template.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "☁️"
+              },
+              "identifier" : "fb44bae955f942707a724e0c14063627",
+              "isTemplate" : true,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Upload to Imgur",
+              "path" : "productivity\/imgur\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Upload Latest Screenshot to Imgur",
+              "updatedAt" : "2021-09-09T13:29:10+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Fahim Faisal",
+                  "url" : "https:\/\/github.com\/i3p9"
+                }
+              ],
+              "createdAt" : "2021-08-26T01:16:19+06:00",
+              "currentDirectoryPath" : null,
+              "description" : "Upload Image from your Clipboard and copy the image link to clipboard",
+              "filename" : "imgur-upload-clipboard-image.template.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "📋"
+              },
+              "identifier" : "4041c74c3a091d708e0e58c159d5024e",
+              "isTemplate" : true,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Uploads Copied Image or Image from Clipboard",
+              "path" : "productivity\/imgur\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Clipboard to Imgur",
+              "updatedAt" : "2021-09-09T13:29:10+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Fahim Faisal",
+                  "url" : "https:\/\/github.com\/i3p9"
+                }
+              ],
+              "createdAt" : "2021-08-19T04:36:52+06:00",
+              "currentDirectoryPath" : null,
+              "description" : "Opens default screenshot interface and immediately uploads and copies link to clipboard",
+              "filename" : "screenshot-and-imgur.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "📷"
+              },
+              "identifier" : "06f3fa5d901f894dba435781da31037d",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Opens Screenshot Interface and Uploads",
+              "path" : "productivity\/imgur\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Screenshot and Imgur",
+              "updatedAt" : "2021-09-09T13:29:10+03:00"
+            }
+          ]
+        },
+        {
+          "name" : "Tesseract",
+          "path" : "tesseract",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Diego Lopes",
+                  "url" : "https:\/\/github.com\/Dihgg"
+                }
+              ],
+              "createdAt" : "2021-09-28T10:37:53-03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Tesseract OCR",
+              "filename" : "tesseract-ocr.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "🔍"
+              },
+              "identifier" : "25b6650479ec5f66c13955ef072ebf65",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "tesseract",
+              "path" : "productivity\/tesseract\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "OCR Screenshot",
+              "updatedAt" : "2021-09-28T12:28:19-03:00"
+            }
+          ]
+        },
+        {
           "name" : "Stopwatch",
           "path" : "stopwatch",
           "scriptCommands" : [
@@ -15085,6 +16553,62 @@
               "schemaVersion" : 1,
               "title" : "Current Track",
               "updatedAt" : "2021-01-21T12:38:38-05:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Bryan Schuetz",
+                  "url" : "https:\/\/github.com\/bryanschuetz"
+                }
+              ],
+              "createdAt" : "2021-09-24T08:42:54-04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Let the algorithm know how you feel about the currently playing track.",
+              "filename" : "apple-music-hate-current-track.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/apple-music-logo.png"
+              },
+              "identifier" : "f7d43db5dbd64ecab0104afe7dd4c5e1",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Apple Music",
+              "path" : "media\/apple-music\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Hate Current Track",
+              "updatedAt" : "2021-09-24T08:42:54-04:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Bryan Schuetz",
+                  "url" : "https:\/\/github.com\/bryanschuetz"
+                }
+              ],
+              "createdAt" : "2021-09-24T08:42:54-04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Let the algorithm know how you feel about the currently playing track.",
+              "filename" : "apple-music-love-current-track.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/apple-music-logo.png"
+              },
+              "identifier" : "1f71dc54a2c61ca4ebede7924eaf73e8",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Apple Music",
+              "path" : "media\/apple-music\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Love Current Track",
+              "updatedAt" : "2021-09-24T08:42:54-04:00"
             }
           ]
         },
@@ -15263,6 +16787,544 @@
           ]
         },
         {
+          "name" : "Endel",
+          "path" : "endel",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Set focus mode at Endel ",
+              "filename" : "endel-sleep.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "882873a4414a4785a11184e942127bae",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Sleep",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Set relax mode at Endel ",
+              "filename" : "endel-relax.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "4b091a5a2e460f0e65e66ff8ce57ff4d",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Relax",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Run Workout scenario at Endel ",
+              "filename" : "endel-scenarios-workout.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "e12f2795c9fd7861d63892302fcce623",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Workout",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Run Deep Work scenario at Endel ",
+              "filename" : "endel-scenarios-deepwork.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "e137539f2ad45ca56293ed3f849f82a3",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Deep Work",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Set focus mode at Endel ",
+              "filename" : "endel-focus.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "0d39ac92f6ee5586b718d24e095b9477",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Focus",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Run Yoga scenario at Endel ",
+              "filename" : "endel-scenarios-yoga.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "7f208b21990d3049368276de95cef101",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Yoga",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Set study mode at Endel ",
+              "filename" : "endel-study.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "ce29578447010dd36480bd25ff785cef",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Study",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Run Read scenario at Endel ",
+              "filename" : "endel-scenarios-read.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "1b2102711e0cbd6f4b249756ddb2bdf4",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Read",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Run Power Nap scenario at Endel ",
+              "filename" : "endel-scenarios-powernap.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "1c78bc5186a9516d6ce228be1b9b188a",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Power Nap",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Set AI lullaby mode at Endel ",
+              "filename" : "endel-lullaby.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "74bec6706807ff93e3c8b524ab208bd6",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Lullaby",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Run Homework scenario at Endel ",
+              "filename" : "endel-scenarios-homework.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "279f29dacf815dc3e32427a904d21443",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Homework",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Run Meditate scenario at Endel ",
+              "filename" : "endel-scenarios-meditate.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "fd592987dee95de1ab1e746d66a296d1",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Meditate",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Set deep focus mode at Endel ",
+              "filename" : "endel-deep-focus.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "879912a57f3ee1fc9c177f5687710e68",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Deep Focus",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Run Self Care scenario at Endel ",
+              "filename" : "endel-scenarios-selfcare.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "7395fcee323302f9ebf5131b6bf01bd1",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Self Care",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Set Alarm in Endel ",
+              "filename" : "endel-alarm.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "3308542a1a6cfcabd9576c90af4d7ef1",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Set Alarm",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Set wiggly wisdom mode at Endel ",
+              "filename" : "endel-wisdom.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "63f5ba97d67a53656d14772b71d1d81c",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Wiggly Wisdom",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Run Unwind scenario at Endel ",
+              "filename" : "endel-scenarios-unwind.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "214e40e5bed0a266493139305e88d92b",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Unwind",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Set recovery mode at Endel ",
+              "filename" : "endel-recovery.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "9acba1d018ec7f24f3616937cfc303e5",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Recovery",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Korobyin",
+                  "url" : "https:\/\/github.com\/huangsemao"
+                }
+              ],
+              "createdAt" : "2021-10-06T15:53:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Set Timer in Endel ",
+              "filename" : "endel-timer.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/endel.png"
+              },
+              "identifier" : "7b92a6f72056f8a2e67e96151c57a6c6",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : false,
+              "packageName" : "Endel",
+              "path" : "media\/endel\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Set Timer",
+              "updatedAt" : "2021-10-06T15:53:54+03:00"
+            }
+          ]
+        },
+        {
           "name" : "Spotify",
           "path" : "spotify",
           "scriptCommands" : [
@@ -15311,6 +17373,34 @@
               "schemaVersion" : 1,
               "title" : "Toggle Play\/Pause",
               "updatedAt" : "2020-12-08T15:56:35+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Nichlas Wærnes Andersen",
+                  "url" : "https:\/\/twitter.com\/nichlaswa"
+                }
+              ],
+              "createdAt" : "2021-05-27T12:22:24+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Play ${commandName} on Spotify",
+              "filename" : "create-spotify-command.js",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/spotify-logo.png"
+              },
+              "identifier" : "4a0c3ae9f9dc6dd5d6e060f802ea486c",
+              "isTemplate" : false,
+              "language" : "node",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Spotify",
+              "path" : "media\/spotify\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "${commandName}",
+              "updatedAt" : "2021-09-29T08:15:53+02:00"
             },
             {
               "authors" : [
@@ -15619,6 +17709,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 547,
-  "updatedAt" : "2021-08-18T20:18:17Z"
+  "totalScriptCommands" : 619,
+  "updatedAt" : "2021-11-04T10:23:04Z"
 }

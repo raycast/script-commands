@@ -27,15 +27,22 @@ require 'json'
 require 'open-uri'
 
 q = ARGV[0]
-sl = ARGV[1] == "" ? "en" : ARGV[1] # Source language
-tl = ARGV[2] == "" ? "ro" : ARGV[2] # Target language
+sl = ARGV[1].nil? || ARGV[1].empty? ? "en" : ARGV[1] # Source language
+tl = ARGV[2].nil? || ARGV[2].empty? ? "ro" : ARGV[2] # Target language
 
 # If the length of the query is less than 2, it won't return anything valid.
 if q.length < 2
     exit 1
 end
 
-uri = URI("https://translate.googleapis.com/translate_a/single?client=gtx&sl=#{sl}&tl=#{tl}&dt=t&q=#{q}")
+uri = URI('https://translate.googleapis.com/translate_a/single')
+uri.query = URI::encode_www_form(
+  'client' => 'gtx',
+  'sl' => sl,
+  'tl' => tl,
+  'dt' => 't',
+  'q' => q
+)
 
 http = Net::HTTP.new(uri.host, 80)
 request = Net::HTTP::Get.new(uri, initheader = {'Content-Type' => 'application/json', 'Accept' => 'application/json'})
