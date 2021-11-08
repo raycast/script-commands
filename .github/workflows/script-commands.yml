@@ -16,6 +16,9 @@ jobs:
       - name: Setup Xcode
         uses: raycast/github-actions/setup-xcode@master
 
+      - name: Setup GIT
+        uses: raycast/github-actions/setup-git@v1.1.0
+        
       - name: Build Toolkit
         run: |
           make build
