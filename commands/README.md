@@ -605,6 +605,7 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/dashboard/images/twitter.png" width="20" height="20"> | [Twitter Statistics](dashboard/twitter-statistics.template.rb) | Shows the followers, favorites and friends count of your Twitter account. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  | ✅ | <img src="images/icon-ruby.png" width="20" height="20" title="Ruby"> |
   | 🕐 | [World Time](dashboard/world-time.sh) | Show the time from elsewhere in the world | [Jesse Claven](https://github.com/jesse-c) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | ⏱ | [Year Progress](dashboard/year-progress.sh) | See the year progress on your desktop. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/dashboard/images/youtube.png" width="20" height="20"> | [YouTube Statistics](dashboard/youtube-statistics.template.rb) | Shows YouTube Subscribers, Views and Videos | [Astrit](https://github.com/astrit) |  | ✅ | <img src="images/icon-ruby.png" width="20" height="20" title="Ruby"> |
 
 #### Countdowns
 
