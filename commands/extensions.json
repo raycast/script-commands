@@ -3532,6 +3532,34 @@
         {
           "authors" : [
             {
+              "name" : "Astrit",
+              "url" : "https:\/\/github.com\/astrit"
+            }
+          ],
+          "createdAt" : "2021-11-09T10:29:38+01:00",
+          "currentDirectoryPath" : null,
+          "description" : "Shows YouTube Subscribers, Views and Videos",
+          "filename" : "youtube-statistics.template.rb",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/youtube.png"
+          },
+          "identifier" : "561f7ed8faa600880f0a583a964d481f",
+          "isTemplate" : true,
+          "language" : "ruby",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "YouTube Statistics",
+          "path" : "dashboard\/",
+          "refreshTime" : "1h",
+          "schemaVersion" : 1,
+          "title" : "YouTube Statistics",
+          "updatedAt" : "2021-11-09T09:49:02+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Thomas Paul Mann",
               "url" : "https:\/\/github.com\/thomaspaulmann"
             }
@@ -17737,6 +17765,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 620,
-  "updatedAt" : "2021-11-08T12:30:27Z"
+  "totalScriptCommands" : 621,
+  "updatedAt" : "2021-11-09T09:49:02Z"
 }
