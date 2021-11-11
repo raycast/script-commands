@@ -111,6 +111,7 @@ This repository contains sample commands and documentation to write your own one
   - [Bitwarden](#bitwarden)
 - [Productivity](#productivity)
   - [Imgur](#imgur)
+  - [Macocr](#macocr)
   - [Pomodoro](#pomodoro)
   - [Stopwatch](#stopwatch)
   - [Tesseract](#tesseract)
@@ -956,6 +957,12 @@ This repository contains sample commands and documentation to write your own one
   | 📋 | [Clipboard to Imgur](productivity/imgur/imgur-upload-clipboard-image.template.sh) | Upload Image from your Clipboard and copy the image link to clipboard | [Fahim Faisal](https://github.com/i3p9) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 📷 | [Screenshot and Imgur](productivity/imgur/screenshot-and-imgur.sh) | Opens default screenshot interface and immediately uploads and copies link to clipboard | [Fahim Faisal](https://github.com/i3p9) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | ☁️ | [Upload Latest Screenshot to Imgur](productivity/imgur/imgur-upload-latest-screenshot.template.sh) | Upload your last screenshot to Imgur and copy the image link to clipboard | [Fahim Faisal](https://github.com/i3p9) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Macocr
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | 📸 | [Run OCR](productivity/macocr/macocr-run-ocr.sh) | N/A | [Jakub Lanski](https://github.com/jaklan) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Pomodoro
 
