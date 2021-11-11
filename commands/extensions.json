@@ -16288,6 +16288,40 @@
               "updatedAt" : "2021-07-19T21:12:36+01:00"
             }
           ]
+        },
+        {
+          "name" : "Macocr",
+          "path" : "macocr",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-11-10T11:40:57+01:00",
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "macocr-run-ocr.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "📸"
+              },
+              "identifier" : "90d13e130e8494fa8012db4823c580dd",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "macOCR",
+              "path" : "productivity\/macocr\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Run OCR",
+              "updatedAt" : "2021-11-11T04:18:19+01:00"
+            }
+          ]
         }
       ]
     },
@@ -17765,6 +17799,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 621,
-  "updatedAt" : "2021-11-09T09:49:02Z"
+  "totalScriptCommands" : 622,
+  "updatedAt" : "2021-11-11T11:24:22Z"
 }
