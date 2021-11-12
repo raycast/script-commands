@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title git.io
+# @raycast.title Shorten URL from GitHub
 # @raycast.mode silent
 # @raycast.packageName Browsing
 
