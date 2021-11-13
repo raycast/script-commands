@@ -3532,6 +3532,34 @@
         {
           "authors" : [
             {
+              "name" : "Astrit",
+              "url" : "https:\/\/github.com\/astrit"
+            }
+          ],
+          "createdAt" : "2021-11-09T10:29:38+01:00",
+          "currentDirectoryPath" : null,
+          "description" : "Shows YouTube Subscribers, Views and Videos",
+          "filename" : "youtube-statistics.template.rb",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/youtube.png"
+          },
+          "identifier" : "561f7ed8faa600880f0a583a964d481f",
+          "isTemplate" : true,
+          "language" : "ruby",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "YouTube Statistics",
+          "path" : "dashboard\/",
+          "refreshTime" : "1h",
+          "schemaVersion" : 1,
+          "title" : "YouTube Statistics",
+          "updatedAt" : "2021-11-09T09:49:02+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Thomas Paul Mann",
               "url" : "https:\/\/github.com\/thomaspaulmann"
             }
@@ -5011,6 +5039,34 @@
         {
           "authors" : [
             {
+              "name" : "Astrit",
+              "url" : "https:\/\/github.com\/astrit"
+            }
+          ],
+          "createdAt" : "2021-11-07T13:19:22+01:00",
+          "currentDirectoryPath" : null,
+          "description" : "A script command to enable and disable .DS_Store",
+          "filename" : "toggle-ds-store.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🧬"
+          },
+          "identifier" : "3c4ebd8411dc67d65ea9d93787e1cfe1",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle .DS_Store",
+          "updatedAt" : "2021-11-07T13:19:22+01:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Jesse Claven",
               "url" : "https:\/\/github.com\/jesse-c"
             }
@@ -5834,7 +5890,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Switch Audio to <Device Name>",
-              "updatedAt" : "2021-04-16T19:18:39+03:00"
+              "updatedAt" : "2021-11-07T15:24:00-05:00"
             },
             {
               "authors" : [
@@ -14904,7 +14960,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "DeepL App Translate",
-              "updatedAt" : "2021-04-18T01:23:05+02:00"
+              "updatedAt" : "2021-11-04T11:22:42+01:00"
             }
           ]
         },
@@ -16049,7 +16105,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "OCR Screenshot",
-              "updatedAt" : "2021-09-28T12:28:19-03:00"
+              "updatedAt" : "2021-11-05T00:12:23+03:00"
             }
           ]
         },
@@ -16230,6 +16286,40 @@
               "schemaVersion" : 1,
               "title" : "Status",
               "updatedAt" : "2021-07-19T21:12:36+01:00"
+            }
+          ]
+        },
+        {
+          "name" : "Macocr",
+          "path" : "macocr",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-11-10T11:40:57+01:00",
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "macocr-run-ocr.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "📸"
+              },
+              "identifier" : "90d13e130e8494fa8012db4823c580dd",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "macOCR",
+              "path" : "productivity\/macocr\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Run OCR",
+              "updatedAt" : "2021-11-11T04:18:19+01:00"
             }
           ]
         }
@@ -17709,6 +17799,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 619,
-  "updatedAt" : "2021-11-04T10:23:04Z"
+  "totalScriptCommands" : 622,
+  "updatedAt" : "2021-11-11T11:24:22Z"
 }

@@ -111,6 +111,7 @@ This repository contains sample commands and documentation to write your own one
   - [Bitwarden](#bitwarden)
 - [Productivity](#productivity)
   - [Imgur](#imgur)
+  - [Macocr](#macocr)
   - [Pomodoro](#pomodoro)
   - [Stopwatch](#stopwatch)
   - [Tesseract](#tesseract)
@@ -605,6 +606,7 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/dashboard/images/twitter.png" width="20" height="20"> | [Twitter Statistics](dashboard/twitter-statistics.template.rb) | Shows the followers, favorites and friends count of your Twitter account. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  | ✅ | <img src="images/icon-ruby.png" width="20" height="20" title="Ruby"> |
   | 🕐 | [World Time](dashboard/world-time.sh) | Show the time from elsewhere in the world | [Jesse Claven](https://github.com/jesse-c) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | ⏱ | [Year Progress](dashboard/year-progress.sh) | See the year progress on your desktop. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/dashboard/images/youtube.png" width="20" height="20"> | [YouTube Statistics](dashboard/youtube-statistics.template.rb) | Shows YouTube Subscribers, Views and Videos | [Astrit](https://github.com/astrit) |  | ✅ | <img src="images/icon-ruby.png" width="20" height="20" title="Ruby"> |
 
 #### Countdowns
 
@@ -956,6 +958,12 @@ This repository contains sample commands and documentation to write your own one
   | 📷 | [Screenshot and Imgur](productivity/imgur/screenshot-and-imgur.sh) | Opens default screenshot interface and immediately uploads and copies link to clipboard | [Fahim Faisal](https://github.com/i3p9) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | ☁️ | [Upload Latest Screenshot to Imgur](productivity/imgur/imgur-upload-latest-screenshot.template.sh) | Upload your last screenshot to Imgur and copy the image link to clipboard | [Fahim Faisal](https://github.com/i3p9) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
+#### Macocr
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | 📸 | [Run OCR](productivity/macocr/macocr-run-ocr.sh) | N/A | [Jakub Lanski](https://github.com/jaklan) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
 #### Pomodoro
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
@@ -1096,6 +1104,7 @@ This repository contains sample commands and documentation to write your own one
   | 🧭 | [Switch Default Browser to Chromium](system/default-browser-chromium.sh) | Set Chromium as the default browser. | [Marc Klingen](https://github.com/marcklingen) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🧭 | [Switch Default Browser to Firefox](system/default-browser-firefox.sh) | Set Firefox as the default browser. | [Marc Klingen](https://github.com/marcklingen) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🧭 | [Switch Default Browser to Safari](system/default-browser-safari.sh) | Set Safari as the default browser. | [Marc Klingen](https://github.com/marcklingen) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🧬 | [Toggle .DS_Store](system/toggle-ds-store.applescript) | A script command to enable and disable .DS_Store | [Astrit](https://github.com/astrit) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/system/images/bluetooth.png" width="20" height="20"> | [Toggle Bluetooth](system/bluetooth.template.applescript) | Toggle your Bluetooth connection. | [Vincent Dörig](https://github.com/vincentdoerig) |  | ✅ | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🖥 | [Toggle Desktop Icons](system/toggle-desktop-icons.applescript) | A script command to show and hide icons of Desktop folder | [Raycast](https://raycast.com) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 👓 | [Toggle Filename Extensions](system/toggle-filename-extensions.applescript) | Show or hide all filename extensions (like .txt, .png) | [Senthil Prabhu](https://github.com/senthilprabhut) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |

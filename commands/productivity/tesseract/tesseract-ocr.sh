@@ -23,12 +23,8 @@ if ! command -v tesseract &> /dev/null; then
     exit 1;
 fi
 
-TEMP_DIR=$(mktemp -d)
-
-screencapture -i "$TEMP_DIR/screenshot.png"
+TEMP_FILE=$(mktemp)
+screencapture -i "$TEMP_FILE"
 LANG=${1:-eng}
-
-tesseract "$TEMP_DIR/screenshot.png" "$TEMP_DIR/ocr" -l $LANG
-pbcopy < $TEMP_DIR/ocr.txt
-
+tesseract "$TEMP_FILE" stdout -l $LANG | LANG=en_US.UTF-8 pbcopy
 echo "Gathered text copied to clipboard"
