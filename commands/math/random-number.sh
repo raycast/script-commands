@@ -5,8 +5,8 @@
 # @raycast.title Generate Random Number
 # @raycast.mode silent
 # @raycast.packageName Math
-# @raycast.argument1 { "type": "text", "placeholder": "0"}
-# @raycast.argument2 { "type": "text", "placeholder": "0"}
+# @raycast.argument1 { "type": "text", "placeholder": "From"}
+# @raycast.argument2 { "type": "text", "placeholder": "To"}
 #
 # Optional parameters:
 # @raycast.icon 🔢
