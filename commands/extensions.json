@@ -1073,6 +1073,34 @@
         {
           "authors" : [
             {
+              "name" : "Astrit",
+              "url" : "https:\/\/github.com\/astrit"
+            }
+          ],
+          "createdAt" : "2021-11-16T15:01:51+01:00",
+          "currentDirectoryPath" : null,
+          "description" : "Shorten any github.com URL",
+          "filename" : "git-io.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/git-io.png"
+          },
+          "identifier" : "2ca33ad632de2d16f4bbbaa3806b3843",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Browsing",
+          "path" : "browsing\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Shorten URL from GitHub",
+          "updatedAt" : "2021-11-16T15:01:51+01:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -4382,7 +4410,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Do Not Disturb",
-          "updatedAt" : "2021-04-08T12:10:22+02:00"
+          "updatedAt" : "2021-11-16T14:59:56+01:00"
         },
         {
           "authors" : [
@@ -17799,6 +17827,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 622,
-  "updatedAt" : "2021-11-11T11:24:22Z"
+  "totalScriptCommands" : 623,
+  "updatedAt" : "2021-11-16T14:04:12Z"
 }
