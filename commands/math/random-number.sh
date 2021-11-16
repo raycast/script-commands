@@ -10,8 +10,6 @@
 #
 # Optional parameters:
 # @raycast.icon 🔢
-# @raycast.currentDirectoryPath ~
-# @raycast.needsConfirmation false
 #
 # Documentation:
 # @raycast.description Generate a number between a given range (inclusive) and then copy the value
