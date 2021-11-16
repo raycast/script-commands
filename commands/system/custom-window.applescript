@@ -4,10 +4,10 @@
 # @raycast.schemaVersion 1
 # @raycast.title Custom Window Size
 # @raycast.mode silent
-# @raycast.packageName system
+# @raycast.packageName System
 
 # Optional parameters:
-# @raycast.icon ?
+# @raycast.icon images/custom-window-size.png
 
 # Documentation:
 # @raycast.author Astrit
