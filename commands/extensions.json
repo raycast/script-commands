@@ -4583,6 +4583,34 @@
         {
           "authors" : [
             {
+              "name" : "Astrit",
+              "url" : "https:\/\/github.com\/astrit"
+            }
+          ],
+          "createdAt" : "2021-11-17T17:41:07+01:00",
+          "currentDirectoryPath" : null,
+          "description" : "Resize and center the frontmost window to any custom size.",
+          "filename" : "custom-window.applescript",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/custom-window-size.png"
+          },
+          "identifier" : "13a15c297e5092141c7507de2af3385f",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Custom Window Size",
+          "updatedAt" : "2021-11-17T17:41:07+01:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "LokHsu",
               "url" : "https:\/\/github.com\/lokhsu"
             }
@@ -17827,6 +17855,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 623,
-  "updatedAt" : "2021-11-16T14:04:12Z"
+  "totalScriptCommands" : 624,
+  "updatedAt" : "2021-11-17T16:43:32Z"
 }
