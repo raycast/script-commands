@@ -8,7 +8,8 @@
 
 # Optional parameters:
 # @raycast.packageName GitHub Contributions
-# @raycast.icon images/github-contributions.png
+# @raycast.icon images/github-logo.png
+# @raycast.iconDark images/github-logo-iconDark.png
 
 # Documentation:
 # @raycast.description Show GitHub user contributions from the current year
