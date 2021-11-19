@@ -4,11 +4,11 @@
 # @raycast.schemaVersion 1
 # @raycast.title GitHub Contributions
 # @raycast.mode inline
-# @raycast.refreshTime 12h
+# @raycast.refreshTime 2h
 
 # Optional parameters:
 # @raycast.packageName GitHub Contributions
-# @raycast.icon images/github.png
+# @raycast.icon images/github-contributions.png
 
 # Documentation:
 # @raycast.description Show GitHub user contributions from the current year
