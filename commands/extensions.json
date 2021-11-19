@@ -3219,6 +3219,34 @@
           "schemaVersion" : 1,
           "title" : "Wolfram Alpha",
           "updatedAt" : "2021-04-28T20:59:27+00:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Matt Gleich",
+              "url" : "https:\/\/mattglei.ch"
+            }
+          ],
+          "createdAt" : "2021-11-17T11:41:42-05:00",
+          "currentDirectoryPath" : null,
+          "description" : "Generate a number between a given range (inclusive) and then copy the value",
+          "filename" : "random-number.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔢"
+          },
+          "identifier" : "36ce3407031e4f15536ed06711a94b08",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Math",
+          "path" : "math\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Generate Random Number",
+          "updatedAt" : "2021-11-17T11:41:42-05:00"
         }
       ]
     },
@@ -8304,6 +8332,34 @@
               "schemaVersion" : 1,
               "title" : "Repository Statistics",
               "updatedAt" : "2020-11-27T10:40:24+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Astrit",
+                  "url" : "https:\/\/github.com\/astrit"
+                }
+              ],
+              "createdAt" : "2021-11-19T19:14:43+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show GitHub user contributions from the current year",
+              "filename" : "github-contributions.template.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : "images\/github-logo-iconDark.png",
+                "light" : "images\/github-logo.png"
+              },
+              "identifier" : "23544f0e4fd17e7d9cfb092fd82e1452",
+              "isTemplate" : true,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "GitHub Contributions",
+              "path" : "developer-utils\/github\/",
+              "refreshTime" : "2h",
+              "schemaVersion" : 1,
+              "title" : "GitHub Contributions",
+              "updatedAt" : "2021-11-19T19:14:43+01:00"
             },
             {
               "authors" : [
@@ -17855,6 +17911,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 624,
-  "updatedAt" : "2021-11-17T16:43:32Z"
+  "totalScriptCommands" : 626,
+  "updatedAt" : "2021-11-19T18:17:02Z"
 }
