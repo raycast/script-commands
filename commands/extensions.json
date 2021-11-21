@@ -471,6 +471,62 @@
         {
           "authors" : [
             {
+              "name" : "wyhaya",
+              "url" : "https:\/\/github.com\/wyhaya"
+            }
+          ],
+          "createdAt" : "2021-11-04T03:59:40+08:00",
+          "currentDirectoryPath" : null,
+          "description" : "QR Code Generation",
+          "filename" : "qrcode-generate.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/qrcode.png"
+          },
+          "identifier" : "df265285ae7ca5b6305aaada0055f872",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Conversions",
+          "path" : "conversions\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "QR Code Generation",
+          "updatedAt" : "2021-11-04T03:59:40+08:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Ryan Nystrom",
+              "url" : "https:\/\/github.com\/rnystrom"
+            }
+          ],
+          "createdAt" : "2021-11-03T16:00:51-04:00",
+          "currentDirectoryPath" : null,
+          "description" : "Create a markdown table template",
+          "filename" : "create-markdown-table.js",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🧱"
+          },
+          "identifier" : "94dda699695f45d3562beb2acc1bed61",
+          "isTemplate" : false,
+          "language" : "node",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Conversions",
+          "path" : "conversions\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Markdown Table",
+          "updatedAt" : "2021-11-03T20:04:02+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -523,6 +579,34 @@
           "schemaVersion" : 1,
           "title" : "Unix Time Reader From Clipboard",
           "updatedAt" : "2021-03-30T15:34:59+00:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Diego Lopes",
+              "url" : "https:\/\/github.com\/Dihgg"
+            }
+          ],
+          "createdAt" : "2021-11-04T07:20:46-03:00",
+          "currentDirectoryPath" : "~",
+          "description" : "Decode QR Code from screenshot to clipboard using https:\/\/qrserver.com\/",
+          "filename" : "qr-code-screenshot-to-text.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/qrcode.icns"
+          },
+          "identifier" : "dd588b0008181dc53aab2019603ca17b",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : false,
+          "packageName" : "QR Code",
+          "path" : "conversions\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Screenshot QR Code to Clipboard",
+          "updatedAt" : "2021-11-04T07:20:46-03:00"
         },
         {
           "authors" : [
@@ -985,6 +1069,34 @@
           "schemaVersion" : 1,
           "title" : "Copy Current Window URLs",
           "updatedAt" : "2020-11-23T12:53:48-05:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Astrit",
+              "url" : "https:\/\/github.com\/astrit"
+            }
+          ],
+          "createdAt" : "2021-11-16T15:01:51+01:00",
+          "currentDirectoryPath" : null,
+          "description" : "Shorten any github.com URL",
+          "filename" : "git-io.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/git-io.png"
+          },
+          "identifier" : "2ca33ad632de2d16f4bbbaa3806b3843",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Browsing",
+          "path" : "browsing\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Shorten URL from GitHub",
+          "updatedAt" : "2021-11-16T15:01:51+01:00"
         },
         {
           "authors" : [
@@ -3107,6 +3219,34 @@
           "schemaVersion" : 1,
           "title" : "Wolfram Alpha",
           "updatedAt" : "2021-04-28T20:59:27+00:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Matt Gleich",
+              "url" : "https:\/\/mattglei.ch"
+            }
+          ],
+          "createdAt" : "2021-11-17T11:41:42-05:00",
+          "currentDirectoryPath" : null,
+          "description" : "Generate a number between a given range (inclusive) and then copy the value",
+          "filename" : "random-number.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔢"
+          },
+          "identifier" : "36ce3407031e4f15536ed06711a94b08",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Math",
+          "path" : "math\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Generate Random Number",
+          "updatedAt" : "2021-11-17T11:41:42-05:00"
         }
       ]
     },
@@ -3444,6 +3584,34 @@
           "schemaVersion" : 1,
           "title" : "Year Progress",
           "updatedAt" : "2021-01-28T17:52:04+03:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Astrit",
+              "url" : "https:\/\/github.com\/astrit"
+            }
+          ],
+          "createdAt" : "2021-11-09T10:29:38+01:00",
+          "currentDirectoryPath" : null,
+          "description" : "Shows YouTube Subscribers, Views and Videos",
+          "filename" : "youtube-statistics.template.rb",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/youtube.png"
+          },
+          "identifier" : "561f7ed8faa600880f0a583a964d481f",
+          "isTemplate" : true,
+          "language" : "ruby",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "YouTube Statistics",
+          "path" : "dashboard\/",
+          "refreshTime" : "1h",
+          "schemaVersion" : 1,
+          "title" : "YouTube Statistics",
+          "updatedAt" : "2021-11-09T09:49:02+00:00"
         },
         {
           "authors" : [
@@ -3939,7 +4107,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Sidecar Switch",
-          "updatedAt" : "2021-07-23T17:39:55-04:00"
+          "updatedAt" : "2021-10-29T21:12:32+02:00"
         },
         {
           "authors" : [
@@ -4191,6 +4359,34 @@
         {
           "authors" : [
             {
+              "name" : "BhEaN",
+              "url" : "https:\/\/github.com\/bhean"
+            }
+          ],
+          "createdAt" : "2021-11-03T21:02:51+01:00",
+          "currentDirectoryPath" : null,
+          "description" : "Toggle Night Shift mode (until tomorrow\/sunrise). Required [nightlight](https:\/\/github.com\/smudge\/nightlight)",
+          "filename" : "nightshift.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🌘"
+          },
+          "identifier" : "574594655373e8a41dd88ae601f9466d",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle Night Shift",
+          "updatedAt" : "2021-11-03T21:02:51+01:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -4242,7 +4438,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Do Not Disturb",
-          "updatedAt" : "2021-04-08T12:10:22+02:00"
+          "updatedAt" : "2021-11-16T14:59:56+01:00"
         },
         {
           "authors" : [
@@ -4411,6 +4607,34 @@
           "schemaVersion" : 1,
           "title" : "Capture Screen Selection to Desktop",
           "updatedAt" : "2021-08-07T19:28:35-07:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Astrit",
+              "url" : "https:\/\/github.com\/astrit"
+            }
+          ],
+          "createdAt" : "2021-11-17T17:41:07+01:00",
+          "currentDirectoryPath" : null,
+          "description" : "Resize and center the frontmost window to any custom size.",
+          "filename" : "custom-window.applescript",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/custom-window-size.png"
+          },
+          "identifier" : "13a15c297e5092141c7507de2af3385f",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Custom Window Size",
+          "updatedAt" : "2021-11-17T17:41:07+01:00"
         },
         {
           "authors" : [
@@ -4867,6 +5091,62 @@
           "schemaVersion" : 1,
           "title" : "Disk Free",
           "updatedAt" : "2021-09-28T06:22:27+00:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Astrit Malsia",
+              "url" : "https:\/\/github.com\/astrit"
+            }
+          ],
+          "createdAt" : "2021-10-26T02:13:10+02:00",
+          "currentDirectoryPath" : null,
+          "description" : "Copy Wi-Fi password from current session",
+          "filename" : "wifi-password.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📟"
+          },
+          "identifier" : "3da4fa8456e609ec2fd7fbadf9ab49a0",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Copy Wi-Fi Password",
+          "updatedAt" : "2021-11-03T20:29:35+00:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Astrit",
+              "url" : "https:\/\/github.com\/astrit"
+            }
+          ],
+          "createdAt" : "2021-11-07T13:19:22+01:00",
+          "currentDirectoryPath" : null,
+          "description" : "A script command to enable and disable .DS_Store",
+          "filename" : "toggle-ds-store.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🧬"
+          },
+          "identifier" : "3c4ebd8411dc67d65ea9d93787e1cfe1",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle .DS_Store",
+          "updatedAt" : "2021-11-07T13:19:22+01:00"
         },
         {
           "authors" : [
@@ -5694,7 +5974,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Switch Audio to <Device Name>",
-              "updatedAt" : "2021-04-16T19:18:39+03:00"
+              "updatedAt" : "2021-11-07T15:24:00-05:00"
             },
             {
               "authors" : [
@@ -8056,6 +8336,34 @@
             {
               "authors" : [
                 {
+                  "name" : "Astrit",
+                  "url" : "https:\/\/github.com\/astrit"
+                }
+              ],
+              "createdAt" : "2021-11-19T19:14:43+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show GitHub user contributions from the current year",
+              "filename" : "github-contributions.template.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : "images\/github-logo-iconDark.png",
+                "light" : "images\/github-logo.png"
+              },
+              "identifier" : "23544f0e4fd17e7d9cfb092fd82e1452",
+              "isTemplate" : true,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "GitHub Contributions",
+              "path" : "developer-utils\/github\/",
+              "refreshTime" : "2h",
+              "schemaVersion" : 1,
+              "title" : "GitHub Contributions",
+              "updatedAt" : "2021-11-19T19:14:43+01:00"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Phil Salant",
                   "url" : "https:\/\/github.com\/PSalant726"
                 }
@@ -8164,6 +8472,34 @@
               "schemaVersion" : 1,
               "title" : "Open Pull Requests page",
               "updatedAt" : "2021-03-18T11:30:06+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Vince Picone",
+                  "url" : "https:\/\/github.com\/vpicone"
+                }
+              ],
+              "createdAt" : "2021-03-17T17:31:38+00:00",
+              "currentDirectoryPath" : null,
+              "description" : "Display number of Pull Requests requesting your review",
+              "filename" : "github-review-requests.template.rb",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : "images\/github-logo-iconDark.png",
+                "light" : "images\/github-logo.png"
+              },
+              "identifier" : "61586867ab7b6b2efa596bce302ed064",
+              "isTemplate" : true,
+              "language" : "ruby",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "GitHub",
+              "path" : "developer-utils\/github\/",
+              "refreshTime" : "5m",
+              "schemaVersion" : 1,
+              "title" : "Show Review Requests",
+              "updatedAt" : "2021-11-03T15:03:45-05:00"
             },
             {
               "authors" : [
@@ -9061,6 +9397,34 @@
               "schemaVersion" : 1,
               "title" : "Copy First Matching TOTP",
               "updatedAt" : "2021-07-19T06:32:07-07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Marcel Bochtler",
+                  "url" : "https:\/\/github.com\/MarcelBochtler"
+                }
+              ],
+              "createdAt" : "2021-11-03T21:02:13+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Log in to Bitwarden using an API key.",
+              "filename" : "log-in-apikey.template.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/bitwarden.png"
+              },
+              "identifier" : "837bd1e9a8fe1ed4fa905be4f9cbc492",
+              "isTemplate" : true,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "path" : "password-managers\/bitwarden\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Log In",
+              "updatedAt" : "2021-11-03T21:02:13+01:00"
             },
             {
               "authors" : [
@@ -14708,7 +15072,125 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "DeepL App Translate",
-              "updatedAt" : "2021-04-18T01:23:05+02:00"
+              "updatedAt" : "2021-11-04T11:22:42+01:00"
+            }
+          ]
+        },
+        {
+          "name" : "Warp",
+          "path" : "warp",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Fuksman",
+                  "url" : "https:\/\/github.com\/fuksman"
+                }
+              ],
+              "createdAt" : "2021-11-03T23:01:39+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Disconnect from WARP",
+              "filename" : "warp-stop.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/warp.png"
+              },
+              "identifier" : "84f6a46d9901c80cc7dd7a7d71e833db",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "WARP",
+              "path" : "apps\/warp\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Disconnect",
+              "updatedAt" : "2021-11-03T23:01:39+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Fuksman",
+                  "url" : "https:\/\/github.com\/fuksman"
+                }
+              ],
+              "createdAt" : "2021-11-03T23:01:39+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Toggle Connection",
+              "filename" : "warp-toggle.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/warp.png"
+              },
+              "identifier" : "7792a62e2ea9c46c3c44aa5c7ea0a3fe",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "WARP",
+              "path" : "apps\/warp\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Toggle WARP",
+              "updatedAt" : "2021-11-03T23:01:39+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Fuksman",
+                  "url" : "https:\/\/github.com\/fuksman"
+                }
+              ],
+              "createdAt" : "2021-11-03T23:01:39+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Check WARP connection",
+              "filename" : "warp-status.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/warp.png"
+              },
+              "identifier" : "e24da24122bfc2592adaf22617c9b2ee",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "WARP",
+              "path" : "apps\/warp\/",
+              "refreshTime" : "30s",
+              "schemaVersion" : 1,
+              "title" : "WARP Status",
+              "updatedAt" : "2021-11-03T23:01:39+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sergey Fuksman",
+                  "url" : "https:\/\/github.com\/fuksman"
+                }
+              ],
+              "createdAt" : "2021-11-03T23:01:39+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Create a connection to WARP",
+              "filename" : "warp-start.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/warp.png"
+              },
+              "identifier" : "5e1bf486a85fcd82a889fc34e2f23399",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "WARP",
+              "path" : "apps\/warp\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Connect",
+              "updatedAt" : "2021-11-03T23:01:39+03:00"
             }
           ]
         },
@@ -15735,7 +16217,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "OCR Screenshot",
-              "updatedAt" : "2021-09-28T12:28:19-03:00"
+              "updatedAt" : "2021-11-05T00:12:23+03:00"
             }
           ]
         },
@@ -15916,6 +16398,40 @@
               "schemaVersion" : 1,
               "title" : "Status",
               "updatedAt" : "2021-07-19T21:12:36+01:00"
+            }
+          ]
+        },
+        {
+          "name" : "Macocr",
+          "path" : "macocr",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Jakub Lanski",
+                  "url" : "https:\/\/github.com\/jaklan"
+                }
+              ],
+              "createdAt" : "2021-11-10T11:40:57+01:00",
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "macocr-run-ocr.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "📸"
+              },
+              "identifier" : "90d13e130e8494fa8012db4823c580dd",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "macOCR",
+              "path" : "productivity\/macocr\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Run OCR",
+              "updatedAt" : "2021-11-11T04:18:19+01:00"
             }
           ]
         }
@@ -17395,6 +17911,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 608,
-  "updatedAt" : "2021-10-13T08:08:44Z"
+  "totalScriptCommands" : 626,
+  "updatedAt" : "2021-11-19T18:17:02Z"
 }
