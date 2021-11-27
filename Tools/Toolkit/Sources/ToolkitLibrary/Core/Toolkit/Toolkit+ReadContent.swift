@@ -33,12 +33,17 @@ extension Toolkit {
         group.subGroups = subGroups
       }
 
+      if let readmePath = pathForReadme(from: directory) {
+        group.readme = readmePath
+      }
+
       if values.isEmpty == false || subGroups.isEmpty == false {
         parentGroups.append(group)
       }
     }
 
     let directoryFiles = onlyFiles(at: path)
+
     for file in directoryFiles where directoryFiles.isEmpty == false {
       guard ignoreFilesInDir == false else {
         continue
@@ -67,6 +72,27 @@ extension Toolkit {
     return scriptCommands
   }
 
+  func pathForReadme(from folderPath: AbsolutePath) -> String? {
+    let directoryFiles = onlyFiles(at: folderPath)
+
+    for file in directoryFiles where directoryFiles.isEmpty == false {
+      guard file.basenameWithoutExt.lowercased() == "readme" else {
+        continue
+      }
+
+      guard let fileContent = readContentFile(from: file), fileContent.count > 0 else {
+        continue
+      }
+
+      let pathCount = dataManager.extensionsPathString.count + 1
+      let readmePath = file.pathString.dropFirst(pathCount)
+
+      return String(readmePath)
+    }
+
+    return nil
+  }
+
   func readContentFile(from path: AbsolutePath) -> String? {
     guard let byteString = try? fileSystem.readFileContents(path) else {
       return nil
@@ -80,7 +106,7 @@ extension Toolkit {
 
   func extractGitDates(from filePath: AbsolutePath) -> [String]? {
     do {
-      let dates = try self.git.run(
+      let dates = try git.run(
         "log", "--format=%aI", "--follow", filePath.basename,
         path: filePath
       )
