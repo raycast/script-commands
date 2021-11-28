@@ -12,6 +12,7 @@ enum Language {
   case ruby
   case swift
   case node
+  case php
   case custom(String)
 
   init(_ rawValue: String) {
@@ -30,6 +31,8 @@ enum Language {
       self = .swift
     case "node", "js", "zx":
       self = .node
+    case "php":
+      self = .php
     default:
       self = .custom(value)
     }
@@ -49,6 +52,8 @@ enum Language {
       return "icon-swift.png"
     case .node:
       return "icon-nodejs.png"
+    case .php:
+      return "icon-php.png"
     default:
       return nil
     }
@@ -68,6 +73,8 @@ enum Language {
       return "Swift"
     case .node:
       return "Node"
+    case .php:
+      return "PHP"
     case .custom(let name):
       return name
     }
