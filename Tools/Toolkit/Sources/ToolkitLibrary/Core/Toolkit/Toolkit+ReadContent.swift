@@ -8,7 +8,7 @@ import TSCBasic
 
 extension Toolkit {
   typealias FolderContent = (scriptCommands: ScriptCommands, readmePath: String?, groupName: String)
-  
+
   @discardableResult
   func readFolderContent(path: AbsolutePath, parentGroups: inout Groups, ignoreFilesInDir: Bool = false) throws -> FolderContent {
     var scriptCommands = ScriptCommands()
@@ -26,11 +26,11 @@ extension Toolkit {
       var subGroups = Groups()
 
       let (scriptCommands, readmePath, groupName) = try readFolderContent(path: directory, parentGroups: &subGroups)
-      
+
       if groupName.isEmpty == false, groupName.lowercased() == group.name.lowercased() {
         group.name = groupName
       }
-      
+
       if scriptCommands.isEmpty == false {
         group.scriptCommands = scriptCommands
       }
@@ -38,7 +38,7 @@ extension Toolkit {
       if subGroups.isEmpty == false {
         group.subGroups = subGroups
       }
-      
+
       if let readmePath = readmePath {
         group.readme = readmePath
       }
@@ -51,8 +51,8 @@ extension Toolkit {
     let directoryFiles = onlyFiles(at: path)
 
     var groupName = ""
-    var readmePath: String? = nil
-    
+    var readmePath: String?
+
     for file in directoryFiles where directoryFiles.isEmpty == false {
       guard ignoreFilesInDir == false else {
         continue
@@ -68,14 +68,14 @@ extension Toolkit {
         guard let fileContent = readContentFile(from: file), fileContent.count > 0 else {
           continue
         }
-        
+
         let pathCount = dataManager.extensionsPathString.count + 1
         readmePath = String(file.pathString.dropFirst(pathCount))
-      }
-      else if var scriptCommand = readScriptCommand(from: file) {
+      } else if var scriptCommand = readScriptCommand(from: file) {
         // This is to avoid data racing
         DispatchQueue.global(qos: .userInitiated).async {
           self.dataManager.increaseTotal()
+          self.dataManager.addLanguage(scriptCommand.language)
         }
 
         scriptCommand.configure(
@@ -85,7 +85,7 @@ extension Toolkit {
         if let packageName = scriptCommand.packageName {
           groupName = packageName
         }
-        
+
         scriptCommands.append(scriptCommand)
       }
     }
@@ -145,7 +145,6 @@ extension Toolkit {
     let filenameKey = ScriptCommand.CodingKeys.filename.rawValue
     let packageNameKey = ScriptCommand.CodingKeys.packageName.rawValue
 
-    // TODO: Use the content of dictionary to implement the validation
     var dictionary = readKeyValues(of: content)
     dictionary[filenameKey] = filename
 
