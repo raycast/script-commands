@@ -7,8 +7,10 @@ import Foundation
 import TSCBasic
 
 extension Toolkit {
+  typealias FolderContent = (scriptCommands: ScriptCommands, readmePath: String?, groupName: String)
+  
   @discardableResult
-  func readFolderContent(path: AbsolutePath, parentGroups: inout Groups, ignoreFilesInDir: Bool = false) throws -> ScriptCommands {
+  func readFolderContent(path: AbsolutePath, parentGroups: inout Groups, ignoreFilesInDir: Bool = false) throws -> FolderContent {
     var scriptCommands = ScriptCommands()
 
     for directory in onlyDirectories(at: path) {
@@ -23,27 +25,34 @@ extension Toolkit {
 
       var subGroups = Groups()
 
-      let values = try readFolderContent(path: directory, parentGroups: &subGroups)
-
-      if values.isEmpty == false {
-        group.scriptCommands = values
+      let (scriptCommands, readmePath, groupName) = try readFolderContent(path: directory, parentGroups: &subGroups)
+      
+      if groupName.isEmpty == false, groupName.lowercased() == group.name.lowercased() {
+        group.name = groupName
+      }
+      
+      if scriptCommands.isEmpty == false {
+        group.scriptCommands = scriptCommands
       }
 
       if subGroups.isEmpty == false {
         group.subGroups = subGroups
       }
-
-      if let readmePath = pathForReadme(from: directory) {
+      
+      if let readmePath = readmePath {
         group.readme = readmePath
       }
 
-      if values.isEmpty == false || subGroups.isEmpty == false {
+      if scriptCommands.isEmpty == false || subGroups.isEmpty == false {
         parentGroups.append(group)
       }
     }
 
     let directoryFiles = onlyFiles(at: path)
 
+    var groupName = ""
+    var readmePath: String? = nil
+    
     for file in directoryFiles where directoryFiles.isEmpty == false {
       guard ignoreFilesInDir == false else {
         continue
@@ -55,7 +64,15 @@ extension Toolkit {
         continue
       }
 
-      if var scriptCommand = readScriptCommand(from: file) {
+      if file.basenameWithoutExt.lowercased() == "readme" {
+        guard let fileContent = readContentFile(from: file), fileContent.count > 0 else {
+          continue
+        }
+        
+        let pathCount = dataManager.extensionsPathString.count + 1
+        readmePath = String(file.pathString.dropFirst(pathCount))
+      }
+      else if var scriptCommand = readScriptCommand(from: file) {
         // This is to avoid data racing
         DispatchQueue.global(qos: .userInitiated).async {
           self.dataManager.increaseTotal()
@@ -65,32 +82,19 @@ extension Toolkit {
           isExecutable: fileSystem.isExecutableFile(file)
         )
 
+        if let packageName = scriptCommand.packageName {
+          groupName = packageName
+        }
+        
         scriptCommands.append(scriptCommand)
       }
     }
 
-    return scriptCommands
-  }
-
-  func pathForReadme(from folderPath: AbsolutePath) -> String? {
-    let directoryFiles = onlyFiles(at: folderPath)
-
-    for file in directoryFiles where directoryFiles.isEmpty == false {
-      guard file.basenameWithoutExt.lowercased() == "readme" else {
-        continue
-      }
-
-      guard let fileContent = readContentFile(from: file), fileContent.count > 0 else {
-        continue
-      }
-
-      let pathCount = dataManager.extensionsPathString.count + 1
-      let readmePath = file.pathString.dropFirst(pathCount)
-
-      return String(readmePath)
-    }
-
-    return nil
+    return (
+      scriptCommands: scriptCommands,
+      readmePath: readmePath,
+      groupName: groupName
+    )
   }
 
   func readContentFile(from path: AbsolutePath) -> String? {
