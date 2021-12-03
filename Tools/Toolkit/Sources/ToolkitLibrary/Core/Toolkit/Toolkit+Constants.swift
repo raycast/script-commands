@@ -30,7 +30,7 @@ public extension Toolkit {
   static var information: (name: String, version: String) {
     (
       name: "Raycast Toolkit",
-      version: "0.3.1"
+      version: "0.4.0"
     )
   }
 

@@ -48,6 +48,12 @@ public final class DataManager {
     total += 1
   }
 
+  func addLanguage(_ language: String) {
+    data.languages.insert(
+      Language.Information(name: language)
+    )
+  }
+
   func loadContent() {
     if let byteString = try? fileSystem.readFileContents(extensionsPath) {
       let data = byteString.contents.data

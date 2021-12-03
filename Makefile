@@ -37,3 +37,6 @@ lint:
 
 fix:
 	swiftlint --fix
+
+open:
+	open -a /Applications/Xcode.app $(TOOLKIT_PATH)
