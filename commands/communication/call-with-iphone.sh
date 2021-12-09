@@ -8,7 +8,7 @@
 # Optional parameters:
 # @raycast.icon 📱
 # @raycast.argument1 { "type": "text", "placeholder": "+1 514 555 1212" }
-# @raycast.packageName Call
+# @raycast.packageName Communication
 
 # Documentation:
 # @raycast.description Place a telephone call via your iPhone on wifi.
