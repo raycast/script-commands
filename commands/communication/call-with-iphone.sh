@@ -11,7 +11,7 @@
 # @raycast.packageName Communication
 
 # Documentation:
-# @raycast.description Place a telephone call via your iPhone on wifi.
+# @raycast.description Place a telephone call via your iPhone on Wi-Fi.
 # @raycast.author Alexander JH Steffen
 # @raycast.authorURL https://github.com/alexjsteffen
 
