@@ -10,6 +10,7 @@ struct RaycastData: Codable {
   var updatedAt: Date
   var totalScriptCommands: Int
   var metadata: [Metadata]
+  var languages: Set<Language.Information>
 
   var isEmpty: Bool {
     groups.isEmpty
@@ -22,6 +23,7 @@ struct RaycastData: Codable {
     case updatedAt
     case totalScriptCommands
     case metadata
+    case languages
   }
 
   init() {
@@ -29,6 +31,7 @@ struct RaycastData: Codable {
     self.updatedAt = Date()
     self.totalScriptCommands = 0
     self.metadata = []
+    self.languages = []
   }
 
   init(from decoder: Decoder) throws {
@@ -36,6 +39,7 @@ struct RaycastData: Codable {
 
     groups = try container.decode(Groups.self, forKey: .groups)
     totalScriptCommands = try container.decode(Int.self, forKey: .totalScriptCommands)
+    languages = try container.decode(Set<Language.Information>.self, forKey: .languages)
 
     if let value = try container.decodeIfPresent(String.self, forKey: .updatedAt) {
       let dateFormatter = DateFormatter()

@@ -147,7 +147,7 @@
               },
               "identifier" : "e46e06b26b98f5f9b2e390565bb48a1b",
               "isTemplate" : true,
-              "language" : "zx",
+              "language" : "node",
               "mode" : "inline",
               "needsConfirmation" : null,
               "packageName" : "Philips Hue",
@@ -175,7 +175,7 @@
               },
               "identifier" : "fb89b0817302263bcaae8586039493f8",
               "isTemplate" : true,
-              "language" : "zx",
+              "language" : "node",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Philips Hue",
@@ -203,7 +203,7 @@
               },
               "identifier" : "f6fb1c021d088eac4eeabfbe0ffcff23",
               "isTemplate" : true,
-              "language" : "zx",
+              "language" : "node",
               "mode" : "inline",
               "needsConfirmation" : null,
               "packageName" : "Philips Hue",
@@ -231,7 +231,7 @@
               },
               "identifier" : "6f9d2bf502507e1a6d6ab2fe57c71e94",
               "isTemplate" : true,
-              "language" : "zx",
+              "language" : "node",
               "mode" : "silent",
               "needsConfirmation" : null,
               "packageName" : "Philips Hue",
@@ -1747,8 +1747,9 @@
       ],
       "subGroups" : [
         {
-          "name" : "Samsung Tv",
+          "name" : "Samsung TV",
           "path" : "samsung-tv",
+          "readme" : "remote-control\/samsung-tv\/README.md",
           "scriptCommands" : [
             {
               "authors" : [
@@ -1809,8 +1810,9 @@
           ]
         },
         {
-          "name" : "Lg Tv",
+          "name" : "LG TV",
           "path" : "lg-tv",
+          "readme" : "remote-control\/lg-tv\/README.md",
           "scriptCommands" : [
             {
               "authors" : [
@@ -3959,7 +3961,7 @@
           },
           "identifier" : "344e66ee76bea921b245701f7c638ece",
           "isTemplate" : false,
-          "language" : "sh",
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "System",
@@ -4598,7 +4600,7 @@
           },
           "identifier" : "aa330e29461867df6c3f22fc9b9a2c68",
           "isTemplate" : false,
-          "language" : "sh",
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "System",
@@ -4733,7 +4735,7 @@
           },
           "identifier" : "e888ca0de9036c3e6f270c06ffa9904b",
           "isTemplate" : false,
-          "language" : "sh",
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "System",
@@ -4817,7 +4819,7 @@
           },
           "identifier" : "1b20aab42e5e5b6af164dbbcaedb0dfc",
           "isTemplate" : false,
-          "language" : "sh",
+          "language" : "bash",
           "mode" : "silent",
           "needsConfirmation" : null,
           "packageName" : "System",
@@ -5681,7 +5683,7 @@
       ],
       "subGroups" : [
         {
-          "name" : "Vpn",
+          "name" : "VPN",
           "path" : "vpn",
           "scriptCommands" : [
             {
@@ -7746,7 +7748,7 @@
           ]
         },
         {
-          "name" : "Gitlab",
+          "name" : "GitLab",
           "path" : "gitlab",
           "scriptCommands" : [
             {
@@ -8274,7 +8276,7 @@
           ]
         },
         {
-          "name" : "Github",
+          "name" : "GitHub",
           "path" : "github",
           "scriptCommands" : [
             {
@@ -9061,6 +9063,7 @@
         {
           "name" : "Bitwarden",
           "path" : "bitwarden",
+          "readme" : "password-managers\/bitwarden\/README.md",
           "scriptCommands" : [
             {
               "authors" : [
@@ -11857,7 +11860,7 @@
       ],
       "subGroups" : [
         {
-          "name" : "Wordpress",
+          "name" : "WordPress",
           "path" : "wordpress",
           "scriptCommands" : [
             {
@@ -12012,7 +12015,7 @@
       ],
       "subGroups" : [
         {
-          "name" : "Meetingbar",
+          "name" : "MeetingBar",
           "path" : "meetingbar",
           "scriptCommands" : [
             {
@@ -12074,7 +12077,7 @@
           ]
         },
         {
-          "name" : "Iterm",
+          "name" : "iTerm",
           "path" : "iterm",
           "scriptCommands" : [
             {
@@ -12604,6 +12607,7 @@
         {
           "name" : "Playground",
           "path" : "playground",
+          "readme" : "apps\/playground\/README.md",
           "scriptCommands" : [
             {
               "authors" : [
@@ -12726,8 +12730,9 @@
           ]
         },
         {
-          "name" : "Noteplan3",
+          "name" : "NotePlan3",
           "path" : "noteplan3",
+          "readme" : "apps\/noteplan3\/README.md",
           "scriptCommands" : [
             {
               "authors" : [
@@ -13058,7 +13063,7 @@
           ]
         },
         {
-          "name" : "Tunnelblick",
+          "name" : "TunnelBlick",
           "path" : "tunnelblick",
           "scriptCommands" : [
             {
@@ -13272,7 +13277,7 @@
           ]
         },
         {
-          "name" : "Hazeover",
+          "name" : "HazeOver",
           "path" : "hazeover",
           "scriptCommands" : [
             {
@@ -13334,7 +13339,7 @@
           ]
         },
         {
-          "name" : "Iconsur",
+          "name" : "iconsur",
           "path" : "iconsur",
           "scriptCommands" : [
             {
@@ -13370,6 +13375,7 @@
         {
           "name" : "Pulse Secure",
           "path" : "pulse-secure",
+          "readme" : "apps\/pulse-secure\/README.md",
           "scriptCommands" : [
             {
               "authors" : [
@@ -13662,6 +13668,7 @@
         {
           "name" : "Mullvad",
           "path" : "mullvad",
+          "readme" : "apps\/mullvad\/README.md",
           "scriptCommands" : [
             {
               "authors" : [
@@ -13834,7 +13841,7 @@
           ]
         },
         {
-          "name" : "Openvpn",
+          "name" : "OpenVPN",
           "path" : "openvpn",
           "scriptCommands" : [
             {
@@ -14368,7 +14375,7 @@
           ]
         },
         {
-          "name" : "Phpstorm",
+          "name" : "PhpStorm",
           "path" : "phpstorm",
           "scriptCommands" : [
             {
@@ -14461,6 +14468,7 @@
         {
           "name" : "Safari",
           "path" : "safari",
+          "readme" : "apps\/safari\/README.md",
           "scriptCommands" : [
             {
               "authors" : [
@@ -14835,7 +14843,7 @@
           ]
         },
         {
-          "name" : "Dnd Me",
+          "name" : "DND Me",
           "path" : "dnd-me",
           "scriptCommands" : [
             {
@@ -14899,6 +14907,7 @@
         {
           "name" : "Tailscale",
           "path" : "tailscale",
+          "readme" : "apps\/tailscale\/README.md",
           "scriptCommands" : [
             {
               "authors" : [
@@ -15077,7 +15086,7 @@
           ]
         },
         {
-          "name" : "Warp",
+          "name" : "WARP",
           "path" : "warp",
           "scriptCommands" : [
             {
@@ -15197,6 +15206,7 @@
         {
           "name" : "Agenda",
           "path" : "agenda",
+          "readme" : "apps\/agenda\/README.md",
           "scriptCommands" : [
             {
               "authors" : [
@@ -15467,6 +15477,7 @@
         {
           "name" : "Things",
           "path" : "things",
+          "readme" : "apps\/things\/README.md",
           "scriptCommands" : [
             {
               "authors" : [
@@ -15909,7 +15920,7 @@
           ]
         },
         {
-          "name" : "Sidenotes",
+          "name" : "SideNotes",
           "path" : "sidenotes",
           "scriptCommands" : [
             {
@@ -16188,7 +16199,7 @@
           ]
         },
         {
-          "name" : "Tesseract",
+          "name" : "tesseract",
           "path" : "tesseract",
           "scriptCommands" : [
             {
@@ -16222,7 +16233,7 @@
           ]
         },
         {
-          "name" : "Stopwatch",
+          "name" : "stopwatch",
           "path" : "stopwatch",
           "scriptCommands" : [
             {
@@ -16402,7 +16413,7 @@
           ]
         },
         {
-          "name" : "Macocr",
+          "name" : "macOCR",
           "path" : "macocr",
           "scriptCommands" : [
             {
@@ -17908,9 +17919,41 @@
       ]
     }
   ],
+  "languages" : [
+    {
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
+    },
+    {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
+    }
+  ],
   "metadata" : [
 
   ],
   "totalScriptCommands" : 626,
-  "updatedAt" : "2021-11-19T18:17:02Z"
+  "updatedAt" : "2021-11-28T15:44:33Z"
 }

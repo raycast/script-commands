@@ -175,7 +175,7 @@ extension ScriptCommand: MarkdownDescriptionProtocol {
     }
 
     if let value = self.details {
-      details = value
+      details = value.replacingOccurrences(of: "|", with: #"\|"#)
     }
 
     let language = Language(self.language).markdownDescription

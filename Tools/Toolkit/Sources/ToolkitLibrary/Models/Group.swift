@@ -8,8 +8,9 @@ import Foundation
 typealias Groups = [Group]
 
 struct Group: Codable {
-  let name: String
+  var name: String
   let path: String
+  var readme: String?
   var scriptCommands: ScriptCommands = []
   var subGroups: Groups?
 }
