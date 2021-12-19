@@ -10,7 +10,7 @@
 
 # Optional parameters:
 # @raycast.icon images/aws-sso-util.png
-# @raycast.packageName Developer Utilities
+# @raycast.packageName AWS
 
 # Documentation:
 # @raycast.description Login to AWS using aws-sso-util
