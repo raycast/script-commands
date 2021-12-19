@@ -5,7 +5,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title AWS SSO
+# @raycast.title Single Sign-On
 # @raycast.mode silent
 
 # Optional parameters:
