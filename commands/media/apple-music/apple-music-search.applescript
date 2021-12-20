@@ -21,10 +21,13 @@ on run argv
 	try
 		do shell script "open /System/Applications/Music.app"
 		tell application "Music" to activate
-	end try
-	try
-	do shell script "open /Applications/iTunes.app"
-		tell application "iTunes" to activate
+		set using to "Music"
+	on error
+		try
+		do shell script "open /Applications/iTunes.app"
+			tell application "iTunes" to activate
+			set using to "iTunes"
+		end try
 	end try
 	
 	# Argh, the window title varies... Add your language if it's not here...
@@ -33,8 +36,8 @@ on run argv
 	set toLaunch to true
 
 	repeat while toLaunch
-		if application "Music" is running then set toLaunch to false
-		if application "iTunes" is running then set toLaunch to false
+		if using is "Music" and application "Music" is running then set toLaunch to false
+		if using is "iTunes" and application "iTunes" is running then set toLaunch to false
 		delay 0.5
 	end repeat
 	
