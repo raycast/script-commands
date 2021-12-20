@@ -6865,6 +6865,34 @@
         {
           "authors" : [
             {
+              "name" : "David Molinero",
+              "url" : "https:\/\/github.com\/doktor500"
+            }
+          ],
+          "createdAt" : "2021-12-20T12:46:48+00:00",
+          "currentDirectoryPath" : null,
+          "description" : "Generates a ULID and copies it to the clipboard.",
+          "filename" : "generate-ulid.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "💻"
+          },
+          "identifier" : "c3621c704381ac57b354d23166b7b287",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "path" : "developer-utils\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Generate ULID",
+          "updatedAt" : "2021-12-20T12:48:58+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "tiancheng92",
               "url" : "https:\/\/github.com\/tiancheng92"
             }
@@ -16737,7 +16765,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Search",
-              "updatedAt" : "2021-08-18T20:20:15+08:00"
+              "updatedAt" : "2021-12-20T20:53:03+08:00"
             },
             {
               "authors" : [
@@ -17949,9 +17977,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     },
     {
       "displayName" : "AppleScript",
@@ -17964,9 +17992,9 @@
       "name" : "node"
     },
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     },
     {
       "displayName" : "Swift",
@@ -17974,14 +18002,14 @@
       "name" : "swift"
     },
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 627,
-  "updatedAt" : "2021-12-20T12:48:19Z"
+  "totalScriptCommands" : 628,
+  "updatedAt" : "2021-12-20T12:55:19Z"
 }
