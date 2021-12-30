@@ -28,8 +28,13 @@ if [ -z "$t" ]; then
 fi
 
 # Test file
-if [ ! -d "/Applications/$1.app" ]; then
-    echo "Application not found, make sure it's in /Application folder"
+appPath=""
+if [ -d "/Applications/$1.app" ]; then
+    appPath="/Applications/$1.app"
+elif [ -d "$HOME/Applications/$1.app" ]; then
+    appPath="$HOME/Applications/$1.app"
+else
+    echo "Application not found, make sure it's in Applications folder"
     exit 2
 fi
 
@@ -43,13 +48,13 @@ if [ $omit -eq 0 ] && [ $3 = "y" -o $3 = "Y" ]; then
 fi
 
 if [ $2 ] && [ $omit -eq 0 ]; then
-    echo $2|sudo -S iconsur set "/Applications/$1.app" $loc
+    echo $2|sudo -S iconsur set "$appPath" $loc
     if [ ${PIPESTATUS[1]} -eq 1 ]; then
         echo "Password incorrect"
         exit 0
     fi
 else
-    iconsur set "/Applications/$1.app" $loc
+    iconsur set "$appPath" $loc
     if [ ${PIPESTATUS[0]} -eq 1 ]; then
         echo "It didn't work, try again with password"
         exit 0
