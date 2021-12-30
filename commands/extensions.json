@@ -8596,6 +8596,34 @@
             {
               "authors" : [
                 {
+                  "name" : "David Molinero",
+                  "url" : "https:\/\/github.com\/doktor500"
+                }
+              ],
+              "createdAt" : "2021-12-15T22:46:57+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Login to AWS using aws-sso-util",
+              "filename" : "aws-sso-util.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/aws-sso-util.png"
+              },
+              "identifier" : "97368460c4c6dd74419fb9fa3769c23e",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "AWS",
+              "path" : "developer-utils\/aws\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Single Sign-On",
+              "updatedAt" : "2021-12-19T15:22:29+00:00"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Oğuzhan Yılmaz",
                   "url" : "https:\/\/github.com\/c1982"
                 }
@@ -17977,24 +18005,14 @@
   ],
   "languages" : [
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     },
     {
       "displayName" : "Node",
       "icon" : "icon-nodejs.png",
       "name" : "node"
-    },
-    {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
     },
     {
       "displayName" : "Swift",
@@ -18005,11 +18023,21 @@
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
+    },
+    {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 628,
-  "updatedAt" : "2021-12-20T12:55:19Z"
+  "totalScriptCommands" : 629,
+  "updatedAt" : "2021-12-30T11:24:39Z"
 }
