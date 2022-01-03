@@ -13452,7 +13452,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Change Application Icon",
-              "updatedAt" : "2021-08-31T08:37:29+08:00"
+              "updatedAt" : "2021-12-30T21:07:32+08:00"
             }
           ]
         },
@@ -17999,20 +17999,139 @@
               "updatedAt" : "2020-11-28T13:47:03-05:00"
             }
           ]
+        },
+        {
+          "name" : "Sonos",
+          "path" : "sonos",
+          "readme" : "media\/sonos\/README.md",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "David Blackman",
+                  "url" : "https:\/\/github.com\/whizziwig"
+                }
+              ],
+              "createdAt" : "2022-01-02T10:24:52-08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Sets volume of Sonos.",
+              "filename" : "sonos-volume-set.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/sonos-logo.png"
+              },
+              "identifier" : "085acb7129481eed8d148f6ca7b32404",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Sonos",
+              "path" : "media\/sonos\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Set Volume",
+              "updatedAt" : "2022-01-02T10:24:52-08:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "David Blackman",
+                  "url" : "https:\/\/github.com\/whizziwig"
+                }
+              ],
+              "createdAt" : "2022-01-02T10:24:52-08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Raises volume of Sonos.",
+              "filename" : "sonos-volume-down.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/sonos-logo.png"
+              },
+              "identifier" : "a300f2524b7bd3e43710d309ff82eed1",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Sonos",
+              "path" : "media\/sonos\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Volume Down",
+              "updatedAt" : "2022-01-02T10:24:52-08:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "David Blackman",
+                  "url" : "https:\/\/github.com\/whizziwig"
+                }
+              ],
+              "createdAt" : "2022-01-02T10:24:52-08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Raises volume of Sonos.",
+              "filename" : "sonos-volume-up.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/sonos-logo.png"
+              },
+              "identifier" : "f0a7189878e31e38c10433ca9b69239c",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Sonos",
+              "path" : "media\/sonos\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Volume Up",
+              "updatedAt" : "2022-01-02T10:24:52-08:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "David Blackman",
+                  "url" : "https:\/\/github.com\/whizziwig"
+                }
+              ],
+              "createdAt" : "2022-01-02T10:24:52-08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Play from Sonos favorites.",
+              "filename" : "sonos-play-favorite.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/sonos-logo.png"
+              },
+              "identifier" : "da8d3ee4cc8a4c646953f6dc401b7383",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Sonos",
+              "path" : "media\/sonos\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Play Favorite",
+              "updatedAt" : "2022-01-02T10:24:52-08:00"
+            }
+          ]
         }
       ]
     }
   ],
   "languages" : [
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
       "displayName" : "Node",
       "icon" : "icon-nodejs.png",
       "name" : "node"
+    },
+    {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     },
     {
       "displayName" : "Swift",
@@ -18020,24 +18139,24 @@
       "name" : "swift"
     },
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
-    },
-    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
     },
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
+    },
+    {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 629,
-  "updatedAt" : "2021-12-30T11:24:39Z"
+  "totalScriptCommands" : 633,
+  "updatedAt" : "2022-01-03T11:13:22Z"
 }

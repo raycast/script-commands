@@ -105,6 +105,7 @@ This repository contains sample commands and documentation to write your own one
   - [Apple Tv](#apple-tv)
   - [Cmus](#cmus)
   - [Endel](#endel)
+  - [Sonos](#sonos)
   - [Spotify](#spotify)
 - [Navigation](#navigation)
 - [Password Managers](#password-managers)
@@ -894,6 +895,15 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/endel/images/endel.png" width="20" height="20"> | [Wiggly Wisdom](media/endel/endel-wisdom.sh) | Set wiggly wisdom mode at Endel  | [Sergey Korobyin](https://github.com/huangsemao) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/endel/images/endel.png" width="20" height="20"> | [Workout](media/endel/endel-scenarios-workout.sh) | Run Workout scenario at Endel  | [Sergey Korobyin](https://github.com/huangsemao) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/endel/images/endel.png" width="20" height="20"> | [Yoga](media/endel/endel-scenarios-yoga.sh) | Run Yoga scenario at Endel  | [Sergey Korobyin](https://github.com/huangsemao) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Sonos
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/sonos/images/sonos-logo.png" width="20" height="20"> | [Play Favorite](media/sonos/sonos-play-favorite.sh) | Play from Sonos favorites. | [David Blackman](https://github.com/whizziwig) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/sonos/images/sonos-logo.png" width="20" height="20"> | [Set Volume](media/sonos/sonos-volume-set.sh) | Sets volume of Sonos. | [David Blackman](https://github.com/whizziwig) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/sonos/images/sonos-logo.png" width="20" height="20"> | [Volume Down](media/sonos/sonos-volume-down.sh) | Raises volume of Sonos. | [David Blackman](https://github.com/whizziwig) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/sonos/images/sonos-logo.png" width="20" height="20"> | [Volume Up](media/sonos/sonos-volume-up.sh) | Raises volume of Sonos. | [David Blackman](https://github.com/whizziwig) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Spotify
 
