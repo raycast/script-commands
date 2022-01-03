@@ -6,7 +6,7 @@
 # @raycast.mode fullOutput
 
 # Optional parameters:
-# @raycast.icon https://cdn.microlink.io/logo/apple-touch-icon-60x60.png
+# @raycast.icon images/microlink.png
 # @raycast.argument1 { "type": "text", "placeholder": "url", "optional": false }
 
 # Documentation:
