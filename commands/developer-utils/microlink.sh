@@ -1,4 +1,7 @@
-#!/bin/bash -l
+#!/bin/bash
+
+# Dependency: This script requires `microlink` CLI installed: https://microlink.io/docs/api/getting-started/cli
+# Install via npm: `npm install -g microlink`
 
 # Required parameters:
 # @raycast.schemaVersion 1
@@ -13,11 +16,4 @@
 # @raycast.description Microlink API integration
 # @raycast.author Kiko Beats
 
-if ! command -v microlink &> /dev/null
-then
-  echo "First run \`npm install -g microlink\`"
-  exit
-else
-  microlink "$1"
-fi
-
+microlink "$1"
