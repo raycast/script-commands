@@ -3974,6 +3974,34 @@
         {
           "authors" : [
             {
+              "name" : "Marcos Sánchez-Dehesa",
+              "url" : "https:\/\/www.github.com\/dehesa"
+            }
+          ],
+          "createdAt" : "2022-01-04T13:45:02+00:00",
+          "currentDirectoryPath" : null,
+          "description" : "Toggles on\/off a Sidecar screen.",
+          "filename" : "toggle-sidecar.template.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🖥"
+          },
+          "identifier" : "437e9a7d0814734ab2d234be72fa89de",
+          "isTemplate" : true,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle Sidecar",
+          "updatedAt" : "2022-01-04T13:45:02+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Marc Klingen",
               "url" : "https:\/\/github.com\/marcklingen"
             }
@@ -4082,34 +4110,6 @@
           "schemaVersion" : 1,
           "title" : "Caffeinate",
           "updatedAt" : "2021-06-24T14:36:25+03:00"
-        },
-        {
-          "authors" : [
-            {
-              "name" : "Marcos Sánchez-Dehesa",
-              "url" : "https:\/\/www.github.com\/dehesa"
-            }
-          ],
-          "createdAt" : "2021-05-10T12:37:10+02:00",
-          "currentDirectoryPath" : null,
-          "description" : "Toggles on\/off a Sidecar screen.",
-          "filename" : "sidecar-toggle.template.applescript",
-          "hasArguments" : false,
-          "icon" : {
-            "dark" : null,
-            "light" : "🖥"
-          },
-          "identifier" : "c540dc7c7d533614110ed18f301844c5",
-          "isTemplate" : true,
-          "language" : "applescript",
-          "mode" : "silent",
-          "needsConfirmation" : null,
-          "packageName" : "System",
-          "path" : "system\/",
-          "refreshTime" : null,
-          "schemaVersion" : 1,
-          "title" : "Sidecar Switch",
-          "updatedAt" : "2021-10-29T21:12:32+02:00"
         },
         {
           "authors" : [
@@ -18152,9 +18152,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     },
     {
       "displayName" : "Python",
@@ -18162,14 +18162,9 @@
       "name" : "python"
     },
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
     },
     {
       "displayName" : "Ruby",
@@ -18180,11 +18175,16 @@
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     }
   ],
   "metadata" : [
 
   ],
   "totalScriptCommands" : 634,
-  "updatedAt" : "2022-01-03T13:05:10Z"
+  "updatedAt" : "2022-01-04T13:47:17Z"
 }
