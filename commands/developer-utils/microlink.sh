@@ -15,5 +15,6 @@
 # Documentation:
 # @raycast.description Microlink API integration
 # @raycast.author Kiko Beats
+# @raycast.authorURL https://github.com/kikobeats
 
 microlink "$1"
