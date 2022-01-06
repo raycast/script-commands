@@ -47,7 +47,7 @@ on run translate
 	end if
 	
 	tell application "System Events"
-		set value of text area 1 of group 4 of UI Element 1 of scroll area 1 of group 1 of group 1 of window "DeepL" of process "DeepL" to inputText
+		set value of text area 1 of group 3 of UI Element 1 of scroll area 1 of group 1 of group 1 of window "DeepL" of process "DeepL" to inputText
 	end tell
 	
 	if copyResultToClipboard is true then
