@@ -3974,6 +3974,34 @@
         {
           "authors" : [
             {
+              "name" : "Marcos Sánchez-Dehesa",
+              "url" : "https:\/\/www.github.com\/dehesa"
+            }
+          ],
+          "createdAt" : "2022-01-04T13:45:02+00:00",
+          "currentDirectoryPath" : null,
+          "description" : "Toggles on\/off a Sidecar screen.",
+          "filename" : "toggle-sidecar.template.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🖥"
+          },
+          "identifier" : "437e9a7d0814734ab2d234be72fa89de",
+          "isTemplate" : true,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle Sidecar",
+          "updatedAt" : "2022-01-04T13:45:02+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Marc Klingen",
               "url" : "https:\/\/github.com\/marcklingen"
             }
@@ -4082,34 +4110,6 @@
           "schemaVersion" : 1,
           "title" : "Caffeinate",
           "updatedAt" : "2021-06-24T14:36:25+03:00"
-        },
-        {
-          "authors" : [
-            {
-              "name" : "Marcos Sánchez-Dehesa",
-              "url" : "https:\/\/www.github.com\/dehesa"
-            }
-          ],
-          "createdAt" : "2021-05-10T12:37:10+02:00",
-          "currentDirectoryPath" : null,
-          "description" : "Toggles on\/off a Sidecar screen.",
-          "filename" : "sidecar-toggle.template.applescript",
-          "hasArguments" : false,
-          "icon" : {
-            "dark" : null,
-            "light" : "🖥"
-          },
-          "identifier" : "c540dc7c7d533614110ed18f301844c5",
-          "isTemplate" : true,
-          "language" : "applescript",
-          "mode" : "silent",
-          "needsConfirmation" : null,
-          "packageName" : "System",
-          "path" : "system\/",
-          "refreshTime" : null,
-          "schemaVersion" : 1,
-          "title" : "Sidecar Switch",
-          "updatedAt" : "2021-10-29T21:12:32+02:00"
         },
         {
           "authors" : [
@@ -7401,6 +7401,34 @@
           "schemaVersion" : 1,
           "title" : "Open Deep Link",
           "updatedAt" : "2021-09-01T13:11:06+00:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Kiko Beats",
+              "url" : "https:\/\/github.com\/kikobeats"
+            }
+          ],
+          "createdAt" : "2022-01-03T14:02:54+01:00",
+          "currentDirectoryPath" : null,
+          "description" : "Microlink API integration",
+          "filename" : "microlink.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/microlink.png"
+          },
+          "identifier" : "e9302dbc4177d6533a9279fd03436425",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Microlink",
+          "path" : "developer-utils\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Microlink API",
+          "updatedAt" : "2022-01-05T11:19:54+01:00"
         },
         {
           "authors" : null,
@@ -13452,7 +13480,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Change Application Icon",
-              "updatedAt" : "2021-08-31T08:37:29+08:00"
+              "updatedAt" : "2021-12-30T21:07:32+08:00"
             }
           ]
         },
@@ -17999,6 +18027,125 @@
               "updatedAt" : "2020-11-28T13:47:03-05:00"
             }
           ]
+        },
+        {
+          "name" : "Sonos",
+          "path" : "sonos",
+          "readme" : "media\/sonos\/README.md",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "David Blackman",
+                  "url" : "https:\/\/github.com\/whizziwig"
+                }
+              ],
+              "createdAt" : "2022-01-02T10:24:52-08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Sets volume of Sonos.",
+              "filename" : "sonos-volume-set.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/sonos-logo.png"
+              },
+              "identifier" : "085acb7129481eed8d148f6ca7b32404",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Sonos",
+              "path" : "media\/sonos\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Set Volume",
+              "updatedAt" : "2022-01-02T10:24:52-08:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "David Blackman",
+                  "url" : "https:\/\/github.com\/whizziwig"
+                }
+              ],
+              "createdAt" : "2022-01-02T10:24:52-08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Raises volume of Sonos.",
+              "filename" : "sonos-volume-down.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/sonos-logo.png"
+              },
+              "identifier" : "a300f2524b7bd3e43710d309ff82eed1",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Sonos",
+              "path" : "media\/sonos\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Volume Down",
+              "updatedAt" : "2022-01-02T10:24:52-08:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "David Blackman",
+                  "url" : "https:\/\/github.com\/whizziwig"
+                }
+              ],
+              "createdAt" : "2022-01-02T10:24:52-08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Raises volume of Sonos.",
+              "filename" : "sonos-volume-up.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/sonos-logo.png"
+              },
+              "identifier" : "f0a7189878e31e38c10433ca9b69239c",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Sonos",
+              "path" : "media\/sonos\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Volume Up",
+              "updatedAt" : "2022-01-02T10:24:52-08:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "David Blackman",
+                  "url" : "https:\/\/github.com\/whizziwig"
+                }
+              ],
+              "createdAt" : "2022-01-02T10:24:52-08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Play from Sonos favorites.",
+              "filename" : "sonos-play-favorite.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/sonos-logo.png"
+              },
+              "identifier" : "da8d3ee4cc8a4c646953f6dc401b7383",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Sonos",
+              "path" : "media\/sonos\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Play Favorite",
+              "updatedAt" : "2022-01-02T10:24:52-08:00"
+            }
+          ]
         }
       ]
     }
@@ -18010,19 +18157,14 @@
       "name" : "python"
     },
     {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
       "displayName" : "Node",
       "icon" : "icon-nodejs.png",
       "name" : "node"
-    },
-    {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
-    },
-    {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
     },
     {
       "displayName" : "AppleScript",
@@ -18030,14 +18172,19 @@
       "name" : "applescript"
     },
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 629,
-  "updatedAt" : "2021-12-30T11:24:39Z"
+  "totalScriptCommands" : 634,
+  "updatedAt" : "2022-01-05T10:22:17Z"
 }
