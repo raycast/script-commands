@@ -15193,7 +15193,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "DeepL App Translate",
-              "updatedAt" : "2021-11-04T11:22:42+01:00"
+              "updatedAt" : "2022-01-06T15:57:27+01:00"
             }
           ]
         },
@@ -16602,6 +16602,34 @@
             {
               "authors" : [
                 {
+                  "name" : "Juan I. Serra",
+                  "url" : "https:\/\/github.com\/jiserra"
+                }
+              ],
+              "createdAt" : "2022-01-10T11:21:09-04:00",
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "apple-music-volume-up.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/apple-music-logo.png"
+              },
+              "identifier" : "c8f4c5a2218803961dcd04ac173cabe6",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Music",
+              "path" : "media\/apple-music\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Apple Music Volume Up",
+              "updatedAt" : "2022-01-10T11:21:09-04:00"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Jordi Clement",
                   "url" : "https:\/\/github.com\/jordicl"
                 }
@@ -16738,6 +16766,34 @@
               "schemaVersion" : 1,
               "title" : "Pause",
               "updatedAt" : "2020-11-28T12:26:29-05:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Juan I. Serra",
+                  "url" : "https:\/\/github.com\/jiserra"
+                }
+              ],
+              "createdAt" : "2022-01-10T11:21:09-04:00",
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "apple-music-volume-down.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/apple-music-logo.png"
+              },
+              "identifier" : "e976c6ae51adec3ce4530235790c6761",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Music",
+              "path" : "media\/apple-music\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Apple Music Volume Down",
+              "updatedAt" : "2022-01-10T11:21:09-04:00"
             },
             {
               "authors" : [
@@ -18152,19 +18208,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
     },
     {
       "displayName" : "AppleScript",
@@ -18172,19 +18218,29 @@
       "name" : "applescript"
     },
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     },
     {
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 634,
-  "updatedAt" : "2022-01-05T10:22:17Z"
+  "totalScriptCommands" : 636,
+  "updatedAt" : "2022-01-11T11:47:56Z"
 }
