@@ -23,7 +23,7 @@ BACKGROUND="true"
 DARK_MODE="true"
 # Set padding. Available options: 16, 32, 64 or 128
 PADDING="64"
-# Set language. Available options: shell, c-like (C++), csharp, clojure, coffeescript, crystal, css, d, dart, diff, dockerfile, elm, erlang, fortran, gherkin,
+# Set language. Available options: shell, cpp (C/C++), csharp, clojure, coffeescript, crystal, css, d, dart, diff, dockerfile, elm, erlang, fortran, gherkin,
 # go, groovy, haskell, xml, java, javascript, json, jsx, julia, kotlin, latex, lisp, lua, markdown, mathematica, octave, nginx, objectivec, ocaml (F#), perl, php,
 # powershell, python, r, ruby, rust, scala, smalltalk, sql, swift, typescript, (for Tsx, use jsx), twig, verilog, vhdl, xquery, yaml
 LANGUAGE="auto"

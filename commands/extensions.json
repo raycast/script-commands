@@ -3974,6 +3974,34 @@
         {
           "authors" : [
             {
+              "name" : "Marcos Sánchez-Dehesa",
+              "url" : "https:\/\/www.github.com\/dehesa"
+            }
+          ],
+          "createdAt" : "2022-01-04T13:45:02+00:00",
+          "currentDirectoryPath" : null,
+          "description" : "Toggles on\/off a Sidecar screen.",
+          "filename" : "toggle-sidecar.template.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🖥"
+          },
+          "identifier" : "437e9a7d0814734ab2d234be72fa89de",
+          "isTemplate" : true,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle Sidecar",
+          "updatedAt" : "2022-01-04T13:45:02+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Marc Klingen",
               "url" : "https:\/\/github.com\/marcklingen"
             }
@@ -4082,34 +4110,6 @@
           "schemaVersion" : 1,
           "title" : "Caffeinate",
           "updatedAt" : "2021-06-24T14:36:25+03:00"
-        },
-        {
-          "authors" : [
-            {
-              "name" : "Marcos Sánchez-Dehesa",
-              "url" : "https:\/\/www.github.com\/dehesa"
-            }
-          ],
-          "createdAt" : "2021-05-10T12:37:10+02:00",
-          "currentDirectoryPath" : null,
-          "description" : "Toggles on\/off a Sidecar screen.",
-          "filename" : "sidecar-toggle.template.applescript",
-          "hasArguments" : false,
-          "icon" : {
-            "dark" : null,
-            "light" : "🖥"
-          },
-          "identifier" : "c540dc7c7d533614110ed18f301844c5",
-          "isTemplate" : true,
-          "language" : "applescript",
-          "mode" : "silent",
-          "needsConfirmation" : null,
-          "packageName" : "System",
-          "path" : "system\/",
-          "refreshTime" : null,
-          "schemaVersion" : 1,
-          "title" : "Sidecar Switch",
-          "updatedAt" : "2021-10-29T21:12:32+02:00"
         },
         {
           "authors" : [
@@ -6865,6 +6865,34 @@
         {
           "authors" : [
             {
+              "name" : "David Molinero",
+              "url" : "https:\/\/github.com\/doktor500"
+            }
+          ],
+          "createdAt" : "2021-12-20T12:46:48+00:00",
+          "currentDirectoryPath" : null,
+          "description" : "Generates a ULID and copies it to the clipboard.",
+          "filename" : "generate-ulid.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "💻"
+          },
+          "identifier" : "c3621c704381ac57b354d23166b7b287",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "path" : "developer-utils\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Generate ULID",
+          "updatedAt" : "2021-12-20T12:48:58+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "tiancheng92",
               "url" : "https:\/\/github.com\/tiancheng92"
             }
@@ -6967,7 +6995,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Create Image from Code",
-          "updatedAt" : "2021-03-31T14:23:54+01:00"
+          "updatedAt" : "2021-12-07T11:53:06+07:00"
         },
         {
           "authors" : [
@@ -7373,6 +7401,34 @@
           "schemaVersion" : 1,
           "title" : "Open Deep Link",
           "updatedAt" : "2021-09-01T13:11:06+00:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Kiko Beats",
+              "url" : "https:\/\/github.com\/kikobeats"
+            }
+          ],
+          "createdAt" : "2022-01-03T14:02:54+01:00",
+          "currentDirectoryPath" : null,
+          "description" : "Microlink API integration",
+          "filename" : "microlink.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/microlink.png"
+          },
+          "identifier" : "e9302dbc4177d6533a9279fd03436425",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Microlink",
+          "path" : "developer-utils\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Microlink API",
+          "updatedAt" : "2022-01-05T11:19:54+01:00"
         },
         {
           "authors" : null,
@@ -8568,6 +8624,34 @@
             {
               "authors" : [
                 {
+                  "name" : "David Molinero",
+                  "url" : "https:\/\/github.com\/doktor500"
+                }
+              ],
+              "createdAt" : "2021-12-15T22:46:57+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Login to AWS using aws-sso-util",
+              "filename" : "aws-sso-util.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/aws-sso-util.png"
+              },
+              "identifier" : "97368460c4c6dd74419fb9fa3769c23e",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "AWS",
+              "path" : "developer-utils\/aws\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Single Sign-On",
+              "updatedAt" : "2021-12-19T15:22:29+00:00"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Oğuzhan Yılmaz",
                   "url" : "https:\/\/github.com\/c1982"
                 }
@@ -9492,6 +9576,34 @@
           "schemaVersion" : 1,
           "title" : "Generate Passphrase",
           "updatedAt" : "2020-12-09T15:47:57-05:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Alexander JH Steffen",
+              "url" : "https:\/\/github.com\/alexjsteffen"
+            }
+          ],
+          "createdAt" : "2021-12-20T07:46:10-05:00",
+          "currentDirectoryPath" : null,
+          "description" : "Place a telephone call via your iPhone on Wi-Fi.",
+          "filename" : "call-with-iphone.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "📱"
+          },
+          "identifier" : "6a212b23c41606e8701b64a7e18a00bb",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Communication",
+          "path" : "communication\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Call with iPhone",
+          "updatedAt" : "2021-12-20T07:46:10-05:00"
         },
         {
           "authors" : [
@@ -13368,7 +13480,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Change Application Icon",
-              "updatedAt" : "2021-08-31T08:37:29+08:00"
+              "updatedAt" : "2021-12-30T21:07:32+08:00"
             }
           ]
         },
@@ -15081,7 +15193,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "DeepL App Translate",
-              "updatedAt" : "2021-11-04T11:22:42+01:00"
+              "updatedAt" : "2022-01-06T15:57:27+01:00"
             }
           ]
         },
@@ -16490,6 +16602,34 @@
             {
               "authors" : [
                 {
+                  "name" : "Juan I. Serra",
+                  "url" : "https:\/\/github.com\/jiserra"
+                }
+              ],
+              "createdAt" : "2022-01-10T11:21:09-04:00",
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "apple-music-volume-up.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/apple-music-logo.png"
+              },
+              "identifier" : "c8f4c5a2218803961dcd04ac173cabe6",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Music",
+              "path" : "media\/apple-music\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Apple Music Volume Up",
+              "updatedAt" : "2022-01-10T11:21:09-04:00"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Jordi Clement",
                   "url" : "https:\/\/github.com\/jordicl"
                 }
@@ -16630,6 +16770,34 @@
             {
               "authors" : [
                 {
+                  "name" : "Juan I. Serra",
+                  "url" : "https:\/\/github.com\/jiserra"
+                }
+              ],
+              "createdAt" : "2022-01-10T11:21:09-04:00",
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "apple-music-volume-down.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/apple-music-logo.png"
+              },
+              "identifier" : "e976c6ae51adec3ce4530235790c6761",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Music",
+              "path" : "media\/apple-music\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Apple Music Volume Down",
+              "updatedAt" : "2022-01-10T11:21:09-04:00"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Caleb Stauffer",
                   "url" : "https:\/\/github.com\/crstauf"
                 }
@@ -16709,7 +16877,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Search",
-              "updatedAt" : "2021-08-18T20:20:15+08:00"
+              "updatedAt" : "2021-12-20T20:53:03+08:00"
             },
             {
               "authors" : [
@@ -17915,6 +18083,125 @@
               "updatedAt" : "2020-11-28T13:47:03-05:00"
             }
           ]
+        },
+        {
+          "name" : "Sonos",
+          "path" : "sonos",
+          "readme" : "media\/sonos\/README.md",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "David Blackman",
+                  "url" : "https:\/\/github.com\/whizziwig"
+                }
+              ],
+              "createdAt" : "2022-01-02T10:24:52-08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Sets volume of Sonos.",
+              "filename" : "sonos-volume-set.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/sonos-logo.png"
+              },
+              "identifier" : "085acb7129481eed8d148f6ca7b32404",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Sonos",
+              "path" : "media\/sonos\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Set Volume",
+              "updatedAt" : "2022-01-02T10:24:52-08:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "David Blackman",
+                  "url" : "https:\/\/github.com\/whizziwig"
+                }
+              ],
+              "createdAt" : "2022-01-02T10:24:52-08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Raises volume of Sonos.",
+              "filename" : "sonos-volume-down.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/sonos-logo.png"
+              },
+              "identifier" : "a300f2524b7bd3e43710d309ff82eed1",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Sonos",
+              "path" : "media\/sonos\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Volume Down",
+              "updatedAt" : "2022-01-02T10:24:52-08:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "David Blackman",
+                  "url" : "https:\/\/github.com\/whizziwig"
+                }
+              ],
+              "createdAt" : "2022-01-02T10:24:52-08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Raises volume of Sonos.",
+              "filename" : "sonos-volume-up.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/sonos-logo.png"
+              },
+              "identifier" : "f0a7189878e31e38c10433ca9b69239c",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Sonos",
+              "path" : "media\/sonos\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Volume Up",
+              "updatedAt" : "2022-01-02T10:24:52-08:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "David Blackman",
+                  "url" : "https:\/\/github.com\/whizziwig"
+                }
+              ],
+              "createdAt" : "2022-01-02T10:24:52-08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Play from Sonos favorites.",
+              "filename" : "sonos-play-favorite.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/sonos-logo.png"
+              },
+              "identifier" : "da8d3ee4cc8a4c646953f6dc401b7383",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Sonos",
+              "path" : "media\/sonos\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Play Favorite",
+              "updatedAt" : "2022-01-02T10:24:52-08:00"
+            }
+          ]
         }
       ]
     }
@@ -17931,29 +18218,29 @@
       "name" : "applescript"
     },
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
       "displayName" : "Ruby",
       "icon" : "icon-ruby.png",
       "name" : "ruby"
     },
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     },
     {
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 626,
-  "updatedAt" : "2021-11-28T15:44:33Z"
+  "totalScriptCommands" : 636,
+  "updatedAt" : "2022-01-11T11:47:56Z"
 }
