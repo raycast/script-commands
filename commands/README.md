@@ -447,7 +447,7 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author | Args | Templ | Lang |  
 | :--: | ----- | ----------- | :----: | :--: | :---: | :--: |  
-| 👨‍💻 | [Open workspace](apps/webstorm/open-workspace.sh) | Open projects with optional close others | [Daniel](https://github.com/stovv) | ✅ | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+| 👨‍💻 | [Open workspace](apps/webstorm/open-workspace.template.sh) | Open projects with optional close others | [Daniel](https://github.com/stovv) | ✅ | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 
 #### Wikipedia
