@@ -63,6 +63,7 @@ This repository contains sample commands and documentation to write your own one
   - [TunnelBlick](#tunnelblick)
   - [Viscosity](#viscosity)
   - [WARP](#warp)
+  - [WebStorm](#webstorm)
   - [Wikipedia](#wikipedia)
   - [Y Pomodoro](#y-pomodoro)
   - [iTerm](#iterm)
@@ -441,6 +442,13 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/warp/images/warp.png" width="20" height="20"> | [Disconnect](apps/warp/warp-stop.sh) | Disconnect from WARP | [Sergey Fuksman](https://github.com/fuksman) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/warp/images/warp.png" width="20" height="20"> | [Toggle WARP](apps/warp/warp-toggle.sh) | Toggle Connection | [Sergey Fuksman](https://github.com/fuksman) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/warp/images/warp.png" width="20" height="20"> | [WARP Status](apps/warp/warp-status.sh) | Check WARP connection | [Sergey Fuksman](https://github.com/fuksman) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### WebStorm
+
+| Icon | Title | Description | Author | Args | Templ | Lang |  
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |  
+| 👨‍💻 | [Open workspace](apps/webstorm/open-workspace.sh) | Open projects with optional close others | [Daniel](https://github.com/stovv) | ✅ | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
 
 #### Wikipedia
 
