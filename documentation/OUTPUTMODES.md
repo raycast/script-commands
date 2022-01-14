@@ -21,6 +21,8 @@ In `inline` mode, the first line of output will be directly shown in the command
 
 **🚨 Hint:** use `cmd k` to access extra functionality such as adding to favorites or reordering the root search preferences.
 
+Please note that long-running tasks generating a lot of partial data are not supported for `compact`, `silent`, and `inline` modes. For example, the `zip` command generates a lot of partial logs when compressing folders with many files. Scripts using `zip` won't work on `compact`, `silent`, and `inline`; but they will work in `fullOutput`. To make it work in the other modes you need to use the `zip -q` flag.
+
 # ANSII Supported Colors 🎨
 
 We support colors for `inline` and `fullOutput` mode scripts for you to customize generated output by changing its background and foreground color.
