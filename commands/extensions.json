@@ -9952,6 +9952,34 @@
             {
               "authors" : [
                 {
+                  "name" : "Zeb Pykosz",
+                  "url" : "https:\/\/github.com\/zebapy"
+                }
+              ],
+              "createdAt" : "2020-11-26T13:39:55+00:00",
+              "currentDirectoryPath" : null,
+              "description" : "Create a Slack reminder",
+              "filename" : "add-slack-reminder.template.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "⏰"
+              },
+              "identifier" : "d320c2d35cc64553ce1a2db1ab80937c",
+              "isTemplate" : true,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Slack",
+              "path" : "communication\/slack\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Add Reminder",
+              "updatedAt" : "2022-01-15T18:23:42+00:00"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Jakub Lanski",
                   "url" : "https:\/\/github.com\/jaklan"
                 }
@@ -18208,6 +18236,11 @@
   ],
   "languages" : [
     {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
+    },
+    {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
@@ -18218,19 +18251,14 @@
       "name" : "applescript"
     },
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
       "displayName" : "Python",
       "icon" : "icon-python.png",
       "name" : "python"
     },
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     },
     {
       "displayName" : "Node",
@@ -18241,6 +18269,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 636,
-  "updatedAt" : "2022-01-11T11:47:56Z"
+  "totalScriptCommands" : 637,
+  "updatedAt" : "2022-01-15T18:23:42Z"
 }
