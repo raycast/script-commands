@@ -538,6 +538,7 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | ⏰ | [Add Reminder](communication/slack/add-slack-reminder.template.sh) | Create a Slack reminder | [Zeb Pykosz](https://github.com/zebapy) | ✅ | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/slack/images/slack-logo.png" width="20" height="20"> | [Clear Slack DND](communication/slack/clear-slack-DND-status.sh) | Clear DND Status in Slack | [Sam Ching](https://github.com/samching) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🧼 | [Clear Status](communication/slack/clear-slack-status.template.sh) | Clear your status in Slack. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/slack/images/slack-logo.png" width="20" height="20"> | [Jump to...](communication/slack/slack-jump-to.applescript) | N/A | [Jakub Lanski](https://github.com/jaklan) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
