@@ -5344,7 +5344,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Toggle Desktop Icons",
-          "updatedAt" : "2020-11-23T12:53:48-05:00"
+          "updatedAt" : "2022-01-15T18:22:57+08:00"
         },
         {
           "authors" : [
@@ -12898,6 +12898,40 @@
           ]
         },
         {
+          "name" : "One Thing",
+          "path" : "one-thing",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "One Thing",
+                  "url" : "https:\/\/sindresorhus.com\/one-thing"
+                }
+              ],
+              "createdAt" : "2022-01-16T17:00:05+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Set the text shown in One Thing app.",
+              "filename" : "one-thing-set-text.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/one-thing.png"
+              },
+              "identifier" : "64b8520de38fe85dbc3fc84d16d26db9",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "One Thing",
+              "path" : "apps\/one-thing\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Set Text",
+              "updatedAt" : "2022-01-16T17:00:05+07:00"
+            }
+          ]
+        },
+        {
           "name" : "Evernote",
           "path" : "evernote",
           "scriptCommands" : [
@@ -18326,26 +18360,6 @@
   ],
   "languages" : [
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
-    },
-    {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
-    },
-    {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
-    },
-    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
@@ -18354,11 +18368,31 @@
       "displayName" : "Ruby",
       "icon" : "icon-ruby.png",
       "name" : "ruby"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
+    },
+    {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
+    },
+    {
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 640,
-  "updatedAt" : "2022-01-17T11:42:23Z"
+  "totalScriptCommands" : 641,
+  "updatedAt" : "2022-01-17T11:51:16Z"
 }
