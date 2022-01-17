@@ -12217,6 +12217,96 @@
           ]
         },
         {
+          "name" : "Lungo",
+          "path" : "lungo",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Lungo",
+                  "url" : "https:\/\/sindresorhus.com\/lungo"
+                }
+              ],
+              "createdAt" : "2021-10-29T16:08:45+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Toggle Lungo.",
+              "filename" : "lungo-toggle.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/lungo.png"
+              },
+              "identifier" : "1e1201142099074bd201c2e04bfed472",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Lungo",
+              "path" : "apps\/lungo\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Toggle",
+              "updatedAt" : "2021-10-29T16:08:45+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Lungo",
+                  "url" : "https:\/\/sindresorhus.com\/lungo"
+                }
+              ],
+              "createdAt" : "2021-10-29T16:08:45+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Deactivate Lungo.",
+              "filename" : "lungo-activate.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/lungo.png"
+              },
+              "identifier" : "e41a768d833a7cca41cb21491926b013",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Lungo",
+              "path" : "apps\/lungo\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Activate",
+              "updatedAt" : "2021-10-29T16:08:45+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Lungo",
+                  "url" : "https:\/\/sindresorhus.com\/lungo"
+                }
+              ],
+              "createdAt" : "2021-10-29T16:08:45+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Deactivate Lungo.",
+              "filename" : "lungo-deactivate.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/lungo.png"
+              },
+              "identifier" : "7ad4b7c36c41fb0730596bdd72a12515",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Lungo",
+              "path" : "apps\/lungo\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Deactivate",
+              "updatedAt" : "2021-10-29T16:08:45+07:00"
+            }
+          ]
+        },
+        {
           "name" : "iTerm",
           "path" : "iterm",
           "scriptCommands" : [
@@ -18241,6 +18331,16 @@
       "name" : "swift"
     },
     {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
+    },
+    {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
@@ -18251,24 +18351,14 @@
       "name" : "applescript"
     },
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
       "displayName" : "Ruby",
       "icon" : "icon-ruby.png",
       "name" : "ruby"
-    },
-    {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 637,
-  "updatedAt" : "2022-01-15T18:23:42Z"
+  "totalScriptCommands" : 640,
+  "updatedAt" : "2022-01-17T11:42:23Z"
 }
