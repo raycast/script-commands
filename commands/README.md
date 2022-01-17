@@ -38,6 +38,7 @@ This repository contains sample commands and documentation to write your own one
   - [Fantastical](#fantastical)
   - [Ferdi](#ferdi)
   - [HazeOver](#hazeover)
+  - [Lungo](#lungo)
   - [Mail](#mail)
   - [MeetingBar](#meetingbar)
   - [Mullvad](#mullvad)
@@ -232,6 +233,14 @@ This repository contains sample commands and documentation to write your own one
 | :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/hazeover/images/hazeover.png" width="20" height="20"> | [Set Intensity](apps/hazeover/hazeover-set-intensity.applescript) | Set dimming intensity of background windows. | [Thomas Paul Mann](https://github.com/thomaspaulmann) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/hazeover/images/hazeover.png" width="20" height="20"> | [Toggle Dimming](apps/hazeover/hazeover-toggle-dimming.applescript) | Toggle dimming of all background windows. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+
+#### Lungo
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/lungo/./images/lungo.png" width="20" height="20"> | [Activate](apps/lungo/lungo-activate.sh) | Deactivate Lungo. | [Lungo](https://sindresorhus.com/lungo) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/lungo/./images/lungo.png" width="20" height="20"> | [Deactivate](apps/lungo/lungo-deactivate.sh) | Deactivate Lungo. | [Lungo](https://sindresorhus.com/lungo) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/lungo/./images/lungo.png" width="20" height="20"> | [Toggle](apps/lungo/lungo-toggle.sh) | Toggle Lungo. | [Lungo](https://sindresorhus.com/lungo) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Mail
 
