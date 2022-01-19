@@ -13,5 +13,5 @@
 # @raycast.description Copies the external IPv4 to the clipboard.
 
 ip=$(curl -4 -s -m 5 https://api.ipify.org)
-echo $ip | pbcopy
+echo $ip | tr -d '\n' | pbcopy
 echo "Copied $ip"
