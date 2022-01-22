@@ -16,6 +16,8 @@
 
 import IOBluetooth
 
+// Note: This a template which needs further setup. Remove `.template.` from the filename.
+
 // Get your device's MAC address by option (⌥) + clicking the bluetooth icon in the menu bar
 let deviceAddress = ""
 
