@@ -6669,7 +6669,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Run Command On Front Finder Window",
-          "updatedAt" : "2020-12-08T15:56:35+00:00"
+          "updatedAt" : "2022-01-17T18:22:39-08:00"
         },
         {
           "authors" : [
@@ -8770,7 +8770,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Local IPv4",
-              "updatedAt" : "2021-07-08T21:33:32-04:00"
+              "updatedAt" : "2022-01-19T12:05:31+01:00"
             },
             {
               "authors" : [
@@ -8821,7 +8821,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "External IPv4",
-              "updatedAt" : "2021-07-08T21:33:12-04:00"
+              "updatedAt" : "2022-01-19T12:05:31+01:00"
             },
             {
               "authors" : [
@@ -8872,7 +8872,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "External IPv6",
-              "updatedAt" : "2021-07-08T21:33:27-04:00"
+              "updatedAt" : "2022-01-19T12:05:31+01:00"
             },
             {
               "authors" : null,
@@ -8895,7 +8895,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Local IPv6",
-              "updatedAt" : "2021-07-08T21:33:40-04:00"
+              "updatedAt" : "2022-01-19T12:05:31+01:00"
             }
           ]
         },
@@ -16010,6 +16010,964 @@
           ]
         },
         {
+          "name" : "Devutils",
+          "path" : "devutils",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Convert your current clipboard from CSV to JSON",
+              "filename" : "csv2json.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "96351002cef0c040a5c35e6f2e04a7a0",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "CSV to JSON",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Escape (or unescape) the HTML entities your current clipboard string",
+              "filename" : "htmlencode.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "7b2949bdb3461fae767de2e8a2686153",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "HTML Entity Encode\/Decode",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Beautify or minify your current clipboard as XML",
+              "filename" : "xmlformatter.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "c1fd8764b8bb26e465a7a48dc3d55b89",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "XML Beautify\/Minify",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Convert the HTML string in clipboard to JSX",
+              "filename" : "html2jsx.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "5d48ac8248afc31799260e5ee0af87b1",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "HTML to JSX",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Escape (or unescape) backslashes in your current clipboard string",
+              "filename" : "backslash.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "1fe92d44c297f36a443e1741eb727317",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Backslash Escape\/Unescape",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Get some randomly generated lorem ipsum strings",
+              "filename" : "loremipsum.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "34c135d0d015486dc28c4a1789dd9c5e",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Lorem Ipsum Generator",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Decode and verify the current JWT token in your clipboard",
+              "filename" : "jwt.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "03b13d316e4eaf0c2cf02eec27ad6d49",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "JWT Debugger",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Beautify or minify your current clipboard as ERB",
+              "filename" : "erbformatter.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "c0862014d90bee6995ecfbf61b5468d2",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "ERB Beautify\/Minify",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Format the SQL string currently in your clipboard",
+              "filename" : "sqlformatter.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "9ec928b585e7c1b2de1f2e13cb3fab26",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "SQL Formatter",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Inspect your current clipboard string (length, words count, unicode, etc.)",
+              "filename" : "stringinspect.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "3da94b4e417bf5ff6e44b67869a7d612",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "String Inspector",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Decode the Base64 string in clipboard (if it’s decodable)",
+              "filename" : "base64encode.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "65ca896b0c3fb60ad6f189616c8c7524",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Base64 String Encode\/Decode",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Convert your current clipboard from JSON to CSV",
+              "filename" : "json2csv.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "77e0bc4cd51d4d5cd1560c0c2b420214",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "JSON to CSV",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Beautify or minify your current clipboard as CSS",
+              "filename" : "cssformatter.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "55e6391c0919e4ce410977d7791d75f3",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "CSS Beautify\/Minify",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Convert your current clipboard from JSON to YAML",
+              "filename" : "json2yaml.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "7fda6adb9ccc8f154619301140faa03c",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "JSON to YAML",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Calculate the hash of your current clipboard string",
+              "filename" : "hashing.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "660dc6a522fbb4c1d25fdd5c4bc43503",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Hash Generator",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Parse the cron job expression in clipboard (if it’s a valid cron expression)",
+              "filename" : "cronparser.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "e92d8c824922446f81d842b8a75abeea",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Cron Job Parser",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Decode the current URL string in your clipboard (if any)",
+              "filename" : "urlencode.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "4770cbb56d80eed7a9092dcb84442724",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "URL Encode\/Decode",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Decode the UUID in your clipboard (if any), or generate UUIDs",
+              "filename" : "uuidtool.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "64fd318687c1f6e5e92033e62fe3b8a2",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "UUID\/ULID Generate\/Decode",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Decode the Base64 string in clipboard to an image (if it’s decodable)",
+              "filename" : "base64image.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "6f08b5175968433d58c9b9565fa8e3b5",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Base64 Image Encode\/Decode",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Beautify or minify your current clipboard as LESS",
+              "filename" : "lessformatter.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "3a70a1e6d6df5384d2ca515a3c31ffb2",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "LESS Beautify\/Minify",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Convert your current clipboard from YAML to JSON",
+              "filename" : "yaml2json.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "302fe47b8006d28fe4e9693471193e00",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "YAML to JSON",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Format the JSON string currently in your clipboard (if it’s a valid JSON)",
+              "filename" : "jsonformatter.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "2ff9ca437fae33af3b7e744a05842fe2",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "JSON Format\/Validate",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show a HTML preview of your current clipboard string",
+              "filename" : "htmlpreview.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "ea972077aa252a09b9755043ddb3ee56",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "HTML Preview",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Convert a string in clipboard into various naming conventions",
+              "filename" : "stringcaseconverter.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "da658bbfc3056122cfa25655191ba46e",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "String Case Converter",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Test your regular expression with a string and inspect matches, groups, etc.",
+              "filename" : "regextester.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "6fdaca184e9aaf35ed9935ca7765c887",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "RegExp Tester",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Preview the markdown string currently in your clipboard",
+              "filename" : "markdownpreview.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "4e9b6a8f59213b7740cf8ea0681d7489",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Markdown Preview",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Beautify or minify your current clipboard as SCSS",
+              "filename" : "scssformatter.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "9e6ab71f9cf6a8621606b3934345e1ef",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "SCSS Beautify\/Minify",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Compare two texts and find diff (per characters, words, lines, etc.)",
+              "filename" : "textdiff.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "59f6ce6bc50e81065dbe667b82c1771f",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Text Diff Checker",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Beautify or minify your current clipboard as HTML",
+              "filename" : "htmlformatter.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "6c594f59f7c3fa76ddbb219689014e61",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "HTML Beautify\/Minify",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Convert numbers between bases (oct, hex, binary, etc.)",
+              "filename" : "numberbase.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "b49f9f56ffad1e4e2127df82116d0f3d",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Number Base Converter",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Parse the URL string currently in your clipboard",
+              "filename" : "querystringparser.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "995abb11b07f6e5776a94c91448cc54b",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "URL Parser",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Generate a QR code from your current clipboard string",
+              "filename" : "qrcode.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "9e5235df4808af09a9c965f83873718d",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "QR Code Reader\/Generator",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Beautify or minify your current clipboard as JavaScript",
+              "filename" : "jsformatter.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "9d6c09efd9fa58b456df731a9758eb3e",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "JS Beautify\/Minify",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Parse and display UNIX the timestamp string currently in your clipboard",
+              "filename" : "unixtime.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "b54dbb6855fc539be668f972f6ad4de0",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Unix Time Converter",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            }
+          ]
+        },
+        {
           "name" : "Espanso",
           "path" : "espanso",
           "scriptCommands" : [
@@ -18360,16 +19318,6 @@
   ],
   "languages" : [
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
       "displayName" : "Node",
       "icon" : "icon-nodejs.png",
       "name" : "node"
@@ -18380,9 +19328,19 @@
       "name" : "python"
     },
     {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     },
     {
       "displayName" : "Bash",
@@ -18393,6 +19351,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 641,
-  "updatedAt" : "2022-01-17T11:51:16Z"
+  "totalScriptCommands" : 675,
+  "updatedAt" : "2022-01-24T09:37:24Z"
 }
