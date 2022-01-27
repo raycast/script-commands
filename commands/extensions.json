@@ -14257,6 +14257,40 @@
           ]
         },
         {
+          "name" : "WebStorm",
+          "path" : "webstorm",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Daniel Stovv",
+                  "url" : "https:\/\/github.com\/stovv"
+                }
+              ],
+              "createdAt" : "2022-01-27T15:04:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open WebStorm projects",
+              "filename" : "open-workspace.template.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/webstorm.png"
+              },
+              "identifier" : "8db170a15f9f700cf1a5bc69152e3e3e",
+              "isTemplate" : true,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "WebStorm",
+              "path" : "apps\/webstorm\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open",
+              "updatedAt" : "2022-01-27T12:07:09+00:00"
+            }
+          ]
+        },
+        {
           "name" : "Translate Shell",
           "path" : "translate-shell",
           "scriptCommands" : [
@@ -19318,19 +19352,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
-    },
-    {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
     },
     {
       "displayName" : "Swift",
@@ -19338,19 +19362,29 @@
       "name" : "swift"
     },
     {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
     },
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
+    },
+    {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 675,
-  "updatedAt" : "2022-01-24T09:37:24Z"
+  "totalScriptCommands" : 676,
+  "updatedAt" : "2022-01-27T12:07:09Z"
 }
