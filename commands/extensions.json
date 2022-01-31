@@ -17963,6 +17963,40 @@
       ]
     },
     {
+      "name" : "Writing",
+      "path" : "writing",
+      "scriptCommands" : [
+        {
+          "authors" : [
+            {
+              "name" : "Benny Wong",
+              "url" : "https:\/\/bwong.net"
+            }
+          ],
+          "createdAt" : "2022-01-29T12:34:13-05:00",
+          "currentDirectoryPath" : null,
+          "description" : "Counts the number of words of the text in the clipboard",
+          "filename" : "word-count.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🤖"
+          },
+          "identifier" : "4757d0ea5b9d6eedf37b64f283531315",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Writing",
+          "path" : "writing\/",
+          "refreshTime" : "15s",
+          "schemaVersion" : 1,
+          "title" : "Word Count",
+          "updatedAt" : "2022-01-29T12:34:13-05:00"
+        }
+      ]
+    },
+    {
       "name" : "Media",
       "path" : "media",
       "scriptCommands" : [
@@ -19610,9 +19644,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     },
     {
       "displayName" : "Node",
@@ -19620,14 +19654,14 @@
       "name" : "node"
     },
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     },
     {
       "displayName" : "Bash",
@@ -19643,6 +19677,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 685,
-  "updatedAt" : "2022-01-31T15:58:53Z"
+  "totalScriptCommands" : 686,
+  "updatedAt" : "2022-01-31T16:21:20Z"
 }
