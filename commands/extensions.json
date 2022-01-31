@@ -13756,6 +13756,264 @@
           ]
         },
         {
+          "name" : "Focus",
+          "path" : "focus",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Ernest Ojeh",
+                  "url" : "https:\/github.com\/namzo"
+                }
+              ],
+              "createdAt" : "2022-01-28T20:18:00+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Start a custom focus session. If you don't enter any values, it starts an untimed focus session.",
+              "filename" : "focus-start-custom-session.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/focus-logo.png"
+              },
+              "identifier" : "80dd2db0a8e0b267adf52209d1e2b66a",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Focus",
+              "path" : "apps\/focus\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Start Custom Focus Session",
+              "updatedAt" : "2022-01-28T20:18:00+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Ernest Ojeh",
+                  "url" : "https:\/github.com\/namzo"
+                }
+              ],
+              "createdAt" : "2022-01-28T20:18:00+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open focus preferences.",
+              "filename" : "focus-preferences.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/focus-logo.png"
+              },
+              "identifier" : "26e49cef06b6a50e9c2a2288a0b3e5de",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Focus",
+              "path" : "apps\/focus\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Focus Preferences",
+              "updatedAt" : "2022-01-28T20:18:00+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Ernest Ojeh",
+                  "url" : "https:\/github.com\/namzo"
+                }
+              ],
+              "createdAt" : "2022-01-28T20:18:00+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Stop the current focus session.",
+              "filename" : "focus-stop-session.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/focus-logo.png"
+              },
+              "identifier" : "2f0e5d4a017c664641797d3ccad1fbe1",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Focus",
+              "path" : "apps\/focus\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Stop Focus Session (Unfocus)",
+              "updatedAt" : "2022-01-28T20:18:00+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Ernest Ojeh",
+                  "url" : "https:\/github.com\/namzo"
+                }
+              ],
+              "createdAt" : "2022-01-28T20:18:00+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Take 5 minutes break.",
+              "filename" : "focus-start-break-5.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/focus-logo.png"
+              },
+              "identifier" : "11136efc43088020c73969f86e0dd6d2",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Focus",
+              "path" : "apps\/focus\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Take 5 Minutes Break",
+              "updatedAt" : "2022-01-28T20:18:00+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Ernest Ojeh",
+                  "url" : "https:\/github.com\/namzo"
+                }
+              ],
+              "createdAt" : "2022-01-28T20:18:00+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Toggle between start session (untimed) and stop session.",
+              "filename" : "focus-toggle-focus.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/focus-logo.png"
+              },
+              "identifier" : "87f5cb4aa46375da34318fc091f250b0",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Focus",
+              "path" : "apps\/focus\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Toggle Focus Session",
+              "updatedAt" : "2022-01-28T20:18:00+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Ernest Ojeh",
+                  "url" : "https:\/github.com\/namzo"
+                }
+              ],
+              "createdAt" : "2022-01-28T20:18:00+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Start an untimed focus session.",
+              "filename" : "focus-start-session.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/focus-logo.png"
+              },
+              "identifier" : "870e8c9bf851b140036bb6959e990571",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Focus",
+              "path" : "apps\/focus\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Start Focus Session (Focus)",
+              "updatedAt" : "2022-01-28T20:18:00+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Ernest Ojeh",
+                  "url" : "https:\/github.com\/namzo"
+                }
+              ],
+              "createdAt" : "2022-01-28T20:18:00+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Stop break and continues the current focus session.",
+              "filename" : "focus-stop-break.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/focus-logo.png"
+              },
+              "identifier" : "301323d2b2b7165ab0364ea4a600f4d5",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Focus",
+              "path" : "apps\/focus\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Stop Break (Unbreak)",
+              "updatedAt" : "2022-01-28T20:18:00+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Ernest Ojeh",
+                  "url" : "https:\/github.com\/namzo"
+                }
+              ],
+              "createdAt" : "2022-01-28T20:18:00+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Start a custom break. If you don't enter any values, it uses the last break duration.",
+              "filename" : "focus-start-custom-break.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/focus-logo.png"
+              },
+              "identifier" : "a8c3ae965a33e0ac2098e35ea49ffdd0",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Focus",
+              "path" : "apps\/focus\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Start Custom Break",
+              "updatedAt" : "2022-01-28T20:18:00+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Ernest Ojeh",
+                  "url" : "https:\/github.com\/namzo"
+                }
+              ],
+              "createdAt" : "2022-01-28T20:18:00+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Start a 25 minutes focus session.",
+              "filename" : "focus-start-session-25.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/focus-logo.png"
+              },
+              "identifier" : "c98d57dfcdd3aa35ed145b6a221377e5",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Focus",
+              "path" : "apps\/focus\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Start 25 minutes Focus Session",
+              "updatedAt" : "2022-01-28T20:18:00+01:00"
+            }
+          ]
+        },
+        {
           "name" : "Plash",
           "path" : "plash",
           "scriptCommands" : [
@@ -19352,21 +19610,6 @@
   ],
   "languages" : [
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
-    },
-    {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
-    },
-    {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
@@ -19380,11 +19623,26 @@
       "displayName" : "Ruby",
       "icon" : "icon-ruby.png",
       "name" : "ruby"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
+    },
+    {
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
+    },
+    {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 676,
-  "updatedAt" : "2022-01-27T12:07:09Z"
+  "totalScriptCommands" : 685,
+  "updatedAt" : "2022-01-31T15:58:53Z"
 }
