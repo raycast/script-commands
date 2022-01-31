@@ -38,6 +38,7 @@ This repository contains sample commands and documentation to write your own one
   - [Evernote](#evernote)
   - [Fantastical](#fantastical)
   - [Ferdi](#ferdi)
+  - [Focus](#focus)
   - [HazeOver](#hazeover)
   - [Lungo](#lungo)
   - [Mail](#mail)
@@ -268,6 +269,20 @@ This repository contains sample commands and documentation to write your own one
 | :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/ferdi/images/ferdi.png" width="20" height="20"> | [Open Service by Index](apps/ferdi/ferdi-open-service-by-index.applescript) | N/A | [Jakub Lanski](https://github.com/jaklan) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/ferdi/images/ferdi.png" width="20" height="20"> | [Open Service by Name](apps/ferdi/ferdi-open-service-by-name.applescript) | N/A | [Jakub Lanski](https://github.com/jaklan) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+
+#### Focus
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/focus/images/focus-logo.png" width="20" height="20"> | [Open Focus Preferences](apps/focus/focus-preferences.sh) | Open focus preferences. | [Ernest Ojeh](https:/github.com/namzo) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/focus/images/focus-logo.png" width="20" height="20"> | [Start 25 minutes Focus Session](apps/focus/focus-start-session-25.sh) | Start a 25 minutes focus session. | [Ernest Ojeh](https:/github.com/namzo) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/focus/images/focus-logo.png" width="20" height="20"> | [Start Custom Break](apps/focus/focus-start-custom-break.sh) | Start a custom break. If you don't enter any values, it uses the last break duration. | [Ernest Ojeh](https:/github.com/namzo) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/focus/images/focus-logo.png" width="20" height="20"> | [Start Custom Focus Session](apps/focus/focus-start-custom-session.sh) | Start a custom focus session. If you don't enter any values, it starts an untimed focus session. | [Ernest Ojeh](https:/github.com/namzo) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/focus/images/focus-logo.png" width="20" height="20"> | [Start Focus Session (Focus)](apps/focus/focus-start-session.sh) | Start an untimed focus session. | [Ernest Ojeh](https:/github.com/namzo) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/focus/images/focus-logo.png" width="20" height="20"> | [Stop Break (Unbreak)](apps/focus/focus-stop-break.sh) | Stop break and continues the current focus session. | [Ernest Ojeh](https:/github.com/namzo) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/focus/images/focus-logo.png" width="20" height="20"> | [Stop Focus Session (Unfocus)](apps/focus/focus-stop-session.sh) | Stop the current focus session. | [Ernest Ojeh](https:/github.com/namzo) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/focus/images/focus-logo.png" width="20" height="20"> | [Take 5 Minutes Break](apps/focus/focus-start-break-5.sh) | Take 5 minutes break. | [Ernest Ojeh](https:/github.com/namzo) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/focus/images/focus-logo.png" width="20" height="20"> | [Toggle Focus Session](apps/focus/focus-toggle-focus.sh) | Toggle between start session (untimed) and stop session. | [Ernest Ojeh](https:/github.com/namzo) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### HazeOver
 
