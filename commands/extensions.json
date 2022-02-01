@@ -19638,11 +19638,134 @@
               "updatedAt" : "2022-01-02T10:24:52-08:00"
             }
           ]
+        },
+        {
+          "name" : "Tidal",
+          "path" : "tidal",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Charles Harries",
+                  "url" : "https:\/\/github.com\/charlesharries"
+                }
+              ],
+              "createdAt" : "2022-02-01T13:37:24+00:00",
+              "currentDirectoryPath" : null,
+              "description" : "Play the current track in Tidal.",
+              "filename" : "tidal-play.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/tidal-logo.png"
+              },
+              "identifier" : "370fa0d9f88c538e191fa5c4df615aed",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Tidal Play",
+              "path" : "media\/tidal\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Play",
+              "updatedAt" : "2022-02-01T13:37:24+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Charles Harries",
+                  "url" : "https:\/\/github.com\/charlesharries"
+                }
+              ],
+              "createdAt" : "2022-02-01T13:37:24+00:00",
+              "currentDirectoryPath" : null,
+              "description" : "Skip to the next track in Tidal.",
+              "filename" : "tidal-next-track.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/tidal-logo.png"
+              },
+              "identifier" : "9206bc623c13a1861d1ea4f872c8fbee",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Tidal Next Track",
+              "path" : "media\/tidal\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Next Track",
+              "updatedAt" : "2022-02-01T14:38:40+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Charles Harries",
+                  "url" : "https:\/\/github.com\/charlesharries"
+                }
+              ],
+              "createdAt" : "2022-02-01T13:37:24+00:00",
+              "currentDirectoryPath" : null,
+              "description" : "Pause the current track in Tidal.",
+              "filename" : "tidal-pause.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/tidal-logo.png"
+              },
+              "identifier" : "1e045340ac4a21b2cf81a4bf59b3984e",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Tidal Pause",
+              "path" : "media\/tidal\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Pause",
+              "updatedAt" : "2022-02-01T13:37:24+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Charles Harries",
+                  "url" : "https:\/\/github.com\/charlesharries"
+                }
+              ],
+              "createdAt" : "2022-02-01T13:37:24+00:00",
+              "currentDirectoryPath" : null,
+              "description" : "Skip back to the previous track in Tidal.",
+              "filename" : "tidal-previous-track.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/tidal-logo.png"
+              },
+              "identifier" : "756f25af8641456ee9d6c6b14146f1dd",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Tidal Previous Track",
+              "path" : "media\/tidal\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Previous Track",
+              "updatedAt" : "2022-02-01T14:38:40+00:00"
+            }
+          ]
         }
       ]
     }
   ],
   "languages" : [
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
+    },
     {
       "displayName" : "Ruby",
       "icon" : "icon-ruby.png",
@@ -19654,16 +19777,6 @@
       "name" : "node"
     },
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
-    },
-    {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
@@ -19672,11 +19785,16 @@
       "displayName" : "Python",
       "icon" : "icon-python.png",
       "name" : "python"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 686,
-  "updatedAt" : "2022-01-31T16:21:20Z"
+  "totalScriptCommands" : 690,
+  "updatedAt" : "2022-02-01T14:38:40Z"
 }
