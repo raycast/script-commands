@@ -3229,6 +3229,34 @@
               "url" : "https:\/\/mattglei.ch"
             }
           ],
+          "createdAt" : "2022-02-04T00:21:07-05:00",
+          "currentDirectoryPath" : null,
+          "description" : "Evaluate LaTeX expressions and get the product copied to your clipboard",
+          "filename" : "latex-calculator.py",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🧮"
+          },
+          "identifier" : "99c77768765823d1f57e72e84d005f64",
+          "isTemplate" : false,
+          "language" : "python",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Math",
+          "path" : "math\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "LaTeX Calculator",
+          "updatedAt" : "2022-02-04T10:14:08+00:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Matt Gleich",
+              "url" : "https:\/\/mattglei.ch"
+            }
+          ],
           "createdAt" : "2021-11-17T11:41:42-05:00",
           "currentDirectoryPath" : null,
           "description" : "Generate a number between a given range (inclusive) and then copy the value",
@@ -19762,24 +19790,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
-    },
-    {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
       "displayName" : "Node",
       "icon" : "icon-nodejs.png",
       "name" : "node"
-    },
-    {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
     },
     {
       "displayName" : "Python",
@@ -19787,14 +19800,29 @@
       "name" : "python"
     },
     {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
+    },
+    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 690,
-  "updatedAt" : "2022-02-01T14:38:40Z"
+  "totalScriptCommands" : 691,
+  "updatedAt" : "2022-02-04T10:14:08Z"
 }

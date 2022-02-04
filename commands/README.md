@@ -911,6 +911,7 @@ This repository contains sample commands and documentation to write your own one
 | :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
   | 📈 | [Calculate Growth %](math/calculate-growth.sh) | Calculate percentage increase between "from" and "to" values. | [Petr Nikolaev](https://github.com/pitnikola) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🔢 | [Generate Random Number](math/random-number.sh) | Generate a number between a given range (inclusive) and then copy the value | [Matt Gleich](https://mattglei.ch) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🧮 | [LaTeX Calculator](math/latex-calculator.py) | Evaluate LaTeX expressions and get the product copied to your clipboard | [Matt Gleich](https://mattglei.ch) | ✅ |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/math/images/wolfram-alpha.png" width="20" height="20"> | [Wolfram Alpha](math/wolfram-alpha.template.sh) | Use Wolfram Alpha to answer your query | [es183923](https://github.com/es183923) | ✅ | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 ## Media
