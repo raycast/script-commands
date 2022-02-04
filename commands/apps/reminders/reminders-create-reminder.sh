@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# For this to work, you must first install the shortcut: https://www.icloud.com/shortcuts/62a0cedf7bce488eb0bde4b8a3a8b0de
+# Dependency: This script requires `Quick reminder for Raycast` installed: 
+https://www.icloud.com/shortcuts/62a0cedf7bce488eb0bde4b8a3a8b0de
 
 # @raycast.title Add Reminder
 # @raycast.author Andrei Nedelcu
