@@ -13,7 +13,7 @@
 # @raycast.mode silent
 # @raycast.packageName Create Reminder
 # @raycast.schemaVersion 1
-# @raycast.argument1 { "type": "text", "placeholder": "what", "percentEncoded": false}
+# @raycast.argument1 { "type": "text", "placeholder": "What", "percentEncoded": false}
 # @raycast.argument2 { "type": "text", "placeholder": "when?", "optional": true, "percentEncoded": false}
 
 if test -z "$2"
