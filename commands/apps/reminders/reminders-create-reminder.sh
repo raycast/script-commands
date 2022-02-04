@@ -9,7 +9,6 @@ https://www.icloud.com/shortcuts/62a0cedf7bce488eb0bde4b8a3a8b0de
 # @raycast.description Add a new reminder.
 #
 # @raycast.icon images/reminders.png
-# @raycast.iconDark images/reminders.png
 #
 # @raycast.mode silent
 # @raycast.packageName Create Reminder
