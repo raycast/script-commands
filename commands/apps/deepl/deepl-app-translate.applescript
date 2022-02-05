@@ -18,7 +18,7 @@
 # @raycast.packageName Apps
 
 # Documentation:
-# @raycast.description Translate text in DeepL for Mac. Optionally copies from the clipboard if no text argument is given.
+# @raycast.description Translate text in DeepL for Mac. Features options to input from the clipboard as well as automatically copy translation results.
 # @raycast.author Jono Hewitt
 # @raycast.authorURL https://github.com/jonohewitt
 
