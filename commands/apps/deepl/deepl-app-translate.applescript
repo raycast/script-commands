@@ -1,7 +1,7 @@
 #!/usr/bin/osascript
 
 # Dependency: This script requires DeepL to be installed: https://deepl.com/app
-# Tested with DeepL for Mac Version 2.7.95892
+# Tested with DeepL for Mac Version 3.1.133440
 
 # Once installed, DeepL will run in the background even if you quit the app from the dock
 # This script will work as long as the DeepL icon is visible in the menu bar in the top right
@@ -18,7 +18,7 @@
 # @raycast.packageName Apps
 
 # Documentation:
-# @raycast.description Translate text in DeepL for Mac. Features options to input from the clipboard as well as automatically copy translation results.
+# @raycast.description Translate text in DeepL for Mac. Optionally copies from the clipboard if no text argument is given.
 # @raycast.author Jono Hewitt
 # @raycast.authorURL https://github.com/jonohewitt
 
@@ -47,7 +47,7 @@ on run translate
 	end if
 	
 	tell application "System Events"
-		set value of text area 1 of group 3 of UI Element 1 of scroll area 1 of group 1 of group 1 of window "DeepL" of process "DeepL" to inputText
+		set value of text area 1 of group 3 of group 1 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of window "DeepL" of process "DeepL" to inputText
 	end tell
 	
 	if copyResultToClipboard is true then
@@ -58,12 +58,8 @@ on run translate
 		tell application "System Events"
 			repeat until translation is not ""
 
-			-- Attempt to handle errors from the output printing to different elements:
-
-				if exists of text area 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of window "DeepL" of process "DeepL"
-					set translation to value of text area 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of window "DeepL" of process "DeepL"
-				else if exists of text area 1 of group 14 of UI Element 1 of scroll area 1 of group 1 of group 1 of window "DeepL" of application process "DeepL"
-					set translation to value of text area 1 of group 14 of UI Element 1 of scroll area 1 of group 1 of group 1 of window "DeepL" of application process "DeepL"
+				if exists of text area 1 of group 6 of group 3 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of window "DeepL" of process "DeepL"
+					set translation to value of text area 1 of group 6 of group 3 of group 1 of UI Element 1 of scroll area 1 of group 1 of group 1 of window "DeepL" of process "DeepL"
 				end if
 
 				if ((current date) > endDate) then
