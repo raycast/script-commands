@@ -20,7 +20,7 @@
 ## * CONFIGURE - REPLACE THESE VALUES * ##
 BASEURL="<-- BASE URL -->" # Base URL for the short url. Remove any trailing slash or http(s)://
 PROTOCOL="https://$BASEURL" # Use http or https
-APIKEY="<-- API KEY -->" # API key for the short url
+APIKEY="<-- API KEY -->" # API key for the short url. See https://shlink.io/documentation/api-docs/authentication/
 TAG="raycast" # Tag for the short url. Set to "" to disable
 ## * END CONFIG * ##
 
