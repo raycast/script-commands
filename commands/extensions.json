@@ -16330,6 +16330,40 @@
           ]
         },
         {
+          "name" : "Reminders",
+          "path" : "reminders",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Andrei Nedelcu",
+                  "url" : "https:\/\/dinosaurgame.net"
+                }
+              ],
+              "createdAt" : "2022-02-07T04:07:49+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Add a new reminder.",
+              "filename" : "reminders-create-reminder.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/reminders.png"
+              },
+              "identifier" : "75a45615fac6beb2797006d141e954b6",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Create Reminder",
+              "path" : "apps\/reminders\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Add Reminder",
+              "updatedAt" : "2022-02-07T02:10:02+00:00"
+            }
+          ]
+        },
+        {
           "name" : "Devutils",
           "path" : "devutils",
           "scriptCommands" : [
@@ -19795,6 +19829,11 @@
       "name" : "node"
     },
     {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
+    },
+    {
       "displayName" : "Python",
       "icon" : "icon-python.png",
       "name" : "python"
@@ -19810,11 +19849,6 @@
       "name" : "bash"
     },
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
@@ -19823,6 +19857,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 691,
-  "updatedAt" : "2022-02-04T10:14:08Z"
+  "totalScriptCommands" : 692,
+  "updatedAt" : "2022-02-07T02:10:02Z"
 }
