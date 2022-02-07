@@ -3229,6 +3229,34 @@
               "url" : "https:\/\/mattglei.ch"
             }
           ],
+          "createdAt" : "2022-02-04T00:21:07-05:00",
+          "currentDirectoryPath" : null,
+          "description" : "Evaluate LaTeX expressions and get the product copied to your clipboard",
+          "filename" : "latex-calculator.py",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🧮"
+          },
+          "identifier" : "99c77768765823d1f57e72e84d005f64",
+          "isTemplate" : false,
+          "language" : "python",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Math",
+          "path" : "math\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "LaTeX Calculator",
+          "updatedAt" : "2022-02-04T10:14:08+00:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Matt Gleich",
+              "url" : "https:\/\/mattglei.ch"
+            }
+          ],
           "createdAt" : "2021-11-17T11:41:42-05:00",
           "currentDirectoryPath" : null,
           "description" : "Generate a number between a given range (inclusive) and then copy the value",
@@ -16302,6 +16330,40 @@
           ]
         },
         {
+          "name" : "Reminders",
+          "path" : "reminders",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Andrei Nedelcu",
+                  "url" : "https:\/\/dinosaurgame.net"
+                }
+              ],
+              "createdAt" : "2022-02-07T04:07:49+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Add a new reminder.",
+              "filename" : "reminders-create-reminder.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/reminders.png"
+              },
+              "identifier" : "75a45615fac6beb2797006d141e954b6",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Create Reminder",
+              "path" : "apps\/reminders\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Add Reminder",
+              "updatedAt" : "2022-02-07T02:10:02+00:00"
+            }
+          ]
+        },
+        {
           "name" : "Devutils",
           "path" : "devutils",
           "scriptCommands" : [
@@ -17963,6 +18025,40 @@
       ]
     },
     {
+      "name" : "Writing",
+      "path" : "writing",
+      "scriptCommands" : [
+        {
+          "authors" : [
+            {
+              "name" : "Benny Wong",
+              "url" : "https:\/\/bwong.net"
+            }
+          ],
+          "createdAt" : "2022-01-29T12:34:13-05:00",
+          "currentDirectoryPath" : null,
+          "description" : "Counts the number of words of the text in the clipboard",
+          "filename" : "word-count.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🤖"
+          },
+          "identifier" : "4757d0ea5b9d6eedf37b64f283531315",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Writing",
+          "path" : "writing\/",
+          "refreshTime" : "15s",
+          "schemaVersion" : 1,
+          "title" : "Word Count",
+          "updatedAt" : "2022-01-29T12:34:13-05:00"
+        }
+      ]
+    },
+    {
       "name" : "Media",
       "path" : "media",
       "scriptCommands" : [
@@ -19604,20 +19700,143 @@
               "updatedAt" : "2022-01-02T10:24:52-08:00"
             }
           ]
+        },
+        {
+          "name" : "Tidal",
+          "path" : "tidal",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Charles Harries",
+                  "url" : "https:\/\/github.com\/charlesharries"
+                }
+              ],
+              "createdAt" : "2022-02-01T13:37:24+00:00",
+              "currentDirectoryPath" : null,
+              "description" : "Play the current track in Tidal.",
+              "filename" : "tidal-play.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/tidal-logo.png"
+              },
+              "identifier" : "370fa0d9f88c538e191fa5c4df615aed",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Tidal Play",
+              "path" : "media\/tidal\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Play",
+              "updatedAt" : "2022-02-01T13:37:24+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Charles Harries",
+                  "url" : "https:\/\/github.com\/charlesharries"
+                }
+              ],
+              "createdAt" : "2022-02-01T13:37:24+00:00",
+              "currentDirectoryPath" : null,
+              "description" : "Skip to the next track in Tidal.",
+              "filename" : "tidal-next-track.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/tidal-logo.png"
+              },
+              "identifier" : "9206bc623c13a1861d1ea4f872c8fbee",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Tidal Next Track",
+              "path" : "media\/tidal\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Next Track",
+              "updatedAt" : "2022-02-01T14:38:40+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Charles Harries",
+                  "url" : "https:\/\/github.com\/charlesharries"
+                }
+              ],
+              "createdAt" : "2022-02-01T13:37:24+00:00",
+              "currentDirectoryPath" : null,
+              "description" : "Pause the current track in Tidal.",
+              "filename" : "tidal-pause.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/tidal-logo.png"
+              },
+              "identifier" : "1e045340ac4a21b2cf81a4bf59b3984e",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Tidal Pause",
+              "path" : "media\/tidal\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Pause",
+              "updatedAt" : "2022-02-01T13:37:24+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Charles Harries",
+                  "url" : "https:\/\/github.com\/charlesharries"
+                }
+              ],
+              "createdAt" : "2022-02-01T13:37:24+00:00",
+              "currentDirectoryPath" : null,
+              "description" : "Skip back to the previous track in Tidal.",
+              "filename" : "tidal-previous-track.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/tidal-logo.png"
+              },
+              "identifier" : "756f25af8641456ee9d6c6b14146f1dd",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Tidal Previous Track",
+              "path" : "media\/tidal\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Previous Track",
+              "updatedAt" : "2022-02-01T14:38:40+00:00"
+            }
+          ]
         }
       ]
     }
   ],
   "languages" : [
     {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
+    },
+    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
     },
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     },
     {
       "displayName" : "Ruby",
@@ -19625,24 +19844,19 @@
       "name" : "ruby"
     },
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
-    },
-    {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
     },
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 685,
-  "updatedAt" : "2022-01-31T15:58:53Z"
+  "totalScriptCommands" : 692,
+  "updatedAt" : "2022-02-07T02:10:02Z"
 }

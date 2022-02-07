@@ -53,6 +53,7 @@ This repository contains sample commands and documentation to write your own one
   - [Plash](#plash)
   - [Playground](#playground)
   - [Pulse Secure](#pulse-secure)
+  - [Reminders](#reminders)
   - [Safari](#safari)
   - [Script Kit](#script-kit)
   - [Session](#session)
@@ -112,6 +113,7 @@ This repository contains sample commands and documentation to write your own one
   - [Endel](#endel)
   - [Sonos](#sonos)
   - [Spotify](#spotify)
+  - [Tidal](#tidal)
 - [Navigation](#navigation)
 - [Password Managers](#password-managers)
   - [Bitwarden](#bitwarden)
@@ -130,6 +132,7 @@ This repository contains sample commands and documentation to write your own one
   - [Vpnutil](#vpnutil)
 - [Web Searches](#web-searches)
   - [WordPress](#wordpress)
+- [Writing](#writing)
 
 ## Apps
 
@@ -393,6 +396,12 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/pulse-secure/images/pulse-secure.png" width="20" height="20"> | [Disconnect / Cancel](apps/pulse-secure/pulse-secure-disconnect.applescript) | Disconnect / cancel the active connection. | [Jakub Lanski](https://github.com/jaklan) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/pulse-secure/images/pulse-secure.png" width="20" height="20"> | [Resume](apps/pulse-secure/pulse-secure-resume.applescript) | Resume the suspended connection. | [Jakub Lanski](https://github.com/jaklan) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/pulse-secure/images/pulse-secure.png" width="20" height="20"> | [Suspend](apps/pulse-secure/pulse-secure-suspend.applescript) | Suspend the active connection. | [Jakub Lanski](https://github.com/jaklan) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+
+#### Reminders
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/reminders/images/reminders.png" width="20" height="20"> | [Add Reminder](apps/reminders/reminders-create-reminder.sh) | Add a new reminder. | [Andrei Nedelcu](https://dinosaurgame.net) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Safari
 
@@ -909,6 +918,7 @@ This repository contains sample commands and documentation to write your own one
 | :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
   | 📈 | [Calculate Growth %](math/calculate-growth.sh) | Calculate percentage increase between "from" and "to" values. | [Petr Nikolaev](https://github.com/pitnikola) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🔢 | [Generate Random Number](math/random-number.sh) | Generate a number between a given range (inclusive) and then copy the value | [Matt Gleich](https://mattglei.ch) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🧮 | [LaTeX Calculator](math/latex-calculator.py) | Evaluate LaTeX expressions and get the product copied to your clipboard | [Matt Gleich](https://mattglei.ch) | ✅ |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/math/images/wolfram-alpha.png" width="20" height="20"> | [Wolfram Alpha](math/wolfram-alpha.template.sh) | Use Wolfram Alpha to answer your query | [es183923](https://github.com/es183923) | ✅ | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 ## Media
@@ -1000,6 +1010,15 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/spotify/images/spotify-logo.png" width="20" height="20"> | [Play Track or Playlist](media/spotify/spotify-play-playlist.template.applescript) | Play playlist or track in Spotify. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  | ✅ | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/spotify/images/spotify-logo.png" width="20" height="20"> | [Previous Track](media/spotify/spotify-previous-track.applescript) | Skips to the previous track in Spotify. | Raycast |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/spotify/images/spotify-logo.png" width="20" height="20"> | [Toggle Play/Pause](media/spotify/spotify-play-pause.applescript) | Toggles play or pause of current track in Spotify. | Raycast |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+
+#### Tidal
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/tidal/images/tidal-logo.png" width="20" height="20"> | [Next Track](media/tidal/tidal-next-track.applescript) | Skip to the next track in Tidal. | [Charles Harries](https://github.com/charlesharries) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/tidal/images/tidal-logo.png" width="20" height="20"> | [Pause](media/tidal/tidal-pause.applescript) | Pause the current track in Tidal. | [Charles Harries](https://github.com/charlesharries) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/tidal/images/tidal-logo.png" width="20" height="20"> | [Play](media/tidal/tidal-play.applescript) | Play the current track in Tidal. | [Charles Harries](https://github.com/charlesharries) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/tidal/images/tidal-logo.png" width="20" height="20"> | [Previous Track](media/tidal/tidal-previous-track.applescript) | Skip back to the previous track in Tidal. | [Charles Harries](https://github.com/charlesharries) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 ## Navigation
 
@@ -1322,6 +1341,12 @@ This repository contains sample commands and documentation to write your own one
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/wordpress/images/wordpress-logo-iconDark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/wordpress/images/wordpress-logo.png" width="20" height="20"></picture> | [WordPress Classes Reference](web-searches/wordpress/wordpress-classes-reference.sh) | Open [WordPress classes reference](https://developer.wordpress.org/reference/classes/) for specified class. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/wordpress/images/wordpress-logo-iconDark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/wordpress/images/wordpress-logo.png" width="20" height="20"></picture> | [WordPress Functions Reference](web-searches/wordpress/wordpress-functions-reference.sh) | Open [WordPress functions reference](https://developer.wordpress.org/reference/functions/) for specified function. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/wordpress/images/wordpress-logo-iconDark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/wordpress/images/wordpress-logo.png" width="20" height="20"></picture> | [WordPress Hooks Reference](web-searches/wordpress/wordpress-hooks-reference.sh) | Open [WordPress hooks reference](https://developer.wordpress.org/reference/hooks/) for specified hook. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+## Writing
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | 🤖 | [Word Count](writing/word-count.sh) | Counts the number of words of the text in the clipboard | [Benny Wong](https://bwong.net) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 ## Community
 
