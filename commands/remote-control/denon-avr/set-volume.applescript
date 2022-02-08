@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Denon AVR - Set Volume
+# @raycast.title Set Volume
 # @raycast.mode compact
 
 # Optional parameters:
