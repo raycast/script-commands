@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Denon AVR - Power On
+# @raycast.title Power On
 # @raycast.mode compact
 
 # Optional parameters:
