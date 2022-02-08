@@ -8,6 +8,7 @@
 # Optional parameters:
 # @raycast.icon ./images/logo.png
 # @raycast.argument1 { "type": "text", "placeholder": "Placeholder" }
+# @raycast.packageName Denon AVR
 
 # Documentation:
 # @raycast.description Sets the Denon AVR to a specific volume level (between 0 and 80)
