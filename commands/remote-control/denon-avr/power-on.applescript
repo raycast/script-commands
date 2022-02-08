@@ -6,7 +6,7 @@
 # @raycast.mode compact
 
 # Optional parameters:
-# @raycast.icon 🟢
+# @raycast.icon ./images/logo.png
 
 # Documentation:
 # @raycast.description Powers on a modern Denon AVR if it is currently powered off
