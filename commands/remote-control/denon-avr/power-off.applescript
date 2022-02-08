@@ -7,6 +7,7 @@
 
 # Optional parameters:
 # @raycast.icon ./images/logo.png
+# @raycast.packageName Denon AVR
 
 # Documentation:
 # @raycast.description Powers off a modern Denon AVR if it is currently powered on
