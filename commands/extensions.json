@@ -961,6 +961,34 @@
         {
           "authors" : [
             {
+              "name" : "Eliot Hertenstein",
+              "url" : "https:\/\/github.com\/eIiot"
+            }
+          ],
+          "createdAt" : "2022-02-06T18:08:25-08:00",
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "shlink-create-short-url.template.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : ".\/images\/shlink.png"
+          },
+          "identifier" : "19917e997ea6a87adb283ca739ec7f4f",
+          "isTemplate" : true,
+          "language" : "bash",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Shlink",
+          "path" : "browsing\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Create Short URL",
+          "updatedAt" : "2022-02-06T18:08:25-08:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Thomas Paul Mann",
               "url" : "https:\/\/github.com\/thomaspaulmann"
             }
@@ -5948,7 +5976,7 @@
               "refreshTime" : "10m",
               "schemaVersion" : 1,
               "title" : "AirPods Battery Level",
-              "updatedAt" : "2021-05-11T13:56:09+02:00"
+              "updatedAt" : "2022-02-07T20:12:21-05:00"
             },
             {
               "authors" : [
@@ -15665,7 +15693,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "DeepL App Translate",
-              "updatedAt" : "2022-01-06T15:57:27+01:00"
+              "updatedAt" : "2022-02-07T03:09:14+01:00"
             }
           ]
         },
@@ -19824,24 +19852,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
-    },
-    {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     },
     {
       "displayName" : "Bash",
@@ -19849,14 +19862,29 @@
       "name" : "bash"
     },
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
+    },
+    {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 692,
-  "updatedAt" : "2022-02-07T02:10:02Z"
+  "totalScriptCommands" : 693,
+  "updatedAt" : "2022-02-08T10:34:33Z"
 }
