@@ -6,7 +6,7 @@
 # @raycast.mode compact
 
 # Optional parameters:
-# @raycast.icon ⬆️
+# @raycast.icon ./images/logo.png
 
 # Documentation:
 # @raycast.description Increases the volume of your Denon AVR by one unit
