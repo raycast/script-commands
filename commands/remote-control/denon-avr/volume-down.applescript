@@ -7,6 +7,7 @@
 
 # Optional parameters:
 # @raycast.icon ./images/logo.png
+# @raycast.packageName Denon AVR
 
 # Documentation:
 # @raycast.description Decreases the volume of your Denon AVR by one unit
