@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Denon AVR - Volume Up
+# @raycast.title Volume Up
 # @raycast.mode compact
 
 # Optional parameters:
