@@ -6,7 +6,7 @@
 # @raycast.mode compact
 
 # Optional parameters:
-# @raycast.icon 🛠
+# @raycast.icon ./images/logo.png
 # @raycast.argument1 { "type": "text", "placeholder": "Denon AVR IP" }
 # @raycast.argument2 { "type": "text", "placeholder": "Method (Classic or Modern)" }
 # @raycast.packageName Denon AVR
