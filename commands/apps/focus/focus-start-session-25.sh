@@ -14,7 +14,7 @@
 
 # Documentation:
 # @raycast.author Ernest Ojeh
-# @raycast.authorURL https:/github.com/namzo
+# @raycast.authorURL https://github.com/namzo
 # @raycast.description Start a 25 minutes focus session.
 
 open "focus://focus?minutes=25"
