@@ -14,7 +14,7 @@
 
 # Documentation:
 # @raycast.author Ernest Ojeh
-# @raycast.authorURL https:/github.com/namzo
+# @raycast.authorURL https://github.com/namzo
 # @raycast.description Start a custom break. If you don't enter any values, it uses the last break duration.
 
 # @raycast.argument1 { "type": "text", "placeholder": "Minutes", "optional": true, "percentEncoded": true }

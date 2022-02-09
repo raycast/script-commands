@@ -14,7 +14,7 @@
 
 # Documentation:
 # @raycast.author Ernest Ojeh
-# @raycast.authorURL https:/github.com/namzo
+# @raycast.authorURL https://github.com/namzo
 # @raycast.description Start a custom focus session. If you don't enter any values, it starts an untimed focus session.
 
 # @raycast.argument1 { "type": "text", "placeholder": "Hours", "optional": true, "percentEncoded": true }
