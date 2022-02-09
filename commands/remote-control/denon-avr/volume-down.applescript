@@ -6,7 +6,7 @@
 # @raycast.mode compact
 
 # Optional parameters:
-# @raycast.icon ./images/logo.png
+# @raycast.icon images/denon_logo.png
 # @raycast.packageName Denon AVR
 
 # Documentation:

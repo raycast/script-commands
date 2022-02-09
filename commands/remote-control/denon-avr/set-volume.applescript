@@ -6,7 +6,7 @@
 # @raycast.mode compact
 
 # Optional parameters:
-# @raycast.icon ./images/logo.png
+# @raycast.icon images/denon_logo.png
 # @raycast.argument1 { "type": "text", "placeholder": "Placeholder" }
 # @raycast.packageName Denon AVR
 
@@ -16,7 +16,7 @@
 # @raycast.authorURL github.com/Rediwed
 
 on run argv
-	if 0 â‰¤ (item 1 of argv) and (item 1 of argv) â‰¤ 80 then
+	if 0 ² (item 1 of argv) and (item 1 of argv) ² 80 then
 		set ip_address to (do shell script "defaults read com.Rediwed.DenonAVR ip_address")
 		if (do shell script "defaults read com.Rediwed.DenonAVR method") = "modern" then
 			runModern(ip_address, item 1 of argv)
