@@ -124,6 +124,7 @@ This repository contains sample commands and documentation to write your own one
   - [stopwatch](#stopwatch)
   - [tesseract](#tesseract)
 - [Remote Control](#remote-control)
+  - [Denon AVR](#denon-avr)
   - [LG TV](#lg-tv)
   - [Samsung TV](#samsung-tv)
 - [System](#system)
@@ -277,15 +278,15 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
-  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/focus/images/focus-logo.png" width="20" height="20"> | [Open Focus Preferences](apps/focus/focus-preferences.sh) | Open focus preferences. | [Ernest Ojeh](https:/github.com/namzo) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
-  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/focus/images/focus-logo.png" width="20" height="20"> | [Start 25 minutes Focus Session](apps/focus/focus-start-session-25.sh) | Start a 25 minutes focus session. | [Ernest Ojeh](https:/github.com/namzo) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
-  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/focus/images/focus-logo.png" width="20" height="20"> | [Start Custom Break](apps/focus/focus-start-custom-break.sh) | Start a custom break. If you don't enter any values, it uses the last break duration. | [Ernest Ojeh](https:/github.com/namzo) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
-  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/focus/images/focus-logo.png" width="20" height="20"> | [Start Custom Focus Session](apps/focus/focus-start-custom-session.sh) | Start a custom focus session. If you don't enter any values, it starts an untimed focus session. | [Ernest Ojeh](https:/github.com/namzo) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
-  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/focus/images/focus-logo.png" width="20" height="20"> | [Start Focus Session (Focus)](apps/focus/focus-start-session.sh) | Start an untimed focus session. | [Ernest Ojeh](https:/github.com/namzo) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
-  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/focus/images/focus-logo.png" width="20" height="20"> | [Stop Break (Unbreak)](apps/focus/focus-stop-break.sh) | Stop break and continues the current focus session. | [Ernest Ojeh](https:/github.com/namzo) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
-  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/focus/images/focus-logo.png" width="20" height="20"> | [Stop Focus Session (Unfocus)](apps/focus/focus-stop-session.sh) | Stop the current focus session. | [Ernest Ojeh](https:/github.com/namzo) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
-  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/focus/images/focus-logo.png" width="20" height="20"> | [Take 5 Minutes Break](apps/focus/focus-start-break-5.sh) | Take 5 minutes break. | [Ernest Ojeh](https:/github.com/namzo) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
-  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/focus/images/focus-logo.png" width="20" height="20"> | [Toggle Focus Session](apps/focus/focus-toggle-focus.sh) | Toggle between start session (untimed) and stop session. | [Ernest Ojeh](https:/github.com/namzo) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/focus/images/focus-logo.png" width="20" height="20"> | [Open Focus Preferences](apps/focus/focus-preferences.sh) | Open focus preferences. | [Ernest Ojeh](https://github.com/namzo) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/focus/images/focus-logo.png" width="20" height="20"> | [Start 25 minutes Focus Session](apps/focus/focus-start-session-25.sh) | Start a 25 minutes focus session. | [Ernest Ojeh](https://github.com/namzo) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/focus/images/focus-logo.png" width="20" height="20"> | [Start Custom Break](apps/focus/focus-start-custom-break.sh) | Start a custom break. If you don't enter any values, it uses the last break duration. | [Ernest Ojeh](https://github.com/namzo) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/focus/images/focus-logo.png" width="20" height="20"> | [Start Custom Focus Session](apps/focus/focus-start-custom-session.sh) | Start a custom focus session. If you don't enter any values, it starts an untimed focus session. | [Ernest Ojeh](https://github.com/namzo) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/focus/images/focus-logo.png" width="20" height="20"> | [Start Focus Session (Focus)](apps/focus/focus-start-session.sh) | Start an untimed focus session. | [Ernest Ojeh](https://github.com/namzo) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/focus/images/focus-logo.png" width="20" height="20"> | [Stop Break (Unbreak)](apps/focus/focus-stop-break.sh) | Stop break and continues the current focus session. | [Ernest Ojeh](https://github.com/namzo) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/focus/images/focus-logo.png" width="20" height="20"> | [Stop Focus Session (Unfocus)](apps/focus/focus-stop-session.sh) | Stop the current focus session. | [Ernest Ojeh](https://github.com/namzo) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/focus/images/focus-logo.png" width="20" height="20"> | [Take 5 Minutes Break](apps/focus/focus-start-break-5.sh) | Take 5 minutes break. | [Ernest Ojeh](https://github.com/namzo) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/focus/images/focus-logo.png" width="20" height="20"> | [Toggle Focus Session](apps/focus/focus-toggle-focus.sh) | Toggle between start session (untimed) and stop session. | [Ernest Ojeh](https://github.com/namzo) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### HazeOver
 
@@ -1105,6 +1106,16 @@ This repository contains sample commands and documentation to write your own one
   | 🔍 | [OCR Screenshot](productivity/tesseract/tesseract-ocr.sh) | Tesseract OCR | [Diego Lopes](https://github.com/Dihgg) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 ## Remote Control
+
+#### Denon AVR
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/remote-control/denon-avr/images/denon_logo.png" width="20" height="20"> | [Configure](remote-control/denon-avr/configure.applescript) | Helperscript to configure Denon AVR Script Commands | [Rediwed](github.com/Rediwed) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/remote-control/denon-avr/images/denon_logo.png" width="20" height="20"> | [Power Off](remote-control/denon-avr/power-off.applescript) | Powers off a modern Denon AVR if it is currently powered on | [Rediwed](github.com/Rediwed) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/remote-control/denon-avr/images/denon_logo.png" width="20" height="20"> | [Power On](remote-control/denon-avr/power-on.applescript) | Powers on a modern Denon AVR if it is currently powered off | [Rediwed](github.com/Rediwed) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/remote-control/denon-avr/images/denon_logo.png" width="20" height="20"> | [Volume Down](remote-control/denon-avr/volume-down.applescript) | Decreases the volume of your Denon AVR by one unit | [Rediwed](github.com/Rediwed) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/remote-control/denon-avr/images/denon_logo.png" width="20" height="20"> | [Volume Up](remote-control/denon-avr/volume-up.applescript) | Increases the volume of your Denon AVR by one unit | [Rediwed](github.com/Rediwed) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 #### LG TV
 
