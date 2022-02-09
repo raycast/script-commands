@@ -14,7 +14,7 @@
 
 # Documentation:
 # @raycast.author Ernest Ojeh
-# @raycast.authorURL https:/github.com/namzo
+# @raycast.authorURL https://github.com/namzo
 # @raycast.description Stop break and continues the current focus session.
 
 open "focus://unbreak"

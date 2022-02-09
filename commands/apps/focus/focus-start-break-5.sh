@@ -14,7 +14,7 @@
 
 # Documentation:
 # @raycast.author Ernest Ojeh
-# @raycast.authorURL https:/github.com/namzo
+# @raycast.authorURL https://github.com/namzo
 # @raycast.description Take 5 minutes break.
 
 open "focus://break?minutes=5"
