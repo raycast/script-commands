@@ -1775,6 +1775,152 @@
       ],
       "subGroups" : [
         {
+          "name" : "Denon AVR",
+          "path" : "denon-avr",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Rediwed",
+                  "url" : "github.com\/Rediwed"
+                }
+              ],
+              "createdAt" : "2022-02-09T11:13:32+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Powers off a modern Denon AVR if it is currently powered on",
+              "filename" : "power-off.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/denon_logo.png"
+              },
+              "identifier" : "fab79cda1a0e2629cbda49e0f90547c4",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Denon AVR",
+              "path" : "remote-control\/denon-avr\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Power Off",
+              "updatedAt" : "2022-02-09T10:16:51+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Rediwed",
+                  "url" : "github.com\/Rediwed"
+                }
+              ],
+              "createdAt" : "2022-02-09T11:13:32+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Helperscript to configure Denon AVR Script Commands",
+              "filename" : "configure.applescript",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/denon_logo.png"
+              },
+              "identifier" : "81f31547ecb4c9fa94c1f3ff80a16dae",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Denon AVR",
+              "path" : "remote-control\/denon-avr\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Configure",
+              "updatedAt" : "2022-02-09T10:16:51+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Rediwed",
+                  "url" : "github.com\/Rediwed"
+                }
+              ],
+              "createdAt" : "2022-02-09T11:13:32+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Increases the volume of your Denon AVR by one unit",
+              "filename" : "volume-up.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/denon_logo.png"
+              },
+              "identifier" : "5faba9ab561f16071df3aae37783ec75",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Denon AVR",
+              "path" : "remote-control\/denon-avr\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Volume Up",
+              "updatedAt" : "2022-02-09T10:16:51+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Rediwed",
+                  "url" : "github.com\/Rediwed"
+                }
+              ],
+              "createdAt" : "2022-02-09T11:13:32+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Decreases the volume of your Denon AVR by one unit",
+              "filename" : "volume-down.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/denon_logo.png"
+              },
+              "identifier" : "9d67ff8a8aa5d86f53abf5a999eecd4d",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Denon AVR",
+              "path" : "remote-control\/denon-avr\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Volume Down",
+              "updatedAt" : "2022-02-09T10:16:51+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Rediwed",
+                  "url" : "github.com\/Rediwed"
+                }
+              ],
+              "createdAt" : "2022-02-09T11:13:32+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Powers on a modern Denon AVR if it is currently powered off",
+              "filename" : "power-on.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/denon_logo.png"
+              },
+              "identifier" : "61d307f4135abdf1944ff25f7ab77c84",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Denon AVR",
+              "path" : "remote-control\/denon-avr\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Power On",
+              "updatedAt" : "2022-02-09T10:16:51+00:00"
+            }
+          ]
+        },
+        {
           "name" : "Samsung TV",
           "path" : "samsung-tv",
           "readme" : "remote-control\/samsung-tv\/README.md",
@@ -13819,7 +13965,7 @@
               "authors" : [
                 {
                   "name" : "Ernest Ojeh",
-                  "url" : "https:\/github.com\/namzo"
+                  "url" : "https:\/\/github.com\/namzo"
                 }
               ],
               "createdAt" : "2022-01-28T20:18:00+01:00",
@@ -13841,13 +13987,13 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Start Custom Focus Session",
-              "updatedAt" : "2022-01-28T20:18:00+01:00"
+              "updatedAt" : "2022-02-09T09:15:31+01:00"
             },
             {
               "authors" : [
                 {
                   "name" : "Ernest Ojeh",
-                  "url" : "https:\/github.com\/namzo"
+                  "url" : "https:\/\/github.com\/namzo"
                 }
               ],
               "createdAt" : "2022-01-28T20:18:00+01:00",
@@ -13869,13 +14015,13 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Open Focus Preferences",
-              "updatedAt" : "2022-01-28T20:18:00+01:00"
+              "updatedAt" : "2022-02-09T09:15:31+01:00"
             },
             {
               "authors" : [
                 {
                   "name" : "Ernest Ojeh",
-                  "url" : "https:\/github.com\/namzo"
+                  "url" : "https:\/\/github.com\/namzo"
                 }
               ],
               "createdAt" : "2022-01-28T20:18:00+01:00",
@@ -13897,13 +14043,13 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Stop Focus Session (Unfocus)",
-              "updatedAt" : "2022-01-28T20:18:00+01:00"
+              "updatedAt" : "2022-02-09T09:15:31+01:00"
             },
             {
               "authors" : [
                 {
                   "name" : "Ernest Ojeh",
-                  "url" : "https:\/github.com\/namzo"
+                  "url" : "https:\/\/github.com\/namzo"
                 }
               ],
               "createdAt" : "2022-01-28T20:18:00+01:00",
@@ -13925,13 +14071,13 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Take 5 Minutes Break",
-              "updatedAt" : "2022-01-28T20:18:00+01:00"
+              "updatedAt" : "2022-02-09T09:15:31+01:00"
             },
             {
               "authors" : [
                 {
                   "name" : "Ernest Ojeh",
-                  "url" : "https:\/github.com\/namzo"
+                  "url" : "https:\/\/github.com\/namzo"
                 }
               ],
               "createdAt" : "2022-01-28T20:18:00+01:00",
@@ -13953,13 +14099,13 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Toggle Focus Session",
-              "updatedAt" : "2022-01-28T20:18:00+01:00"
+              "updatedAt" : "2022-02-09T09:15:31+01:00"
             },
             {
               "authors" : [
                 {
                   "name" : "Ernest Ojeh",
-                  "url" : "https:\/github.com\/namzo"
+                  "url" : "https:\/\/github.com\/namzo"
                 }
               ],
               "createdAt" : "2022-01-28T20:18:00+01:00",
@@ -13981,13 +14127,13 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Start Focus Session (Focus)",
-              "updatedAt" : "2022-01-28T20:18:00+01:00"
+              "updatedAt" : "2022-02-09T09:15:31+01:00"
             },
             {
               "authors" : [
                 {
                   "name" : "Ernest Ojeh",
-                  "url" : "https:\/github.com\/namzo"
+                  "url" : "https:\/\/github.com\/namzo"
                 }
               ],
               "createdAt" : "2022-01-28T20:18:00+01:00",
@@ -14009,13 +14155,13 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Stop Break (Unbreak)",
-              "updatedAt" : "2022-01-28T20:18:00+01:00"
+              "updatedAt" : "2022-02-09T09:15:31+01:00"
             },
             {
               "authors" : [
                 {
                   "name" : "Ernest Ojeh",
-                  "url" : "https:\/github.com\/namzo"
+                  "url" : "https:\/\/github.com\/namzo"
                 }
               ],
               "createdAt" : "2022-01-28T20:18:00+01:00",
@@ -14037,13 +14183,13 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Start Custom Break",
-              "updatedAt" : "2022-01-28T20:18:00+01:00"
+              "updatedAt" : "2022-02-09T09:15:31+01:00"
             },
             {
               "authors" : [
                 {
                   "name" : "Ernest Ojeh",
-                  "url" : "https:\/github.com\/namzo"
+                  "url" : "https:\/\/github.com\/namzo"
                 }
               ],
               "createdAt" : "2022-01-28T20:18:00+01:00",
@@ -14065,7 +14211,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Start 25 minutes Focus Session",
-              "updatedAt" : "2022-01-28T20:18:00+01:00"
+              "updatedAt" : "2022-02-09T09:15:31+01:00"
             }
           ]
         },
@@ -19852,19 +19998,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
-    },
-    {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
-    },
-    {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     },
     {
       "displayName" : "Node",
@@ -19872,19 +20008,29 @@
       "name" : "node"
     },
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     },
     {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
+    },
+    {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 693,
-  "updatedAt" : "2022-02-08T10:34:33Z"
+  "totalScriptCommands" : 698,
+  "updatedAt" : "2022-02-09T10:16:51Z"
 }
