@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Generate unique address
+# @raycast.title Generate Unique Address
 # @raycast.mode compact
 
 # Optional parameters:
