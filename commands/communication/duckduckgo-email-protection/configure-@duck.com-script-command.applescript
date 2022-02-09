@@ -6,7 +6,7 @@
 # @raycast.mode compact
 
 # Optional parameters:
-# @raycast.icon ./images/logo.png
+# @raycast.icon images/duckduckgo_logo.png
 # @raycast.argument1 { "type": "text", "placeholder": "@duck.com authorizationID" }
 # @raycast.packageName DuckDuckGo Email Protection
 
