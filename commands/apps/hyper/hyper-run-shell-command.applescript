@@ -16,7 +16,7 @@
 # @raycast.icon images/hyper.png
 # @raycast.currentDirectoryPath ~
 # @raycast.needsConfirmation false
-# @raycast.argument1 { "type": "text", "placeholder": "command" }
+# @raycast.argument1 { "type": "text", "placeholder": "Command" }
 
 # Documentation:
 # @raycast.description Run a terminal using Hyper. Adapted from https://github.com/gjuchault/hyperalfred
