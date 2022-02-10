@@ -9932,6 +9932,69 @@
           ]
         },
         {
+          "name" : "DuckDuckGo Email Protection",
+          "path" : "duckduckgo-email-protection",
+          "readme" : "communication\/duckduckgo-email-protection\/README.md",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Rediwed",
+                  "url" : "github.com\/Rediwed"
+                }
+              ],
+              "createdAt" : "2022-02-10T09:48:48+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Use this script command to configure your @duck.com authorizationID",
+              "filename" : "configure-@duck.com-script-command.applescript",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/duckduckgo_logo.png"
+              },
+              "identifier" : "f21768def3b65261d459100b8eac5e8c",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "DuckDuckGo Email Protection",
+              "path" : "communication\/duckduckgo-email-protection\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Configure",
+              "updatedAt" : "2022-02-10T09:48:48+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Rediwed",
+                  "url" : "github.com\/Rediwed"
+                }
+              ],
+              "createdAt" : "2022-02-10T09:48:48+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "This script command generates a unique private @duck.com email address.",
+              "filename" : "generate-unique-email-address.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/duckduckgo_logo.png"
+              },
+              "identifier" : "6c12d494954c21d0580e847a688d9eb3",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "DuckDuckGo Email Protection",
+              "path" : "communication\/duckduckgo-email-protection\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Generate Unique Address",
+              "updatedAt" : "2022-02-10T09:48:48+01:00"
+            }
+          ]
+        },
+        {
           "name" : "Messenger",
           "path" : "messenger",
           "scriptCommands" : [
@@ -20003,6 +20066,16 @@
       "name" : "python"
     },
     {
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
+    },
+    {
       "displayName" : "Node",
       "icon" : "icon-nodejs.png",
       "name" : "node"
@@ -20013,24 +20086,14 @@
       "name" : "swift"
     },
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
       "displayName" : "Ruby",
       "icon" : "icon-ruby.png",
       "name" : "ruby"
-    },
-    {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 698,
-  "updatedAt" : "2022-02-09T10:16:51Z"
+  "totalScriptCommands" : 700,
+  "updatedAt" : "2022-02-10T08:51:05Z"
 }

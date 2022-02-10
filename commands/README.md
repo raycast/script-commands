@@ -77,6 +77,7 @@ This repository contains sample commands and documentation to write your own one
 - [Browsing](#browsing)
 - [Communication](#communication)
   - [Cloudup](#cloudup)
+  - [DuckDuckGo Email Protection](#duckduckgo-email-protection)
   - [Emojis](#emojis)
   - [Gmail](#gmail)
   - [Google Meet](#google-meet)
@@ -597,6 +598,13 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/cloudup/images/cloudup-logo.png" width="20" height="20"> | [Paste](communication/cloudup/cloudup-paste.sh) | Upload clipboard contents to [Cloudup](https://cloudup.com/). | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/cloudup/images/cloudup-logo.png" width="20" height="20"> | [Pick](communication/cloudup/cloudup-pick.sh) | Open file dialog and upload to [Cloudup](https://cloudup.com/). | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/cloudup/images/cloudup-logo.png" width="20" height="20"> | [Upload](communication/cloudup/cloudup-upload.sh) | Upload path or URL in clipboard to [Cloudup](https://cloudup.com/). | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+
+#### DuckDuckGo Email Protection
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/duckduckgo-email-protection/images/duckduckgo_logo.png" width="20" height="20"> | [Configure](communication/duckduckgo-email-protection/configure-@duck.com-script-command.applescript) | Use this script command to configure your @duck.com authorizationID | [Rediwed](github.com/Rediwed) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/duckduckgo-email-protection/images/duckduckgo_logo.png" width="20" height="20"> | [Generate Unique Address](communication/duckduckgo-email-protection/generate-unique-email-address.applescript) | This script command generates a unique private @duck.com email address. | [Rediwed](github.com/Rediwed) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 #### Emojis
 
