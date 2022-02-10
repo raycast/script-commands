@@ -29,7 +29,7 @@ Completing the following commands should allow you to generate new unique @duck.
 8. Copy the string of randomized characters AFTER "Bearer "
 9. Open Raycast and paste the string in the Configure script command. You will receive a confirmation should the string be correct.
 
-![Locate authorization](locate-authorization-id.png)
+![Locate authorization](images/locate-authorization-id.png)
 
 # Cleanup
 After configuring the script command, it is wise to disable the configuration command from Raycast settings.
