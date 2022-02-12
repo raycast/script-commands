@@ -17,6 +17,7 @@
 # @raycast.description Change to clipboard text to snake case
 
 import subprocess
+import re
 
 def getClipboardData():
     p = subprocess.Popen(["pbpaste"], stdout=subprocess.PIPE)
@@ -30,6 +31,7 @@ def setClipboardData(data):
     p.stdin.close()
 
 clipboard = str(getClipboardData())
-result = clipboard.lower().replace(" ", "_").replace("-", "_")
+result = re.sub(r"([a-z])([A-Z])", r"\1_\2", clipboard)
+result = result.lower().replace(" ", "_").replace("-", "_")
 setClipboardData(result)
 print(result)
