@@ -14,8 +14,6 @@
 
 # Optional parameters:
 # @raycast.icon images/hyper.png
-# @raycast.currentDirectoryPath ~
-# @raycast.needsConfirmation false
 # @raycast.argument1 { "type": "text", "placeholder": "Command" }
 
 # Documentation:
