@@ -17,7 +17,7 @@
 # @raycast.argument1 { "type": "text", "placeholder": "Command" }
 
 # Documentation:
-# @raycast.description Run a terminal using Hyper. Adapted from https://github.com/gjuchault/hyperalfred
+# @raycast.description Run a terminal using Hyper
 # @raycast.author Eliot Hertenstein
 # @raycast.authorURL https://github.com/eIiot
 
