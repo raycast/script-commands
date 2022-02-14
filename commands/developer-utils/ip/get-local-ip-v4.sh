@@ -14,5 +14,5 @@
 
 ip=$(ifconfig | grep 'inet.*broadcast' | awk '{print $2}')
 IFS=' ' read -ra array <<< "$ip"
-echo ${array[0]} | pbcopy
+echo ${array[0]} | tr -d '\n' | pbcopy
 echo "Copied $ip"
