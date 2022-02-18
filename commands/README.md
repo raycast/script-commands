@@ -40,6 +40,7 @@ This repository contains sample commands and documentation to write your own one
   - [Ferdi](#ferdi)
   - [Focus](#focus)
   - [HazeOver](#hazeover)
+  - [Hyper](#hyper)
   - [Lungo](#lungo)
   - [Mail](#mail)
   - [MeetingBar](#meetingbar)
@@ -295,6 +296,12 @@ This repository contains sample commands and documentation to write your own one
 | :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/hazeover/images/hazeover.png" width="20" height="20"> | [Set Intensity](apps/hazeover/hazeover-set-intensity.applescript) | Set dimming intensity of background windows. | [Thomas Paul Mann](https://github.com/thomaspaulmann) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/hazeover/images/hazeover.png" width="20" height="20"> | [Toggle Dimming](apps/hazeover/hazeover-toggle-dimming.applescript) | Toggle dimming of all background windows. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+
+#### Hyper
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/hyper/images/hyper.png" width="20" height="20"> | [Run Shell Command](apps/hyper/hyper-run-shell-command.applescript) | Run a terminal using Hyper | [Eliot Hertenstein](https://github.com/eIiot) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 #### Lungo
 

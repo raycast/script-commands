@@ -836,7 +836,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Snake Case",
-              "updatedAt" : "2021-03-24T04:47:26-04:00"
+              "updatedAt" : "2022-02-12T11:09:30+01:00"
             },
             {
               "authors" : [
@@ -16567,6 +16567,40 @@
           ]
         },
         {
+          "name" : "Hyper",
+          "path" : "hyper",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Eliot Hertenstein",
+                  "url" : "https:\/\/github.com\/eIiot"
+                }
+              ],
+              "createdAt" : "2022-02-18T02:19:33-08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Run a terminal using Hyper",
+              "filename" : "hyper-run-shell-command.applescript",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/hyper.png"
+              },
+              "identifier" : "49608e0b2c2375fec1a6f173155333af",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Hyper",
+              "path" : "apps\/hyper\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Run Shell Command",
+              "updatedAt" : "2022-02-18T02:19:33-08:00"
+            }
+          ]
+        },
+        {
           "name" : "Reminders",
           "path" : "reminders",
           "scriptCommands" : [
@@ -20066,14 +20100,14 @@
       "name" : "python"
     },
     {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
+    },
+    {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
-    },
-    {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
     },
     {
       "displayName" : "Node",
@@ -20081,19 +20115,19 @@
       "name" : "node"
     },
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
-    },
-    {
       "displayName" : "Ruby",
       "icon" : "icon-ruby.png",
       "name" : "ruby"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 700,
-  "updatedAt" : "2022-02-10T08:51:05Z"
+  "totalScriptCommands" : 701,
+  "updatedAt" : "2022-02-18T10:22:30Z"
 }
