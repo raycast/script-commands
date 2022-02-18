@@ -42,7 +42,7 @@ on write_to_file(this_data, target_file, append_data)
     return true
   on error e
     try
-      log "~/.hyper_plugins/hyperalfred.txt does not exist. Are you sure you installed hyperalfred? (https://github.com/gjuchault/hyperalfred)"
+      log "hyperalfred is required (https://github.com/gjuchault/hyperalfred)."
       close access target_file
     end try
     return false
