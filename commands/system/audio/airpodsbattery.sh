@@ -16,7 +16,7 @@
 # @raycast.authorURL https://www.github.com/qeude
 
 # This should be changed every time new AirPods models are released.
-airpods_product_ids=("0x200E" "0x200F" "0x2002")
+airpods_product_ids=("0x200E" "0x200F" "0x2002" "0x2013")
 airpods_max_product_ids=("0x200A")
 delimiter="    🎧    "
 
