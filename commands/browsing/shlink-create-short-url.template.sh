@@ -15,6 +15,7 @@
 
 # Documentation:
 # @raycast.author Eliot Hertenstein
+# @raycast.description Create a short URL using Shlink
 # @raycast.authorURL https://github.com/eIiot
 
 ## * CONFIGURE - REPLACE THESE VALUES * ##
