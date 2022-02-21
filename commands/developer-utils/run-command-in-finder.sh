@@ -16,7 +16,13 @@
 # @raycast.description Runs the specified command in the path of the frontmost Finder window.
 
 dir=$(osascript <<'EOF'
-    tell application "Finder" to get the POSIX path of (target of front window as alias)
+    tell application "Finder"
+        if exists Finder window 1 then
+            get the POSIX path of (target of Finder window 1 as alias)
+        else
+            get the POSIX path of (desktop as alias)
+        end if
+    end tell
 EOF
 )
 ( cd "$dir" && $@ )

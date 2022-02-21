@@ -26,8 +26,20 @@ end if
 
 do shell script "defaults write com.apple.finder CreateDesktop -bool " & NewSet
 
-tell application "Finder"
-  quit
+tell application "Finder" to quit
+
+set inTime to current date
+repeat
+    -- check Finder process not exist
+    tell application "System Events"
+        if "Finder" is not in (get name of processes) then exit repeat
+    end tell
+    -- if repeat run for 10s, exit repeat
+    if (current date) - inTime is greater than 10 then exit repeat
+    delay 0.2
+end repeat
+
+tell application "Finder" 
   try
     activate
   end try

@@ -836,7 +836,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Snake Case",
-              "updatedAt" : "2021-03-24T04:47:26-04:00"
+              "updatedAt" : "2022-02-12T11:09:30+01:00"
             },
             {
               "authors" : [
@@ -957,6 +957,34 @@
           "schemaVersion" : 1,
           "title" : "Shorten URL with Bitly",
           "updatedAt" : "2021-02-12T11:49:03+01:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Eliot Hertenstein",
+              "url" : "https:\/\/github.com\/eIiot"
+            }
+          ],
+          "createdAt" : "2022-02-06T18:08:25-08:00",
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "shlink-create-short-url.template.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : ".\/images\/shlink.png"
+          },
+          "identifier" : "19917e997ea6a87adb283ca739ec7f4f",
+          "isTemplate" : true,
+          "language" : "bash",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Shlink",
+          "path" : "browsing\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Create Short URL",
+          "updatedAt" : "2022-02-06T18:08:25-08:00"
         },
         {
           "authors" : [
@@ -1746,6 +1774,152 @@
 
       ],
       "subGroups" : [
+        {
+          "name" : "Denon AVR",
+          "path" : "denon-avr",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Rediwed",
+                  "url" : "github.com\/Rediwed"
+                }
+              ],
+              "createdAt" : "2022-02-09T11:13:32+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Powers off a modern Denon AVR if it is currently powered on",
+              "filename" : "power-off.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/denon_logo.png"
+              },
+              "identifier" : "fab79cda1a0e2629cbda49e0f90547c4",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Denon AVR",
+              "path" : "remote-control\/denon-avr\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Power Off",
+              "updatedAt" : "2022-02-09T10:16:51+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Rediwed",
+                  "url" : "github.com\/Rediwed"
+                }
+              ],
+              "createdAt" : "2022-02-09T11:13:32+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Helperscript to configure Denon AVR Script Commands",
+              "filename" : "configure.applescript",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/denon_logo.png"
+              },
+              "identifier" : "81f31547ecb4c9fa94c1f3ff80a16dae",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Denon AVR",
+              "path" : "remote-control\/denon-avr\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Configure",
+              "updatedAt" : "2022-02-09T10:16:51+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Rediwed",
+                  "url" : "github.com\/Rediwed"
+                }
+              ],
+              "createdAt" : "2022-02-09T11:13:32+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Increases the volume of your Denon AVR by one unit",
+              "filename" : "volume-up.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/denon_logo.png"
+              },
+              "identifier" : "5faba9ab561f16071df3aae37783ec75",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Denon AVR",
+              "path" : "remote-control\/denon-avr\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Volume Up",
+              "updatedAt" : "2022-02-09T10:16:51+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Rediwed",
+                  "url" : "github.com\/Rediwed"
+                }
+              ],
+              "createdAt" : "2022-02-09T11:13:32+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Decreases the volume of your Denon AVR by one unit",
+              "filename" : "volume-down.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/denon_logo.png"
+              },
+              "identifier" : "9d67ff8a8aa5d86f53abf5a999eecd4d",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Denon AVR",
+              "path" : "remote-control\/denon-avr\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Volume Down",
+              "updatedAt" : "2022-02-09T10:16:51+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Rediwed",
+                  "url" : "github.com\/Rediwed"
+                }
+              ],
+              "createdAt" : "2022-02-09T11:13:32+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Powers on a modern Denon AVR if it is currently powered off",
+              "filename" : "power-on.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/denon_logo.png"
+              },
+              "identifier" : "61d307f4135abdf1944ff25f7ab77c84",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Denon AVR",
+              "path" : "remote-control\/denon-avr\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Power On",
+              "updatedAt" : "2022-02-09T10:16:51+00:00"
+            }
+          ]
+        },
         {
           "name" : "Samsung TV",
           "path" : "samsung-tv",
@@ -3229,6 +3403,34 @@
               "url" : "https:\/\/mattglei.ch"
             }
           ],
+          "createdAt" : "2022-02-04T00:21:07-05:00",
+          "currentDirectoryPath" : null,
+          "description" : "Evaluate LaTeX expressions and get the product copied to your clipboard",
+          "filename" : "latex-calculator.py",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🧮"
+          },
+          "identifier" : "99c77768765823d1f57e72e84d005f64",
+          "isTemplate" : false,
+          "language" : "python",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Math",
+          "path" : "math\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "LaTeX Calculator",
+          "updatedAt" : "2022-02-04T10:14:08+00:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Matt Gleich",
+              "url" : "https:\/\/mattglei.ch"
+            }
+          ],
           "createdAt" : "2021-11-17T11:41:42-05:00",
           "currentDirectoryPath" : null,
           "description" : "Generate a number between a given range (inclusive) and then copy the value",
@@ -4026,6 +4228,34 @@
           "schemaVersion" : 1,
           "title" : "Switch Default Browser to Chrome",
           "updatedAt" : "2021-01-13T00:41:47+01:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Alexander Steffen",
+              "url" : "https:\/\/github.com\/alexjsteffen"
+            }
+          ],
+          "createdAt" : "2022-02-20T17:12:23-08:00",
+          "currentDirectoryPath" : null,
+          "description" : "Close all open Finder windows. ",
+          "filename" : "close-finder-windows.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔪"
+          },
+          "identifier" : "9ea2842daeb65fb34b307cce6ed0bb58",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Close All Finder Windows",
+          "updatedAt" : "2022-02-20T17:12:23-08:00"
         },
         {
           "authors" : [
@@ -5344,7 +5574,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Toggle Desktop Icons",
-          "updatedAt" : "2020-11-23T12:53:48-05:00"
+          "updatedAt" : "2022-01-15T18:22:57+08:00"
         },
         {
           "authors" : [
@@ -5920,7 +6150,7 @@
               "refreshTime" : "10m",
               "schemaVersion" : 1,
               "title" : "AirPods Battery Level",
-              "updatedAt" : "2021-05-11T13:56:09+02:00"
+              "updatedAt" : "2022-02-07T20:12:21-05:00"
             },
             {
               "authors" : [
@@ -6669,7 +6899,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Run Command On Front Finder Window",
-          "updatedAt" : "2020-12-08T15:56:35+00:00"
+          "updatedAt" : "2022-01-17T18:22:39-08:00"
         },
         {
           "authors" : [
@@ -8770,7 +9000,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Local IPv4",
-              "updatedAt" : "2021-07-08T21:33:32-04:00"
+              "updatedAt" : "2022-01-19T12:05:31+01:00"
             },
             {
               "authors" : [
@@ -8821,7 +9051,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "External IPv4",
-              "updatedAt" : "2021-07-08T21:33:12-04:00"
+              "updatedAt" : "2022-01-19T12:05:31+01:00"
             },
             {
               "authors" : [
@@ -8872,7 +9102,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "External IPv6",
-              "updatedAt" : "2021-07-08T21:33:27-04:00"
+              "updatedAt" : "2022-01-19T12:05:31+01:00"
             },
             {
               "authors" : null,
@@ -8895,7 +9125,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Local IPv6",
-              "updatedAt" : "2021-07-08T21:33:40-04:00"
+              "updatedAt" : "2022-01-19T12:05:31+01:00"
             }
           ]
         },
@@ -9730,6 +9960,69 @@
           ]
         },
         {
+          "name" : "DuckDuckGo Email Protection",
+          "path" : "duckduckgo-email-protection",
+          "readme" : "communication\/duckduckgo-email-protection\/README.md",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Rediwed",
+                  "url" : "github.com\/Rediwed"
+                }
+              ],
+              "createdAt" : "2022-02-10T09:48:48+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Use this script command to configure your @duck.com authorizationID",
+              "filename" : "configure-@duck.com-script-command.applescript",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/duckduckgo_logo.png"
+              },
+              "identifier" : "f21768def3b65261d459100b8eac5e8c",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "DuckDuckGo Email Protection",
+              "path" : "communication\/duckduckgo-email-protection\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Configure",
+              "updatedAt" : "2022-02-10T09:48:48+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Rediwed",
+                  "url" : "github.com\/Rediwed"
+                }
+              ],
+              "createdAt" : "2022-02-10T09:48:48+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "This script command generates a unique private @duck.com email address.",
+              "filename" : "generate-unique-email-address.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/duckduckgo_logo.png"
+              },
+              "identifier" : "6c12d494954c21d0580e847a688d9eb3",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "DuckDuckGo Email Protection",
+              "path" : "communication\/duckduckgo-email-protection\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Generate Unique Address",
+              "updatedAt" : "2022-02-10T09:48:48+01:00"
+            }
+          ]
+        },
+        {
           "name" : "Messenger",
           "path" : "messenger",
           "scriptCommands" : [
@@ -9948,6 +10241,34 @@
               "schemaVersion" : 1,
               "title" : "Clear Slack DND",
               "updatedAt" : "2021-01-24T22:49:22+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Zeb Pykosz",
+                  "url" : "https:\/\/github.com\/zebapy"
+                }
+              ],
+              "createdAt" : "2020-11-26T13:39:55+00:00",
+              "currentDirectoryPath" : null,
+              "description" : "Create a Slack reminder",
+              "filename" : "add-slack-reminder.template.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "⏰"
+              },
+              "identifier" : "d320c2d35cc64553ce1a2db1ab80937c",
+              "isTemplate" : true,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Slack",
+              "path" : "communication\/slack\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Add Reminder",
+              "updatedAt" : "2022-01-15T18:23:42+00:00"
             },
             {
               "authors" : [
@@ -12189,6 +12510,96 @@
           ]
         },
         {
+          "name" : "Lungo",
+          "path" : "lungo",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Lungo",
+                  "url" : "https:\/\/sindresorhus.com\/lungo"
+                }
+              ],
+              "createdAt" : "2021-10-29T16:08:45+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Toggle Lungo.",
+              "filename" : "lungo-toggle.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/lungo.png"
+              },
+              "identifier" : "1e1201142099074bd201c2e04bfed472",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Lungo",
+              "path" : "apps\/lungo\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Toggle",
+              "updatedAt" : "2021-10-29T16:08:45+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Lungo",
+                  "url" : "https:\/\/sindresorhus.com\/lungo"
+                }
+              ],
+              "createdAt" : "2021-10-29T16:08:45+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Deactivate Lungo.",
+              "filename" : "lungo-activate.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/lungo.png"
+              },
+              "identifier" : "e41a768d833a7cca41cb21491926b013",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Lungo",
+              "path" : "apps\/lungo\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Activate",
+              "updatedAt" : "2021-10-29T16:08:45+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Lungo",
+                  "url" : "https:\/\/sindresorhus.com\/lungo"
+                }
+              ],
+              "createdAt" : "2021-10-29T16:08:45+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Deactivate Lungo.",
+              "filename" : "lungo-deactivate.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/lungo.png"
+              },
+              "identifier" : "7ad4b7c36c41fb0730596bdd72a12515",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Lungo",
+              "path" : "apps\/lungo\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Deactivate",
+              "updatedAt" : "2021-10-29T16:08:45+07:00"
+            }
+          ]
+        },
+        {
           "name" : "iTerm",
           "path" : "iterm",
           "scriptCommands" : [
@@ -12776,6 +13187,40 @@
               "schemaVersion" : 1,
               "title" : "Create Basic",
               "updatedAt" : "2021-06-14T20:32:07+02:00"
+            }
+          ]
+        },
+        {
+          "name" : "One Thing",
+          "path" : "one-thing",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "One Thing",
+                  "url" : "https:\/\/sindresorhus.com\/one-thing"
+                }
+              ],
+              "createdAt" : "2022-01-16T17:00:05+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Set the text shown in One Thing app.",
+              "filename" : "one-thing-set-text.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/one-thing.png"
+              },
+              "identifier" : "64b8520de38fe85dbc3fc84d16d26db9",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "One Thing",
+              "path" : "apps\/one-thing\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Set Text",
+              "updatedAt" : "2022-01-16T17:00:05+07:00"
             }
           ]
         },
@@ -13604,6 +14049,264 @@
           ]
         },
         {
+          "name" : "Focus",
+          "path" : "focus",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Ernest Ojeh",
+                  "url" : "https:\/\/github.com\/namzo"
+                }
+              ],
+              "createdAt" : "2022-01-28T20:18:00+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Start a custom focus session. If you don't enter any values, it starts an untimed focus session.",
+              "filename" : "focus-start-custom-session.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/focus-logo.png"
+              },
+              "identifier" : "80dd2db0a8e0b267adf52209d1e2b66a",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Focus",
+              "path" : "apps\/focus\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Start Custom Focus Session",
+              "updatedAt" : "2022-02-09T09:15:31+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Ernest Ojeh",
+                  "url" : "https:\/\/github.com\/namzo"
+                }
+              ],
+              "createdAt" : "2022-01-28T20:18:00+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open focus preferences.",
+              "filename" : "focus-preferences.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/focus-logo.png"
+              },
+              "identifier" : "26e49cef06b6a50e9c2a2288a0b3e5de",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Focus",
+              "path" : "apps\/focus\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Focus Preferences",
+              "updatedAt" : "2022-02-09T09:15:31+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Ernest Ojeh",
+                  "url" : "https:\/\/github.com\/namzo"
+                }
+              ],
+              "createdAt" : "2022-01-28T20:18:00+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Stop the current focus session.",
+              "filename" : "focus-stop-session.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/focus-logo.png"
+              },
+              "identifier" : "2f0e5d4a017c664641797d3ccad1fbe1",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Focus",
+              "path" : "apps\/focus\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Stop Focus Session (Unfocus)",
+              "updatedAt" : "2022-02-09T09:15:31+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Ernest Ojeh",
+                  "url" : "https:\/\/github.com\/namzo"
+                }
+              ],
+              "createdAt" : "2022-01-28T20:18:00+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Take 5 minutes break.",
+              "filename" : "focus-start-break-5.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/focus-logo.png"
+              },
+              "identifier" : "11136efc43088020c73969f86e0dd6d2",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Focus",
+              "path" : "apps\/focus\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Take 5 Minutes Break",
+              "updatedAt" : "2022-02-09T09:15:31+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Ernest Ojeh",
+                  "url" : "https:\/\/github.com\/namzo"
+                }
+              ],
+              "createdAt" : "2022-01-28T20:18:00+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Toggle between start session (untimed) and stop session.",
+              "filename" : "focus-toggle-focus.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/focus-logo.png"
+              },
+              "identifier" : "87f5cb4aa46375da34318fc091f250b0",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Focus",
+              "path" : "apps\/focus\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Toggle Focus Session",
+              "updatedAt" : "2022-02-09T09:15:31+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Ernest Ojeh",
+                  "url" : "https:\/\/github.com\/namzo"
+                }
+              ],
+              "createdAt" : "2022-01-28T20:18:00+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Start an untimed focus session.",
+              "filename" : "focus-start-session.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/focus-logo.png"
+              },
+              "identifier" : "870e8c9bf851b140036bb6959e990571",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Focus",
+              "path" : "apps\/focus\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Start Focus Session (Focus)",
+              "updatedAt" : "2022-02-09T09:15:31+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Ernest Ojeh",
+                  "url" : "https:\/\/github.com\/namzo"
+                }
+              ],
+              "createdAt" : "2022-01-28T20:18:00+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Stop break and continues the current focus session.",
+              "filename" : "focus-stop-break.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/focus-logo.png"
+              },
+              "identifier" : "301323d2b2b7165ab0364ea4a600f4d5",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Focus",
+              "path" : "apps\/focus\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Stop Break (Unbreak)",
+              "updatedAt" : "2022-02-09T09:15:31+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Ernest Ojeh",
+                  "url" : "https:\/\/github.com\/namzo"
+                }
+              ],
+              "createdAt" : "2022-01-28T20:18:00+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Start a custom break. If you don't enter any values, it uses the last break duration.",
+              "filename" : "focus-start-custom-break.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/focus-logo.png"
+              },
+              "identifier" : "a8c3ae965a33e0ac2098e35ea49ffdd0",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Focus",
+              "path" : "apps\/focus\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Start Custom Break",
+              "updatedAt" : "2022-02-09T09:15:31+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Ernest Ojeh",
+                  "url" : "https:\/\/github.com\/namzo"
+                }
+              ],
+              "createdAt" : "2022-01-28T20:18:00+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Start a 25 minutes focus session.",
+              "filename" : "focus-start-session-25.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/focus-logo.png"
+              },
+              "identifier" : "c98d57dfcdd3aa35ed145b6a221377e5",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Focus",
+              "path" : "apps\/focus\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Start 25 minutes Focus Session",
+              "updatedAt" : "2022-02-09T09:15:31+01:00"
+            }
+          ]
+        },
+        {
           "name" : "Plash",
           "path" : "plash",
           "scriptCommands" : [
@@ -14101,6 +14804,40 @@
               "schemaVersion" : 1,
               "title" : "Get Tasks",
               "updatedAt" : "2021-05-04T10:14:48+00:00"
+            }
+          ]
+        },
+        {
+          "name" : "WebStorm",
+          "path" : "webstorm",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Daniel Stovv",
+                  "url" : "https:\/\/github.com\/stovv"
+                }
+              ],
+              "createdAt" : "2022-01-27T15:04:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open WebStorm projects",
+              "filename" : "open-workspace.template.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/webstorm.png"
+              },
+              "identifier" : "8db170a15f9f700cf1a5bc69152e3e3e",
+              "isTemplate" : true,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "WebStorm",
+              "path" : "apps\/webstorm\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open",
+              "updatedAt" : "2022-01-27T12:07:09+00:00"
             }
           ]
         },
@@ -15193,7 +15930,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "DeepL App Translate",
-              "updatedAt" : "2021-11-04T11:22:42+01:00"
+              "updatedAt" : "2022-02-07T03:09:14+01:00"
             }
           ]
         },
@@ -15854,6 +16591,1032 @@
               "schemaVersion" : 1,
               "title" : "Viscosity: Connect All",
               "updatedAt" : "2021-03-23T21:40:02+01:00"
+            }
+          ]
+        },
+        {
+          "name" : "Hyper",
+          "path" : "hyper",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Eliot Hertenstein",
+                  "url" : "https:\/\/github.com\/eIiot"
+                }
+              ],
+              "createdAt" : "2022-02-18T02:19:33-08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Run a terminal using Hyper",
+              "filename" : "hyper-run-shell-command.applescript",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/hyper.png"
+              },
+              "identifier" : "49608e0b2c2375fec1a6f173155333af",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Hyper",
+              "path" : "apps\/hyper\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Run Shell Command",
+              "updatedAt" : "2022-02-18T02:19:33-08:00"
+            }
+          ]
+        },
+        {
+          "name" : "Reminders",
+          "path" : "reminders",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Andrei Nedelcu",
+                  "url" : "https:\/\/dinosaurgame.net"
+                }
+              ],
+              "createdAt" : "2022-02-07T04:07:49+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Add a new reminder.",
+              "filename" : "reminders-create-reminder.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/reminders.png"
+              },
+              "identifier" : "75a45615fac6beb2797006d141e954b6",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Create Reminder",
+              "path" : "apps\/reminders\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Add Reminder",
+              "updatedAt" : "2022-02-07T02:10:02+00:00"
+            }
+          ]
+        },
+        {
+          "name" : "Devutils",
+          "path" : "devutils",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Convert your current clipboard from CSV to JSON",
+              "filename" : "csv2json.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "96351002cef0c040a5c35e6f2e04a7a0",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "CSV to JSON",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Escape (or unescape) the HTML entities your current clipboard string",
+              "filename" : "htmlencode.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "7b2949bdb3461fae767de2e8a2686153",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "HTML Entity Encode\/Decode",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Beautify or minify your current clipboard as XML",
+              "filename" : "xmlformatter.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "c1fd8764b8bb26e465a7a48dc3d55b89",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "XML Beautify\/Minify",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Convert the HTML string in clipboard to JSX",
+              "filename" : "html2jsx.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "5d48ac8248afc31799260e5ee0af87b1",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "HTML to JSX",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Escape (or unescape) backslashes in your current clipboard string",
+              "filename" : "backslash.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "1fe92d44c297f36a443e1741eb727317",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Backslash Escape\/Unescape",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Get some randomly generated lorem ipsum strings",
+              "filename" : "loremipsum.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "34c135d0d015486dc28c4a1789dd9c5e",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Lorem Ipsum Generator",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Decode and verify the current JWT token in your clipboard",
+              "filename" : "jwt.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "03b13d316e4eaf0c2cf02eec27ad6d49",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "JWT Debugger",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Beautify or minify your current clipboard as ERB",
+              "filename" : "erbformatter.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "c0862014d90bee6995ecfbf61b5468d2",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "ERB Beautify\/Minify",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Format the SQL string currently in your clipboard",
+              "filename" : "sqlformatter.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "9ec928b585e7c1b2de1f2e13cb3fab26",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "SQL Formatter",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Inspect your current clipboard string (length, words count, unicode, etc.)",
+              "filename" : "stringinspect.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "3da94b4e417bf5ff6e44b67869a7d612",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "String Inspector",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Decode the Base64 string in clipboard (if it’s decodable)",
+              "filename" : "base64encode.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "65ca896b0c3fb60ad6f189616c8c7524",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Base64 String Encode\/Decode",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Convert your current clipboard from JSON to CSV",
+              "filename" : "json2csv.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "77e0bc4cd51d4d5cd1560c0c2b420214",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "JSON to CSV",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Beautify or minify your current clipboard as CSS",
+              "filename" : "cssformatter.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "55e6391c0919e4ce410977d7791d75f3",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "CSS Beautify\/Minify",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Convert your current clipboard from JSON to YAML",
+              "filename" : "json2yaml.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "7fda6adb9ccc8f154619301140faa03c",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "JSON to YAML",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Calculate the hash of your current clipboard string",
+              "filename" : "hashing.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "660dc6a522fbb4c1d25fdd5c4bc43503",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Hash Generator",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Parse the cron job expression in clipboard (if it’s a valid cron expression)",
+              "filename" : "cronparser.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "e92d8c824922446f81d842b8a75abeea",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Cron Job Parser",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Decode the current URL string in your clipboard (if any)",
+              "filename" : "urlencode.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "4770cbb56d80eed7a9092dcb84442724",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "URL Encode\/Decode",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Decode the UUID in your clipboard (if any), or generate UUIDs",
+              "filename" : "uuidtool.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "64fd318687c1f6e5e92033e62fe3b8a2",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "UUID\/ULID Generate\/Decode",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Decode the Base64 string in clipboard to an image (if it’s decodable)",
+              "filename" : "base64image.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "6f08b5175968433d58c9b9565fa8e3b5",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Base64 Image Encode\/Decode",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Beautify or minify your current clipboard as LESS",
+              "filename" : "lessformatter.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "3a70a1e6d6df5384d2ca515a3c31ffb2",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "LESS Beautify\/Minify",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Convert your current clipboard from YAML to JSON",
+              "filename" : "yaml2json.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "302fe47b8006d28fe4e9693471193e00",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "YAML to JSON",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Format the JSON string currently in your clipboard (if it’s a valid JSON)",
+              "filename" : "jsonformatter.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "2ff9ca437fae33af3b7e744a05842fe2",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "JSON Format\/Validate",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show a HTML preview of your current clipboard string",
+              "filename" : "htmlpreview.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "ea972077aa252a09b9755043ddb3ee56",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "HTML Preview",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Convert a string in clipboard into various naming conventions",
+              "filename" : "stringcaseconverter.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "da658bbfc3056122cfa25655191ba46e",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "String Case Converter",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Test your regular expression with a string and inspect matches, groups, etc.",
+              "filename" : "regextester.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "6fdaca184e9aaf35ed9935ca7765c887",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "RegExp Tester",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Preview the markdown string currently in your clipboard",
+              "filename" : "markdownpreview.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "4e9b6a8f59213b7740cf8ea0681d7489",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Markdown Preview",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Beautify or minify your current clipboard as SCSS",
+              "filename" : "scssformatter.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "9e6ab71f9cf6a8621606b3934345e1ef",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "SCSS Beautify\/Minify",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Compare two texts and find diff (per characters, words, lines, etc.)",
+              "filename" : "textdiff.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "59f6ce6bc50e81065dbe667b82c1771f",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Text Diff Checker",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Beautify or minify your current clipboard as HTML",
+              "filename" : "htmlformatter.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "6c594f59f7c3fa76ddbb219689014e61",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "HTML Beautify\/Minify",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Convert numbers between bases (oct, hex, binary, etc.)",
+              "filename" : "numberbase.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "b49f9f56ffad1e4e2127df82116d0f3d",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Number Base Converter",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Parse the URL string currently in your clipboard",
+              "filename" : "querystringparser.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "995abb11b07f6e5776a94c91448cc54b",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "URL Parser",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Generate a QR code from your current clipboard string",
+              "filename" : "qrcode.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "9e5235df4808af09a9c965f83873718d",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "QR Code Reader\/Generator",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Beautify or minify your current clipboard as JavaScript",
+              "filename" : "jsformatter.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "9d6c09efd9fa58b456df731a9758eb3e",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "JS Beautify\/Minify",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "DevUtils.app",
+                  "url" : "https:\/\/devutils.app"
+                }
+              ],
+              "createdAt" : "2022-01-23T16:30:27+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Parse and display UNIX the timestamp string currently in your clipboard",
+              "filename" : "unixtime.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/devutils.png"
+              },
+              "identifier" : "b54dbb6855fc539be668f972f6ad4de0",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "DevUtils.app",
+              "path" : "apps\/devutils\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Unix Time Converter",
+              "updatedAt" : "2022-01-23T16:30:27+07:00"
             }
           ]
         },
@@ -16561,6 +18324,40 @@
       ]
     },
     {
+      "name" : "Writing",
+      "path" : "writing",
+      "scriptCommands" : [
+        {
+          "authors" : [
+            {
+              "name" : "Benny Wong",
+              "url" : "https:\/\/bwong.net"
+            }
+          ],
+          "createdAt" : "2022-01-29T12:34:13-05:00",
+          "currentDirectoryPath" : null,
+          "description" : "Counts the number of words of the text in the clipboard",
+          "filename" : "word-count.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🤖"
+          },
+          "identifier" : "4757d0ea5b9d6eedf37b64f283531315",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Writing",
+          "path" : "writing\/",
+          "refreshTime" : "15s",
+          "schemaVersion" : 1,
+          "title" : "Word Count",
+          "updatedAt" : "2022-01-29T12:34:13-05:00"
+        }
+      ]
+    },
+    {
       "name" : "Media",
       "path" : "media",
       "scriptCommands" : [
@@ -16598,6 +18395,34 @@
               "schemaVersion" : 1,
               "title" : "Stop",
               "updatedAt" : "2020-11-28T12:26:29-05:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Juan I. Serra",
+                  "url" : "https:\/\/github.com\/jiserra"
+                }
+              ],
+              "createdAt" : "2022-01-10T11:21:09-04:00",
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "apple-music-volume-up.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/apple-music-logo.png"
+              },
+              "identifier" : "c8f4c5a2218803961dcd04ac173cabe6",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Music",
+              "path" : "media\/apple-music\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Apple Music Volume Up",
+              "updatedAt" : "2022-01-10T11:21:09-04:00"
             },
             {
               "authors" : [
@@ -16738,6 +18563,34 @@
               "schemaVersion" : 1,
               "title" : "Pause",
               "updatedAt" : "2020-11-28T12:26:29-05:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Juan I. Serra",
+                  "url" : "https:\/\/github.com\/jiserra"
+                }
+              ],
+              "createdAt" : "2022-01-10T11:21:09-04:00",
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "apple-music-volume-down.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/apple-music-logo.png"
+              },
+              "identifier" : "e976c6ae51adec3ce4530235790c6761",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Music",
+              "path" : "media\/apple-music\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Apple Music Volume Down",
+              "updatedAt" : "2022-01-10T11:21:09-04:00"
             },
             {
               "authors" : [
@@ -18146,15 +19999,133 @@
               "updatedAt" : "2022-01-02T10:24:52-08:00"
             }
           ]
+        },
+        {
+          "name" : "Tidal",
+          "path" : "tidal",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Charles Harries",
+                  "url" : "https:\/\/github.com\/charlesharries"
+                }
+              ],
+              "createdAt" : "2022-02-01T13:37:24+00:00",
+              "currentDirectoryPath" : null,
+              "description" : "Play the current track in Tidal.",
+              "filename" : "tidal-play.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/tidal-logo.png"
+              },
+              "identifier" : "370fa0d9f88c538e191fa5c4df615aed",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Tidal Play",
+              "path" : "media\/tidal\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Play",
+              "updatedAt" : "2022-02-01T13:37:24+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Charles Harries",
+                  "url" : "https:\/\/github.com\/charlesharries"
+                }
+              ],
+              "createdAt" : "2022-02-01T13:37:24+00:00",
+              "currentDirectoryPath" : null,
+              "description" : "Skip to the next track in Tidal.",
+              "filename" : "tidal-next-track.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/tidal-logo.png"
+              },
+              "identifier" : "9206bc623c13a1861d1ea4f872c8fbee",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Tidal Next Track",
+              "path" : "media\/tidal\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Next Track",
+              "updatedAt" : "2022-02-01T14:38:40+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Charles Harries",
+                  "url" : "https:\/\/github.com\/charlesharries"
+                }
+              ],
+              "createdAt" : "2022-02-01T13:37:24+00:00",
+              "currentDirectoryPath" : null,
+              "description" : "Pause the current track in Tidal.",
+              "filename" : "tidal-pause.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/tidal-logo.png"
+              },
+              "identifier" : "1e045340ac4a21b2cf81a4bf59b3984e",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Tidal Pause",
+              "path" : "media\/tidal\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Pause",
+              "updatedAt" : "2022-02-01T13:37:24+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Charles Harries",
+                  "url" : "https:\/\/github.com\/charlesharries"
+                }
+              ],
+              "createdAt" : "2022-02-01T13:37:24+00:00",
+              "currentDirectoryPath" : null,
+              "description" : "Skip back to the previous track in Tidal.",
+              "filename" : "tidal-previous-track.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/tidal-logo.png"
+              },
+              "identifier" : "756f25af8641456ee9d6c6b14146f1dd",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Tidal Previous Track",
+              "path" : "media\/tidal\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Previous Track",
+              "updatedAt" : "2022-02-01T14:38:40+00:00"
+            }
+          ]
         }
       ]
     }
   ],
   "languages" : [
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     },
     {
       "displayName" : "Ruby",
@@ -18162,14 +20133,14 @@
       "name" : "ruby"
     },
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
-    },
-    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
+    },
+    {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     },
     {
       "displayName" : "Bash",
@@ -18177,14 +20148,14 @@
       "name" : "bash"
     },
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 634,
-  "updatedAt" : "2022-01-05T10:22:17Z"
+  "totalScriptCommands" : 702,
+  "updatedAt" : "2022-02-21T01:14:25Z"
 }
