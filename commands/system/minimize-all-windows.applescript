@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Minimize all windows
+# @raycast.title Minimize All Windows
 # @raycast.mode silent
 
 # Optional parameters:
