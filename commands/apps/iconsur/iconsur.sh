@@ -27,6 +27,9 @@ if [ -z "$t" ]; then
     exit 1
 fi
 
+# Workaround for the error message
+exec 2>/dev/null
+
 # Test file
 appPath=""
 if [ -d "/Applications/$1.app" ]; then
@@ -47,17 +50,18 @@ if [ $omit -eq 0 ] && [ $3 = "y" -o $3 = "Y" ]; then
     loc="-l"
 fi
 
+
 if [ $2 ] && [ $omit -eq 0 ]; then
     echo $2|sudo -S iconsur set "$appPath" $loc
     if [ ${PIPESTATUS[1]} -eq 1 ]; then
         echo "Password incorrect"
-        exit 0
+        exit 2
     fi
 else
-    iconsur set "$appPath" $loc
+    iconsur set "$appPath" $loc 1>/dev/null
     if [ ${PIPESTATUS[0]} -eq 1 ]; then
         echo "It didn't work, try again with password"
-        exit 0
+        exit 2
     fi
 fi
 
