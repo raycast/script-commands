@@ -967,7 +967,7 @@
           ],
           "createdAt" : "2022-02-06T18:08:25-08:00",
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Create a short URL using Shlink",
           "filename" : "shlink-create-short-url.template.sh",
           "hasArguments" : true,
           "icon" : {
@@ -984,7 +984,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Create Short URL",
-          "updatedAt" : "2022-02-06T18:08:25-08:00"
+          "updatedAt" : "2022-02-20T23:31:37-08:00"
         },
         {
           "authors" : [
@@ -4228,6 +4228,34 @@
           "schemaVersion" : 1,
           "title" : "Switch Default Browser to Chrome",
           "updatedAt" : "2021-01-13T00:41:47+01:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Alexander Steffen",
+              "url" : "https:\/\/github.com\/alexjsteffen"
+            }
+          ],
+          "createdAt" : "2022-02-20T17:12:23-08:00",
+          "currentDirectoryPath" : null,
+          "description" : "Close all open Finder windows. ",
+          "filename" : "close-finder-windows.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔪"
+          },
+          "identifier" : "9ea2842daeb65fb34b307cce6ed0bb58",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Close All Finder Windows",
+          "updatedAt" : "2022-02-20T17:12:23-08:00"
         },
         {
           "authors" : [
@@ -16578,7 +16606,7 @@
                 }
               ],
               "createdAt" : "2022-02-18T02:19:33-08:00",
-              "currentDirectoryPath" : null,
+              "currentDirectoryPath" : "~",
               "description" : "Run a terminal using Hyper",
               "filename" : "hyper-run-shell-command.applescript",
               "hasArguments" : true,
@@ -16596,7 +16624,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Run Shell Command",
-              "updatedAt" : "2022-02-18T02:19:33-08:00"
+              "updatedAt" : "2022-02-18T19:08:51-08:00"
             }
           ]
         },
@@ -20095,19 +20123,14 @@
   ],
   "languages" : [
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
-    },
-    {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
+    },
+    {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     },
     {
       "displayName" : "Node",
@@ -20115,19 +20138,24 @@
       "name" : "node"
     },
     {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
+    },
+    {
       "displayName" : "Ruby",
       "icon" : "icon-ruby.png",
       "name" : "ruby"
     },
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 701,
-  "updatedAt" : "2022-02-18T10:22:30Z"
+  "totalScriptCommands" : 702,
+  "updatedAt" : "2022-02-21T12:32:15Z"
 }
