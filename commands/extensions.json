@@ -5118,6 +5118,34 @@
         {
           "authors" : [
             {
+              "name" : "Ernest Ojeh",
+              "url" : "https:\/\/github.com\/namzo"
+            }
+          ],
+          "createdAt" : "2022-02-21T17:47:42+01:00",
+          "currentDirectoryPath" : null,
+          "description" : "This script minimizes all windows of currently running apps",
+          "filename" : "minimize-all-windows.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/minimize-window.png"
+          },
+          "identifier" : "3b65d4ebb56ca0837e508f63395b1230",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Minimize All Windows",
+          "updatedAt" : "2022-02-21T17:47:42+01:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Thiago Holanda",
               "url" : "https:\/\/twitter.com\/tholanda"
             }
@@ -13925,7 +13953,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Change Application Icon",
-              "updatedAt" : "2021-12-30T21:07:32+08:00"
+              "updatedAt" : "2022-02-22T00:14:05+08:00"
             }
           ]
         },
@@ -20123,14 +20151,14 @@
   ],
   "languages" : [
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     },
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     },
     {
       "displayName" : "Node",
@@ -20138,9 +20166,9 @@
       "name" : "node"
     },
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     },
     {
       "displayName" : "Ruby",
@@ -20148,14 +20176,14 @@
       "name" : "ruby"
     },
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 702,
-  "updatedAt" : "2022-02-21T12:32:15Z"
+  "totalScriptCommands" : 703,
+  "updatedAt" : "2022-02-21T16:50:09Z"
 }
