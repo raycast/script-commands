@@ -4232,6 +4232,34 @@
         {
           "authors" : [
             {
+              "name" : "Alexander Steffen",
+              "url" : "https:\/\/github.com\/alexjsteffen"
+            }
+          ],
+          "createdAt" : "2022-02-20T17:12:23-08:00",
+          "currentDirectoryPath" : null,
+          "description" : "Close all open Finder windows. ",
+          "filename" : "close-finder-windows.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔪"
+          },
+          "identifier" : "9ea2842daeb65fb34b307cce6ed0bb58",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Close All Finder Windows",
+          "updatedAt" : "2022-02-20T17:12:23-08:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -20095,24 +20123,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
-    },
-    {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
-    },
-    {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
     },
     {
       "displayName" : "Ruby",
@@ -20123,11 +20136,26 @@
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
+    },
+    {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 701,
-  "updatedAt" : "2022-02-18T10:22:30Z"
+  "totalScriptCommands" : 702,
+  "updatedAt" : "2022-02-21T01:14:25Z"
 }
