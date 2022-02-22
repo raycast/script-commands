@@ -14,5 +14,5 @@
 # @raycast.author Kirill Gorbachyonok
 # @raycast.authorURL https://github.com/japanese-goblinn
 
-osascript -e 'tell application "Safari" to return URL of front document' | pbcopy
-echo "Copied"
+osascript -e 'tell application "Safari" to return URL of front document' | tr -d '[:space:]' | pbcopy
+echo "Copied URL"
