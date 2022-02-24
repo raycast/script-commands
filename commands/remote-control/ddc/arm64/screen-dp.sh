@@ -12,6 +12,7 @@
 # Optional parameters:
 # @raycast.icon 📺
 # @raycast.author goodhyun
+# @raycast.packageName External Display
 # @raycast.description This script will switch the external display screen to DP.
 
 if ! command -v m1ddc &> /dev/null; then
