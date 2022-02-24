@@ -126,6 +126,9 @@ This repository contains sample commands and documentation to write your own one
   - [stopwatch](#stopwatch)
   - [tesseract](#tesseract)
 - [Remote Control](#remote-control)
+  - [Ddc](#ddc)
+    - [Arm64](#arm64)
+    - [X86](#x86)
   - [Denon AVR](#denon-avr)
   - [LG TV](#lg-tv)
   - [Samsung TV](#samsung-tv)
@@ -1121,6 +1124,20 @@ This repository contains sample commands and documentation to write your own one
   | 🔍 | [OCR Screenshot](productivity/tesseract/tesseract-ocr.sh) | Tesseract OCR | [Diego Lopes](https://github.com/Dihgg) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 ## Remote Control
+
+#### Arm64
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | 📺 | [Switch to DP](remote-control/ddc/arm64/screen-dp.sh) | This script will switch the external display screen to DP. | goodhyun |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 📺 | [Switch to HDMI](remote-control/ddc/arm64/screen-hdmi.sh) | This script will switch the external display screen to HDMI. | goodhyun |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### X86
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | 📺 | [Switch to DP](remote-control/ddc/x86/screen-dp.sh) | This script will switch the external display screen to DP. | goodhyun |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 📺 | [Switch to HDMI](remote-control/ddc/x86/screen-hdmi.sh) | This script will switch the external display screen to HDMI. | goodhyun |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Denon AVR
 
