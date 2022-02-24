@@ -780,7 +780,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Title Case",
-              "updatedAt" : "2021-03-24T04:47:26-04:00"
+              "updatedAt" : "2022-02-22T15:13:31+01:00"
             },
             {
               "authors" : [
@@ -808,7 +808,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Kebab Case",
-              "updatedAt" : "2021-03-24T04:47:26-04:00"
+              "updatedAt" : "2022-02-22T15:13:31+01:00"
             },
             {
               "authors" : [
@@ -836,7 +836,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Snake Case",
-              "updatedAt" : "2022-02-12T11:09:30+01:00"
+              "updatedAt" : "2022-02-22T15:13:31+01:00"
             },
             {
               "authors" : [
@@ -864,7 +864,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Uppercase",
-              "updatedAt" : "2021-03-24T04:47:26-04:00"
+              "updatedAt" : "2022-02-22T15:13:31+01:00"
             },
             {
               "authors" : [
@@ -892,7 +892,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Lowercase",
-              "updatedAt" : "2021-03-24T04:47:26-04:00"
+              "updatedAt" : "2022-02-22T15:13:31+01:00"
             },
             {
               "authors" : [
@@ -920,7 +920,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Camel Case",
-              "updatedAt" : "2021-03-24T04:47:26-04:00"
+              "updatedAt" : "2022-02-22T15:13:31+01:00"
             }
           ]
         }
@@ -1208,7 +1208,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Copy Current Page URL",
-          "updatedAt" : "2020-11-23T12:53:48-05:00"
+          "updatedAt" : "2022-02-22T10:00:48+00:00"
         },
         {
           "authors" : [
@@ -1917,6 +1917,139 @@
               "schemaVersion" : 1,
               "title" : "Power On",
               "updatedAt" : "2022-02-09T10:16:51+00:00"
+            }
+          ]
+        },
+        {
+          "name" : "Ddc",
+          "path" : "ddc",
+          "scriptCommands" : [
+
+          ],
+          "subGroups" : [
+            {
+              "name" : "X86",
+              "path" : "x86",
+              "scriptCommands" : [
+                {
+                  "authors" : [
+                    {
+                      "name" : "goodhyun",
+                      "url" : null
+                    }
+                  ],
+                  "createdAt" : "2022-02-24T17:18:38+09:00",
+                  "currentDirectoryPath" : null,
+                  "description" : "This script will switch the external display screen to DP.",
+                  "filename" : "screen-dp.sh",
+                  "hasArguments" : false,
+                  "icon" : {
+                    "dark" : null,
+                    "light" : "📺"
+                  },
+                  "identifier" : "604dc19d758c3ba4240bd41436ecfc69",
+                  "isTemplate" : false,
+                  "language" : "bash",
+                  "mode" : "compact",
+                  "needsConfirmation" : null,
+                  "packageName" : "External Display",
+                  "path" : "remote-control\/ddc\/x86\/",
+                  "refreshTime" : null,
+                  "schemaVersion" : 1,
+                  "title" : "Switch to DP",
+                  "updatedAt" : "2022-02-24T08:21:35+00:00"
+                },
+                {
+                  "authors" : [
+                    {
+                      "name" : "goodhyun",
+                      "url" : null
+                    }
+                  ],
+                  "createdAt" : "2022-02-24T17:18:38+09:00",
+                  "currentDirectoryPath" : null,
+                  "description" : "This script will switch the external display screen to HDMI.",
+                  "filename" : "screen-hdmi.sh",
+                  "hasArguments" : false,
+                  "icon" : {
+                    "dark" : null,
+                    "light" : "📺"
+                  },
+                  "identifier" : "5c5b8dce88c2fb37b74dfd96eacdfcb6",
+                  "isTemplate" : false,
+                  "language" : "bash",
+                  "mode" : "compact",
+                  "needsConfirmation" : null,
+                  "packageName" : "External Display",
+                  "path" : "remote-control\/ddc\/x86\/",
+                  "refreshTime" : null,
+                  "schemaVersion" : 1,
+                  "title" : "Switch to HDMI",
+                  "updatedAt" : "2022-02-24T08:21:35+00:00"
+                }
+              ]
+            },
+            {
+              "name" : "Arm64",
+              "path" : "arm64",
+              "scriptCommands" : [
+                {
+                  "authors" : [
+                    {
+                      "name" : "goodhyun",
+                      "url" : null
+                    }
+                  ],
+                  "createdAt" : "2022-02-24T17:18:38+09:00",
+                  "currentDirectoryPath" : null,
+                  "description" : "This script will switch the external display screen to DP.",
+                  "filename" : "screen-dp.sh",
+                  "hasArguments" : false,
+                  "icon" : {
+                    "dark" : null,
+                    "light" : "📺"
+                  },
+                  "identifier" : "604dc19d758c3ba4240bd41436ecfc69",
+                  "isTemplate" : false,
+                  "language" : "bash",
+                  "mode" : "compact",
+                  "needsConfirmation" : null,
+                  "packageName" : "External Display",
+                  "path" : "remote-control\/ddc\/arm64\/",
+                  "refreshTime" : null,
+                  "schemaVersion" : 1,
+                  "title" : "Switch to DP",
+                  "updatedAt" : "2022-02-24T08:21:35+00:00"
+                },
+                {
+                  "authors" : [
+                    {
+                      "name" : "goodhyun",
+                      "url" : null
+                    }
+                  ],
+                  "createdAt" : "2022-02-24T17:18:38+09:00",
+                  "currentDirectoryPath" : null,
+                  "description" : "This script will switch the external display screen to HDMI.",
+                  "filename" : "screen-hdmi.sh",
+                  "hasArguments" : false,
+                  "icon" : {
+                    "dark" : null,
+                    "light" : "📺"
+                  },
+                  "identifier" : "5c5b8dce88c2fb37b74dfd96eacdfcb6",
+                  "isTemplate" : false,
+                  "language" : "bash",
+                  "mode" : "compact",
+                  "needsConfirmation" : null,
+                  "packageName" : "External Display",
+                  "path" : "remote-control\/ddc\/arm64\/",
+                  "refreshTime" : null,
+                  "schemaVersion" : 1,
+                  "title" : "Switch to HDMI",
+                  "updatedAt" : "2022-02-24T08:21:35+00:00"
+                }
+              ]
             }
           ]
         },
@@ -20151,19 +20284,14 @@
   ],
   "languages" : [
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
     },
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     },
     {
       "displayName" : "Python",
@@ -20176,6 +20304,11 @@
       "name" : "ruby"
     },
     {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
+    },
+    {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
@@ -20184,6 +20317,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 703,
-  "updatedAt" : "2022-02-21T16:50:09Z"
+  "totalScriptCommands" : 707,
+  "updatedAt" : "2022-02-24T08:21:35Z"
 }
