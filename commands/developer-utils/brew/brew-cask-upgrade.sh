@@ -1,5 +1,8 @@
 #!/bin/bash
-#
+
+# Dependency: This script requires `brew-cask-upgrade` cli installed: https://github.com/buo/homebrew-cask-upgrade
+# Install via homebrew: `brew tap buo/cask-upgrade `
+
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Cask Upgrade
@@ -10,7 +13,7 @@
 # @raycast.icon 🍺
 #
 # Documentation:
-# @raycast.description Run Brew Cask Upgrade
+# @raycast.description Updates brew and upgrades every outdated app
 # @raycast.author LanikSJ
 # @raycast.authorURL https://github.com/LanikSJ
 
