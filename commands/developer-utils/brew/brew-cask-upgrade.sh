@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Dependency: This script requires `brew-cask-upgrade` cli installed: https://github.com/buo/homebrew-cask-upgrade
-# Install via homebrew: `brew tap buo/cask-upgrade `
+# Dependency: This script requires brew-cask-upgrade cli installed: https://github.com/buo/homebrew-cask-upgrade
+# Install via Homebrew: brew tap buo/cask-upgrade
 
 # Required parameters:
 # @raycast.schemaVersion 1
