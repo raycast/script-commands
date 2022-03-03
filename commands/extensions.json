@@ -3678,6 +3678,34 @@
         {
           "authors" : [
             {
+              "name" : "Astrit",
+              "url" : "https:\/\/github.com\/astrit"
+            }
+          ],
+          "createdAt" : "2022-02-23T23:10:21+01:00",
+          "currentDirectoryPath" : null,
+          "description" : "Fear & Greed Index from CNN",
+          "filename" : "fear-index.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "😱 "
+          },
+          "identifier" : "7862558b671bcea3f416d6bb8901d12f",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Fear & Greed Index",
+          "path" : "dashboard\/",
+          "refreshTime" : "12h",
+          "schemaVersion" : 1,
+          "title" : "Fear Index",
+          "updatedAt" : "2022-02-23T23:10:21+01:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Clark Dinnison",
               "url" : "https:\/\/github.com\/cdinnison"
             }
@@ -8412,6 +8440,34 @@
           "name" : "Brew",
           "path" : "brew",
           "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "LanikSJ",
+                  "url" : "https:\/\/github.com\/LanikSJ"
+                }
+              ],
+              "createdAt" : "2022-03-03T00:32:00-08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Updates brew and upgrades every outdated app",
+              "filename" : "brew-cask-upgrade.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🍺"
+              },
+              "identifier" : "d1c2825e774ea720d9897eaf8a0d7b9d",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Brew",
+              "path" : "developer-utils\/brew\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Cask Upgrade",
+              "updatedAt" : "2022-03-03T00:32:00-08:00"
+            },
             {
               "authors" : [
                 {
@@ -20284,14 +20340,24 @@
   ],
   "languages" : [
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
     },
     {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     },
     {
       "displayName" : "Python",
@@ -20302,21 +20368,11 @@
       "displayName" : "Ruby",
       "icon" : "icon-ruby.png",
       "name" : "ruby"
-    },
-    {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
-    },
-    {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 707,
-  "updatedAt" : "2022-02-24T08:21:35Z"
+  "totalScriptCommands" : 709,
+  "updatedAt" : "2022-03-03T08:38:06Z"
 }
