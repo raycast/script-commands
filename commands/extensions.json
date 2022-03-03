@@ -780,7 +780,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Title Case",
-              "updatedAt" : "2021-03-24T04:47:26-04:00"
+              "updatedAt" : "2022-02-22T15:13:31+01:00"
             },
             {
               "authors" : [
@@ -808,7 +808,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Kebab Case",
-              "updatedAt" : "2021-03-24T04:47:26-04:00"
+              "updatedAt" : "2022-02-22T15:13:31+01:00"
             },
             {
               "authors" : [
@@ -836,7 +836,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Snake Case",
-              "updatedAt" : "2021-03-24T04:47:26-04:00"
+              "updatedAt" : "2022-02-22T15:13:31+01:00"
             },
             {
               "authors" : [
@@ -864,7 +864,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Uppercase",
-              "updatedAt" : "2021-03-24T04:47:26-04:00"
+              "updatedAt" : "2022-02-22T15:13:31+01:00"
             },
             {
               "authors" : [
@@ -892,7 +892,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Lowercase",
-              "updatedAt" : "2021-03-24T04:47:26-04:00"
+              "updatedAt" : "2022-02-22T15:13:31+01:00"
             },
             {
               "authors" : [
@@ -920,7 +920,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Camel Case",
-              "updatedAt" : "2021-03-24T04:47:26-04:00"
+              "updatedAt" : "2022-02-22T15:13:31+01:00"
             }
           ]
         }
@@ -967,7 +967,7 @@
           ],
           "createdAt" : "2022-02-06T18:08:25-08:00",
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Create a short URL using Shlink",
           "filename" : "shlink-create-short-url.template.sh",
           "hasArguments" : true,
           "icon" : {
@@ -984,7 +984,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Create Short URL",
-          "updatedAt" : "2022-02-06T18:08:25-08:00"
+          "updatedAt" : "2022-02-20T23:31:37-08:00"
         },
         {
           "authors" : [
@@ -1208,7 +1208,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Copy Current Page URL",
-          "updatedAt" : "2020-11-23T12:53:48-05:00"
+          "updatedAt" : "2022-02-22T10:00:48+00:00"
         },
         {
           "authors" : [
@@ -1917,6 +1917,139 @@
               "schemaVersion" : 1,
               "title" : "Power On",
               "updatedAt" : "2022-02-09T10:16:51+00:00"
+            }
+          ]
+        },
+        {
+          "name" : "Ddc",
+          "path" : "ddc",
+          "scriptCommands" : [
+
+          ],
+          "subGroups" : [
+            {
+              "name" : "X86",
+              "path" : "x86",
+              "scriptCommands" : [
+                {
+                  "authors" : [
+                    {
+                      "name" : "goodhyun",
+                      "url" : null
+                    }
+                  ],
+                  "createdAt" : "2022-02-24T17:18:38+09:00",
+                  "currentDirectoryPath" : null,
+                  "description" : "This script will switch the external display screen to DP.",
+                  "filename" : "screen-dp.sh",
+                  "hasArguments" : false,
+                  "icon" : {
+                    "dark" : null,
+                    "light" : "📺"
+                  },
+                  "identifier" : "604dc19d758c3ba4240bd41436ecfc69",
+                  "isTemplate" : false,
+                  "language" : "bash",
+                  "mode" : "compact",
+                  "needsConfirmation" : null,
+                  "packageName" : "External Display",
+                  "path" : "remote-control\/ddc\/x86\/",
+                  "refreshTime" : null,
+                  "schemaVersion" : 1,
+                  "title" : "Switch to DP",
+                  "updatedAt" : "2022-02-24T08:21:35+00:00"
+                },
+                {
+                  "authors" : [
+                    {
+                      "name" : "goodhyun",
+                      "url" : null
+                    }
+                  ],
+                  "createdAt" : "2022-02-24T17:18:38+09:00",
+                  "currentDirectoryPath" : null,
+                  "description" : "This script will switch the external display screen to HDMI.",
+                  "filename" : "screen-hdmi.sh",
+                  "hasArguments" : false,
+                  "icon" : {
+                    "dark" : null,
+                    "light" : "📺"
+                  },
+                  "identifier" : "5c5b8dce88c2fb37b74dfd96eacdfcb6",
+                  "isTemplate" : false,
+                  "language" : "bash",
+                  "mode" : "compact",
+                  "needsConfirmation" : null,
+                  "packageName" : "External Display",
+                  "path" : "remote-control\/ddc\/x86\/",
+                  "refreshTime" : null,
+                  "schemaVersion" : 1,
+                  "title" : "Switch to HDMI",
+                  "updatedAt" : "2022-02-24T08:21:35+00:00"
+                }
+              ]
+            },
+            {
+              "name" : "Arm64",
+              "path" : "arm64",
+              "scriptCommands" : [
+                {
+                  "authors" : [
+                    {
+                      "name" : "goodhyun",
+                      "url" : null
+                    }
+                  ],
+                  "createdAt" : "2022-02-24T17:18:38+09:00",
+                  "currentDirectoryPath" : null,
+                  "description" : "This script will switch the external display screen to DP.",
+                  "filename" : "screen-dp.sh",
+                  "hasArguments" : false,
+                  "icon" : {
+                    "dark" : null,
+                    "light" : "📺"
+                  },
+                  "identifier" : "604dc19d758c3ba4240bd41436ecfc69",
+                  "isTemplate" : false,
+                  "language" : "bash",
+                  "mode" : "compact",
+                  "needsConfirmation" : null,
+                  "packageName" : "External Display",
+                  "path" : "remote-control\/ddc\/arm64\/",
+                  "refreshTime" : null,
+                  "schemaVersion" : 1,
+                  "title" : "Switch to DP",
+                  "updatedAt" : "2022-02-24T08:21:35+00:00"
+                },
+                {
+                  "authors" : [
+                    {
+                      "name" : "goodhyun",
+                      "url" : null
+                    }
+                  ],
+                  "createdAt" : "2022-02-24T17:18:38+09:00",
+                  "currentDirectoryPath" : null,
+                  "description" : "This script will switch the external display screen to HDMI.",
+                  "filename" : "screen-hdmi.sh",
+                  "hasArguments" : false,
+                  "icon" : {
+                    "dark" : null,
+                    "light" : "📺"
+                  },
+                  "identifier" : "5c5b8dce88c2fb37b74dfd96eacdfcb6",
+                  "isTemplate" : false,
+                  "language" : "bash",
+                  "mode" : "compact",
+                  "needsConfirmation" : null,
+                  "packageName" : "External Display",
+                  "path" : "remote-control\/ddc\/arm64\/",
+                  "refreshTime" : null,
+                  "schemaVersion" : 1,
+                  "title" : "Switch to HDMI",
+                  "updatedAt" : "2022-02-24T08:21:35+00:00"
+                }
+              ]
             }
           ]
         },
@@ -3545,6 +3678,34 @@
         {
           "authors" : [
             {
+              "name" : "Astrit",
+              "url" : "https:\/\/github.com\/astrit"
+            }
+          ],
+          "createdAt" : "2022-02-23T23:10:21+01:00",
+          "currentDirectoryPath" : null,
+          "description" : "Fear & Greed Index from CNN",
+          "filename" : "fear-index.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "😱 "
+          },
+          "identifier" : "7862558b671bcea3f416d6bb8901d12f",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Fear & Greed Index",
+          "path" : "dashboard\/",
+          "refreshTime" : "12h",
+          "schemaVersion" : 1,
+          "title" : "Fear Index",
+          "updatedAt" : "2022-02-23T23:10:21+01:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Clark Dinnison",
               "url" : "https:\/\/github.com\/cdinnison"
             }
@@ -4228,6 +4389,34 @@
           "schemaVersion" : 1,
           "title" : "Switch Default Browser to Chrome",
           "updatedAt" : "2021-01-13T00:41:47+01:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Alexander Steffen",
+              "url" : "https:\/\/github.com\/alexjsteffen"
+            }
+          ],
+          "createdAt" : "2022-02-20T17:12:23-08:00",
+          "currentDirectoryPath" : null,
+          "description" : "Close all open Finder windows. ",
+          "filename" : "close-finder-windows.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔪"
+          },
+          "identifier" : "9ea2842daeb65fb34b307cce6ed0bb58",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Close All Finder Windows",
+          "updatedAt" : "2022-02-20T17:12:23-08:00"
         },
         {
           "authors" : [
@@ -5086,6 +5275,34 @@
           "schemaVersion" : 1,
           "title" : "Toggle Hidden Files",
           "updatedAt" : "2020-11-23T12:53:48-05:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Ernest Ojeh",
+              "url" : "https:\/\/github.com\/namzo"
+            }
+          ],
+          "createdAt" : "2022-02-21T17:47:42+01:00",
+          "currentDirectoryPath" : null,
+          "description" : "This script minimizes all windows of currently running apps",
+          "filename" : "minimize-all-windows.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/minimize-window.png"
+          },
+          "identifier" : "3b65d4ebb56ca0837e508f63395b1230",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Minimize All Windows",
+          "updatedAt" : "2022-02-21T17:47:42+01:00"
         },
         {
           "authors" : [
@@ -8223,6 +8440,34 @@
           "name" : "Brew",
           "path" : "brew",
           "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "LanikSJ",
+                  "url" : "https:\/\/github.com\/LanikSJ"
+                }
+              ],
+              "createdAt" : "2022-03-03T00:32:00-08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Updates brew and upgrades every outdated app",
+              "filename" : "brew-cask-upgrade.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🍺"
+              },
+              "identifier" : "d1c2825e774ea720d9897eaf8a0d7b9d",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Brew",
+              "path" : "developer-utils\/brew\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Cask Upgrade",
+              "updatedAt" : "2022-03-03T00:32:00-08:00"
+            },
             {
               "authors" : [
                 {
@@ -13897,7 +14142,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Change Application Icon",
-              "updatedAt" : "2021-12-30T21:07:32+08:00"
+              "updatedAt" : "2022-02-22T00:14:05+08:00"
             }
           ]
         },
@@ -16563,6 +16808,40 @@
               "schemaVersion" : 1,
               "title" : "Viscosity: Connect All",
               "updatedAt" : "2021-03-23T21:40:02+01:00"
+            }
+          ]
+        },
+        {
+          "name" : "Hyper",
+          "path" : "hyper",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Eliot Hertenstein",
+                  "url" : "https:\/\/github.com\/eIiot"
+                }
+              ],
+              "createdAt" : "2022-02-18T02:19:33-08:00",
+              "currentDirectoryPath" : "~",
+              "description" : "Run a terminal using Hyper",
+              "filename" : "hyper-run-shell-command.applescript",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/hyper.png"
+              },
+              "identifier" : "49608e0b2c2375fec1a6f173155333af",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Hyper",
+              "path" : "apps\/hyper\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Run Shell Command",
+              "updatedAt" : "2022-02-18T19:08:51-08:00"
             }
           ]
         },
@@ -20061,11 +20340,6 @@
   ],
   "languages" : [
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
@@ -20086,6 +20360,11 @@
       "name" : "swift"
     },
     {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
       "displayName" : "Ruby",
       "icon" : "icon-ruby.png",
       "name" : "ruby"
@@ -20094,6 +20373,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 700,
-  "updatedAt" : "2022-02-10T08:51:05Z"
+  "totalScriptCommands" : 709,
+  "updatedAt" : "2022-03-03T08:38:06Z"
 }

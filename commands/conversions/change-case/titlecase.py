@@ -128,17 +128,27 @@ def titlecase_plus(text):
 
     return always_uppercase_re.sub(upcase, text)
 
-
 def getClipboardData():
     p = subprocess.Popen(["pbpaste"], stdout=subprocess.PIPE)
     data = p.stdout.read()
-    return data.decode("utf-8")
-
+    return tryDecode(data)
 
 def setClipboardData(data):
     p = subprocess.Popen(["pbcopy"], stdin=subprocess.PIPE)
-    p.stdin.write(data.encode("utf-8"))
+    p.stdin.write(tryEncode(data))
     p.stdin.close()
+
+def tryDecode(s):
+    try:
+        return s.decode('utf-8')
+    except:
+        return s
+
+def tryEncode(s):
+    try:
+        return s.encode('utf-8')
+    except:
+        return s
 
 clipboard = str(getClipboardData())
 result = titlecase_plus(clipboard)
