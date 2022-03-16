@@ -4,7 +4,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Battery Info
 # @raycast.mode inline
-# @raycast.refreshTime 1s
+# @raycast.refreshTime 3m
 # @raycast.packageName System
 
 #
