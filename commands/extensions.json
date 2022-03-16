@@ -4808,6 +4808,34 @@
         {
           "authors" : [
             {
+              "name" : "Fahim Faisal",
+              "url" : "https:\/\/github.com\/i3p9"
+            }
+          ],
+          "createdAt" : "2022-03-13T18:10:53+06:00",
+          "currentDirectoryPath" : null,
+          "description" : "Get Battery percentage, time remaining, charge status, charger wattage, total cycles etc.",
+          "filename" : "battery-info.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔋"
+          },
+          "identifier" : "682c9017c86e7caafe835fb510cb33e1",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : "3m",
+          "schemaVersion" : 1,
+          "title" : "Battery Info",
+          "updatedAt" : "2022-03-16T15:16:35+06:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Antonio Dal Sie",
               "url" : "https:\/\/github.com\/exodusanto"
             }
@@ -20340,19 +20368,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
-    },
-    {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     },
     {
       "displayName" : "Swift",
@@ -20360,19 +20378,29 @@
       "name" : "swift"
     },
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     },
     {
       "displayName" : "Ruby",
       "icon" : "icon-ruby.png",
       "name" : "ruby"
+    },
+    {
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 709,
-  "updatedAt" : "2022-03-03T08:38:06Z"
+  "totalScriptCommands" : 710,
+  "updatedAt" : "2022-03-16T09:25:15Z"
 }
