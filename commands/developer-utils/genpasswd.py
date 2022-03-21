@@ -90,4 +90,7 @@ if len(sys.argv) > 2:
 else:
     s_len = 6
 
-print(superset(length=sets, set_length=s_len))
+# This auto copies the password to the user's clipboard
+generatedPassword = superset(length=sets, set_length=s_len)
+subprocess.run("pbcopy", universal_newlines=True, input=generatedPassword)
+print(generatedPassword)
