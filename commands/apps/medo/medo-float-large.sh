@@ -15,6 +15,6 @@
 # Documentation:
 # @raycast.description Add a new task with priority 
 # @raycast.author Aayush 
-# @raycast.authorURL https://github.com/Aayush9029/Medo
+# @raycast.authorURL https://github.com/Aayush9029
 
 open "medo://show-large"
