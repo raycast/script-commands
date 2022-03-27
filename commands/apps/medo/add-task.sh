@@ -11,7 +11,7 @@
 # Optional parameters:
 # @raycast.icon ./images/medo.png
 # @raycast.argument1 { "type": "text", "placeholder": "Title" }
-# @raycast.argument2 { "type": "text", "placeholder": "priority", "default": "low","optional": true}
+# @raycast.argument2 { "type": "text", "placeholder": "Priority", "default": "low","optional": true}
 # @raycast.packageName Medo
 
 # Documentation:
