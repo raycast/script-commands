@@ -2,16 +2,25 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Paste as Plain Text
+# @raycast.title Paste and Match Style
 # @raycast.mode silent
 
 # Optional parameters:
 # @raycast.icon 📋
 # @raycast.packageName Conversions
+# @raycast.description A script to click the "Paste and Match Style" menu item, even if it's disabled
 
 # Documentation:
 # @raycast.author Michael Bianco
 # @raycast.authorURL https://github.com/iloveitaly
 
-pbpaste | pbcopy
-osascript -e 'tell application "System Events" to keystroke "v" using command down'
+osascript <<EOL
+tell application "System Events"
+  tell process 1 where frontmost is true
+    click menu item "Paste and Match Style" of menu "Edit" of menu bar 1
+  end tell
+end tell
+EOL
+
+# ensure no toast is displayed
+echo
