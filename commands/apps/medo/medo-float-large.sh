@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Note: Medo v1.0 required
+# Install via Github Repo: https://github.com/Aayush9029/Medo
+
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Medo Float Large
