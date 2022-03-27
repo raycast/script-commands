@@ -17,6 +17,6 @@
 # Documentation:
 # @raycast.description Add a new task
 # @raycast.author Aayush 
-# @raycast.authorURL https://github.com/Aayush9029/Medo
+# @raycast.authorURL https://github.com/Aayush9029
 
 open "medo://add-task?title=$1&p=$2"
