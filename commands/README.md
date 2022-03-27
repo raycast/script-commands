@@ -43,6 +43,7 @@ This repository contains sample commands and documentation to write your own one
   - [Hyper](#hyper)
   - [Lungo](#lungo)
   - [Mail](#mail)
+  - [Medo](#medo)
   - [MeetingBar](#meetingbar)
   - [Mullvad](#mullvad)
   - [NotePlan3](#noteplan3)
@@ -319,6 +320,15 @@ This repository contains sample commands and documentation to write your own one
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
   | 📧 | [Copy Foreground Mail Deeplink](apps/mail/copy-foreground-mail-deeplink.applescript) | Copies the foreground Mail deeplink | [Jesse Claven](https://github.com/jesse-c) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+
+#### Medo
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/medo/./images/medo.png" width="20" height="20"> | [Add Task](apps/medo/add-task.sh) | Add a new task | [Aayush ](https://github.com/Aayush9029) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/medo/./images/medo.png" width="20" height="20"> | [Medo Float](apps/medo/medo-float.sh) | Add a new task with priority  | [Aayush ](https://github.com/Aayush9029) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/medo/./images/medo.png" width="20" height="20"> | [Medo Float Large](apps/medo/medo-float-large.sh) | Add a new task with priority  | [Aayush ](https://github.com/Aayush9029) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/medo/./images/medo.png" width="20" height="20"> | [Medo Float Small](apps/medo/medo-float-small.sh) | Add a new task with priority  | [Aayush ](https://github.com/Aayush9029) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### MeetingBar
 
