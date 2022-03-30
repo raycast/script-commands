@@ -91,6 +91,7 @@ This repository contains sample commands and documentation to write your own one
 - [Dashboard](#dashboard)
   - [Countdowns](#countdowns)
   - [Mood Meter](#mood-meter)
+  - [Google Firebase](#google-firebase)
 - [Developer Utils](#developer-utils)
   - [Aws](#aws)
   - [Brew](#brew)
@@ -745,6 +746,12 @@ This repository contains sample commands and documentation to write your own one
   | ☕️ | [Add Mood](dashboard/mood-meter/add-mood.js) | Add mood value to current or specified date  | [Federico Miraglia](https://github.com/Mitra98t) | ✅ |  | <img src="images/icon-nodejs.png" width="20" height="20" title="Node"> |
   | ☕️ | [Display Mood Month](dashboard/mood-meter/display-mood-month.js) | Displays month mood table  | [Federico Miraglia](https://github.com/Mitra98t) |  |  | <img src="images/icon-nodejs.png" width="20" height="20" title="Node"> |
   | ☕️ | [Display Mood Year](dashboard/mood-meter/display-mood-year.js) | Displays year mood table  | [Federico Miraglia](https://github.com/Mitra98t) | ✅ |  | <img src="images/icon-nodejs.png" width="20" height="20" title="Node"> |
+
+#### Google Firebase
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/dashboard/firebase/images/firebase.png" width="20" height="20">️ | [Firebase Realtime Database](dashboard/firebase/firebase-realtime-db-get-data-template.sh) | Get values from Firebase Realtime Database  | [Marek Mašek](https://github.com/marekmasek) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 ## Developer Utils
 
