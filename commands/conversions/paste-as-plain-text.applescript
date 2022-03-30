@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/osascript
 
 # Required parameters:
 # @raycast.schemaVersion 1
@@ -14,13 +14,8 @@
 # @raycast.author Michael Bianco
 # @raycast.authorURL https://github.com/iloveitaly
 
-osascript <<EOL
 tell application "System Events"
   tell process 1 where frontmost is true
     click menu item "Paste and Match Style" of menu "Edit" of menu bar 1
   end tell
 end tell
-EOL
-
-# ensure no toast is displayed
-echo
