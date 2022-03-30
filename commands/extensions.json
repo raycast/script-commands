@@ -1620,6 +1620,29 @@
           "authors" : null,
           "createdAt" : "2020-09-30T12:56:01+01:00",
           "currentDirectoryPath" : null,
+          "description" : "Opens the last file that was downloaded",
+          "filename" : "open-last-downloaded.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/folder-downloads.png"
+          },
+          "identifier" : "3ad14a4406ddef3807e797a606132af0",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Navigation",
+          "path" : "navigation\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open Last Downloaded",
+          "updatedAt" : "2022-03-30T20:25:55+00:00"
+        },
+        {
+          "authors" : null,
+          "createdAt" : "2020-09-30T12:56:01+01:00",
+          "currentDirectoryPath" : null,
           "description" : "Opens the Documents folder in the Finder.",
           "filename" : "open-documents.sh",
           "hasArguments" : false,
@@ -20486,9 +20509,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     },
     {
       "displayName" : "Ruby",
@@ -20496,9 +20519,9 @@
       "name" : "ruby"
     },
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     },
     {
       "displayName" : "Swift",
@@ -20506,19 +20529,19 @@
       "name" : "swift"
     },
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
     },
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 714,
-  "updatedAt" : "2022-03-27T20:07:09Z"
+  "totalScriptCommands" : 715,
+  "updatedAt" : "2022-03-30T20:25:55Z"
 }
