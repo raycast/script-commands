@@ -7,7 +7,7 @@
 # @raycast.packageName Navigation
 
 # Optional parameters:
-# @raycast.icon images/folder-home.png
+# @raycast.icon images/folder-downloads.png
 
 # Documentation:
 # @raycast.description Opens the last file that was downloaded
