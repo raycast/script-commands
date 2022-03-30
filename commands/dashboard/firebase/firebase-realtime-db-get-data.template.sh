@@ -1,8 +1,9 @@
 #!/bin/bash
 
-# !!! This script is only template, you can use it to write own script to get your data from Firebase Realtime Database !!!
+# Dependency: This script requires `jq` cli installed: https://stedolan.github.io/jq/
+# Install via homebrew: `brew install jq`
 
-# NOTE: jq required, you can use this command to install it: "brew install jq"
+# !!! This script is only template, you can use it to write own script to get your data from Firebase Realtime Database !!!
 # I'm using an Arduino ESP-32 as outside weather station and I'm storing the temperature, humidity and barometric pressure into Firebase Realtime Database.
 # I wrote this script to see those values directly in Raycast. This script is changing the text color based on the Light/Dark mode.
 # Check example folder to see the result of my script and my Firebase Realtime Database structure.
@@ -18,7 +19,7 @@
 # @raycast.icon images/firebase.png
 #
 # Documentation:
-# @raycast.description Get field values from Firebase Realtime Database
+# @raycast.description Get values from Firebase Realtime Database
 # @raycast.author Marek Mašek
 # @raycast.authorURL https://github.com/marekmasek
 
@@ -30,6 +31,11 @@ EMAIL=""
 PASSWORD=""
 # This is URL to your Realtime Database in Firebase, example of DB_URL: "https://${database-name}.${database-location}.firebasedatabase.app"
 DB_URL=""
+
+if ! jq --version download &> /dev/null; then
+      echo "download jq is required (https://stedolan.github.io/jq/).";
+      exit 1;
+fi
 
 # Generate access token
 TOKEN=$(curl -s -H "Content-Type: application/json" -d '{"email": "'$EMAIL'", "password": "'$PASSWORD'", "returnSecureToken": true}' 'https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key='$WEB_API_KEY | jq -r '.idToken')
