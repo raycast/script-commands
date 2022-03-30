@@ -4150,6 +4150,40 @@
           ]
         },
         {
+          "name" : "Firebase",
+          "path" : "firebase",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Marek Mašek",
+                  "url" : "https:\/\/github.com\/marekmasek"
+                }
+              ],
+              "createdAt" : "2022-03-30T22:44:18+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Get values from Firebase Realtime Database",
+              "filename" : "firebase-realtime-db-get-data.template.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/firebase.png"
+              },
+              "identifier" : "dd152410f57df463a043081efbc26960",
+              "isTemplate" : true,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Firebase",
+              "path" : "dashboard\/firebase\/",
+              "refreshTime" : "10m",
+              "schemaVersion" : 1,
+              "title" : "Get data from Firebase",
+              "updatedAt" : "2022-03-30T22:44:18+02:00"
+            }
+          ]
+        },
+        {
           "name" : "Countdowns",
           "path" : "countdowns",
           "scriptCommands" : [
@@ -20519,16 +20553,6 @@
       "name" : "ruby"
     },
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
-    },
-    {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
@@ -20537,11 +20561,21 @@
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
+    },
+    {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 715,
-  "updatedAt" : "2022-03-30T20:25:55Z"
+  "totalScriptCommands" : 716,
+  "updatedAt" : "2022-03-30T20:46:33Z"
 }
