@@ -527,6 +527,34 @@
         {
           "authors" : [
             {
+              "name" : "Michael Bianco",
+              "url" : "https:\/\/github.com\/iloveitaly"
+            }
+          ],
+          "createdAt" : "2022-03-31T08:03:29-06:00",
+          "currentDirectoryPath" : null,
+          "description" : "A script to click the \"Paste and Match Style\" menu item, even if it's disabled",
+          "filename" : "paste-as-plain-text.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📋"
+          },
+          "identifier" : "a9b5ccbfa4a899aa9435317bc6d839a2",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Conversions",
+          "path" : "conversions\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Paste and Match Style",
+          "updatedAt" : "2022-03-31T14:05:46+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -20543,24 +20571,14 @@
   ],
   "languages" : [
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
-    },
-    {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
-    },
-    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     },
     {
       "displayName" : "Python",
@@ -20571,11 +20589,21 @@
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
+    },
+    {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 716,
-  "updatedAt" : "2022-03-30T20:46:33Z"
+  "totalScriptCommands" : 717,
+  "updatedAt" : "2022-03-31T14:05:46Z"
 }
