@@ -92,6 +92,7 @@ This repository contains sample commands and documentation to write your own one
   - [Countdowns](#countdowns)
   - [Firebase](#firebase)
   - [Mood Meter](#mood-meter)
+  - [Open Weather](#open-weather)
 - [Developer Utils](#developer-utils)
   - [Aws](#aws)
   - [Brew](#brew)
@@ -753,6 +754,13 @@ This repository contains sample commands and documentation to write your own one
   | ☕️ | [Add Mood](dashboard/mood-meter/add-mood.js) | Add mood value to current or specified date  | [Federico Miraglia](https://github.com/Mitra98t) | ✅ |  | <img src="images/icon-nodejs.png" width="20" height="20" title="Node"> |
   | ☕️ | [Display Mood Month](dashboard/mood-meter/display-mood-month.js) | Displays month mood table  | [Federico Miraglia](https://github.com/Mitra98t) |  |  | <img src="images/icon-nodejs.png" width="20" height="20" title="Node"> |
   | ☕️ | [Display Mood Year](dashboard/mood-meter/display-mood-year.js) | Displays year mood table  | [Federico Miraglia](https://github.com/Mitra98t) | ✅ |  | <img src="images/icon-nodejs.png" width="20" height="20" title="Node"> |
+
+#### Open Weather
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | ⛅️ | [Current Weather](dashboard/open-weather/weather-current.template.sh) | Get current weather from OpenWeather | [Marek Mašek](https://github.com/marekmasek) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | ⛅️ | [Weather Forecast](dashboard/open-weather/weather-forecast.template.sh) | Get weather forecast from OpenWeather | [Marek Mašek](https://github.com/marekmasek) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 ## Developer Utils
 

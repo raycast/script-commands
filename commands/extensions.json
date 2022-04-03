@@ -4178,6 +4178,68 @@
           ]
         },
         {
+          "name" : "Open Weather",
+          "path" : "open-weather",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Marek Mašek",
+                  "url" : "https:\/\/github.com\/marekmasek"
+                }
+              ],
+              "createdAt" : "2022-04-03T20:33:02+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Get current weather from OpenWeather",
+              "filename" : "weather-current.template.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "⛅️"
+              },
+              "identifier" : "e3d36b7b7215c9fabcc2ca76608cd650",
+              "isTemplate" : true,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "OpenWeather",
+              "path" : "dashboard\/open-weather\/",
+              "refreshTime" : "30m",
+              "schemaVersion" : 1,
+              "title" : "Current Weather",
+              "updatedAt" : "2022-04-03T20:33:02+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Marek Mašek",
+                  "url" : "https:\/\/github.com\/marekmasek"
+                }
+              ],
+              "createdAt" : "2022-04-03T20:33:02+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Get weather forecast from OpenWeather",
+              "filename" : "weather-forecast.template.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "⛅️"
+              },
+              "identifier" : "99c2bb05fdc937398f9b0ca9c21c3de0",
+              "isTemplate" : true,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "OpenWeather",
+              "path" : "dashboard\/open-weather\/",
+              "refreshTime" : "30m",
+              "schemaVersion" : 1,
+              "title" : "Weather Forecast",
+              "updatedAt" : "2022-04-03T20:33:02+02:00"
+            }
+          ]
+        },
+        {
           "name" : "Firebase",
           "path" : "firebase",
           "scriptCommands" : [
@@ -20571,6 +20633,11 @@
   ],
   "languages" : [
     {
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
+    },
+    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
@@ -20579,11 +20646,6 @@
       "displayName" : "Node",
       "icon" : "icon-nodejs.png",
       "name" : "node"
-    },
-    {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
     },
     {
       "displayName" : "Swift",
@@ -20596,14 +20658,14 @@
       "name" : "ruby"
     },
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 717,
-  "updatedAt" : "2022-03-31T14:05:46Z"
+  "totalScriptCommands" : 719,
+  "updatedAt" : "2022-04-03T18:38:31Z"
 }
