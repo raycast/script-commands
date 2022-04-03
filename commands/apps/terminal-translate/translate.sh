@@ -11,7 +11,7 @@
 # Optional parameters:
 # @raycast.icon 📖
 # @raycast.argument1 { "type": "text", "placeholder": "Word or Sentence" }
-# @raycast.packageName terminal-translate
+# @raycast.packageName Terminal Translate
 
 # Documentation:
 # @raycast.description Translate word or sentence.
