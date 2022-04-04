@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Uninstall Application
+# @raycast.title Uninstall
 # @raycast.mode compact
 
 # Optional parameters:
@@ -25,9 +25,14 @@ exec 2>/dev/null
 
 brew cat --cask "$1";
 if [[ ${PIPESTATUS[0]} -ne 0 ]]; then
-  echo "That's not a Homebrew cask. Check the spelling or try uninstalling it manually.";
-  exit 2;
+  brew cat "$1";
+  if [[ ${PIPESTATUS[0]} -ne 0 ]]; then
+    echo "That's not a cask nor a formula. Check the spelling or try uninstalling it manually.";
+    exit 2;
+  fi
+  echo "brew uninstall --force --zap \"$1\"" | pbcopy;
+else
+  echo "brew uninstall --cask --force --zap \"$1\"" | pbcopy;
 fi
 
-echo "brew uninstall --cask --force --zap \"$1\"" | pbcopy;
 echo "Copied command to clipboard.";
