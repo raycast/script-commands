@@ -527,6 +527,34 @@
         {
           "authors" : [
             {
+              "name" : "Michael Bianco",
+              "url" : "https:\/\/github.com\/iloveitaly"
+            }
+          ],
+          "createdAt" : "2022-03-31T08:03:29-06:00",
+          "currentDirectoryPath" : null,
+          "description" : "A script to click the \"Paste and Match Style\" menu item, even if it's disabled",
+          "filename" : "paste-as-plain-text.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📋"
+          },
+          "identifier" : "a9b5ccbfa4a899aa9435317bc6d839a2",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Conversions",
+          "path" : "conversions\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Paste and Match Style",
+          "updatedAt" : "2022-03-31T14:05:46+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -780,7 +808,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Title Case",
-              "updatedAt" : "2021-03-24T04:47:26-04:00"
+              "updatedAt" : "2022-02-22T15:13:31+01:00"
             },
             {
               "authors" : [
@@ -808,7 +836,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Kebab Case",
-              "updatedAt" : "2021-03-24T04:47:26-04:00"
+              "updatedAt" : "2022-02-22T15:13:31+01:00"
             },
             {
               "authors" : [
@@ -836,7 +864,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Snake Case",
-              "updatedAt" : "2022-02-12T11:09:30+01:00"
+              "updatedAt" : "2022-02-22T15:13:31+01:00"
             },
             {
               "authors" : [
@@ -864,7 +892,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Uppercase",
-              "updatedAt" : "2021-03-24T04:47:26-04:00"
+              "updatedAt" : "2022-02-22T15:13:31+01:00"
             },
             {
               "authors" : [
@@ -892,7 +920,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Lowercase",
-              "updatedAt" : "2021-03-24T04:47:26-04:00"
+              "updatedAt" : "2022-02-22T15:13:31+01:00"
             },
             {
               "authors" : [
@@ -920,7 +948,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Camel Case",
-              "updatedAt" : "2021-03-24T04:47:26-04:00"
+              "updatedAt" : "2022-02-22T15:13:31+01:00"
             }
           ]
         }
@@ -967,7 +995,7 @@
           ],
           "createdAt" : "2022-02-06T18:08:25-08:00",
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Create a short URL using Shlink",
           "filename" : "shlink-create-short-url.template.sh",
           "hasArguments" : true,
           "icon" : {
@@ -984,7 +1012,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Create Short URL",
-          "updatedAt" : "2022-02-06T18:08:25-08:00"
+          "updatedAt" : "2022-02-20T23:31:37-08:00"
         },
         {
           "authors" : [
@@ -1208,7 +1236,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Copy Current Page URL",
-          "updatedAt" : "2020-11-23T12:53:48-05:00"
+          "updatedAt" : "2022-02-22T10:00:48+00:00"
         },
         {
           "authors" : [
@@ -1620,6 +1648,29 @@
           "authors" : null,
           "createdAt" : "2020-09-30T12:56:01+01:00",
           "currentDirectoryPath" : null,
+          "description" : "Opens the last file that was downloaded",
+          "filename" : "open-last-downloaded.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/folder-downloads.png"
+          },
+          "identifier" : "3ad14a4406ddef3807e797a606132af0",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Navigation",
+          "path" : "navigation\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open Last Downloaded",
+          "updatedAt" : "2022-03-30T20:25:55+00:00"
+        },
+        {
+          "authors" : null,
+          "createdAt" : "2020-09-30T12:56:01+01:00",
+          "currentDirectoryPath" : null,
           "description" : "Opens the Documents folder in the Finder.",
           "filename" : "open-documents.sh",
           "hasArguments" : false,
@@ -1917,6 +1968,139 @@
               "schemaVersion" : 1,
               "title" : "Power On",
               "updatedAt" : "2022-02-09T10:16:51+00:00"
+            }
+          ]
+        },
+        {
+          "name" : "Ddc",
+          "path" : "ddc",
+          "scriptCommands" : [
+
+          ],
+          "subGroups" : [
+            {
+              "name" : "X86",
+              "path" : "x86",
+              "scriptCommands" : [
+                {
+                  "authors" : [
+                    {
+                      "name" : "goodhyun",
+                      "url" : null
+                    }
+                  ],
+                  "createdAt" : "2022-02-24T17:18:38+09:00",
+                  "currentDirectoryPath" : null,
+                  "description" : "This script will switch the external display screen to DP.",
+                  "filename" : "screen-dp.sh",
+                  "hasArguments" : false,
+                  "icon" : {
+                    "dark" : null,
+                    "light" : "📺"
+                  },
+                  "identifier" : "604dc19d758c3ba4240bd41436ecfc69",
+                  "isTemplate" : false,
+                  "language" : "bash",
+                  "mode" : "compact",
+                  "needsConfirmation" : null,
+                  "packageName" : "External Display",
+                  "path" : "remote-control\/ddc\/x86\/",
+                  "refreshTime" : null,
+                  "schemaVersion" : 1,
+                  "title" : "Switch to DP",
+                  "updatedAt" : "2022-02-24T08:21:35+00:00"
+                },
+                {
+                  "authors" : [
+                    {
+                      "name" : "goodhyun",
+                      "url" : null
+                    }
+                  ],
+                  "createdAt" : "2022-02-24T17:18:38+09:00",
+                  "currentDirectoryPath" : null,
+                  "description" : "This script will switch the external display screen to HDMI.",
+                  "filename" : "screen-hdmi.sh",
+                  "hasArguments" : false,
+                  "icon" : {
+                    "dark" : null,
+                    "light" : "📺"
+                  },
+                  "identifier" : "5c5b8dce88c2fb37b74dfd96eacdfcb6",
+                  "isTemplate" : false,
+                  "language" : "bash",
+                  "mode" : "compact",
+                  "needsConfirmation" : null,
+                  "packageName" : "External Display",
+                  "path" : "remote-control\/ddc\/x86\/",
+                  "refreshTime" : null,
+                  "schemaVersion" : 1,
+                  "title" : "Switch to HDMI",
+                  "updatedAt" : "2022-02-24T08:21:35+00:00"
+                }
+              ]
+            },
+            {
+              "name" : "Arm64",
+              "path" : "arm64",
+              "scriptCommands" : [
+                {
+                  "authors" : [
+                    {
+                      "name" : "goodhyun",
+                      "url" : null
+                    }
+                  ],
+                  "createdAt" : "2022-02-24T17:18:38+09:00",
+                  "currentDirectoryPath" : null,
+                  "description" : "This script will switch the external display screen to DP.",
+                  "filename" : "screen-dp.sh",
+                  "hasArguments" : false,
+                  "icon" : {
+                    "dark" : null,
+                    "light" : "📺"
+                  },
+                  "identifier" : "604dc19d758c3ba4240bd41436ecfc69",
+                  "isTemplate" : false,
+                  "language" : "bash",
+                  "mode" : "compact",
+                  "needsConfirmation" : null,
+                  "packageName" : "External Display",
+                  "path" : "remote-control\/ddc\/arm64\/",
+                  "refreshTime" : null,
+                  "schemaVersion" : 1,
+                  "title" : "Switch to DP",
+                  "updatedAt" : "2022-02-24T08:21:35+00:00"
+                },
+                {
+                  "authors" : [
+                    {
+                      "name" : "goodhyun",
+                      "url" : null
+                    }
+                  ],
+                  "createdAt" : "2022-02-24T17:18:38+09:00",
+                  "currentDirectoryPath" : null,
+                  "description" : "This script will switch the external display screen to HDMI.",
+                  "filename" : "screen-hdmi.sh",
+                  "hasArguments" : false,
+                  "icon" : {
+                    "dark" : null,
+                    "light" : "📺"
+                  },
+                  "identifier" : "5c5b8dce88c2fb37b74dfd96eacdfcb6",
+                  "isTemplate" : false,
+                  "language" : "bash",
+                  "mode" : "compact",
+                  "needsConfirmation" : null,
+                  "packageName" : "External Display",
+                  "path" : "remote-control\/ddc\/arm64\/",
+                  "refreshTime" : null,
+                  "schemaVersion" : 1,
+                  "title" : "Switch to HDMI",
+                  "updatedAt" : "2022-02-24T08:21:35+00:00"
+                }
+              ]
             }
           ]
         },
@@ -3545,6 +3729,34 @@
         {
           "authors" : [
             {
+              "name" : "Astrit",
+              "url" : "https:\/\/github.com\/astrit"
+            }
+          ],
+          "createdAt" : "2022-02-23T23:10:21+01:00",
+          "currentDirectoryPath" : null,
+          "description" : "Fear & Greed Index from CNN",
+          "filename" : "fear-index.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "😱 "
+          },
+          "identifier" : "7862558b671bcea3f416d6bb8901d12f",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Fear & Greed Index",
+          "path" : "dashboard\/",
+          "refreshTime" : "12h",
+          "schemaVersion" : 1,
+          "title" : "Fear Index",
+          "updatedAt" : "2022-02-23T23:10:21+01:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Clark Dinnison",
               "url" : "https:\/\/github.com\/cdinnison"
             }
@@ -3962,6 +4174,102 @@
               "schemaVersion" : 1,
               "title" : "Display Mood Year",
               "updatedAt" : "2021-10-07T10:32:15+02:00"
+            }
+          ]
+        },
+        {
+          "name" : "Open Weather",
+          "path" : "open-weather",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Marek Mašek",
+                  "url" : "https:\/\/github.com\/marekmasek"
+                }
+              ],
+              "createdAt" : "2022-04-03T20:33:02+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Get current weather from OpenWeather",
+              "filename" : "weather-current.template.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "⛅️"
+              },
+              "identifier" : "e3d36b7b7215c9fabcc2ca76608cd650",
+              "isTemplate" : true,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "OpenWeather",
+              "path" : "dashboard\/open-weather\/",
+              "refreshTime" : "30m",
+              "schemaVersion" : 1,
+              "title" : "Current Weather",
+              "updatedAt" : "2022-04-03T20:33:02+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Marek Mašek",
+                  "url" : "https:\/\/github.com\/marekmasek"
+                }
+              ],
+              "createdAt" : "2022-04-03T20:33:02+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Get weather forecast from OpenWeather",
+              "filename" : "weather-forecast.template.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "⛅️"
+              },
+              "identifier" : "99c2bb05fdc937398f9b0ca9c21c3de0",
+              "isTemplate" : true,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "OpenWeather",
+              "path" : "dashboard\/open-weather\/",
+              "refreshTime" : "30m",
+              "schemaVersion" : 1,
+              "title" : "Weather Forecast",
+              "updatedAt" : "2022-04-03T20:33:02+02:00"
+            }
+          ]
+        },
+        {
+          "name" : "Firebase",
+          "path" : "firebase",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Marek Mašek",
+                  "url" : "https:\/\/github.com\/marekmasek"
+                }
+              ],
+              "createdAt" : "2022-03-30T22:44:18+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Get values from Firebase Realtime Database",
+              "filename" : "firebase-realtime-db-get-data.template.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/firebase.png"
+              },
+              "identifier" : "dd152410f57df463a043081efbc26960",
+              "isTemplate" : true,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Firebase",
+              "path" : "dashboard\/firebase\/",
+              "refreshTime" : "10m",
+              "schemaVersion" : 1,
+              "title" : "Get data from Firebase",
+              "updatedAt" : "2022-03-30T22:44:18+02:00"
             }
           ]
         },
@@ -4647,6 +4955,34 @@
         {
           "authors" : [
             {
+              "name" : "Fahim Faisal",
+              "url" : "https:\/\/github.com\/i3p9"
+            }
+          ],
+          "createdAt" : "2022-03-13T18:10:53+06:00",
+          "currentDirectoryPath" : null,
+          "description" : "Get Battery percentage, time remaining, charge status, charger wattage, total cycles etc.",
+          "filename" : "battery-info.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔋"
+          },
+          "identifier" : "682c9017c86e7caafe835fb510cb33e1",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : "3m",
+          "schemaVersion" : 1,
+          "title" : "Battery Info",
+          "updatedAt" : "2022-03-16T15:16:35+06:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Antonio Dal Sie",
               "url" : "https:\/\/github.com\/exodusanto"
             }
@@ -5114,6 +5450,34 @@
           "schemaVersion" : 1,
           "title" : "Toggle Hidden Files",
           "updatedAt" : "2020-11-23T12:53:48-05:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Ernest Ojeh",
+              "url" : "https:\/\/github.com\/namzo"
+            }
+          ],
+          "createdAt" : "2022-02-21T17:47:42+01:00",
+          "currentDirectoryPath" : null,
+          "description" : "This script minimizes all windows of currently running apps",
+          "filename" : "minimize-all-windows.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/minimize-window.png"
+          },
+          "identifier" : "3b65d4ebb56ca0837e508f63395b1230",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Minimize All Windows",
+          "updatedAt" : "2022-02-21T17:47:42+01:00"
         },
         {
           "authors" : [
@@ -6615,7 +6979,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Generate Password",
-          "updatedAt" : "2021-06-14T20:09:49+02:00"
+          "updatedAt" : "2022-03-21T14:57:32-04:00"
         },
         {
           "authors" : [
@@ -8251,6 +8615,34 @@
           "name" : "Brew",
           "path" : "brew",
           "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "LanikSJ",
+                  "url" : "https:\/\/github.com\/LanikSJ"
+                }
+              ],
+              "createdAt" : "2022-03-03T00:32:00-08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Updates brew and upgrades every outdated app",
+              "filename" : "brew-cask-upgrade.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🍺"
+              },
+              "identifier" : "d1c2825e774ea720d9897eaf8a0d7b9d",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Brew",
+              "path" : "developer-utils\/brew\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Cask Upgrade",
+              "updatedAt" : "2022-03-03T00:32:00-08:00"
+            },
             {
               "authors" : [
                 {
@@ -13925,7 +14317,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Change Application Icon",
-              "updatedAt" : "2021-12-30T21:07:32+08:00"
+              "updatedAt" : "2022-02-22T00:14:05+08:00"
             }
           ]
         },
@@ -16053,6 +16445,124 @@
           ]
         },
         {
+          "name" : "Medo",
+          "path" : "medo",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Aayush ",
+                  "url" : "https:\/\/github.com\/Aayush9029"
+                }
+              ],
+              "createdAt" : "2022-03-27T16:04:55-04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Add a new task with priority ",
+              "filename" : "medo-float-small.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/medo.png"
+              },
+              "identifier" : "53656a8d7f20d1e46864d16a171f415e",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Medo",
+              "path" : "apps\/medo\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Medo Float Small",
+              "updatedAt" : "2022-03-27T16:04:55-04:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Aayush ",
+                  "url" : "https:\/\/github.com\/Aayush9029"
+                }
+              ],
+              "createdAt" : "2022-03-27T16:04:55-04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Add a new task with priority ",
+              "filename" : "medo-float-large.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/medo.png"
+              },
+              "identifier" : "1b642fee34bc69c2bfffff0474590cda",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Medo",
+              "path" : "apps\/medo\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Medo Float Large",
+              "updatedAt" : "2022-03-27T16:04:55-04:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Aayush ",
+                  "url" : "https:\/\/github.com\/Aayush9029"
+                }
+              ],
+              "createdAt" : "2022-03-27T16:04:55-04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Add a new task",
+              "filename" : "add-task.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/medo.png"
+              },
+              "identifier" : "964abdac20ce59cf52a6d150569ed68c",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Medo",
+              "path" : "apps\/medo\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Add Task",
+              "updatedAt" : "2022-03-27T16:04:55-04:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Aayush ",
+                  "url" : "https:\/\/github.com\/Aayush9029"
+                }
+              ],
+              "createdAt" : "2022-03-27T16:04:55-04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Add a new task with priority ",
+              "filename" : "medo-float.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/medo.png"
+              },
+              "identifier" : "d17151bc9fa155a91dd7a260bf330279",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Medo",
+              "path" : "apps\/medo\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Medo Float",
+              "updatedAt" : "2022-03-27T16:04:55-04:00"
+            }
+          ]
+        },
+        {
           "name" : "Agenda",
           "path" : "agenda",
           "readme" : "apps\/agenda\/README.md",
@@ -16606,7 +17116,7 @@
                 }
               ],
               "createdAt" : "2022-02-18T02:19:33-08:00",
-              "currentDirectoryPath" : null,
+              "currentDirectoryPath" : "~",
               "description" : "Run a terminal using Hyper",
               "filename" : "hyper-run-shell-command.applescript",
               "hasArguments" : true,
@@ -16624,7 +17134,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Run Shell Command",
-              "updatedAt" : "2022-02-18T02:19:33-08:00"
+              "updatedAt" : "2022-02-18T19:08:51-08:00"
             }
           ]
         },
@@ -20123,6 +20633,21 @@
   ],
   "languages" : [
     {
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
+    },
+    {
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
@@ -20133,29 +20658,14 @@
       "name" : "ruby"
     },
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
       "displayName" : "Python",
       "icon" : "icon-python.png",
       "name" : "python"
-    },
-    {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
-    },
-    {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 702,
-  "updatedAt" : "2022-02-21T01:14:25Z"
+  "totalScriptCommands" : 719,
+  "updatedAt" : "2022-04-03T18:38:31Z"
 }

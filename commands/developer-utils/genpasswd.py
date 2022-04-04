@@ -74,19 +74,23 @@ def superset(
 
     return result
 
-
-sets = sys.argv[1]
-if sets.isdigit():
-    sets = int(sets)
+# stops a crash if this doesn't exist
+if len(sys.argv) > 1:
+    sets = sys.argv[1]
+    if sets.isdigit():
+        sets = int(sets)
 else:
     # do not crash, set fallback value
     sets = 3
-
-
-s_len = sys.argv[2]
-if s_len.isdigit():
-    s_len = int(s_len)
+# stops a crash if this doesn't exist
+if len(sys.argv) > 2:
+    s_len = sys.argv[2]
+    if s_len.isdigit():
+        s_len = int(s_len)
 else:
     s_len = 6
 
-print(superset(length=sets, set_length=s_len))
+# This auto copies the password to the user's clipboard
+generatedPassword = superset(length=sets, set_length=s_len)
+subprocess.run("pbcopy", universal_newlines=True, input=generatedPassword)
+print(generatedPassword)
