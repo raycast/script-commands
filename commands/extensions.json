@@ -8926,6 +8926,34 @@
             {
               "authors" : [
                 {
+                  "name" : "StevenRCE0",
+                  "url" : "https:\/\/github.com\/StevenRCE0"
+                }
+              ],
+              "createdAt" : "2022-04-06T00:01:05+08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Uninstalls an Specified Application Using Homebrew",
+              "filename" : "brew-uninstall-application.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "🍺"
+              },
+              "identifier" : "90405cfd617b86b933e641e182bb12c9",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Brew",
+              "path" : "developer-utils\/brew\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Uninstall",
+              "updatedAt" : "2022-04-06T00:01:05+08:00"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Thiago Holanda",
                   "url" : "https:\/\/twitter.com\/tholanda"
                 }
@@ -13516,6 +13544,40 @@
               "schemaVersion" : 1,
               "title" : "Wikipedia Search",
               "updatedAt" : "2021-07-23T17:46:53-04:00"
+            }
+          ]
+        },
+        {
+          "name" : "Terminal Translate",
+          "path" : "terminal-translate",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Fatpandac",
+                  "url" : "https:\/\/github.com\/Fatpandac"
+                }
+              ],
+              "createdAt" : "2022-04-04T02:34:41+08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Translate word or sentence.",
+              "filename" : "translate.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "📖"
+              },
+              "identifier" : "8cd0465bb037880e1fcc57beb8ffea49",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Terminal Translate",
+              "path" : "apps\/terminal-translate\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Translate",
+              "updatedAt" : "2022-04-04T02:34:41+08:00"
             }
           ]
         },
@@ -20633,19 +20695,14 @@
   ],
   "languages" : [
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
-    },
-    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
     },
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     },
     {
       "displayName" : "Swift",
@@ -20653,9 +20710,14 @@
       "name" : "swift"
     },
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     },
     {
       "displayName" : "Python",
@@ -20666,6 +20728,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 719,
-  "updatedAt" : "2022-04-03T18:38:31Z"
+  "totalScriptCommands" : 721,
+  "updatedAt" : "2022-04-05T16:03:33Z"
 }
