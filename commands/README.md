@@ -63,6 +63,7 @@ This repository contains sample commands and documentation to write your own one
   - [Sip](#sip)
   - [Surfshark](#surfshark)
   - [Tailscale](#tailscale)
+  - [Terminal Translate](#terminal-translate)
   - [Things](#things)
   - [Todoist](#todoist)
   - [Translate Shell](#translate-shell)
@@ -490,6 +491,12 @@ This repository contains sample commands and documentation to write your own one
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tailscale/./images/tailscale-iconDark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tailscale/./images/tailscale-icon.png" width="20" height="20"></picture> | [Get IP](apps/tailscale/tailscale-ip.sh) | Gets your private Tailscale IP | [Ross Zurowski](https://github.com/rosszurowski) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tailscale/./images/tailscale-iconDark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tailscale/./images/tailscale-icon.png" width="20" height="20"></picture> | [Switch Account](apps/tailscale/tailscale-switch.sh) | Switches Tailscale networks | [Ross Zurowski](https://github.com/rosszurowski) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
+#### Terminal Translate
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | 📖 | [Translate](apps/terminal-translate/translate.sh) | Translate word or sentence. | [Fatpandac](https://github.com/Fatpandac) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
 #### Things
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
@@ -840,6 +847,7 @@ This repository contains sample commands and documentation to write your own one
   | 🍺 | [Services List](developer-utils/brew/brew-services-list.sh) | Show Brew Services List | [Thiago Holanda](https://twitter.com/tholanda) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🍺 | [Start Service](developer-utils/brew/brew-services-start.sh) | Start Service in Brew | [Thiago Holanda](https://twitter.com/tholanda) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🍺 | [Stop Service](developer-utils/brew/brew-services-stop.sh) | Stop Service in Brew | [Thiago Holanda](https://twitter.com/tholanda) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🍺 | [Uninstall](developer-utils/brew/brew-uninstall-application.sh) | Uninstalls an Specified Application Using Homebrew | [StevenRCE0](https://github.com/StevenRCE0) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🍺 | [Update](developer-utils/brew/brew-update.sh) | Run Brew Update | [chengzhiqi](https://twitter.com/1872Fate) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🍺 | [Upgrade](developer-utils/brew/brew-upgrade.sh) | Run Brew Upgrade | [Thiago Holanda](https://twitter.com/tholanda) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
