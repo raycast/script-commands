@@ -14192,40 +14192,6 @@
           ]
         },
         {
-          "name" : "Script Kit",
-          "path" : "script-kit",
-          "scriptCommands" : [
-            {
-              "authors" : [
-                {
-                  "name" : "Achille Lacoin",
-                  "url" : "https:\/\/github.com\/pomdtr"
-                }
-              ],
-              "createdAt" : "2021-07-25T17:09:15+02:00",
-              "currentDirectoryPath" : null,
-              "description" : "Convert all Script Kit scripts to Raycast Script Commands",
-              "filename" : "import-scripts-from-script-kit.py",
-              "hasArguments" : false,
-              "icon" : {
-                "dark" : null,
-                "light" : ".\/images\/kit_logo.png"
-              },
-              "identifier" : "b5d0da0e719c56fab014833b572a9ce5",
-              "isTemplate" : false,
-              "language" : "python",
-              "mode" : "fullOutput",
-              "needsConfirmation" : null,
-              "packageName" : "Script Kit",
-              "path" : "apps\/script-kit\/",
-              "refreshTime" : null,
-              "schemaVersion" : 1,
-              "title" : "Import scripts from Script Kit",
-              "updatedAt" : "2021-08-03T16:01:36+02:00"
-            }
-          ]
-        },
-        {
           "name" : "Ferdi",
           "path" : "ferdi",
           "scriptCommands" : [
@@ -20695,9 +20661,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     },
     {
       "displayName" : "Ruby",
@@ -20705,19 +20671,19 @@
       "name" : "ruby"
     },
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     },
     {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
-    },
-    {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
     },
     {
       "displayName" : "Python",
@@ -20728,6 +20694,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 721,
-  "updatedAt" : "2022-04-05T16:03:33Z"
+  "totalScriptCommands" : 720,
+  "updatedAt" : "2022-04-09T13:38:14Z"
 }
