@@ -3,12 +3,14 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Network Quality
-# @raycast.mode fullOutput
+# @raycast.mode inline
+# @raycast.refreshTime 20m
 
 # Optional parameters:
 # @raycast.icon 🌐
 
 # Documentation:
+# @raycast.packageName System
 # @raycast.author Archie Lacoin
 # @raycast.authorURL https://github.com/pomdtr
 # @raycast.author LanikSJ
