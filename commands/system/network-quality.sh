@@ -9,7 +9,7 @@
 # @raycast.icon 🌐
 
 # Documentation:
-# @raycast.author LanikSJ
-# @raycast.authorURL https://github.com/LanikSJ
+# @raycast.author Archie Lacoin & LanikSJ
+# @raycast.authorURL https://github.com/pomdtr & https://github.com/LanikSJ
 
 networkQuality -v
