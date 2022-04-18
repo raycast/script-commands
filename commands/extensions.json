@@ -5482,6 +5482,38 @@
         {
           "authors" : [
             {
+              "name" : "Archie Lacoin",
+              "url" : "https:\/\/github.com\/pomdtr"
+            },
+            {
+              "name" : "LanikSJ",
+              "url" : "https:\/\/github.com\/LanikSJ"
+            }
+          ],
+          "createdAt" : "2022-04-18T08:53:46-07:00",
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "network-quality.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🌐"
+          },
+          "identifier" : "c8ccba60ea98f52ca4712bbd2ff58c26",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : "20m",
+          "schemaVersion" : 1,
+          "title" : "Network Quality",
+          "updatedAt" : "2022-04-18T08:53:46-07:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Thiago Holanda",
               "url" : "https:\/\/twitter.com\/tholanda"
             }
@@ -20661,9 +20693,14 @@
   ],
   "languages" : [
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
+    },
+    {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     },
     {
       "displayName" : "Ruby",
@@ -20681,19 +20718,14 @@
       "name" : "applescript"
     },
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
-    },
-    {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 720,
-  "updatedAt" : "2022-04-09T13:38:14Z"
+  "totalScriptCommands" : 721,
+  "updatedAt" : "2022-04-18T15:56:59Z"
 }
