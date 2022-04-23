@@ -3,7 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Copy Focused Finder Window Path
-# @raycast.mode compact
+# @raycast.mode silent
 
 # Optional parameters:
 # @raycast.icon 📁
