@@ -6098,6 +6098,38 @@
           "updatedAt" : "2020-12-08T15:56:35+00:00"
         },
         {
+          "authors" : [
+            {
+              "name" : "Yufei Kang",
+              "url" : "kangyufei.net"
+            },
+            {
+              "name" : "LanikSJ",
+              "url" : "https:\/\/github.com\/LanikSJ"
+            }
+          ],
+          "createdAt" : "2022-04-20T11:03:29-07:00",
+          "currentDirectoryPath" : null,
+          "description" : "Save Image From Clipboard",
+          "filename" : "save-image-from-clipboard.py",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🤖"
+          },
+          "identifier" : "9b9abd66aac59663e406febe5530ed84",
+          "isTemplate" : false,
+          "language" : "python",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Clipboard",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Save Image From Clipboard",
+          "updatedAt" : "2022-04-20T11:03:29-07:00"
+        },
+        {
           "authors" : null,
           "createdAt" : "2020-09-30T12:56:01+01:00",
           "currentDirectoryPath" : null,
@@ -20693,9 +20725,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     },
     {
       "displayName" : "Python",
@@ -20703,14 +20735,9 @@
       "name" : "python"
     },
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
     },
     {
       "displayName" : "AppleScript",
@@ -20721,11 +20748,16 @@
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
+    },
+    {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 721,
-  "updatedAt" : "2022-04-18T15:56:59Z"
+  "totalScriptCommands" : 722,
+  "updatedAt" : "2022-04-23T10:20:52Z"
 }
