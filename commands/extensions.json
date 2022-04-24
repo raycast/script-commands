@@ -7276,6 +7276,34 @@
         {
           "authors" : [
             {
+              "name" : "Vishal Telangre",
+              "url" : "https:\/\/github.com\/vishaltelangre"
+            }
+          ],
+          "createdAt" : "2020-11-30T21:05:51+02:00",
+          "currentDirectoryPath" : null,
+          "description" : "Copies full path of the currently focused Finder window",
+          "filename" : "copy-focused-finder-window-path.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📁"
+          },
+          "identifier" : "6e8e65e874ff14cff3f49c902d7481b9",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utils",
+          "path" : "developer-utils\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Copy Focused Finder Window Path",
+          "updatedAt" : "2022-04-24T12:29:22+05:30"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -20725,14 +20753,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
-    },
-    {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     },
     {
       "displayName" : "Bash",
@@ -20745,19 +20768,24 @@
       "name" : "applescript"
     },
     {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
     },
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 722,
-  "updatedAt" : "2022-04-23T10:20:52Z"
+  "totalScriptCommands" : 723,
+  "updatedAt" : "2022-04-24T07:01:30Z"
 }
