@@ -20,7 +20,7 @@
 
 **✨ Looking to build richer extensions?** Check out the Extensions API [here](https://github.com/raycast/extensions).
 
-🚨 For anything that is not related to script commands, please [send us an email](feedback@raycast.com), use the feedback command within Raycast, or join the [Slack community](https://www.raycast.com/community).
+🚨 For anything that is not related to script commands, please [send us an email](mailto:feedback@raycast.com), use the feedback command within Raycast, or join the [Slack community](https://www.raycast.com/community).
 
 <br>
 <br>
