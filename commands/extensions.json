@@ -527,6 +527,34 @@
         {
           "authors" : [
             {
+              "name" : "Michael Bianco",
+              "url" : "https:\/\/github.com\/iloveitaly"
+            }
+          ],
+          "createdAt" : "2022-03-31T08:03:29-06:00",
+          "currentDirectoryPath" : null,
+          "description" : "A script to click the \"Paste and Match Style\" menu item, even if it's disabled",
+          "filename" : "paste-as-plain-text.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📋"
+          },
+          "identifier" : "a9b5ccbfa4a899aa9435317bc6d839a2",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Conversions",
+          "path" : "conversions\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Paste and Match Style",
+          "updatedAt" : "2022-03-31T14:05:46+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -1615,6 +1643,29 @@
           "schemaVersion" : 1,
           "title" : "Open Desktop",
           "updatedAt" : "2021-04-27T16:34:55-04:00"
+        },
+        {
+          "authors" : null,
+          "createdAt" : "2020-09-30T12:56:01+01:00",
+          "currentDirectoryPath" : null,
+          "description" : "Opens the last file that was downloaded",
+          "filename" : "open-last-downloaded.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/folder-downloads.png"
+          },
+          "identifier" : "3ad14a4406ddef3807e797a606132af0",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Navigation",
+          "path" : "navigation\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open Last Downloaded",
+          "updatedAt" : "2022-03-30T20:25:55+00:00"
         },
         {
           "authors" : null,
@@ -4127,6 +4178,102 @@
           ]
         },
         {
+          "name" : "Open Weather",
+          "path" : "open-weather",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Marek Mašek",
+                  "url" : "https:\/\/github.com\/marekmasek"
+                }
+              ],
+              "createdAt" : "2022-04-03T20:33:02+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Get current weather from OpenWeather",
+              "filename" : "weather-current.template.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "⛅️"
+              },
+              "identifier" : "e3d36b7b7215c9fabcc2ca76608cd650",
+              "isTemplate" : true,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "OpenWeather",
+              "path" : "dashboard\/open-weather\/",
+              "refreshTime" : "30m",
+              "schemaVersion" : 1,
+              "title" : "Current Weather",
+              "updatedAt" : "2022-04-03T20:33:02+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Marek Mašek",
+                  "url" : "https:\/\/github.com\/marekmasek"
+                }
+              ],
+              "createdAt" : "2022-04-03T20:33:02+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Get weather forecast from OpenWeather",
+              "filename" : "weather-forecast.template.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "⛅️"
+              },
+              "identifier" : "99c2bb05fdc937398f9b0ca9c21c3de0",
+              "isTemplate" : true,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "OpenWeather",
+              "path" : "dashboard\/open-weather\/",
+              "refreshTime" : "30m",
+              "schemaVersion" : 1,
+              "title" : "Weather Forecast",
+              "updatedAt" : "2022-04-03T20:33:02+02:00"
+            }
+          ]
+        },
+        {
+          "name" : "Firebase",
+          "path" : "firebase",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Marek Mašek",
+                  "url" : "https:\/\/github.com\/marekmasek"
+                }
+              ],
+              "createdAt" : "2022-03-30T22:44:18+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Get values from Firebase Realtime Database",
+              "filename" : "firebase-realtime-db-get-data.template.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/firebase.png"
+              },
+              "identifier" : "dd152410f57df463a043081efbc26960",
+              "isTemplate" : true,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Firebase",
+              "path" : "dashboard\/firebase\/",
+              "refreshTime" : "10m",
+              "schemaVersion" : 1,
+              "title" : "Get data from Firebase",
+              "updatedAt" : "2022-03-30T22:44:18+02:00"
+            }
+          ]
+        },
+        {
           "name" : "Countdowns",
           "path" : "countdowns",
           "scriptCommands" : [
@@ -4808,6 +4955,34 @@
         {
           "authors" : [
             {
+              "name" : "Fahim Faisal",
+              "url" : "https:\/\/github.com\/i3p9"
+            }
+          ],
+          "createdAt" : "2022-03-13T18:10:53+06:00",
+          "currentDirectoryPath" : null,
+          "description" : "Get Battery percentage, time remaining, charge status, charger wattage, total cycles etc.",
+          "filename" : "battery-info.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔋"
+          },
+          "identifier" : "682c9017c86e7caafe835fb510cb33e1",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : "3m",
+          "schemaVersion" : 1,
+          "title" : "Battery Info",
+          "updatedAt" : "2022-03-16T15:16:35+06:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Antonio Dal Sie",
               "url" : "https:\/\/github.com\/exodusanto"
             }
@@ -5303,6 +5478,38 @@
           "schemaVersion" : 1,
           "title" : "Minimize All Windows",
           "updatedAt" : "2022-02-21T17:47:42+01:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Archie Lacoin",
+              "url" : "https:\/\/github.com\/pomdtr"
+            },
+            {
+              "name" : "LanikSJ",
+              "url" : "https:\/\/github.com\/LanikSJ"
+            }
+          ],
+          "createdAt" : "2022-04-18T08:53:46-07:00",
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "network-quality.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🌐"
+          },
+          "identifier" : "c8ccba60ea98f52ca4712bbd2ff58c26",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : "20m",
+          "schemaVersion" : 1,
+          "title" : "Network Quality",
+          "updatedAt" : "2022-04-18T08:53:46-07:00"
         },
         {
           "authors" : [
@@ -5889,6 +6096,38 @@
           "schemaVersion" : 1,
           "title" : "Copy Last Screenshot",
           "updatedAt" : "2020-12-08T15:56:35+00:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Yufei Kang",
+              "url" : "kangyufei.net"
+            },
+            {
+              "name" : "LanikSJ",
+              "url" : "https:\/\/github.com\/LanikSJ"
+            }
+          ],
+          "createdAt" : "2022-04-20T11:03:29-07:00",
+          "currentDirectoryPath" : null,
+          "description" : "Save Image From Clipboard",
+          "filename" : "save-image-from-clipboard.py",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🤖"
+          },
+          "identifier" : "9b9abd66aac59663e406febe5530ed84",
+          "isTemplate" : false,
+          "language" : "python",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Clipboard",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Save Image From Clipboard",
+          "updatedAt" : "2022-04-20T11:03:29-07:00"
         },
         {
           "authors" : null,
@@ -6804,7 +7043,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Generate Password",
-          "updatedAt" : "2021-06-14T20:09:49+02:00"
+          "updatedAt" : "2022-03-21T14:57:32-04:00"
         },
         {
           "authors" : [
@@ -7033,6 +7272,34 @@
           "schemaVersion" : 1,
           "title" : "Flutter Create Project",
           "updatedAt" : "2021-08-17T16:40:16+00:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Vishal Telangre",
+              "url" : "https:\/\/github.com\/vishaltelangre"
+            }
+          ],
+          "createdAt" : "2020-11-30T21:05:51+02:00",
+          "currentDirectoryPath" : null,
+          "description" : "Copies full path of the currently focused Finder window",
+          "filename" : "copy-focused-finder-window-path.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📁"
+          },
+          "identifier" : "6e8e65e874ff14cff3f49c902d7481b9",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utils",
+          "path" : "developer-utils\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Copy Focused Finder Window Path",
+          "updatedAt" : "2022-04-24T12:29:22+05:30"
         },
         {
           "authors" : [
@@ -8747,6 +9014,34 @@
               "schemaVersion" : 1,
               "title" : "Restart Service",
               "updatedAt" : "2021-09-07T10:00:18+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "StevenRCE0",
+                  "url" : "https:\/\/github.com\/StevenRCE0"
+                }
+              ],
+              "createdAt" : "2022-04-06T00:01:05+08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Uninstalls an Specified Application Using Homebrew",
+              "filename" : "brew-uninstall-application.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "🍺"
+              },
+              "identifier" : "90405cfd617b86b933e641e182bb12c9",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Brew",
+              "path" : "developer-utils\/brew\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Uninstall",
+              "updatedAt" : "2022-04-06T00:01:05+08:00"
             },
             {
               "authors" : [
@@ -13345,6 +13640,40 @@
           ]
         },
         {
+          "name" : "Terminal Translate",
+          "path" : "terminal-translate",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Fatpandac",
+                  "url" : "https:\/\/github.com\/Fatpandac"
+                }
+              ],
+              "createdAt" : "2022-04-04T02:34:41+08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Translate word or sentence.",
+              "filename" : "translate.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "📖"
+              },
+              "identifier" : "8cd0465bb037880e1fcc57beb8ffea49",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Terminal Translate",
+              "path" : "apps\/terminal-translate\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Translate",
+              "updatedAt" : "2022-04-04T02:34:41+08:00"
+            }
+          ]
+        },
+        {
           "name" : "Playground",
           "path" : "playground",
           "readme" : "apps\/playground\/README.md",
@@ -13951,40 +14280,6 @@
               "schemaVersion" : 1,
               "title" : "Tunnelblick: Connect All",
               "updatedAt" : "2021-03-14T17:37:20+01:00"
-            }
-          ]
-        },
-        {
-          "name" : "Script Kit",
-          "path" : "script-kit",
-          "scriptCommands" : [
-            {
-              "authors" : [
-                {
-                  "name" : "Achille Lacoin",
-                  "url" : "https:\/\/github.com\/pomdtr"
-                }
-              ],
-              "createdAt" : "2021-07-25T17:09:15+02:00",
-              "currentDirectoryPath" : null,
-              "description" : "Convert all Script Kit scripts to Raycast Script Commands",
-              "filename" : "import-scripts-from-script-kit.py",
-              "hasArguments" : false,
-              "icon" : {
-                "dark" : null,
-                "light" : ".\/images\/kit_logo.png"
-              },
-              "identifier" : "b5d0da0e719c56fab014833b572a9ce5",
-              "isTemplate" : false,
-              "language" : "python",
-              "mode" : "fullOutput",
-              "needsConfirmation" : null,
-              "packageName" : "Script Kit",
-              "path" : "apps\/script-kit\/",
-              "refreshTime" : null,
-              "schemaVersion" : 1,
-              "title" : "Import scripts from Script Kit",
-              "updatedAt" : "2021-08-03T16:01:36+02:00"
             }
           ]
         },
@@ -16266,6 +16561,124 @@
               "schemaVersion" : 1,
               "title" : "Connect",
               "updatedAt" : "2021-11-03T23:01:39+03:00"
+            }
+          ]
+        },
+        {
+          "name" : "Medo",
+          "path" : "medo",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Aayush ",
+                  "url" : "https:\/\/github.com\/Aayush9029"
+                }
+              ],
+              "createdAt" : "2022-03-27T16:04:55-04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Add a new task with priority ",
+              "filename" : "medo-float-small.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/medo.png"
+              },
+              "identifier" : "53656a8d7f20d1e46864d16a171f415e",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Medo",
+              "path" : "apps\/medo\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Medo Float Small",
+              "updatedAt" : "2022-03-27T16:04:55-04:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Aayush ",
+                  "url" : "https:\/\/github.com\/Aayush9029"
+                }
+              ],
+              "createdAt" : "2022-03-27T16:04:55-04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Add a new task with priority ",
+              "filename" : "medo-float-large.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/medo.png"
+              },
+              "identifier" : "1b642fee34bc69c2bfffff0474590cda",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Medo",
+              "path" : "apps\/medo\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Medo Float Large",
+              "updatedAt" : "2022-03-27T16:04:55-04:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Aayush ",
+                  "url" : "https:\/\/github.com\/Aayush9029"
+                }
+              ],
+              "createdAt" : "2022-03-27T16:04:55-04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Add a new task",
+              "filename" : "add-task.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/medo.png"
+              },
+              "identifier" : "964abdac20ce59cf52a6d150569ed68c",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Medo",
+              "path" : "apps\/medo\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Add Task",
+              "updatedAt" : "2022-03-27T16:04:55-04:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Aayush ",
+                  "url" : "https:\/\/github.com\/Aayush9029"
+                }
+              ],
+              "createdAt" : "2022-03-27T16:04:55-04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Add a new task with priority ",
+              "filename" : "medo-float.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/medo.png"
+              },
+              "identifier" : "d17151bc9fa155a91dd7a260bf330279",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Medo",
+              "path" : "apps\/medo\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Medo Float",
+              "updatedAt" : "2022-03-27T16:04:55-04:00"
             }
           ]
         },
@@ -20340,6 +20753,11 @@
   ],
   "languages" : [
     {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
@@ -20350,9 +20768,9 @@
       "name" : "applescript"
     },
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     },
     {
       "displayName" : "Swift",
@@ -20360,19 +20778,14 @@
       "name" : "swift"
     },
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 709,
-  "updatedAt" : "2022-03-03T08:38:06Z"
+  "totalScriptCommands" : 723,
+  "updatedAt" : "2022-04-24T07:01:30Z"
 }
