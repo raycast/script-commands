@@ -4,6 +4,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Port 8080
 # @raycast.mode silent
+# @raycast.packageName Port
 
 # Optional parameters:
 # @raycast.icon 🌐
