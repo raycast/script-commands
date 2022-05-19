@@ -12,7 +12,7 @@
 # @raycast.packageName Raycast
 
 # Documentation:
-# @raycast.description Set Confetti run times and intervals
+# @raycast.description Set Confetti to run for a number of times and during intervals
 # @raycast.author Fatpandac
 # @raycast.authorURL https://github.com/Fatpandac
 
