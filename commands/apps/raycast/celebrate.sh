@@ -8,7 +8,7 @@
 # Optional parameters:
 # @raycast.icon 🎉
 # @raycast.argument1 { "type": "text", "placeholder": "Times (Default: 1)", "optional": true }
-# @raycast.argument2 { "type": "text", "placeholder": "interval, defualt by 0", "optional": true  }
+# @raycast.argument2 { "type": "text", "placeholder": "Interval (Default: 0)", "optional": true  }
 # @raycast.packageName Raycast
 
 # Documentation:
