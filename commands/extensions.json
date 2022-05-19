@@ -6690,7 +6690,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Audio devices",
-              "updatedAt" : "2021-04-16T23:17:04+03:00"
+              "updatedAt" : "2022-04-24T19:49:41+08:00"
             },
             {
               "authors" : [
@@ -6718,7 +6718,7 @@
               "refreshTime" : "10m",
               "schemaVersion" : 1,
               "title" : "Audio devices",
-              "updatedAt" : "2021-04-19T18:23:32+03:00"
+              "updatedAt" : "2022-04-24T19:49:41+08:00"
             },
             {
               "authors" : [
@@ -6746,7 +6746,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Set audio device",
-              "updatedAt" : "2021-04-19T18:26:53+03:00"
+              "updatedAt" : "2022-04-24T19:49:41+08:00"
             },
             {
               "authors" : [
@@ -16114,6 +16114,40 @@
           ]
         },
         {
+          "name" : "Raycast",
+          "path" : "raycast",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Fatpandac",
+                  "url" : "https:\/\/github.com\/Fatpandac"
+                }
+              ],
+              "createdAt" : "2022-05-19T01:47:07+08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Set Confetti to run for a number of times and during intervals",
+              "filename" : "celebrate.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "🎉"
+              },
+              "identifier" : "c9ab115f10c7edb801658fe3f94c2886",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Raycast",
+              "path" : "apps\/raycast\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Celebrate",
+              "updatedAt" : "2022-05-19T10:24:28+08:00"
+            }
+          ]
+        },
+        {
           "name" : "Surfshark",
           "path" : "surfshark",
           "scriptCommands" : [
@@ -20753,16 +20787,6 @@
   ],
   "languages" : [
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
-    },
-    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
@@ -20773,19 +20797,29 @@
       "name" : "python"
     },
     {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
+    },
+    {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
     },
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 723,
-  "updatedAt" : "2022-04-24T07:01:30Z"
+  "totalScriptCommands" : 724,
+  "updatedAt" : "2022-05-19T11:10:14Z"
 }
