@@ -9,7 +9,7 @@
 # @raycast.icon 🎉
 # @raycast.argument1 { "type": "text", "placeholder": "times, defualt by 1", "optional": true }
 # @raycast.argument2 { "type": "text", "placeholder": "interval, defualt by 0", "optional": true  }
-# @raycast.packageName Celebrate
+# @raycast.packageName Raycast
 
 # Documentation:
 # @raycast.description Set Confetti run times and intervals
