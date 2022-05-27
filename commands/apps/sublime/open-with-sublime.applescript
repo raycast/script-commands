@@ -12,7 +12,7 @@
 # Documentation:
 # @raycast.author Rock Hu
 # @raycast.authorURL https://twitter.com/0xRock
-# @raycast.description Open Current Focus Directory in Sublime
+# @raycast.description Open currently focused directory in Sublime
 
 set targetApp to path to application "Sublime Text"
 
