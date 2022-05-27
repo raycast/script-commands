@@ -7,7 +7,7 @@
 
 # Optional parameters:
 # @raycast.icon https://cdn.worldvectorlogo.com/logos/sublime-text.svg
-# @raycast.packageName Open With Sublime
+# @raycast.packageName Sublime
 
 # Documentation:
 # @raycast.author Rock Hu
