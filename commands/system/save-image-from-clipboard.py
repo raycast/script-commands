@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 # Dependency: This script requires Pillow Python module
-# Install via Python: python3 -m pip install Pilllow
+# Install via Python: python3 -m pip install Pillow
 
 # Required parameters:
 # @raycast.schemaVersion 1
