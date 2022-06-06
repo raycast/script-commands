@@ -16,45 +16,41 @@
 # @raycast.authorURL https://github.com/marcoslor
 
 on run argv
-
     try 
         if application "Spotify" is not running then
             activate application "Spotify"
             delay 1
-
-            set screenElementsCount to 0
-            set loopCount to 0
             
             # Verify whether the splash screen is gone by checking
             # if the count of the UI elements on the window is above a certain threshold.
 
-            repeat while (screenElementsCount < 6 and loopCount <= 20)
-                tell application "System Events"
-                    tell front window of application process "Spotify"
-                        set screenElementsCount to count (entire contents as list)
-                    end tell
-                end tell
-                set loopCount to loopCount + 1
+            repeat with counter from 1 to 20
+                tell application "System Events" to tell front window of application process "Spotify" to set screenElementsCount to count (entire contents as list)
+                
+                if screenElementsCount > 5 then
+                    exit repeat
+                end if
+
+                if counter = 20
+                    error "asserting the app has been opened took too long"
+                end if
+
                 delay 0.5
             end repeat
-
-            if loopCount > 20
-                error "asserting the app has been opened took too long"
-            end if
 
             # Randomly assigned delay based on trial and error on my machine.
 
             # Obiviously, this won't work for everyone, and I have NO IDEA how to 
             # verify whether Spotify is initiated and ready to receive inputs.
 
-            delay 3
+            delay 2
         end if
 
         if application "Spotify" is running then
             tell application "System Events" to tell process "Spotify"
                 click menu item "Spotify" of menu 1 of menu bar item "Window" of menu bar 1
                 set frontmost to true
-                
+
                 click menu item "Search" of menu 1 of menu bar item "Edit" of menu bar 1
 
                 delay 0.5
@@ -71,5 +67,4 @@ on run argv
             log "Failed to open Spotify"
         end if
     end try
-    
 end run
