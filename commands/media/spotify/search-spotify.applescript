@@ -52,9 +52,10 @@ on run argv
 
         if application "Spotify" is running then
             tell application "System Events" to tell process "Spotify"
-                click menu item "Search" of menu 1 of menu bar item "Edit" of menu bar 1
-
+                click menu item "Spotify" of menu 1 of menu bar item "Window" of menu bar 1
                 set frontmost to true
+                
+                click menu item "Search" of menu 1 of menu bar item "Edit" of menu bar 1
 
                 delay 0.5
                 keystroke ( item 1 of argv )
