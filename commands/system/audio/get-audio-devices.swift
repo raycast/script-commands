@@ -19,6 +19,9 @@ import CoreAudio
 
 // Based on https://stackoverflow.com/a/58618034/793916
 
+// Equivalent of kAudioObjectPropertyElementMain to prevent SDK compatibility issues.
+private let audioObjectPropertyElementMain: AudioObjectPropertyElement = 0
+
 final class AudioDevice {
 
 	let audioDeviceID: AudioDeviceID
@@ -31,13 +34,13 @@ final class AudioDevice {
 		var address: AudioObjectPropertyAddress = AudioObjectPropertyAddress(
 			mSelector: AudioObjectPropertySelector(kAudioDevicePropertyStreamConfiguration),
 			mScope: AudioObjectPropertyScope(kAudioDevicePropertyScopeOutput),
-			mElement: AudioObjectPropertyElement(0))
+			mElement: audioObjectPropertyElementMain)
 
 		var propSize: UInt32 = 0
 		var result = AudioObjectGetPropertyDataSize(
 			audioDeviceID,
 			&address,
-			UInt32(MemoryLayout<AudioObjectPropertyAddress>.size),
+			0,
 			nil,
 			&propSize)
 
@@ -64,9 +67,9 @@ final class AudioDevice {
 
 	var name: String? {
 		var address = AudioObjectPropertyAddress(
-			mSelector: AudioObjectPropertySelector(kAudioDevicePropertyDeviceNameCFString),
+			mSelector: AudioObjectPropertySelector(kAudioObjectPropertyName),
 			mScope: AudioObjectPropertyScope(kAudioObjectPropertyScopeGlobal),
-			mElement: AudioObjectPropertyElement(kAudioObjectPropertyElementMaster))
+			mElement: audioObjectPropertyElementMain)
 
 		var name: CFString? = nil
 		var propSize = UInt32(MemoryLayout<CFString?>.size)
@@ -85,13 +88,13 @@ func findDevices() -> [AudioDevice] {
 	var address = AudioObjectPropertyAddress(
 		mSelector: AudioObjectPropertySelector(kAudioHardwarePropertyDevices),
 		mScope: AudioObjectPropertyScope(kAudioObjectPropertyScopeGlobal),
-		mElement: AudioObjectPropertyElement(kAudioObjectPropertyElementMaster))
+		mElement: audioObjectPropertyElementMain)
 
 	var propSize: UInt32 = 0
 	var result = AudioObjectGetPropertyDataSize(
 		AudioObjectID(kAudioObjectSystemObject),
 		&address,
-		UInt32(MemoryLayout<AudioObjectPropertyAddress>.size),
+		0,
 		nil,
 		&propSize)
 
@@ -136,7 +139,7 @@ func selectedDevice(output: Bool) -> String? {
 	var idPropertyAddress = AudioObjectPropertyAddress(
 		mSelector: AudioObjectPropertySelector(selector),
 		mScope: AudioObjectPropertyScope(kAudioObjectPropertyScopeGlobal),
-		mElement: AudioObjectPropertyElement(kAudioObjectPropertyElementMaster))
+		mElement: audioObjectPropertyElementMain)
 
 	let result = AudioObjectGetPropertyData(
 		id,
