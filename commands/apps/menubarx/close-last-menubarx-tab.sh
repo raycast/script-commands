@@ -7,6 +7,7 @@
 
 # Optional parameters:
 # @raycast.icon images/menubarx_logo.png
+# @raycast.packageName MenubarX
 
 # Documentation:
 # @raycast.description Close last viewed tab in MenubarX

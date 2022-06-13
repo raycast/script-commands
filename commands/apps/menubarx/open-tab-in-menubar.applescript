@@ -7,6 +7,7 @@
 
 # Optional parameters:
 # @raycast.icon images/menubarx_logo.png
+# @raycast.packageName MenubarX
 # @raycast.argument1 { "type": "text", "placeholder": "Tabs 1~9" }
 
 # Documentation:

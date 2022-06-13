@@ -6,6 +6,7 @@
 # @raycast.mode silent
 # Optional parameters:
 # @raycast.icon images/menubarx_logo.png
+# @raycast.packageName MenubarX
 
 # Documentation:
 # @raycast.description Open Pasteboard link in MenubarX
