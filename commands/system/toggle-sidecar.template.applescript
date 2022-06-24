@@ -6,12 +6,12 @@
 # @raycast.mode silent
 
 # Optional parameters:
-# @raycast.icon 🖥
+# @raycast.icon images/apple_sidecar.png
 # @raycast.packageName System
 
 # Documentation:
 # @raycast.description Toggles on/off a Sidecar screen.
-# @raycast.author Marcos Sánchez-Dehesa
+# @raycast.author Marcos S�nchez-Dehesa
 # @raycast.authorURL https://www.github.com/dehesa
 
 # The name of the device to be connected as a sidecar screen (e.g. the name of your iPad).
