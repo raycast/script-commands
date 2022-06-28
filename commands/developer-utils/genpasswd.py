@@ -75,18 +75,18 @@ def superset(
     return result
 
 # stops a crash if this doesn't exist
-if len(sys.argv) > 1:
-    sets = sys.argv[1]
-    if sets.isdigit():
-        sets = int(sets)
+
+sets = sys.argv[1]
+if sets.isdigit():
+    sets = int(sets)
 else:
     # do not crash, set fallback value
     sets = 3
 # stops a crash if this doesn't exist
-if len(sys.argv) > 2:
-    s_len = sys.argv[2]
-    if s_len.isdigit():
-        s_len = int(s_len)
+
+s_len = sys.argv[2]
+if s_len.isdigit():
+    s_len = int(s_len)
 else:
     s_len = 6
 
