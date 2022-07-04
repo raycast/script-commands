@@ -2,49 +2,46 @@
 
 // Required parameters:
 // @raycast.schemaVersion 1
-// @raycast.title ocr
+// @raycast.title OCR
 // @raycast.mode silent
 
 // Optional parameters:
 // @raycast.icon 🖼
-// @raycast.packageName OCR_SWIFT
+// @raycast.packageName Productivity
 
 // Documentation:
 // @raycast.author zhe
 // @raycast.authorURL https://github.com/wmszhe
-// @raycast.description OCR with macOS Vision
+// @raycast.description Use macOS Vision API Identification pictures, if it contain a QR code, Copy the QR code content to the clipboard, If do not include QR codes, identify text content and supplement to clipboard
+
 
 import Foundation
 import CoreImage
 import Cocoa
 import Vision
 
-let tmpPath = "/tmp/ocr.png"
-var recognitionLanguages = ["en-US", "zh-CN"]
-var joiner = " "
+let screenCapturePath = "/tmp/ocr.png"
+let recognitionLanguages = ["en-US", "zh-CN"]
+let joiner = " "
 
-
-func doShell(_ command: String) -> String {
+func screenCapture(_ command: String) throws -> String{
     let task = Process()
+    let pipe = Pipe()
+
     task.launchPath = "/bin/bash"
     task.arguments = ["-c", command]
-
-    let pipe = Pipe()
     task.standardOutput = pipe
-    task.launch()
+    task.standardError = pipe
+
+    try task.run()
 
     let data = pipe.fileHandleForReading.readDataToEndOfFile()
-    let output: String = NSString(data: data, encoding: String.Encoding.utf8.rawValue)! as String
-
-    return output
+    return String(decoding: data, as: UTF8.self)
 }
 
 func convertCIImageToCGImage(inputImage: CIImage) -> CGImage? {
     let context = CIContext(options: nil)
-    if let cgImage = context.createCGImage(inputImage, from: inputImage.extent) {
-        return cgImage
-    }
-    return nil
+    return context.createCGImage(inputImage, from: inputImage.extent)
 }
 
 func paste(text: String) {
@@ -55,8 +52,7 @@ func paste(text: String) {
 }
 
 func recognizeTextHandler(request: VNRequest, error: Error?) {
-    guard let observations =
-    request.results as? [VNRecognizedTextObservation] else {
+    guard let observations = request.results as? [VNRecognizedTextObservation] else {
         return
     }
     let recognizedStrings = observations.compactMap { observation in
@@ -67,15 +63,15 @@ func recognizeTextHandler(request: VNRequest, error: Error?) {
     // Process the recognized strings.
     let result = recognizedStrings.joined(separator: joiner)
 
-    print("result: " + result)
+    print("The text content is: " + result)
 
     paste(text: result)
 }
 
-func detectText(fileName: URL) -> [String]? {
+func detectText(fileName: URL) {
     if let ciImage = CIImage(contentsOf: fileName) {
         guard let img = convertCIImageToCGImage(inputImage: ciImage) else {
-            return nil
+            return
         }
 
         let requestHandler = VNImageRequestHandler(cgImage: img)
@@ -91,17 +87,12 @@ func detectText(fileName: URL) -> [String]? {
             print("Unable to perform the requests: \(error).")
         }
     }
-    return nil
 }
 
-func recognitionQRCode(fileName: URL) -> Bool {
+func detectImage(fileName: URL) -> Bool {
     let detector = CIDetector(ofType: CIDetectorTypeQRCode, context: nil, options: nil)
 
-    guard let ciImage = CIImage(contentsOf: fileName) else {
-        return false
-    }
-
-    guard let features = detector?.features(in: ciImage) else {
+    guard let ciImage = CIImage(contentsOf: fileName), let features = detector?.features(in: ciImage) else {
         return false
     }
 
@@ -116,6 +107,7 @@ func recognitionQRCode(fileName: URL) -> Bool {
     }
 
     if isQRCode {
+        print("QR code analysis results: " + result)
         paste(text: result)
     }
 
@@ -125,13 +117,20 @@ func recognitionQRCode(fileName: URL) -> Bool {
 func main() {
     // Only support the system above macOS 10.15
     guard #available(OSX 10.15, *) else {
-        print("Only support the system above macOS 10.15")
-        return
+        return print("Only support the system above macOS 10.15")
     }
-    let _ = doShell("/usr/sbin/screencapture -i " + tmpPath)
-    guard recognitionQRCode(fileName: URL(fileURLWithPath: tmpPath)) else {
-        let _ = detectText(fileName: URL(fileURLWithPath: tmpPath))
-        return
+    do {
+        // It must be ensured that the screenshot is preserved successfully
+        let _ = try screenCapture("/usr/sbin/screencapture -i " + screenCapturePath)
+        print("screen capture complete, Image preservation location: " + screenCapturePath)
+    } catch {
+        return print("\(error)")
+    }
+
+    // Determine whether the picture contains a QR code, if it contain a QR code, Copy the QR code content to the clipboard
+    guard detectImage(fileName: URL(fileURLWithPath: screenCapturePath)) else {
+        // If do not include QR codes, identify text content and supplement to clipboard
+        return detectText(fileName: URL(fileURLWithPath: screenCapturePath))
     }
 }
 
