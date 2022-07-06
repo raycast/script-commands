@@ -1,0 +1,40 @@
+#!/bin/bash
+
+# Required parameters:
+# @raycast.schemaVersion 1
+# @raycast.title Create Task
+# @raycast.mode silent
+
+# Optional parameters:
+# @raycast.icon images/todoist-logo.png
+# @raycast.packageName Todoist
+# @raycast.needsConfirmation false
+# @raycast.argument1 { "type": "text", "placeholder": "call mom tomorrow at 5", "optional": false, }
+
+# Documentation: 
+# @raycast.description Creates Todoist task
+# @raycast.author Faris Aziz
+# @raycast.authorURL https://github.com/farisaziz12
+
+# Get your API Token from: https://todoist.com/prefs/integrations
+
+API_TOKEN="APITOKENHERE"
+
+if [ -z "$API_TOKEN" ]; then
+	echo "Todoist API token is missing.";
+	exit 1;
+fi
+
+TASK="$1"
+
+if [[ $TASK != "" ]]; then
+    curl "https://api.todoist.com/sync/v8/quick/add" \
+    	-X -S POST \
+    	--data '{"text": "'"$TASK"'"}' \
+    	-H "Content-Type: application/json" \
+    	-H "Authorization: Bearer $API_TOKEN"
+
+	echo "Task Created" # These tasks will show up in your inbox
+else
+	echo "Please specify a task"
+fi
