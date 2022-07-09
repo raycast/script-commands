@@ -8,7 +8,6 @@
 # Optional parameters:
 # @raycast.icon images/todoist-logo.png
 # @raycast.packageName Todoist
-# @raycast.needsConfirmation false
 # @raycast.argument1 { "type": "text", "placeholder": "call mom tomorrow at 5", "optional": false, }
 
 # Documentation: 
