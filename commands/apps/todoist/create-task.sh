@@ -11,7 +11,7 @@
 # @raycast.argument1 { "type": "text", "placeholder": "call mom tomorrow at 5", "optional": false, }
 
 # Documentation: 
-# @raycast.description Creates Todoist task
+# @raycast.description Create Task
 # @raycast.author Faris Aziz
 # @raycast.authorURL https://github.com/farisaziz12
 
