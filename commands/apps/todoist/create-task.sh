@@ -8,7 +8,7 @@
 # Optional parameters:
 # @raycast.icon images/todoist-logo.png
 # @raycast.packageName Todoist
-# @raycast.argument1 { "type": "text", "placeholder": "call mom tomorrow at 5", "optional": false, }
+# @raycast.argument1 { "type": "text", "placeholder": "Call Mom Tomorrow at 5" }
 
 # Documentation: 
 # @raycast.description Create Task
