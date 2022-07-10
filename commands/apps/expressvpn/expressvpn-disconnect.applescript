@@ -17,8 +17,8 @@
 
 tell application "ExpressVPN"
 	if state = "connected" or state = "connecting" then
-        disconnect
+		disconnect
 	else if state = "ready" then
-	    do shell script "echo Already Disconnected..."
+		do shell script "echo Already Disconnected..."
 	end if
 end tell
