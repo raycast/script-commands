@@ -17,9 +17,9 @@
 
 tell application "ExpressVPN"
 	if state = "connected" then
-        do shell script "echo Already Connected."
+		do shell script "echo Already Connected."
 	else if state = "connecting" then
-        do shell script "echo Please wait. Connecting..."
+		do shell script "echo Please wait. Connecting..."
 	else if state = "ready" then
 		connect
 	end if
