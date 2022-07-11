@@ -24,7 +24,8 @@ let screenCapturePath = "/tmp/ocr.png"
 let recognitionLanguages = ["en-US", "zh-CN"]
 let joiner = " "
 
-func screenCapture(_ command: String) throws -> String{
+@discardableResult
+func screenCapture(_ command: String) throws -> String {
     let task = Process()
     let pipe = Pipe()
 
@@ -36,7 +37,11 @@ func screenCapture(_ command: String) throws -> String{
     try task.run()
 
     let data = pipe.fileHandleForReading.readDataToEndOfFile()
-    return String(decoding: data, as: UTF8.self)
+    if let output = String(data: data, encoding: .utf8) {
+        return output
+    } else {
+        throw NSError(domain: "error", code: -1, userInfo: nil)
+    }
 }
 
 func convertCIImageToCGImage(inputImage: CIImage) -> CGImage? {
@@ -69,23 +74,24 @@ func recognizeTextHandler(request: VNRequest, error: Error?) {
 }
 
 func detectText(fileName: URL) {
-    if let ciImage = CIImage(contentsOf: fileName) {
-        guard let img = convertCIImageToCGImage(inputImage: ciImage) else {
-            return
-        }
+    guard
+            let ciImage = CIImage(contentsOf: fileName),
+            let img = convertCIImageToCGImage(inputImage: ciImage)
+    else {
+        return
+    }
 
-        let requestHandler = VNImageRequestHandler(cgImage: img)
+    let requestHandler = VNImageRequestHandler(cgImage: img)
 
-        // Create a new request to recognize text.
-        let request = VNRecognizeTextRequest(completionHandler: recognizeTextHandler)
-        request.recognitionLanguages = recognitionLanguages
+    // Create a new request to recognize text.
+    let request = VNRecognizeTextRequest(completionHandler: recognizeTextHandler)
+    request.recognitionLanguages = recognitionLanguages
 
-        do {
-            // Perform the text-recognition request.
-            try requestHandler.perform([request])
-        } catch {
-            print("Unable to perform the requests: \(error).")
-        }
+    do {
+        // Perform the text-recognition request.
+        try requestHandler.perform([request])
+    } catch {
+        print("Unable to perform the requests: \(error).")
     }
 }
 
@@ -121,7 +127,7 @@ func main() {
     }
     do {
         // It must be ensured that the screenshot is preserved successfully
-        let _ = try screenCapture("/usr/sbin/screencapture -i " + screenCapturePath)
+        try screenCapture("/usr/sbin/screencapture -i " + screenCapturePath)
         print("screen capture complete, Image preservation location: " + screenCapturePath)
     } catch {
         return print("\(error)")
@@ -135,4 +141,3 @@ func main() {
 }
 
 main()
-
