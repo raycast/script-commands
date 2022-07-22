@@ -4,7 +4,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title ExpressVPN Reconnect
+# @raycast.title Reconnect
 # @raycast.mode silent
 
 # Optional parameters:
