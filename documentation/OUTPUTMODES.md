@@ -64,7 +64,7 @@ We also support [8-bit](https://en.wikipedia.org/wiki/ANSI_escape_code#8-bit) an
 ![colors inline mode](/images/screenshots/colour-example.png)
 | Script | Code |
 | ------ | ---- |
-| bash | `echo -e '\\033[31;42mred text on green background\\033[0m'` |
+| bash | `echo -e '\033[31;42mred text on green background\033[0m'` |
 | bash tput | `export TERM=linux; echo "$(tput setaf 1)$(tput setab 2)red text on green background$(tput sgr0)";` |
 | swift | `print("\\u{001B}[31;42mred text on green background\\u{001B}[0m")` |
 | osascript | `do shell script "echo '\\033[31;42mred text on green background\\033[0m'"`|
