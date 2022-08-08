@@ -6,13 +6,15 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Toggle battery charging
+# @raycast.title Toggle Battery Charging
 # @raycast.mode silent
 
 # Optional parameters:
 # @raycast.icon 🔋
+# @raycast.packageName System
 
 # Documentation:
+# @raycast.description Toggle charging the battery when it is plugged in. When turned off, it will always use the charger instead of the battery; when turned on, it will go to automatic mode (decide based on your settings and daily charging routine).
 # @raycast.author Amir Hossein SamadiPour
 # @raycast.authorURL https://github.com/SamadiPour
 
