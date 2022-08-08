@@ -18,8 +18,8 @@
 # @raycast.author Amir Hossein SamadiPour
 # @raycast.authorURL https://github.com/SamadiPour
 
-status=$(battery status | awk 'NF>1{print $NF}')
-if [ "$status" = "enabled" ]; then
+hex_status=$( smc -k CH0B -r | awk '{print $4}' | sed s:\):: )
+if [[ "$hex_status" == "00" ]]; then
     battery charging off
     echo "Charging OFF"
 else
