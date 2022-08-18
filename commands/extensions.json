@@ -1213,6 +1213,34 @@
         {
           "authors" : [
             {
+              "name" : "Samuel Henry",
+              "url" : "https:\/\/bne.sh"
+            }
+          ],
+          "createdAt" : "2022-06-20T10:20:50+10:00",
+          "currentDirectoryPath" : null,
+          "description" : "Transform the clipboard contents to a short Emoji URL",
+          "filename" : "short-url-emoji.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔗"
+          },
+          "identifier" : "e811b99614fa16b00c890cede57aee7b",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Browsing",
+          "path" : "browsing\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Shorten URL with Emojis",
+          "updatedAt" : "2022-06-20T10:20:50+10:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Kirill Gorbachyonok",
               "url" : "https:\/\/github.com\/japanese-goblinn"
             }
@@ -3668,7 +3696,7 @@
           "refreshTime" : "1h",
           "schemaVersion" : 1,
           "title" : "Current Weather",
-          "updatedAt" : "2020-11-28T13:47:03-05:00"
+          "updatedAt" : "2022-07-01T16:07:45+02:00"
         },
         {
           "authors" : [
@@ -4480,34 +4508,6 @@
           "schemaVersion" : 1,
           "title" : "Capture Fullscreen to Clipboard",
           "updatedAt" : "2021-08-07T19:28:35-07:00"
-        },
-        {
-          "authors" : [
-            {
-              "name" : "Marcos Sánchez-Dehesa",
-              "url" : "https:\/\/www.github.com\/dehesa"
-            }
-          ],
-          "createdAt" : "2022-01-04T13:45:02+00:00",
-          "currentDirectoryPath" : null,
-          "description" : "Toggles on\/off a Sidecar screen.",
-          "filename" : "toggle-sidecar.template.applescript",
-          "hasArguments" : false,
-          "icon" : {
-            "dark" : null,
-            "light" : "🖥"
-          },
-          "identifier" : "437e9a7d0814734ab2d234be72fa89de",
-          "isTemplate" : true,
-          "language" : "applescript",
-          "mode" : "silent",
-          "needsConfirmation" : null,
-          "packageName" : "System",
-          "path" : "system\/",
-          "refreshTime" : null,
-          "schemaVersion" : 1,
-          "title" : "Toggle Sidecar",
-          "updatedAt" : "2022-01-04T13:45:02+00:00"
         },
         {
           "authors" : [
@@ -5370,6 +5370,34 @@
         {
           "authors" : [
             {
+              "name" : "zhe",
+              "url" : "https:\/\/github.com\/wmszhe"
+            }
+          ],
+          "createdAt" : "2022-07-22T17:53:33+08:00",
+          "currentDirectoryPath" : null,
+          "description" : "Use macOS Vision API Identification pictures, if it contain a QR code, Copy the QR code content to the clipboard, If do not include QR codes, identify text content and supplement to clipboard",
+          "filename" : "ocr.swift",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🖼"
+          },
+          "identifier" : "83aec5a2b407fa4ad1c7c485b8c49199",
+          "isTemplate" : false,
+          "language" : "swift",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Productivity",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "OCR",
+          "updatedAt" : "2022-07-22T17:53:33+08:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Aaron Miller",
               "url" : "https:\/\/github.com\/aaronhmiller"
             }
@@ -6029,7 +6057,7 @@
           "currentDirectoryPath" : null,
           "description" : "Copies the calendar availability of today.",
           "filename" : "copy-availability.swift",
-          "hasArguments" : false,
+          "hasArguments" : true,
           "icon" : {
             "dark" : null,
             "light" : "📅"
@@ -6044,7 +6072,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Copy Availability",
-          "updatedAt" : "2021-01-21T23:00:49+01:00"
+          "updatedAt" : "2022-08-08T14:02:44+02:00"
         },
         {
           "authors" : [
@@ -6127,7 +6155,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Save Image From Clipboard",
-          "updatedAt" : "2022-04-20T11:03:29-07:00"
+          "updatedAt" : "2022-05-28T15:53:15+09:00"
         },
         {
           "authors" : null,
@@ -6258,6 +6286,34 @@
           "schemaVersion" : 1,
           "title" : "Shut Down",
           "updatedAt" : "2020-12-08T15:56:35+00:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Amir Hossein SamadiPour",
+              "url" : "https:\/\/github.com\/SamadiPour"
+            }
+          ],
+          "createdAt" : "2022-08-06T01:15:04+04:30",
+          "currentDirectoryPath" : null,
+          "description" : "Toggle charging the battery when it is plugged in. When turned off, it will always use the charger instead of the battery; when turned on, it will go to automatic mode (decide based on your settings and daily charging routine).",
+          "filename" : "toggle-battery-charging.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔋"
+          },
+          "identifier" : "9ef75d2415c5c413099e591710f0c054",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle Battery Charging",
+          "updatedAt" : "2022-08-18T12:53:36+00:00"
         },
         {
           "authors" : null,
@@ -8576,6 +8632,180 @@
               "schemaVersion" : 1,
               "title" : "Issues",
               "updatedAt" : "2021-05-20T22:32:25+02:00"
+            }
+          ]
+        },
+        {
+          "name" : "Minikube",
+          "path" : "minikube",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Daniils Petrovs",
+                  "url" : "https:\/\/danpetrov.xyz"
+                }
+              ],
+              "createdAt" : "2022-08-06T20:55:00+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Start Minikube cluster",
+              "filename" : "minikube-start.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🚀"
+              },
+              "identifier" : "1d2543332c8c0ca25fe54aed2ee3f982",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Minikube",
+              "path" : "developer-utils\/minikube\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Start",
+              "updatedAt" : "2022-08-06T20:55:00+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Daniils Petrovs",
+                  "url" : "https:\/\/danpetrov.xyz"
+                }
+              ],
+              "createdAt" : "2022-08-06T20:55:00+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Pause Minikube cluster",
+              "filename" : "minikube-config-set.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "⚙️"
+              },
+              "identifier" : "d6f637554979e38d38f4149244d245c1",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Minikube",
+              "path" : "developer-utils\/minikube\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Config Set",
+              "updatedAt" : "2022-08-06T20:55:00+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Daniils Petrovs",
+                  "url" : "https:\/\/danpetrov.xyz"
+                }
+              ],
+              "createdAt" : "2022-08-06T20:55:00+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Stops a running Minikube cluster",
+              "filename" : "minikube-stop.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🤖"
+              },
+              "identifier" : "8b6bf7326d5c1bee0c704d3decf724de",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Minikube",
+              "path" : "developer-utils\/minikube\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Stop",
+              "updatedAt" : "2022-08-06T20:55:00+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Daniils Petrovs",
+                  "url" : "https:\/\/danpetrov.xyz"
+                }
+              ],
+              "createdAt" : "2022-08-06T20:55:00+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Pause Minikube cluster",
+              "filename" : "minikube-unpause.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "⏸"
+              },
+              "identifier" : "c164a2e673e4cf59c3180d154f1e78c6",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Minikube",
+              "path" : "developer-utils\/minikube\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Unpause",
+              "updatedAt" : "2022-08-06T20:55:00+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Daniils Petrovs",
+                  "url" : "https:\/\/danpetrov.xyz"
+                }
+              ],
+              "createdAt" : "2022-08-06T20:55:00+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show Minikube cluster status",
+              "filename" : "minikube-status.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "ℹ️"
+              },
+              "identifier" : "606629ecfbefdad4b07765587a208546",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Minikube",
+              "path" : "developer-utils\/minikube\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Status",
+              "updatedAt" : "2022-08-06T20:55:00+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Daniils Petrovs",
+                  "url" : "https:\/\/danpetrov.xyz"
+                }
+              ],
+              "createdAt" : "2022-08-06T20:55:00+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Pause Minikube cluster",
+              "filename" : "minikube-pause.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "⏸"
+              },
+              "identifier" : "8b95921fd6d9305ef97cd1e7ab038594",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Minikube",
+              "path" : "developer-utils\/minikube\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Pause",
+              "updatedAt" : "2022-08-06T20:55:00+02:00"
             }
           ]
         },
@@ -14284,6 +14514,40 @@
           ]
         },
         {
+          "name" : "Message",
+          "path" : "Message",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Fatpandac",
+                  "url" : "https:\/\/github.com\/Fatpandac"
+                }
+              ],
+              "createdAt" : "2022-06-23T18:59:56+08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Copy verification code from a message.",
+              "filename" : "copycode.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/Message.png"
+              },
+              "identifier" : "f07bfd0fc382e1e3a7a1ca7b8b23221d",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Messages",
+              "path" : "apps\/Message\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Copy Code",
+              "updatedAt" : "2022-06-23T18:59:56+08:00"
+            }
+          ]
+        },
+        {
           "name" : "Ferdi",
           "path" : "ferdi",
           "scriptCommands" : [
@@ -15168,6 +15432,68 @@
           ]
         },
         {
+          "name" : "Timing",
+          "path" : "timing",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Landen Danyluk",
+                  "url" : "https:\/\/github.com\/landendanyluk"
+                }
+              ],
+              "createdAt" : "2022-07-23T23:10:15-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Start a timer",
+              "filename" : "timing-start-timer.js",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/timing-logo.png"
+              },
+              "identifier" : "e76f98fba595acb6590639f1d8705b5a",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Timing",
+              "path" : "apps\/timing\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Start Timer",
+              "updatedAt" : "2022-07-23T23:10:15-05:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Landen Danyluk",
+                  "url" : "https:\/\/github.com\/landendanyluk"
+                }
+              ],
+              "createdAt" : "2022-07-23T23:10:15-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Stop the active timer",
+              "filename" : "timing-stop-timer.js",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/timing-logo.png"
+              },
+              "identifier" : "b8f7a1b309c9fd169a4bb20d08748dcb",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Timing",
+              "path" : "apps\/timing\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Stop Timer",
+              "updatedAt" : "2022-07-23T23:10:15-05:00"
+            }
+          ]
+        },
+        {
           "name" : "OpenVPN",
           "path" : "openvpn",
           "scriptCommands" : [
@@ -15270,7 +15596,7 @@
               ],
               "createdAt" : "2021-05-04T12:12:44+02:00",
               "currentDirectoryPath" : null,
-              "description" : "Creates Todoist task",
+              "description" : "Create Task",
               "filename" : "create-task.template.sh",
               "hasArguments" : true,
               "icon" : {
@@ -15281,13 +15607,13 @@
               "isTemplate" : true,
               "language" : "bash",
               "mode" : "silent",
-              "needsConfirmation" : false,
+              "needsConfirmation" : null,
               "packageName" : "Todoist",
               "path" : "apps\/todoist\/",
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Create Task",
-              "updatedAt" : "2021-05-21T17:39:11-04:00"
+              "updatedAt" : "2022-07-22T06:29:42-04:00"
             },
             {
               "authors" : [
@@ -17141,6 +17467,96 @@
           ]
         },
         {
+          "name" : "MenubarX",
+          "path" : "menubarx",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Clu Soh",
+                  "url" : "https:\/\/twitter.com\/designedbyclu"
+                }
+              ],
+              "createdAt" : "2022-06-14T15:34:34+08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open Pasteboard link in MenubarX",
+              "filename" : "open-in-menubarx.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/menubarx_logo.png"
+              },
+              "identifier" : "d919503ba27fcc13e43995035a1a51e2",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "MenubarX",
+              "path" : "apps\/menubarx\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open in MenubarX",
+              "updatedAt" : "2022-06-14T15:34:34+08:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Clu Soh",
+                  "url" : "https:\/\/twitter.com\/designedbyclu"
+                }
+              ],
+              "createdAt" : "2022-06-14T15:34:34+08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open X Tab in your menubar",
+              "filename" : "open-tab-in-menubar.applescript",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/menubarx_logo.png"
+              },
+              "identifier" : "cc7255205230e541123c8c720f81d511",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "MenubarX",
+              "path" : "apps\/menubarx\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Tabs",
+              "updatedAt" : "2022-06-14T15:34:34+08:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Clu Soh",
+                  "url" : "https:\/\/twitter.com\/designedbyclu"
+                }
+              ],
+              "createdAt" : "2022-06-14T15:34:34+08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Close last viewed tab in MenubarX",
+              "filename" : "close-last-menubarx-tab.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/menubarx_logo.png"
+              },
+              "identifier" : "48706938160df7f4d61a274a752dea5b",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "MenubarX",
+              "path" : "apps\/menubarx\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Close Last Tab",
+              "updatedAt" : "2022-06-14T15:34:34+08:00"
+            }
+          ]
+        },
+        {
           "name" : "Viscosity",
           "path" : "viscosity",
           "scriptCommands" : [
@@ -17255,6 +17671,96 @@
               "schemaVersion" : 1,
               "title" : "Viscosity: Connect All",
               "updatedAt" : "2021-03-23T21:40:02+01:00"
+            }
+          ]
+        },
+        {
+          "name" : "ExpressVPN",
+          "path" : "expressvpn",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Amir Hossein SamadiPour",
+                  "url" : "https:\/\/github.com\/SamadiPour"
+                }
+              ],
+              "createdAt" : "2022-07-22T18:26:50+04:30",
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "expressvpn-reconnect.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/expressvpn_logo.svg"
+              },
+              "identifier" : "3bada318c2097f51fcbec7513b5ecaa6",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "ExpressVPN",
+              "path" : "apps\/expressvpn\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Reconnect",
+              "updatedAt" : "2022-07-22T18:26:50+04:30"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Amir Hossein SamadiPour",
+                  "url" : "https:\/\/github.com\/SamadiPour"
+                }
+              ],
+              "createdAt" : "2022-07-22T18:26:50+04:30",
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "expressvpn-disconnect.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/expressvpn_logo.svg"
+              },
+              "identifier" : "f8d7cbf3a379d469dd987f032de1656c",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "ExpressVPN",
+              "path" : "apps\/expressvpn\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Disconnect",
+              "updatedAt" : "2022-07-22T18:26:50+04:30"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Amir Hossein SamadiPour",
+                  "url" : "https:\/\/github.com\/SamadiPour"
+                }
+              ],
+              "createdAt" : "2022-07-22T18:26:50+04:30",
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "expressvpn-connect.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/expressvpn_logo.svg"
+              },
+              "identifier" : "3c0176e3dc0c58d220cd3f9fdb90e4c5",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "ExpressVPN",
+              "path" : "apps\/expressvpn\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Connect",
+              "updatedAt" : "2022-07-22T18:26:50+04:30"
             }
           ]
         },
@@ -18489,6 +18995,40 @@
               "schemaVersion" : 1,
               "title" : "SideNotes create",
               "updatedAt" : "2021-03-07T06:29:59-08:00"
+            }
+          ]
+        },
+        {
+          "name" : "Sublime",
+          "path" : "sublime",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Rock Hu",
+                  "url" : "https:\/\/twitter.com\/0xRock"
+                }
+              ],
+              "createdAt" : "2022-05-27T10:22:01-07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open currently focused directory in Sublime",
+              "filename" : "open-with-sublime.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "https:\/\/cdn.worldvectorlogo.com\/logos\/sublime-text.svg"
+              },
+              "identifier" : "dbc6916febf1c2218e0cef9c4e3d5e96",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Sublime",
+              "path" : "apps\/sublime\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open with Sublime",
+              "updatedAt" : "2022-05-27T18:41:22+01:00"
             }
           ]
         },
@@ -20400,6 +20940,96 @@
           ]
         },
         {
+          "name" : "foobar2000",
+          "path" : "foobar2000",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Jing Li",
+                  "url" : "https:\/\/github.com\/lixeon"
+                }
+              ],
+              "createdAt" : "2022-06-03T15:00:35+08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Shortcuts to next foobar2000 for Mac v2.3.0",
+              "filename" : "foobar2000-next.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/foobar2000.png"
+              },
+              "identifier" : "37d028897c09ceb93626ab043cb05849",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "foobar2000",
+              "path" : "media\/foobar2000\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Next foobar2000",
+              "updatedAt" : "2022-06-03T15:00:35+08:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jing Li",
+                  "url" : "https:\/\/github.com\/lixeon"
+                }
+              ],
+              "createdAt" : "2022-06-03T15:00:35+08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Shortcuts to pause foobar2000 for Mac v2.3.0",
+              "filename" : "foobar2000-pause.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/foobar2000.png"
+              },
+              "identifier" : "9628f178c067958b737c469c1cda07bf",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "foobar2000",
+              "path" : "media\/foobar2000\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Pause foobar2000",
+              "updatedAt" : "2022-06-03T15:00:35+08:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jing Li",
+                  "url" : "https:\/\/github.com\/lixeon"
+                }
+              ],
+              "createdAt" : "2022-06-03T15:00:35+08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Shortcuts to Previous foobar2000 for Mac v2.3.0",
+              "filename" : "foobar2000-pervious.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/foobar2000.png"
+              },
+              "identifier" : "849beafb523bee8e7e82e39dfd8113d3",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "foobar2000",
+              "path" : "media\/foobar2000\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Previous foobar2000",
+              "updatedAt" : "2022-06-03T15:00:35+08:00"
+            }
+          ]
+        },
+        {
           "name" : "Apple Tv",
           "path" : "apple-tv",
           "scriptCommands" : [
@@ -20787,24 +21417,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
       "displayName" : "Python",
       "icon" : "icon-python.png",
       "name" : "python"
-    },
-    {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
-    },
-    {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
     },
     {
       "displayName" : "Swift",
@@ -20815,11 +21430,26 @@
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
+    },
+    {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 724,
-  "updatedAt" : "2022-05-19T11:10:14Z"
+  "totalScriptCommands" : 745,
+  "updatedAt" : "2022-08-18T12:53:36Z"
 }
