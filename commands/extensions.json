@@ -7360,6 +7360,34 @@
         {
           "authors" : [
             {
+              "name" : "Angelos Michalopoulos",
+              "url" : "https:\/\/github.com\/miagg"
+            }
+          ],
+          "createdAt" : "2022-08-19T13:26:13+03:00",
+          "currentDirectoryPath" : null,
+          "description" : "Copying the default SSH public key to the clipboard",
+          "filename" : "copy-ssh-public-key.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔑"
+          },
+          "identifier" : "47d77dea587aac1516a1fb3d1ab9408c",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utils",
+          "path" : "developer-utils\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Copy SSH Public Key",
+          "updatedAt" : "2022-08-19T13:26:13+03:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -21445,9 +21473,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     },
     {
       "displayName" : "Python",
@@ -21455,9 +21483,9 @@
       "name" : "python"
     },
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     },
     {
       "displayName" : "Node",
@@ -21465,19 +21493,19 @@
       "name" : "node"
     },
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 746,
-  "updatedAt" : "2022-08-19T10:21:50Z"
+  "totalScriptCommands" : 747,
+  "updatedAt" : "2022-08-19T10:28:28Z"
 }
