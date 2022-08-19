@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Copy SSH public key
+# @raycast.title Copy SSH Public Key
 # @raycast.mode silent
 
 # Optional parameters:
