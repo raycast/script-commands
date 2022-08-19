@@ -8226,6 +8226,34 @@
         {
           "authors" : [
             {
+              "name" : "Angelos Michalopoulos",
+              "url" : "https:\/\/github.com\/miagg"
+            }
+          ],
+          "createdAt" : "2022-08-19T12:58:32+03:00",
+          "currentDirectoryPath" : null,
+          "description" : "Get the TTFB (Time to First Byte) of a website",
+          "filename" : "get-ttfb.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🕐"
+          },
+          "identifier" : "d4474b109eb271a2ce54473c58edb94d",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utils",
+          "path" : "developer-utils\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Get TTFB (Time to First Byte)",
+          "updatedAt" : "2022-08-19T12:58:32+03:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -21417,6 +21445,11 @@
   ],
   "languages" : [
     {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
       "displayName" : "Python",
       "icon" : "icon-python.png",
       "name" : "python"
@@ -21425,11 +21458,6 @@
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
-    },
-    {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
     },
     {
       "displayName" : "Node",
@@ -21442,14 +21470,14 @@
       "name" : "applescript"
     },
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 745,
-  "updatedAt" : "2022-08-18T12:53:36Z"
+  "totalScriptCommands" : 746,
+  "updatedAt" : "2022-08-19T10:21:50Z"
 }
