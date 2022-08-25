@@ -25,7 +25,7 @@ if ! command -v mullvad &> /dev/null; then
   exit 1
 fi
 
-status=$(mullvad status --location)
+status=$(mullvad status)
 
 success=$?
 if [ $success -ne 0 ]; then
@@ -33,10 +33,8 @@ if [ $success -ne 0 ]; then
   exit 1
 fi
 
-if [[ $status == *"Tunnel status: Disconnected"* ]]; then
+if [[ $status == *"Disconnected"* ]]; then
   echo "❌  Disconnected and unsecured"
 else
-  relay=$(echo "$status" | sed -n '2 s/Relay: //p')
-  location=$(echo "$status" | sed -n '5 s/Location: //p')
-  echo "✅  Connected to $relay ($location)"
+  echo "✅  $status"
 fi
