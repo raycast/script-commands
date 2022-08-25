@@ -41,7 +41,5 @@ if [ $success -ne 0 ]; then
   exit 1
 fi
 
-status=$(mullvad status --location)
-relay=$(echo "$status" | sed -n '2 s/Relay: //p')
-location=$(echo "$status" | sed -n '5 s/Location: //p')
-echo "Successfully connected to $relay ($location)"
+status=$(mullvad status)
+echo "$status"

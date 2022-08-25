@@ -36,6 +36,4 @@ if [[ $status == *"Tunnel status: Disconnected"* ]]; then
   exit 0
 fi
 
-relay=$(echo "$status" | sed -n '2 s/Relay: //p')
-location=$(echo "$status" | sed -n '5 s/Location: //p')
-echo "Successfully reconnected to $relay ($location)"
+echo "$status"
