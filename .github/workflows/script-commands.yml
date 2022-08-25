@@ -6,7 +6,7 @@ on:
 
 jobs:
   scriptCommands:
-    runs-on: macos-11
+    runs-on: macos-12
 
     steps:
       - uses: actions/checkout@v2
@@ -14,11 +14,13 @@ jobs:
           fetch-depth: 0
 
       - name: Setup Xcode
-        uses: raycast/github-actions/setup-xcode@master
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: 13.4.1
 
       - name: Setup GIT
         uses: raycast/github-actions/setup-git@v1.1.0
-        
+
       - name: Build Toolkit
         run: |
           make build
@@ -41,3 +43,17 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Notify Failure
+        if: failure()
+        uses: edge/simple-slack-notify@master
+        with:
+          color: "danger"
+          text: ":no_entry_sign: ${env.GITHUB_WORKFLOW} has failed"
+          fields: |
+            [
+              { "title": "Action logs:", "value": "${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/actions/runs/${env.GITHUB_RUN_ID}"},
+              { "title": "Commit:", "value": "${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/commit/${ env.GITHUB_SHA }"}
+            ]
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_STREAM_INFRA_CHANNEL_WEBHOOK_URL }}
