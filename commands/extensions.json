@@ -19648,6 +19648,34 @@
           "schemaVersion" : 1,
           "title" : "Word Count",
           "updatedAt" : "2022-01-29T12:34:13-05:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Alessandra Pereyra",
+              "url" : "https:\/\/github.com\/alessandrapereyra"
+            }
+          ],
+          "createdAt" : "2022-09-04T19:45:53-05:00",
+          "currentDirectoryPath" : null,
+          "description" : "Directly use macOS Dictionary",
+          "filename" : "dictionary-lookup.swift",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "📖"
+          },
+          "identifier" : "be57af80902c33cee913774b6e58d678",
+          "isTemplate" : false,
+          "language" : "swift",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Writing",
+          "path" : "writing\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Dictionary Lookup",
+          "updatedAt" : "2022-09-05T11:33:53+00:00"
         }
       ]
     },
@@ -21507,19 +21535,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
-    },
-    {
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
-    },
-    {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
     },
     {
       "displayName" : "Bash",
@@ -21527,19 +21545,29 @@
       "name" : "bash"
     },
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     },
     {
       "displayName" : "Python",
       "icon" : "icon-python.png",
       "name" : "python"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
+    },
+    {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 748,
-  "updatedAt" : "2022-08-29T08:23:40Z"
+  "totalScriptCommands" : 749,
+  "updatedAt" : "2022-09-05T11:33:53Z"
 }
