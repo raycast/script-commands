@@ -1505,6 +1505,7 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | 📖 | [Dictionary Lookup](writing/dictionary-lookup.swift) | Directly use macOS Dictionary | [Alessandra Pereyra](https://github.com/alessandrapereyra) | ✅ |  | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
   | 🤖 | [Word Count](writing/word-count.sh) | Counts the number of words of the text in the clipboard | [Benny Wong](https://bwong.net) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 ## Community
