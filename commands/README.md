@@ -738,6 +738,7 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | 📋 | [Clipboard to Markdown](conversions/clipboard-to-markdown.js) | Automatically take the content found in the clipboard and turn it into Markdown | [Alessandra Pereyra](https://github.com/alessandrapereyra) |  |  | <img src="images/icon-nodejs.png" width="20" height="20" title="Node"> |
   | 🎨 | [Color Conversion](conversions/color-conversion.sh) | Convert color formats (e.g. #FFEEFF -> rgba(255,238,255,1) | [quelhasu](https://github.com/quelhasu) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🗂 | [Column to Comma](conversions/column-to-comma.sh) | Converts column to comma separated list. | Raycast |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | ⏱ | [Convert Epoch to Human-Readable Date](conversions/epoch-to-human-date.sh) | Convert epoch to human-readable date. | [Siyuan Zhang](https://github.com/kastnerorz) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
