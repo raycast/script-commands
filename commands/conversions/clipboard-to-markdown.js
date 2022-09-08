@@ -76,7 +76,7 @@ function processText(content) {
 
 function processContent(content) {
   if (content.startsWith("http")) {
-    if (content.endsWith(".png") || content.endsWith(".jpg")) {
+    if (content.match(/\.(jpeg|jpg|gif|png|bmp|tiff)$/) != null) {
       return processImageURL(content);
     } else {
       return processURL(content);
