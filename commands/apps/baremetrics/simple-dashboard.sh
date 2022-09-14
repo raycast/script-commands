@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# You may need to install coreutils via homebrew to make this script work (gdate function below).
+
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Revenue
@@ -25,8 +27,6 @@
 
 API_TOKEN=''
 
-# You may need to install coreutils via homebrew to make this script work (gdate function below).
-
 DATE=`gdate -d today '+%Y-%m-%d'`
 
 
@@ -34,7 +34,7 @@ DATE=`gdate -d today '+%Y-%m-%d'`
 
 if [[ -z "$API_TOKEN" ]]
 then 
-  echo "No Bearer token provided"
+  echo "No API token provided"
   exit 1
 fi
 
