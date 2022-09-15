@@ -14626,6 +14626,152 @@
           ]
         },
         {
+          "name" : "Baremetrics",
+          "path" : "baremetrics",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Valentin Chrétien",
+                  "url" : "https:\/\/github.com\/valentinchrt"
+                }
+              ],
+              "createdAt" : "2022-09-15T11:09:04+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Display Average revenue per user (ARPU)",
+              "filename" : "get-arpu.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/baremetrics.png"
+              },
+              "identifier" : "61cffadab08d5776aa9c0cdba919f9b4",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Baremetrics",
+              "path" : "apps\/baremetrics\/",
+              "refreshTime" : "1h",
+              "schemaVersion" : 1,
+              "title" : "Average Revenue Per User",
+              "updatedAt" : "2022-09-15T11:09:04+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Valentin Chrétien",
+                  "url" : "https:\/\/github.com\/valentinchrt"
+                }
+              ],
+              "createdAt" : "2022-09-15T11:09:04+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Display Annual Recurring Revenue (ARR)",
+              "filename" : "get-arr.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/baremetrics.png"
+              },
+              "identifier" : "7eb95607eb6cb96ad5f62844ccd08157",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Baremetrics",
+              "path" : "apps\/baremetrics\/",
+              "refreshTime" : "1h",
+              "schemaVersion" : 1,
+              "title" : "Annual Recurring Revenue",
+              "updatedAt" : "2022-09-15T11:09:04+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Valentin Chrétien",
+                  "url" : "https:\/\/github.com\/valentinchrt"
+                }
+              ],
+              "createdAt" : "2022-09-15T11:09:04+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Display Lifetime Value (LTV)",
+              "filename" : "get-ltv.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/baremetrics.png"
+              },
+              "identifier" : "28fcd48e5fdd0d94cd0fc0caa85ec6f7",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Baremetrics",
+              "path" : "apps\/baremetrics\/",
+              "refreshTime" : "1h",
+              "schemaVersion" : 1,
+              "title" : "Lifetime Value",
+              "updatedAt" : "2022-09-15T11:09:04+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Valentin Chrétien",
+                  "url" : "https:\/\/github.com\/valentinchrt"
+                }
+              ],
+              "createdAt" : "2022-09-15T11:09:04+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Display Monthly Recurring Revenue (MRR)",
+              "filename" : "get-mrr.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/baremetrics.png"
+              },
+              "identifier" : "c93a6f26b13a627e732b5ca104457e35",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Baremetrics",
+              "path" : "apps\/baremetrics\/",
+              "refreshTime" : "1h",
+              "schemaVersion" : 1,
+              "title" : "Monthly Recurring Revenue",
+              "updatedAt" : "2022-09-15T11:09:04+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Valentin Chrétien",
+                  "url" : "https:\/\/github.com\/valentinchrt"
+                }
+              ],
+              "createdAt" : "2022-09-15T11:09:04+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Display Revenue Dashboard",
+              "filename" : "simple-dashboard.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/baremetrics.png"
+              },
+              "identifier" : "8cff2dce2132b4b23e143ff7dfda31f8",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Baremetrics",
+              "path" : "apps\/baremetrics\/",
+              "refreshTime" : "1h",
+              "schemaVersion" : 1,
+              "title" : "Revenue",
+              "updatedAt" : "2022-09-15T11:09:04+02:00"
+            }
+          ]
+        },
+        {
           "name" : "Message",
           "path" : "Message",
           "scriptCommands" : [
@@ -21583,6 +21729,34 @@
               "schemaVersion" : 1,
               "title" : "Previous Track",
               "updatedAt" : "2022-02-01T14:38:40+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Cebrail AKTAS",
+                  "url" : "https:\/\/github.com\/AktasC"
+                }
+              ],
+              "createdAt" : "2022-09-12T17:06:01+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Play\/Pause Tidal",
+              "filename" : "tidal.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/tidal-logo.png"
+              },
+              "identifier" : "ee85b0d540c79e75859c0753aadee02a",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Tidal",
+              "path" : "media\/tidal\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Toggle Play\/Pause",
+              "updatedAt" : "2022-09-13T08:16:43+00:00"
             }
           ]
         }
@@ -21596,14 +21770,14 @@
       "name" : "swift"
     },
     {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
-    },
-    {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
     },
     {
       "displayName" : "Python",
@@ -21611,19 +21785,19 @@
       "name" : "python"
     },
     {
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
+    },
+    {
       "displayName" : "Node",
       "icon" : "icon-nodejs.png",
       "name" : "node"
-    },
-    {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 751,
-  "updatedAt" : "2022-09-13T08:13:36Z"
+  "totalScriptCommands" : 757,
+  "updatedAt" : "2022-09-15T09:11:23Z"
 }

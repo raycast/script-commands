@@ -28,6 +28,7 @@ This repository contains sample commands and documentation to write your own one
 - [Apps](#apps)
   - [Agenda](#agenda)
   - [Amphetamine](#amphetamine)
+  - [Baremetrics](#baremetrics)
   - [Bear](#bear)
   - [Cleanshot](#cleanshot)
   - [Craft](#craft)
@@ -168,6 +169,16 @@ This repository contains sample commands and documentation to write your own one
 | :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/amphetamine/images/amphetamine.png" width="20" height="20"> | [End Session](apps/amphetamine/amphetamine-off.applescript) | Stop Current Amphetamine Session | [James Lyons](https://github.com/jamesjlyons) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/amphetamine/images/amphetamine.png" width="20" height="20"> | [Start Default Session](apps/amphetamine/amphetamine-on.applescript) | Start Default Amphetamine Session | [James Lyons](https://github.com/jamesjlyons) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+
+#### Baremetrics
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/baremetrics/images/baremetrics.png" width="20" height="20"> | [Annual Recurring Revenue](apps/baremetrics/get-arr.sh) | Display Annual Recurring Revenue (ARR) | [Valentin Chrétien](https://github.com/valentinchrt) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/baremetrics/images/baremetrics.png" width="20" height="20"> | [Average Revenue Per User](apps/baremetrics/get-arpu.sh) | Display Average revenue per user (ARPU) | [Valentin Chrétien](https://github.com/valentinchrt) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/baremetrics/images/baremetrics.png" width="20" height="20"> | [Lifetime Value](apps/baremetrics/get-ltv.sh) | Display Lifetime Value (LTV) | [Valentin Chrétien](https://github.com/valentinchrt) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/baremetrics/images/baremetrics.png" width="20" height="20"> | [Monthly Recurring Revenue](apps/baremetrics/get-mrr.sh) | Display Monthly Recurring Revenue (MRR) | [Valentin Chrétien](https://github.com/valentinchrt) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/baremetrics/images/baremetrics.png" width="20" height="20"> | [Revenue](apps/baremetrics/simple-dashboard.sh) | Display Revenue Dashboard | [Valentin Chrétien](https://github.com/valentinchrt) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Bear
 
@@ -1140,6 +1151,7 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/tidal/images/tidal-logo.png" width="20" height="20"> | [Pause](media/tidal/tidal-pause.applescript) | Pause the current track in Tidal. | [Charles Harries](https://github.com/charlesharries) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/tidal/images/tidal-logo.png" width="20" height="20"> | [Play](media/tidal/tidal-play.applescript) | Play the current track in Tidal. | [Charles Harries](https://github.com/charlesharries) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/tidal/images/tidal-logo.png" width="20" height="20"> | [Previous Track](media/tidal/tidal-previous-track.applescript) | Skip back to the previous track in Tidal. | [Charles Harries](https://github.com/charlesharries) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/tidal/images/tidal-logo.png" width="20" height="20"> | [Toggle Play/Pause](media/tidal/tidal.applescript) | Play/Pause Tidal | [Cebrail AKTAS](https://github.com/AktasC) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 #### foobar2000
 
