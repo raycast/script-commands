@@ -7,7 +7,7 @@
 
 # Optional parameters:
 # @raycast.icon 🌐
-# @raycast.packageName Browser utils
+# @raycast.packageName Browser Utils
 
 # Documentation:
 # @raycast.description Open new window in default browser
