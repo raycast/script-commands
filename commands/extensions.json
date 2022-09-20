@@ -1213,6 +1213,34 @@
         {
           "authors" : [
             {
+              "name" : "Levi Nelson",
+              "url" : "https:\/\/github.com\/LeviticusNelson"
+            }
+          ],
+          "createdAt" : "2022-09-20T11:37:44-07:00",
+          "currentDirectoryPath" : null,
+          "description" : "Open new window in default browser",
+          "filename" : "new-browser-window.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🌐"
+          },
+          "identifier" : "982df81504688c40ed7c99f11913cdd2",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Browser Utils",
+          "path" : "browsing\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "New Browser Window",
+          "updatedAt" : "2022-09-20T11:37:44-07:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -21775,14 +21803,14 @@
       "name" : "ruby"
     },
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
       "displayName" : "Python",
       "icon" : "icon-python.png",
       "name" : "python"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     },
     {
       "displayName" : "Bash",
@@ -21790,14 +21818,14 @@
       "name" : "bash"
     },
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 757,
-  "updatedAt" : "2022-09-15T09:11:23Z"
+  "totalScriptCommands" : 758,
+  "updatedAt" : "2022-09-20T18:40:13Z"
 }
