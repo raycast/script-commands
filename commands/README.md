@@ -42,6 +42,7 @@ This repository contains sample commands and documentation to write your own one
   - [Fantastical](#fantastical)
   - [Ferdi](#ferdi)
   - [Focus](#focus)
+  - [GoodLinks](#goodlinks)
   - [HazeOver](#hazeover)
   - [Hyper](#hyper)
   - [Lungo](#lungo)
@@ -329,6 +330,20 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/focus/images/focus-logo.png" width="20" height="20"> | [Stop Focus Session (Unfocus)](apps/focus/focus-stop-session.sh) | Stop the current focus session. | [Ernest Ojeh](https://github.com/namzo) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/focus/images/focus-logo.png" width="20" height="20"> | [Take 5 Minutes Break](apps/focus/focus-start-break-5.sh) | Take 5 minutes break. | [Ernest Ojeh](https://github.com/namzo) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/focus/images/focus-logo.png" width="20" height="20"> | [Toggle Focus Session](apps/focus/focus-toggle-focus.sh) | Toggle between start session (untimed) and stop session. | [Ernest Ojeh](https://github.com/namzo) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### GoodLinks
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/goodlinks/images/goodlinks.png" width="20" height="20"> | [Open Last Unread Link](apps/goodlinks/goodlinks-last-unread-link.sh) | Open the last unread link in the GoodLinks app | [Filip Chabik](https://github.com/hadret) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/goodlinks/images/goodlinks.png" width="20" height="20"> | [Open Link](apps/goodlinks/goodlinks-open-link.sh) | Open a link in the GoodLinks app | [Filip Chabik](https://github.com/hadret) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/goodlinks/images/goodlinks.png" width="20" height="20"> | [Open Random Unread Link](apps/goodlinks/goodlinks-random-unread-link.sh) | Open a random unread link in the GoodLinks app | [Filip Chabik](https://github.com/hadret) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/goodlinks/images/goodlinks.png" width="20" height="20"> | [Save Link](apps/goodlinks/goodlinks-save-link.sh) | Saves a new link to GoodLinks | [Filip Chabik](https://github.com/hadret) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/goodlinks/images/goodlinks.png" width="20" height="20"> | [Show Read List](apps/goodlinks/goodlinks-read-list.sh) | Show Read list in the GoodLinks app | [Filip Chabik](https://github.com/hadret) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/goodlinks/images/goodlinks.png" width="20" height="20"> | [Show Starred List](apps/goodlinks/goodlinks-starred-list.sh) | Show Starred list in the GoodLinks app | [Filip Chabik](https://github.com/hadret) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/goodlinks/images/goodlinks.png" width="20" height="20"> | [Show Tag](apps/goodlinks/goodlinks-tagged-links.sh) | Show links tagged with the specified tag in the GoodLinks app | [Filip Chabik](https://github.com/hadret) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/goodlinks/images/goodlinks.png" width="20" height="20"> | [Show Unread List](apps/goodlinks/goodlinks-unread-list.sh) | Show Unread list in the GoodLinks app | [Filip Chabik](https://github.com/hadret) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/goodlinks/images/goodlinks.png" width="20" height="20"> | [Show Untagged List](apps/goodlinks/goodlinks-untagged-list.sh) | Show Untagged list in the GoodLinks app | [Filip Chabik](https://github.com/hadret) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### HazeOver
 

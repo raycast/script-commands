@@ -14010,6 +14010,264 @@
           ]
         },
         {
+          "name" : "GoodLinks",
+          "path" : "goodlinks",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Filip Chabik",
+                  "url" : "https:\/\/github.com\/hadret"
+                }
+              ],
+              "createdAt" : "2022-09-21T21:19:09+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show Read list in the GoodLinks app",
+              "filename" : "goodlinks-read-list.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/goodlinks.png"
+              },
+              "identifier" : "c0796027794a07c76f5eb52bab4e8d39",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "GoodLinks",
+              "path" : "apps\/goodlinks\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Show Read List",
+              "updatedAt" : "2022-09-21T21:19:09+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Filip Chabik",
+                  "url" : "https:\/\/github.com\/hadret"
+                }
+              ],
+              "createdAt" : "2022-09-21T21:19:09+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open a link in the GoodLinks app",
+              "filename" : "goodlinks-open-link.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/goodlinks.png"
+              },
+              "identifier" : "3636d0d2ff5bb61acff5b577e364122a",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "GoodLinks",
+              "path" : "apps\/goodlinks\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Link",
+              "updatedAt" : "2022-09-21T21:19:09+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Filip Chabik",
+                  "url" : "https:\/\/github.com\/hadret"
+                }
+              ],
+              "createdAt" : "2022-09-21T21:19:09+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show Untagged list in the GoodLinks app",
+              "filename" : "goodlinks-untagged-list.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/goodlinks.png"
+              },
+              "identifier" : "c80ffd45f9345adbcc18b9140d865da0",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "GoodLinks",
+              "path" : "apps\/goodlinks\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Show Untagged List",
+              "updatedAt" : "2022-09-21T21:19:09+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Filip Chabik",
+                  "url" : "https:\/\/github.com\/hadret"
+                }
+              ],
+              "createdAt" : "2022-09-21T21:19:09+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show Unread list in the GoodLinks app",
+              "filename" : "goodlinks-unread-list.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/goodlinks.png"
+              },
+              "identifier" : "bfd473a3c237f50761e5716e9abee708",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "GoodLinks",
+              "path" : "apps\/goodlinks\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Show Unread List",
+              "updatedAt" : "2022-09-21T21:19:09+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Filip Chabik",
+                  "url" : "https:\/\/github.com\/hadret"
+                }
+              ],
+              "createdAt" : "2022-09-21T21:19:09+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open the last unread link in the GoodLinks app",
+              "filename" : "goodlinks-last-unread-link.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/goodlinks.png"
+              },
+              "identifier" : "574ebc7209ea95507f347597e25cc284",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "GoodLinks",
+              "path" : "apps\/goodlinks\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Last Unread Link",
+              "updatedAt" : "2022-09-21T21:19:09+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Filip Chabik",
+                  "url" : "https:\/\/github.com\/hadret"
+                }
+              ],
+              "createdAt" : "2022-09-21T21:19:09+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show Starred list in the GoodLinks app",
+              "filename" : "goodlinks-starred-list.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/goodlinks.png"
+              },
+              "identifier" : "1b30afbd9d13fa4c0361905818295682",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "GoodLinks",
+              "path" : "apps\/goodlinks\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Show Starred List",
+              "updatedAt" : "2022-09-21T21:19:09+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Filip Chabik",
+                  "url" : "https:\/\/github.com\/hadret"
+                }
+              ],
+              "createdAt" : "2022-09-21T21:19:09+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Saves a new link to GoodLinks",
+              "filename" : "goodlinks-save-link.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/goodlinks.png"
+              },
+              "identifier" : "3a5576e914a31aadb395f733a49f047d",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "GoodLinks",
+              "path" : "apps\/goodlinks\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Save Link",
+              "updatedAt" : "2022-09-21T21:19:09+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Filip Chabik",
+                  "url" : "https:\/\/github.com\/hadret"
+                }
+              ],
+              "createdAt" : "2022-09-21T21:19:09+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open a random unread link in the GoodLinks app",
+              "filename" : "goodlinks-random-unread-link.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/goodlinks.png"
+              },
+              "identifier" : "b3f2decfb875757a8a2bcebf5904a88f",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "GoodLinks",
+              "path" : "apps\/goodlinks\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Random Unread Link",
+              "updatedAt" : "2022-09-21T21:19:09+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Filip Chabik",
+                  "url" : "https:\/\/github.com\/hadret"
+                }
+              ],
+              "createdAt" : "2022-09-21T21:19:09+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show links tagged with the specified tag in the GoodLinks app",
+              "filename" : "goodlinks-tagged-links.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/goodlinks.png"
+              },
+              "identifier" : "10a6aa033cfb6122dfbbe70eaa5ea8e8",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "GoodLinks",
+              "path" : "apps\/goodlinks\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Show Tag",
+              "updatedAt" : "2022-09-21T21:19:09+02:00"
+            }
+          ]
+        },
+        {
           "name" : "Terminal Translate",
           "path" : "terminal-translate",
           "scriptCommands" : [
@@ -21793,6 +22051,16 @@
   ],
   "languages" : [
     {
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
+    },
+    {
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
@@ -21803,29 +22071,19 @@
       "name" : "ruby"
     },
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
-    },
-    {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
-    },
-    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
+    },
+    {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 758,
-  "updatedAt" : "2022-09-20T18:40:13Z"
+  "totalScriptCommands" : 767,
+  "updatedAt" : "2022-09-21T19:23:16Z"
 }
