@@ -17018,6 +17018,40 @@
           ]
         },
         {
+          "name" : "Dictionary",
+          "path" : "dictionary",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "yayiji",
+                  "url" : "https:\/\/github.com\/yayiji"
+                }
+              ],
+              "createdAt" : "2022-10-19T02:28:10+08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Look up selected text in Dictionary",
+              "filename" : "look-up-in-dictionary.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/dictionary.icns"
+              },
+              "identifier" : "5952f1e95fc51a30ab3a3d3538dfe273",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Dictionary",
+              "path" : "apps\/dictionary\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Look up in Dictionary",
+              "updatedAt" : "2022-10-19T02:28:10+08:00"
+            }
+          ]
+        },
+        {
           "name" : "Raycast",
           "path" : "raycast",
           "scriptCommands" : [
@@ -22056,14 +22090,9 @@
       "name" : "bash"
     },
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
-    },
-    {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     },
     {
       "displayName" : "Ruby",
@@ -22071,19 +22100,24 @@
       "name" : "ruby"
     },
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     },
     {
       "displayName" : "Python",
       "icon" : "icon-python.png",
       "name" : "python"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 767,
-  "updatedAt" : "2022-09-21T19:23:16Z"
+  "totalScriptCommands" : 768,
+  "updatedAt" : "2022-10-31T09:12:27Z"
 }

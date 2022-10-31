@@ -35,6 +35,7 @@ This repository contains sample commands and documentation to write your own one
   - [DND Me](#dnd-me)
   - [Deepl](#deepl)
   - [Devutils](#devutils)
+  - [Dictionary](#dictionary)
   - [Downie](#downie)
   - [Espanso](#espanso)
   - [Evernote](#evernote)
@@ -270,6 +271,12 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/devutils/images/devutils.png" width="20" height="20"> | [Unix Time Converter](apps/devutils/unixtime.sh) | Parse and display UNIX the timestamp string currently in your clipboard | [DevUtils.app](https://devutils.app) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/devutils/images/devutils.png" width="20" height="20"> | [XML Beautify/Minify](apps/devutils/xmlformatter.sh) | Beautify or minify your current clipboard as XML | [DevUtils.app](https://devutils.app) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/devutils/images/devutils.png" width="20" height="20"> | [YAML to JSON](apps/devutils/yaml2json.sh) | Convert your current clipboard from YAML to JSON | [DevUtils.app](https://devutils.app) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Dictionary
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  |  | [Look up in Dictionary](apps/dictionary/look-up-in-dictionary.applescript) | Look up selected text in Dictionary | [yayiji](https://github.com/yayiji) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 #### Downie
 
