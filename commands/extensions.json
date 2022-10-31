@@ -989,6 +989,34 @@
         {
           "authors" : [
             {
+              "name" : "JD Solanki",
+              "url" : "https:\/\/github.com\/jd-solanki"
+            }
+          ],
+          "createdAt" : "2021-09-24T08:28:06+01:00",
+          "currentDirectoryPath" : null,
+          "description" : "Open current website in guest profile\/mode",
+          "filename" : "open-in-guest-profile.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🤖"
+          },
+          "identifier" : "7e65f41bd6407a5464ce4b1289b0abad",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Browser",
+          "path" : "browsing\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open in guest profile",
+          "updatedAt" : "2022-10-31T11:55:21+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Nitin Gupta",
               "url" : "https:\/\/twitter.com\/gniting"
             }
@@ -22056,14 +22084,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
-    },
-    {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     },
     {
       "displayName" : "Swift",
@@ -22071,9 +22094,9 @@
       "name" : "swift"
     },
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     },
     {
       "displayName" : "Python",
@@ -22081,14 +22104,19 @@
       "name" : "python"
     },
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 767,
-  "updatedAt" : "2022-10-31T09:17:53Z"
+  "totalScriptCommands" : 768,
+  "updatedAt" : "2022-10-31T11:55:21Z"
 }
