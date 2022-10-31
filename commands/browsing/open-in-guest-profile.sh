@@ -10,7 +10,7 @@
 # @raycast.packageName Browser
 
 # Documentation:
-# @raycast.description Open current website in guest profie/mode
+# @raycast.description Open current website in guest profile/mode
 # @raycast.author JD Solanki
 # @raycast.authorURL https://github.com/jd-solanki
 
