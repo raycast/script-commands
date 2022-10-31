@@ -85,7 +85,6 @@ This repository contains sample commands and documentation to write your own one
   - [Y Pomodoro](#y-pomodoro)
   - [iTerm](#iterm)
   - [iconsur](#iconsur)
-- [Bookmarks](#bookmarks)
 - [Browsing](#browsing)
 - [Communication](#communication)
   - [Cloudup](#cloudup)
@@ -137,6 +136,7 @@ This repository contains sample commands and documentation to write your own one
 - [Productivity](#productivity)
   - [Imgur](#imgur)
   - [Pomodoro](#pomodoro)
+  - [Writing](#writing)
   - [macOCR](#macocr)
   - [stopwatch](#stopwatch)
   - [tesseract](#tesseract)
@@ -153,7 +153,6 @@ This repository contains sample commands and documentation to write your own one
   - [Vpnutil](#vpnutil)
 - [Web Searches](#web-searches)
   - [WordPress](#wordpress)
-- [Writing](#writing)
 
 ## Apps
 
@@ -669,12 +668,6 @@ This repository contains sample commands and documentation to write your own one
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
   | 🅱️ | [Change Application Icon](apps/iconsur/iconsur.sh) | Change App icons to match Big Sur | [StevenRCE0](https://github.com/StevenRCE0) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
-
-## Bookmarks
-
-| Icon | Title | Description | Author | Args | Templ | Lang |
-| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
-  | 📜 | [Open Script Commands Repository](bookmarks/open-script-commands-repository.sh) | Open the GitHub repository for Script Commands provided by the community. | Raycast |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 ## Browsing
 
@@ -1248,6 +1241,13 @@ This repository contains sample commands and documentation to write your own one
   | 🍅 | [Status](productivity/pomodoro/pomodoro-status.sh) | Status of a Pomodoro timer | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🍅 | [Stop Timer](productivity/pomodoro/pomodoro-stop-timer.sh) | Stop active Pomodoro timer | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
+#### Writing
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | 📖 | [Dictionary Lookup](productivity/writing/dictionary-lookup.swift) | Directly use macOS Dictionary | [Alessandra Pereyra](https://github.com/alessandrapereyra) | ✅ |  | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
+  | 🤖 | [Word Count](productivity/writing/word-count.sh) | Counts the number of words of the text in the clipboard | [Benny Wong](https://bwong.net) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
 #### macOCR
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
@@ -1537,13 +1537,6 @@ This repository contains sample commands and documentation to write your own one
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/wordpress/images/wordpress-logo-iconDark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/wordpress/images/wordpress-logo.png" width="20" height="20"></picture> | [WordPress Classes Reference](web-searches/wordpress/wordpress-classes-reference.sh) | Open [WordPress classes reference](https://developer.wordpress.org/reference/classes/) for specified class. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/wordpress/images/wordpress-logo-iconDark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/wordpress/images/wordpress-logo.png" width="20" height="20"></picture> | [WordPress Functions Reference](web-searches/wordpress/wordpress-functions-reference.sh) | Open [WordPress functions reference](https://developer.wordpress.org/reference/functions/) for specified function. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/wordpress/images/wordpress-logo-iconDark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/wordpress/images/wordpress-logo.png" width="20" height="20"></picture> | [WordPress Hooks Reference](web-searches/wordpress/wordpress-hooks-reference.sh) | Open [WordPress hooks reference](https://developer.wordpress.org/reference/hooks/) for specified hook. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
-
-## Writing
-
-| Icon | Title | Description | Author | Args | Templ | Lang |
-| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
-  | 📖 | [Dictionary Lookup](writing/dictionary-lookup.swift) | Directly use macOS Dictionary | [Alessandra Pereyra](https://github.com/alessandrapereyra) | ✅ |  | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
-  | 🤖 | [Word Count](writing/word-count.sh) | Counts the number of words of the text in the clipboard | [Benny Wong](https://bwong.net) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 ## Community
 
