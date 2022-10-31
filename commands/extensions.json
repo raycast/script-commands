@@ -6893,35 +6893,6 @@
       ]
     },
     {
-      "name" : "Bookmarks",
-      "path" : "bookmarks",
-      "scriptCommands" : [
-        {
-          "authors" : null,
-          "createdAt" : "2020-10-02T16:04:30+01:00",
-          "currentDirectoryPath" : null,
-          "description" : "Open the GitHub repository for Script Commands provided by the community.",
-          "filename" : "open-script-commands-repository.sh",
-          "hasArguments" : false,
-          "icon" : {
-            "dark" : null,
-            "light" : "📜"
-          },
-          "identifier" : "efca4f141d304b6908fa6c1cb87bf97d",
-          "isTemplate" : false,
-          "language" : "bash",
-          "mode" : "silent",
-          "needsConfirmation" : null,
-          "packageName" : "Bookmarks",
-          "path" : "bookmarks\/",
-          "refreshTime" : null,
-          "schemaVersion" : 1,
-          "title" : "Open Script Commands Repository",
-          "updatedAt" : "2020-12-08T15:56:35+00:00"
-        }
-      ]
-    },
-    {
       "name" : "Developer Utils",
       "path" : "developer-utils",
       "scriptCommands" : [
@@ -20136,68 +20107,68 @@
               "updatedAt" : "2021-11-11T04:18:19+01:00"
             }
           ]
-        }
-      ]
-    },
-    {
-      "name" : "Writing",
-      "path" : "writing",
-      "scriptCommands" : [
-        {
-          "authors" : [
-            {
-              "name" : "Benny Wong",
-              "url" : "https:\/\/bwong.net"
-            }
-          ],
-          "createdAt" : "2022-01-29T12:34:13-05:00",
-          "currentDirectoryPath" : null,
-          "description" : "Counts the number of words of the text in the clipboard",
-          "filename" : "word-count.sh",
-          "hasArguments" : false,
-          "icon" : {
-            "dark" : null,
-            "light" : "🤖"
-          },
-          "identifier" : "4757d0ea5b9d6eedf37b64f283531315",
-          "isTemplate" : false,
-          "language" : "bash",
-          "mode" : "inline",
-          "needsConfirmation" : null,
-          "packageName" : "Writing",
-          "path" : "writing\/",
-          "refreshTime" : "15s",
-          "schemaVersion" : 1,
-          "title" : "Word Count",
-          "updatedAt" : "2022-01-29T12:34:13-05:00"
         },
         {
-          "authors" : [
+          "name" : "Writing",
+          "path" : "writing",
+          "scriptCommands" : [
             {
-              "name" : "Alessandra Pereyra",
-              "url" : "https:\/\/github.com\/alessandrapereyra"
+              "authors" : [
+                {
+                  "name" : "Benny Wong",
+                  "url" : "https:\/\/bwong.net"
+                }
+              ],
+              "createdAt" : "2022-01-29T12:34:13-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Counts the number of words of the text in the clipboard",
+              "filename" : "word-count.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🤖"
+              },
+              "identifier" : "4757d0ea5b9d6eedf37b64f283531315",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Writing",
+              "path" : "productivity\/writing\/",
+              "refreshTime" : "15s",
+              "schemaVersion" : 1,
+              "title" : "Word Count",
+              "updatedAt" : "2022-10-31T10:14:18+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Alessandra Pereyra",
+                  "url" : "https:\/\/github.com\/alessandrapereyra"
+                }
+              ],
+              "createdAt" : "2022-09-04T19:45:53-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Directly use macOS Dictionary",
+              "filename" : "dictionary-lookup.swift",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "📖"
+              },
+              "identifier" : "be57af80902c33cee913774b6e58d678",
+              "isTemplate" : false,
+              "language" : "swift",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Writing",
+              "path" : "productivity\/writing\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Dictionary Lookup",
+              "updatedAt" : "2022-10-31T10:14:18+01:00"
             }
-          ],
-          "createdAt" : "2022-09-04T19:45:53-05:00",
-          "currentDirectoryPath" : null,
-          "description" : "Directly use macOS Dictionary",
-          "filename" : "dictionary-lookup.swift",
-          "hasArguments" : true,
-          "icon" : {
-            "dark" : null,
-            "light" : "📖"
-          },
-          "identifier" : "be57af80902c33cee913774b6e58d678",
-          "isTemplate" : false,
-          "language" : "swift",
-          "mode" : "compact",
-          "needsConfirmation" : null,
-          "packageName" : "Writing",
-          "path" : "writing\/",
-          "refreshTime" : null,
-          "schemaVersion" : 1,
-          "title" : "Dictionary Lookup",
-          "updatedAt" : "2022-09-05T11:33:53+00:00"
+          ]
         }
       ]
     },
@@ -22090,14 +22061,14 @@
       "name" : "bash"
     },
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
       "displayName" : "Ruby",
       "icon" : "icon-ruby.png",
       "name" : "ruby"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     },
     {
       "displayName" : "Node",
@@ -22110,14 +22081,14 @@
       "name" : "python"
     },
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 768,
-  "updatedAt" : "2022-10-31T09:12:27Z"
+  "totalScriptCommands" : 767,
+  "updatedAt" : "2022-10-31T09:17:53Z"
 }
