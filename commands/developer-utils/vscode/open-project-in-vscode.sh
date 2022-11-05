@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Required parameters:
-# @raycast.schemaVersion 1
+# @raycast.schema Version 1
 # @raycast.title Open Project
 # @raycast.mode compact
 # @raycast.packageName VS Code
@@ -11,7 +11,7 @@
 # @raycast.argument1 { "type": "text", "placeholder": "Directory Name", "optional": false }
 
 # Documentation
-# @raycast.description Finds path to the given directory which must be a vs code or git project and opens it with VS Code
+# @raycast.description Finds path to the given directory which must be a VS Code or Git project and opens it with VS Code
 # @raycast.author Maksim Zemlyanikin
 # @raycast.authorURL https://github.com/Maksimka101
 
