@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Required parameters:
-# @raycast.schema Version 1
+# @raycast.schemaVersion 1
 # @raycast.title Open Project
 # @raycast.mode compact
 # @raycast.packageName VS Code
