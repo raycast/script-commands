@@ -9995,7 +9995,7 @@
               ],
               "createdAt" : "2021-10-11T13:31:08+03:00",
               "currentDirectoryPath" : null,
-              "description" : "Finds path to the given directory which must be a vs code or git project and opens it with VS Code",
+              "description" : "Finds path to the given directory which must be a VS Code or Git project and opens it with VS Code",
               "filename" : "open-project-in-vscode.sh",
               "hasArguments" : true,
               "icon" : {
@@ -10012,7 +10012,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Open Project",
-              "updatedAt" : "2021-10-11T13:31:08+03:00"
+              "updatedAt" : "2022-11-08T14:51:04+05:30"
             },
             {
               "authors" : [
@@ -10023,7 +10023,7 @@
               ],
               "createdAt" : "2021-02-22T11:26:39+01:00",
               "currentDirectoryPath" : null,
-              "description" : "Opens current topmost directory in VSCode",
+              "description" : "Opens current topmost directory in VS Code",
               "filename" : "open-folder-in-vscode.applescript",
               "hasArguments" : false,
               "icon" : {
@@ -10040,7 +10040,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Open Directory",
-              "updatedAt" : "2021-10-11T13:31:08+03:00"
+              "updatedAt" : "2022-11-08T14:51:04+05:30"
             }
           ]
         },
@@ -22084,24 +22084,14 @@
   ],
   "languages" : [
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
-    },
-    {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
-    },
-    {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
       "displayName" : "Python",
       "icon" : "icon-python.png",
       "name" : "python"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     },
     {
       "displayName" : "Ruby",
@@ -22112,11 +22102,21 @@
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     }
   ],
   "metadata" : [
 
   ],
   "totalScriptCommands" : 768,
-  "updatedAt" : "2022-10-31T11:55:21Z"
+  "updatedAt" : "2022-11-08T09:23:41Z"
 }
