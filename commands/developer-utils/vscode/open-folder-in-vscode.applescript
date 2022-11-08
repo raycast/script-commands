@@ -10,7 +10,7 @@
 # @raycast.icon images/vscode.png
 #
 # Documentation:
-# @raycast.description Opens current topmost directory in VSCode
+# @raycast.description Opens current topmost directory in VS Code
 # @raycast.author chohner
 # @raycast.authorURL https://github.com/chohner
 
