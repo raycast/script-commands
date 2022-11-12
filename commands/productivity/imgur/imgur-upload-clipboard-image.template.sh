@@ -33,7 +33,7 @@ if [ -z "$m" ]; then
     exit -1
 fi
 
-#Client ID, use your own client ID. Get it from https://api.imgur.com/oauth2/addclient (Select anonymous useage as auth type)
+#Client ID, use your own client ID. Get it from https://api.imgur.com/oauth2/addclient (Select anonymous usage as auth type)
 client_id="" #CAN NOT BE EMPTY
 
 if [ "$client_id" == "" ]; then
