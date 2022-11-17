@@ -1902,35 +1902,6 @@
       ]
     },
     {
-      "name" : "Google Maps",
-      "path" : "google-maps",
-      "scriptCommands" : [
-        {
-          "authors" : null,
-          "createdAt" : "2021-02-19T09:10:21+00:00",
-          "currentDirectoryPath" : null,
-          "description" : null,
-          "filename" : "google-maps.sh",
-          "hasArguments" : true,
-          "icon" : {
-            "dark" : null,
-            "light" : "images\/google-map.png"
-          },
-          "identifier" : "43ab852f28e3b03e0e66fe5309f259b1",
-          "isTemplate" : false,
-          "language" : "bash",
-          "mode" : "silent",
-          "needsConfirmation" : null,
-          "packageName" : "Google Maps",
-          "path" : "google-maps\/",
-          "refreshTime" : null,
-          "schemaVersion" : 1,
-          "title" : "Search Google Maps",
-          "updatedAt" : "2021-05-10T08:44:51+02:00"
-        }
-      ]
-    },
-    {
       "name" : "Remote Control",
       "path" : "remote-control",
       "scriptCommands" : [
@@ -10221,414 +10192,6 @@
       ]
     },
     {
-      "name" : "Password Managers",
-      "path" : "password-managers",
-      "scriptCommands" : [
-
-      ],
-      "subGroups" : [
-        {
-          "name" : "Bitwarden",
-          "path" : "bitwarden",
-          "readme" : "password-managers\/bitwarden\/README.md",
-          "scriptCommands" : [
-            {
-              "authors" : [
-                {
-                  "name" : "Phil Salant",
-                  "url" : "https:\/\/github.com\/PSalant726"
-                }
-              ],
-              "createdAt" : "2021-02-03T02:57:58-05:00",
-              "currentDirectoryPath" : null,
-              "description" : "Search all items in a Bitwarden vault, and copy the password of the first search result to the clipboard.",
-              "filename" : "copy-first-matching-password.sh",
-              "hasArguments" : true,
-              "icon" : {
-                "dark" : null,
-                "light" : "images\/bitwarden.png"
-              },
-              "identifier" : "72075d66d7c96563327670d572148a5c",
-              "isTemplate" : false,
-              "language" : "bash",
-              "mode" : "silent",
-              "needsConfirmation" : null,
-              "packageName" : "Bitwarden",
-              "path" : "password-managers\/bitwarden\/",
-              "refreshTime" : null,
-              "schemaVersion" : 1,
-              "title" : "Copy First Matching Password",
-              "updatedAt" : "2021-06-27T00:02:29+02:00"
-            },
-            {
-              "authors" : [
-                {
-                  "name" : "Phil Salant",
-                  "url" : "https:\/\/github.com\/PSalant726"
-                }
-              ],
-              "createdAt" : "2021-03-29T13:44:44-04:00",
-              "currentDirectoryPath" : null,
-              "description" : "Delete a Bitwarden Send.",
-              "filename" : "delete-send.sh",
-              "hasArguments" : true,
-              "icon" : {
-                "dark" : null,
-                "light" : "images\/bitwarden.png"
-              },
-              "identifier" : "c379a38ce1c09e8d957bd3be837d9ebd",
-              "isTemplate" : false,
-              "language" : "bash",
-              "mode" : "silent",
-              "needsConfirmation" : true,
-              "packageName" : "Bitwarden",
-              "path" : "password-managers\/bitwarden\/",
-              "refreshTime" : null,
-              "schemaVersion" : 1,
-              "title" : "Delete a Send",
-              "updatedAt" : "2021-03-29T13:44:44-04:00"
-            },
-            {
-              "authors" : [
-                {
-                  "name" : "Phil Salant",
-                  "url" : "https:\/\/github.com\/PSalant726"
-                }
-              ],
-              "createdAt" : "2021-02-03T02:57:58-05:00",
-              "currentDirectoryPath" : null,
-              "description" : "Lock a Bitwarden session.",
-              "filename" : "lock.sh",
-              "hasArguments" : false,
-              "icon" : {
-                "dark" : null,
-                "light" : "images\/bitwarden.png"
-              },
-              "identifier" : "2a9be47e57277d4fa9cb8a226abd9b4e",
-              "isTemplate" : false,
-              "language" : "bash",
-              "mode" : "silent",
-              "needsConfirmation" : null,
-              "packageName" : "Bitwarden",
-              "path" : "password-managers\/bitwarden\/",
-              "refreshTime" : null,
-              "schemaVersion" : 1,
-              "title" : "Lock Session",
-              "updatedAt" : "2021-03-29T13:44:44-04:00"
-            },
-            {
-              "authors" : [
-                {
-                  "name" : "Phil Salant",
-                  "url" : "https:\/\/github.com\/PSalant726"
-                }
-              ],
-              "createdAt" : "2021-02-03T02:57:58-05:00",
-              "currentDirectoryPath" : null,
-              "description" : "View the content of a text-only Bitwarden Send.",
-              "filename" : "receive-text-send.sh",
-              "hasArguments" : true,
-              "icon" : {
-                "dark" : null,
-                "light" : "images\/bitwarden.png"
-              },
-              "identifier" : "f850482284a0f897ac026bb0ed8514d2",
-              "isTemplate" : false,
-              "language" : "bash",
-              "mode" : "fullOutput",
-              "needsConfirmation" : null,
-              "packageName" : "Bitwarden",
-              "path" : "password-managers\/bitwarden\/",
-              "refreshTime" : null,
-              "schemaVersion" : 1,
-              "title" : "Receive a Text Send",
-              "updatedAt" : "2021-06-16T14:43:13+02:00"
-            },
-            {
-              "authors" : [
-                {
-                  "name" : "Phil Salant",
-                  "url" : "https:\/\/github.com\/PSalant726"
-                }
-              ],
-              "createdAt" : "2021-02-03T02:57:58-05:00",
-              "currentDirectoryPath" : null,
-              "description" : "Create a new text-only Bitwarden Send.",
-              "filename" : "create-text-send.sh",
-              "hasArguments" : true,
-              "icon" : {
-                "dark" : null,
-                "light" : "images\/bitwarden.png"
-              },
-              "identifier" : "ef085c701b79f8559894d964b6244742",
-              "isTemplate" : false,
-              "language" : "bash",
-              "mode" : "silent",
-              "needsConfirmation" : null,
-              "packageName" : "Bitwarden",
-              "path" : "password-managers\/bitwarden\/",
-              "refreshTime" : null,
-              "schemaVersion" : 1,
-              "title" : "Create a Text Send",
-              "updatedAt" : "2021-06-16T14:43:13+02:00"
-            },
-            {
-              "authors" : [
-                {
-                  "name" : "Phil Salant",
-                  "url" : "https:\/\/github.com\/PSalant726"
-                }
-              ],
-              "createdAt" : "2021-02-03T02:57:58-05:00",
-              "currentDirectoryPath" : null,
-              "description" : "Search all items in a Bitwarden vault.",
-              "filename" : "search-vault-items.sh",
-              "hasArguments" : true,
-              "icon" : {
-                "dark" : null,
-                "light" : "images\/bitwarden.png"
-              },
-              "identifier" : "1e0fc8f792351eeff8d1f403cef716f5",
-              "isTemplate" : false,
-              "language" : "bash",
-              "mode" : "fullOutput",
-              "needsConfirmation" : null,
-              "packageName" : "Bitwarden",
-              "path" : "password-managers\/bitwarden\/",
-              "refreshTime" : null,
-              "schemaVersion" : 1,
-              "title" : "Search Vault Items",
-              "updatedAt" : "2021-02-20T18:54:25-05:00"
-            },
-            {
-              "authors" : [
-                {
-                  "name" : "Phil Salant",
-                  "url" : "https:\/\/github.com\/PSalant726"
-                }
-              ],
-              "createdAt" : "2021-02-03T02:57:58-05:00",
-              "currentDirectoryPath" : null,
-              "description" : "Display the authentication and lock status of the user's Bitwarden session.",
-              "filename" : "status.sh",
-              "hasArguments" : false,
-              "icon" : {
-                "dark" : null,
-                "light" : "images\/bitwarden.png"
-              },
-              "identifier" : "d86ee71986d686b7dfdeac1101e869ef",
-              "isTemplate" : false,
-              "language" : "bash",
-              "mode" : "inline",
-              "needsConfirmation" : null,
-              "packageName" : "Bitwarden",
-              "path" : "password-managers\/bitwarden\/",
-              "refreshTime" : "5m",
-              "schemaVersion" : 1,
-              "title" : "Bitwarden Status",
-              "updatedAt" : "2021-03-29T13:44:44-04:00"
-            },
-            {
-              "authors" : [
-                {
-                  "name" : "Phil Salant",
-                  "url" : "https:\/\/github.com\/PSalant726"
-                }
-              ],
-              "createdAt" : "2021-03-29T13:44:44-04:00",
-              "currentDirectoryPath" : null,
-              "description" : "Edit an existing Bitwarden Send.",
-              "filename" : "edit-send.sh",
-              "hasArguments" : true,
-              "icon" : {
-                "dark" : null,
-                "light" : "images\/bitwarden.png"
-              },
-              "identifier" : "11b9241c955e4217f11a3e797189a3ab",
-              "isTemplate" : false,
-              "language" : "bash",
-              "mode" : "fullOutput",
-              "needsConfirmation" : null,
-              "packageName" : "Bitwarden",
-              "path" : "password-managers\/bitwarden\/",
-              "refreshTime" : null,
-              "schemaVersion" : 1,
-              "title" : "Edit a Send",
-              "updatedAt" : "2021-03-29T13:44:44-04:00"
-            },
-            {
-              "authors" : [
-                {
-                  "name" : "Phil Salant",
-                  "url" : "https:\/\/github.com\/PSalant726"
-                }
-              ],
-              "createdAt" : "2021-02-03T02:57:58-05:00",
-              "currentDirectoryPath" : null,
-              "description" : "List all Bitwarden text Sends created in the currently unlocked account.",
-              "filename" : "list-sends.sh",
-              "hasArguments" : true,
-              "icon" : {
-                "dark" : null,
-                "light" : "images\/bitwarden.png"
-              },
-              "identifier" : "10d61b623f51ab4e5a12cb1df29a16c0",
-              "isTemplate" : false,
-              "language" : "bash",
-              "mode" : "fullOutput",
-              "needsConfirmation" : null,
-              "packageName" : "Bitwarden",
-              "path" : "password-managers\/bitwarden\/",
-              "refreshTime" : null,
-              "schemaVersion" : 1,
-              "title" : "List All Text Sends",
-              "updatedAt" : "2021-03-29T13:44:44-04:00"
-            },
-            {
-              "authors" : [
-                {
-                  "name" : "Phil Salant",
-                  "url" : "https:\/\/github.com\/PSalant726"
-                }
-              ],
-              "createdAt" : "2021-02-03T02:57:58-05:00",
-              "currentDirectoryPath" : null,
-              "description" : "Unlock an authenticated Bitwarden session.",
-              "filename" : "unlock.sh",
-              "hasArguments" : true,
-              "icon" : {
-                "dark" : null,
-                "light" : "images\/bitwarden.png"
-              },
-              "identifier" : "0d6dbf49507170aa4af614cbb4b16613",
-              "isTemplate" : false,
-              "language" : "bash",
-              "mode" : "silent",
-              "needsConfirmation" : null,
-              "packageName" : "Bitwarden",
-              "path" : "password-managers\/bitwarden\/",
-              "refreshTime" : null,
-              "schemaVersion" : 1,
-              "title" : "Unlock Session",
-              "updatedAt" : "2021-06-20T15:07:42+02:00"
-            },
-            {
-              "authors" : [
-                {
-                  "name" : "Phil Salant",
-                  "url" : "https:\/\/github.com\/PSalant726"
-                }
-              ],
-              "createdAt" : "2021-02-03T02:57:58-05:00",
-              "currentDirectoryPath" : null,
-              "description" : "Log out of Bitwarden.",
-              "filename" : "log-out.sh",
-              "hasArguments" : false,
-              "icon" : {
-                "dark" : null,
-                "light" : "images\/bitwarden.png"
-              },
-              "identifier" : "b0e4b9ddb57fdd18854bc8436273b550",
-              "isTemplate" : false,
-              "language" : "bash",
-              "mode" : "silent",
-              "needsConfirmation" : null,
-              "packageName" : "Bitwarden",
-              "path" : "password-managers\/bitwarden\/",
-              "refreshTime" : null,
-              "schemaVersion" : 1,
-              "title" : "Log Out",
-              "updatedAt" : "2021-03-29T13:44:44-04:00"
-            },
-            {
-              "authors" : [
-                {
-                  "name" : "Phil Salant",
-                  "url" : "https:\/\/github.com\/int3rrupt"
-                }
-              ],
-              "createdAt" : "2021-02-03T02:57:58-05:00",
-              "currentDirectoryPath" : null,
-              "description" : "Search all items in a Bitwarden vault, and copy the TOTP of the first search result to the clipboard.",
-              "filename" : "copy-first-matching-totp.sh",
-              "hasArguments" : true,
-              "icon" : {
-                "dark" : null,
-                "light" : "images\/bitwarden.png"
-              },
-              "identifier" : "5ddedd2cc4ce0ce27ea9da0db895b05d",
-              "isTemplate" : false,
-              "language" : "bash",
-              "mode" : "silent",
-              "needsConfirmation" : null,
-              "packageName" : "Bitwarden",
-              "path" : "password-managers\/bitwarden\/",
-              "refreshTime" : null,
-              "schemaVersion" : 1,
-              "title" : "Copy First Matching TOTP",
-              "updatedAt" : "2021-07-19T06:32:07-07:00"
-            },
-            {
-              "authors" : [
-                {
-                  "name" : "Marcel Bochtler",
-                  "url" : "https:\/\/github.com\/MarcelBochtler"
-                }
-              ],
-              "createdAt" : "2021-11-03T21:02:13+01:00",
-              "currentDirectoryPath" : null,
-              "description" : "Log in to Bitwarden using an API key.",
-              "filename" : "log-in-apikey.template.sh",
-              "hasArguments" : true,
-              "icon" : {
-                "dark" : null,
-                "light" : "images\/bitwarden.png"
-              },
-              "identifier" : "837bd1e9a8fe1ed4fa905be4f9cbc492",
-              "isTemplate" : true,
-              "language" : "bash",
-              "mode" : "silent",
-              "needsConfirmation" : null,
-              "packageName" : "Bitwarden",
-              "path" : "password-managers\/bitwarden\/",
-              "refreshTime" : null,
-              "schemaVersion" : 1,
-              "title" : "Log In",
-              "updatedAt" : "2021-11-03T21:02:13+01:00"
-            },
-            {
-              "authors" : [
-                {
-                  "name" : "Phil Salant",
-                  "url" : "https:\/\/github.com\/PSalant726"
-                }
-              ],
-              "createdAt" : "2021-02-03T02:57:58-05:00",
-              "currentDirectoryPath" : null,
-              "description" : "Log in to Bitwarden.",
-              "filename" : "log-in.template.sh",
-              "hasArguments" : true,
-              "icon" : {
-                "dark" : null,
-                "light" : "images\/bitwarden.png"
-              },
-              "identifier" : "8bbdf715852f934a47421e7f13d67602",
-              "isTemplate" : true,
-              "language" : "bash",
-              "mode" : "silent",
-              "needsConfirmation" : null,
-              "packageName" : "Bitwarden",
-              "path" : "password-managers\/bitwarden\/",
-              "refreshTime" : null,
-              "schemaVersion" : 1,
-              "title" : "Log In",
-              "updatedAt" : "2021-06-17T13:37:57+02:00"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name" : "Communication",
       "path" : "communication",
       "scriptCommands" : [
@@ -12946,6 +12509,29 @@
           "schemaVersion" : 1,
           "title" : "Find Email Address With Hunter",
           "updatedAt" : "2021-04-09T11:25:34+00:00"
+        },
+        {
+          "authors" : null,
+          "createdAt" : "2021-02-19T09:10:21+00:00",
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "google-maps.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/google-map.png"
+          },
+          "identifier" : "43ab852f28e3b03e0e66fe5309f259b1",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Google Maps",
+          "path" : "web-searches\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search Google Maps",
+          "updatedAt" : "2022-11-17T10:35:57+01:00"
         },
         {
           "authors" : [
@@ -19828,7 +19414,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Upload Latest Screenshot to Imgur",
-              "updatedAt" : "2021-09-09T13:29:10+03:00"
+              "updatedAt" : "2022-11-13T01:47:18+08:00"
             },
             {
               "authors" : [
@@ -19856,7 +19442,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Clipboard to Imgur",
-              "updatedAt" : "2021-09-09T13:29:10+03:00"
+              "updatedAt" : "2022-11-13T01:47:18+08:00"
             },
             {
               "authors" : [
@@ -19884,7 +19470,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Screenshot and Imgur",
-              "updatedAt" : "2021-09-09T13:29:10+03:00"
+              "updatedAt" : "2022-11-13T01:47:18+08:00"
             }
           ]
         },
@@ -19919,6 +19505,405 @@
               "schemaVersion" : 1,
               "title" : "OCR Screenshot",
               "updatedAt" : "2021-11-05T00:12:23+03:00"
+            }
+          ]
+        },
+        {
+          "name" : "Bitwarden",
+          "path" : "bitwarden",
+          "readme" : "productivity\/bitwarden\/README.md",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "createdAt" : "2021-02-03T02:57:58-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Search all items in a Bitwarden vault, and copy the password of the first search result to the clipboard.",
+              "filename" : "copy-first-matching-password.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/bitwarden.png"
+              },
+              "identifier" : "72075d66d7c96563327670d572148a5c",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "path" : "productivity\/bitwarden\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Copy First Matching Password",
+              "updatedAt" : "2022-11-17T10:35:57+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "createdAt" : "2021-03-29T13:44:44-04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Delete a Bitwarden Send.",
+              "filename" : "delete-send.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/bitwarden.png"
+              },
+              "identifier" : "c379a38ce1c09e8d957bd3be837d9ebd",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : true,
+              "packageName" : "Bitwarden",
+              "path" : "productivity\/bitwarden\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Delete a Send",
+              "updatedAt" : "2022-11-17T10:35:57+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "createdAt" : "2021-02-03T02:57:58-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Lock a Bitwarden session.",
+              "filename" : "lock.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/bitwarden.png"
+              },
+              "identifier" : "2a9be47e57277d4fa9cb8a226abd9b4e",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "path" : "productivity\/bitwarden\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Lock Session",
+              "updatedAt" : "2022-11-17T10:35:57+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "createdAt" : "2021-02-03T02:57:58-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "View the content of a text-only Bitwarden Send.",
+              "filename" : "receive-text-send.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/bitwarden.png"
+              },
+              "identifier" : "f850482284a0f897ac026bb0ed8514d2",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "path" : "productivity\/bitwarden\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Receive a Text Send",
+              "updatedAt" : "2022-11-17T10:35:57+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "createdAt" : "2021-02-03T02:57:58-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Create a new text-only Bitwarden Send.",
+              "filename" : "create-text-send.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/bitwarden.png"
+              },
+              "identifier" : "ef085c701b79f8559894d964b6244742",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "path" : "productivity\/bitwarden\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Create a Text Send",
+              "updatedAt" : "2022-11-17T10:35:57+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "createdAt" : "2021-02-03T02:57:58-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Search all items in a Bitwarden vault.",
+              "filename" : "search-vault-items.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/bitwarden.png"
+              },
+              "identifier" : "1e0fc8f792351eeff8d1f403cef716f5",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "path" : "productivity\/bitwarden\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Search Vault Items",
+              "updatedAt" : "2022-11-17T10:35:57+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "createdAt" : "2021-02-03T02:57:58-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Display the authentication and lock status of the user's Bitwarden session.",
+              "filename" : "status.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/bitwarden.png"
+              },
+              "identifier" : "d86ee71986d686b7dfdeac1101e869ef",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "path" : "productivity\/bitwarden\/",
+              "refreshTime" : "5m",
+              "schemaVersion" : 1,
+              "title" : "Bitwarden Status",
+              "updatedAt" : "2022-11-17T10:35:57+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "createdAt" : "2021-03-29T13:44:44-04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Edit an existing Bitwarden Send.",
+              "filename" : "edit-send.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/bitwarden.png"
+              },
+              "identifier" : "11b9241c955e4217f11a3e797189a3ab",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "path" : "productivity\/bitwarden\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Edit a Send",
+              "updatedAt" : "2022-11-17T10:35:57+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "createdAt" : "2021-02-03T02:57:58-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "List all Bitwarden text Sends created in the currently unlocked account.",
+              "filename" : "list-sends.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/bitwarden.png"
+              },
+              "identifier" : "10d61b623f51ab4e5a12cb1df29a16c0",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "path" : "productivity\/bitwarden\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "List All Text Sends",
+              "updatedAt" : "2022-11-17T10:35:57+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "createdAt" : "2021-02-03T02:57:58-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Unlock an authenticated Bitwarden session.",
+              "filename" : "unlock.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/bitwarden.png"
+              },
+              "identifier" : "0d6dbf49507170aa4af614cbb4b16613",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "path" : "productivity\/bitwarden\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Unlock Session",
+              "updatedAt" : "2022-11-17T10:35:57+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "createdAt" : "2021-02-03T02:57:58-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Log out of Bitwarden.",
+              "filename" : "log-out.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/bitwarden.png"
+              },
+              "identifier" : "b0e4b9ddb57fdd18854bc8436273b550",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "path" : "productivity\/bitwarden\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Log Out",
+              "updatedAt" : "2022-11-17T10:35:57+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/int3rrupt"
+                }
+              ],
+              "createdAt" : "2021-02-03T02:57:58-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Search all items in a Bitwarden vault, and copy the TOTP of the first search result to the clipboard.",
+              "filename" : "copy-first-matching-totp.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/bitwarden.png"
+              },
+              "identifier" : "5ddedd2cc4ce0ce27ea9da0db895b05d",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "path" : "productivity\/bitwarden\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Copy First Matching TOTP",
+              "updatedAt" : "2022-11-17T10:35:57+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Marcel Bochtler",
+                  "url" : "https:\/\/github.com\/MarcelBochtler"
+                }
+              ],
+              "createdAt" : "2021-11-03T21:02:13+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Log in to Bitwarden using an API key.",
+              "filename" : "log-in-apikey.template.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/bitwarden.png"
+              },
+              "identifier" : "837bd1e9a8fe1ed4fa905be4f9cbc492",
+              "isTemplate" : true,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "path" : "productivity\/bitwarden\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Log In",
+              "updatedAt" : "2022-11-17T10:35:57+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "createdAt" : "2021-02-03T02:57:58-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Log in to Bitwarden.",
+              "filename" : "log-in.template.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/bitwarden.png"
+              },
+              "identifier" : "8bbdf715852f934a47421e7f13d67602",
+              "isTemplate" : true,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "path" : "productivity\/bitwarden\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Log In",
+              "updatedAt" : "2022-11-17T10:35:57+01:00"
             }
           ]
         },
@@ -22084,19 +22069,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
-    },
-    {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     },
     {
       "displayName" : "Bash",
@@ -22104,19 +22079,29 @@
       "name" : "bash"
     },
     {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
+    },
+    {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
     },
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     }
   ],
   "metadata" : [
 
   ],
   "totalScriptCommands" : 768,
-  "updatedAt" : "2022-11-08T09:23:41Z"
+  "updatedAt" : "2022-11-17T09:39:00Z"
 }
