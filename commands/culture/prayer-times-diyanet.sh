@@ -5,15 +5,20 @@
 # Homebrew: https://brew.sh/
 # Coreutils: https://formulae.brew.sh/formula/coreutils
 
-# @authorURL https://emircanerkul.com
-# @raycast.author emircanerkul
+# Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Prayer Times (Diyanet)
-# @raycast.packageName Productivity
-# @raycast.description Prayer Times that grabbed from the Diyanet's Official Website for people located in Türkiye.
 # @raycast.mode inline
 # @raycast.refreshTime 10m
+# @raycast.packageName Culture
+
+# Optional parameters:
 # @raycast.icon 🕌
+
+# Documentation
+# @raycast.author Emircan Erkul
+# @raycast.authorURL https://emircanerkul.com
+# @raycast.description Prayer Times grabbed from the Diyanet's Official Website for people located in Türkiye.
 
 data=$(curl -s https://namazvakitleri.diyanet.gov.tr/tr-TR/9654/kocaeli-icin-namaz-vakti)
  
