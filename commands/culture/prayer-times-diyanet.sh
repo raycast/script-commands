@@ -9,7 +9,6 @@
 # @raycast.schemaVersion 1
 # @raycast.title Prayer Times (Diyanet)
 # @raycast.mode inline
-# @raycast.refreshTime 10m
 # @raycast.packageName Culture
 
 # Optional parameters:
