@@ -19378,6 +19378,40 @@
       ]
     },
     {
+      "name" : "Culture",
+      "path" : "culture",
+      "scriptCommands" : [
+        {
+          "authors" : [
+            {
+              "name" : "Emircan Erkul",
+              "url" : "https:\/\/emircanerkul.com"
+            }
+          ],
+          "createdAt" : "2022-11-17T12:22:40+03:00",
+          "currentDirectoryPath" : null,
+          "description" : "Prayer Times grabbed from the Diyanet's Official Website for people located in Türkiye.",
+          "filename" : "prayer-times-diyanet.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🕌"
+          },
+          "identifier" : "64f8434e9317a2cfd699e4dfd8d4be86",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Culture",
+          "path" : "culture\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Prayer Times (Diyanet)",
+          "updatedAt" : "2022-11-17T13:23:15+03:00"
+        }
+      ]
+    },
+    {
       "name" : "Productivity",
       "path" : "productivity",
       "scriptCommands" : [
@@ -22069,6 +22103,16 @@
   ],
   "languages" : [
     {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
@@ -22084,24 +22128,14 @@
       "name" : "node"
     },
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
-    },
-    {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 768,
-  "updatedAt" : "2022-11-17T09:39:00Z"
+  "totalScriptCommands" : 769,
+  "updatedAt" : "2022-11-18T11:26:30Z"
 }
