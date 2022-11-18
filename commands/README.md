@@ -97,6 +97,7 @@ This repository contains sample commands and documentation to write your own one
   - [Zoom](#zoom)
 - [Conversions](#conversions)
   - [Change Case](#change-case)
+- [Culture](#culture)
 - [Dashboard](#dashboard)
   - [Countdowns](#countdowns)
   - [Firebase](#firebase)
@@ -795,6 +796,12 @@ This repository contains sample commands and documentation to write your own one
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/conversions/change-case/./images/snakecase-dark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/conversions/change-case/./images/snakecase-light.png" width="20" height="20"></picture> | [Snake Case](conversions/change-case/snakecase.py) | Change to clipboard text to snake case | [Robert Cooper](https://github.com/robertcoopercode) |  |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/conversions/change-case/./images/titlecase-dark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/conversions/change-case/./images/titlecase-light.png" width="20" height="20"></picture> | [Title Case](conversions/change-case/titlecase.py) | Change to clipboard text to title case | [Robert Cooper](https://github.com/robertcoopercode) |  |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/conversions/change-case/./images/uppercase-dark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/conversions/change-case/./images/uppercase-light.png" width="20" height="20"></picture> | [Uppercase](conversions/change-case/uppercase.py) | Change to clipboard text to uppercase | [Robert Cooper](https://github.com/robertcoopercode) |  |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
+
+## Culture
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | 🕌 | [Prayer Times (Diyanet)](culture/prayer-times-diyanet.sh) | Prayer Times grabbed from the Diyanet's Official Website for people located in Türkiye. | [Emircan Erkul](https://emircanerkul.com) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 ## Dashboard
 
