@@ -25,7 +25,7 @@ fi
 
 # Source: https://superuser.com/a/736859
 function isnt_connected () {
-    warp-cli status | sed -n 2p | grep -qv Connected
+    warp-cli status | grep Status | grep -qv Connected
 }
 
 function poll_until_connected () {
