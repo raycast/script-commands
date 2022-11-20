@@ -23,7 +23,7 @@ if ! command -v warp-cli &> /dev/null; then
   exit 1;
 fi
 
-status=$(warp-cli status | sed -n 2p | awk 'NF>1{print $NF}')
+status=$(warp-cli status | grep Status | awk 'NF>1{print $NF}')
 
 if [ "$status" == "Connected" ] || [ "$status" == "Disconnected" ]; then
   echo "$status"
