@@ -3,7 +3,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title runAlias
+# @raycast.title alias
 # @raycast.mode compact
 
 # Optional parameters:
