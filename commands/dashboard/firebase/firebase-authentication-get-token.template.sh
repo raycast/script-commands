@@ -53,4 +53,4 @@ curl -X POST \
   --header 'Content-Type: application/json' \
   --data-raw "$json_data" | jq -r '.idToken' | pbcopy
 
-echo 'CMS_auth_token copied to your clipboard!'
+echo 'Authorization token copied to your clipboard!'
