@@ -11843,6 +11843,34 @@
         {
           "authors" : [
             {
+              "name" : "Razvan Azamfirei",
+              "url" : "https:\/\/github.com\/razvanazamfirei"
+            }
+          ],
+          "createdAt" : "2022-12-16T16:54:47-05:00",
+          "currentDirectoryPath" : null,
+          "description" : "Parses and opens DOI links in your browser",
+          "filename" : "doi.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "📖"
+          },
+          "identifier" : "f0a1d84b48cb82b7b89f17f05565d7f5",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "DOI",
+          "path" : "web-searches\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Find Paper",
+          "updatedAt" : "2022-12-16T16:54:47-05:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Benedict Neo",
               "url" : "https:\/\/github.com\/benthecoder"
             }
@@ -12114,6 +12142,34 @@
           "schemaVersion" : 1,
           "title" : "PostgreSQL Documentation",
           "updatedAt" : "2021-03-04T12:40:16-05:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Razvan Azamfirei",
+              "url" : "https:\/\/github.com\/razvanazamfirei"
+            }
+          ],
+          "createdAt" : "2022-12-16T16:54:47-05:00",
+          "currentDirectoryPath" : null,
+          "description" : "Scans clipboard and opens DOI links in your browser",
+          "filename" : "doi-clipboard.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📖"
+          },
+          "identifier" : "5a5b14ccec3b42e5980dbd993beee9db",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "DOI",
+          "path" : "web-searches\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Find Paper",
+          "updatedAt" : "2022-12-16T16:54:47-05:00"
         },
         {
           "authors" : [
@@ -17033,7 +17089,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Disconnect",
-              "updatedAt" : "2021-11-03T23:01:39+03:00"
+              "updatedAt" : "2022-11-21T00:02:28+07:00"
             },
             {
               "authors" : [
@@ -17061,7 +17117,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Toggle WARP",
-              "updatedAt" : "2021-11-03T23:01:39+03:00"
+              "updatedAt" : "2022-11-21T00:02:28+07:00"
             },
             {
               "authors" : [
@@ -17089,7 +17145,7 @@
               "refreshTime" : "30s",
               "schemaVersion" : 1,
               "title" : "WARP Status",
-              "updatedAt" : "2021-11-03T23:01:39+03:00"
+              "updatedAt" : "2022-11-21T00:02:28+07:00"
             },
             {
               "authors" : [
@@ -17117,7 +17173,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Connect",
-              "updatedAt" : "2021-11-03T23:01:39+03:00"
+              "updatedAt" : "2022-11-21T00:02:28+07:00"
             }
           ]
         },
@@ -22103,6 +22159,11 @@
   ],
   "languages" : [
     {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
+    },
+    {
       "displayName" : "Ruby",
       "icon" : "icon-ruby.png",
       "name" : "ruby"
@@ -22123,11 +22184,6 @@
       "name" : "bash"
     },
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
-    },
-    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
@@ -22136,6 +22192,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 769,
-  "updatedAt" : "2022-11-18T11:26:30Z"
+  "totalScriptCommands" : 771,
+  "updatedAt" : "2022-12-30T11:00:00Z"
 }
