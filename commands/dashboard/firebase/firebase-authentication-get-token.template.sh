@@ -9,16 +9,15 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Get authorization token from Firebase
+# @raycast.title Get Authorization Token
 # @raycast.mode compact
-# @raycast.refreshTime 10m
 # @raycast.packageName Firebase Authentication
 
 # Optional parameters:
 # @raycast.icon images/firebase.png
 #
 # Documentation:
-# @raycast.description Get authorization token from Firebase Authentication service
+# @raycast.description Get token from Firebase Authentication service
 # @raycast.author João Melo
 # @raycast.authorURL https://github.com/joaopcm
 
@@ -30,27 +29,27 @@ EMAIL=""
 PASSWORD=""
 
 if ! jq --version download &> /dev/null; then
-      echo "download jq is required (https://stedolan.github.io/jq/).";
-      exit 1;
+    echo "download jq is required (https://stedolan.github.io/jq/).";
+    exit 1;
 fi
 
 if [ -z "$WEB_API_KEY" ] || [ -z "$EMAIL" ] || [ -z "$PASSWORD" ]; then
-  echo "Error: You must provide WEB_API_KEY, EMAIL, and PASSWORD variables"
-  exit 1
+    echo "Error: You must provide WEB_API_KEY, EMAIL, and PASSWORD variables"
+    exit 1
 fi
 
 # Generate the request body
 json_data=$( jq -n -c \
-                      --arg email "$EMAIL" \
-                      --arg password "$PASSWORD" \
-                      --arg returnSecureToken true '$ARGS.named' )
+    --arg email "$EMAIL" \
+    --arg password "$PASSWORD" \
+    --arg returnSecureToken true '$ARGS.named' )
 
 # Get data from Firebase Authentication service and copy the token to clipboard
 curl -X POST \
-  "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=$WEB_API_KEY" \
-  --header 'Accept: */*' \
-  --header 'User-Agent: Raycast' \
-  --header 'Content-Type: application/json' \
-  --data-raw "$json_data" | jq -r '.idToken' | pbcopy
+    "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=$WEB_API_KEY" \
+    --header 'Accept: */*' \
+    --header 'User-Agent: Raycast' \
+    --header 'Content-Type: application/json' \
+    --data-raw "$json_data" | jq -r '.idToken' | pbcopy
 
 echo 'Authorization token copied to your clipboard!'
