@@ -4353,6 +4353,34 @@
               "schemaVersion" : 1,
               "title" : "Get data from Firebase",
               "updatedAt" : "2022-03-30T22:44:18+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "João Melo",
+                  "url" : "https:\/\/github.com\/joaopcm"
+                }
+              ],
+              "createdAt" : "2022-12-30T14:08:40-03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Get token from Firebase Authentication service",
+              "filename" : "firebase-authentication-get-token.template.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/firebase.png"
+              },
+              "identifier" : "d4bf22f455beb60e3044429453e05102",
+              "isTemplate" : true,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Firebase Authentication",
+              "path" : "dashboard\/firebase\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Get Authorization Token",
+              "updatedAt" : "2022-12-30T17:11:26+00:00"
             }
           ]
         },
@@ -22159,9 +22187,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     },
     {
       "displayName" : "Ruby",
@@ -22169,9 +22197,9 @@
       "name" : "ruby"
     },
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
     },
     {
       "displayName" : "Swift",
@@ -22179,19 +22207,19 @@
       "name" : "swift"
     },
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     },
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 771,
-  "updatedAt" : "2022-12-30T11:00:00Z"
+  "totalScriptCommands" : 772,
+  "updatedAt" : "2022-12-30T17:11:26Z"
 }

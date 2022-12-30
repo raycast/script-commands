@@ -836,6 +836,7 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/dashboard/firebase/images/firebase.png" width="20" height="20"> | [Get Authorization Token](dashboard/firebase/firebase-authentication-get-token.template.sh) | Get token from Firebase Authentication service | [João Melo](https://github.com/joaopcm) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/dashboard/firebase/images/firebase.png" width="20" height="20"> | [Get data from Firebase](dashboard/firebase/firebase-realtime-db-get-data.template.sh) | Get values from Firebase Realtime Database | [Marek Mašek](https://github.com/marekmasek) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Mood Meter
