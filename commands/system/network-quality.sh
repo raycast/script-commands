@@ -19,7 +19,7 @@
 result=$(networkQuality -v)
 
 rtt=$(echo "$result" | grep "Idle Latency" | awk '{print $3}')
-mbps_down=$(echo "$result" | grep "Downlink capacity" | awk '{print $3 toLower($4)}')
-mbps_up=$(echo "$result" | grep "Uplink capacity" | awk '{print $3 toLower($4)}')
+mbps_down=$(echo "$result" | grep "Downlink capacity" | awk '{print $3 tolower($4)}')
+mbps_up=$(echo "$result" | grep "Uplink capacity" | awk '{print $3 tolower($4)}')
 
 echo "↓ ${mbps_down}  ↑ ${mbps_up}  ↔ ${rtt} ms"
