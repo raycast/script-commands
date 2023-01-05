@@ -13,12 +13,21 @@
 # @raycast.description Get the TTFB (Time to First Byte) of a website
 # @raycast.author Angelos Michalopoulos
 # @raycast.authorURL https://github.com/miagg
-# @raycast.argument1 { "type": "text", "placeholder": "domain" }
+# @raycast.argument1 { "type": "text", "placeholder": "URL" }
 
 if [ -z "$1" ]; then
   echo "Please provide a domain"
   exit 1
 fi
+
+# If no url scheme is provided, add https://
+if [[ "$1" == http* ]]; then
+  url="$1"
+else
+  url="https://$1"
+fi
+
+echo "Pinging: $url..."
 
 curl -o /dev/null \
     -H 'Cache-Control: no-cache' \
@@ -27,4 +36,4 @@ curl -o /dev/null \
     --fail \
     --silent \
     --show-error \
-    "$1"
+    "$url"
