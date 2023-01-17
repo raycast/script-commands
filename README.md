@@ -36,7 +36,7 @@ To install new commands, follow these steps:
 
 1. Choose a script from the [community repo](https://github.com/raycast/script-commands/tree/master/commands#apps) and save it into a new directory.
    
-   Scripts containing the word `.template.` in the filename require some values to be set (check [the troubleshouting section](#troubleshooting-and-faqs) for more information).
+   Scripts containing the word `.template.` in the filename require some values to be set (check [the troubleshooting section](#troubleshooting-and-faqs) for more information).
    
    Alternatively, instead of creating a new directory you can reuse the repo's [`_enable-commands` folder](https://github.com/raycast/script-commands/tree/master/_enabled-commands).
 3. Open the Extensions tab in the Raycast preferences
