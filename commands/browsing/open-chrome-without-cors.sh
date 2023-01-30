@@ -6,7 +6,7 @@
 # @raycast.mode compact
 
 # Optional parameters:
-# @raycast.icon 🤖
+# @raycast.icon images/chrome-icon.png
 # @raycast.packageName Chrome
 # @raycast.needsConfirmation false
 
