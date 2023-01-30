@@ -2,12 +2,12 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Open Chrome without CORS
+# @raycast.title Open without CORS
 # @raycast.mode compact
 
 # Optional parameters:
 # @raycast.icon 🤖
-# @raycast.packageName Open Chrome without CORS
+# @raycast.packageName Chrome
 # @raycast.needsConfirmation false
 
 # Documentation:
