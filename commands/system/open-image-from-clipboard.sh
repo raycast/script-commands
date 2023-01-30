@@ -6,12 +6,12 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Open Image from Clipboard
+# @raycast.title Open Image
 # @raycast.mode compact
 
 # Optional parameters:
 # @raycast.icon 📋
-# @raycast.packageName Open Image from Clipboard
+# @raycast.packageName Clipboard
 
 # Documentation:
 # @raycast.description Open Image from Clipboard in Preview for OCR or other purposes.

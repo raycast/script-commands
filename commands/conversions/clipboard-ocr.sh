@@ -6,12 +6,12 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title OCR Image from Clipboard
+# @raycast.title OCR Image
 # @raycast.mode fullOutput
 
 # Optional parameters:
 # @raycast.icon 📋
-# @raycast.packageName OCR Image from Clipboard
+# @raycast.packageName Clipboard
 
 # Documentation:
 # @raycast.description OCR Image from Clipboard
