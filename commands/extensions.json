@@ -751,6 +751,34 @@
         {
           "authors" : [
             {
+              "name" : "xxchan",
+              "url" : "https:\/\/github.com\/xxchan"
+            }
+          ],
+          "createdAt" : "2023-01-31T01:00:23+01:00",
+          "currentDirectoryPath" : null,
+          "description" : "OCR Image from Clipboard",
+          "filename" : "clipboard-ocr.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📋"
+          },
+          "identifier" : "1fa48d4acba0f0992f2e9b9bf586703d",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Clipboard",
+          "path" : "conversions\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "OCR Image",
+          "updatedAt" : "2023-01-31T01:00:23+01:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Jakub Lanski",
               "url" : "https:\/\/github.com\/jaklan"
             }
@@ -1321,6 +1349,34 @@
           "schemaVersion" : 1,
           "title" : "Shorten URL with Emojis",
           "updatedAt" : "2022-06-20T10:20:50+10:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Tahsin Yazkan",
+              "url" : "https:\/\/github.com\/thsnyzkn"
+            }
+          ],
+          "createdAt" : "2023-01-31T03:02:13+03:00",
+          "currentDirectoryPath" : null,
+          "description" : "Open chrome with web security option disabled.",
+          "filename" : "open-chrome-without-cors.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/chrome-icon.png"
+          },
+          "identifier" : "a6e07f1845ea9de231cf3c943d0aa522",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "compact",
+          "needsConfirmation" : false,
+          "packageName" : "Chrome",
+          "path" : "browsing\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open without CORS",
+          "updatedAt" : "2023-01-31T03:02:13+03:00"
         },
         {
           "authors" : [
@@ -5620,7 +5676,7 @@
           "refreshTime" : "20m",
           "schemaVersion" : 1,
           "title" : "Network Quality",
-          "updatedAt" : "2022-04-18T08:53:46-07:00"
+          "updatedAt" : "2022-12-30T13:32:07-05:00"
         },
         {
           "authors" : [
@@ -5970,6 +6026,34 @@
           "schemaVersion" : 1,
           "title" : "Caffeinate",
           "updatedAt" : "2021-06-23T19:47:11+03:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "xxchan",
+              "url" : "https:\/\/github.com\/xxchan"
+            }
+          ],
+          "createdAt" : "2023-01-31T01:00:23+01:00",
+          "currentDirectoryPath" : null,
+          "description" : "Open Image from Clipboard in Preview for OCR or other purposes.",
+          "filename" : "open-image-from-clipboard.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📋"
+          },
+          "identifier" : "02b393208c74661deadfc66ddf16da87",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Clipboard",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open Image",
+          "updatedAt" : "2023-01-31T01:00:23+01:00"
         },
         {
           "authors" : [
@@ -8331,7 +8415,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Get TTFB (Time to First Byte)",
-          "updatedAt" : "2022-08-19T12:58:32+03:00"
+          "updatedAt" : "2023-01-05T20:54:09+02:00"
         },
         {
           "authors" : [
@@ -22187,14 +22271,14 @@
   ],
   "languages" : [
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
       "displayName" : "Ruby",
       "icon" : "icon-ruby.png",
       "name" : "ruby"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     },
     {
       "displayName" : "Bash",
@@ -22220,6 +22304,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 772,
-  "updatedAt" : "2022-12-30T17:11:26Z"
+  "totalScriptCommands" : 775,
+  "updatedAt" : "2023-01-31T00:05:09Z"
 }
