@@ -5,7 +5,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Set Text
+# @raycast.title Clear Text
 # @raycast.mode silent
 
 # Optional parameters:
@@ -15,7 +15,6 @@
 # Documentation:
 # @raycast.author One Thing
 # @raycast.authorURL https://sindresorhus.com/one-thing
-# @raycast.description Set the text shown in One Thing app.
-# @raycast.argument1 { "type": "text", "placeholder": "text", "percentEncoded": true }
+# @raycast.description Clear the text shown in One Thing app.
 
-open --background "one-thing:?text=$1"
+open --background "one-thing:?text="
