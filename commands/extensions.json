@@ -6834,6 +6834,34 @@
             {
               "authors" : [
                 {
+                  "name" : "Mortada Sarheed",
+                  "url" : "https:\/\/github.com\/mSarheed"
+                }
+              ],
+              "createdAt" : "2023-02-03T08:45:57+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Get the battery level of your bluetooth headphones",
+              "filename" : "bluetooth-headphones-battery-level.template.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🎧"
+              },
+              "identifier" : "0e6a4e95c4fef0b4d461f56d1ab20367",
+              "isTemplate" : true,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Audio",
+              "path" : "system\/audio\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Headphones Battery Level",
+              "updatedAt" : "2023-02-03T07:51:37+00:00"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "mmerle",
                   "url" : "https:\/\/github.com\/mmerle"
                 }
@@ -22305,19 +22333,14 @@
   ],
   "languages" : [
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
-    },
-    {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     },
     {
       "displayName" : "Ruby",
@@ -22325,19 +22348,24 @@
       "name" : "ruby"
     },
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     },
     {
       "displayName" : "Python",
       "icon" : "icon-python.png",
       "name" : "python"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 776,
-  "updatedAt" : "2023-02-03T00:48:14Z"
+  "totalScriptCommands" : 777,
+  "updatedAt" : "2023-02-03T07:51:37Z"
 }
