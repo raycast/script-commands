@@ -10488,6 +10488,40 @@
           ]
         },
         {
+          "name" : "Mail",
+          "path" : "mail",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Ben Yoon",
+                  "url" : "https:\/\/github.com\/benyn"
+                }
+              ],
+              "createdAt" : "2023-02-02T13:38:06-08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open the last received email in your inbox in Mail.app",
+              "filename" : "open-most-recent-email.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "✉️"
+              },
+              "identifier" : "3766484ecb1942dab17dd995c1e51f14",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Mail",
+              "path" : "communication\/mail\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Most Recent Email",
+              "updatedAt" : "2023-02-03T00:48:14+00:00"
+            }
+          ]
+        },
+        {
           "name" : "DuckDuckGo Email Protection",
           "path" : "duckduckgo-email-protection",
           "readme" : "communication\/duckduckgo-email-protection\/README.md",
@@ -22271,14 +22305,14 @@
   ],
   "languages" : [
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     },
     {
       "displayName" : "Bash",
@@ -22286,14 +22320,14 @@
       "name" : "bash"
     },
     {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
-    },
-    {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
     },
     {
       "displayName" : "Python",
@@ -22304,6 +22338,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 775,
-  "updatedAt" : "2023-01-31T00:05:09Z"
+  "totalScriptCommands" : 776,
+  "updatedAt" : "2023-02-03T00:48:14Z"
 }
