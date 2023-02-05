@@ -14209,7 +14209,35 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Set Text",
-              "updatedAt" : "2022-01-16T17:00:05+07:00"
+              "updatedAt" : "2023-02-03T19:59:31+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "One Thing",
+                  "url" : "https:\/\/sindresorhus.com\/one-thing"
+                }
+              ],
+              "createdAt" : "2022-01-16T17:00:05+07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Clear the text shown in One Thing app.",
+              "filename" : "one-thing-clear-text.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/one-thing.png"
+              },
+              "identifier" : "d6364a4011082d1d7dbfeb99a5cd55bf",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "One Thing",
+              "path" : "apps\/one-thing\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Clear Text",
+              "updatedAt" : "2023-02-03T19:59:31+07:00"
             }
           ]
         },
@@ -22338,9 +22366,19 @@
       "name" : "bash"
     },
     {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     },
     {
       "displayName" : "Ruby",
@@ -22351,21 +22389,11 @@
       "displayName" : "Node",
       "icon" : "icon-nodejs.png",
       "name" : "node"
-    },
-    {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 777,
-  "updatedAt" : "2023-02-03T07:51:37Z"
+  "totalScriptCommands" : 778,
+  "updatedAt" : "2023-02-05T08:36:17Z"
 }
