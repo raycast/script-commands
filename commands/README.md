@@ -447,6 +447,7 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/one-thing/./images/one-thing.png" width="20" height="20"> | [Clear Text](apps/one-thing/one-thing-clear-text.sh) | Clear the text shown in One Thing app. | [One Thing](https://sindresorhus.com/one-thing) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/one-thing/./images/one-thing.png" width="20" height="20"> | [Set Text](apps/one-thing/one-thing-set-text.sh) | Set the text shown in One Thing app. | [One Thing](https://sindresorhus.com/one-thing) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### OpenVPN
