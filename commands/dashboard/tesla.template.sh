@@ -13,12 +13,14 @@
 # @raycast.author Mortada Sarheed
 # @raycast.authorURL https://github.com/mSarheed
 
-# Get your token #
+### SETUP ###
+## Get your token ##
 # On iOS you can use the app Auth app for Tesla link: https://apps.apple.com/us/app/auth-app-for-tesla/id1552058613
 # On Android you can use the app Tesla Tokens link: https://play.google.com/store/apps/details?id=net.leveugle.teslatokens&hl=en&gl=US
 # Retrieve your refresh token and paste it into the varibale $refresh token
 
-# If you have multiple Tesla Vehicles, please identify the ID of your vehicle. You can use this tool https://tesla-info.com/tesla-token.php to get the vehicle ID
+# ONLY relevant if you have multiple Tesla Vehicles and on the same Tesla Account. 
+#If you have multiple Tesla Vehicles, please identify the ID of your vehicle. You can use this tool https://tesla-info.com/tesla-token.php to get the vehicle ID
  
 refresh_token=''
 
