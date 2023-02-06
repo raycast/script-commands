@@ -4115,6 +4115,34 @@
         {
           "authors" : [
             {
+              "name" : "Mortada Sarheed",
+              "url" : "https:\/\/github.com\/mSarheed"
+            }
+          ],
+          "createdAt" : "2023-02-06T09:47:01+01:00",
+          "currentDirectoryPath" : null,
+          "description" : "Get the status of your Tesla vehicle",
+          "filename" : "tesla.template.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🚘"
+          },
+          "identifier" : "92b07ce3fd4dd31dc4dde74af562bc59",
+          "isTemplate" : true,
+          "language" : "bash",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Tesla.Template",
+          "path" : "dashboard\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Tesla",
+          "updatedAt" : "2023-02-06T08:49:49+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Thomas Paul Mann",
               "url" : "https:\/\/github.com\/thomaspaulmann"
             }
@@ -22361,9 +22389,14 @@
   ],
   "languages" : [
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     },
     {
       "displayName" : "Python",
@@ -22371,29 +22404,24 @@
       "name" : "python"
     },
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
-    },
-    {
       "displayName" : "Ruby",
       "icon" : "icon-ruby.png",
       "name" : "ruby"
     },
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 778,
-  "updatedAt" : "2023-02-05T08:36:17Z"
+  "totalScriptCommands" : 779,
+  "updatedAt" : "2023-02-06T08:49:49Z"
 }
