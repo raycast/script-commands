@@ -1,7 +1,9 @@
 #!/usr/bin/osascript
+# Check "Safari > Advanced > Develop" first.
+# This script works on the English Safari menu.
 
-# @raycast.title Open Bing in Safari with Edge User-Agent
-# @raycast.description Open Bing in Safari with Edge User-Agent, check Safari - Advanced - Develop first. This script works on the English Safari menu.
+# @raycast.title Open Bing with Edge User-Agent
+# @raycast.description Open Bing in Safari with Edge User-Agent
 # @raycast.author smxl
 # @raycast.authorURL https://github.com/smxl
 
