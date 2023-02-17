@@ -17,7 +17,7 @@ tell application "Safari"
 	set theURL to "https://www.bing.com"
 	set newTab to make new tab at end of tabs of window 1
 	set current tab of window 1 to newTab
-	set theUserAgent to "Microsoft Edge ¡ª MacOS"
+	set theUserAgent to "Microsoft Edge Â¡Âª MacOS"
 	set URL of newTab to theURL
 	tell application "System Events"
 		tell process "Safari"
