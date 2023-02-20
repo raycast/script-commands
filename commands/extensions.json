@@ -8229,7 +8229,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Clear All Related Junk",
-          "updatedAt" : "2021-06-14T20:33:34+03:00"
+          "updatedAt" : "2023-02-10T21:22:03-06:00"
         },
         {
           "authors" : [
@@ -16861,6 +16861,34 @@
             {
               "authors" : [
                 {
+                  "name" : "smxl",
+                  "url" : "https:\/\/github.com\/smxl"
+                }
+              ],
+              "createdAt" : "2023-02-16T13:11:13+08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open Bing in Safari with Edge User-Agent",
+              "filename" : "safari-bing-edge-user-agent.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/safari.png"
+              },
+              "identifier" : "f88a9b8ee459537aa8da40d071ab6232",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Safari",
+              "path" : "apps\/safari\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Bing with Edge User-Agent",
+              "updatedAt" : "2023-02-17T18:29:04+09:00"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Dave Lehman",
                   "url" : "https:\/\/github.com\/dlehman"
                 }
@@ -22389,11 +22417,6 @@
   ],
   "languages" : [
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
       "displayName" : "Node",
       "icon" : "icon-nodejs.png",
       "name" : "node"
@@ -22404,6 +22427,16 @@
       "name" : "python"
     },
     {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
+    },
+    {
       "displayName" : "Ruby",
       "icon" : "icon-ruby.png",
       "name" : "ruby"
@@ -22412,16 +22445,11 @@
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
-    },
-    {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 779,
-  "updatedAt" : "2023-02-06T08:49:49Z"
+  "totalScriptCommands" : 780,
+  "updatedAt" : "2023-02-20T02:28:52Z"
 }
