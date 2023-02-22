@@ -10,7 +10,7 @@
 # @raycast.packageName Developer Utils
 #
 # Optional parameters:
-# @raycast.icon 🩺
+# @raycast.icon 🌐
 # @raycast.argument1 { "type": "text", "placeholder": "Website" }
 #
 # Documentation:
@@ -49,16 +49,16 @@ status_code=$(curl --silent "https://isitup.org/${url}.json" | jq '.status_code'
 # }
 
 case $status_code in
-  1) echo "Up: $1"
+  1) echo "$1 is up!"
      exit 0
      ;;
-  2) echo "Down: $1"
+  2) echo "$1 is down."
      exit 0
      ;;
   3) echo "Invalid domain: $1"
      exit 1
      ;;
-  *) echo "Unknown status code ($status_code): $1"
+  *) echo "Error: unknown status code ($status_code): $1"
      exit 1
      ;;
 esac
