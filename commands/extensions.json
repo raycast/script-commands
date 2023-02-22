@@ -7309,7 +7309,7 @@
           "hasArguments" : true,
           "icon" : {
             "dark" : null,
-            "light" : "🩺"
+            "light" : "🌐"
           },
           "identifier" : "eb23a85cca77120f511f36bba2ff520b",
           "isTemplate" : false,
@@ -7321,7 +7321,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Is It Up?",
-          "updatedAt" : "2021-01-04T23:05:52+00:00"
+          "updatedAt" : "2023-02-21T22:56:29-05:00"
         },
         {
           "authors" : [
@@ -22417,14 +22417,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
-    },
-    {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     },
     {
       "displayName" : "AppleScript",
@@ -22432,24 +22427,29 @@
       "name" : "applescript"
     },
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
+    },
+    {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     },
     {
       "displayName" : "Ruby",
       "icon" : "icon-ruby.png",
       "name" : "ruby"
-    },
-    {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
     }
   ],
   "metadata" : [
 
   ],
   "totalScriptCommands" : 780,
-  "updatedAt" : "2023-02-20T02:28:52Z"
+  "updatedAt" : "2023-02-22T03:59:41Z"
 }
