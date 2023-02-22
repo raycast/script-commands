@@ -23,7 +23,19 @@ if ! command -v jq &> /dev/null; then
   exit 1;
 fi
 
-status_code=$(curl --silent "https://isitup.org/$1.json" | jq '.status_code')
+# Get the url from the user input
+url=$1
+
+# Remove any protocol prefix (http:// or https://)
+url=${url#*://}
+
+# Remove any www. prefix
+url=${url#www.}
+
+# Remove any trailing slash
+url=${url%/}
+
+status_code=$(curl --silent "https://isitup.org/${url}.json" | jq '.status_code')
 
 # Sample output:
 #
