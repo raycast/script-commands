@@ -4679,34 +4679,6 @@
         {
           "authors" : [
             {
-              "name" : "Marc Klingen",
-              "url" : "https:\/\/github.com\/marcklingen"
-            }
-          ],
-          "createdAt" : "2021-01-06T16:39:46+01:00",
-          "currentDirectoryPath" : null,
-          "description" : "Set Chrome as the default browser.",
-          "filename" : "default-browser-chrome.sh",
-          "hasArguments" : false,
-          "icon" : {
-            "dark" : null,
-            "light" : "🧭"
-          },
-          "identifier" : "2a0c01b1e76f05a9859ed5e6299d3f35",
-          "isTemplate" : false,
-          "language" : "bash",
-          "mode" : "silent",
-          "needsConfirmation" : null,
-          "packageName" : "Browsing",
-          "path" : "system\/",
-          "refreshTime" : null,
-          "schemaVersion" : 1,
-          "title" : "Switch Default Browser to Chrome",
-          "updatedAt" : "2021-01-13T00:41:47+01:00"
-        },
-        {
-          "authors" : [
-            {
               "name" : "Alexander Steffen",
               "url" : "https:\/\/github.com\/alexjsteffen"
             }
@@ -4843,34 +4815,6 @@
           "schemaVersion" : 1,
           "title" : "Restart the Finder",
           "updatedAt" : "2021-03-09T10:35:42+01:00"
-        },
-        {
-          "authors" : [
-            {
-              "name" : "Marc Klingen",
-              "url" : "https:\/\/github.com\/marcklingen"
-            }
-          ],
-          "createdAt" : "2021-01-06T16:39:46+01:00",
-          "currentDirectoryPath" : null,
-          "description" : "Set Safari as the default browser.",
-          "filename" : "default-browser-safari.sh",
-          "hasArguments" : false,
-          "icon" : {
-            "dark" : null,
-            "light" : "🧭"
-          },
-          "identifier" : "689695ca945a84934eb23d8db5067c52",
-          "isTemplate" : false,
-          "language" : "bash",
-          "mode" : "silent",
-          "needsConfirmation" : null,
-          "packageName" : "Browsing",
-          "path" : "system\/",
-          "refreshTime" : null,
-          "schemaVersion" : 1,
-          "title" : "Switch Default Browser to Safari",
-          "updatedAt" : "2021-01-13T00:41:47+01:00"
         },
         {
           "authors" : null,
@@ -5038,6 +4982,34 @@
         {
           "authors" : [
             {
+              "name" : "Marcos Sánchez-Dehesa",
+              "url" : "https:\/\/github.com\/dehesa"
+            }
+          ],
+          "createdAt" : "2023-02-22T16:16:58+11:00",
+          "currentDirectoryPath" : null,
+          "description" : "Set Google Chrome as the default browser.",
+          "filename" : "default-browser-chrome.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/chrome.png"
+          },
+          "identifier" : "2d63f1a6bc8d207d320f0e6faf37b1c0",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Browser",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Default to Chrome",
+          "updatedAt" : "2023-02-22T16:16:58+11:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Yan Smaliak",
               "url" : "https:\/\/github.com\/ysmaliak"
             }
@@ -5122,6 +5094,34 @@
         {
           "authors" : [
             {
+              "name" : "Marcos Sánchez-Dehesa",
+              "url" : "https:\/\/github.com\/dehesa"
+            }
+          ],
+          "createdAt" : "2023-02-22T16:16:58+11:00",
+          "currentDirectoryPath" : null,
+          "description" : "Set Firefox as the default browser.",
+          "filename" : "default-browser-firefox.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/firefox.png"
+          },
+          "identifier" : "4299cbf700855d5ae55f6a730ff28a85",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Browser",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Default to Firefox",
+          "updatedAt" : "2023-02-22T16:16:58+11:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Fahim Faisal",
               "url" : "https:\/\/github.com\/i3p9"
             }
@@ -5174,34 +5174,6 @@
           "schemaVersion" : 1,
           "title" : "Do Not Disturb",
           "updatedAt" : "2021-11-16T14:59:56+01:00"
-        },
-        {
-          "authors" : [
-            {
-              "name" : "Marc Klingen",
-              "url" : "https:\/\/github.com\/marcklingen"
-            }
-          ],
-          "createdAt" : "2021-01-06T16:39:46+01:00",
-          "currentDirectoryPath" : null,
-          "description" : "Set Chromium as the default browser.",
-          "filename" : "default-browser-chromium.sh",
-          "hasArguments" : false,
-          "icon" : {
-            "dark" : null,
-            "light" : "🧭"
-          },
-          "identifier" : "fc09042c7bdd90f91d4db06fd872aaba",
-          "isTemplate" : false,
-          "language" : "bash",
-          "mode" : "silent",
-          "needsConfirmation" : null,
-          "packageName" : "Browsing",
-          "path" : "system\/",
-          "refreshTime" : null,
-          "schemaVersion" : 1,
-          "title" : "Switch Default Browser to Chromium",
-          "updatedAt" : "2021-01-13T00:41:47+01:00"
         },
         {
           "authors" : [
@@ -5346,6 +5318,34 @@
         {
           "authors" : [
             {
+              "name" : "Marcos Sánchez-Dehesa",
+              "url" : "https:\/\/github.com\/dehesa"
+            }
+          ],
+          "createdAt" : "2023-02-22T16:16:58+11:00",
+          "currentDirectoryPath" : null,
+          "description" : "Set Arc as the default browser.",
+          "filename" : "default-browser-arc.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/arc.png"
+          },
+          "identifier" : "bfadc3d5abe379f7bfaee8db90c11379",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Browser",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Default to Arc",
+          "updatedAt" : "2023-02-22T16:16:58+11:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Astrit",
               "url" : "https:\/\/github.com\/astrit"
             }
@@ -5370,6 +5370,34 @@
           "schemaVersion" : 1,
           "title" : "Custom Window Size",
           "updatedAt" : "2021-11-17T17:41:07+01:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Marcos Sánchez-Dehesa",
+              "url" : "https:\/\/github.com\/dehesa"
+            }
+          ],
+          "createdAt" : "2023-02-22T16:16:58+11:00",
+          "currentDirectoryPath" : null,
+          "description" : "Set Chromium as the default browser.",
+          "filename" : "default-browser-chromium.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/chrome-icon.png"
+          },
+          "identifier" : "3502698721f8a80ac7cf5e3e3909f615",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Browser",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Default to Chromium",
+          "updatedAt" : "2023-02-22T16:16:58+11:00"
         },
         {
           "authors" : [
@@ -5421,34 +5449,6 @@
           "schemaVersion" : 1,
           "title" : "Quit All Applications",
           "updatedAt" : "2021-03-27T23:04:19-04:00"
-        },
-        {
-          "authors" : [
-            {
-              "name" : "Marc Klingen",
-              "url" : "https:\/\/github.com\/marcklingen"
-            }
-          ],
-          "createdAt" : "2021-01-06T16:39:46+01:00",
-          "currentDirectoryPath" : null,
-          "description" : "Set Firefox as the default browser.",
-          "filename" : "default-browser-firefox.sh",
-          "hasArguments" : false,
-          "icon" : {
-            "dark" : null,
-            "light" : "🧭"
-          },
-          "identifier" : "32fb2d5ade10d7f8567165c2d546252a",
-          "isTemplate" : false,
-          "language" : "bash",
-          "mode" : "silent",
-          "needsConfirmation" : null,
-          "packageName" : "Browsing",
-          "path" : "system\/",
-          "refreshTime" : null,
-          "schemaVersion" : 1,
-          "title" : "Switch Default Browser to Firefox",
-          "updatedAt" : "2021-01-13T00:41:47+01:00"
         },
         {
           "authors" : [
@@ -5589,6 +5589,34 @@
           "schemaVersion" : 1,
           "title" : "Capture Screen Selection to Clipboard",
           "updatedAt" : "2021-08-07T19:28:35-07:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Marcos Sánchez-Dehesa",
+              "url" : "https:\/\/github.com\/dehesa"
+            }
+          ],
+          "createdAt" : "2023-02-22T16:16:58+11:00",
+          "currentDirectoryPath" : null,
+          "description" : "Set Safari as the default browser.",
+          "filename" : "default-browser-safari.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/safari.png"
+          },
+          "identifier" : "b56ccc81272dbe8beb92bdcdb77e8dce",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Browser",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Default to Safari",
+          "updatedAt" : "2023-02-22T16:16:58+11:00"
         },
         {
           "authors" : [
@@ -22417,14 +22445,14 @@
   ],
   "languages" : [
     {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
-    },
-    {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
     },
     {
       "displayName" : "Bash",
@@ -22432,9 +22460,9 @@
       "name" : "bash"
     },
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     },
     {
       "displayName" : "Node",
@@ -22450,6 +22478,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 780,
-  "updatedAt" : "2023-02-22T03:59:41Z"
+  "totalScriptCommands" : 781,
+  "updatedAt" : "2023-02-22T05:19:45Z"
 }
