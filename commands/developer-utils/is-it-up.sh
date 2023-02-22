@@ -10,7 +10,7 @@
 # @raycast.packageName Developer Utils
 #
 # Optional parameters:
-# @raycast.icon 🩺
+# @raycast.icon 🌐
 # @raycast.argument1 { "type": "text", "placeholder": "Website" }
 #
 # Documentation:
@@ -22,6 +22,9 @@ if ! command -v jq &> /dev/null; then
   echo "jq is required (https://stedolan.github.io/jq/).";
   exit 1;
 fi
+
+# Variable to set if notification is also delivered
+notification=1
 
 # Get the url from the user input
 url=$1
@@ -48,17 +51,28 @@ status_code=$(curl --silent "https://isitup.org/${url}.json" | jq '.status_code'
 #   "response_time": 0.021
 # }
 
+# Send a notification with whatever the input is and/or print to console
+function notify() {
+   if [ $notification -eq 1 ]
+   then
+      osascript -e "display notification \"${1}\" with title \"Is it up?\""
+      echo ${1}
+   else
+      echo ${1}
+   fi
+}
+
 case $status_code in
-  1) echo "Up: $1"
+  1) notify "$1 is up!"
      exit 0
      ;;
-  2) echo "Down: $1"
+  2) notify "$1 is down."
      exit 0
      ;;
-  3) echo "Invalid domain: $1"
+  3) notify "Invalid domain: $1"
      exit 1
      ;;
-  *) echo "Unknown status code ($status_code): $1"
+  *) notify "Error: unknown status code ($status_code): $1"
      exit 1
      ;;
 esac
