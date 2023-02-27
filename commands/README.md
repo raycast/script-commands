@@ -38,6 +38,7 @@ This repository contains sample commands and documentation to write your own one
   - [Dictionary](#dictionary)
   - [Downie](#downie)
   - [Espanso](#espanso)
+  - [Eudic](#eudic)
   - [Evernote](#evernote)
   - [ExpressVPN](#expressvpn)
   - [Fantastical](#fantastical)
@@ -293,6 +294,12 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/espanso/images/espanso.png" width="20" height="20"> | [Restart Espanso](apps/espanso/restart-espanso.sh) | N/A | [es183923](https://github.com/es183923) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/espanso/images/espanso.png" width="20" height="20"> | [Start Espanso](apps/espanso/start-espanso.sh) | N/A | [es183923](https://github.com/es183923) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/espanso/images/espanso.png" width="20" height="20"> | [Stop Espanso](apps/espanso/stop-espanso.sh) | N/A | [es183923](https://github.com/es183923) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Eudic
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/eudic/./images/eudic.png" width="20" height="20"> | [Look up Word](apps/eudic/look-up-in-eudic.applescript) | look up in eudic | [jingyi](https://jingyi.blog) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 #### Evernote
 
