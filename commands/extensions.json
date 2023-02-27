@@ -14236,6 +14236,40 @@
           ]
         },
         {
+          "name" : "Eudic",
+          "path" : "eudic",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "jingyi",
+                  "url" : "https:\/\/jingyi.blog"
+                }
+              ],
+              "createdAt" : "2023-02-25T09:21:48+08:00",
+              "currentDirectoryPath" : null,
+              "description" : "look up in eudic",
+              "filename" : "look-up-in-eudic.applescript",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/eudic.png"
+              },
+              "identifier" : "0d031b91eae5648603862a92b89d0ef5",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Eudic",
+              "path" : "apps\/eudic\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Look up Word",
+              "updatedAt" : "2023-02-25T09:21:48+08:00"
+            }
+          ]
+        },
+        {
           "name" : "One Thing",
           "path" : "one-thing",
           "scriptCommands" : [
@@ -22445,14 +22479,19 @@
   ],
   "languages" : [
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
+    },
+    {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     },
     {
       "displayName" : "Bash",
@@ -22465,19 +22504,14 @@
       "name" : "applescript"
     },
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
-    },
-    {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 781,
-  "updatedAt" : "2023-02-22T05:19:45Z"
+  "totalScriptCommands" : 782,
+  "updatedAt" : "2023-02-27T05:55:23Z"
 }
