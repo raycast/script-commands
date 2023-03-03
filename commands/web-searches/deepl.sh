@@ -10,7 +10,7 @@
 # @raycast.argument1 { "type": "text", "placeholder": "From", "percentEncoded": true }
 # @raycast.argument2 { "type": "text", "placeholder": "To", "percentEncoded": true }
 # @raycast.argument3 { "type": "text", "placeholder": "Text", "percentEncoded": true }
-# @raycast.packageName Translations
+# @raycast.packageName Web searches
 
 # Documentation:
 # @raycast.description Open DeepL
