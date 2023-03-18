@@ -27,9 +27,9 @@ fi
 TASK="$1"
 
 if [[ $TASK != "" ]]; then
-    curl "https://api.todoist.com/sync/v8/quick/add" \
-    	-X -S POST \
-    	--data '{"text": "'"$TASK"'"}' \
+    curl "https://api.todoist.com/rest/v2/tasks" \
+    	-X POST \
+    	--data '{"content": "'"$TASK"'"}' \
     	-H "Content-Type: application/json" \
     	-H "Authorization: Bearer $API_TOKEN"
 
