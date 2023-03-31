@@ -10737,6 +10737,34 @@
             {
               "authors" : [
                 {
+                  "name" : "Leo Voon",
+                  "url" : "https:\/\/github.com\/leovoon"
+                }
+              ],
+              "createdAt" : "2023-03-31T09:30:18+08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Rename your profile in Zoom Meeting App (Mac Only) and cliclick.",
+              "filename" : "rename-profile.applescript",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/zoom-logo.png"
+              },
+              "identifier" : "ff7531c3b095eb59465663d7b2e5626b",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Zoom",
+              "path" : "communication\/zoom\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Rename Profile",
+              "updatedAt" : "2023-03-31T03:48:28+00:00"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Luigi Cardito",
                   "url" : "https:\/\/github.com\/lcardito"
                 },
@@ -16124,7 +16152,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Create Task",
-              "updatedAt" : "2022-07-22T06:29:42-04:00"
+              "updatedAt" : "2023-03-18T04:02:12+03:00"
             },
             {
               "authors" : [
@@ -22479,9 +22507,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
     },
     {
       "displayName" : "Node",
@@ -22494,14 +22522,14 @@
       "name" : "ruby"
     },
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
-    },
-    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     },
     {
       "displayName" : "Python",
@@ -22512,6 +22540,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 782,
-  "updatedAt" : "2023-02-27T05:55:23Z"
+  "totalScriptCommands" : 783,
+  "updatedAt" : "2023-03-31T03:48:28Z"
 }
