@@ -15,7 +15,7 @@
 
 case $(tr "[:upper:]" "[:lower:]" <<<$2) in
 "" | "d" | "donor" | "donors")
-  searchtype="donor"
+  searchtype="donors"
   ;;
 "p" | "pol" | "pols" | "politician" | "politicians" | "l" | "lob" | "lobbyist" | "lobbyists")
   searchtype="indiv"
