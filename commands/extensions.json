@@ -12157,6 +12157,34 @@
         {
           "authors" : [
             {
+              "name" : "Daniel Sieradski",
+              "url" : "https:\/\/github.com\/selfagency"
+            }
+          ],
+          "createdAt" : "2023-04-20T10:30:42-04:00",
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "opensecrets.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/opensecrets.png"
+          },
+          "identifier" : "38597aea679968985276b287c7860174",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "path" : "web-searches\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search OpenSecrets.org",
+          "updatedAt" : "2023-04-24T06:57:26+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -22507,11 +22535,6 @@
   ],
   "languages" : [
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
-    },
-    {
       "displayName" : "Node",
       "icon" : "icon-nodejs.png",
       "name" : "node"
@@ -22522,9 +22545,9 @@
       "name" : "ruby"
     },
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     },
     {
       "displayName" : "Swift",
@@ -22532,14 +22555,19 @@
       "name" : "swift"
     },
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 783,
-  "updatedAt" : "2023-03-31T03:48:28Z"
+  "totalScriptCommands" : 784,
+  "updatedAt" : "2023-04-24T06:57:26Z"
 }
