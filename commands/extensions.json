@@ -4059,6 +4059,34 @@
         {
           "authors" : [
             {
+              "name" : "nagauta",
+              "url" : "https:\/\/github.com\/nagauta"
+            }
+          ],
+          "createdAt" : "2023-05-04T00:27:11+09:00",
+          "currentDirectoryPath" : null,
+          "description" : "Get total usage of OpenAI API",
+          "filename" : "open-ai-usage.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "💲"
+          },
+          "identifier" : "0ddcc5df2535bb2a723ebcd790f2e937",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "dashboard\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Check Usage of OpenAI API",
+          "updatedAt" : "2023-05-04T14:08:10+09:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Clu Soh",
               "url" : "https:\/\/github.com\/designedbyclu"
             }
@@ -22535,9 +22563,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     },
     {
       "displayName" : "Ruby",
@@ -22545,9 +22573,9 @@
       "name" : "ruby"
     },
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     },
     {
       "displayName" : "Swift",
@@ -22555,19 +22583,19 @@
       "name" : "swift"
     },
     {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
-    },
-    {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 784,
-  "updatedAt" : "2023-04-24T06:57:26Z"
+  "totalScriptCommands" : 785,
+  "updatedAt" : "2023-05-08T06:42:08Z"
 }
