@@ -4707,6 +4707,34 @@
         {
           "authors" : [
             {
+              "name" : "benyn",
+              "url" : "github.com\/benyn"
+            }
+          ],
+          "createdAt" : "2023-05-06T14:02:11-07:00",
+          "currentDirectoryPath" : null,
+          "description" : "Close all notification alerts staying on screen, e.g., Calendar notifications.",
+          "filename" : "dismiss-notifications.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔕"
+          },
+          "identifier" : "d1d5f97ad62a6692d70fc17da0a71157",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Dismiss Notifications",
+          "updatedAt" : "2023-05-08T06:42:50+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Alexander Steffen",
               "url" : "https:\/\/github.com\/alexjsteffen"
             }
@@ -18090,6 +18118,40 @@
           ]
         },
         {
+          "name" : "Chatgpt",
+          "path" : "chatgpt",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "gintonyc",
+                  "url" : "https:\/\/raycast.com\/gintonyc"
+                }
+              ],
+              "createdAt" : "2023-06-05T12:05:06+08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open chatgpt in safari",
+              "filename" : "chatgpt-open-safari.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/chatgpt.png"
+              },
+              "identifier" : "9dd095ddbac7bc040b2af63d1532a3d1",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Chatgpt Util",
+              "path" : "apps\/chatgpt\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "chatgpt",
+              "updatedAt" : "2023-06-05T07:04:09+00:00"
+            }
+          ]
+        },
+        {
           "name" : "Trello",
           "path" : "trello",
           "scriptCommands" : [
@@ -22563,14 +22625,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     },
     {
       "displayName" : "Node",
@@ -22578,24 +22635,29 @@
       "name" : "node"
     },
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
-    },
-    {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     },
     {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 785,
-  "updatedAt" : "2023-05-08T06:42:08Z"
+  "totalScriptCommands" : 787,
+  "updatedAt" : "2023-06-05T07:04:09Z"
 }

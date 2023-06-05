@@ -30,6 +30,7 @@ This repository contains sample commands and documentation to write your own one
   - [Amphetamine](#amphetamine)
   - [Baremetrics](#baremetrics)
   - [Bear](#bear)
+  - [Chatgpt](#chatgpt)
   - [Cleanshot](#cleanshot)
   - [Craft](#craft)
   - [DND Me](#dnd-me)
@@ -192,6 +193,12 @@ This repository contains sample commands and documentation to write your own one
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/bear/images/bear-dark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/bear/images/bear-light.png" width="20" height="20"></picture> | [Open Today](apps/bear/bear-today.sh) | Open the Today section in Bear. | [Tanay Nistala](https://github.com/tanaynistala) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/bear/images/bear-dark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/bear/images/bear-light.png" width="20" height="20"></picture> | [Open Todos](apps/bear/bear-todo.sh) | Open the Todo section in Bear. | [Tanay Nistala](https://github.com/tanaynistala) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/bear/images/bear-dark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/bear/images/bear-light.png" width="20" height="20"></picture> | [Search](apps/bear/bear-search.sh) | Search notes by keyword and/or tag in Bear. | [Tanay Nistala](https://github.com/tanaynistala) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Chatgpt
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/chatgpt/images/chatgpt.png" width="20" height="20"> | [chatgpt](apps/chatgpt/chatgpt-open-safari.applescript) | Open chatgpt in safari | [gintonyc](https://raycast.com/gintonyc) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 #### Cleanshot
 
@@ -1404,6 +1411,7 @@ This repository contains sample commands and documentation to write your own one
   | ☕️ | [Disable Caffeinate](system/caffeinate-disable.sh) | Stops all caffeinate sessions | [Yan Smaliak](https://github.com/ysmaliak) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 💾 | [Disk Free](system/disk-free.sh) | Show free space in your mounted disks | [Juan Luis Romero](https://github.com/JuanluR8) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 💿 | [Disk Usage](system/disk-usage.sh) | Show disk usage for / (root) | [Jesse Claven](https://github.com/jesse-c) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🔕 | [Dismiss Notifications](system/dismiss-notifications.applescript) | Close all notification alerts staying on screen, e.g., Calendar notifications. | [benyn](github.com/benyn) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🔕 | [Do Not Disturb](system/do-not-disturb.sh) | Do Not Disturb | [Antonio Dal Sie](https://github.com/exodusanto) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 📀 | [Eject All Disks](system/eject-all-disks.applescript) | Ejects all mounted disk images. | Raycast |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 📋 | [Empty Clipboard](system/empty-clipboard.sh) | Empty Clipboard | Raycast |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
