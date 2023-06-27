@@ -10478,6 +10478,34 @@
         {
           "authors" : [
             {
+              "name" : "Leo Fritsch",
+              "url" : "https:\/\/github.com\/leofritsch"
+            }
+          ],
+          "createdAt" : "2023-06-26T20:03:01+02:00",
+          "currentDirectoryPath" : null,
+          "description" : "Let Me Google That For You",
+          "filename" : "let-me-google-that.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🤡"
+          },
+          "identifier" : "8c26812f87ffcd8305d704e94d8146eb",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Communication",
+          "path" : "communication\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Let Me Google That",
+          "updatedAt" : "2023-06-27T09:57:07+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Alexander JH Steffen",
               "url" : "https:\/\/github.com\/alexjsteffen"
             }
@@ -22654,6 +22682,16 @@
   ],
   "languages" : [
     {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
+    },
+    {
       "displayName" : "Node",
       "icon" : "icon-nodejs.png",
       "name" : "node"
@@ -22669,24 +22707,14 @@
       "name" : "swift"
     },
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
       "displayName" : "Ruby",
       "icon" : "icon-ruby.png",
       "name" : "ruby"
-    },
-    {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 788,
-  "updatedAt" : "2023-06-27T08:35:46Z"
+  "totalScriptCommands" : 789,
+  "updatedAt" : "2023-06-27T09:57:07Z"
 }
