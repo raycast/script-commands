@@ -29,6 +29,7 @@ This repository contains sample commands and documentation to write your own one
   - [Agenda](#agenda)
   - [Amphetamine](#amphetamine)
   - [Baremetrics](#baremetrics)
+  - [Bartender](#bartender)
   - [Bear](#bear)
   - [Chatgpt](#chatgpt)
   - [Cleanshot](#cleanshot)
@@ -182,6 +183,12 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/baremetrics/images/baremetrics.png" width="20" height="20"> | [Lifetime Value](apps/baremetrics/get-ltv.sh) | Display Lifetime Value (LTV) | [Valentin Chrétien](https://github.com/valentinchrt) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/baremetrics/images/baremetrics.png" width="20" height="20"> | [Monthly Recurring Revenue](apps/baremetrics/get-mrr.sh) | Display Monthly Recurring Revenue (MRR) | [Valentin Chrétien](https://github.com/valentinchrt) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/baremetrics/images/baremetrics.png" width="20" height="20"> | [Revenue](apps/baremetrics/simple-dashboard.sh) | Display Revenue Dashboard | [Valentin Chrétien](https://github.com/valentinchrt) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Bartender
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/bartender/images/bartender-icon.png" width="20" height="20"> | [Search Bartender](apps/bartender/bartender-search.applescript) | Perform a quick search of Menu Bar Items, in Bartender 4 | Raycast | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 #### Bear
 
