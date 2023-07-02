@@ -28,7 +28,6 @@ else
     tell application "System Settings"
         do shell script "pmset -a lowpowermode 0" with administrator privileges
     end tell
-    do shell script "echo Low Power Mode turned off"
 
 # This makes the brightness 100% again, if it doesn't go all the way to 100% for you, change the number of times it repeats.
     repeat 25 times
