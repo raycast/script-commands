@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Dependency: This script requires `pandoc`: https://pandoc.org/installing.html
+
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Convert Raw HTML to Rich Text on Clipboard
