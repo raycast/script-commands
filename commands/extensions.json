@@ -831,6 +831,34 @@
           "schemaVersion" : 1,
           "title" : "Convert Epoch to Human-Readable Date",
           "updatedAt" : "2021-03-30T17:29:45+08:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Michael Bianco",
+              "url" : "https:\/\/github.com\/iloveitaly"
+            }
+          ],
+          "createdAt" : "2023-07-03T15:03:20-06:00",
+          "currentDirectoryPath" : null,
+          "description" : "This script will convert raw HTML on your clipboard to rich text. It requires pandoc to be installed on your system.",
+          "filename" : "raw-html-to-rich-text-clipboard.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📋"
+          },
+          "identifier" : "8acc19746e49d7fc76584c8ea631b545",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Conversions",
+          "path" : "conversions\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Convert Raw HTML to Rich Text on Clipboard",
+          "updatedAt" : "2023-07-03T21:06:13+00:00"
         }
       ],
       "subGroups" : [
@@ -6380,6 +6408,34 @@
           "schemaVersion" : 1,
           "title" : "Toggle Natural Scrolling",
           "updatedAt" : "2021-04-29T15:07:57+00:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Kailash Yellareddy",
+              "url" : "https:\/\/github.com\/kyellareddy"
+            }
+          ],
+          "createdAt" : "2023-07-03T14:02:07-07:00",
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "Low Power Mode.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔋"
+          },
+          "identifier" : "abb0ce225a8aa3cc33d242788d9fbc94",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Low Power Mode",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Low Power Mode",
+          "updatedAt" : "2023-07-03T21:06:13+00:00"
         },
         {
           "authors" : null,
@@ -22682,19 +22738,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     },
     {
       "displayName" : "Bash",
@@ -22707,14 +22753,24 @@
       "name" : "swift"
     },
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 789,
-  "updatedAt" : "2023-06-27T09:57:07Z"
+  "totalScriptCommands" : 791,
+  "updatedAt" : "2023-07-03T21:06:14Z"
 }
