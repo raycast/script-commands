@@ -6254,6 +6254,34 @@
         {
           "authors" : [
             {
+              "name" : "Kailash Yellareddy",
+              "url" : "https:\/\/github.com\/kyellareddy"
+            }
+          ],
+          "createdAt" : "2023-07-03T17:20:46-07:00",
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "Network Info.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🛜"
+          },
+          "identifier" : "83cefb2a99e7b3a81e177ccef088a8f3",
+          "isTemplate" : false,
+          "language" : "python",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Network Info",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Network Info",
+          "updatedAt" : "2023-07-04T10:01:20+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Felipe Turcheti",
               "url" : "https:\/\/felipeturcheti.com"
             }
@@ -22748,14 +22776,9 @@
       "name" : "bash"
     },
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
-    },
-    {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     },
     {
       "displayName" : "Node",
@@ -22763,14 +22786,19 @@
       "name" : "node"
     },
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 791,
-  "updatedAt" : "2023-07-03T21:06:14Z"
+  "totalScriptCommands" : 792,
+  "updatedAt" : "2023-07-04T10:01:20Z"
 }
