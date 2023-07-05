@@ -25,6 +25,7 @@ To get set up, do the following:
    - =APIToken= to your Quip personal API token. You can get one at https://quip.com/api/personal-token (the URL may be different if you are using a Quip Enterprise instance with a custom domain).
    - If you are using a custom Quip domain, modify =BaseURL= and =APIURL= accordingly.
    - Configure the actions you want. See the examples in the template for details on how to configure them.
+   - *Note:* if you want to populate Quip secrets and other values from a password manager, see =quip_config.chezmoi.template.ini= for an example which inserts those values from entries kept in KeePassXC. Instructions are at the top of the file.
 3. Once your configuration is complete, run from Raycast the "Set up Quip commands" command. This will ask you for confirmation and then generate scripts corresponding to your configuration, which will be loaded automatically by Raycast.
   [[file:images/raycast-setup-quip-commands.png]]
   [[file:images/raycast-generate-quip-commands-output.png]]
@@ -34,5 +35,5 @@ To get set up, do the following:
 5.  Note that you can also run the generated scripts from the command line to execute the corresponding actions. For example:
    #+begin_src shell
 ./quip-new-note.py "New note title"
-   #+end_src
+ #+end_src
 6. If you need to update or modify your config (e.g. to add or remove actions), make sure you rerun the "Set up Quip commands" command afterwards, to ensure the scripts are kept up to date.
