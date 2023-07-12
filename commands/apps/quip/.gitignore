@@ -1,0 +1,5 @@
+.DS_Store
+tmp/
+quip_config.ini
+quip-new-*.py
+__pycache__
