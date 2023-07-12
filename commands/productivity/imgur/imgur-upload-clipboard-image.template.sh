@@ -80,7 +80,7 @@ else
     delete_hash="${output##*<deletehash>}"
     delete_hash="${delete_hash%%</deletehash>*}"
 
-    echo -n "$url" | pbcopy
+    echo -n "$url" | sed 's/\\\//\//g' | pbcopy
     jobdone=0
 fi
 
