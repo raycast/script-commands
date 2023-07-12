@@ -65,6 +65,7 @@ This repository contains sample commands and documentation to write your own one
   - [Plash](#plash)
   - [Playground](#playground)
   - [Pulse Secure](#pulse-secure)
+  - [Quip](#quip)
   - [Raycast](#raycast)
   - [Reminders](#reminders)
   - [Safari](#safari)
@@ -511,6 +512,13 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/pulse-secure/images/pulse-secure.png" width="20" height="20"> | [Disconnect / Cancel](apps/pulse-secure/pulse-secure-disconnect.applescript) | Disconnect / cancel the active connection. | [Jakub Lanski](https://github.com/jaklan) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/pulse-secure/images/pulse-secure.png" width="20" height="20"> | [Resume](apps/pulse-secure/pulse-secure-resume.applescript) | Resume the suspended connection. | [Jakub Lanski](https://github.com/jaklan) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/pulse-secure/images/pulse-secure.png" width="20" height="20"> | [Suspend](apps/pulse-secure/pulse-secure-suspend.applescript) | Suspend the active connection. | [Jakub Lanski](https://github.com/jaklan) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+
+#### Quip
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  |  | [Set up Quip commands](apps/quip/set-up-quip-commands.py) | Create script commands for creating Quip documents, based on the configuration in quip_config.ini. | [diego_zamboni](https://raycast.com/diego_zamboni) |  |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
+  |  | [{{commandtitle}}](apps/quip/quip-new.template.py) | Configure your Quip API token and other defaults in quip_config.ini | [zzamboni](https://raycast.com/zzamboni) | ✅ | ✅ | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
 
 #### Raycast
 

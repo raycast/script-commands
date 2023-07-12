@@ -18625,6 +18625,69 @@
           ]
         },
         {
+          "name" : "Quip",
+          "path" : "quip",
+          "readme" : "apps\/quip\/README.org",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "zzamboni",
+                  "url" : "https:\/\/raycast.com\/zzamboni"
+                }
+              ],
+              "createdAt" : "2023-07-12T10:50:40+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Configure your Quip API token and other defaults in quip_config.ini",
+              "filename" : "quip-new.template.py",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "\/Applications\/Quip.app\/Contents\/Resources\/AppIcon.icns"
+              },
+              "identifier" : "d8fa7bc18200bc8e62536c5dd1c5a6f9",
+              "isTemplate" : true,
+              "language" : "python",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Quip utilities",
+              "path" : "apps\/quip\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "{{commandtitle}}",
+              "updatedAt" : "2023-07-12T10:50:40+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "diego_zamboni",
+                  "url" : "https:\/\/raycast.com\/diego_zamboni"
+                }
+              ],
+              "createdAt" : "2023-07-12T10:50:40+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Create script commands for creating Quip documents, based on the configuration in quip_config.ini.",
+              "filename" : "set-up-quip-commands.py",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "\/Applications\/Quip.app\/Contents\/Resources\/AppIcon.icns"
+              },
+              "identifier" : "fdc5f3fc9cc957f068cd9ec6a7c031b6",
+              "isTemplate" : false,
+              "language" : "python",
+              "mode" : "fullOutput",
+              "needsConfirmation" : true,
+              "packageName" : "Quip utilities",
+              "path" : "apps\/quip\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Set up Quip commands",
+              "updatedAt" : "2023-07-12T10:50:40+02:00"
+            }
+          ]
+        },
+        {
           "name" : "Hyper",
           "path" : "hyper",
           "scriptCommands" : [
@@ -20139,7 +20202,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Clipboard to Imgur",
-              "updatedAt" : "2022-11-13T01:47:18+08:00"
+              "updatedAt" : "2023-07-12T15:49:52+08:00"
             },
             {
               "authors" : [
@@ -22766,11 +22829,6 @@
   ],
   "languages" : [
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
@@ -22781,24 +22839,29 @@
       "name" : "applescript"
     },
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
-    },
-    {
       "displayName" : "Python",
       "icon" : "icon-python.png",
       "name" : "python"
     },
     {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 792,
-  "updatedAt" : "2023-07-04T10:01:20Z"
+  "totalScriptCommands" : 794,
+  "updatedAt" : "2023-07-12T08:53:20Z"
 }
