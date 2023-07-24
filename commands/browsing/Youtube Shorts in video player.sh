@@ -18,7 +18,7 @@
 # |  # Replace "ABCD" in line 21 with either "Safari" or "Chrome"  |
 # -----------------------------------------------------------------
 
-set browser to "Safari"
+set browser to "ABCD"
 
 
 if browser="Safari"
