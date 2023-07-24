@@ -18,8 +18,8 @@
 
 # Documentation:
 # @raycast.description Show statistics of your GitHub repositories.
-# @raycast.author Thomas Paul Mann
-# @raycast.authorURL https://github.com/thomaspaulmann
+# @raycast.author Valdir Junior
+# @raycast.authorURL https://github.com/valdirjunior011
 
 # Configuration
 
