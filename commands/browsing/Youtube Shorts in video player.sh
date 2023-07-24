@@ -3,7 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Youtube Shorts in video player
-# @raycast.mode silent
+# @raycast.mode compact
 
 # Optional parameters:
 # @raycast.icon 📹
@@ -13,12 +13,12 @@
 # @raycast.author Kailash Yellareddy
 # @raycast.authorURL https://github.com/kyellareddy
 
------------------------------------------------------------------
-|  # This script currently supports Safari and Google Chrome.    |
-|  # Replace "ABCD" in line 21 with either "Safari" or "Chrome"  |
------------------------------------------------------------------
+# -----------------------------------------------------------------
+# |  # This script currently supports Safari and Google Chrome.    |
+# |  # Replace "ABCD" in line 21 with either "Safari" or "Chrome"  |
+# -----------------------------------------------------------------
 
-set browser to "ABCD"
+set browser to "Safari"
 
 
 if browser="Safari"
