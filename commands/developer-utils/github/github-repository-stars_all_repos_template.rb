@@ -19,7 +19,7 @@
 # Documentation:
 # @raycast.description Show statistics of your GitHub repositories.
 # @raycast.author Valdir Junior
-# @raycast.authorURL https://github.com/valdirjunior011
+# @raycast.authorURL https://github.com/valdirjunior011 
 
 # Configuration
 
