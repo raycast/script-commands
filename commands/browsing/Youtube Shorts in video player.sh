@@ -13,10 +13,10 @@
 # @raycast.author Kailash Yellareddy
 # @raycast.authorURL https://github.com/kyellareddy
 
-# -----------------------------------------------------------------
-# |  # This script currently supports Safari and Google Chrome.    |
+# -------------------------------------------------------------------
+# |  # This script currently supports Safari and Google Chrome.      |
 # |  # Replace "Safari" in line 21 with either "Safari" or "Chrome"  |
-# -----------------------------------------------------------------
+# -------------------------------------------------------------------
 
 set browser to "Safari"
 
