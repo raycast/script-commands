@@ -1381,6 +1381,34 @@
         {
           "authors" : [
             {
+              "name" : "Kailash Yellareddy",
+              "url" : "https:\/\/github.com\/kyellareddy"
+            }
+          ],
+          "createdAt" : "2023-07-25T21:56:55+05:30",
+          "currentDirectoryPath" : null,
+          "description" : "Opens current Youtube Shorts video in the normal video player by replacing \"\/shorts\/\" with \"\/v\/\" in the url.",
+          "filename" : "Youtube Shorts in video player.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📹"
+          },
+          "identifier" : "9bdd39853c92b430aa2dcff8f1dfb7ec",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Youtube Shorts In Video Player",
+          "path" : "browsing\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Youtube Shorts in video player",
+          "updatedAt" : "2023-07-25T16:29:37+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Tahsin Yazkan",
               "url" : "https:\/\/github.com\/thsnyzkn"
             }
@@ -22862,11 +22890,6 @@
       "name" : "swift"
     },
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
-    },
-    {
       "displayName" : "Python",
       "icon" : "icon-python.png",
       "name" : "python"
@@ -22877,19 +22900,24 @@
       "name" : "applescript"
     },
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
     },
     {
       "displayName" : "Node",
       "icon" : "icon-nodejs.png",
       "name" : "node"
+    },
+    {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 795,
-  "updatedAt" : "2023-07-25T00:17:33Z"
+  "totalScriptCommands" : 796,
+  "updatedAt" : "2023-07-25T16:29:37Z"
 }

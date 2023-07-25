@@ -719,6 +719,7 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/browsing/images/git-io.png" width="20" height="20"> | [Shorten URL from GitHub](browsing/git-io.sh) | Shorten any github.com URL | [Astrit](https://github.com/astrit) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🔗 | [Shorten URL with Bitly](browsing/shorten-url-bitly.template.sh) | Transform the clipboard contents to a short Bitly URL | [Nitin Gupta](https://twitter.com/gniting) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🔗 | [Shorten URL with Emojis](browsing/short-url-emoji.sh) | Transform the clipboard contents to a short Emoji URL | [Samuel Henry](https://bne.sh) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 📹 | [Youtube Shorts in video player](browsing/Youtube Shorts in video player.sh) | Opens current Youtube Shorts video in the normal video player by replacing "/shorts/" with "/v/" in the url. | [Kailash Yellareddy](https://github.com/kyellareddy) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 ## Communication
 
