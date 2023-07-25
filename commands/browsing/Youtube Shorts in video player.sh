@@ -15,10 +15,10 @@
 
 # -----------------------------------------------------------------
 # |  # This script currently supports Safari and Google Chrome.    |
-# |  # Replace "ABCD" in line 21 with either "Safari" or "Chrome"  |
+# |  # Replace "Safari" in line 21 with either "Safari" or "Chrome"  |
 # -----------------------------------------------------------------
 
-set browser to "ABCD"
+set browser to "Safari"
 
 
 if browser="Safari"
