@@ -9812,6 +9812,34 @@
             {
               "authors" : [
                 {
+                  "name" : "Valdir Junior",
+                  "url" : "https:\/\/github.com\/valdirjunior011 "
+                }
+              ],
+              "createdAt" : "2023-07-25T02:12:24+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show statistics of your GitHub repositories.",
+              "filename" : "github-repository-stars_all_repos_template.rb",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "⭐️"
+              },
+              "identifier" : "b1a1df37b2ee1f7965f5bad16f491ddd",
+              "isTemplate" : true,
+              "language" : "ruby",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "GitHub",
+              "path" : "developer-utils\/github\/",
+              "refreshTime" : "1h",
+              "schemaVersion" : 1,
+              "title" : "Repository Statistics",
+              "updatedAt" : "2023-07-25T00:17:33+00:00"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Phil Salant",
                   "url" : "https:\/\/github.com\/PSalant726"
                 }
@@ -22829,14 +22857,14 @@
   ],
   "languages" : [
     {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
+    },
+    {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
-    },
-    {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
     },
     {
       "displayName" : "Python",
@@ -22844,14 +22872,14 @@
       "name" : "python"
     },
     {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
+    },
+    {
       "displayName" : "Ruby",
       "icon" : "icon-ruby.png",
       "name" : "ruby"
-    },
-    {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
     },
     {
       "displayName" : "Node",
@@ -22862,6 +22890,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 794,
-  "updatedAt" : "2023-07-12T08:53:20Z"
+  "totalScriptCommands" : 795,
+  "updatedAt" : "2023-07-25T00:17:33Z"
 }
