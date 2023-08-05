@@ -14,11 +14,10 @@
 // @raycast.description Convert Twitter link to Nitter
 // @raycast.author cSharp
 // @raycast.authorURL https://github.com/noidwasavailable
-// @raycast.argument1 { "type": "text", "placeholder": "Twitter Link" }
 
 // Example Twitter link: https://twitter.com/Cron/status/1644010827647975425
 const child_process = require('child_process');
-let [link] = process.argv.slice(2);
+let link = child_process.execSync("pbpaste").toString();
 
 if (!link) {
   console.error('No link provided');
