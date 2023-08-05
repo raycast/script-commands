@@ -12,8 +12,8 @@
 
 // Documentation:
 // @raycast.description Convert Twitter link to Nitter
-// @raycast.author csharp
-// @raycast.authorURL https://raycast.com/csharp
+// @raycast.author cSharp
+// @raycast.authorURL https://github.com/noidwasavailable
 // @raycast.argument1 { "type": "text", "placeholder": "Twitter Link" }
 
 // Example Twitter link: https://twitter.com/Cron/status/1644010827647975425
