@@ -1,4 +1,6 @@
 #!/usr/bin/env node
+// Dependency: This script requires Nodejs.
+// Install Node: https://nodejs.org/en/download/
 
 // Required parameters:
 // @raycast.schemaVersion 1
