@@ -17803,6 +17803,34 @@
               "schemaVersion" : 1,
               "title" : "Connect",
               "updatedAt" : "2022-11-21T00:02:28+07:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Daniils Petrovs",
+                  "url" : "https:\/\/github.com\/danirukun"
+                }
+              ],
+              "createdAt" : "2021-11-03T23:01:39+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Force WARP reauthentication",
+              "filename" : "warp-reauth.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/warp.png"
+              },
+              "identifier" : "a47be00594b26ffd668ccf35ac6d9a10",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "WARP",
+              "path" : "apps\/warp\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Reauthenticate",
+              "updatedAt" : "2023-08-10T10:55:06+02:00"
             }
           ]
         },
@@ -22885,9 +22913,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     },
     {
       "displayName" : "Python",
@@ -22895,9 +22923,9 @@
       "name" : "python"
     },
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     },
     {
       "displayName" : "Bash",
@@ -22905,19 +22933,19 @@
       "name" : "bash"
     },
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
-    },
-    {
       "displayName" : "Ruby",
       "icon" : "icon-ruby.png",
       "name" : "ruby"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 796,
-  "updatedAt" : "2023-07-25T16:29:37Z"
+  "totalScriptCommands" : 797,
+  "updatedAt" : "2023-08-10T08:57:49Z"
 }
