@@ -16,9 +16,8 @@
 # @raycast.packageName CleanShot X
 
 # Documentation:
-# @raycast.author danulqua
+# @raycast.author Danylo Zalizchuk
 # @raycast.authorURL https://raycast.com/danulqua
-# @raycast.description Launch Keystroke Pro and CleanShot X screen recording.
 # @raycast.description Start a screen recording with keystrokes using the Keystroke Pro app and save it as a video or an optimized GIF file.
 
 open "/Applications/Keystroke Pro.app"
