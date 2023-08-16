@@ -1489,6 +1489,34 @@
           "schemaVersion" : 1,
           "title" : "Copy Current Page URL",
           "updatedAt" : "2021-05-10T00:36:12+02:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "cSharp",
+              "url" : "https:\/\/github.com\/noidwasavailable"
+            }
+          ],
+          "createdAt" : "2023-08-10T17:56:44+09:00",
+          "currentDirectoryPath" : null,
+          "description" : "Convert Twitter link to Nitter",
+          "filename" : "convert-twitter-to-nitter.js",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🐔"
+          },
+          "identifier" : "42048eefcf9facbebf2aeef19f24c2e8",
+          "isTemplate" : false,
+          "language" : "node",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Convert Twitter To Nitter",
+          "path" : "browsing\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Convert Twitter to Nitter",
+          "updatedAt" : "2023-08-10T17:56:44+09:00"
         }
       ]
     },
@@ -13953,6 +13981,34 @@
             {
               "authors" : [
                 {
+                  "name" : "Danylo Zalizchuk",
+                  "url" : "https:\/\/raycast.com\/danulqua"
+                }
+              ],
+              "createdAt" : "2023-08-16T16:56:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Start a screen recording with keystrokes using the Keystroke Pro app and save it as a video or an optimized GIF file.",
+              "filename" : "cleanshot-record-screen-with-keystroke-pro.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/record-screen-keystroke-pro.png"
+              },
+              "identifier" : "2b2c4df77dc49c058edc490dd1e4d066",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "CleanShot X",
+              "path" : "apps\/cleanshot\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Record Screen With Keystroke Pro",
+              "updatedAt" : "2023-08-16T16:56:54+03:00"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "CleanShot X",
                   "url" : "https:\/\/twitter.com\/CleanShot_app"
                 }
@@ -22913,6 +22969,21 @@
   ],
   "languages" : [
     {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
+    },
+    {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
@@ -22923,29 +22994,14 @@
       "name" : "python"
     },
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
-    },
-    {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
-    },
-    {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 797,
-  "updatedAt" : "2023-08-10T08:57:49Z"
+  "totalScriptCommands" : 799,
+  "updatedAt" : "2023-08-16T14:00:22Z"
 }
