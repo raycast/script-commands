@@ -359,6 +359,34 @@
         {
           "authors" : [
             {
+              "name" : "Michael Bianco",
+              "url" : "https:\/\/github.com\/iloveitaly"
+            }
+          ],
+          "createdAt" : "2023-08-16T08:02:16-06:00",
+          "currentDirectoryPath" : null,
+          "description" : "A script to take the HTML pastboard type filled by google docs and convert it to nicely formatted markdown",
+          "filename" : "google-docs-to-markdown.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📋"
+          },
+          "identifier" : "2b7d768fc7ffd6b6990173914031c150",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Conversions",
+          "path" : "conversions\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Convert Google Docs Rich Text HTML to Markdown",
+          "updatedAt" : "2023-08-16T08:02:16-06:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -22969,19 +22997,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
-    },
-    {
       "displayName" : "Node",
       "icon" : "icon-nodejs.png",
       "name" : "node"
-    },
-    {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
     },
     {
       "displayName" : "AppleScript",
@@ -22994,6 +23012,16 @@
       "name" : "python"
     },
     {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
+    },
+    {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
@@ -23002,6 +23030,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 799,
-  "updatedAt" : "2023-08-16T14:00:22Z"
+  "totalScriptCommands" : 800,
+  "updatedAt" : "2023-08-16T14:04:45Z"
 }
