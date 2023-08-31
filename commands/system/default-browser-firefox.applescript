@@ -21,7 +21,7 @@ set repeatCount to 0
 
 tell application "System Events"
 	try
-		my changeDefaultBrowser("safari")
+		my changeDefaultBrowser("firefox")
 		repeat until button 2 of window 1 of process "CoreServicesUIAgent" exists
 			delay 0.01
 			set repeatCount to repeatCount + 1
