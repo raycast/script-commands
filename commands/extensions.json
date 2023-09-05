@@ -8379,6 +8379,34 @@
         {
           "authors" : [
             {
+              "name" : "decaylala",
+              "url" : "https:\/\/github.com\/decaylala"
+            }
+          ],
+          "createdAt" : "2023-09-05T23:21:57+08:00",
+          "currentDirectoryPath" : null,
+          "description" : "Join multiple lines of text from the clipboard into a single line, separated by a specified delimiter.",
+          "filename" : "join-lines.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🛠"
+          },
+          "identifier" : "ed8ed8f5841fbb881efe5a16aef73695",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "path" : "developer-utils\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Join Clipboard Lines by Delimiter",
+          "updatedAt" : "2023-09-05T15:24:46+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Bin Hua",
               "url" : "https:\/\/github.com\/hzb"
             }
@@ -22997,21 +23025,6 @@
   ],
   "languages" : [
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
-    },
-    {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
       "displayName" : "Ruby",
       "icon" : "icon-ruby.png",
       "name" : "ruby"
@@ -23025,11 +23038,26 @@
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
+    },
+    {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 800,
-  "updatedAt" : "2023-08-16T14:04:45Z"
+  "totalScriptCommands" : 801,
+  "updatedAt" : "2023-09-05T15:24:46Z"
 }
