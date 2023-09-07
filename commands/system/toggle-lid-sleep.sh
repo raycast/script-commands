@@ -10,6 +10,11 @@
 # 5- type this to exit and save file:
 # :wq
 
+# Note: this will not prevent laptop sleep from timeout.
+# Refer to System Settings and search for 'sleep' there for
+# things like 'Turn display off on battery when inactive' and
+# 'Prevent automatic sleeping on power adapter when the display is off'
+
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Toggle Lid Sleep
@@ -17,17 +22,17 @@
 
 # Optional parameters:
 # @raycast.icon 🐚
-# @raycast.packageName Personal
+# @raycast.packageName System
 
 # Documentation:
-# @raycast.description Prevent sleep when laptop lid's closed (clamshell mode)
+# @raycast.description Prevent sleep from closing laptop lid (clamshell mode)
 # @raycast.author Ivan Rybalko
 # @raycast.authorURL https://github.com/ivribalko
 
 validate_exit_code()
 {
-    if [[ $? -eq 1 ]]; then
-        echo "pmset is not in sudoers, see sources for how-to."
+    if [ $? -ne 0 ]; then
+        echo "probably missing sudoers, see sources for how-to."
         exit 1
     fi
 }
@@ -35,9 +40,9 @@ validate_exit_code()
 if [[ $(pmset -g | grep SleepDisabled | cut -f3) -eq '1' ]]; then
     sudo pmset disablesleep 0 2> /dev/null
     validate_exit_code
-    echo on 💤
+    echo now on 💤
 else
     sudo pmset disablesleep 1 2> /dev/null
     validate_exit_code
-    echo off ☕
+    echo now off ☕
 fi
