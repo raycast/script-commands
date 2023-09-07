@@ -6822,7 +6822,7 @@
           ],
           "createdAt" : "2023-09-06T00:16:33-04:00",
           "currentDirectoryPath" : null,
-          "description" : "Prevent sleep when laptop lid's closed (clamshell mode)",
+          "description" : "Prevent sleep from closing laptop lid (clamshell mode)",
           "filename" : "toggle-lid-sleep.sh",
           "hasArguments" : false,
           "icon" : {
@@ -6834,12 +6834,12 @@
           "language" : "bash",
           "mode" : "inline",
           "needsConfirmation" : null,
-          "packageName" : "Personal",
+          "packageName" : "System",
           "path" : "system\/",
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Toggle Lid Sleep",
-          "updatedAt" : "2023-09-06T00:16:33-04:00"
+          "updatedAt" : "2023-09-07T11:09:47-04:00"
         },
         {
           "authors" : [
@@ -23081,14 +23081,14 @@
   ],
   "languages" : [
     {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
+    },
+    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
-    },
-    {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
     },
     {
       "displayName" : "Python",
@@ -23101,19 +23101,19 @@
       "name" : "ruby"
     },
     {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
+    },
+    {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
-    },
-    {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
     }
   ],
   "metadata" : [
 
   ],
   "totalScriptCommands" : 803,
-  "updatedAt" : "2023-09-07T09:15:09Z"
+  "updatedAt" : "2023-09-07T15:12:46Z"
 }
