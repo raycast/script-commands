@@ -19,10 +19,14 @@
 language=$1
 question=${2// /+}
 # Available styles: https://cht.sh/:styles-demo
-style="native" 
+style="paraiso-dark"
 
+# get a random answer each time
+randnum=$((1 + (RANDOM%4)))
+
+# https://github.com/chubin/cheat.sh#usage
 if [ -z "$question" ]; then
   curl -s cht.sh/$language?style=$style
 else
-  curl -s cht.sh/$language/$question?style=$style
+  curl -s cht.sh/$language/$question/$randnum?style=$style
 fi
