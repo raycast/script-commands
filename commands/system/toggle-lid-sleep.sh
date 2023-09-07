@@ -17,7 +17,7 @@
 
 # Optional parameters:
 # @raycast.icon 🐚
-# @raycast.packageName Personal
+# @raycast.packageName System
 
 # Documentation:
 # @raycast.description Prevent sleep when laptop lid's closed (clamshell mode)
