@@ -6816,6 +6816,34 @@
         {
           "authors" : [
             {
+              "name" : "Ivan Rybalko",
+              "url" : "https:\/\/github.com\/ivribalko"
+            }
+          ],
+          "createdAt" : "2023-09-06T00:16:33-04:00",
+          "currentDirectoryPath" : null,
+          "description" : "Prevent sleep when laptop lid's closed (clamshell mode)",
+          "filename" : "toggle-lid-sleep.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🐚"
+          },
+          "identifier" : "417db530f5bb78e762778ce4c5904d26",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Personal",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle Lid Sleep",
+          "updatedAt" : "2023-09-06T00:16:33-04:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Felipe Turcheti",
               "url" : "https:\/\/felipeturcheti.com"
             }
@@ -7969,7 +7997,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Query cheat.sh",
-          "updatedAt" : "2021-07-04T22:26:57+02:00"
+          "updatedAt" : "2023-09-06T19:19:46-05:00"
         },
         {
           "authors" : [
@@ -23053,26 +23081,6 @@
   ],
   "languages" : [
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
-    },
-    {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
-    },
-    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
@@ -23081,11 +23089,31 @@
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
+    },
+    {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 802,
-  "updatedAt" : "2023-09-07T07:39:28Z"
+  "totalScriptCommands" : 803,
+  "updatedAt" : "2023-09-07T09:15:09Z"
 }
