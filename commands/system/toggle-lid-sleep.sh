@@ -26,8 +26,8 @@
 
 validate_exit_code()
 {
-    if [[ $? -eq 1 ]]; then
-        echo "pmset is not in sudoers, see sources for how-to."
+    if [ $? -ne 0 ]; then
+        echo "probably missing sudoers, see sources for how-to."
         exit 1
     fi
 }
