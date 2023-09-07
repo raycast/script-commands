@@ -35,9 +35,9 @@ validate_exit_code()
 if [[ $(pmset -g | grep SleepDisabled | cut -f3) -eq '1' ]]; then
     sudo pmset disablesleep 0 2> /dev/null
     validate_exit_code
-    echo on 💤
+    echo now on 💤
 else
     sudo pmset disablesleep 1 2> /dev/null
     validate_exit_code
-    echo off ☕
+    echo now off ☕
 fi
