@@ -3834,6 +3834,34 @@
         {
           "authors" : [
             {
+              "name" : "cSharp",
+              "url" : "https:\/\/github.com\/noidwasavailable"
+            }
+          ],
+          "createdAt" : "2023-09-06T00:23:42+09:00",
+          "currentDirectoryPath" : null,
+          "description" : "nCr: Calculate combinations",
+          "filename" : "calculate-combinations.js",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "𝐂"
+          },
+          "identifier" : "7d453c1dd055288ddc8c81714ed8194b",
+          "isTemplate" : false,
+          "language" : "node",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Calculate Combinations",
+          "path" : "math\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "nCr: Calculate Combinations",
+          "updatedAt" : "2023-09-06T00:23:42+09:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Matt Gleich",
               "url" : "https:\/\/mattglei.ch"
             }
@@ -5285,7 +5313,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Default to Firefox",
-          "updatedAt" : "2023-02-22T16:16:58+11:00"
+          "updatedAt" : "2023-08-31T18:05:16+09:00"
         },
         {
           "authors" : [
@@ -23025,24 +23053,14 @@
   ],
   "languages" : [
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
-    },
-    {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
     },
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     },
     {
       "displayName" : "Python",
@@ -23053,11 +23071,21 @@
       "displayName" : "Node",
       "icon" : "icon-nodejs.png",
       "name" : "node"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 801,
-  "updatedAt" : "2023-09-05T15:24:46Z"
+  "totalScriptCommands" : 802,
+  "updatedAt" : "2023-09-07T07:39:28Z"
 }
