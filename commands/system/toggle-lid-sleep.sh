@@ -10,6 +10,11 @@
 # 5- type this to exit and save file:
 # :wq
 
+# Note: this will not prevent laptop sleep from timeout.
+# Refer to System Settings and search for 'sleep' there for
+# things like 'Turn display off on battery when inactive' and
+# 'Prevent automatic sleeping on power adapter when the display is off'
+
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Toggle Lid Sleep
@@ -20,7 +25,7 @@
 # @raycast.packageName System
 
 # Documentation:
-# @raycast.description Prevent sleep when laptop lid's closed (clamshell mode)
+# @raycast.description Prevent sleep from closing laptop lid (clamshell mode)
 # @raycast.author Ivan Rybalko
 # @raycast.authorURL https://github.com/ivribalko
 
