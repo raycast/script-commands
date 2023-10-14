@@ -3,6 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Simple Markdown Link Generator
+# @raycast.description Quickly and simply generate a markdown formatted link with your specified URL and Link.
 # @raycast.mode silent
 # @raycast.packageName Conversions
 
