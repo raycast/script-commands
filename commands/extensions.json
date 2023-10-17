@@ -393,7 +393,7 @@
           ],
           "createdAt" : "2023-10-10T22:38:42+09:00",
           "currentDirectoryPath" : null,
-          "description" : null,
+          "description" : "Quickly and simply generate a markdown formatted link with your specified URL and title.",
           "filename" : "inputs-to-markdown-link.sh",
           "hasArguments" : true,
           "icon" : {
@@ -410,7 +410,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Simple Markdown Link Generator",
-          "updatedAt" : "2023-10-10T22:38:42+09:00"
+          "updatedAt" : "2023-10-17T22:58:55+09:00"
         },
         {
           "authors" : [
@@ -23109,26 +23109,6 @@
   ],
   "languages" : [
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
-    },
-    {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
-    },
-    {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
       "displayName" : "Python",
       "icon" : "icon-python.png",
       "name" : "python"
@@ -23137,11 +23117,31 @@
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
+    },
+    {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
+    },
+    {
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
     }
   ],
   "metadata" : [
 
   ],
   "totalScriptCommands" : 804,
-  "updatedAt" : "2023-10-12T09:26:04Z"
+  "updatedAt" : "2023-10-17T14:01:21Z"
 }
