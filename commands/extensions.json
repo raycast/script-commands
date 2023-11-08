@@ -7481,6 +7481,34 @@
         {
           "authors" : [
             {
+              "name" : "Stephen Kaplan",
+              "url" : "https:\/\/github.com\/SKaplanOfficial"
+            }
+          ],
+          "createdAt" : "2023-11-08T05:45:01-05:00",
+          "currentDirectoryPath" : null,
+          "description" : "Opens the Scripting Dictionary for the given application, defaulting to the active application if none is provided.",
+          "filename" : "view-scripting-dictionary.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "📖"
+          },
+          "identifier" : "2185a0ecf69c65f22c0ce316008c1bfb",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utils",
+          "path" : "developer-utils\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "View Scripting Dictionary",
+          "updatedAt" : "2023-11-08T05:45:01-05:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Nitin Gupta",
               "url" : "https:\/\/twitter.com\/gniting"
             }
@@ -23109,24 +23137,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
-    },
-    {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
     },
     {
       "displayName" : "Node",
@@ -23137,11 +23150,26 @@
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
+    },
+    {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
+    },
+    {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 804,
-  "updatedAt" : "2023-10-17T14:01:21Z"
+  "totalScriptCommands" : 805,
+  "updatedAt" : "2023-11-08T10:47:49Z"
 }

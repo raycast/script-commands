@@ -964,6 +964,7 @@ This repository contains sample commands and documentation to write your own one
   | 🔠 | [Transform Case](developer-utils/transform-case.sh) | Transform the case of clipboard content. Defaults to lower case if no conversion type is specified. | [Nitin Gupta](https://twitter.com/gniting) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | ✂ | [Trim Git Commit Hash](developer-utils/trim-git-commit-hash.sh) | Trim full git commit hash down to seven characters. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🔗 | [Unshorten URL](developer-utils/unshorten-url.sh) | Unshortens clipboard content url and copies the result again. | [Nikita Galaiko](https://github.com/ngalaiko) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 📖 | [View Scripting Dictionary](developer-utils/view-scripting-dictionary.sh) | Opens the Scripting Dictionary for the given application, defaulting to the active application if none is provided. | [Stephen Kaplan](https://github.com/SKaplanOfficial) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🌐 | [Whois](developer-utils/whois.sh) | Whois of URL. | [Caleb Stauffer](https://github.com/crstauf) and [Ronan Rodrigo Nunes](https://ronanrodrigo.dev) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Aws
