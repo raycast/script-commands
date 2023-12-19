@@ -33,7 +33,7 @@ except ImportError:
     exit(1)
 
 base_url = 'http://octopi.local/api/'
-api_key = '[INSERT YOUR API KEY HERE]'
+api_key = 'AFDF7D11A5C049EABB08ABF71BE5C252'
 
 endpoint = 'printer'
 
@@ -96,20 +96,20 @@ if response.status_code == 200:
 
         print("OctoPrint Status 🖨️")
         print(20 * "-")
-        print(green("State", state) + " 💪")
-        print(green("Job Name", job_name) + " 📝")
-        print(green("Job Progress", job_progress) + " 📈")
-        print(green("Time Left", time_left) + " ⏳")
-        print(green("Tool Temp", a_tool_temp) + " -> " + red("Target Temp", t_tool_temp) + " 🔥")
-        print(green("Bed Temp", a_bed_temp)+ " -> " + red("Target Temp", t_bed_temp) + " 🔥")
+        print(green("➡️ " + "State", state) + " 💪")
+        print(green("➡️ " + "Job Name", job_name) + " 📝")
+        print(green("➡️ " + "Job Progress", job_progress) + " 📈")
+        print(green("➡️ " + "Time Left", time_left) + " ⏳")
+        print(green("➡️ " + "Tool Temp", a_tool_temp) + " -> " + red("Target Temp", t_tool_temp) + " 🔥")
+        print(green("➡️ " + "Bed Temp", a_bed_temp)+ " -> " + red("Target Temp", t_bed_temp) + " 🔥")
         print(20 * "-")
 
     else:
         print("OctoPrint Status 🖨️")
         print(20 * "-")
-        print(green("State", state) + " 😴")
-        print(green("Tool Temp", a_tool_temp) + " -> " + red("Target Temp", t_tool_temp) + " 🔥")
-        print(green("Bed Temp", a_bed_temp)+ " -> " + red("Target Temp", t_bed_temp) + " 🔥")
+        print(green("➡️ " + "State", state) + " 😴")
+        print(green("➡️ " + "Tool Temp", a_tool_temp) + " -> " + red("Target Temp", t_tool_temp) + " 🔥")
+        print(green("➡️ " + "Bed Temp", a_bed_temp)+ " -> " + red("Target Temp", t_bed_temp) + " 🔥")
         print(20 * "-")
 
 elif response.status_code == 403:
