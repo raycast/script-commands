@@ -33,7 +33,7 @@ except ImportError:
     exit(1)
 
 base_url = 'http://octopi.local/api/'
-api_key = 'AFDF7D11A5C049EABB08ABF71BE5C252'
+api_key = '[INSERT YOUR API KEY HERE]'
 
 endpoint = 'printer'
 
