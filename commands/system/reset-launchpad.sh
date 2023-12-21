@@ -11,7 +11,7 @@
 
 # Documentation:
 # @raycast.description Resets the macOS Launchpad to its default state
-# @raycast.author zdawz
+# @raycast.author Zach Dawson
 # @raycast.authorURL https://raycast.com/zdawz
 
 defaults write com.apple.dock ResetLaunchPad -bool true
