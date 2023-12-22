@@ -6394,6 +6394,34 @@
         {
           "authors" : [
             {
+              "name" : "Zach Dawson",
+              "url" : "https:\/\/raycast.com\/zdawz"
+            }
+          ],
+          "createdAt" : "2023-12-22T08:19:14-06:00",
+          "currentDirectoryPath" : null,
+          "description" : "Resets the macOS Launchpad to its default state",
+          "filename" : "reset-launchpad.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🚀"
+          },
+          "identifier" : "1c9956877da036e214c52ae82f128cb1",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Reset Launchpad",
+          "updatedAt" : "2023-12-22T14:21:54+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Kailash Yellareddy",
               "url" : "https:\/\/github.com\/kyellareddy"
             }
@@ -23137,9 +23165,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     },
     {
       "displayName" : "Node",
@@ -23147,14 +23175,9 @@
       "name" : "node"
     },
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
-    },
-    {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     },
     {
       "displayName" : "AppleScript",
@@ -23162,14 +23185,19 @@
       "name" : "applescript"
     },
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
+    },
+    {
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 805,
-  "updatedAt" : "2023-11-08T10:47:49Z"
+  "totalScriptCommands" : 806,
+  "updatedAt" : "2023-12-22T14:21:54Z"
 }
