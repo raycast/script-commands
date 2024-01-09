@@ -132,7 +132,7 @@ This repository contains sample commands and documentation to write your own one
   - [Cmus](#cmus)
   - [Endel](#endel)
   - [Sonos](#sonos)
-  - [Speaker Setup](#Speaker Setup)
+  - [Speaker Setup](#speaker-setup)
   - [Spotify](#spotify)
   - [Tidal](#tidal)
   - [foobar2000](#foobar2000)
@@ -1206,8 +1206,7 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
-  | 🔊 | [Speaker Setup](media/Speaker Setup/Speaker Setup.sh) | N/A | [Kailash Yellareddy](https://github.com/kyellareddy) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
-  | 🔊 | [Speaker Setup](media/Speaker Setup/Speaker Setup.py) | N/A | [Kailash Yellareddy](https://github.com/kyellareddy) |  |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
+  | 🔊 | [Speaker Setup](media/speaker-setup/Speaker Setup.sh) | N/A | [Kailash Yellareddy](https://github.com/kyellareddy) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Spotify
 

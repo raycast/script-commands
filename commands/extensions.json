@@ -21290,7 +21290,7 @@
       "subGroups" : [
         {
           "name" : "Speaker Setup",
-          "path" : "Speaker Setup",
+          "path" : "speaker-setup",
           "scriptCommands" : [
             {
               "authors" : [
@@ -21314,39 +21314,11 @@
               "mode" : "compact",
               "needsConfirmation" : null,
               "packageName" : "Speaker Setup",
-              "path" : "media\/Speaker Setup\/",
+              "path" : "media\/speaker-setup\/",
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Speaker Setup",
-              "updatedAt" : "2024-01-09T09:19:23+00:00"
-            },
-            {
-              "authors" : [
-                {
-                  "name" : "Kailash Yellareddy",
-                  "url" : "https:\/\/github.com\/kyellareddy"
-                }
-              ],
-              "createdAt" : "2024-01-09T01:17:34-08:00",
-              "currentDirectoryPath" : null,
-              "description" : null,
-              "filename" : "Speaker Setup.py",
-              "hasArguments" : false,
-              "icon" : {
-                "dark" : null,
-                "light" : "🔊"
-              },
-              "identifier" : "8ac694d5417055dc31314f1be9dcb171",
-              "isTemplate" : false,
-              "language" : "python",
-              "mode" : "compact",
-              "needsConfirmation" : null,
-              "packageName" : "Speaker Setup",
-              "path" : "media\/Speaker Setup\/",
-              "refreshTime" : null,
-              "schemaVersion" : 1,
-              "title" : "Speaker Setup",
-              "updatedAt" : "2024-01-09T09:19:23+00:00"
+              "updatedAt" : "2024-01-09T10:22:01+01:00"
             }
           ]
         },
@@ -23227,24 +23199,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
-    },
-    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
-    },
-    {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
     },
     {
       "displayName" : "Swift",
@@ -23252,14 +23209,29 @@
       "name" : "swift"
     },
     {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
+    },
+    {
       "displayName" : "Ruby",
       "icon" : "icon-ruby.png",
       "name" : "ruby"
+    },
+    {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 808,
-  "updatedAt" : "2024-01-09T09:19:23Z"
+  "totalScriptCommands" : 807,
+  "updatedAt" : "2024-01-09T09:23:59Z"
 }
