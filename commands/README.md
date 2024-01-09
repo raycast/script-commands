@@ -132,6 +132,7 @@ This repository contains sample commands and documentation to write your own one
   - [Cmus](#cmus)
   - [Endel](#endel)
   - [Sonos](#sonos)
+  - [Speaker Setup](#Speaker Setup)
   - [Spotify](#spotify)
   - [Tidal](#tidal)
   - [foobar2000](#foobar2000)
@@ -1200,6 +1201,13 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/sonos/images/sonos-logo.png" width="20" height="20"> | [Set Volume](media/sonos/sonos-volume-set.sh) | Sets volume of Sonos. | [David Blackman](https://github.com/whizziwig) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/sonos/images/sonos-logo.png" width="20" height="20"> | [Volume Down](media/sonos/sonos-volume-down.sh) | Raises volume of Sonos. | [David Blackman](https://github.com/whizziwig) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/sonos/images/sonos-logo.png" width="20" height="20"> | [Volume Up](media/sonos/sonos-volume-up.sh) | Raises volume of Sonos. | [David Blackman](https://github.com/whizziwig) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Speaker Setup
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | 🔊 | [Speaker Setup](media/Speaker Setup/Speaker Setup.sh) | N/A | [Kailash Yellareddy](https://github.com/kyellareddy) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🔊 | [Speaker Setup](media/Speaker Setup/Speaker Setup.py) | N/A | [Kailash Yellareddy](https://github.com/kyellareddy) |  |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
 
 #### Spotify
 

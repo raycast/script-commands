@@ -5341,7 +5341,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Default to Firefox",
-          "updatedAt" : "2023-08-31T18:05:16+09:00"
+          "updatedAt" : "2024-01-05T16:03:05-08:00"
         },
         {
           "authors" : [
@@ -5565,7 +5565,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Default to Arc",
-          "updatedAt" : "2023-02-22T16:16:58+11:00"
+          "updatedAt" : "2024-01-05T16:03:05-08:00"
         },
         {
           "authors" : [
@@ -5840,7 +5840,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Default to Safari",
-          "updatedAt" : "2023-02-22T16:16:58+11:00"
+          "updatedAt" : "2024-01-05T16:03:05-08:00"
         },
         {
           "authors" : [
@@ -21289,6 +21289,68 @@
       ],
       "subGroups" : [
         {
+          "name" : "Speaker Setup",
+          "path" : "Speaker Setup",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Kailash Yellareddy",
+                  "url" : "https:\/\/github.com\/kyellareddy"
+                }
+              ],
+              "createdAt" : "2024-01-09T01:17:34-08:00",
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "Speaker Setup.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🔊"
+              },
+              "identifier" : "c126087406eedbe412b247d5aec01d4e",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Speaker Setup",
+              "path" : "media\/Speaker Setup\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Speaker Setup",
+              "updatedAt" : "2024-01-09T09:19:23+00:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Kailash Yellareddy",
+                  "url" : "https:\/\/github.com\/kyellareddy"
+                }
+              ],
+              "createdAt" : "2024-01-09T01:17:34-08:00",
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "Speaker Setup.py",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🔊"
+              },
+              "identifier" : "8ac694d5417055dc31314f1be9dcb171",
+              "isTemplate" : false,
+              "language" : "python",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Speaker Setup",
+              "path" : "media\/Speaker Setup\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Speaker Setup",
+              "updatedAt" : "2024-01-09T09:19:23+00:00"
+            }
+          ]
+        },
+        {
           "name" : "Apple Music",
           "path" : "apple-music",
           "scriptCommands" : [
@@ -23165,6 +23227,16 @@
   ],
   "languages" : [
     {
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
+    },
+    {
       "displayName" : "Python",
       "icon" : "icon-python.png",
       "name" : "python"
@@ -23175,29 +23247,19 @@
       "name" : "node"
     },
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
     },
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 806,
-  "updatedAt" : "2023-12-22T14:21:54Z"
+  "totalScriptCommands" : 808,
+  "updatedAt" : "2024-01-09T09:19:23Z"
 }
