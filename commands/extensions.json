@@ -5598,6 +5598,34 @@
         {
           "authors" : [
             {
+              "name" : "Federico Zivolo",
+              "url" : "https:\/\/github.com\/FezVrasta"
+            }
+          ],
+          "createdAt" : "2024-01-20T13:56:53+01:00",
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "toggle-desktop-widget.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔄"
+          },
+          "identifier" : "79982c901bf4cd65eda80b5f7039d1d0",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Toggle Desktop Widget",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle Desktop Widgets",
+          "updatedAt" : "2024-01-22T22:39:53+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Marcos Sánchez-Dehesa",
               "url" : "https:\/\/github.com\/dehesa"
             }
@@ -23209,6 +23237,16 @@
       "name" : "swift"
     },
     {
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
+    },
+    {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
       "displayName" : "Node",
       "icon" : "icon-nodejs.png",
       "name" : "node"
@@ -23217,21 +23255,11 @@
       "displayName" : "Ruby",
       "icon" : "icon-ruby.png",
       "name" : "ruby"
-    },
-    {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 807,
-  "updatedAt" : "2024-01-09T09:23:59Z"
+  "totalScriptCommands" : 808,
+  "updatedAt" : "2024-01-22T22:39:53Z"
 }
