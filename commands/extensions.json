@@ -8603,6 +8603,34 @@
         {
           "authors" : [
             {
+              "name" : "Annie Ma",
+              "url" : "http:\/\/www.anniema.co\/"
+            }
+          ],
+          "createdAt" : "2024-01-26T02:19:25-07:00",
+          "currentDirectoryPath" : null,
+          "description" : "This script deletes the line at cursor position.",
+          "filename" : "delete-current-line.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "⌨️"
+          },
+          "identifier" : "155fc5e8e485cc9d9f7a08797ea68597",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "path" : "developer-utils\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Delete Current Line",
+          "updatedAt" : "2024-01-26T09:21:48+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Nitin Gupta",
               "url" : "https:\/\/twitter.com\/gniting"
             }
@@ -14729,6 +14757,40 @@
               "schemaVersion" : 1,
               "title" : "Translate",
               "updatedAt" : "2022-04-04T02:34:41+08:00"
+            }
+          ]
+        },
+        {
+          "name" : "Stickies",
+          "path" : "stickies",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Annie Ma",
+                  "url" : "http:\/\/www.anniema.co\/"
+                }
+              ],
+              "createdAt" : "2024-01-26T02:19:25-07:00",
+              "currentDirectoryPath" : null,
+              "description" : "This script creates a new floating note in the Apple Stickies application",
+              "filename" : "new-floating-sticky.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/stickies.png"
+              },
+              "identifier" : "dae7953c0397480c8d99a3b0f56176b7",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Stickies",
+              "path" : "apps\/stickies\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "New Floating Sticky Note",
+              "updatedAt" : "2024-01-26T09:21:48+00:00"
             }
           ]
         },
@@ -23227,19 +23289,14 @@
   ],
   "languages" : [
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     },
     {
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
-    },
-    {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
     },
     {
       "displayName" : "Python",
@@ -23252,14 +23309,19 @@
       "name" : "node"
     },
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 808,
-  "updatedAt" : "2024-01-22T22:39:53Z"
+  "totalScriptCommands" : 810,
+  "updatedAt" : "2024-01-26T09:21:48Z"
 }

@@ -72,6 +72,7 @@ This repository contains sample commands and documentation to write your own one
   - [Session](#session)
   - [SideNotes](#sidenotes)
   - [Sip](#sip)
+  - [Stickies](#stickies)
   - [Sublime](#sublime)
   - [Surfshark](#surfshark)
   - [Tailscale](#tailscale)
@@ -575,6 +576,12 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/sip/./images/sip.png" width="20" height="20"> | [Open Contrast Checker](apps/sip/sip-open-check-contrast.sh) | Open Sip Contrast Checker. | [Sip](https://twitter.com/sip_app/) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/sip/./images/sip.png" width="20" height="20"> | [Show Color Picker](apps/sip/sip-show-picker.sh) | Pick a color value from your screen. | [Sip](https://twitter.com/sip_app/) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
+#### Stickies
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/stickies/images/stickies.png" width="20" height="20"> | [New Floating Sticky Note](apps/stickies/new-floating-sticky.applescript) | This script creates a new floating note in the Apple Stickies application | [Annie Ma](http://www.anniema.co/) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+
 #### Sublime
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
@@ -927,6 +934,7 @@ This repository contains sample commands and documentation to write your own one
   | 💻 | [Decode Base64](developer-utils/decode-base64.sh) | Decodes clipboard content to Base64 and copies it again. | Raycast |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/images/jwt-logo.png" width="20" height="20"> | [Decode JWT](developer-utils/decode-jwt.sh) | Decodes JSON web token from the clipboard. | Raycast |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 💻 | [Decode URL](developer-utils/decode-url.sh) | Decodes clipboard content url and copies it again. | Raycast |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | ⌨️ | [Delete Current Line](developer-utils/delete-current-line.applescript) | This script deletes the line at cursor position. | [Annie Ma](http://www.anniema.co/) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🌍 | [Dig](developer-utils/dig.sh) | Perform a dig command with the specified options | Tommaso Panozzo | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 💻 | [Encode Base64](developer-utils/encode-base64.sh) | Encodes clipboard content to Base64 and copies it again. | Raycast |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 💻 | [Encode URL](developer-utils/encode-url.sh) | Encodes clipboard content url and copies it again. | Raycast |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
