@@ -7338,6 +7338,34 @@
             {
               "authors" : [
                 {
+                  "name" : "Annie Ma",
+                  "url" : "http:\/\/www.anniema.co\/"
+                }
+              ],
+              "createdAt" : "2024-01-26T14:05:08-08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Toggles notification sounds.",
+              "filename" : "toggle-mute-notification-sounds.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🔔"
+              },
+              "identifier" : "a3b32fd55c23706603f24da4c74fd8d0",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "System",
+              "path" : "system\/audio\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Toggle Mute Notifcation Sounds",
+              "updatedAt" : "2024-02-01T16:53:25+00:00"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Roland Leth",
                   "url" : "https:\/\/runtimesharks.com"
                 }
@@ -23289,24 +23317,14 @@
   ],
   "languages" : [
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
-    },
-    {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
       "displayName" : "Node",
       "icon" : "icon-nodejs.png",
       "name" : "node"
+    },
+    {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     },
     {
       "displayName" : "Bash",
@@ -23317,11 +23335,21 @@
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
+    },
+    {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 810,
-  "updatedAt" : "2024-01-26T09:21:48Z"
+  "totalScriptCommands" : 811,
+  "updatedAt" : "2024-02-01T16:53:25Z"
 }
