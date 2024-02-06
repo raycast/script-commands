@@ -14789,6 +14789,40 @@
           ]
         },
         {
+          "name" : "BusyCal",
+          "path" : "busycal",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Annie Ma",
+                  "url" : "www.anniema.co"
+                }
+              ],
+              "createdAt" : "2024-02-06T01:35:01-07:00",
+              "currentDirectoryPath" : null,
+              "description" : "Creates new events or tasks in BusyCal.",
+              "filename" : "new-busycal-event-or-task.applescript",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/busycal.png"
+              },
+              "identifier" : "e4f836d21d4fcb8bcf522b1393aad74a",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "BusyCal",
+              "path" : "apps\/busycal\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Create Event\/Task",
+              "updatedAt" : "2024-02-06T08:36:45+00:00"
+            }
+          ]
+        },
+        {
           "name" : "Stickies",
           "path" : "stickies",
           "scriptCommands" : [
@@ -23322,11 +23356,6 @@
       "name" : "node"
     },
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
@@ -23342,6 +23371,11 @@
       "name" : "python"
     },
     {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
@@ -23350,6 +23384,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 811,
-  "updatedAt" : "2024-02-01T16:53:25Z"
+  "totalScriptCommands" : 812,
+  "updatedAt" : "2024-02-06T08:36:45Z"
 }

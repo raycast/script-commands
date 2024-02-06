@@ -31,6 +31,7 @@ This repository contains sample commands and documentation to write your own one
   - [Baremetrics](#baremetrics)
   - [Bartender](#bartender)
   - [Bear](#bear)
+  - [BusyCal](#busycal)
   - [Chatgpt](#chatgpt)
   - [Cleanshot](#cleanshot)
   - [Craft](#craft)
@@ -203,6 +204,12 @@ This repository contains sample commands and documentation to write your own one
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/bear/images/bear-dark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/bear/images/bear-light.png" width="20" height="20"></picture> | [Open Today](apps/bear/bear-today.sh) | Open the Today section in Bear. | [Tanay Nistala](https://github.com/tanaynistala) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/bear/images/bear-dark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/bear/images/bear-light.png" width="20" height="20"></picture> | [Open Todos](apps/bear/bear-todo.sh) | Open the Todo section in Bear. | [Tanay Nistala](https://github.com/tanaynistala) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/bear/images/bear-dark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/bear/images/bear-light.png" width="20" height="20"></picture> | [Search](apps/bear/bear-search.sh) | Search notes by keyword and/or tag in Bear. | [Tanay Nistala](https://github.com/tanaynistala) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### BusyCal
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/busycal/images/busycal.png" width="20" height="20"> | [Create Event/Task](apps/busycal/new-busycal-event-or-task.applescript) | Creates new events or tasks in BusyCal. | [Annie Ma](www.anniema.co) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 #### Chatgpt
 
