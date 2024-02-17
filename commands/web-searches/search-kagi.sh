@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# @raycast.title Search IMDB
-# @raycast.author Lucas Costa
-# @raycast.authorURL https://github.com/lucasrcosta
-# @raycast.description Search IMDB.
+# @raycast.title Search Kagi
+# @raycast.author Travis Carr
+# @raycast.authorURL https://github.com/tmcarr
+# @raycast.description Search Kagi.
 
-# @raycast.icon images/imdb.png
+# @raycast.icon images/kagi.png
 # @raycast.mode silent
 # @raycast.packageName Web Searches
 # @raycast.schemaVersion 1
