@@ -11,6 +11,10 @@
 # @raycast.schemaVersion 1
 
   tell application "Music"
-    set loved of current track to true
-    log "<3 Yeah, that song is rad."
+    if player state is playing then
+        set favorited of current track to true
+        log "<3 Yeah, that song is rad."
+    else
+        return "No track is currently playing."
+    end if
   end tell
