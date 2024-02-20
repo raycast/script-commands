@@ -15,5 +15,5 @@
 # @raycast.author Alexandru Turcanu
 # @raycast.authorURL https://github.com/Pondorasti
 
-open "https://scriptcommands.com/?search=$1"
+open "https://scriptcommands.alexandru.so/?search=$1"
 
