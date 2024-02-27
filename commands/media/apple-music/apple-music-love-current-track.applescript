@@ -13,7 +13,7 @@
   tell application "Music"
     if player state is playing then
         set favorited of current track to true
-        log "<3 Yeah, that song is rad."
+        log "<3 Yeah, the song is now favorited"
     else
         return "No track is currently playing."
     end if
