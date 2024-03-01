@@ -21,6 +21,6 @@ on run argv
 	</body>"
 tell application "Notes"
 		activate
-		make new note at folder "Notes" with properties {name: (item 1 of argv), body:content}
+		make new note at folder "Notes" with properties {name:"", body:content}
 	end tell
 end run
