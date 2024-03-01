@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Slack Dev Mode
+# @raycast.title Launch Dev Mode
 # @raycast.mode silent
 
 # Optional parameters:
