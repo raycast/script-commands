@@ -17,6 +17,11 @@
 # @raycast.author Alan Berman
 # @raycast.authorURL https://github.com/thealanberman
 
+if ! command -v jq &> /dev/null; then
+      echo "jq command is required (https://stedolan.github.io/jq/)";
+      exit 1;
+fi
+
 searchterm=$(IFS=" "; echo ${@})
 URL="https://itunes.apple.com/search?term=${searchterm}&country=US&entity=song,album"
 URL=${URL// /%20}
