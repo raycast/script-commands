@@ -1,4 +1,7 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+# Dependency: This script requires `jq` cli installed: https://stedolan.github.io/jq/
+# Install via homebrew: `brew install jq`
 
 # Required parameters:
 # @raycast.schemaVersion 1
