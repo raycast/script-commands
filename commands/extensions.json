@@ -4259,7 +4259,7 @@
               "url" : "https:\/\/github.com\/designedbyclu"
             }
           ],
-          "createdAt" : "2021-05-10T13:42:50+08:00",
+          "createdAt" : "2021-02-04T00:45:59-08:00",
           "currentDirectoryPath" : null,
           "description" : "Checking DOGE coin price",
           "filename" : "doge.sh",
@@ -4268,7 +4268,7 @@
             "dark" : null,
             "light" : "images\/dogecoin-logo.png"
           },
-          "identifier" : "5ef2d6fa688d7beb5849da1bfcf41b17",
+          "identifier" : "ef5ccfacde23ff614355afb1f378cc1b",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "inline",
@@ -11671,6 +11671,34 @@
               "schemaVersion" : 1,
               "title" : "Set DND Status",
               "updatedAt" : "2021-03-04T08:32:41+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Cody Carrell",
+                  "url" : "https:\/\/raycast.com\/sourcecody"
+                }
+              ],
+              "createdAt" : "2024-03-10T17:10:31-04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open Slack with the Developer Menu enabled. ⌘⌥I to access the Developer Menu. If you find it's not working, quit Slack and run this command again.",
+              "filename" : "slack-dev-mode.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/slack-logo.png"
+              },
+              "identifier" : "7c43ddc9b86f860583abf7ea64a4d324",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Slack",
+              "path" : "communication\/slack\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Launch Dev Mode",
+              "updatedAt" : "2024-03-10T21:12:02+00:00"
             }
           ]
         },
@@ -13433,7 +13461,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search Script Command",
-          "updatedAt" : "2021-07-13T21:10:54-07:00"
+          "updatedAt" : "2024-02-19T19:37:34-08:00"
         },
         {
           "authors" : [
@@ -21896,7 +21924,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Love Current Track",
-              "updatedAt" : "2021-09-24T08:42:54-04:00"
+              "updatedAt" : "2024-02-27T09:52:24-05:00"
             }
           ]
         },
@@ -23351,9 +23379,24 @@
   ],
   "languages" : [
     {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
       "displayName" : "Node",
       "icon" : "icon-nodejs.png",
       "name" : "node"
+    },
+    {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     },
     {
       "displayName" : "Bash",
@@ -23364,26 +23407,11 @@
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
-    },
-    {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 812,
-  "updatedAt" : "2024-02-06T08:36:45Z"
+  "totalScriptCommands" : 813,
+  "updatedAt" : "2024-03-10T21:12:02Z"
 }
