@@ -408,6 +408,7 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/mail/./images/mail.png" width="20" height="20"> | [CaptchaFromMail](apps/mail/copy-captcha-from-mail.py) | Copy the captcha from the emlx file. | [RealTong](https://raycast.com/RealTong) |  |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
   | 📧 | [Copy Foreground Mail Deeplink](apps/mail/copy-foreground-mail-deeplink.applescript) | Copies the foreground Mail deeplink | [Jesse Claven](https://github.com/jesse-c) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 #### Medo

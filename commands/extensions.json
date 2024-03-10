@@ -15464,6 +15464,34 @@
               "schemaVersion" : 1,
               "title" : "Copy Foreground Mail Deeplink",
               "updatedAt" : "2021-05-22T16:27:53+01:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "RealTong",
+                  "url" : "https:\/\/raycast.com\/RealTong"
+                }
+              ],
+              "createdAt" : "2024-03-02T12:46:14+08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Copy the captcha from the emlx file.",
+              "filename" : "copy-captcha-from-mail.py",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/mail.png"
+              },
+              "identifier" : "eb5104b3db21de0c7ea654c49319716a",
+              "isTemplate" : false,
+              "language" : "python",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Mail",
+              "path" : "apps\/mail\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "CaptchaFromMail",
+              "updatedAt" : "2024-03-02T12:46:14+08:00"
             }
           ]
         },
@@ -17135,7 +17163,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Create Note From Clipboard",
-              "updatedAt" : "2021-08-18T17:31:58+01:00"
+              "updatedAt" : "2024-03-01T12:51:47+01:00"
             },
             {
               "authors" : [
@@ -23384,9 +23412,19 @@
       "name" : "ruby"
     },
     {
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
+    },
+    {
       "displayName" : "Node",
       "icon" : "icon-nodejs.png",
       "name" : "node"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     },
     {
       "displayName" : "Python",
@@ -23397,21 +23435,11 @@
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
-    },
-    {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
-    },
-    {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 813,
-  "updatedAt" : "2024-03-10T21:12:02Z"
+  "totalScriptCommands" : 814,
+  "updatedAt" : "2024-03-10T21:15:40Z"
 }
