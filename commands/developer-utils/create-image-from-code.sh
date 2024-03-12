@@ -7,7 +7,7 @@
 
 # Optional parameters:
 # @raycast.icon ./images/ray-so.png
-# @raycast.argument1 { "type": "text", "placeholder": "Title", "optional": true }
+# @raycast.argument1 { "type": "text", "placeholder": "Title", "optional": true, "percentEncoded": true }
 
 # Documentation:
 # @raycast.description Create beautiful images of your code with https://ray.so
@@ -29,16 +29,10 @@ PADDING="64"
 LANGUAGE="auto"
 
 # Main:
-
-if [[ -z "$1" ]]
-then 
-  TITLE="Untitled-1"
-else
-  TITLE=$(php -r "echo urlencode(\"$1\");")
-fi
+TITLE=${1:-"Untitled"}
 
 CODE=$(pbpaste | base64)
 # Urlencode any + symbols in the base64 encoded string
 CODE=${CODE//+/%2B}
 
-open "https://ray.so/?colors=$COLORS&background=$BACKGROUND&darkMode=$DARK_MODE&padding=$PADDING&title=$TITLE&code=$CODE&language=$LANGUAGE"
+open "https://ray.so?#title=$TITLE&code=$CODE&colors=$COLORS&background=$BACKGROUND&darkMode=$DARK_MODE&padding=$PADDING&title=$TITLE&code=$CODE&language=$LANGUAGE"
