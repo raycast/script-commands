@@ -19,7 +19,19 @@
 # @raycast.author RealTong
 # @raycast.authorURL https://raycast.com/RealTong
 
-pangu_path="/Users/realtong/Library/pnpm/pangu"
+# pip, pnp paths
+export PATH="$HOME/.pyenv/shims:$HOME/Library/pnpm:$PATH"
+# nvm paths
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+# npm paths
+NPM_BIN_PATH=$(which npm)
+if [[ -n "$NPM_BIN_PATH" ]]; then
+    NPM_DIR=$(dirname "$NPM_BIN_PATH")
+    export PATH="$NPM_DIR:$PATH"
+fi
+
+pangu_path=$(which pangu)
 
 if [ -z "$pangu_path" ]; then
   echo "Error: pangu not found in PATH"
@@ -33,7 +45,7 @@ if [ -z "$input" ]; then
   exit 1
 fi
 
-# 调用 pangu ： pangu -t "text"
+# Call pangu ： pangu -t "text"
 
 output=$($pangu_path -t "$input")
 if [ -z "$output" ]; then
