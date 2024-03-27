@@ -252,6 +252,34 @@
         {
           "authors" : [
             {
+              "name" : "RealTong",
+              "url" : "https:\/\/raycast.com\/RealTong"
+            }
+          ],
+          "createdAt" : "2024-03-21T12:03:11+08:00",
+          "currentDirectoryPath" : null,
+          "description" : "Add spaces between Chinese and English, number or symbols.",
+          "filename" : "space-fixer.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📝"
+          },
+          "identifier" : "01ce6b040aecd6bcd05519b1880154c6",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Conversions",
+          "path" : "conversions\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Space Fixer",
+          "updatedAt" : "2024-03-22T18:09:49+08:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Adam Zethraeus",
               "url" : "https:\/\/github.com\/adam-zethraeus"
             }
@@ -8407,7 +8435,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Create Image from Code",
-          "updatedAt" : "2021-12-07T11:53:06+07:00"
+          "updatedAt" : "2024-03-12T21:01:55+07:00"
         },
         {
           "authors" : [
@@ -23407,14 +23435,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     },
     {
       "displayName" : "Node",
@@ -23422,24 +23445,29 @@
       "name" : "node"
     },
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
     },
     {
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
+    },
+    {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 814,
-  "updatedAt" : "2024-03-10T21:15:40Z"
+  "totalScriptCommands" : 815,
+  "updatedAt" : "2024-03-27T10:09:25Z"
 }
