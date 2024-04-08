@@ -21538,13 +21538,13 @@
               "createdAt" : "2024-01-09T01:17:34-08:00",
               "currentDirectoryPath" : null,
               "description" : null,
-              "filename" : "Speaker Setup.sh",
+              "filename" : "speaker-setup.sh",
               "hasArguments" : false,
               "icon" : {
                 "dark" : null,
                 "light" : "🔊"
               },
-              "identifier" : "c126087406eedbe412b247d5aec01d4e",
+              "identifier" : "7920ccb4e58a80afd149f6ce81e8f185",
               "isTemplate" : false,
               "language" : "bash",
               "mode" : "compact",
@@ -21554,7 +21554,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Speaker Setup",
-              "updatedAt" : "2024-01-09T10:22:01+01:00"
+              "updatedAt" : "2024-04-07T23:23:52+04:00"
             }
           ]
         },
@@ -23435,14 +23435,19 @@
   ],
   "languages" : [
     {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
+    },
+    {
       "displayName" : "Python",
       "icon" : "icon-python.png",
       "name" : "python"
     },
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     },
     {
       "displayName" : "Bash",
@@ -23450,24 +23455,19 @@
       "name" : "bash"
     },
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
-    },
-    {
       "displayName" : "Ruby",
       "icon" : "icon-ruby.png",
       "name" : "ruby"
     },
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     }
   ],
   "metadata" : [
 
   ],
   "totalScriptCommands" : 815,
-  "updatedAt" : "2024-03-27T10:09:25Z"
+  "updatedAt" : "2024-04-08T08:06:31Z"
 }
