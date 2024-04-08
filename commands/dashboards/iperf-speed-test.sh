@@ -5,16 +5,17 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title iPerf Speed Test
+# @raycast.title Speed Test
 # @raycast.mode inline
 # @raycast.refreshTime 1h
+# @raycast.packageName iPerf
 
 # Optional parameters:
 # @raycast.icon 💾
 
 # Documentation:
-# @raycast.description Runs an iPerf speed test.
-# @raycast.author samywamy10
+# @raycast.description Runs an iPerf Speed Test.
+# @raycast.author Sam Wright
 # @raycast.authorURL https://raycast.com/samywamy10
 
 # Add the IP address of your iPerf server here
