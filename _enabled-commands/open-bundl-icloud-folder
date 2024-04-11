@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Required parameters:
+# @raycast.schemaVersion 1
+# @raycast.title Open Bundl iCloud
+# @raycast.mode silent
+# @raycast.packageName Navigation
+
+# Optional parameters:
+# @raycast.icon images/folder-desktop.png
+
+# Documentation:
+# @raycast.description Opens the Bundl iCloud folder in the Finder.
+
+open ~/Users/joerivancauteren/Library/Mobile Documents/com~apple~CloudDocs/Bundl
