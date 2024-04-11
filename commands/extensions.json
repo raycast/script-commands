@@ -7508,6 +7508,40 @@
       ]
     },
     {
+      "name" : "Dashboards",
+      "path" : "dashboards",
+      "scriptCommands" : [
+        {
+          "authors" : [
+            {
+              "name" : "Sam Wright",
+              "url" : "https:\/\/raycast.com\/samywamy10"
+            }
+          ],
+          "createdAt" : "2024-04-11T17:21:31+10:00",
+          "currentDirectoryPath" : null,
+          "description" : "Runs an iPerf Speed Test.",
+          "filename" : "iperf-speed-test.template.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "💾"
+          },
+          "identifier" : "804d7f7d15474c0b6f5798afa59badee",
+          "isTemplate" : true,
+          "language" : "bash",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "iPerf",
+          "path" : "dashboards\/",
+          "refreshTime" : "1h",
+          "schemaVersion" : 1,
+          "title" : "Speed Test",
+          "updatedAt" : "2024-04-11T07:23:05+00:00"
+        }
+      ]
+    },
+    {
       "name" : "Developer Utils",
       "path" : "developer-utils",
       "scriptCommands" : [
@@ -23435,14 +23469,19 @@
   ],
   "languages" : [
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     },
     {
       "displayName" : "Python",
       "icon" : "icon-python.png",
       "name" : "python"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     },
     {
       "displayName" : "AppleScript",
@@ -23455,19 +23494,14 @@
       "name" : "bash"
     },
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 815,
-  "updatedAt" : "2024-04-08T08:06:31Z"
+  "totalScriptCommands" : 816,
+  "updatedAt" : "2024-04-11T07:23:05Z"
 }

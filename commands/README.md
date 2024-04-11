@@ -110,6 +110,7 @@ This repository contains sample commands and documentation to write your own one
   - [Firebase](#firebase)
   - [Mood Meter](#mood-meter)
   - [Open Weather](#open-weather)
+- [Dashboards](#dashboards)
 - [Developer Utils](#developer-utils)
   - [Aws](#aws)
   - [Brew](#brew)
@@ -922,6 +923,12 @@ This repository contains sample commands and documentation to write your own one
 | :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
   | ⛅️ | [Current Weather](dashboard/open-weather/weather-current.template.sh) | Get current weather from OpenWeather | [Marek Mašek](https://github.com/marekmasek) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | ⛅️ | [Weather Forecast](dashboard/open-weather/weather-forecast.template.sh) | Get weather forecast from OpenWeather | [Marek Mašek](https://github.com/marekmasek) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+## Dashboards
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | 💾 | [Speed Test](dashboards/iperf-speed-test.template.sh) | Runs an iPerf Speed Test. | [Sam Wright](https://raycast.com/samywamy10) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 ## Developer Utils
 
