@@ -52,6 +52,8 @@ if (raycastArgv is equal to "") then
     set browserName to "firefox"
   else if (appName is equal to "SigmaOS") then
     set browserName to "macos"
+  else if (appName is equal to "Arc") then
+    set browserName to "browser"
   end if
 
 else
