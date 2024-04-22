@@ -38,6 +38,8 @@ if (raycastArgv is equal to "") then
     set browserName to "safari"
   else if (appName is equal to "Safari Technology Preview") then
     set browserName to "safaritechnologypreview"
+  else if (appName contains "Firefox Dev") then
+    set browserName to "firefoxdeveloperedition"
   # set Google chrome dev as default browser
   # it need to put before Chrome
   else if (appName contains "dev") then
@@ -48,8 +50,10 @@ if (raycastArgv is equal to "") then
     set browserName to "chromium"
   else if (appName is equal to "Firefox") then
     set browserName to "firefox"
-  else if (appName is equal to "Firefox Developer Edition") then
-    set browserName to "firefoxdeveloperedition"
+  else if (appName is equal to "SigmaOS") then
+    set browserName to "macos"
+  else if (appName is equal to "Arc") then
+    set browserName to "browser"
   end if
 
 else
