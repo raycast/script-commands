@@ -4814,7 +4814,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Set Frontmost App as Default Browser",
-          "updatedAt" : "2021-08-06T19:23:46+02:00"
+          "updatedAt" : "2024-04-22T16:22:28+10:00"
         },
         {
           "authors" : [
@@ -5011,6 +5011,34 @@
           "schemaVersion" : 1,
           "title" : "Sample Color",
           "updatedAt" : "2021-07-21T10:01:35-04:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Jelte Lagendijk",
+              "url" : "https:\/\/raycast.com\/j3lte"
+            }
+          ],
+          "createdAt" : "2024-04-22T08:23:05+02:00",
+          "currentDirectoryPath" : null,
+          "description" : "Set the position of the Dock in the screen",
+          "filename" : "dock-set-position.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🤖"
+          },
+          "identifier" : "4d015ec34744b1b005c63343cace870a",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Dock Position",
+          "updatedAt" : "2024-04-22T08:23:05+02:00"
         },
         {
           "authors" : [
@@ -5598,6 +5626,34 @@
         {
           "authors" : [
             {
+              "name" : "Jelte Lagendijk",
+              "url" : "https:\/\/raycast.com\/j3lte"
+            }
+          ],
+          "createdAt" : "2024-04-22T08:23:05+02:00",
+          "currentDirectoryPath" : null,
+          "description" : "Set the Dock autohide",
+          "filename" : "dock-set-autohide.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🤖"
+          },
+          "identifier" : "2e9f26f5c37a3f3c74cae49c82fc0fd5",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Dock Set Autohide",
+          "updatedAt" : "2024-04-22T08:23:05+02:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Astrit",
               "url" : "https:\/\/github.com\/astrit"
             }
@@ -5981,6 +6037,34 @@
           "schemaVersion" : 1,
           "title" : "Minimize All Windows",
           "updatedAt" : "2022-02-21T17:47:42+01:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Jelte Lagendijk",
+              "url" : "https:\/\/raycast.com\/j3lte"
+            }
+          ],
+          "createdAt" : "2024-04-22T08:23:05+02:00",
+          "currentDirectoryPath" : null,
+          "description" : "Toggle the Dock Autohide",
+          "filename" : "dock-autohide-toggle.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🤖"
+          },
+          "identifier" : "48c4f52d832201490101c47dd2963bbd",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle Dock Autohide",
+          "updatedAt" : "2024-04-22T08:23:05+02:00"
         },
         {
           "authors" : [
@@ -23469,11 +23553,6 @@
   ],
   "languages" : [
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
       "displayName" : "Python",
       "icon" : "icon-python.png",
       "name" : "python"
@@ -23497,11 +23576,16 @@
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
+    },
+    {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 816,
-  "updatedAt" : "2024-04-11T07:23:05Z"
+  "totalScriptCommands" : 819,
+  "updatedAt" : "2024-04-22T06:24:50Z"
 }
