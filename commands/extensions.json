@@ -6590,6 +6590,34 @@
         {
           "authors" : [
             {
+              "name" : "Juan Luis Romero",
+              "url" : "https:\/\/github.com\/JuanluR8"
+            }
+          ],
+          "createdAt" : "2024-04-22T08:23:25+02:00",
+          "currentDirectoryPath" : null,
+          "description" : "Display CPU usage percent",
+          "filename" : "inline-cpu-usage-percent.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🖥️"
+          },
+          "identifier" : "88b8ff2c77f987a58eadc153ac8e9629",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : "10s",
+          "schemaVersion" : 1,
+          "title" : "CPU Usage",
+          "updatedAt" : "2024-04-22T06:25:56+00:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Felipe Turcheti",
               "url" : "https:\/\/felipeturcheti.com"
             }
@@ -6743,7 +6771,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Toggle Natural Scrolling",
-          "updatedAt" : "2021-04-29T15:07:57+00:00"
+          "updatedAt" : "2024-04-25T21:10:36+05:45"
         },
         {
           "authors" : [
@@ -23553,9 +23581,14 @@
   ],
   "languages" : [
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
+    },
+    {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     },
     {
       "displayName" : "Node",
@@ -23568,24 +23601,19 @@
       "name" : "applescript"
     },
     {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
-    },
-    {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
-    },
-    {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 819,
-  "updatedAt" : "2024-04-22T06:24:50Z"
+  "totalScriptCommands" : 820,
+  "updatedAt" : "2024-04-26T16:12:33Z"
 }
