@@ -4,7 +4,7 @@
 #
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title open passwords
+# @raycast.title Open passwords
 # @raycast.mode silent
 
 # Optional parameters:
