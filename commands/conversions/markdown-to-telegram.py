@@ -17,50 +17,64 @@
 import re
 import subprocess
 
+# Set environment variables and encoding
 env_vars = {'LANG': 'en_US.UTF-8'}
 encoding = 'utf-8'
+
 def paste():
+    """Read text from the clipboard."""
     return subprocess.check_output('pbpaste', env=env_vars).decode(encoding)
 
 def copy(text):
+    """Write text to the clipboard."""
     process = subprocess.Popen('pbcopy', env=env_vars, stdin=subprocess.PIPE)
     process.communicate(text.encode(encoding))
 
 def convert_markdown(text):
+    """Convert Markdown formatting to Telegram format."""
     lines = text.split('\n')
     converted_lines = []
     in_code_block = False
 
     for line in lines:
+        # Check if the line is a code block delimiter
         if line.startswith('```'):
             in_code_block = not in_code_block
             converted_lines.append(line)
             continue
 
-        if not in_code_block and not line.startswith('>'):  # Skip quotes
-            # Format headers
+        # Skip quotes and only format if not in a code block
+        if not in_code_block and not line.startswith('>'):
+            # Format headers with emojis and bold text
             if line.startswith('# '):
-                line = f"🔰 **{line[2:].strip()}**\n"
+                line = f"⚫️ **{line[2:].strip()}**\n"
             elif line.startswith('## '):
-                line = f"📌 **{line[3:].strip()}**\n"
+                line = f"◾️ **{line[3:].strip()}**\n"
             elif line.startswith('### '):
-                line = f"🔹 **{line[4:].strip()}**\n"
+                line = f"▪️ **{line[4:].strip()}**\n"
             elif line.startswith('#### '):
-                line = f"▪️ **{line[5:].strip()}**\n"
+                line = f"🔹 **{line[5:].strip()}**\n"
             elif line.startswith('##### '):
-                line = f"◾️ **{line[6:].strip()}**\n"
+                line = f"📌 **{line[6:].strip()}**\n"
             elif line.startswith('###### '):
-                line = f"⚫️ **{line[7:].strip()}**\n"
-            else:  # Only format if not a header
-                line = re.sub(r'(?<!\\)\*{2}(.*?)\*{2}', r'**\1**', line)  # Bold
-                line = re.sub(r'(?<!\\)_{2}(.*?)_{2}', r'**\1**', line)  # Also bold
-                line = re.sub(r'(?<!\\|\*)\*(?!\*)(.+?)(?<!\*)\*(?![\*_])', r'__\1__', line)  # Italic
-                line = re.sub(r'(?<!\\|_)_(?!_)(.+?)(?<!_)_(?![\*_])', r'__\1__', line)  # Also italic
-                line = re.sub(r'(?<!\\)~{2}(.*?)~{2}', r'~~\1~~', line)  # Strikethrough
-                line = re.sub(r'(?<!\\)\|\|(.*?)\|\|', r'||\1||', line)  # Spoiler
-                line = re.sub(r'(?<!\\)-{2}(.*?)-{2}', r'--\1--', line)  # Underline
-                line = re.sub(r'(?<!\\)\[(.*?)\]\((.*?)\)', r'[\1](\2)', line)  # Links
-                line = re.sub(r'(?<!\\)`(.*?)`', r'`\1`', line)  # Inline code
+                line = f"🔰 **{line[7:].strip()}**\n"
+            else:
+                # Format bold text
+                line = re.sub(r'(?<!\\)\*{2}(.*?)\*{2}', r'**\1**', line)
+                line = re.sub(r'(?<!\\)_{2}(.*?)_{2}', r'**\1**', line)
+                # Format italic text
+                line = re.sub(r'(?<!\\|\*)\*(?!\*)(.+?)(?<!\*)\*(?![\*_])', r'__\1__', line)
+                line = re.sub(r'(?<!\\|_)_(?!_)(.+?)(?<!_)_(?![\*_])', r'__\1__', line)
+                # Format strikethrough text
+                line = re.sub(r'(?<!\\)~{2}(.*?)~{2}', r'~~\1~~', line)
+                # Format spoilers
+                line = re.sub(r'(?<!\\)\|\|(.*?)\|\|', r'||\1||', line)
+                # Format underline text
+                line = re.sub(r'(?<!\\)-{2}(.*?)-{2}', r'--\1--', line)
+                # Format links
+                line = re.sub(r'(?<!\\)\[(.*?)\]\((.*?)\)', r'[\1](\2)', line)
+                # Format inline code
+                line = re.sub(r'(?<!\\)`(.*?)`', r'`\1`', line)
 
         converted_lines.append(line)
 
