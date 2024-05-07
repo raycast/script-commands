@@ -12,6 +12,7 @@
 
 # Documentation:
 # @raycast.author Maxim Borzov
+# @raycast.authorURL https://github.com/borzov
 
 import re
 import subprocess
