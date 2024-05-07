@@ -7,7 +7,7 @@
 
 # Optional parameters:
 # @raycast.icon 🔄
-# @raycast.packageName Content Tools
+# @raycast.packageName Conversions
 # @raycast.description Convert Markdown formatting to Telegram format, excluding processing inside code blocks or quotes
 
 # Documentation:
