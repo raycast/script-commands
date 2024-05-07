@@ -24,7 +24,7 @@ def paste():
 
 def copy(text):
     process = subprocess.Popen('pbcopy', env=env_vars, stdin=subprocess.PIPE)
-    process.communicate(text.encode('utf-8'))
+    process.communicate(text.encode(encoding))
 
 def convert_markdown(text):
     lines = text.split('\n')
