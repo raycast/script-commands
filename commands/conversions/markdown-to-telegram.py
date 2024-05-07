@@ -23,7 +23,7 @@ def paste():
     return subprocess.check_output('pbpaste', env=env_vars).decode(encoding)
 
 def copy(text):
-    process = subprocess.Popen('pbcopy', env={'LANG': 'en_US.UTF-8'}, stdin=subprocess.PIPE)
+    process = subprocess.Popen('pbcopy', env=env_vars, stdin=subprocess.PIPE)
     process.communicate(text.encode('utf-8'))
 
 def convert_markdown(text):
