@@ -18,7 +18,7 @@
                   "url" : "https:\/\/github.com\/thomaspaulmann"
                 }
               ],
-              "createdAt" : "2021-02-04T18:14:11+00:00",
+              "createdAt" : "2021-02-04T18:14:11Z",
               "currentDirectoryPath" : null,
               "description" : "Increase brightness of Elgato Key Light by 5%.",
               "filename" : "elgato-key-light-increase-brightness.template.rb",
@@ -27,7 +27,7 @@
                 "dark" : null,
                 "light" : "images\/elgato.png"
               },
-              "identifier" : "1a5ced3b0eed17feb59e06d3b82a3235",
+              "identifier" : "0efbf0fc0112b8007548e0036851da5a",
               "isTemplate" : true,
               "language" : "ruby",
               "mode" : "silent",
@@ -37,7 +37,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Increase Brightness",
-              "updatedAt" : "2021-02-04T18:14:11+00:00"
+              "updatedAt" : "2021-02-04T18:14:11Z"
             },
             {
               "authors" : [
@@ -46,7 +46,7 @@
                   "url" : "https:\/\/github.com\/thomaspaulmann"
                 }
               ],
-              "createdAt" : "2021-02-04T18:14:11+00:00",
+              "createdAt" : "2021-02-04T18:14:11Z",
               "currentDirectoryPath" : null,
               "description" : "Turn on Elgato Key Light.",
               "filename" : "elgato-key-light-turn-on.template.rb",
@@ -55,7 +55,7 @@
                 "dark" : null,
                 "light" : "images\/elgato.png"
               },
-              "identifier" : "7a42a1bde2de4c6d198d04a2f527ea4a",
+              "identifier" : "6bded1a4b3b945dff30a380936a1741f",
               "isTemplate" : true,
               "language" : "ruby",
               "mode" : "silent",
@@ -65,7 +65,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Turn On",
-              "updatedAt" : "2021-02-04T18:14:11+00:00"
+              "updatedAt" : "2021-02-04T18:14:11Z"
             },
             {
               "authors" : [
@@ -74,7 +74,7 @@
                   "url" : "https:\/\/github.com\/thomaspaulmann"
                 }
               ],
-              "createdAt" : "2021-02-04T18:14:11+00:00",
+              "createdAt" : "2021-02-04T18:14:11Z",
               "currentDirectoryPath" : null,
               "description" : "Turn off Elgato Key Light.",
               "filename" : "elgato-key-light-turn-off.template.rb",
@@ -83,7 +83,7 @@
                 "dark" : null,
                 "light" : "images\/elgato.png"
               },
-              "identifier" : "ae1a70aec03ee5e74c3b504ab0bd5873",
+              "identifier" : "d5b4e7d38d50f78801983fed1ab9c710",
               "isTemplate" : true,
               "language" : "ruby",
               "mode" : "silent",
@@ -93,7 +93,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Turn Off",
-              "updatedAt" : "2021-02-04T18:14:11+00:00"
+              "updatedAt" : "2021-02-04T18:14:11Z"
             },
             {
               "authors" : [
@@ -102,7 +102,7 @@
                   "url" : "https:\/\/github.com\/thomaspaulmann"
                 }
               ],
-              "createdAt" : "2021-02-04T18:14:11+00:00",
+              "createdAt" : "2021-02-04T18:14:11Z",
               "currentDirectoryPath" : null,
               "description" : "Decrease brightness of Elgato Key Light by 5%.",
               "filename" : "elgato-key-light-decrease-brightness.template.rb",
@@ -111,7 +111,7 @@
                 "dark" : null,
                 "light" : "images\/elgato.png"
               },
-              "identifier" : "e507bdea0b66b92dfeb1753d50336677",
+              "identifier" : "6b6890b0f6e356b44fd73d3d7e30c902",
               "isTemplate" : true,
               "language" : "ruby",
               "mode" : "silent",
@@ -121,7 +121,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Decrease Brightness",
-              "updatedAt" : "2021-02-04T21:22:04+00:00"
+              "updatedAt" : "2021-02-04T21:22:04Z"
             }
           ]
         },
@@ -382,7 +382,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "What Day Is...",
-          "updatedAt" : "2021-02-21T22:11:45+00:00"
+          "updatedAt" : "2021-02-21T22:11:45Z"
         },
         {
           "authors" : [
@@ -466,7 +466,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Trim Newlines and Tabs",
-          "updatedAt" : "2021-08-23T10:12:46+00:00"
+          "updatedAt" : "2021-08-23T10:12:46Z"
         },
         {
           "authors" : [
@@ -583,6 +583,34 @@
         {
           "authors" : [
             {
+              "name" : "Maxim Borzov",
+              "url" : "https:\/\/github.com\/borzov"
+            }
+          ],
+          "createdAt" : "2024-05-21T11:23:12+03:00",
+          "currentDirectoryPath" : null,
+          "description" : "Convert Markdown formatting to Telegram format, excluding processing inside code blocks or quotes",
+          "filename" : "markdown-to-telegram.py",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔄"
+          },
+          "identifier" : "14c19002feb2ab3f839073ec5eda7c30",
+          "isTemplate" : false,
+          "language" : "python",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Conversions",
+          "path" : "conversions\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Convert Markdown to Telegram Format",
+          "updatedAt" : "2024-05-21T11:23:12+03:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Ryan Nystrom",
               "url" : "https:\/\/github.com\/rnystrom"
             }
@@ -606,7 +634,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Markdown Table",
-          "updatedAt" : "2021-11-03T20:04:02+00:00"
+          "updatedAt" : "2021-11-03T20:04:02Z"
         },
         {
           "authors" : [
@@ -634,7 +662,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Paste and Match Style",
-          "updatedAt" : "2022-03-31T14:05:46+00:00"
+          "updatedAt" : "2022-03-31T14:05:46Z"
         },
         {
           "authors" : [
@@ -690,7 +718,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Unix Time Reader From Clipboard",
-          "updatedAt" : "2021-03-30T15:34:59+00:00"
+          "updatedAt" : "2021-03-30T15:34:59Z"
         },
         {
           "authors" : [
@@ -942,7 +970,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Convert Raw HTML to Rich Text on Clipboard",
-          "updatedAt" : "2023-07-03T21:06:13+00:00"
+          "updatedAt" : "2023-07-03T21:06:13Z"
         }
       ],
       "subGroups" : [
@@ -1152,7 +1180,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Open in guest profile",
-          "updatedAt" : "2022-10-31T11:55:21+00:00"
+          "updatedAt" : "2022-10-31T11:55:21Z"
         },
         {
           "authors" : [
@@ -1217,7 +1245,7 @@
               "url" : "https:\/\/github.com\/thomaspaulmann"
             }
           ],
-          "createdAt" : "2020-11-09T17:16:09+00:00",
+          "createdAt" : "2020-11-09T17:16:09Z",
           "currentDirectoryPath" : null,
           "description" : "Shorten the URL in your Clipboard with Tiny URL.",
           "filename" : "shorten-url.sh",
@@ -1226,7 +1254,7 @@
             "dark" : null,
             "light" : "🔗"
           },
-          "identifier" : "3ace97396b27d3677bdd47488bb7c31e",
+          "identifier" : "87e7fd07ae15344a2c3bbdfa528403ab",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "silent",
@@ -1488,7 +1516,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Youtube Shorts in video player",
-          "updatedAt" : "2023-07-25T16:29:37+00:00"
+          "updatedAt" : "2023-07-25T16:29:37Z"
         },
         {
           "authors" : [
@@ -1544,7 +1572,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Copy Current Page URL",
-          "updatedAt" : "2022-02-22T10:00:48+00:00"
+          "updatedAt" : "2022-02-22T10:00:48Z"
         },
         {
           "authors" : [
@@ -1713,7 +1741,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Open Finder",
-          "updatedAt" : "2021-05-31T10:08:39+00:00"
+          "updatedAt" : "2021-05-31T10:08:39Z"
         },
         {
           "authors" : [
@@ -1741,7 +1769,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search in Devdocs",
-          "updatedAt" : "2021-01-05T12:30:16+00:00"
+          "updatedAt" : "2021-01-05T12:30:16Z"
         },
         {
           "authors" : null,
@@ -1764,7 +1792,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Open Applications",
-          "updatedAt" : "2020-12-08T15:56:35+00:00"
+          "updatedAt" : "2020-12-08T15:56:35Z"
         },
         {
           "authors" : null,
@@ -1787,7 +1815,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Open URL From Clipboard",
-          "updatedAt" : "2020-12-08T15:56:35+00:00"
+          "updatedAt" : "2020-12-08T15:56:35Z"
         },
         {
           "authors" : [
@@ -1927,7 +1955,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search in Dash",
-          "updatedAt" : "2021-01-05T12:30:16+00:00"
+          "updatedAt" : "2021-01-05T12:30:16Z"
         },
         {
           "authors" : [
@@ -2001,7 +2029,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Open Last Downloaded",
-          "updatedAt" : "2022-03-30T20:25:55+00:00"
+          "updatedAt" : "2022-03-30T20:25:55Z"
         },
         {
           "authors" : null,
@@ -2075,7 +2103,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Open Clipboard URL on Desktop",
-          "updatedAt" : "2020-12-08T15:56:35+00:00"
+          "updatedAt" : "2020-12-08T15:56:35Z"
         },
         {
           "authors" : null,
@@ -2162,7 +2190,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Power Off",
-              "updatedAt" : "2022-02-09T10:16:51+00:00"
+              "updatedAt" : "2022-02-09T10:16:51Z"
             },
             {
               "authors" : [
@@ -2190,7 +2218,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Configure",
-              "updatedAt" : "2022-02-09T10:16:51+00:00"
+              "updatedAt" : "2022-02-09T10:16:51Z"
             },
             {
               "authors" : [
@@ -2218,7 +2246,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Volume Up",
-              "updatedAt" : "2022-02-09T10:16:51+00:00"
+              "updatedAt" : "2022-02-09T10:16:51Z"
             },
             {
               "authors" : [
@@ -2246,7 +2274,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Volume Down",
-              "updatedAt" : "2022-02-09T10:16:51+00:00"
+              "updatedAt" : "2022-02-09T10:16:51Z"
             },
             {
               "authors" : [
@@ -2274,7 +2302,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Power On",
-              "updatedAt" : "2022-02-09T10:16:51+00:00"
+              "updatedAt" : "2022-02-09T10:16:51Z"
             }
           ]
         },
@@ -2315,7 +2343,7 @@
                   "refreshTime" : null,
                   "schemaVersion" : 1,
                   "title" : "Switch to DP",
-                  "updatedAt" : "2022-02-24T08:21:35+00:00"
+                  "updatedAt" : "2022-02-24T08:21:35Z"
                 },
                 {
                   "authors" : [
@@ -2343,7 +2371,7 @@
                   "refreshTime" : null,
                   "schemaVersion" : 1,
                   "title" : "Switch to HDMI",
-                  "updatedAt" : "2022-02-24T08:21:35+00:00"
+                  "updatedAt" : "2022-02-24T08:21:35Z"
                 }
               ]
             },
@@ -2377,7 +2405,7 @@
                   "refreshTime" : null,
                   "schemaVersion" : 1,
                   "title" : "Switch to DP",
-                  "updatedAt" : "2022-02-24T08:21:35+00:00"
+                  "updatedAt" : "2022-02-24T08:21:35Z"
                 },
                 {
                   "authors" : [
@@ -2405,7 +2433,7 @@
                   "refreshTime" : null,
                   "schemaVersion" : 1,
                   "title" : "Switch to HDMI",
-                  "updatedAt" : "2022-02-24T08:21:35+00:00"
+                  "updatedAt" : "2022-02-24T08:21:35Z"
                 }
               ]
             }
@@ -2442,7 +2470,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Turn Off TV",
-              "updatedAt" : "2021-08-23T10:12:10+00:00"
+              "updatedAt" : "2021-08-23T10:12:10Z"
             },
             {
               "authors" : [
@@ -2470,7 +2498,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Turn On TV",
-              "updatedAt" : "2021-08-23T10:12:10+00:00"
+              "updatedAt" : "2021-08-23T10:12:10Z"
             }
           ]
         },
@@ -3838,7 +3866,7 @@
               "url" : "https:\/\/github.com\/pitnikola"
             }
           ],
-          "createdAt" : "2021-02-05T13:43:54+00:00",
+          "createdAt" : "2021-02-05T13:43:54Z",
           "currentDirectoryPath" : null,
           "description" : "Calculate percentage increase between \"from\" and \"to\" values.",
           "filename" : "calculate-growth.sh",
@@ -3847,7 +3875,7 @@
             "dark" : null,
             "light" : "📈"
           },
-          "identifier" : "43e4892095abfafb6a7ad5bb50c3c602",
+          "identifier" : "a733748a4340860d44b583174bed4aa8",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "compact",
@@ -3857,7 +3885,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Calculate Growth %",
-          "updatedAt" : "2021-02-05T13:43:54+00:00"
+          "updatedAt" : "2021-02-05T13:43:54Z"
         },
         {
           "authors" : [
@@ -3885,7 +3913,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Wolfram Alpha",
-          "updatedAt" : "2021-04-28T20:59:27+00:00"
+          "updatedAt" : "2021-04-28T20:59:27Z"
         },
         {
           "authors" : [
@@ -3941,7 +3969,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "LaTeX Calculator",
-          "updatedAt" : "2022-02-04T10:14:08+00:00"
+          "updatedAt" : "2022-02-04T10:14:08Z"
         },
         {
           "authors" : [
@@ -4124,7 +4152,7 @@
               "url" : "https:\/\/github.com\/thomaspaulmann"
             }
           ],
-          "createdAt" : "2021-01-27T23:15:56+00:00",
+          "createdAt" : "2021-01-27T23:15:56Z",
           "currentDirectoryPath" : null,
           "description" : "Shows the followers, favorites and friends count of your Twitter account.",
           "filename" : "twitter-statistics.template.rb",
@@ -4133,7 +4161,7 @@
             "dark" : null,
             "light" : "images\/twitter.png"
           },
-          "identifier" : "f1a519a4eafaa91bf8e2179e20acc1f0",
+          "identifier" : "1bde64c963c2cc5e3ffc510d7568f210",
           "isTemplate" : true,
           "language" : "ruby",
           "mode" : "inline",
@@ -4250,7 +4278,7 @@
           "refreshTime" : "5m",
           "schemaVersion" : 1,
           "title" : "Crypto",
-          "updatedAt" : "2021-03-01T16:54:23+00:00"
+          "updatedAt" : "2021-03-01T16:54:23Z"
         },
         {
           "authors" : [
@@ -4334,7 +4362,7 @@
           "refreshTime" : "1h",
           "schemaVersion" : 1,
           "title" : "NextDNS Status",
-          "updatedAt" : "2021-01-26T14:46:55+00:00"
+          "updatedAt" : "2021-01-26T14:46:55Z"
         },
         {
           "authors" : [
@@ -4362,7 +4390,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Tesla",
-          "updatedAt" : "2023-02-06T08:49:49+00:00"
+          "updatedAt" : "2023-02-06T08:49:49Z"
         },
         {
           "authors" : [
@@ -4371,7 +4399,7 @@
               "url" : "https:\/\/github.com\/thomaspaulmann"
             }
           ],
-          "createdAt" : "2020-12-01T15:19:07+00:00",
+          "createdAt" : "2020-12-01T15:19:07Z",
           "currentDirectoryPath" : null,
           "description" : "See the year progress on your desktop.",
           "filename" : "year-progress.sh",
@@ -4380,7 +4408,7 @@
             "dark" : null,
             "light" : "⏱"
           },
-          "identifier" : "b2f18259bc9ceb6889bd3f3c6a6022e1",
+          "identifier" : "f91b94065511ac6266f5b2499368af3a",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "inline",
@@ -4418,7 +4446,7 @@
           "refreshTime" : "1h",
           "schemaVersion" : 1,
           "title" : "YouTube Statistics",
-          "updatedAt" : "2021-11-09T09:49:02+00:00"
+          "updatedAt" : "2021-11-09T09:49:02Z"
         },
         {
           "authors" : [
@@ -4427,7 +4455,7 @@
               "url" : "https:\/\/github.com\/thomaspaulmann"
             }
           ],
-          "createdAt" : "2021-02-15T15:57:43+00:00",
+          "createdAt" : "2021-02-15T15:57:43Z",
           "currentDirectoryPath" : null,
           "description" : "Keep track of your stock portfolio.",
           "filename" : "stock-portfolio.rb",
@@ -4436,7 +4464,7 @@
             "dark" : null,
             "light" : "📈"
           },
-          "identifier" : "29df612d786611c3379557e77fdcc787",
+          "identifier" : "116c44f780e379c97aaa32826ff6dbb8",
           "isTemplate" : false,
           "language" : "ruby",
           "mode" : "inline",
@@ -4446,7 +4474,7 @@
           "refreshTime" : "1h",
           "schemaVersion" : 1,
           "title" : "Stocks",
-          "updatedAt" : "2021-02-15T16:05:12+00:00"
+          "updatedAt" : "2021-02-15T16:05:12Z"
         },
         {
           "authors" : [
@@ -4455,7 +4483,7 @@
               "url" : "https:\/\/github.com\/jesse-c"
             }
           ],
-          "createdAt" : "2021-01-16T14:01:54+00:00",
+          "createdAt" : "2021-01-16T14:01:54Z",
           "currentDirectoryPath" : null,
           "description" : "Show the time from elsewhere in the world",
           "filename" : "world-time.sh",
@@ -4464,7 +4492,7 @@
             "dark" : null,
             "light" : "🕐"
           },
-          "identifier" : "488cb8d0c156cff41b04f10b76d16696",
+          "identifier" : "0fe9fe7b1ee089f32c2d6fc739e8364b",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "inline",
@@ -4688,7 +4716,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Get Authorization Token",
-              "updatedAt" : "2022-12-30T17:11:26+00:00"
+              "updatedAt" : "2022-12-30T17:11:26Z"
             }
           ]
         },
@@ -4926,7 +4954,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Dismiss Notifications",
-          "updatedAt" : "2023-05-08T06:42:50+00:00"
+          "updatedAt" : "2023-05-08T06:42:50Z"
         },
         {
           "authors" : [
@@ -4991,7 +5019,7 @@
               "url" : "https:\/\/github.com\/jesse-c"
             }
           ],
-          "createdAt" : "2020-12-18T16:52:19+00:00",
+          "createdAt" : "2020-12-18T16:52:19Z",
           "currentDirectoryPath" : null,
           "description" : "Sample a color from anywhere on your screen.",
           "filename" : "sample-color.swift",
@@ -5000,7 +5028,7 @@
             "dark" : null,
             "light" : "🎨"
           },
-          "identifier" : "3fa985727c54b02c6d0b8d526c4b79ee",
+          "identifier" : "4600a7cb879326d93a1fa82615819092",
           "isTemplate" : false,
           "language" : "swift",
           "mode" : "silent",
@@ -5229,7 +5257,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Add Spacer to Dock",
-          "updatedAt" : "2021-03-08T00:46:38+00:00"
+          "updatedAt" : "2021-03-08T00:46:38Z"
         },
         {
           "authors" : [
@@ -5537,7 +5565,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Move Desktop to Trash",
-          "updatedAt" : "2021-07-06T15:39:42+00:00"
+          "updatedAt" : "2021-07-06T15:39:42Z"
         },
         {
           "authors" : [
@@ -5565,7 +5593,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Kill AirDrop Processes",
-          "updatedAt" : "2021-04-06T23:07:39+00:00"
+          "updatedAt" : "2021-04-06T23:07:39Z"
         },
         {
           "authors" : [
@@ -5705,7 +5733,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Toggle Desktop Widgets",
-          "updatedAt" : "2024-01-22T22:39:53+00:00"
+          "updatedAt" : "2024-01-22T22:39:53Z"
         },
         {
           "authors" : [
@@ -6203,7 +6231,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Open Last Download",
-          "updatedAt" : "2020-12-08T15:56:35+00:00"
+          "updatedAt" : "2020-12-08T15:56:35Z"
         },
         {
           "authors" : [
@@ -6277,7 +6305,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Eject All Disks",
-          "updatedAt" : "2020-12-08T15:56:35+00:00"
+          "updatedAt" : "2020-12-08T15:56:35Z"
         },
         {
           "authors" : [
@@ -6305,7 +6333,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Disk Free",
-          "updatedAt" : "2021-09-28T06:22:27+00:00"
+          "updatedAt" : "2021-09-28T06:22:27Z"
         },
         {
           "authors" : [
@@ -6333,7 +6361,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Copy Wi-Fi Password",
-          "updatedAt" : "2021-11-03T20:29:35+00:00"
+          "updatedAt" : "2021-11-03T20:29:35Z"
         },
         {
           "authors" : [
@@ -6370,7 +6398,7 @@
               "url" : "https:\/\/github.com\/jesse-c"
             }
           ],
-          "createdAt" : "2021-04-27T06:02:41+00:00",
+          "createdAt" : "2021-04-27T06:02:41Z",
           "currentDirectoryPath" : null,
           "description" : "Show disk usage for \/ (root)",
           "filename" : "disk-usage.sh",
@@ -6379,7 +6407,7 @@
             "dark" : null,
             "light" : "💿"
           },
-          "identifier" : "8058594c23e845822eadac4bb4c818ab",
+          "identifier" : "aadf056d506a2abb91cef252e2e7a1f6",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "inline",
@@ -6389,7 +6417,7 @@
           "refreshTime" : "1m",
           "schemaVersion" : 1,
           "title" : "Disk Usage",
-          "updatedAt" : "2021-04-27T06:02:41+00:00"
+          "updatedAt" : "2021-04-27T06:02:41Z"
         },
         {
           "authors" : [
@@ -6501,7 +6529,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Create Email",
-          "updatedAt" : "2021-02-25T10:47:45+00:00"
+          "updatedAt" : "2021-02-25T10:47:45Z"
         },
         {
           "authors" : [
@@ -6557,7 +6585,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Reset Launchpad",
-          "updatedAt" : "2023-12-22T14:21:54+00:00"
+          "updatedAt" : "2023-12-22T14:21:54Z"
         },
         {
           "authors" : [
@@ -6585,7 +6613,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Network Info",
-          "updatedAt" : "2023-07-04T10:01:20+00:00"
+          "updatedAt" : "2023-07-04T10:01:20Z"
         },
         {
           "authors" : [
@@ -6613,7 +6641,7 @@
           "refreshTime" : "10s",
           "schemaVersion" : 1,
           "title" : "CPU Usage",
-          "updatedAt" : "2024-04-22T06:25:56+00:00"
+          "updatedAt" : "2024-04-22T06:25:56Z"
         },
         {
           "authors" : [
@@ -6701,7 +6729,7 @@
         },
         {
           "authors" : null,
-          "createdAt" : "2020-11-05T19:09:05+00:00",
+          "createdAt" : "2020-11-05T19:09:05Z",
           "currentDirectoryPath" : null,
           "description" : "Copy the last downloaded file to the clipboard.",
           "filename" : "copy-last-download.swift",
@@ -6710,7 +6738,7 @@
             "dark" : null,
             "light" : "💁"
           },
-          "identifier" : "0ec1db6ff6f6f56e7daba5d6fbd03c75",
+          "identifier" : "19d49b55a44b69e9229b63c27724c02f",
           "isTemplate" : false,
           "language" : "swift",
           "mode" : "silent",
@@ -6720,11 +6748,11 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Copy Last Download",
-          "updatedAt" : "2020-12-08T15:56:35+00:00"
+          "updatedAt" : "2020-12-08T15:56:35Z"
         },
         {
           "authors" : null,
-          "createdAt" : "2020-11-05T19:08:41+00:00",
+          "createdAt" : "2020-11-05T19:08:41Z",
           "currentDirectoryPath" : null,
           "description" : "Copies the calendar availability of today.",
           "filename" : "copy-availability.swift",
@@ -6733,7 +6761,7 @@
             "dark" : null,
             "light" : "📅"
           },
-          "identifier" : "c54475a390bfef23ea03f2d5e69be018",
+          "identifier" : "7f78eb54a08af1d516202dd647999a27",
           "isTemplate" : false,
           "language" : "swift",
           "mode" : "silent",
@@ -6799,7 +6827,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Low Power Mode",
-          "updatedAt" : "2023-07-03T21:06:13+00:00"
+          "updatedAt" : "2023-07-03T21:06:13Z"
         },
         {
           "authors" : null,
@@ -6822,7 +6850,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Copy Last Screenshot",
-          "updatedAt" : "2020-12-08T15:56:35+00:00"
+          "updatedAt" : "2020-12-08T15:56:35Z"
         },
         {
           "authors" : [
@@ -6877,7 +6905,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Restart",
-          "updatedAt" : "2020-12-08T15:56:35+00:00"
+          "updatedAt" : "2020-12-08T15:56:35Z"
         },
         {
           "authors" : [
@@ -6984,7 +7012,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Shut Down",
-          "updatedAt" : "2020-12-08T15:56:35+00:00"
+          "updatedAt" : "2020-12-08T15:56:35Z"
         },
         {
           "authors" : [
@@ -7012,7 +7040,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Toggle Battery Charging",
-          "updatedAt" : "2022-08-18T12:53:36+00:00"
+          "updatedAt" : "2022-08-18T12:53:36Z"
         },
         {
           "authors" : null,
@@ -7035,7 +7063,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Sleep",
-          "updatedAt" : "2020-12-08T15:56:35+00:00"
+          "updatedAt" : "2020-12-08T15:56:35Z"
         },
         {
           "authors" : [
@@ -7417,7 +7445,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Headphones Battery Level",
-              "updatedAt" : "2023-02-03T07:51:37+00:00"
+              "updatedAt" : "2023-02-03T07:51:37Z"
             },
             {
               "authors" : [
@@ -7501,7 +7529,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Toggle Mute Notifcation Sounds",
-              "updatedAt" : "2024-02-01T16:53:25+00:00"
+              "updatedAt" : "2024-02-01T16:53:25Z"
             },
             {
               "authors" : [
@@ -7594,7 +7622,7 @@
                   "url" : "https:\/\/github.com\/matthewmorek"
                 }
               ],
-              "createdAt" : "2021-02-18T12:31:04+00:00",
+              "createdAt" : "2021-02-18T12:31:04Z",
               "currentDirectoryPath" : null,
               "description" : "Toggles microphone.",
               "filename" : "toggle-mic.applescript",
@@ -7603,7 +7631,7 @@
                 "dark" : null,
                 "light" : "🎙"
               },
-              "identifier" : "43754d5c0731006f9670e4d26e696fbd",
+              "identifier" : "f429f9a5cb87014a029d0a64cc5ce0f5",
               "isTemplate" : false,
               "language" : "applescript",
               "mode" : "silent",
@@ -7649,7 +7677,7 @@
           "refreshTime" : "1h",
           "schemaVersion" : 1,
           "title" : "Speed Test",
-          "updatedAt" : "2024-04-11T07:23:05+00:00"
+          "updatedAt" : "2024-04-11T07:23:05Z"
         }
       ]
     },
@@ -7678,7 +7706,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Escape String for Shell",
-          "updatedAt" : "2020-12-09T22:19:19+00:00"
+          "updatedAt" : "2020-12-09T22:19:19Z"
         },
         {
           "authors" : [
@@ -7734,7 +7762,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Count Characters Bash",
-          "updatedAt" : "2021-06-23T07:27:53+00:00"
+          "updatedAt" : "2021-06-23T07:27:53Z"
         },
         {
           "authors" : [
@@ -7790,7 +7818,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Transform Case",
-          "updatedAt" : "2021-01-24T20:18:06+00:00"
+          "updatedAt" : "2021-01-24T20:18:06Z"
         },
         {
           "authors" : [
@@ -7864,7 +7892,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Encode Base64",
-          "updatedAt" : "2020-12-08T15:56:35+00:00"
+          "updatedAt" : "2020-12-08T15:56:35Z"
         },
         {
           "authors" : null,
@@ -7887,7 +7915,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Decode JWT",
-          "updatedAt" : "2020-12-08T15:56:35+00:00"
+          "updatedAt" : "2020-12-08T15:56:35Z"
         },
         {
           "authors" : [
@@ -7924,7 +7952,7 @@
               "url" : "https:\/\/github.com\/jesse-c"
             }
           ],
-          "createdAt" : "2021-01-04T23:05:52+00:00",
+          "createdAt" : "2021-01-04T23:05:52Z",
           "currentDirectoryPath" : null,
           "description" : "Check if a website is up",
           "filename" : "is-it-up.sh",
@@ -7933,7 +7961,7 @@
             "dark" : null,
             "light" : "🌐"
           },
-          "identifier" : "eb23a85cca77120f511f36bba2ff520b",
+          "identifier" : "2889ef24ae8d92015ae9500dfc3e704a",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "compact",
@@ -8143,7 +8171,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Flutter Create Project",
-          "updatedAt" : "2021-08-17T16:40:16+00:00"
+          "updatedAt" : "2021-08-17T16:40:16Z"
         },
         {
           "authors" : [
@@ -8455,7 +8483,7 @@
               "url" : "https:\/\/github.com\/doktor500"
             }
           ],
-          "createdAt" : "2021-12-20T12:46:48+00:00",
+          "createdAt" : "2021-12-20T12:46:48Z",
           "currentDirectoryPath" : null,
           "description" : "Generates a ULID and copies it to the clipboard.",
           "filename" : "generate-ulid.sh",
@@ -8464,7 +8492,7 @@
             "dark" : null,
             "light" : "💻"
           },
-          "identifier" : "c3621c704381ac57b354d23166b7b287",
+          "identifier" : "17aae21d1f94cccc5275cb681e873b28",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "silent",
@@ -8474,7 +8502,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Generate ULID",
-          "updatedAt" : "2021-12-20T12:48:58+00:00"
+          "updatedAt" : "2021-12-20T12:48:58Z"
         },
         {
           "authors" : [
@@ -8525,7 +8553,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Generate UUID",
-          "updatedAt" : "2020-12-08T15:56:35+00:00"
+          "updatedAt" : "2020-12-08T15:56:35Z"
         },
         {
           "authors" : [
@@ -8562,7 +8590,7 @@
               "url" : "https:\/\/github.com\/thomaspaulmann"
             }
           ],
-          "createdAt" : "2021-02-16T22:31:57+00:00",
+          "createdAt" : "2021-02-16T22:31:57Z",
           "currentDirectoryPath" : null,
           "description" : "Create beautiful images of your code with https:\/\/ray.so",
           "filename" : "create-image-from-code.sh",
@@ -8571,7 +8599,7 @@
             "dark" : null,
             "light" : ".\/images\/ray-so.png"
           },
-          "identifier" : "8ddb848532c729215e01d0d3fa1aeb6a",
+          "identifier" : "88ae1869a8a7487db63e8ff43fb3db43",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "silent",
@@ -8660,7 +8688,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Copy Lorem Ipsum",
-          "updatedAt" : "2020-12-08T15:56:35+00:00"
+          "updatedAt" : "2020-12-08T15:56:35Z"
         },
         {
           "authors" : [
@@ -8688,7 +8716,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Print TLDR doc",
-          "updatedAt" : "2021-03-16T06:39:37+00:00"
+          "updatedAt" : "2021-03-16T06:39:37Z"
         },
         {
           "authors" : [
@@ -8744,7 +8772,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Error Info",
-          "updatedAt" : "2021-03-01T16:54:23+00:00"
+          "updatedAt" : "2021-03-01T16:54:23Z"
         },
         {
           "authors" : [
@@ -8772,7 +8800,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Join Clipboard Lines by Delimiter",
-          "updatedAt" : "2023-09-05T15:24:46+00:00"
+          "updatedAt" : "2023-09-05T15:24:46Z"
         },
         {
           "authors" : [
@@ -8828,7 +8856,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Delete Current Line",
-          "updatedAt" : "2024-01-26T09:21:48+00:00"
+          "updatedAt" : "2024-01-26T09:21:48Z"
         },
         {
           "authors" : [
@@ -8856,7 +8884,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Strong Password Generator",
-          "updatedAt" : "2021-01-24T20:15:25+00:00"
+          "updatedAt" : "2021-01-24T20:15:25Z"
         },
         {
           "authors" : null,
@@ -8879,7 +8907,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Decode Base64",
-          "updatedAt" : "2020-12-08T15:56:35+00:00"
+          "updatedAt" : "2020-12-08T15:56:35Z"
         },
         {
           "authors" : [
@@ -8935,7 +8963,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Copy Current Epoch Unix Timestamp",
-          "updatedAt" : "2021-07-29T11:41:55+00:00"
+          "updatedAt" : "2021-07-29T11:41:55Z"
         },
         {
           "authors" : [
@@ -9014,7 +9042,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Prettify JSON",
-          "updatedAt" : "2020-12-08T15:56:35+00:00"
+          "updatedAt" : "2020-12-08T15:56:35Z"
         },
         {
           "authors" : [
@@ -9042,7 +9070,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Open Deep Link",
-          "updatedAt" : "2021-09-01T13:11:06+00:00"
+          "updatedAt" : "2021-09-01T13:11:06Z"
         },
         {
           "authors" : [
@@ -9093,7 +9121,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Clear Derived Data",
-          "updatedAt" : "2020-12-08T15:56:35+00:00"
+          "updatedAt" : "2020-12-08T15:56:35Z"
         },
         {
           "authors" : [
@@ -9177,7 +9205,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Trim Git Commit Hash",
-          "updatedAt" : "2021-07-19T14:40:00+00:00"
+          "updatedAt" : "2021-07-19T14:40:00Z"
         },
         {
           "authors" : [
@@ -9441,7 +9469,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Clean",
-              "updatedAt" : "2021-06-12T17:33:18+00:00"
+              "updatedAt" : "2021-06-12T17:33:18Z"
             },
             {
               "authors" : [
@@ -9947,7 +9975,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Doctor",
-              "updatedAt" : "2021-02-25T00:34:23+00:00"
+              "updatedAt" : "2021-02-25T00:34:23Z"
             },
             {
               "authors" : [
@@ -9975,7 +10003,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Outdated List",
-              "updatedAt" : "2021-02-25T00:34:23+00:00"
+              "updatedAt" : "2021-02-25T00:34:23Z"
             },
             {
               "authors" : [
@@ -10031,7 +10059,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Start Service",
-              "updatedAt" : "2021-02-25T00:34:23+00:00"
+              "updatedAt" : "2021-02-25T00:34:23Z"
             },
             {
               "authors" : [
@@ -10059,7 +10087,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "List",
-              "updatedAt" : "2021-03-19T16:42:53+00:00"
+              "updatedAt" : "2021-03-19T16:42:53Z"
             },
             {
               "authors" : [
@@ -10087,7 +10115,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Upgrade",
-              "updatedAt" : "2021-02-25T00:34:23+00:00"
+              "updatedAt" : "2021-02-25T00:34:23Z"
             },
             {
               "authors" : [
@@ -10115,7 +10143,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Stop Service",
-              "updatedAt" : "2021-02-25T00:34:23+00:00"
+              "updatedAt" : "2021-02-25T00:34:23Z"
             },
             {
               "authors" : [
@@ -10143,7 +10171,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Update",
-              "updatedAt" : "2021-03-19T16:42:53+00:00"
+              "updatedAt" : "2021-03-19T16:42:53Z"
             },
             {
               "authors" : [
@@ -10171,7 +10199,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Restart Service",
-              "updatedAt" : "2021-09-07T10:00:18+00:00"
+              "updatedAt" : "2021-09-07T10:00:18Z"
             },
             {
               "authors" : [
@@ -10227,7 +10255,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Services List",
-              "updatedAt" : "2021-02-25T00:34:23+00:00"
+              "updatedAt" : "2021-02-25T00:34:23Z"
             }
           ]
         },
@@ -10270,7 +10298,7 @@
                   "url" : "https:\/\/github.com\/thomaspaulmann"
                 }
               ],
-              "createdAt" : "2020-11-27T10:40:24+00:00",
+              "createdAt" : "2020-11-27T10:40:24Z",
               "currentDirectoryPath" : null,
               "description" : "Show statistics of your GitHub repository.",
               "filename" : "github-repository-stars.template.rb",
@@ -10279,7 +10307,7 @@
                 "dark" : null,
                 "light" : "⭐️"
               },
-              "identifier" : "f7f43950b26ed37ae90938e7f4a0e0ad",
+              "identifier" : "bda99211bf65f1b5219db20e1b8f1b3d",
               "isTemplate" : true,
               "language" : "ruby",
               "mode" : "inline",
@@ -10289,7 +10317,7 @@
               "refreshTime" : "1h",
               "schemaVersion" : 1,
               "title" : "Repository Statistics",
-              "updatedAt" : "2020-11-27T10:40:24+00:00"
+              "updatedAt" : "2020-11-27T10:40:24Z"
             },
             {
               "authors" : [
@@ -10345,7 +10373,7 @@
               "refreshTime" : "1h",
               "schemaVersion" : 1,
               "title" : "Repository Statistics",
-              "updatedAt" : "2023-07-25T00:17:33+00:00"
+              "updatedAt" : "2023-07-25T00:17:33Z"
             },
             {
               "authors" : [
@@ -10382,7 +10410,7 @@
                   "url" : "https:\/\/github.com\/FSipiano"
                 }
               ],
-              "createdAt" : "2021-03-17T17:31:38+00:00",
+              "createdAt" : "2021-03-17T17:31:38Z",
               "currentDirectoryPath" : null,
               "description" : "Display number of open pull requests",
               "filename" : "github-open-pull-requests.template.rb",
@@ -10391,7 +10419,7 @@
                 "dark" : "images\/github-logo-iconDark.png",
                 "light" : "images\/github-logo.png"
               },
-              "identifier" : "94eaf509839a2abb4c0f38fe84dac1fb",
+              "identifier" : "07da15e048906bd7b5ee0275044649f8",
               "isTemplate" : true,
               "language" : "ruby",
               "mode" : "inline",
@@ -10401,7 +10429,7 @@
               "refreshTime" : "5m",
               "schemaVersion" : 1,
               "title" : "Open Pull Requests",
-              "updatedAt" : "2021-03-18T11:30:06+00:00"
+              "updatedAt" : "2021-03-18T11:30:06Z"
             },
             {
               "authors" : [
@@ -10410,7 +10438,7 @@
                   "url" : "https:\/\/github.com\/FSipiano"
                 }
               ],
-              "createdAt" : "2021-03-17T17:31:38+00:00",
+              "createdAt" : "2021-03-17T17:31:38Z",
               "currentDirectoryPath" : null,
               "description" : "Display (detailed) GitHub pull requests",
               "filename" : "github-open-pull-requests-details.template.rb",
@@ -10419,7 +10447,7 @@
                 "dark" : "images\/github-logo-iconDark.png",
                 "light" : "images\/github-logo.png"
               },
-              "identifier" : "02e903f7524e97478f2c5c31ee143834",
+              "identifier" : "d01e8e7a75307d40d48797d8ec6041b8",
               "isTemplate" : true,
               "language" : "ruby",
               "mode" : "fullOutput",
@@ -10438,7 +10466,7 @@
                   "url" : "https:\/\/github.com\/FSipiano"
                 }
               ],
-              "createdAt" : "2021-03-17T17:31:38+00:00",
+              "createdAt" : "2021-03-17T17:31:38Z",
               "currentDirectoryPath" : null,
               "description" : "Open your GitHub pull requests page",
               "filename" : "github-open-pull-requests-page.sh",
@@ -10447,7 +10475,7 @@
                 "dark" : "images\/github-logo-iconDark.png",
                 "light" : "images\/github-logo.png"
               },
-              "identifier" : "063d1b26dd9a78237a832b439845c4c0",
+              "identifier" : "1568c128b1e4e3897c8f2a65bb14d551",
               "isTemplate" : false,
               "language" : "bash",
               "mode" : "silent",
@@ -10457,7 +10485,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Open Pull Requests page",
-              "updatedAt" : "2021-03-18T11:30:06+00:00"
+              "updatedAt" : "2021-03-18T11:30:06Z"
             },
             {
               "authors" : [
@@ -10466,7 +10494,7 @@
                   "url" : "https:\/\/github.com\/vpicone"
                 }
               ],
-              "createdAt" : "2021-03-17T17:31:38+00:00",
+              "createdAt" : "2021-03-17T17:31:38Z",
               "currentDirectoryPath" : null,
               "description" : "Display number of Pull Requests requesting your review",
               "filename" : "github-review-requests.template.rb",
@@ -10475,7 +10503,7 @@
                 "dark" : "images\/github-logo-iconDark.png",
                 "light" : "images\/github-logo.png"
               },
-              "identifier" : "61586867ab7b6b2efa596bce302ed064",
+              "identifier" : "d1fc531c2aa8d1bac53ac6f630c1ca90",
               "isTemplate" : true,
               "language" : "ruby",
               "mode" : "inline",
@@ -10575,7 +10603,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Single Sign-On",
-              "updatedAt" : "2021-12-19T15:22:29+00:00"
+              "updatedAt" : "2021-12-19T15:22:29Z"
             },
             {
               "authors" : [
@@ -10603,7 +10631,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Find AWS Region by IP",
-              "updatedAt" : "2021-01-04T13:34:28+00:00"
+              "updatedAt" : "2021-01-04T13:34:28Z"
             }
           ]
         },
@@ -10618,7 +10646,7 @@
                   "url" : "https:\/\/github.com\/thomaspaulmann"
                 }
               ],
-              "createdAt" : "2020-12-02T09:13:05+00:00",
+              "createdAt" : "2020-12-02T09:13:05Z",
               "currentDirectoryPath" : null,
               "description" : "Show unresolved issues of the last 24 hours from Sentry.",
               "filename" : "sentry-unresolved-issues.template.py",
@@ -10627,7 +10655,7 @@
                 "dark" : "images\/sentry-dark.png",
                 "light" : "images\/sentry.png"
               },
-              "identifier" : "ad03c85a59ef25bccd103067f7034697",
+              "identifier" : "d965f2571912eb46a116071bd5a25111",
               "isTemplate" : true,
               "language" : "python",
               "mode" : "inline",
@@ -10637,7 +10665,7 @@
               "refreshTime" : "1h",
               "schemaVersion" : 1,
               "title" : "Unresolved Issues",
-              "updatedAt" : "2020-12-02T09:13:05+00:00"
+              "updatedAt" : "2020-12-02T09:13:05Z"
             },
             {
               "authors" : [
@@ -10650,7 +10678,7 @@
                   "url" : "https:\/\/github.com\/thomaspaulmann"
                 }
               ],
-              "createdAt" : "2020-12-02T09:13:05+00:00",
+              "createdAt" : "2020-12-02T09:13:05Z",
               "currentDirectoryPath" : null,
               "description" : "Show unresolved issues in the last 24 hours (by project) from Sentry.",
               "filename" : "sentry-unresolved-issues-by-project.template.py",
@@ -10659,7 +10687,7 @@
                 "dark" : "images\/sentry-dark.png",
                 "light" : "images\/sentry.png"
               },
-              "identifier" : "0b50b081414f73ef7e75e1f061bf9bd2",
+              "identifier" : "cd9dc8603b5433fe83c15dd43785add6",
               "isTemplate" : true,
               "language" : "python",
               "mode" : "fullOutput",
@@ -11123,7 +11151,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Let Me Google That",
-          "updatedAt" : "2023-06-27T09:57:07+00:00"
+          "updatedAt" : "2023-06-27T09:57:07Z"
         },
         {
           "authors" : [
@@ -11188,7 +11216,7 @@
               "url" : "https:\/\/github.com\/PitNikola"
             }
           ],
-          "createdAt" : "2021-03-14T20:36:28+00:00",
+          "createdAt" : "2021-03-14T20:36:28Z",
           "currentDirectoryPath" : null,
           "description" : "Share secret securely using https:\/\/share.doppler.com\/.",
           "filename" : "share-secret-doppler.py",
@@ -11197,7 +11225,7 @@
             "dark" : null,
             "light" : "images\/doppler-logo.png"
           },
-          "identifier" : "7083bf08edba754d9457b2d289de18be",
+          "identifier" : "348009c977b2cf35d589b7723f89b8ed",
           "isTemplate" : false,
           "language" : "python",
           "mode" : "silent",
@@ -11207,7 +11235,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Share Secret from Clipboard",
-          "updatedAt" : "2021-03-14T20:36:28+00:00"
+          "updatedAt" : "2021-03-14T20:36:28Z"
         },
         {
           "authors" : [
@@ -11307,7 +11335,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Open Most Recent Email",
-              "updatedAt" : "2023-02-03T00:48:14+00:00"
+              "updatedAt" : "2023-02-03T00:48:14Z"
             }
           ]
         },
@@ -11438,7 +11466,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Leave Meeting",
-              "updatedAt" : "2021-05-03T09:54:17+00:00"
+              "updatedAt" : "2021-05-03T09:54:17Z"
             },
             {
               "authors" : [
@@ -11466,7 +11494,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Rename Profile",
-              "updatedAt" : "2023-03-31T03:48:28+00:00"
+              "updatedAt" : "2023-03-31T03:48:28Z"
             },
             {
               "authors" : [
@@ -11601,7 +11629,7 @@
                   "url" : "https:\/\/github.com\/samching"
                 }
               ],
-              "createdAt" : "2020-11-26T13:39:55+00:00",
+              "createdAt" : "2020-11-26T13:39:55Z",
               "currentDirectoryPath" : null,
               "description" : "Clear DND Status in Slack",
               "filename" : "clear-slack-DND-status.sh",
@@ -11610,7 +11638,7 @@
                 "dark" : null,
                 "light" : "images\/slack-logo.png"
               },
-              "identifier" : "560ddd5136e037faafb5fbef3ecc1e10",
+              "identifier" : "05872fc3bb67f93dd979fe0f25b06545",
               "isTemplate" : false,
               "language" : "bash",
               "mode" : "silent",
@@ -11629,7 +11657,7 @@
                   "url" : "https:\/\/github.com\/zebapy"
                 }
               ],
-              "createdAt" : "2020-11-26T13:39:55+00:00",
+              "createdAt" : "2020-11-26T13:39:55Z",
               "currentDirectoryPath" : null,
               "description" : "Create a Slack reminder",
               "filename" : "add-slack-reminder.template.sh",
@@ -11638,7 +11666,7 @@
                 "dark" : null,
                 "light" : "⏰"
               },
-              "identifier" : "d320c2d35cc64553ce1a2db1ab80937c",
+              "identifier" : "8f2bf69938e8df32b08bf016b259d993",
               "isTemplate" : true,
               "language" : "bash",
               "mode" : "silent",
@@ -11648,7 +11676,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Add Reminder",
-              "updatedAt" : "2022-01-15T18:23:42+00:00"
+              "updatedAt" : "2022-01-15T18:23:42Z"
             },
             {
               "authors" : [
@@ -11685,7 +11713,7 @@
                   "url" : "https:\/\/github.com\/thomaspaulmann"
                 }
               ],
-              "createdAt" : "2020-11-26T13:39:55+00:00",
+              "createdAt" : "2020-11-26T13:39:55Z",
               "currentDirectoryPath" : null,
               "description" : "Clear your status in Slack.",
               "filename" : "clear-slack-status.template.sh",
@@ -11694,7 +11722,7 @@
                 "dark" : null,
                 "light" : "🧼"
               },
-              "identifier" : "42d6bf1b6d5ba4c4cf4d3dbfbd11f120",
+              "identifier" : "17d4ffd95aaa50ac53208639c1807969",
               "isTemplate" : true,
               "language" : "bash",
               "mode" : "silent",
@@ -11704,7 +11732,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Clear Status",
-              "updatedAt" : "2020-11-26T13:44:17+00:00"
+              "updatedAt" : "2020-11-26T13:44:17Z"
             },
             {
               "authors" : [
@@ -11788,7 +11816,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Send Message in Channel",
-              "updatedAt" : "2021-05-03T14:30:44+00:00"
+              "updatedAt" : "2021-05-03T14:30:44Z"
             },
             {
               "authors" : [
@@ -11797,7 +11825,7 @@
                   "url" : "https:\/\/github.com\/thomaspaulmann"
                 }
               ],
-              "createdAt" : "2020-11-26T13:39:55+00:00",
+              "createdAt" : "2020-11-26T13:39:55Z",
               "currentDirectoryPath" : null,
               "description" : "Set your status in Slack.",
               "filename" : "set-slack-status.template.sh",
@@ -11806,7 +11834,7 @@
                 "dark" : null,
                 "light" : "☕️"
               },
-              "identifier" : "a9c185aec50f521d19ed1d47aab578a5",
+              "identifier" : "57e23350fff64274696cfe28cce9d8ee",
               "isTemplate" : true,
               "language" : "bash",
               "mode" : "silent",
@@ -11816,7 +11844,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Set Status to Coffee",
-              "updatedAt" : "2020-11-26T18:24:36+00:00"
+              "updatedAt" : "2020-11-26T18:24:36Z"
             },
             {
               "authors" : [
@@ -11872,7 +11900,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Launch Dev Mode",
-              "updatedAt" : "2024-03-10T21:12:02+00:00"
+              "updatedAt" : "2024-03-10T21:12:02Z"
             }
           ]
         },
@@ -12058,7 +12086,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Gmail",
-              "updatedAt" : "2020-12-07T20:12:02+00:00"
+              "updatedAt" : "2020-12-07T20:12:02Z"
             }
           ]
         }
@@ -12122,7 +12150,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search in Bilibili",
-          "updatedAt" : "2021-01-05T12:30:16+00:00"
+          "updatedAt" : "2021-01-05T12:30:16Z"
         },
         {
           "authors" : [
@@ -12159,7 +12187,7 @@
               "url" : "https:\/\/github.com\/andreiborisov"
             }
           ],
-          "createdAt" : "2020-11-19T15:07:52+00:00",
+          "createdAt" : "2020-11-19T15:07:52Z",
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "kinopoisk.sh",
@@ -12168,7 +12196,7 @@
             "dark" : null,
             "light" : "images\/kinopoisk.png"
           },
-          "identifier" : "b9765abdca2e2f4913f25f68e9d1cb34",
+          "identifier" : "3035530c75101abbeb24a0a27b0ed685",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "silent",
@@ -12215,7 +12243,7 @@
               "url" : "https:\/\/zander.wtf"
             }
           ],
-          "createdAt" : "2020-11-24T21:18:01+00:00",
+          "createdAt" : "2020-11-24T21:18:01Z",
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "giphy.sh",
@@ -12224,7 +12252,7 @@
             "dark" : null,
             "light" : "images\/giphy.png"
           },
-          "identifier" : "27a2493face41bf1d80793deb1771797",
+          "identifier" : "3613b602176200bab2cb81cf3e3a31fc",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "silent",
@@ -12238,7 +12266,7 @@
         },
         {
           "authors" : null,
-          "createdAt" : "2020-11-19T15:07:52+00:00",
+          "createdAt" : "2020-11-19T15:07:52Z",
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "yandex-search.sh",
@@ -12247,7 +12275,7 @@
             "dark" : null,
             "light" : "images\/yandex.png"
           },
-          "identifier" : "f938027f6f3f823928e80d4527804d25",
+          "identifier" : "14ac258936b541c8b080afd875c888e9",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "silent",
@@ -12378,7 +12406,7 @@
               "url" : "https:\/\/zander.wtf"
             }
           ],
-          "createdAt" : "2020-11-24T21:18:01+00:00",
+          "createdAt" : "2020-11-24T21:18:01Z",
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "njt.sh",
@@ -12387,7 +12415,7 @@
             "dark" : null,
             "light" : "🐸"
           },
-          "identifier" : "7b80efcaecafbf7092d3bd0292112021",
+          "identifier" : "bf292fd5c6a6daeb7cb500aed47c97ce",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "silent",
@@ -12401,7 +12429,7 @@
         },
         {
           "authors" : null,
-          "createdAt" : "2020-11-19T21:13:15+00:00",
+          "createdAt" : "2020-11-19T21:13:15Z",
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "npmjs.sh",
@@ -12410,7 +12438,7 @@
             "dark" : null,
             "light" : "images\/npmjs.png"
           },
-          "identifier" : "b8c51cd5f736849629df290dcf48e627",
+          "identifier" : "1c60d434bfa470adfa9e5c4fad31a29a",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "silent",
@@ -12448,7 +12476,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search Go Package Documentation",
-          "updatedAt" : "2021-01-18T16:44:26+00:00"
+          "updatedAt" : "2021-01-18T16:44:26Z"
         },
         {
           "authors" : [
@@ -12457,7 +12485,7 @@
               "url" : "https:\/\/zander.wtf"
             }
           ],
-          "createdAt" : "2020-11-19T21:13:15+00:00",
+          "createdAt" : "2020-11-19T21:13:15Z",
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "repo.sh",
@@ -12466,7 +12494,7 @@
             "dark" : null,
             "light" : "📦"
           },
-          "identifier" : "327dff4d0f970f6709bed4f17955b925",
+          "identifier" : "fd304aeeb3b07086af4d259dc6bd8a44",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "silent",
@@ -12504,7 +12532,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search in Baidu",
-          "updatedAt" : "2021-01-05T12:30:16+00:00"
+          "updatedAt" : "2021-01-05T12:30:16Z"
         },
         {
           "authors" : [
@@ -12536,7 +12564,7 @@
         },
         {
           "authors" : null,
-          "createdAt" : "2020-11-19T15:07:52+00:00",
+          "createdAt" : "2020-11-19T15:07:52Z",
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "twitter-search.sh",
@@ -12545,7 +12573,7 @@
             "dark" : null,
             "light" : "images\/twitter.png"
           },
-          "identifier" : "c87cc4be86c046f70f68ca1cd2223258",
+          "identifier" : "5325fd3de931054a254082b1ce061ec9",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "silent",
@@ -12583,7 +12611,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search in Zhihu",
-          "updatedAt" : "2021-01-05T12:30:16+00:00"
+          "updatedAt" : "2021-01-05T12:30:16Z"
         },
         {
           "authors" : [
@@ -12667,7 +12695,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Pub.dev Search",
-          "updatedAt" : "2021-05-31T09:21:31+00:00"
+          "updatedAt" : "2021-05-31T09:21:31Z"
         },
         {
           "authors" : [
@@ -12699,7 +12727,7 @@
         },
         {
           "authors" : null,
-          "createdAt" : "2020-11-19T15:07:52+00:00",
+          "createdAt" : "2020-11-19T15:07:52Z",
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "amazon.sh",
@@ -12708,7 +12736,7 @@
             "dark" : null,
             "light" : "images\/amazon.png"
           },
-          "identifier" : "cc7830e2a1dfe295301d9b835e584cdf",
+          "identifier" : "7ca50f13f43b953f6d587c52f61005a9",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "silent",
@@ -12783,7 +12811,7 @@
               "url" : "https:\/\/zander.wtf"
             }
           ],
-          "createdAt" : "2020-11-24T21:18:01+00:00",
+          "createdAt" : "2020-11-24T21:18:01Z",
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "unfurl.sh",
@@ -12792,7 +12820,7 @@
             "dark" : null,
             "light" : "🔗"
           },
-          "identifier" : "ee82cecb96af85116fdc9b7208b77767",
+          "identifier" : "19f9cd5c3c78c5008f84417d01f14dee",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "silent",
@@ -12830,7 +12858,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search in Wikipedia",
-          "updatedAt" : "2021-02-16T16:00:45+00:00"
+          "updatedAt" : "2021-02-16T16:00:45Z"
         },
         {
           "authors" : [
@@ -12914,7 +12942,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search OpenSecrets.org",
-          "updatedAt" : "2023-04-24T06:57:26+00:00"
+          "updatedAt" : "2023-04-24T06:57:26Z"
         },
         {
           "authors" : [
@@ -12951,7 +12979,7 @@
               "url" : "https:\/\/zander.wtf"
             }
           ],
-          "createdAt" : "2020-11-24T21:18:01+00:00",
+          "createdAt" : "2020-11-24T21:18:01Z",
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "caniuse.sh",
@@ -12960,7 +12988,7 @@
             "dark" : null,
             "light" : "❓"
           },
-          "identifier" : "7c4f744b2140f5b80f7e15e0ebe6a6dd",
+          "identifier" : "d57b60f7bec95ebaf6ecd985d539eb33",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "silent",
@@ -13035,7 +13063,7 @@
               "url" : "https:\/\/zander.wtf"
             }
           ],
-          "createdAt" : "2020-11-19T21:13:15+00:00",
+          "createdAt" : "2020-11-19T21:13:15Z",
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "npms.sh",
@@ -13044,7 +13072,7 @@
             "dark" : null,
             "light" : "images\/npms.png"
           },
-          "identifier" : "190c26fa07258eca73549fde0318804f",
+          "identifier" : "c50c4272f0b39efd127d169968b96a9c",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "silent",
@@ -13114,7 +13142,7 @@
         },
         {
           "authors" : null,
-          "createdAt" : "2020-11-19T15:07:52+00:00",
+          "createdAt" : "2020-11-19T15:07:52Z",
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "grep-app-search.sh",
@@ -13123,7 +13151,7 @@
             "dark" : null,
             "light" : "https:\/\/grep.app\/favicon.ico"
           },
-          "identifier" : "b5ca621aeb52f48ffe1ffe30a8bb9373",
+          "identifier" : "3c1b4b1b7f98114881247bd9e9c44166",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "silent",
@@ -13249,7 +13277,7 @@
         },
         {
           "authors" : null,
-          "createdAt" : "2021-02-26T19:18:23+00:00",
+          "createdAt" : "2021-02-26T19:18:23Z",
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "search-swift-github.sh",
@@ -13258,7 +13286,7 @@
             "dark" : null,
             "light" : ".\/images\/swift.png"
           },
-          "identifier" : "819a4731b5656b3636b32652c241a507",
+          "identifier" : "ded067c8f231e019897a58bd2b5bb30c",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "silent",
@@ -13268,7 +13296,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search Swift Code",
-          "updatedAt" : "2021-02-26T19:18:23+00:00"
+          "updatedAt" : "2021-02-26T19:18:23Z"
         },
         {
           "authors" : [
@@ -13300,7 +13328,7 @@
         },
         {
           "authors" : null,
-          "createdAt" : "2020-11-19T15:07:52+00:00",
+          "createdAt" : "2020-11-19T15:07:52Z",
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "duck-duck-go.sh",
@@ -13309,7 +13337,7 @@
             "dark" : null,
             "light" : "images\/duck-duck-go.png"
           },
-          "identifier" : "e780f29955995de21a5ed8d42a7dc669",
+          "identifier" : "137568a154ee81cb2a1ca68aa4bbfd0d",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "silent",
@@ -13319,7 +13347,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search in DuckDuckGo",
-          "updatedAt" : "2021-01-05T12:30:16+00:00"
+          "updatedAt" : "2021-01-05T12:30:16Z"
         },
         {
           "authors" : [
@@ -13375,11 +13403,11 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search IMDB",
-          "updatedAt" : "2021-02-21T22:06:55+00:00"
+          "updatedAt" : "2021-02-21T22:06:55Z"
         },
         {
           "authors" : null,
-          "createdAt" : "2020-11-19T15:07:52+00:00",
+          "createdAt" : "2020-11-19T15:07:52Z",
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "youtube.sh",
@@ -13388,7 +13416,7 @@
             "dark" : null,
             "light" : "images\/youtube.png"
           },
-          "identifier" : "5e89e0c4d9ffddf0b3eea566f14773ca",
+          "identifier" : "aed6056723b8ff63788a8cec2fdfa88a",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "silent",
@@ -13398,7 +13426,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search in YouTube",
-          "updatedAt" : "2021-01-05T12:30:16+00:00"
+          "updatedAt" : "2021-01-05T12:30:16Z"
         },
         {
           "authors" : [
@@ -13407,7 +13435,7 @@
               "url" : "https:\/\/zander.wtf"
             }
           ],
-          "createdAt" : "2020-11-19T21:13:15+00:00",
+          "createdAt" : "2020-11-19T21:13:15Z",
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "bundlephobia.sh",
@@ -13416,7 +13444,7 @@
             "dark" : null,
             "light" : "📦"
           },
-          "identifier" : "0b092bce570e52328d6bcbe0163ae216",
+          "identifier" : "be1cdb15aaca06deb525512db504e89a",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "silent",
@@ -13458,7 +13486,7 @@
         },
         {
           "authors" : null,
-          "createdAt" : "2020-11-19T15:07:52+00:00",
+          "createdAt" : "2020-11-19T15:07:52Z",
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "crunchbase.sh",
@@ -13467,7 +13495,7 @@
             "dark" : null,
             "light" : "images\/crunchbase.png"
           },
-          "identifier" : "0f4669c88378d536451227114c6c6173",
+          "identifier" : "31c55bcec6408a3702a8f834a2b6457e",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "silent",
@@ -13481,7 +13509,7 @@
         },
         {
           "authors" : null,
-          "createdAt" : "2020-11-19T15:07:52+00:00",
+          "createdAt" : "2020-11-19T15:07:52Z",
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "google-search.sh",
@@ -13490,7 +13518,7 @@
             "dark" : null,
             "light" : "images\/google.png"
           },
-          "identifier" : "57aaa2728f3a23af892dfd7364e122d9",
+          "identifier" : "892301cd7b236406f6efc128ae07c4e3",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "silent",
@@ -13500,7 +13528,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search in Google",
-          "updatedAt" : "2021-01-05T12:30:16+00:00"
+          "updatedAt" : "2021-01-05T12:30:16Z"
         },
         {
           "authors" : [
@@ -13509,7 +13537,7 @@
               "url" : "https:\/\/zander.wtf"
             }
           ],
-          "createdAt" : "2020-11-24T21:18:01+00:00",
+          "createdAt" : "2020-11-24T21:18:01Z",
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "wayback-machine.sh",
@@ -13518,7 +13546,7 @@
             "dark" : null,
             "light" : "images\/ia-logo.jpg"
           },
-          "identifier" : "0dfb3e1ec84b397ccfec9f4a1c0a808d",
+          "identifier" : "3438cbb2bcc47a029bd463eb8229b673",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "silent",
@@ -13584,11 +13612,11 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Find Email Address With Hunter",
-          "updatedAt" : "2021-04-09T11:25:34+00:00"
+          "updatedAt" : "2021-04-09T11:25:34Z"
         },
         {
           "authors" : null,
-          "createdAt" : "2021-02-19T09:10:21+00:00",
+          "createdAt" : "2021-02-19T09:10:21Z",
           "currentDirectoryPath" : null,
           "description" : null,
           "filename" : "google-maps.sh",
@@ -13597,7 +13625,7 @@
             "dark" : null,
             "light" : "images\/google-map.png"
           },
-          "identifier" : "43ab852f28e3b03e0e66fe5309f259b1",
+          "identifier" : "8a71bb6b31307d65cf23a94c619c9971",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "silent",
@@ -13691,7 +13719,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search Genre in Chosic",
-          "updatedAt" : "2021-02-12T11:28:52+00:00"
+          "updatedAt" : "2021-02-12T11:28:52Z"
         },
         {
           "authors" : [
@@ -13700,7 +13728,7 @@
               "url" : "https:\/\/github.com\/traynham"
             }
           ],
-          "createdAt" : "2020-12-07T19:59:12+00:00",
+          "createdAt" : "2020-12-07T19:59:12Z",
           "currentDirectoryPath" : null,
           "description" : "Search in MDN (Mozilla) Docs by topic",
           "filename" : "mdn.sh",
@@ -13709,7 +13737,7 @@
             "dark" : "images\/mdn_dark.png",
             "light" : "images\/mdn_light.png"
           },
-          "identifier" : "cf35df9256be2997e18dc4e853f14213",
+          "identifier" : "991511e9548f80fc5f5dfa70172df0c9",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "silent",
@@ -13747,7 +13775,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search LinkedIn",
-          "updatedAt" : "2021-01-24T20:18:06+00:00"
+          "updatedAt" : "2021-01-24T20:18:06Z"
         },
         {
           "authors" : [
@@ -13775,7 +13803,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search in Taobao",
-          "updatedAt" : "2021-01-05T12:30:16+00:00"
+          "updatedAt" : "2021-01-05T12:30:16Z"
         },
         {
           "authors" : [
@@ -14187,7 +14215,7 @@
                   "url" : "https:\/\/twitter.com\/CleanShot_app"
                 }
               ],
-              "createdAt" : "2021-03-01T16:53:29+00:00",
+              "createdAt" : "2021-03-01T16:53:29Z",
               "currentDirectoryPath" : null,
               "description" : "Opens a new Quick Access Overlay with the specified image or video.",
               "filename" : "cleanshot-add-quick-access-overlay.sh",
@@ -14196,7 +14224,7 @@
                 "dark" : null,
                 "light" : ".\/images\/add-quick-access-overlay.png"
               },
-              "identifier" : "91b80377dfa8efe298d18c230eaef6f2",
+              "identifier" : "7239456521bcd7c3373cf8870936d3a7",
               "isTemplate" : false,
               "language" : "bash",
               "mode" : "silent",
@@ -14215,7 +14243,7 @@
                   "url" : "https:\/\/twitter.com\/CleanShot_app"
                 }
               ],
-              "createdAt" : "2021-03-01T16:53:29+00:00",
+              "createdAt" : "2021-03-01T16:53:29Z",
               "currentDirectoryPath" : null,
               "description" : "Opens Text Recognition (OCR) tool or extracts text from the specified file.",
               "filename" : "cleanshot-capture-text.sh",
@@ -14224,7 +14252,7 @@
                 "dark" : null,
                 "light" : ".\/images\/capture-text.png"
               },
-              "identifier" : "bc13ec469b1f9315254a99c339f94c46",
+              "identifier" : "7fe6d44fdbe6d9bb201ff65b756d860f",
               "isTemplate" : false,
               "language" : "bash",
               "mode" : "silent",
@@ -14243,7 +14271,7 @@
                   "url" : "https:\/\/twitter.com\/CleanShot_app"
                 }
               ],
-              "createdAt" : "2021-03-01T16:53:29+00:00",
+              "createdAt" : "2021-03-01T16:53:29Z",
               "currentDirectoryPath" : null,
               "description" : "Take a screenshot of a window.",
               "filename" : "cleanshot-capture-window.sh",
@@ -14252,7 +14280,7 @@
                 "dark" : null,
                 "light" : ".\/images\/capture-window.png"
               },
-              "identifier" : "930cc5847d3e98f97448af63c9f6ce70",
+              "identifier" : "3d218b4cbed21f7454562678b6a0b8ee",
               "isTemplate" : false,
               "language" : "bash",
               "mode" : "silent",
@@ -14271,7 +14299,7 @@
                   "url" : "https:\/\/twitter.com\/CleanShot_app"
                 }
               ],
-              "createdAt" : "2021-03-01T16:53:29+00:00",
+              "createdAt" : "2021-03-01T16:53:29Z",
               "currentDirectoryPath" : null,
               "description" : "Take a screenshot of the previously specified area of your screen.",
               "filename" : "cleanshot-capture-previous-area.sh",
@@ -14280,7 +14308,7 @@
                 "dark" : null,
                 "light" : ".\/images\/capture-previous-area.png"
               },
-              "identifier" : "5b66ca80099c0df6a6f6b76b72f30e77",
+              "identifier" : "43f62174fe500ba2f6cb4661195f3ebb",
               "isTemplate" : false,
               "language" : "bash",
               "mode" : "silent",
@@ -14299,7 +14327,7 @@
                   "url" : "https:\/\/twitter.com\/CleanShot_app"
                 }
               ],
-              "createdAt" : "2021-03-01T16:53:29+00:00",
+              "createdAt" : "2021-03-01T16:53:29Z",
               "currentDirectoryPath" : null,
               "description" : "Restore the recently closed file.",
               "filename" : "cleanshot-restore.sh",
@@ -14308,7 +14336,7 @@
                 "dark" : null,
                 "light" : ".\/images\/restore.png"
               },
-              "identifier" : "178ae73a00cf095f273899ff011ac7ae",
+              "identifier" : "775af547f54533d780759eea34761aeb",
               "isTemplate" : false,
               "language" : "bash",
               "mode" : "silent",
@@ -14327,7 +14355,7 @@
                   "url" : "https:\/\/twitter.com\/CleanShot_app"
                 }
               ],
-              "createdAt" : "2021-03-01T16:53:29+00:00",
+              "createdAt" : "2021-03-01T16:53:29Z",
               "currentDirectoryPath" : null,
               "description" : "Pin a screenshot to the screen.",
               "filename" : "cleanshot-pin.sh",
@@ -14336,7 +14364,7 @@
                 "dark" : null,
                 "light" : ".\/images\/pin.png"
               },
-              "identifier" : "7b43135688cf93a57980e243831f842d",
+              "identifier" : "938d3ce2be34e29a9f58d9099996e9ef",
               "isTemplate" : false,
               "language" : "bash",
               "mode" : "silent",
@@ -14355,7 +14383,7 @@
                   "url" : "https:\/\/twitter.com\/CleanShot_app"
                 }
               ],
-              "createdAt" : "2021-03-01T16:53:29+00:00",
+              "createdAt" : "2021-03-01T16:53:29Z",
               "currentDirectoryPath" : null,
               "description" : "Opens specified file in Annotate.",
               "filename" : "cleanshot-annotate.sh",
@@ -14364,7 +14392,7 @@
                 "dark" : null,
                 "light" : ".\/images\/annotate.png"
               },
-              "identifier" : "e59fa63eb6231b9ade5ac4c903255949",
+              "identifier" : "ca28647e99a4bbdea940fed93e688236",
               "isTemplate" : false,
               "language" : "bash",
               "mode" : "silent",
@@ -14383,7 +14411,7 @@
                   "url" : "https:\/\/twitter.com\/CleanShot_app"
                 }
               ],
-              "createdAt" : "2021-03-01T16:53:29+00:00",
+              "createdAt" : "2021-03-01T16:53:29Z",
               "currentDirectoryPath" : null,
               "description" : "Take a screenshot of a specific area on your screen.",
               "filename" : "cleanshot-capture-area.sh",
@@ -14392,7 +14420,7 @@
                 "dark" : null,
                 "light" : ".\/images\/capture-area.png"
               },
-              "identifier" : "7a465271a40d40df33a4f809a9008da6",
+              "identifier" : "f0cd821e3dea3225012f1ee24e0ee2a6",
               "isTemplate" : false,
               "language" : "bash",
               "mode" : "silent",
@@ -14411,7 +14439,7 @@
                   "url" : "https:\/\/twitter.com\/CleanShot_app"
                 }
               ],
-              "createdAt" : "2021-03-01T16:53:29+00:00",
+              "createdAt" : "2021-03-01T16:53:29Z",
               "currentDirectoryPath" : null,
               "description" : "Open screenshot that is currently in the clipboard.",
               "filename" : "cleanshot-open-from-clipboard.sh",
@@ -14420,7 +14448,7 @@
                 "dark" : null,
                 "light" : ".\/images\/clipboard.png"
               },
-              "identifier" : "6695f028dbfc306af7f80b7143ae2f11",
+              "identifier" : "6c834b826f74f76d659ee54377d73e9e",
               "isTemplate" : false,
               "language" : "bash",
               "mode" : "silent",
@@ -14439,7 +14467,7 @@
                   "url" : "https:\/\/twitter.com\/CleanShot_app"
                 }
               ],
-              "createdAt" : "2021-03-01T16:53:29+00:00",
+              "createdAt" : "2021-03-01T16:53:29Z",
               "currentDirectoryPath" : null,
               "description" : "Take a screenshot of your screen.",
               "filename" : "cleanshot-capture-fullscreen.sh",
@@ -14448,7 +14476,7 @@
                 "dark" : null,
                 "light" : ".\/images\/capture-fullscreen.png"
               },
-              "identifier" : "38409278bff8b4b2a6b1f4a1c414467f",
+              "identifier" : "b4bdb548dc357d8483d2c7afda0fa2ad",
               "isTemplate" : false,
               "language" : "bash",
               "mode" : "silent",
@@ -14495,7 +14523,7 @@
                   "url" : "https:\/\/twitter.com\/CleanShot_app"
                 }
               ],
-              "createdAt" : "2021-03-01T16:53:29+00:00",
+              "createdAt" : "2021-03-01T16:53:29Z",
               "currentDirectoryPath" : null,
               "description" : "Take a screenshot after a specified delay to capture the perfect moment.",
               "filename" : "cleanshot-self-timer.sh",
@@ -14504,7 +14532,7 @@
                 "dark" : null,
                 "light" : ".\/images\/self-timer.png"
               },
-              "identifier" : "6a02485725c953ebabb634d2171d69d4",
+              "identifier" : "7ff128b4069f95b91a61d2a920748340",
               "isTemplate" : false,
               "language" : "bash",
               "mode" : "silent",
@@ -14523,7 +14551,7 @@
                   "url" : "https:\/\/twitter.com\/CleanShot_app"
                 }
               ],
-              "createdAt" : "2021-03-01T16:53:29+00:00",
+              "createdAt" : "2021-03-01T16:53:29Z",
               "currentDirectoryPath" : null,
               "description" : "Capture any scrollable content.",
               "filename" : "cleanshot-scrolling-capture.sh",
@@ -14532,7 +14560,7 @@
                 "dark" : null,
                 "light" : ".\/images\/scrolling-capture.png"
               },
-              "identifier" : "95d0ae887d4bd4de79313e67e919ce1c",
+              "identifier" : "66f040a60fe27b26e31f2dfea19a9200",
               "isTemplate" : false,
               "language" : "bash",
               "mode" : "silent",
@@ -14551,7 +14579,7 @@
                   "url" : "https:\/\/twitter.com\/CleanShot_app"
                 }
               ],
-              "createdAt" : "2021-03-01T16:53:29+00:00",
+              "createdAt" : "2021-03-01T16:53:29Z",
               "currentDirectoryPath" : null,
               "description" : "Start a screen recording and save it as a video or an optimized GIF file.",
               "filename" : "cleanshot-record-screen.sh",
@@ -14560,7 +14588,7 @@
                 "dark" : null,
                 "light" : ".\/images\/record-screen.png"
               },
-              "identifier" : "2797e2984ea9fc0d309081f7cf08e034",
+              "identifier" : "745e006488dbf13262100b0d9992bd06",
               "isTemplate" : false,
               "language" : "bash",
               "mode" : "silent",
@@ -14579,7 +14607,7 @@
                   "url" : "https:\/\/twitter.com\/CleanShot_app"
                 }
               ],
-              "createdAt" : "2021-03-01T16:53:29+00:00",
+              "createdAt" : "2021-03-01T16:53:29Z",
               "currentDirectoryPath" : null,
               "description" : "Hide clutter on your Desktop.",
               "filename" : "cleanshot-toggle-desktop-icons.sh",
@@ -14588,7 +14616,7 @@
                 "dark" : null,
                 "light" : ".\/images\/toggle-desktop-icons.png"
               },
-              "identifier" : "1ccf43b5679b65859cf4867a0713ea57",
+              "identifier" : "12f891f99170ce75263600efdf9819e7",
               "isTemplate" : false,
               "language" : "bash",
               "mode" : "silent",
@@ -15020,7 +15048,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Create Event\/Task",
-              "updatedAt" : "2024-02-06T08:36:45+00:00"
+              "updatedAt" : "2024-02-06T08:36:45Z"
             }
           ]
         },
@@ -15054,7 +15082,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "New Floating Sticky Note",
-              "updatedAt" : "2024-01-26T09:21:48+00:00"
+              "updatedAt" : "2024-01-26T09:21:48Z"
             }
           ]
         },
@@ -16040,7 +16068,7 @@
                   "url" : "https:\/\/github.com\/thomaspaulmann"
                 }
               ],
-              "createdAt" : "2021-01-24T20:19:30+00:00",
+              "createdAt" : "2021-01-24T20:19:30Z",
               "currentDirectoryPath" : null,
               "description" : "Set dimming intensity of background windows.",
               "filename" : "hazeover-set-intensity.applescript",
@@ -16049,7 +16077,7 @@
                 "dark" : null,
                 "light" : "images\/hazeover.png"
               },
-              "identifier" : "fadd9020bfac9652d455ccefd757fcc2",
+              "identifier" : "f26557a194748a37e12e64003b1f2c6f",
               "isTemplate" : false,
               "language" : "applescript",
               "mode" : "silent",
@@ -16068,7 +16096,7 @@
                   "url" : "https:\/\/github.com\/thomaspaulmann"
                 }
               ],
-              "createdAt" : "2021-01-24T20:19:30+00:00",
+              "createdAt" : "2021-01-24T20:19:30Z",
               "currentDirectoryPath" : null,
               "description" : "Toggle dimming of all background windows.",
               "filename" : "hazeover-toggle-dimming.applescript",
@@ -16077,7 +16105,7 @@
                 "dark" : null,
                 "light" : "images\/hazeover.png"
               },
-              "identifier" : "c77e9fa4315c2beba15ab0321d833ae5",
+              "identifier" : "5368be37ae49d353930157085116709f",
               "isTemplate" : false,
               "language" : "applescript",
               "mode" : "silent",
@@ -16741,7 +16769,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Disconnect",
-              "updatedAt" : "2021-03-25T22:10:33+00:00"
+              "updatedAt" : "2021-03-25T22:10:33Z"
             },
             {
               "authors" : [
@@ -16769,7 +16797,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Connect to Location",
-              "updatedAt" : "2022-08-25T19:51:18+00:00"
+              "updatedAt" : "2022-08-25T19:51:18Z"
             },
             {
               "authors" : [
@@ -16797,7 +16825,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Search Countries, Cities, and Hostnames",
-              "updatedAt" : "2021-03-25T22:10:33+00:00"
+              "updatedAt" : "2021-03-25T22:10:33Z"
             },
             {
               "authors" : [
@@ -16825,7 +16853,7 @@
               "refreshTime" : "5m",
               "schemaVersion" : 1,
               "title" : "Mullvad Status",
-              "updatedAt" : "2022-08-25T19:51:18+00:00"
+              "updatedAt" : "2022-08-25T19:51:18Z"
             },
             {
               "authors" : [
@@ -16853,7 +16881,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Reconnect",
-              "updatedAt" : "2022-08-25T19:51:18+00:00"
+              "updatedAt" : "2022-08-25T19:51:18Z"
             },
             {
               "authors" : [
@@ -16881,7 +16909,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Connect",
-              "updatedAt" : "2022-08-25T19:51:18+00:00"
+              "updatedAt" : "2022-08-25T19:51:18Z"
             }
           ]
         },
@@ -17095,7 +17123,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Get Tasks",
-              "updatedAt" : "2021-05-04T10:14:48+00:00"
+              "updatedAt" : "2021-05-04T10:14:48Z"
             }
           ]
         },
@@ -17129,7 +17157,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Open",
-              "updatedAt" : "2022-01-27T12:07:09+00:00"
+              "updatedAt" : "2022-01-27T12:07:09Z"
             }
           ]
         },
@@ -17618,7 +17646,7 @@
                   "url" : "https:\/\/github.com\/thomaspaulmann"
                 }
               ],
-              "createdAt" : "2021-03-09T15:09:02+00:00",
+              "createdAt" : "2021-03-09T15:09:02Z",
               "currentDirectoryPath" : null,
               "description" : "Close all tabs besides the currently active tab.",
               "filename" : "safari-close-other-tabs.applescript",
@@ -17627,7 +17655,7 @@
                 "dark" : null,
                 "light" : "images\/safari.png"
               },
-              "identifier" : "4c466c382386183b6393383afe1a0b26",
+              "identifier" : "38cc0dc04da036a099b3e37fd711ef8d",
               "isTemplate" : false,
               "language" : "applescript",
               "mode" : "silent",
@@ -17637,7 +17665,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Close Other Tabs",
-              "updatedAt" : "2021-03-09T15:09:02+00:00"
+              "updatedAt" : "2021-03-09T15:09:02Z"
             },
             {
               "authors" : [
@@ -17702,7 +17730,7 @@
                   "url" : "https:\/\/github.com\/thomaspaulmann"
                 }
               ],
-              "createdAt" : "2021-03-09T15:09:02+00:00",
+              "createdAt" : "2021-03-09T15:09:02Z",
               "currentDirectoryPath" : null,
               "description" : "Add a new Reading List item with the given URL. Allows a custom title to be specified.",
               "filename" : "safari-create-reading-list-item.applescript",
@@ -17711,7 +17739,7 @@
                 "dark" : null,
                 "light" : "images\/safari.png"
               },
-              "identifier" : "b63421c14664c46305244e65fe16553f",
+              "identifier" : "77a2ff3bf579994aa3624feb9aca64a4",
               "isTemplate" : false,
               "language" : "applescript",
               "mode" : "fullOutput",
@@ -17721,7 +17749,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Add Item to Reading List",
-              "updatedAt" : "2021-03-09T15:09:02+00:00"
+              "updatedAt" : "2021-03-09T15:09:02Z"
             },
             {
               "authors" : [
@@ -17730,7 +17758,7 @@
                   "url" : "https:\/\/github.com\/thomaspaulmann"
                 }
               ],
-              "createdAt" : "2021-03-09T15:09:02+00:00",
+              "createdAt" : "2021-03-09T15:09:02Z",
               "currentDirectoryPath" : null,
               "description" : "Close tabs with the same URL.",
               "filename" : "safari-close-duplicated-tabs.applescript",
@@ -17739,7 +17767,7 @@
                 "dark" : null,
                 "light" : "images\/safari.png"
               },
-              "identifier" : "800d9f6cf20b6b1c2f5ffe4e76b84b4b",
+              "identifier" : "3910bc8358dde77be0359ef115f703a6",
               "isTemplate" : false,
               "language" : "applescript",
               "mode" : "silent",
@@ -17749,7 +17777,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Close Duplicated Tabs",
-              "updatedAt" : "2021-03-09T15:11:52+00:00"
+              "updatedAt" : "2021-03-09T15:11:52Z"
             },
             {
               "authors" : [
@@ -17758,7 +17786,7 @@
                   "url" : "https:\/\/github.com\/thomaspaulmann"
                 }
               ],
-              "createdAt" : "2021-03-09T15:09:02+00:00",
+              "createdAt" : "2021-03-09T15:09:02Z",
               "currentDirectoryPath" : null,
               "description" : "Close all tabs to the right side of the currently active tab.",
               "filename" : "safari-close-tabs-right.applescript",
@@ -17767,7 +17795,7 @@
                 "dark" : null,
                 "light" : "images\/safari.png"
               },
-              "identifier" : "723f7798053edadfeb982265f283b4c2",
+              "identifier" : "779e79e3334dca627507dc1737a1cf27",
               "isTemplate" : false,
               "language" : "applescript",
               "mode" : "silent",
@@ -17777,7 +17805,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Close Tabs to the Right",
-              "updatedAt" : "2021-03-09T15:09:02+00:00"
+              "updatedAt" : "2021-03-09T15:09:02Z"
             },
             {
               "authors" : [
@@ -17786,7 +17814,7 @@
                   "url" : "https:\/\/github.com\/thomaspaulmann"
                 }
               ],
-              "createdAt" : "2021-03-09T15:09:02+00:00",
+              "createdAt" : "2021-03-09T15:09:02Z",
               "currentDirectoryPath" : null,
               "description" : "Close all tabs to the left side of the currently active tab.",
               "filename" : "safari-close-tabs-left.applescript",
@@ -17795,7 +17823,7 @@
                 "dark" : null,
                 "light" : "images\/safari.png"
               },
-              "identifier" : "6d6cf490c73838f02f2054fcfb4d3786",
+              "identifier" : "98ee4a51212c322cf544c0e756ca3383",
               "isTemplate" : false,
               "language" : "applescript",
               "mode" : "silent",
@@ -17805,7 +17833,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Close Tabs to the Left",
-              "updatedAt" : "2021-03-09T15:09:02+00:00"
+              "updatedAt" : "2021-03-09T15:09:02Z"
             },
             {
               "authors" : [
@@ -17814,7 +17842,7 @@
                   "url" : "https:\/\/github.com\/thomaspaulmann"
                 }
               ],
-              "createdAt" : "2021-03-09T15:09:02+00:00",
+              "createdAt" : "2021-03-09T15:09:02Z",
               "currentDirectoryPath" : null,
               "description" : "Duplicates and opens the currently active tab.",
               "filename" : "safari-duplicate-tab.applescript",
@@ -17823,7 +17851,7 @@
                 "dark" : null,
                 "light" : "images\/safari.png"
               },
-              "identifier" : "e0be5f0e55412e5eaab09144dfb2aa6e",
+              "identifier" : "6727e9a045a860d1a726af83df1b9df3",
               "isTemplate" : false,
               "language" : "applescript",
               "mode" : "silent",
@@ -17833,7 +17861,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Duplicate Tab",
-              "updatedAt" : "2021-03-09T15:09:02+00:00"
+              "updatedAt" : "2021-03-09T15:09:02Z"
             },
             {
               "authors" : [
@@ -17842,7 +17870,7 @@
                   "url" : "https:\/\/github.com\/thomaspaulmann"
                 }
               ],
-              "createdAt" : "2021-03-09T15:09:02+00:00",
+              "createdAt" : "2021-03-09T15:09:02Z",
               "currentDirectoryPath" : null,
               "description" : "Close all tabs in the frontmost window",
               "filename" : "safari-close-all-tabs.applescript",
@@ -17851,7 +17879,7 @@
                 "dark" : null,
                 "light" : "images\/safari.png"
               },
-              "identifier" : "abb41453f8b816095fb4bada2a14927a",
+              "identifier" : "1cd7846276f766bc2b17a7a99bed645a",
               "isTemplate" : false,
               "language" : "applescript",
               "mode" : "silent",
@@ -17861,7 +17889,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Close All Tabs",
-              "updatedAt" : "2021-03-09T15:09:02+00:00"
+              "updatedAt" : "2021-03-09T15:09:02Z"
             },
             {
               "authors" : [
@@ -18869,7 +18897,7 @@
                   "url" : "https:\/\/twitter.com\/culturedcode\/"
                 }
               ],
-              "createdAt" : "2021-03-03T19:17:44+00:00",
+              "createdAt" : "2021-03-03T19:17:44Z",
               "currentDirectoryPath" : null,
               "description" : "Get an overview of your completed tasks for today.",
               "filename" : "things-today.applescript",
@@ -18878,7 +18906,7 @@
                 "dark" : null,
                 "light" : "images\/things.png"
               },
-              "identifier" : "9684467fd87bbb68d852c1ef118e4322",
+              "identifier" : "f5c008fbbafb56d3dd35483b209357f5",
               "isTemplate" : false,
               "language" : "applescript",
               "mode" : "inline",
@@ -18888,7 +18916,7 @@
               "refreshTime" : "1m",
               "schemaVersion" : 1,
               "title" : "Today",
-              "updatedAt" : "2021-03-03T19:17:44+00:00"
+              "updatedAt" : "2021-03-03T19:17:44Z"
             },
             {
               "authors" : [
@@ -18897,7 +18925,7 @@
                   "url" : "https:\/\/twitter.com\/culturedcode\/"
                 }
               ],
-              "createdAt" : "2021-03-03T19:17:44+00:00",
+              "createdAt" : "2021-03-03T19:17:44Z",
               "currentDirectoryPath" : null,
               "description" : "Search To-Dos with a query.",
               "filename" : "things-search-to-dos.sh",
@@ -18906,7 +18934,7 @@
                 "dark" : null,
                 "light" : "images\/things.png"
               },
-              "identifier" : "8194ae91b888f4b868d50bade0f9c6af",
+              "identifier" : "81182c169dbbf72ba9dfbbfea713275b",
               "isTemplate" : false,
               "language" : "bash",
               "mode" : "silent",
@@ -18916,7 +18944,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Search To-Dos",
-              "updatedAt" : "2021-03-03T19:17:44+00:00"
+              "updatedAt" : "2021-03-03T19:17:44Z"
             },
             {
               "authors" : [
@@ -18925,7 +18953,7 @@
                   "url" : "https:\/\/twitter.com\/culturedcode\/"
                 }
               ],
-              "createdAt" : "2021-03-03T19:17:44+00:00",
+              "createdAt" : "2021-03-03T19:17:44Z",
               "currentDirectoryPath" : null,
               "description" : "Create a new To-Do with title and optional deadline.",
               "filename" : "things-create-todo.sh",
@@ -18934,7 +18962,7 @@
                 "dark" : null,
                 "light" : "images\/things.png"
               },
-              "identifier" : "5ac2c380166460ade602f0c1e96df290",
+              "identifier" : "f5ae3372a366a985c4a630f8f3412f83",
               "isTemplate" : false,
               "language" : "bash",
               "mode" : "silent",
@@ -18953,7 +18981,7 @@
                   "url" : "https:\/\/twitter.com\/culturedcode\/"
                 }
               ],
-              "createdAt" : "2021-03-03T19:17:44+00:00",
+              "createdAt" : "2021-03-03T19:17:44Z",
               "currentDirectoryPath" : null,
               "description" : "Show your current To-Do to stay focused.",
               "filename" : "things-current-todo.applescript",
@@ -18962,7 +18990,7 @@
                 "dark" : null,
                 "light" : "images\/things.png"
               },
-              "identifier" : "5ce51f66aa4c3798e7dcd06dd8199c12",
+              "identifier" : "7a61aa9d34f92172b970cf9ff88113af",
               "isTemplate" : false,
               "language" : "applescript",
               "mode" : "inline",
@@ -18972,7 +19000,7 @@
               "refreshTime" : "1m",
               "schemaVersion" : 1,
               "title" : "Current To-Do",
-              "updatedAt" : "2021-03-03T19:17:44+00:00"
+              "updatedAt" : "2021-03-03T19:17:44Z"
             }
           ]
         },
@@ -19006,7 +19034,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "chatgpt",
-              "updatedAt" : "2023-06-05T07:04:09+00:00"
+              "updatedAt" : "2023-06-05T07:04:09Z"
             }
           ]
         },
@@ -19040,7 +19068,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Create Card",
-              "updatedAt" : "2021-08-12T07:51:38+00:00"
+              "updatedAt" : "2021-08-12T07:51:38Z"
             }
           ]
         },
@@ -19469,7 +19497,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Add Reminder",
-              "updatedAt" : "2022-02-07T02:10:02+00:00"
+              "updatedAt" : "2022-02-07T02:10:02Z"
             }
           ]
         },
@@ -20461,7 +20489,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Enable Espanso",
-              "updatedAt" : "2021-05-14T16:44:53+00:00"
+              "updatedAt" : "2021-05-14T16:44:53Z"
             },
             {
               "authors" : [
@@ -20517,7 +20545,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Start Espanso",
-              "updatedAt" : "2021-05-14T16:44:53+00:00"
+              "updatedAt" : "2021-05-14T16:44:53Z"
             },
             {
               "authors" : [
@@ -20545,7 +20573,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Disable Espanso",
-              "updatedAt" : "2021-05-14T16:44:53+00:00"
+              "updatedAt" : "2021-05-14T16:44:53Z"
             },
             {
               "authors" : [
@@ -20573,7 +20601,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Restart Espanso",
-              "updatedAt" : "2021-05-14T16:44:53+00:00"
+              "updatedAt" : "2021-05-14T16:44:53Z"
             },
             {
               "authors" : [
@@ -20601,7 +20629,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Stop Espanso",
-              "updatedAt" : "2021-05-14T16:44:53+00:00"
+              "updatedAt" : "2021-05-14T16:44:53Z"
             }
           ]
         },
@@ -21958,7 +21986,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Set Volume",
-              "updatedAt" : "2020-12-11T00:15:58+00:00"
+              "updatedAt" : "2020-12-11T00:15:58Z"
             },
             {
               "authors" : [
@@ -22051,7 +22079,7 @@
                   "url" : "https:\/\/github.com\/mmerle"
                 }
               ],
-              "createdAt" : "2020-11-30T12:52:41+00:00",
+              "createdAt" : "2020-11-30T12:52:41Z",
               "currentDirectoryPath" : null,
               "description" : "Show currently playing track in Music.",
               "filename" : "apple-music-current-track.applescript",
@@ -22060,7 +22088,7 @@
                 "dark" : null,
                 "light" : "images\/apple-music-logo.png"
               },
-              "identifier" : "1ce69e81108a71dc7ebdbe58cb8892eb",
+              "identifier" : "41db4193526a667ad73d8742fc72d7de",
               "isTemplate" : false,
               "language" : "applescript",
               "mode" : "inline",
@@ -22867,7 +22895,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Next Track",
-              "updatedAt" : "2020-12-08T15:56:35+00:00"
+              "updatedAt" : "2020-12-08T15:56:35Z"
             },
             {
               "authors" : null,
@@ -22890,7 +22918,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Toggle Play\/Pause",
-              "updatedAt" : "2020-12-08T15:56:35+00:00"
+              "updatedAt" : "2020-12-08T15:56:35Z"
             },
             {
               "authors" : [
@@ -22955,7 +22983,7 @@
                   "url" : "https:\/\/github.com\/thomaspaulmann"
                 }
               ],
-              "createdAt" : "2021-01-26T20:54:37+00:00",
+              "createdAt" : "2021-01-26T20:54:37Z",
               "currentDirectoryPath" : null,
               "description" : "Play playlist or track in Spotify.",
               "filename" : "spotify-play-playlist.template.applescript",
@@ -22964,7 +22992,7 @@
                 "dark" : null,
                 "light" : "images\/spotify-logo.png"
               },
-              "identifier" : "faad4bf6558229aa4c10be54368a4c18",
+              "identifier" : "8e28e54269f27849b00b363c8a0271be",
               "isTemplate" : true,
               "language" : "applescript",
               "mode" : "silent",
@@ -22974,7 +23002,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Play Track or Playlist",
-              "updatedAt" : "2021-01-26T20:55:11+00:00"
+              "updatedAt" : "2021-01-26T20:55:11Z"
             },
             {
               "authors" : null,
@@ -22997,7 +23025,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Play",
-              "updatedAt" : "2020-12-08T15:56:35+00:00"
+              "updatedAt" : "2020-12-08T15:56:35Z"
             },
             {
               "authors" : [
@@ -23006,7 +23034,7 @@
                   "url" : "https:\/\/github.com\/thomaspaulmann"
                 }
               ],
-              "createdAt" : "2020-11-30T12:52:41+00:00",
+              "createdAt" : "2020-11-30T12:52:41Z",
               "currentDirectoryPath" : null,
               "description" : "Show currently playing track in Spotify.",
               "filename" : "spotify-current-track.applescript",
@@ -23015,7 +23043,7 @@
                 "dark" : null,
                 "light" : "images\/spotify-logo.png"
               },
-              "identifier" : "94fcb3923a4b45346a924803c2b36f3f",
+              "identifier" : "2eb202dd044979361f9d435198280920",
               "isTemplate" : false,
               "language" : "applescript",
               "mode" : "inline",
@@ -23025,7 +23053,7 @@
               "refreshTime" : "30s",
               "schemaVersion" : 1,
               "title" : "Current Track",
-              "updatedAt" : "2020-11-30T12:52:41+00:00"
+              "updatedAt" : "2020-11-30T12:52:41Z"
             },
             {
               "authors" : null,
@@ -23048,7 +23076,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Previous Track",
-              "updatedAt" : "2020-12-08T15:56:35+00:00"
+              "updatedAt" : "2020-12-08T15:56:35Z"
             },
             {
               "authors" : null,
@@ -23071,7 +23099,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Pause",
-              "updatedAt" : "2020-12-08T15:56:35+00:00"
+              "updatedAt" : "2020-12-08T15:56:35Z"
             }
           ]
         },
@@ -23195,7 +23223,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Set Volume",
-              "updatedAt" : "2020-12-11T00:16:06+00:00"
+              "updatedAt" : "2020-12-11T00:16:06Z"
             },
             {
               "authors" : [
@@ -23441,7 +23469,7 @@
                   "url" : "https:\/\/github.com\/charlesharries"
                 }
               ],
-              "createdAt" : "2022-02-01T13:37:24+00:00",
+              "createdAt" : "2022-02-01T13:37:24Z",
               "currentDirectoryPath" : null,
               "description" : "Play the current track in Tidal.",
               "filename" : "tidal-play.applescript",
@@ -23450,7 +23478,7 @@
                 "dark" : null,
                 "light" : "images\/tidal-logo.png"
               },
-              "identifier" : "370fa0d9f88c538e191fa5c4df615aed",
+              "identifier" : "2ea9c044515312cbf87dac8fb5e0c92a",
               "isTemplate" : false,
               "language" : "applescript",
               "mode" : "silent",
@@ -23460,7 +23488,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Play",
-              "updatedAt" : "2022-02-01T13:37:24+00:00"
+              "updatedAt" : "2022-02-01T13:37:24Z"
             },
             {
               "authors" : [
@@ -23469,7 +23497,7 @@
                   "url" : "https:\/\/github.com\/charlesharries"
                 }
               ],
-              "createdAt" : "2022-02-01T13:37:24+00:00",
+              "createdAt" : "2022-02-01T13:37:24Z",
               "currentDirectoryPath" : null,
               "description" : "Skip to the next track in Tidal.",
               "filename" : "tidal-next-track.applescript",
@@ -23478,7 +23506,7 @@
                 "dark" : null,
                 "light" : "images\/tidal-logo.png"
               },
-              "identifier" : "9206bc623c13a1861d1ea4f872c8fbee",
+              "identifier" : "aac66a366cec215c8594f02cf425bcb0",
               "isTemplate" : false,
               "language" : "applescript",
               "mode" : "silent",
@@ -23488,7 +23516,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Next Track",
-              "updatedAt" : "2022-02-01T14:38:40+00:00"
+              "updatedAt" : "2022-02-01T14:38:40Z"
             },
             {
               "authors" : [
@@ -23497,7 +23525,7 @@
                   "url" : "https:\/\/github.com\/charlesharries"
                 }
               ],
-              "createdAt" : "2022-02-01T13:37:24+00:00",
+              "createdAt" : "2022-02-01T13:37:24Z",
               "currentDirectoryPath" : null,
               "description" : "Pause the current track in Tidal.",
               "filename" : "tidal-pause.applescript",
@@ -23506,7 +23534,7 @@
                 "dark" : null,
                 "light" : "images\/tidal-logo.png"
               },
-              "identifier" : "1e045340ac4a21b2cf81a4bf59b3984e",
+              "identifier" : "58a1d13baec2c61c0a7ee815126b4fd9",
               "isTemplate" : false,
               "language" : "applescript",
               "mode" : "silent",
@@ -23516,7 +23544,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Pause",
-              "updatedAt" : "2022-02-01T13:37:24+00:00"
+              "updatedAt" : "2022-02-01T13:37:24Z"
             },
             {
               "authors" : [
@@ -23525,7 +23553,7 @@
                   "url" : "https:\/\/github.com\/charlesharries"
                 }
               ],
-              "createdAt" : "2022-02-01T13:37:24+00:00",
+              "createdAt" : "2022-02-01T13:37:24Z",
               "currentDirectoryPath" : null,
               "description" : "Skip back to the previous track in Tidal.",
               "filename" : "tidal-previous-track.applescript",
@@ -23534,7 +23562,7 @@
                 "dark" : null,
                 "light" : "images\/tidal-logo.png"
               },
-              "identifier" : "756f25af8641456ee9d6c6b14146f1dd",
+              "identifier" : "2a30f2daec4a4df68c4f0dae82c0e6ba",
               "isTemplate" : false,
               "language" : "applescript",
               "mode" : "silent",
@@ -23544,7 +23572,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Previous Track",
-              "updatedAt" : "2022-02-01T14:38:40+00:00"
+              "updatedAt" : "2022-02-01T14:38:40Z"
             },
             {
               "authors" : [
@@ -23572,7 +23600,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Toggle Play\/Pause",
-              "updatedAt" : "2022-09-13T08:16:43+00:00"
+              "updatedAt" : "2022-09-13T08:16:43Z"
             }
           ]
         }
@@ -23581,24 +23609,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
-    },
-    {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
       "displayName" : "Node",
       "icon" : "icon-nodejs.png",
       "name" : "node"
-    },
-    {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
     },
     {
       "displayName" : "Python",
@@ -23606,14 +23619,29 @@
       "name" : "python"
     },
     {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 820,
-  "updatedAt" : "2024-04-26T16:12:33Z"
+  "totalScriptCommands" : 821,
+  "updatedAt" : "2024-05-21T08:24:56Z"
 }
