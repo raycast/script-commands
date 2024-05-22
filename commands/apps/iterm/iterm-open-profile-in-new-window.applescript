@@ -1,14 +1,17 @@
 #!/usr/bin/osascript
 
+# Dependency: requires iTerm (https://iterm2.com)
+# Install via Homebrew: `brew install --cask iterm2`
+
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Open iterm2 profile
+# @raycast.title Open profile
+# @raycast.packageName iTerm
 # @raycast.mode silent
 
 # Optional parameters:
 # @raycast.icon 🤖
 # @raycast.argument1 { "type": "text", "placeholder": "Placeholder" }
-# @raycast.packageName Open_iterm2_profile
 
 # Documentation:
 # @raycast.author sunrisewestern
