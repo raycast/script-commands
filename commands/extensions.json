@@ -14201,6 +14201,34 @@
               "schemaVersion" : 1,
               "title" : "Run Shell Command",
               "updatedAt" : "2021-02-02T11:58:56+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "sunrisewestern",
+                  "url" : "https:\/\/github.com\/sunrisewestern"
+                }
+              ],
+              "createdAt" : "2024-05-23T03:31:30-04:00",
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "iterm-open-profile-in-new-window.applescript",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "🤖"
+              },
+              "identifier" : "c3e9bc8ec6236fd9d214785417f4c420",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "iTerm",
+              "path" : "apps\/iterm\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open profile",
+              "updatedAt" : "2024-05-23T07:33:06Z"
             }
           ]
         },
@@ -23619,9 +23647,9 @@
       "name" : "python"
     },
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     },
     {
       "displayName" : "Bash",
@@ -23629,19 +23657,19 @@
       "name" : "bash"
     },
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
-    },
-    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
+    },
+    {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 821,
-  "updatedAt" : "2024-05-21T08:24:56Z"
+  "totalScriptCommands" : 822,
+  "updatedAt" : "2024-05-23T07:33:06Z"
 }
