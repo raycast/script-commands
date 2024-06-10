@@ -80,11 +80,9 @@ echo "Bucket: $BUCKET"
 echo "Key: $KEY"
 
 # Use recursive if necessary
-aws s3 cp "s3://$BUCKET/$KEY" "$DOWNLOAD_PATH" $RECURSIVE
-
-if [ $? -eq 0 ]; then
+if aws s3 cp "s3://$BUCKET/$KEY" "$DOWNLOAD_PATH" $RECURSIVE; then
 	echo "Downloaded successfully."
-	open "$DOWNLOAD_PATH"
+	open "$DOWNLOAD_FOLDER"
 else
 	echo "Download failed."
 	exit 1
