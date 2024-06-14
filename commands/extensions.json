@@ -10580,6 +10580,34 @@
             {
               "authors" : [
                 {
+                  "name" : "Chris Cook",
+                  "url" : "https:\/\/github.com\/zirkelc"
+                }
+              ],
+              "createdAt" : "2024-06-14T14:31:44+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Download from Amazon S3 via URL",
+              "filename" : "amazon-s3-download.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/amazon-s3.png"
+              },
+              "identifier" : "b4dd5f3fe1c6dd1b9b44fc9f0fe88364",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "AWS",
+              "path" : "developer-utils\/aws\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "S3 Download",
+              "updatedAt" : "2024-06-14T12:34:01Z"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "David Molinero",
                   "url" : "https:\/\/github.com\/doktor500"
                 }
@@ -23637,6 +23665,26 @@
   ],
   "languages" : [
     {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
+    },
+    {
       "displayName" : "Node",
       "icon" : "icon-nodejs.png",
       "name" : "node"
@@ -23645,31 +23693,11 @@
       "displayName" : "Python",
       "icon" : "icon-python.png",
       "name" : "python"
-    },
-    {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
-    },
-    {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
-    },
-    {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 822,
-  "updatedAt" : "2024-05-23T07:33:06Z"
+  "totalScriptCommands" : 823,
+  "updatedAt" : "2024-06-14T12:34:01Z"
 }

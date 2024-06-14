@@ -1000,6 +1000,7 @@ This repository contains sample commands and documentation to write your own one
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
   | 🤖 | [Find AWS Region by IP](developer-utils/aws/whatismyregion.sh) | Copies the AWS IPv4 to the clipboard. | [Oğuzhan Yılmaz](https://github.com/c1982) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/aws/images/amazon-s3.png" width="20" height="20"> | [S3 Download](developer-utils/aws/amazon-s3-download.sh) | Download from Amazon S3 via URL | [Chris Cook](https://github.com/zirkelc) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/aws/images/aws-sso-util.png" width="20" height="20"> | [Single Sign-On](developer-utils/aws/aws-sso-util.sh) | Login to AWS using aws-sso-util | [David Molinero](https://github.com/doktor500) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Brew
