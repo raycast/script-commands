@@ -21,7 +21,7 @@ import Cocoa
 import Vision
 
 let screenCapturePath = "/tmp/ocr.png"
-let recognitionLanguages = ["en-US", "zh-CN"]
+let recognitionLanguages = ["zh-Hans", "en-US"]
 let joiner = " "
 
 @discardableResult
