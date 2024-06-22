@@ -5,7 +5,7 @@
 # Dependency: This script requires PHP
 # Install PHP: http://www.https://www.php.net/
 #
-# Duplicate this file and remove ".template." from the filename to get started.
+# Duplicate this file and remove ".template" from the filename to get started.
 # See full documentation here: https://github.com/raycast/script-commands
 #
 # Required parameters:

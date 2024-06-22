@@ -5,7 +5,7 @@
 # Dependency: This script requires Python 3
 # Install Python 3: https://www.python.org/downloads/release
 #
-# Duplicate this file and remove ".template." from the filename to get started.
+# Duplicate this file and remove ".template" from the filename to get started.
 # See full documentation here: https://github.com/raycast/script-commands
 #
 # Required parameters:
