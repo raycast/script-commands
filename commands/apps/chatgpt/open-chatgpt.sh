@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Note: ChatGPT for macOS required
+# Download it via OpenAI website: https://openai.com/chatgpt/mac/
+
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Open ChatGPT
