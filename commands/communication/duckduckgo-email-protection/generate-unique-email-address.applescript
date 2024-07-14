@@ -17,7 +17,7 @@
 on run
 	set prefix to do shell script "curl -X POST https://quack.duckduckgo.com/api/email/addresses --header 'Authorization: Bearer " & getAuthorizationID() & "'"
 	if text 3 through 9 of prefix is "address" then
-		set uniqueAddress to text 13 through 20 of prefix & "@duck.com"
+		set uniqueAddress to text 13 through -3 of prefix & "@duck.com"
 		set the clipboard to uniqueAddress
 		return uniqueAddress & " copied to clipboard!"
 	else
