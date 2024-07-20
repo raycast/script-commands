@@ -7,7 +7,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Prayer Times (Diyanet)
+# @raycast.title Prayer Times
 # @raycast.mode inline
 # @raycast.packageName Culture
 
@@ -17,16 +17,16 @@
 # Documentation
 # @raycast.author Emircan Erkul
 # @raycast.authorURL https://emircanerkul.com
-# @raycast.description Prayer Times grabbed from the Diyanet's Official Website for people located in Türkiye.
+# @raycast.description Prayer Times grabbed from the aladhan.com.
 
-data=$(curl -s https://namazvakitleri.diyanet.gov.tr/tr-TR/9654/kocaeli-icin-namaz-vakti)
- 
-imsak=$(echo "$data" | pcregrep -o1 '_imsakTime = "(.*)"')
-gunes=$(echo "$data" | pcregrep -o1 '_gunesTime = "(.*)"')
-ogle=$(echo "$data" | pcregrep -o1 '_ogleTime = "(.*)"')
-ikindi=$(echo "$data" | pcregrep -o1 '_ikindiTime = "(.*)"')
-aksam=$(echo "$data" | pcregrep -o1 '_aksamTime = "(.*)"')
-yatsi=$(echo "$data" | pcregrep -o1 '_yatsiTime = "(.*)"')
+data=$(curl -s -L 'http://api.aladhan.com/v1/timingsByCity?city=derince&country=turkey&method=13')
+
+imsak=$(echo "$data" | jq --raw-output '.data.timings.Imsak')
+gunes=$(echo $data | jq --raw-output '.data.timings.Sunrise')
+ogle=$(echo "$data" | jq --raw-output '.data.timings.Dhuhr')
+ikindi=$(echo "$data" | jq --raw-output '.data.timings.Asr')
+aksam=$(echo "$data" | jq --raw-output '.data.timings.Maghrib')
+yatsi=$(echo "$data" | jq --raw-output '.data.timings.Isha')
 
 NOW=$(gdate +%s)
 
@@ -59,5 +59,4 @@ fi
 
 output="$REMANINING $imsak ⚙︎ $gunes ⚙︎ $ogle ⚙︎ $ikindi ⚙︎ $aksam ⚙︎ $yatsi"
 
-echo $output | tr -d '\n' | LANG=tr_TR.UTF-8 pbcopy
 echo $output
