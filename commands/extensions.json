@@ -5924,7 +5924,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "OCR",
-          "updatedAt" : "2022-07-22T17:53:33+08:00"
+          "updatedAt" : "2024-06-22T16:19:22+09:00"
         },
         {
           "authors" : [
@@ -11426,7 +11426,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Generate Unique Address",
-              "updatedAt" : "2022-02-10T09:48:48+01:00"
+              "updatedAt" : "2024-07-14T22:23:53+08:00"
             }
           ]
         },
@@ -20918,14 +20918,14 @@
           ],
           "createdAt" : "2022-11-17T12:22:40+03:00",
           "currentDirectoryPath" : null,
-          "description" : "Prayer Times grabbed from the Diyanet's Official Website for people located in Türkiye.",
-          "filename" : "prayer-times-diyanet.sh",
+          "description" : "Prayer Times grabbed from the aladhan.com.",
+          "filename" : "prayer-times.sh",
           "hasArguments" : false,
           "icon" : {
             "dark" : null,
             "light" : "🕌"
           },
-          "identifier" : "64f8434e9317a2cfd699e4dfd8d4be86",
+          "identifier" : "ebda5e51cd4760fb9dbce650e41a9142",
           "isTemplate" : false,
           "language" : "bash",
           "mode" : "inline",
@@ -20934,8 +20934,8 @@
           "path" : "culture\/",
           "refreshTime" : null,
           "schemaVersion" : 1,
-          "title" : "Prayer Times (Diyanet)",
-          "updatedAt" : "2022-11-17T13:23:15+03:00"
+          "title" : "Prayer Times",
+          "updatedAt" : "2024-07-20T15:38:18+03:00"
         }
       ]
     },
@@ -23665,14 +23665,14 @@
   ],
   "languages" : [
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     },
     {
       "displayName" : "Swift",
@@ -23685,9 +23685,9 @@
       "name" : "applescript"
     },
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     },
     {
       "displayName" : "Python",
@@ -23699,5 +23699,5 @@
 
   ],
   "totalScriptCommands" : 823,
-  "updatedAt" : "2024-06-14T12:34:01Z"
+  "updatedAt" : "2024-07-22T13:10:34Z"
 }
