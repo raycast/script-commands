@@ -1,18 +1,18 @@
 #!/usr/bin/osascript
 
--- Required parameters:
--- @raycast.schemaVersion 1
--- @raycast.title Copy Selection Content
--- @raycast.mode silent
--- @raycast.packageName System
---
--- Optional parameters:
--- @raycast.icon ??
---
--- Documentation:
--- @raycast.description Copy contents of selected items in Finder to the clipboard. If there's more than one file selected, they will be combined and added to the clipboard.
--- @raycast.author Felipe Turcheti
--- @raycast.authorURL https://felipeturcheti.com
+# Required parameters:
+# @raycast.schemaVersion 1
+# @raycast.title Copy Finder Selection to Clipboard
+# @raycast.mode silent
+# @raycast.packageName System
+#
+# Optional parameters:
+# @raycast.icon ??
+#
+# Documentation:
+# @raycast.description Copy contents of selected items in Finder to the clipboard. If there's more than one file selected, they will be combined and added to the clipboard.
+# @raycast.author Felipe Turcheti
+# @raycast.authorURL https://felipeturcheti.com
 
 on run
 	log "Copying contents of the selected items to the clipboard..."
