@@ -6855,6 +6855,34 @@
         {
           "authors" : [
             {
+              "name" : "Felipe Turcheti",
+              "url" : "https:\/\/felipeturcheti.com"
+            }
+          ],
+          "createdAt" : "2024-08-05T09:48:29-06:00",
+          "currentDirectoryPath" : null,
+          "description" : "Copy contents of selected items in Finder to the clipboard. If there's more than one file selected, they will be combined and added to the clipboard.",
+          "filename" : "copy-selection-to-clipboard.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "??"
+          },
+          "identifier" : "c76e2bb24d45b402577be451771a6171",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Copy Finder Selection to Clipboard",
+          "updatedAt" : "2024-08-05T09:48:29-06:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Yufei Kang",
               "url" : "kangyufei.net"
             },
@@ -23670,11 +23698,6 @@
       "name" : "bash"
     },
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
-    },
-    {
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
@@ -23683,6 +23706,11 @@
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     },
     {
       "displayName" : "Ruby",
@@ -23698,6 +23726,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 823,
-  "updatedAt" : "2024-07-22T13:10:34Z"
+  "totalScriptCommands" : 824,
+  "updatedAt" : "2024-08-05T15:50:30Z"
 }
