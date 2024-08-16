@@ -56,9 +56,9 @@ if (claudeTab) {
   // Get tab info
   claudeTabInfo = JSON.parse(execSync(`chrome-cli info -t ${claudeTab.id}`));
 } else {
-  // Open a Claude session in a new window, focus it and return the tab info
+  // Open a Claude session in a new tab, focus it and return the tab info
   claudeTabInfo = JSON.parse(
-    execSync("chrome-cli open 'https://claude.ai/new' -n")
+    execSync("chrome-cli open 'https://claude.ai/new'")
   );
 }
 
