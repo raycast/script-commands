@@ -5,7 +5,7 @@
 
 // Required parameters:
 // @raycast.schemaVersion 1
-// @raycast.title Prompt Claude
+// @raycast.title Ask Claude
 // @raycast.mode silent
 // @raycast.packageName Claude
 
