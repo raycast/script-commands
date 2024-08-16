@@ -10,7 +10,7 @@
 // @raycast.packageName Claude
 
 // Optional parameters:
-// @raycast.icon 🧠
+// @raycast.icon ✨
 // @raycast.argument1 { "type": "text", "placeholder": "Prompt"}
 
 // Documentation:
