@@ -1,7 +1,10 @@
 #!/usr/bin/env node
 
-// Dependency: This script requires `chrome-cli` installed: https://github.com/prasmussen/chrome-cli
-// Install via homebrew: `brew install chrome-cli`
+// Dependencies:
+// This script requires the following software to be installed:
+// - `node` https://nodejs.org
+// - `chrome-cli` https://github.com/prasmussen/chrome-cli
+// Install via homebrew: `brew install node chrome-cli`
 
 // Required parameters:
 // @raycast.schemaVersion 1
