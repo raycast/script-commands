@@ -11,7 +11,7 @@
 
 // Optional parameters:
 // @raycast.icon 🧠
-// @raycast.argument1 { "type": "text", "placeholder": "prompt"}
+// @raycast.argument1 { "type": "text", "placeholder": "Prompt"}
 
 // Documentation:
 // @raycast.description Open Claude in Chrome browser and submit a prompt
