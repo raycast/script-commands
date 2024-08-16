@@ -6,6 +6,10 @@
 // - `chrome-cli` https://github.com/prasmussen/chrome-cli
 // Install via homebrew: `brew install node chrome-cli`
 
+// This script needs to run JavaScript in your browser, which requires your permission.
+// To do so, open Chrome and find the menu bar item:
+// View > Developer > Allow JavaScript from Apple Events
+
 // Required parameters:
 // @raycast.schemaVersion 1
 // @raycast.title Ask Claude
