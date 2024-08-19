@@ -15,8 +15,14 @@
 
 # @Documentation:
 # @raycast.description Switches Tailscale networks
+
+# Original author
 # @raycast.author Ross Zurowski
 # @raycast.authorURL https://github.com/rosszurowski
+
+# Contributor
+# @raycast.author Daniel Schoemer
+# @raycast.authorURL https://github.com/quatauta
 
 ts=""
 
