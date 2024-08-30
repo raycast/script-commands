@@ -20,4 +20,4 @@ if ! command -v pandoc &> /dev/null; then
 fi
 
 export LC_CTYPE=UTF-8
-osascript -e 'the clipboard as "HTML"'| perl -ne 'print chr foreach unpack("C*",pack("H*",substr($_,11,-3)))' | pandoc --from=html --to=gfm | pbcopy
+osascript -e 'the clipboard as «class RTF »' | perl -ne 'print chr foreach unpack("C*",pack("H*",substr($_,11,-3)))' | pandoc --from=rtf --to=gfm | pbcopy
