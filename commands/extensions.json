@@ -331,7 +331,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Rich Text to Markdown",
-          "updatedAt" : "2021-07-23T17:21:58-04:00"
+          "updatedAt" : "2024-08-28T20:37:53+08:00"
         },
         {
           "authors" : null,
@@ -17838,6 +17838,34 @@
             {
               "authors" : [
                 {
+                  "name" : "Michael Bianco",
+                  "url" : "https:\/\/github.com\/iloveitaly"
+                }
+              ],
+              "createdAt" : "2024-08-21T08:30:36-06:00",
+              "currentDirectoryPath" : null,
+              "description" : "Download the currently active tab's URL.",
+              "filename" : "safari-download-url.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/safari.png"
+              },
+              "identifier" : "3fe3287d74734aa1adaf454aa6be4dce",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Safari",
+              "path" : "apps\/safari\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Download Current URL",
+              "updatedAt" : "2024-08-30T13:02:53Z"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Thomas Paul Mann",
                   "url" : "https:\/\/github.com\/thomaspaulmann"
                 }
@@ -23693,24 +23721,19 @@
   ],
   "languages" : [
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
-    },
-    {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
-    },
-    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
     },
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
+    },
+    {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     },
     {
       "displayName" : "Ruby",
@@ -23718,14 +23741,19 @@
       "name" : "ruby"
     },
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 824,
-  "updatedAt" : "2024-08-05T15:50:30Z"
+  "totalScriptCommands" : 825,
+  "updatedAt" : "2024-08-30T13:02:53Z"
 }
