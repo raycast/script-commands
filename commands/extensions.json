@@ -15782,6 +15782,40 @@
           ]
         },
         {
+          "name" : "Claude",
+          "path" : "claude",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Nimo Beeren",
+                  "url" : "https:\/\/github.com\/nimobeeren"
+                }
+              ],
+              "createdAt" : "2024-08-07T21:01:27+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open Claude in Chrome browser and submit a prompt",
+              "filename" : "claude.js",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "✨"
+              },
+              "identifier" : "cd9356ee79829cf478bdcd127c673a0c",
+              "isTemplate" : false,
+              "language" : "node",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Claude",
+              "path" : "apps\/claude\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Ask Claude",
+              "updatedAt" : "2024-08-30T13:09:27Z"
+            }
+          ]
+        },
+        {
           "name" : "TunnelBlick",
           "path" : "tunnelblick",
           "scriptCommands" : [
@@ -18375,6 +18409,10 @@
                 {
                   "name" : "Ross Zurowski",
                   "url" : "https:\/\/github.com\/rosszurowski"
+                },
+                {
+                  "name" : "Daniel Schoemer",
+                  "url" : "https:\/\/github.com\/quatauta"
                 }
               ],
               "createdAt" : "2021-06-14T15:33:18-04:00",
@@ -18396,7 +18434,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Switch Account",
-              "updatedAt" : "2021-06-14T15:33:18-04:00"
+              "updatedAt" : "2024-08-19T14:49:32+02:00"
             }
           ]
         },
@@ -23726,9 +23764,9 @@
       "name" : "applescript"
     },
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     },
     {
       "displayName" : "Python",
@@ -23741,9 +23779,9 @@
       "name" : "ruby"
     },
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
     },
     {
       "displayName" : "Swift",
@@ -23754,6 +23792,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 825,
-  "updatedAt" : "2024-08-30T13:02:53Z"
+  "totalScriptCommands" : 826,
+  "updatedAt" : "2024-08-30T13:09:27Z"
 }

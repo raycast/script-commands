@@ -33,6 +33,7 @@ This repository contains sample commands and documentation to write your own one
   - [Bear](#bear)
   - [BusyCal](#busycal)
   - [Chatgpt](#chatgpt)
+  - [Claude](#claude)
   - [Cleanshot](#cleanshot)
   - [Craft](#craft)
   - [DND Me](#dnd-me)
@@ -217,6 +218,12 @@ This repository contains sample commands and documentation to write your own one
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/chatgpt/images/chatgpt.png" width="20" height="20"> | [chatgpt](apps/chatgpt/chatgpt-open-safari.applescript) | Open chatgpt in safari | [gintonyc](https://raycast.com/gintonyc) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+
+#### Claude
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | ✨ | [Ask Claude](apps/claude/claude.js) | Open Claude in Chrome browser and submit a prompt | [Nimo Beeren](https://github.com/nimobeeren) | ✅ |  | <img src="images/icon-nodejs.png" width="20" height="20" title="Node"> |
 
 #### Cleanshot
 
@@ -613,7 +620,7 @@ This repository contains sample commands and documentation to write your own one
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tailscale/./images/tailscale-iconDark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tailscale/./images/tailscale-icon.png" width="20" height="20"></picture> | [Connect](apps/tailscale/tailscale-connect.sh) | Connects to Tailscale | [Ross Zurowski](https://github.com/rosszurowski) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tailscale/./images/tailscale-iconDark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tailscale/./images/tailscale-icon.png" width="20" height="20"></picture> | [Disconnect](apps/tailscale/tailscale-disconnect.sh) | Disconnects from Tailscale | [Ross Zurowski](https://github.com/rosszurowski) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tailscale/./images/tailscale-iconDark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tailscale/./images/tailscale-icon.png" width="20" height="20"></picture> | [Get IP](apps/tailscale/tailscale-ip.sh) | Gets your private Tailscale IP | [Ross Zurowski](https://github.com/rosszurowski) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
-  | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tailscale/./images/tailscale-iconDark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tailscale/./images/tailscale-icon.png" width="20" height="20"></picture> | [Switch Account](apps/tailscale/tailscale-switch.sh) | Switches Tailscale networks | [Ross Zurowski](https://github.com/rosszurowski) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tailscale/./images/tailscale-iconDark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tailscale/./images/tailscale-icon.png" width="20" height="20"></picture> | [Switch Account](apps/tailscale/tailscale-switch.sh) | Switches Tailscale networks | [Ross Zurowski](https://github.com/rosszurowski) and [Daniel Schoemer](https://github.com/quatauta) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Terminal Translate
 
