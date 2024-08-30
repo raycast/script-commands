@@ -15,8 +15,14 @@
 
 # @Documentation:
 # @raycast.description Switches Tailscale networks
+
+# Original author
 # @raycast.author Ross Zurowski
 # @raycast.authorURL https://github.com/rosszurowski
+
+# Contributor
+# @raycast.author Daniel Schoemer
+# @raycast.authorURL https://github.com/quatauta
 
 ts=""
 
@@ -29,12 +35,11 @@ else
   exit 1
 fi
 
-$ts logout
-$ts up
+"${ts}" switch --list |     # List all Tailscale accounts "<ID>  <Tailnet name>  <User account name>"
+grep -vF -e 'ID' -e '*' |   # Omit the header line and the current account marked with "*"
+awk '{ print $1 }' |        # Print only the account ID of not-connected accounts
+head -n1 |                  # Print only the first not-connected account
+xargs -r -n1 "${ts}" switch # Switch to the selected account
 
-if command -v jq &> /dev/null; then
-  account=$($ts status --json | jq -r '.User[(.Self.UserID | tostring)].LoginName')
-  echo "Connected as $account"
-else
-  echo "Connected"
-fi
+tailnet="$("${ts}" switch --list | awk '/\*/ { print $2 }')"
+echo "Switched to ${tailnet}"
