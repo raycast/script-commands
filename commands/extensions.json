@@ -1297,6 +1297,34 @@
         {
           "authors" : [
             {
+              "name" : "Yasutaka Nishii",
+              "url" : "https:\/\/github.com\/ystknsh"
+            }
+          ],
+          "createdAt" : "2024-08-29T16:26:42+09:00",
+          "currentDirectoryPath" : null,
+          "description" : "Open multiple websites on Safari using list of URLs",
+          "filename" : "open-multiple-websites-on-safari.template.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📚"
+          },
+          "identifier" : "be278c484ca03c82e901a345ff6e6b72",
+          "isTemplate" : true,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Browsing",
+          "path" : "browsing\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Open Multiple Websites on Safari",
+          "updatedAt" : "2024-09-03T11:24:41Z"
+        },
+        {
+          "authors" : [
+            {
               "name" : "raulanatol",
               "url" : "https:\/\/github.com\/raulanatol"
             }
@@ -2150,6 +2178,34 @@
           "schemaVersion" : 1,
           "title" : "Open Downloads",
           "updatedAt" : "2021-04-28T11:35:25-04:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Chris Bailey",
+              "url" : "https:\/\/raycast.com\/that70schris"
+            }
+          ],
+          "createdAt" : "2024-08-13T00:40:38-04:00",
+          "currentDirectoryPath" : null,
+          "description" : "Easily hide your foremost application",
+          "filename" : "hide-application.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🫥"
+          },
+          "identifier" : "47f61692f25fabb33a1748ded306439c",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Navigation",
+          "path" : "navigation\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Hide Current Application",
+          "updatedAt" : "2024-08-13T00:40:38-04:00"
         }
       ]
     },
@@ -23759,11 +23815,6 @@
   ],
   "languages" : [
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
       "displayName" : "Node",
       "icon" : "icon-nodejs.png",
       "name" : "node"
@@ -23787,11 +23838,16 @@
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 826,
-  "updatedAt" : "2024-08-30T13:09:27Z"
+  "totalScriptCommands" : 828,
+  "updatedAt" : "2024-09-03T11:24:41Z"
 }
