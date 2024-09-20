@@ -10687,7 +10687,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "S3 Download",
-              "updatedAt" : "2024-06-14T12:34:01Z"
+              "updatedAt" : "2024-09-17T11:36:59+02:00"
             },
             {
               "authors" : [
@@ -13888,6 +13888,34 @@
           "schemaVersion" : 1,
           "title" : "Search LinkedIn",
           "updatedAt" : "2021-01-24T20:18:06Z"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "lemorage",
+              "url" : "https:\/\/raycast.com\/lemorage"
+            }
+          ],
+          "createdAt" : "2024-09-19T08:42:28+08:00",
+          "currentDirectoryPath" : null,
+          "description" : "Search Rust documentation",
+          "filename" : "search-rust-docs.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/rust.png"
+          },
+          "identifier" : "2f4472d80148aaadabf915529d6f68c9",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "path" : "web-searches\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search Rust Documentation",
+          "updatedAt" : "2024-09-19T08:42:28+08:00"
         },
         {
           "authors" : [
@@ -23815,9 +23843,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     },
     {
       "displayName" : "Python",
@@ -23840,14 +23868,14 @@
       "name" : "swift"
     },
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 828,
-  "updatedAt" : "2024-09-03T11:24:41Z"
+  "totalScriptCommands" : 829,
+  "updatedAt" : "2024-09-20T10:00:46Z"
 }
