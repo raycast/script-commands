@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Calculate CAGR %
+# @raycast.title Calculate CAGR Percentage
 # @raycast.mode compact
 # @raycast.packageName Math
 
