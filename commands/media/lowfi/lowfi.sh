@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Note: WezTerm required
+# Install at https://wezfurlong.org/wezterm/install/macos.html
+# or by homebrew: brew install --cask wezterm
+
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Lowfi
