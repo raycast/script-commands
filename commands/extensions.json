@@ -4030,6 +4030,31 @@
         {
           "authors" : [
             {
+              "name" : "Samuel Barton",
+              "url" : "https:\/\/github.com\/samueldbarton"
+            }
+          ],
+          "createdAt" : "2024-11-18T09:32:56-06:00",
+          "currentDirectoryPath" : null,
+          "description" : "Calculate the CAGR between \"from\" and \"to\" values over given \"years,\" then copy the result.",
+          "filename" : "calculate-CAGR.sh",
+          "hasArguments" : true,
+          "icon" : null,
+          "identifier" : "5acd1b95964396ecfbe1aee4841ddb0a",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Math",
+          "path" : "math\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Calculate CAGR Percentage",
+          "updatedAt" : "2024-11-18T09:32:56-06:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Matt Gleich",
               "url" : "https:\/\/mattglei.ch"
             }
@@ -6726,6 +6751,34 @@
           "schemaVersion" : 1,
           "title" : "Flush DNS",
           "updatedAt" : "2021-06-14T14:36:05-03:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Angelos Michalopoulos",
+              "url" : null
+            }
+          ],
+          "createdAt" : "2024-11-18T17:33:08+02:00",
+          "currentDirectoryPath" : null,
+          "description" : "Get One-Time Password (OTP) from Apple Password Manager",
+          "filename" : "otp.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔑"
+          },
+          "identifier" : "7115fa08d182688291508d427a6ce246",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "One-Time Password",
+          "updatedAt" : "2024-11-18T17:33:08+02:00"
         },
         {
           "authors" : [
@@ -13758,7 +13811,7 @@
           ],
           "createdAt" : "2021-07-13T21:10:54-07:00",
           "currentDirectoryPath" : null,
-          "description" : "Search for Script Commands in the [Unofficial Raycast Script Commands Marketplace](https:\/\/scriptcommands.com).",
+          "description" : "Search for Script Commands in the [Unofficial Raycast Script Commands Marketplace](https:\/\/scriptcommands.alexandru.so).",
           "filename" : "search-script-command-marketplace.sh",
           "hasArguments" : true,
           "icon" : {
@@ -13775,7 +13828,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search Script Command",
-          "updatedAt" : "2024-02-19T19:37:34-08:00"
+          "updatedAt" : "2024-12-04T11:52:04+01:00"
         },
         {
           "authors" : [
@@ -23843,24 +23896,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
       "displayName" : "Python",
       "icon" : "icon-python.png",
       "name" : "python"
-    },
-    {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
     },
     {
       "displayName" : "Swift",
@@ -23871,11 +23909,26 @@
       "displayName" : "Node",
       "icon" : "icon-nodejs.png",
       "name" : "node"
+    },
+    {
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
+    },
+    {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 829,
-  "updatedAt" : "2024-09-20T10:00:46Z"
+  "totalScriptCommands" : 831,
+  "updatedAt" : "2024-12-04T11:00:05Z"
 }
