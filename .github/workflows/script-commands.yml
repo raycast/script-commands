@@ -6,7 +6,7 @@ on:
 
 jobs:
   scriptCommands:
-    runs-on: macos-12
+    runs-on: macos-15
 
     steps:
       - uses: actions/checkout@v4
