@@ -9,7 +9,7 @@
 # @raycast.icon images/marketplace-logo.png
 # @raycast.argument1 { "type": "text", "placeholder": "query"}
 # @raycast.packageName Web Searches
-# @raycast.description Search for Script Commands in the [Unofficial Raycast Script Commands Marketplace](https://scriptcommands.com).
+# @raycast.description Search for Script Commands in the [Unofficial Raycast Script Commands Marketplace](https://scriptcommands.alexandru.so).
 
 # Documentation:
 # @raycast.author Alexandru Turcanu
