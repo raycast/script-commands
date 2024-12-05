@@ -14,10 +14,14 @@
 first_argument=${1// /+}
 second_argument=${2// /+}
 
-if [ "$1" = "" ]; then
-	open "https://www.google.com/maps"
-elif [ "$2" = "" ]; then
-	open "https://www.google.com/maps/search/$first_argument"
+if [ "$1" != "" ]; then
+        if [ "$2" = "" ]; then
+                open "https://www.google.com/maps/dir/?api=1&origin=$first_argument"
+        else
+                open "https://www.google.com/maps/dir/?api=1&origin=$first_argument&destination=$second_argument"
+        fi
+elif [ "$1" = "" ] && [ "$2" != "" ]; then
+        open "https://www.google.com/maps/dir/?api=1&origin=Current+Location&destination=$second_argument"
 else
-	open "https://www.google.com/maps/dir/$first_argument/$second_argument"
+        open "https://www.google.com/maps"
 fi
