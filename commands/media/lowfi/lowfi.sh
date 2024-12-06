@@ -1,7 +1,11 @@
 #!/bin/bash
 
-# Note: WezTerm required
-# Install at https://wezfurlong.org/wezterm/install/macos.html
+# Note: lowfi and WezTerm required
+#
+# Install lowfi at https://github.com/talwat/lowfi
+# or by cargo: cargo install lowfi
+#
+# Install WezTerm at https://wezfurlong.org/wezterm/install/macos.html
 # or by homebrew: brew install --cask wezterm
 
 # Required parameters:
@@ -18,7 +22,7 @@ export PATH="$HOME/.cargo/bin:$PATH"
 # Check if lowfi is already running
 if pgrep -f "lowfi$" > /dev/null; then
     echo "Found existing lowfi process"
-    
+
     # Use AppleScript to find and focus the lowfi window
     osascript -e '
         -- First activate WezTerm application
