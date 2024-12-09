@@ -11,8 +11,8 @@
 
 # Documentation:
 # @raycast.description Close all notification alerts staying on screen, e.g., Calendar notifications.
-# @raycast.author benyn
-# @raycast.authorURL github.com/benyn
+# @raycast.author dlvhdr
+# @raycast.authorURL github.com/dlvhdr
 
 tell application "System Events" to tell application process "NotificationCenter"
 	try
