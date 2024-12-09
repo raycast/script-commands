@@ -11,21 +11,19 @@
 
 # Documentation:
 # @raycast.description Close all notification alerts staying on screen, e.g., Calendar notifications.
-# @raycast.author benyn
-# @raycast.authorURL github.com/benyn
+# @raycast.author dlvhdr
+# @raycast.authorURL github.com/dlvhdr
 
-tell application "System Events"
-	tell process "NotificationCenter"
-		if not (window "Notification Center" exists) then return
-		set alertGroups to groups of first UI element of first scroll area of first group of window "Notification Center"
-		repeat with aGroup in alertGroups
-			try
-				perform (first action of aGroup whose name contains "Close" or name contains "Clear")
-			on error errMsg
-				log errMsg
-			end try
+tell application "System Events" to tell application process "NotificationCenter"
+	try
+		repeat with uiElement in (actions of UI elements of scroll area 1 of group 1 of group 1 of window "Notification Center" of application process "NotificationCenter" of application "System Events")
+			if description of uiElement contains "Close" then
+				perform uiElement
+			end if
+			if description of uiElement contains "Clear" then
+				perform uiElement
+			end if
 		end repeat
-		-- Show no message on success
-		return ""
-	end tell
+    return ""
+	end try
 end tell
