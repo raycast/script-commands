@@ -5012,8 +5012,8 @@
         {
           "authors" : [
             {
-              "name" : "benyn",
-              "url" : "github.com\/benyn"
+              "name" : "dlvhdr",
+              "url" : "github.com\/dlvhdr"
             }
           ],
           "createdAt" : "2023-05-06T14:02:11-07:00",
@@ -5035,7 +5035,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Dismiss Notifications",
-          "updatedAt" : "2023-05-08T06:42:50Z"
+          "updatedAt" : "2024-12-09T09:05:58-08:00"
         },
         {
           "authors" : [
@@ -13800,7 +13800,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search Google Maps",
-          "updatedAt" : "2022-11-17T10:35:57+01:00"
+          "updatedAt" : "2024-12-05T12:33:50+01:00"
         },
         {
           "authors" : [
@@ -23896,24 +23896,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
-    },
-    {
       "displayName" : "Node",
       "icon" : "icon-nodejs.png",
       "name" : "node"
-    },
-    {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
     },
     {
       "displayName" : "AppleScript",
@@ -23921,14 +23906,29 @@
       "name" : "applescript"
     },
     {
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
+    },
+    {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
       "displayName" : "Ruby",
       "icon" : "icon-ruby.png",
       "name" : "ruby"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     }
   ],
   "metadata" : [
 
   ],
   "totalScriptCommands" : 831,
-  "updatedAt" : "2024-12-04T11:00:05Z"
+  "updatedAt" : "2024-12-10T08:13:59Z"
 }
