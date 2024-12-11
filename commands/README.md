@@ -135,6 +135,7 @@ This repository contains sample commands and documentation to write your own one
   - [Apple Tv](#apple-tv)
   - [Cmus](#cmus)
   - [Endel](#endel)
+  - [Lowfi](#lowfi)
   - [Sonos](#sonos)
   - [Speaker Setup](#speaker-setup)
   - [Spotify](#spotify)
@@ -1230,6 +1231,12 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/endel/images/endel.png" width="20" height="20"> | [Wiggly Wisdom](media/endel/endel-wisdom.sh) | Set wiggly wisdom mode at Endel  | [Sergey Korobyin](https://github.com/huangsemao) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/endel/images/endel.png" width="20" height="20"> | [Workout](media/endel/endel-scenarios-workout.sh) | Run Workout scenario at Endel  | [Sergey Korobyin](https://github.com/huangsemao) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/endel/images/endel.png" width="20" height="20"> | [Yoga](media/endel/endel-scenarios-yoga.sh) | Run Yoga scenario at Endel  | [Sergey Korobyin](https://github.com/huangsemao) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Lowfi
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  |  | [Lowfi](media/lowfi/lowfi.sh) | N/A | Raycast |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Sonos
 

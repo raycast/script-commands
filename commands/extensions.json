@@ -23481,6 +23481,32 @@
           ]
         },
         {
+          "name" : "Lowfi",
+          "path" : "lowfi",
+          "scriptCommands" : [
+            {
+              "authors" : null,
+              "createdAt" : "2024-11-24T04:45:52+01:00",
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "lowfi.sh",
+              "hasArguments" : false,
+              "icon" : null,
+              "identifier" : "afcc05d7a53abe6543c98f59f23bb7e5",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Music",
+              "path" : "media\/lowfi\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Lowfi",
+              "updatedAt" : "2024-12-11T20:08:12Z"
+            }
+          ]
+        },
+        {
           "name" : "Apple Tv",
           "path" : "apple-tv",
           "scriptCommands" : [
@@ -23896,19 +23922,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
-    },
-    {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     },
     {
       "displayName" : "Python",
@@ -23916,9 +23932,19 @@
       "name" : "python"
     },
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
+    },
+    {
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     },
     {
       "displayName" : "Swift",
@@ -23929,6 +23955,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 831,
-  "updatedAt" : "2024-12-10T08:13:59Z"
+  "totalScriptCommands" : 832,
+  "updatedAt" : "2024-12-11T20:08:12Z"
 }
