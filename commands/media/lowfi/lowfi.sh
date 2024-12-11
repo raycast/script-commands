@@ -51,5 +51,5 @@ if pgrep -f "lowfi$" > /dev/null; then
     '
 else
     echo "Starting new lowfi instance"
-    /Applications/WezTerm.app/Contents/MacOS/wezterm start -- lowfi
+    /Applications/WezTerm.app/Contents/MacOS/wezterm start -- lowfi &
 fi
