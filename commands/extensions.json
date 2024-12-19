@@ -6038,6 +6038,34 @@
         {
           "authors" : [
             {
+              "name" : "StepaniaH",
+              "url" : "https:\/\/github.com\/StepaniaH"
+            }
+          ],
+          "createdAt" : "2024-12-16T23:44:40+08:00",
+          "currentDirectoryPath" : null,
+          "description" : "This is a simple Python script for recursively renaming video and picture files within a directory. Type the root directory's absolute path, and it will scan all the video and picture files in it and rename them according to the folder where they are located as the format `<folder_name>-<current_date (MMDD)>-<incremental_number>`.",
+          "filename" : "rename-videos-pictures.py",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "📂"
+          },
+          "identifier" : "360d8e4290996f7b2b40dc6e388e30f2",
+          "isTemplate" : false,
+          "language" : "python",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Rename Videos Pictures",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Rename Video",
+          "updatedAt" : "2024-12-18T23:56:00+08:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Marcos Sánchez-Dehesa",
               "url" : "https:\/\/github.com\/dehesa"
             }
@@ -23922,19 +23950,14 @@
   ],
   "languages" : [
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
       "displayName" : "Python",
       "icon" : "icon-python.png",
       "name" : "python"
     },
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     },
     {
       "displayName" : "Bash",
@@ -23942,19 +23965,24 @@
       "name" : "bash"
     },
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 832,
-  "updatedAt" : "2024-12-11T20:08:12Z"
+  "totalScriptCommands" : 833,
+  "updatedAt" : "2024-12-19T16:00:26Z"
 }
