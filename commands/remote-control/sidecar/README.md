@@ -1,7 +1,8 @@
 ## Sidecar
 
-![extension](images/extension.png)
-![demo](images/demo.gif)
+<img src="images/extension.png" alt="Extension" title="Extension Preview" width="50%">  
+
+<img src="images/demo.gif" alt="Demo" title="Extension Demo GIF" width="50%">
 
 Connect your iPad via Sidecar using [Raycast](http://raycast.com).
 
