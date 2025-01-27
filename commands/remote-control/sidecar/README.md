@@ -1,6 +1,7 @@
 ## Sidecar
 
-![demo](img/demo.png)
+![extension](images/extension.png)
+![demo](images/demo.gif)
 
 Connect your iPad via Sidecar using [Raycast](http://raycast.com).
 

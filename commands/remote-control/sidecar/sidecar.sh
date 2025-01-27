@@ -9,7 +9,7 @@
 # @raycast.packageName untraceablez.sidecar
 # @raycast.argument1 { "type": "text", "placeholder": "iPad Name" }
 # Documentation:
-# @raycast.description Use Apple Sidecar to extend your Mac display to your iPad.
+# @raycast.description Use Apple Sidecar to extend your Mac display to  iPad.
 # @raycast.author untraceablez
 # @raycast.authorURL https://raycast.com/untraceablez
 
