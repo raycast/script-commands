@@ -1,15 +1,15 @@
 #!/bin/bash
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Display2iPad
+# @raycast.title Sidecar
 # @raycast.mode compact
 
 # Optional parameters:
 # @raycast.icon 🖥️
-# @raycast.packageName untraceablez.extend2display
+# @raycast.packageName untraceablez.sidecar
 # @raycast.argument1 { "type": "text", "placeholder": "iPad Name" }
 # Documentation:
-# @raycast.description Extend your display to your iPad Pass your iPad's name as an argument.
+# @raycast.description Use Apple Sidecar to extend your Mac display to your iPad.
 # @raycast.author untraceablez
 # @raycast.authorURL https://raycast.com/untraceablez
 
