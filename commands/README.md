@@ -782,6 +782,7 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | 🎲 | [Random Emoji](communication/emojis/random-emoji.sh) | Copy a random emoji to the clipboard. | [Tomohiro Nishimura](https://github.com/Sixeight) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 📙 | [Search Emojis](communication/emojis/emojis-search.sh) | Search for emojis related to input. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 📙 | [Search and Copy First Related Emoji](communication/emojis/emoji-copy.sh) | Copy first emoji related to input. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 

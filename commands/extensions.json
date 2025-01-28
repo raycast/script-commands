@@ -12246,6 +12246,34 @@
               "schemaVersion" : 1,
               "title" : "Search and Copy First Related Emoji",
               "updatedAt" : "2020-11-28T12:02:29-05:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Tomohiro Nishimura",
+                  "url" : "https:\/\/github.com\/Sixeight"
+                }
+              ],
+              "createdAt" : "2025-01-23T18:29:53+09:00",
+              "currentDirectoryPath" : null,
+              "description" : "Copy a random emoji to the clipboard.",
+              "filename" : "random-emoji.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "🎲"
+              },
+              "identifier" : "52479cec0740642d40a8902ee5efa1fe",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Emojis",
+              "path" : "communication\/emojis\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Random Emoji",
+              "updatedAt" : "2025-01-28T15:23:28Z"
             }
           ]
         },
@@ -23950,14 +23978,14 @@
   ],
   "languages" : [
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
       "displayName" : "Ruby",
       "icon" : "icon-ruby.png",
       "name" : "ruby"
+    },
+    {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     },
     {
       "displayName" : "Bash",
@@ -23983,6 +24011,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 833,
-  "updatedAt" : "2024-12-19T16:00:26Z"
+  "totalScriptCommands" : 834,
+  "updatedAt" : "2025-01-28T15:23:28Z"
 }
