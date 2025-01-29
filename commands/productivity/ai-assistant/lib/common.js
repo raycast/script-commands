@@ -12,6 +12,10 @@ import path from 'path';
 // Initialize environment variables
 dotenv.config();
 
+// Default values for LLM configuration
+const DEFAULT_MODEL = 'gpt-4o-mini';
+const DEFAULT_API_BASE = 'https://api.openai.com/v1';
+
 // Logging utility
 export const createLogger = (scriptPath) => {
   const scriptDir = path.dirname(scriptPath);
@@ -44,9 +48,12 @@ export const createLogger = (scriptPath) => {
   };
 };
 
-// Create and export OpenAI instance
+// Create and export OpenAI instance with configurable base URL
 export const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY
+  apiKey: process.env.OPENAI_API_KEY,
+  baseURL: process.env.LLM_API_BASE || DEFAULT_API_BASE,
+  defaultHeaders: process.env.LLM_EXTRA_HEADERS ? JSON.parse(process.env.LLM_EXTRA_HEADERS) : {},
+  defaultQuery: process.env.LLM_EXTRA_QUERY ? JSON.parse(process.env.LLM_EXTRA_QUERY) : {}
 });
 
 // Common clipboard functions
@@ -142,7 +149,7 @@ const pasteText = (text, logger) => {
 };
 
 // Improved OpenAI function with retry logic and timeout
-const createChatCompletion = async (prompt, model = "gpt-3.5-turbo", maxRetries = 2, systemPrompt = "You are a helpful assistant.") => {
+const createChatCompletion = async (prompt, model = process.env.LLM_MODEL || DEFAULT_MODEL, maxRetries = 2, systemPrompt = "You are a helpful assistant.") => {
   for (let attempt = 0; attempt <= maxRetries; attempt++) {
     try {
       const controller = new AbortController();
@@ -170,7 +177,7 @@ const createChatCompletion = async (prompt, model = "gpt-3.5-turbo", maxRetries 
       clearTimeout(timeoutId);
 
       if (!chatCompletion?.choices?.[0]?.message?.content) {
-        throw new Error('Invalid response from OpenAI API');
+        throw new Error('Invalid response from LLM API');
       }
 
       return chatCompletion.choices[0].message.content.trim();
