@@ -3,7 +3,9 @@
     "dependencies": {
         "dotenv": "^16.4.5",
         "node-audiorecorder": "^3.0.0",
-        "openai": "^4.33.0"
+        "openai": "^4.33.0",
+        "node-fetch": "^3.3.2",
+        "jsdom": "^24.0.0"
     },
     "devDependencies": {
         "@babel/eslint-parser": "^7.24.1",
