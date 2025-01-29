@@ -16,6 +16,39 @@
 // @raycast.author Alexandre Pezzotta
 // @raycast.authorURL https://github.com/pezzos
 //
+// Features:
+// - Multiple improvement modes:
+//   • Text expansion and elaboration
+//   • Conciseness optimization
+//   • Professional tone enhancement
+//   • Impact strengthening
+//   • Emotional neutralization
+//   • Friendliness improvement
+//   • Bullet point conversion
+//   • Grammar and style correction
+// - Language preservation (maintains original language)
+// - Format and structure preservation
+// - Technical term preservation
+// - Result caching for improved performance
+//
+// Configuration:
+// Create a .env file in the same directory with the following variables:
+// ```
+// OPENAI_API_KEY=sk-your-api-key    # Required: Your OpenAI API key
+// ```
+//
+// Usage:
+// 1. Select text in any application
+// 2. Trigger the command through Raycast
+// 3. Choose the desired improvement type from the dropdown
+// 4. The improved text will replace your selection
+//
+// Note: For optimal results:
+// - Ensure the selected text is clear and well-structured
+// - Choose the most appropriate improvement type for your needs
+// - For technical content, the script will preserve specialized terminology
+// - The improvement maintains the original language of the text
+//
 // @raycast.argument1 { "type": "dropdown", "placeholder": "Select improvement type", "data": [{ "title": "Make it longer", "value": "longer" },{ "title": "Make it more concise", "value": "concise" },{ "title": "Make it more professional", "value": "professional" },{ "title": "Make it more impactful", "value": "impactful" },{ "title": "Make it less emotional", "value": "less_emotional" },{ "title": "Make it nicer", "value": "nicer" },{ "title": "Turn into bullet points", "value": "bullets" },{ "title": "Fix grammar and style", "value": "fix" }]}
 
 import { exit } from 'process';

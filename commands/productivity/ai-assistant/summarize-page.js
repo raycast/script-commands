@@ -15,6 +15,44 @@
 // @raycast.description Get a quick summary of the current browser page (if it's a webpage openly accessible)
 // @raycast.author Alexandre Pezzotta
 // @raycast.authorURL https://github.com/pezzos
+//
+// Features:
+// - Multi-browser support:
+//   • Arc
+//   • Google Chrome
+//   • Safari
+//   • Microsoft Edge
+//   • Opera
+//   • Brave Browser
+//   • Firefox
+// - Automatic default browser detection
+// - Smart content extraction
+// - Comprehensive analysis including:
+//   • Topic categorization
+//   • Concise summary
+//   • Key highlights with emojis
+// - Color-coded output for better readability
+//
+// Configuration:
+// Create a .env file in the same directory with the following variables:
+// ```
+// OPENAI_API_KEY=sk-your-api-key    # Required: Your OpenAI API key
+// ```
+//
+// Usage:
+// 1. Open a webpage in your browser
+// 2. Trigger the command through Raycast
+// 3. View the formatted summary with:
+//    • Page URL
+//    • Main topic
+//    • Concise summary
+//    • Key highlights
+//
+// Note: For optimal results:
+// - Ensure the webpage is publicly accessible
+// - The page should be fully loaded before running the command
+// - Works best with article-style content
+// - Summary quality depends on the content structure and accessibility
 
 import { exit } from 'process';
 import { execSync } from 'child_process';

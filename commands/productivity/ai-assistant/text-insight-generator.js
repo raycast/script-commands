@@ -6,7 +6,7 @@
 //
 // Required parameters:
 // @raycast.schemaVersion 1
-// @raycast.title Analyze Text
+// @raycast.title Text Insight Generator
 // @raycast.mode fullOutput
 // @raycast.packageName AI Assistant
 // @raycast.icon 🔍
@@ -15,6 +15,47 @@
 // @raycast.description Analyze selected text in various ways (explain, summarize, simplify, extract key points, etc.)
 // @raycast.author Alexandre Pezzotta
 // @raycast.authorURL https://github.com/pezzos
+//
+// Features:
+// - Multiple analysis modes:
+//   • Detailed explanation
+//   • Concise summary
+//   • Simplified explanation (ELI8)
+//   • Key points extraction
+//   • To-Do list generation
+//   • Translation
+//   • Pattern & insight discovery
+//   • Question generation
+//   • Mind map creation
+// - Smart text selection from multiple sources:
+//   • Browser selection (Safari, Chrome, Arc)
+//   • System-wide text selection
+//   • Clipboard fallback
+// - Color-coded output for better readability
+// - Result caching for improved performance
+// - Multi-language support
+//
+// Configuration:
+// Create a .env file in the same directory with the following variables:
+// ```
+// OPENAI_API_KEY=sk-your-api-key    # Required: Your OpenAI API key
+// DEFAULT_LANG=fr                    # Optional: Default language for translations
+// ```
+//
+// Usage:
+// 1. Select text in any application
+// 2. Trigger the command through Raycast
+// 3. Choose the desired analysis type from the dropdown
+// 4. View the formatted analysis with:
+//    • Original text preview
+//    • Analysis results
+//    • Appropriate formatting based on analysis type
+//
+// Note: For optimal results:
+// - Select clear and coherent text for analysis
+// - Choose the most appropriate analysis type for your needs
+// - For translations, ensure DEFAULT_LANG is set or use system defaults
+// - Analysis preserves the original language unless translation is selected
 //
 // @raycast.argument1 { "type": "dropdown", "placeholder": "Select analysis type", "data": [{ "title": "Explain in detail", "value": "explain" },{ "title": "Summarize", "value": "summarize" },{ "title": "Explain like I'm 8", "value": "eli8" },{ "title": "Extract key points", "value": "keypoints" },{ "title": "Create To-Do list", "value": "todo" },{ "title": "Translate", "value": "translate" },{ "title": "Find patterns & insights", "value": "patterns" },{ "title": "Generate questions", "value": "questions" },{ "title": "Create mind map", "value": "mindmap" }]}
 
