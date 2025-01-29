@@ -1,19 +1,46 @@
 #!/usr/bin/env node
 
-// Dependency: This script requires Nodejs.
-// Install Node: https://nodejs.org/en/download/
+// Required Dependencies:
+// - Node.js (https://nodejs.org/en/download/)
+// - OpenAI API Key
 //
 // Required parameters:
 // @raycast.schemaVersion 1
-// @raycast.title Translate the selected text
+// @raycast.title Translate Selected Text
 // @raycast.mode silent
 // @raycast.packageName AI Assistant
 // @raycast.icon 🌐
 
 // Documentation:
-// @raycast.description Translate the selected text in place using OpenAI's GPT model
+// @raycast.description Instantly translate selected text between configured languages using OpenAI's GPT model.
 // @raycast.author Alexandre Pezzotta
 // @raycast.authorURL https://github.com/pezzos
+//
+// Features:
+// - Automatic language detection between configured languages
+// - Maintains original formatting and punctuation
+// - Preserves technical terms and special characters
+// - Optional text improvement (grammar and spelling)
+// - Translation caching for improved performance
+//
+// Configuration:
+// Create a .env file in the same directory with the following variables:
+// ```
+// OPENAI_API_KEY=sk-your-api-key    # Required: Your OpenAI API key
+// LANGS=fr,en                        # Required: Comma-separated list of languages to translate between, two languages are required
+// FIX_TEXT=true                      # Optional: Set to "true" to improve translation quality
+// ```
+//
+// Usage:
+// 1. Select text in any application
+// 2. Trigger the command through Raycast
+// 3. The selected text will be replaced with its translation
+//
+// Note: Translation quality depends on the GPT model used and the complexity of the text.
+// For optimal results, ensure your text is clear and well-formatted.
+
+// Dependency: This script requires Nodejs.
+// Install Node: https://nodejs.org/en/download/
 //
 // Configuration:
 // This script requires a .env file in the same directory with the following variables:

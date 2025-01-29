@@ -1,23 +1,49 @@
 #!/usr/bin/env node
 
-// Dependency: This script requires Nodejs.
-// Install Node: https://nodejs.org/en/download/
-// Install SOX: brew install sox
+// Required Dependencies:
+// - Node.js (https://nodejs.org/en/download/)
+// - SOX (Audio recording utility)
+//   Install on macOS: brew install sox
+// - OpenAI API Key
 //
 // Required parameters:
 // @raycast.schemaVersion 1
-// @raycast.title Dictate (Stop with Key)
+// @raycast.title Dictate (Manual Stop)
 // @raycast.mode silent
 // @raycast.packageName AI Assistant
 // @raycast.icon 🎙️
 
-// Optional parameters:
-// @raycast.argument1 { "type": "dropdown", "placeholder": "Output Language", "data": [{ "title": "English", "value": "en" }, { "title": "Français", "value": "fr" }, { "title": "Español", "value": "es" }, { "title": "Deutsch", "value": "de" }, { "title": "Italiano", "value": "it" }, { "title": "Português", "value": "pt" }, { "title": "Nederlands", "value": "nl" }, { "title": "Русский", "value": "ru" }, { "title": "中文", "value": "zh" }, { "title": "日本語", "value": "ja" }, { "title": "한국어", "value": "ko" }], "optional": true }
-
 // Documentation:
-// @raycast.description This script records your voice until you press any key, then converts it to text directly in the clipboard, translating to the selected language if needed.
+// @raycast.description Convert your voice to text with manual recording control (press Control+C to stop).
 // @raycast.author Alexandre Pezzotta
-// @raycast.authorURL pezzos.com
+// @raycast.authorURL https://github.com/pezzos
+//
+// Features:
+// - Voice-to-text conversion using OpenAI's Whisper model
+// - Manual recording control (Control+C to stop)
+// - Multi-language support with translation capabilities
+// - Automatic language detection
+// - Desktop notifications for recording status
+//
+// Configuration:
+// Create a .env file in the same directory with the following variables:
+// ```
+// OPENAI_API_KEY=sk-your-api-key    # Required: Your OpenAI API key
+// KEEP_RECORD=true                   # Optional: Set to "true" to keep audio recordings
+// ```
+//
+// Usage:
+// 1. Trigger the command through Raycast
+// 2. Speak clearly into your microphone
+// 3. Press Control+C when you want to stop recording
+// 4. The transcribed (and optionally translated) text will be pasted at the cursor position
+//
+// Note: For optimal results:
+// - Use a good quality microphone
+// - Speak clearly and at a normal pace
+// - Minimize background noise
+// - Keep a consistent distance from the microphone
+// - Ideal for longer dictations where automatic silence detection is not desired
 
 import { exit } from 'process';
 import fs from 'fs';
@@ -61,32 +87,6 @@ const LANGUAGE_NAMES = {
   'ja': '日本語',
   'ko': '한국어'
 };
-
-// // Validate language input against .env configuration
-// function validateLanguage(inputLang) {
-//   const availableLangs = process.env.LANGS?.split(',').map(lang => lang.trim()) || [];
-
-//   if (availableLangs.length === 0) {
-//     logger.error("No languages defined in .env file (LANGS variable)");
-//     showToast("Error: No languages defined in .env", "error");
-//     exit(1);
-//   }
-
-//   if (!inputLang) {
-//     return availableLangs[0];
-//   }
-
-//   if (!availableLangs.includes(inputLang)) {
-//     logger.error(`Invalid language: ${inputLang}. Available languages: ${availableLangs.join(', ')}`);
-//     showToast(`Invalid language. Available: ${availableLangs.join(', ')}`, "error");
-//     exit(1);
-//   }
-
-//   return inputLang;
-// }
-
-// // Get selected language from command line argument
-// const selectedLang = validateLanguage(process.argv[2]);
 
 // Function to ensure recordings directory exists
 const ensureRecordingDir = () => {
