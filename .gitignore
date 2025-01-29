@@ -5,3 +5,8 @@
 xcuserdata/
 .swiftpm
 .idea
+node_modules/
+package-lock.json
+.env
+*.log
+recordings/

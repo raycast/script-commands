@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.7"
+  },
+  "type": "module",
+  "dependencies": {
+    "openai": "^4.0.0",
+    "dotenv": "^16.0.0",
+    "node-audiorecorder": "^3.0.0",
+    "node-notifier": "^10.0.1"
+  }
+}
