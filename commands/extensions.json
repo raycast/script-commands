@@ -6178,6 +6178,34 @@
         {
           "authors" : [
             {
+              "name" : "AndriiBarabash",
+              "url" : "https:\/\/github.com\/AndriiBarabash"
+            }
+          ],
+          "createdAt" : "2025-03-10T10:57:38+01:00",
+          "currentDirectoryPath" : null,
+          "description" : "Put your Mac to sleep (in X minutes).",
+          "filename" : "sleep-timer.applescript",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "😴"
+          },
+          "identifier" : "44762fff108fef0069a546e2cf83c966",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Sleep Timer",
+          "updatedAt" : "2025-03-10T10:57:38+01:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Jelte Lagendijk",
               "url" : "https:\/\/raycast.com\/j3lte"
             }
@@ -23978,11 +24006,6 @@
   ],
   "languages" : [
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
       "displayName" : "Python",
       "icon" : "icon-python.png",
       "name" : "python"
@@ -23993,14 +24016,19 @@
       "name" : "bash"
     },
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     },
     {
       "displayName" : "Node",
       "icon" : "icon-nodejs.png",
       "name" : "node"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     },
     {
       "displayName" : "AppleScript",
@@ -24011,6 +24039,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 834,
-  "updatedAt" : "2025-01-28T15:23:28Z"
+  "totalScriptCommands" : 835,
+  "updatedAt" : "2025-03-10T13:53:09Z"
 }
