@@ -23,7 +23,11 @@
 
 // Documentation:
 // @raycast.description Open Gemini in Chrome browser and submit a prompt with optional selected text as context
-// @raycast.author Modified from Nimo Beeren's Claude script
+// @raycast.author Est7
+// @raycast.authorURL https://github.com/est7
+
+// @raycast.author Nimo Beeren
+// @raycast.authorURL https://github.com/nimobeeren
 
 const { execSync } = require("child_process");
 
