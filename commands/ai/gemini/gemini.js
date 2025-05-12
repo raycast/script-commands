@@ -31,7 +31,7 @@
 
 const { execSync } = require("child_process");
 
-const selectedText = process.argv[2] || ""; // Get the selected text, or an empty string if none is selected.
+const selectedText = process.argv[2] || ""; // Get the text from "Selected Text" argument, or use an empty string if argument is empty.
 const prompt = process.argv[3];
 
 process.env.OUTPUT_FORMAT = "json";
