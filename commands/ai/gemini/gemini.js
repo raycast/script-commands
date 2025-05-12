@@ -17,7 +17,7 @@
 // @raycast.packageName Gemini
 
 // Optional parameters:
-// @raycast.icon ../images/icon-gemini.svg
+// @raycast.icon ./images/icon-gemini.svg
 // @raycast.argument1 { "type": "text", "placeholder": "Selected Text", "optional": true }
 // @raycast.argument2 { "type": "text", "placeholder": "Prompt"}
 
@@ -52,14 +52,36 @@ function sleep(ms) {
   while (Date.now() - start < ms) {}
 }
 
-try {
-  execSync("which chrome-cli");
-} catch {
-  console.error(
-    "chrome-cli is required to run this script (https://github.com/prasmussen/chrome-cli)",
-  );
-  process.exit(1);
+/**
+ * Verifies that all required dependencies are installed.
+ * Exits the process with an error message if any dependency is missing.
+ */
+function checkDependencies() {
+  // Check if Google Chrome is installed
+  try {
+    execSync("osascript -e 'tell application \"Google Chrome\" to get version'" , { stdio: "ignore" });
+  } catch {
+    try {
+      execSync("osascript -e 'tell application \"Chrome\" to get version'" , { stdio: "ignore" });
+    } catch {
+      console.error("Google Chrome is required to run this script");
+      process.exit(1);
+    }
+  }
+
+  // Check if chrome-cli is installed
+  try {
+    execSync("which chrome-cli");
+  } catch {
+    console.error(
+      "chrome-cli is required to run this script (https://github.com/prasmussen/chrome-cli)"
+    );
+    process.exit(1);
+  }
 }
+
+// Verify all dependencies are installed
+checkDependencies();
 
 // Bring Chrome to the foreground first.
 try {
