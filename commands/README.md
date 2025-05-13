@@ -25,6 +25,8 @@ This repository contains sample commands and documentation to write your own one
 
 ### Categories
 
+- [Ai](#ai)
+  - [Gemini](#gemini)
 - [Apps](#apps)
   - [Agenda](#agenda)
   - [Amphetamine](#amphetamine)
@@ -163,6 +165,14 @@ This repository contains sample commands and documentation to write your own one
   - [Vpnutil](#vpnutil)
 - [Web Searches](#web-searches)
   - [WordPress](#wordpress)
+
+## Ai
+
+#### Gemini
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  |  | [Ask Gemini](ai/gemini/gemini.js) | Open Gemini in Chrome browser and submit a prompt with optional selected text as context | [Est7](https://github.com/est7) and [Nimo Beeren](https://github.com/nimobeeren) | ✅ |  | <img src="images/icon-nodejs.png" width="20" height="20" title="Node"> |
 
 ## Apps
 

@@ -7875,6 +7875,53 @@
       ]
     },
     {
+      "name" : "Ai",
+      "path" : "ai",
+      "scriptCommands" : [
+
+      ],
+      "subGroups" : [
+        {
+          "name" : "Gemini",
+          "path" : "gemini",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Est7",
+                  "url" : "https:\/\/github.com\/est7"
+                },
+                {
+                  "name" : "Nimo Beeren",
+                  "url" : "https:\/\/github.com\/nimobeeren"
+                }
+              ],
+              "createdAt" : "2025-04-24T11:38:46+08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open Gemini in Chrome browser and submit a prompt with optional selected text as context",
+              "filename" : "gemini.js",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/icon-gemini.svg"
+              },
+              "identifier" : "2a9c8b6698663cc8834ace7501bc9bec",
+              "isTemplate" : false,
+              "language" : "node",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Gemini",
+              "path" : "ai\/gemini\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Ask Gemini",
+              "updatedAt" : "2025-05-13T08:32:11Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name" : "Developer Utils",
       "path" : "developer-utils",
       "scriptCommands" : [
@@ -12301,7 +12348,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Random Emoji",
-              "updatedAt" : "2025-01-28T15:23:28Z"
+              "updatedAt" : "2025-03-25T19:27:06+09:00"
             }
           ]
         },
@@ -24006,14 +24053,19 @@
   ],
   "languages" : [
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     },
     {
       "displayName" : "Ruby",
@@ -24026,19 +24078,14 @@
       "name" : "node"
     },
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
-    },
-    {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 835,
-  "updatedAt" : "2025-03-10T13:53:09Z"
+  "totalScriptCommands" : 836,
+  "updatedAt" : "2025-05-13T08:32:11Z"
 }
