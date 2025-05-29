@@ -5012,8 +5012,8 @@
         {
           "authors" : [
             {
-              "name" : "dlvhdr",
-              "url" : "github.com\/dlvhdr"
+              "name" : "benyn",
+              "url" : "github.com\/benyn"
             }
           ],
           "createdAt" : "2023-05-06T14:02:11-07:00",
@@ -5035,7 +5035,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Dismiss Notifications",
-          "updatedAt" : "2024-12-09T09:05:58-08:00"
+          "updatedAt" : "2025-05-18T15:56:50-07:00"
         },
         {
           "authors" : [
@@ -24063,14 +24063,14 @@
       "name" : "swift"
     },
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
       "displayName" : "Ruby",
       "icon" : "icon-ruby.png",
       "name" : "ruby"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     },
     {
       "displayName" : "Node",
@@ -24087,5 +24087,5 @@
 
   ],
   "totalScriptCommands" : 836,
-  "updatedAt" : "2025-05-13T08:32:11Z"
+  "updatedAt" : "2025-05-29T17:21:32Z"
 }
