@@ -15814,6 +15814,36 @@
           ]
         },
         {
+          "name" : "Find My",
+          "path" : "find-my",
+          "readme" : "apps\/find-my\/README.md",
+          "scriptCommands" : [
+            {
+              "authors" : null,
+              "createdAt" : "2025-06-12T06:53:33-07:00",
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "fmp.js",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/find-my-icon.png"
+              },
+              "identifier" : "206851d53c58c074472f7acb20ceeb08",
+              "isTemplate" : false,
+              "language" : "node",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "FindMy",
+              "path" : "apps\/find-my\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Find My Phone (Auto Sound)",
+              "updatedAt" : "2025-06-12T06:53:33-07:00"
+            }
+          ]
+        },
+        {
           "name" : "Bear",
           "path" : "bear",
           "scriptCommands" : [
@@ -24053,6 +24083,21 @@
   ],
   "languages" : [
     {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
+    },
+    {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
@@ -24063,29 +24108,14 @@
       "name" : "swift"
     },
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
-    },
-    {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
-    },
-    {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 836,
-  "updatedAt" : "2025-05-29T17:21:32Z"
+  "totalScriptCommands" : 837,
+  "updatedAt" : "2025-06-12T13:54:30Z"
 }

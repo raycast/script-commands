@@ -49,7 +49,7 @@ This repository contains sample commands and documentation to write your own one
   - [ExpressVPN](#expressvpn)
   - [Fantastical](#fantastical)
   - [Ferdi](#ferdi)
-  - [FindMy](#findmy)
+  - [Find My](#find-my)
   - [Focus](#focus)
   - [GoodLinks](#goodlinks)
   - [HazeOver](#hazeover)
@@ -375,12 +375,11 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/ferdi/images/ferdi.png" width="20" height="20"> | [Open Service by Index](apps/ferdi/ferdi-open-service-by-index.applescript) | N/A | [Jakub Lanski](https://github.com/jaklan) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/ferdi/images/ferdi.png" width="20" height="20"> | [Open Service by Name](apps/ferdi/ferdi-open-service-by-name.applescript) | N/A | [Jakub Lanski](https://github.com/jaklan) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
-
 #### Find My
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
-  | <img src="apps/find-my/images/find-my-icon.png" width="20" height="20"> | [Find My Phone](apps/find-my/find-my-phone.js) | Play a sound on your iPhone using iCloud Find My | [Varun Vaidya](https://github.com/vsvaidya27) |  | ✅ | <img src="images/icon-nodejs.png" width="20" height="20" title="Node"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/find-my/images/find-my-icon.png" width="20" height="20"> | [Find My Phone (Auto Sound)](apps/find-my/fmp.js) | N/A | Raycast |  |  | <img src="images/icon-nodejs.png" width="20" height="20" title="Node"> |
 
 #### Focus
 
