@@ -14,5 +14,5 @@
 # @raycast.author Zach Dawson
 # @raycast.authorURL https://raycast.com/zdawz
 
-defaults write com.apple.dock ResetLaunchPad -bool true
+sudo find 2>/dev/null /private/var/folders/ -type d -name com.apple.dock.launchpad -exec rm -rf {} +
 killall Dock
