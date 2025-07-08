@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/osascript
 
 # Required parameters:
 # @raycast.schemaVersion 1
@@ -15,12 +15,22 @@
 # @raycast.author Alex Gerdes
 # @raycast.authorURL http://www.botkes.nl
 
-osascript <<EOD
-  tell application "Safari" to activate
+on run argv
+	tell application "Safari" to activate
 
-  tell application "System Events"
-    tell process "Safari"
-      click menu item "New ${1:-Personal} Window" of menu 1 of menu item "New Window" of menu "File" of menu bar 1
-    end tell
-  end tell
-EOD
+	set profile to "Personal"
+
+	if (count of argv) > 0 then
+		if item 1 of argv is not "" then
+			set profile to item 1 of argv
+		end if
+	end if
+
+	set menuItem to "New " & profile & " Window"
+
+	tell application "System Events"
+		tell process "Safari"
+			click menu item menuItem of menu 1 of menu item "New Window" of menu "File" of menu bar 1
+		end tell
+	end tell
+end run
