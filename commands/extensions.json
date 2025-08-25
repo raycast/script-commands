@@ -4984,6 +4984,34 @@
         {
           "authors" : [
             {
+              "name" : "Raphael-KR",
+              "url" : "https:\/\/github.com\/Raphael-KR"
+            }
+          ],
+          "createdAt" : "2025-08-23T18:49:50+09:00",
+          "currentDirectoryPath" : null,
+          "description" : "Toggle natural trackpad\/mouse scrolling setting for macOS 15.6.1+",
+          "filename" : "toggle-natural-scrolling-macos15.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🖱"
+          },
+          "identifier" : "3ccaeabe09d36538f01f592bc7b3e51e",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle Natural Scrolling (macOS 15+)",
+          "updatedAt" : "2025-08-25T09:08:49Z"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Aaron Miller",
               "url" : "https:\/\/github.com\/aaronhmiller"
             }
@@ -24083,19 +24111,14 @@
   ],
   "languages" : [
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     },
     {
       "displayName" : "Node",
       "icon" : "icon-nodejs.png",
       "name" : "node"
-    },
-    {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
     },
     {
       "displayName" : "Bash",
@@ -24108,6 +24131,11 @@
       "name" : "swift"
     },
     {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
@@ -24116,6 +24144,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 837,
-  "updatedAt" : "2025-06-12T13:54:30Z"
+  "totalScriptCommands" : 838,
+  "updatedAt" : "2025-08-25T09:08:49Z"
 }
