@@ -14,9 +14,11 @@
 # @raycast.author Ninh Hai Dang
 # @raycast.authorURL https://github.com/ninhhaidang
 
+set -euo pipefail
+
 # Check if running on macOS
 if [[ "$OSTYPE" != "darwin"* ]]; then
-    echo "Error: This script only works on macOS"
+    echo "This script only works on macOS"
     exit 1
 fi
 
@@ -24,5 +26,5 @@ fi
 defaults write com.apple.loginwindow TALLogoutSavesState -bool false
 defaults write com.apple.loginwindow LoginwindowLaunchesRelaunchApps -bool false
 
-# Trigger reboot with confirmation
+# Trigger reboot
 osascript -e 'tell application "loginwindow" to «event aevtrrst»'
