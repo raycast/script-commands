@@ -3,9 +3,8 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title My First Script
+# @raycast.title Send Mermaid diagram to Kroki Diagram Generator
 # @raycast.mode sildent
-# @raycast.packageName Raycast Scripts
 #
 # Optional parameters:
 # @raycast.icon 🤖
