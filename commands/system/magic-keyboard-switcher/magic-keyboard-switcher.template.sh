@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Dependency: This script requires `blueutil` cli installed: https://github.com/toy/blueutil
+# Install via homebrew: `brew install blueutil`
+
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Magic Keyboard switcher
@@ -24,6 +27,12 @@ CMD_VAL="$($BIN --is-connected $BTMAC)"
 CMD_UNPAIR="$BIN --unpair $BTMAC"
 CMD_PAIR="$BIN --pair $BTMAC"
 CMD_CONN="$BIN --connect $BTMAC"
+
+if ! command -v blueutil &> /dev/null; then
+      echo "blueutil command is required (https://github.com/toy/blueutil).";
+      exit 1;
+fi
+
 if [[ "$CMD_VAL" -eq 1 ]]; then
     echo "Connected to $BTMAC"
     echo "Going to disconnect $BTMAC"
