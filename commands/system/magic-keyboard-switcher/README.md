@@ -8,6 +8,7 @@ Script command to easility switch the bluetooth connectivity of a single Magic K
 <div align="center">
   <img src="images/bluetooth menu.png" alt="Bluetooth menu" width="75%">
 </div>
+
 3. Open the script file, set your Magic Keyboard bluetooth MAC address in the `BTMAC` variable and review the blueutil binary location set in the `BIN` variable.
 4. Remove `.template` from the file name.
 5. Say Ok when prompted about giving Bluetooth permissions to Raycast after executing the script command.
