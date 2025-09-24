@@ -13,7 +13,7 @@ Script command to easility switch the bluetooth connectivity of a single Magic K
 4. Remove `.template` from the file name.
 5. Say Ok when prompted about giving Bluetooth permissions to Raycast after executing the script command.
 
-## How to switch keyboards
+## How to switch the Magic Keyboard between computers
 
 It's desirable to have Raycast and this script command installed in both computers. 
 
