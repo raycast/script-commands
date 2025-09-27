@@ -24,7 +24,7 @@ if ! command -v jq &> /dev/null; then
       exit 1;
 fi
 
-mapfile -t EMOJIS < <(curl -s https://raw.githubusercontent.com/github/gemoji/master/db/emoji.json | jq -r '.[] | .emoji')
+IFS=$'\n' read -d '' -r -a EMOJIS < <(curl -s https://raw.githubusercontent.com/github/gemoji/master/db/emoji.json | jq -r '.[] | .emoji' && printf '\0')
 EMOJI="${EMOJIS[$RANDOM % ${#EMOJIS[@]}]}"
 echo -n "$EMOJI" | pbcopy
 echo "$EMOJI"

@@ -4984,6 +4984,34 @@
         {
           "authors" : [
             {
+              "name" : "Raphael-KR",
+              "url" : "https:\/\/github.com\/Raphael-KR"
+            }
+          ],
+          "createdAt" : "2025-08-23T18:49:50+09:00",
+          "currentDirectoryPath" : null,
+          "description" : "Toggle natural trackpad\/mouse scrolling setting for macOS 15.6.1+",
+          "filename" : "toggle-natural-scrolling-macos15.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🖱"
+          },
+          "identifier" : "3ccaeabe09d36538f01f592bc7b3e51e",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle Natural Scrolling (macOS 15+)",
+          "updatedAt" : "2025-08-25T09:08:49Z"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Aaron Miller",
               "url" : "https:\/\/github.com\/aaronhmiller"
             }
@@ -5012,8 +5040,8 @@
         {
           "authors" : [
             {
-              "name" : "dlvhdr",
-              "url" : "github.com\/dlvhdr"
+              "name" : "benyn",
+              "url" : "github.com\/benyn"
             }
           ],
           "createdAt" : "2023-05-06T14:02:11-07:00",
@@ -5035,7 +5063,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Dismiss Notifications",
-          "updatedAt" : "2024-12-09T09:05:58-08:00"
+          "updatedAt" : "2025-05-18T15:56:50-07:00"
         },
         {
           "authors" : [
@@ -6174,6 +6202,34 @@
           "schemaVersion" : 1,
           "title" : "Minimize All Windows",
           "updatedAt" : "2022-02-21T17:47:42+01:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "AndriiBarabash",
+              "url" : "https:\/\/github.com\/AndriiBarabash"
+            }
+          ],
+          "createdAt" : "2025-03-10T10:57:38+01:00",
+          "currentDirectoryPath" : null,
+          "description" : "Put your Mac to sleep (in X minutes).",
+          "filename" : "sleep-timer.applescript",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "😴"
+          },
+          "identifier" : "44762fff108fef0069a546e2cf83c966",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Sleep Timer",
+          "updatedAt" : "2025-03-10T10:57:38+01:00"
         },
         {
           "authors" : [
@@ -7843,6 +7899,53 @@
           "schemaVersion" : 1,
           "title" : "Speed Test",
           "updatedAt" : "2024-04-11T07:23:05Z"
+        }
+      ]
+    },
+    {
+      "name" : "Ai",
+      "path" : "ai",
+      "scriptCommands" : [
+
+      ],
+      "subGroups" : [
+        {
+          "name" : "Gemini",
+          "path" : "gemini",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Est7",
+                  "url" : "https:\/\/github.com\/est7"
+                },
+                {
+                  "name" : "Nimo Beeren",
+                  "url" : "https:\/\/github.com\/nimobeeren"
+                }
+              ],
+              "createdAt" : "2025-04-24T11:38:46+08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open Gemini in Chrome browser and submit a prompt with optional selected text as context",
+              "filename" : "gemini.js",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/icon-gemini.svg"
+              },
+              "identifier" : "2a9c8b6698663cc8834ace7501bc9bec",
+              "isTemplate" : false,
+              "language" : "node",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Gemini",
+              "path" : "ai\/gemini\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Ask Gemini",
+              "updatedAt" : "2025-05-13T08:32:11Z"
+            }
+          ]
         }
       ]
     },
@@ -12273,7 +12376,7 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Random Emoji",
-              "updatedAt" : "2025-01-28T15:23:28Z"
+              "updatedAt" : "2025-03-25T19:27:06+09:00"
             }
           ]
         },
@@ -15735,6 +15838,36 @@
               "schemaVersion" : 1,
               "title" : "End Session",
               "updatedAt" : "2021-05-28T10:34:50+01:00"
+            }
+          ]
+        },
+        {
+          "name" : "Find My",
+          "path" : "find-my",
+          "readme" : "apps\/find-my\/README.md",
+          "scriptCommands" : [
+            {
+              "authors" : null,
+              "createdAt" : "2025-06-12T06:53:33-07:00",
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "fmp.js",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/find-my-icon.png"
+              },
+              "identifier" : "206851d53c58c074472f7acb20ceeb08",
+              "isTemplate" : false,
+              "language" : "node",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "FindMy",
+              "path" : "apps\/find-my\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Find My Phone (Auto Sound)",
+              "updatedAt" : "2025-06-12T06:53:33-07:00"
             }
           ]
         },
@@ -23983,9 +24116,9 @@
       "name" : "ruby"
     },
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     },
     {
       "displayName" : "Bash",
@@ -23998,9 +24131,9 @@
       "name" : "swift"
     },
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     },
     {
       "displayName" : "AppleScript",
@@ -24011,6 +24144,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 834,
-  "updatedAt" : "2025-01-28T15:23:28Z"
+  "totalScriptCommands" : 838,
+  "updatedAt" : "2025-08-25T09:08:49Z"
 }

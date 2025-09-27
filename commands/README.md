@@ -25,6 +25,8 @@ This repository contains sample commands and documentation to write your own one
 
 ### Categories
 
+- [Ai](#ai)
+  - [Gemini](#gemini)
 - [Apps](#apps)
   - [Agenda](#agenda)
   - [Amphetamine](#amphetamine)
@@ -47,6 +49,7 @@ This repository contains sample commands and documentation to write your own one
   - [ExpressVPN](#expressvpn)
   - [Fantastical](#fantastical)
   - [Ferdi](#ferdi)
+  - [Find My](#find-my)
   - [Focus](#focus)
   - [GoodLinks](#goodlinks)
   - [HazeOver](#hazeover)
@@ -163,6 +166,14 @@ This repository contains sample commands and documentation to write your own one
   - [Vpnutil](#vpnutil)
 - [Web Searches](#web-searches)
   - [WordPress](#wordpress)
+
+## Ai
+
+#### Gemini
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  |  | [Ask Gemini](ai/gemini/gemini.js) | Open Gemini in Chrome browser and submit a prompt with optional selected text as context | [Est7](https://github.com/est7) and [Nimo Beeren](https://github.com/nimobeeren) | ✅ |  | <img src="images/icon-nodejs.png" width="20" height="20" title="Node"> |
 
 ## Apps
 
@@ -363,6 +374,12 @@ This repository contains sample commands and documentation to write your own one
 | :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/ferdi/images/ferdi.png" width="20" height="20"> | [Open Service by Index](apps/ferdi/ferdi-open-service-by-index.applescript) | N/A | [Jakub Lanski](https://github.com/jaklan) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/ferdi/images/ferdi.png" width="20" height="20"> | [Open Service by Name](apps/ferdi/ferdi-open-service-by-name.applescript) | N/A | [Jakub Lanski](https://github.com/jaklan) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+
+#### Find My
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/find-my/images/find-my-icon.png" width="20" height="20"> | [Find My Phone (Auto Sound)](apps/find-my/fmp.js) | N/A | Raycast |  |  | <img src="images/icon-nodejs.png" width="20" height="20" title="Node"> |
 
 #### Focus
 
@@ -1494,7 +1511,7 @@ This repository contains sample commands and documentation to write your own one
   | ☕️ | [Disable Caffeinate](system/caffeinate-disable.sh) | Stops all caffeinate sessions | [Yan Smaliak](https://github.com/ysmaliak) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 💾 | [Disk Free](system/disk-free.sh) | Show free space in your mounted disks | [Juan Luis Romero](https://github.com/JuanluR8) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 💿 | [Disk Usage](system/disk-usage.sh) | Show disk usage for / (root) | [Jesse Claven](https://github.com/jesse-c) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
-  | 🔕 | [Dismiss Notifications](system/dismiss-notifications.applescript) | Close all notification alerts staying on screen, e.g., Calendar notifications. | [dlvhdr](github.com/dlvhdr) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | 🔕 | [Dismiss Notifications](system/dismiss-notifications.applescript) | Close all notification alerts staying on screen, e.g., Calendar notifications. | [benyn](github.com/benyn) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🔕 | [Do Not Disturb](system/do-not-disturb.sh) | Do Not Disturb | [Antonio Dal Sie](https://github.com/exodusanto) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🤖 | [Dock Position](system/dock-set-position.sh) | Set the position of the Dock in the screen | [Jelte Lagendijk](https://raycast.com/j3lte) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🤖 | [Dock Set Autohide](system/dock-set-autohide.sh) | Set the Dock autohide | [Jelte Lagendijk](https://raycast.com/j3lte) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
@@ -1536,6 +1553,7 @@ This repository contains sample commands and documentation to write your own one
   | 🧭 | [Set Frontmost App as Default Browser](system/default-browser-front-most-app.applescript) | Set Frontmost Web Browser as Default Browser. | [Yohanes Bandung Bondowoso](https://github.com/ybbond) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🛌 | [Shut Down](system/shutdown.applescript) | Shuts down computer. | Raycast |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 😴 | [Sleep](system/sleep.applescript) | Puts computer to sleep. | Raycast |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | 😴 | [Sleep Timer](system/sleep-timer.applescript) | Put your Mac to sleep (in X minutes). | [AndriiBarabash](https://github.com/AndriiBarabash) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🧬 | [Toggle .DS_Store](system/toggle-ds-store.applescript) | A script command to enable and disable .DS_Store | [Astrit](https://github.com/astrit) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🔋 | [Toggle Battery Charging](system/toggle-battery-charging.sh) | Toggle charging the battery when it is plugged in. When turned off, it will always use the charger instead of the battery; when turned on, it will go to automatic mode (decide based on your settings and daily charging routine). | [Amir Hossein SamadiPour](https://github.com/SamadiPour) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/system/images/bluetooth.png" width="20" height="20"> | [Toggle Bluetooth](system/bluetooth.template.applescript) | Toggle your Bluetooth connection. | [Vincent Dörig](https://github.com/vincentdoerig) |  | ✅ | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
@@ -1547,6 +1565,7 @@ This repository contains sample commands and documentation to write your own one
   | 👓 | [Toggle Hidden Files](system/toggle-hidden-files.applescript) | Show and hide hidden files/folders which starts with "." (dot), i.e: .bash_rc, .ssh | [Thiago Holanda](https://twitter.com/tholanda) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🐚 | [Toggle Lid Sleep](system/toggle-lid-sleep.sh) | Prevent sleep from closing laptop lid (clamshell mode) | [Ivan Rybalko](https://github.com/ivribalko) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🖱 | [Toggle Natural Scrolling](system/toggle-natural-scrolling.applescript) | Script Command to change natural trackpad/mouse scrolling setting. Reverting the setting value each time. | [Wiley Marques](https://twitter.com/wileymarques) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | 🖱 | [Toggle Natural Scrolling (macOS 15+)](system/toggle-natural-scrolling-macos15.applescript) | Toggle natural trackpad/mouse scrolling setting for macOS 15.6.1+ | [Raphael-KR](https://github.com/Raphael-KR) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🌘 | [Toggle Night Shift](system/nightshift.sh) | Toggle Night Shift mode (until tomorrow/sunrise). Required [nightlight](https://github.com/smudge/nightlight) | [BhEaN](https://github.com/bhean) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🌗 | [Toggle System Appearance](system/toggle-system-appearance.applescript) | Script Command to switch between the system appearance, light and dark mode. | [Thiago Holanda](https://twitter.com/tholanda) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/system/images/wifi.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/system/images/wifi-dark.png" width="20" height="20"></picture> | [Toggle Wi-Fi](system/wifi.template.applescript) | Toggle your Wi-Fi connection. | [Vincent Dörig](https://github.com/vincentdoerig) |  | ✅ | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
