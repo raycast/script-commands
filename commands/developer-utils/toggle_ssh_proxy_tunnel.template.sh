@@ -9,7 +9,7 @@
 #
 # Optional parameters:
 # @raycast.icon 🔒
-# @raycast.packageName developer-utils
+# @raycast.packageName Developer Utilities
 #
 # Documentation:
 # @raycast.description Toggles an SSH SOCKS proxy tunnel on and off.
