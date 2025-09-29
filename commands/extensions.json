@@ -7214,6 +7214,29 @@
         },
         {
           "authors" : null,
+          "createdAt" : "2025-09-05T10:08:41-05:00",
+          "currentDirectoryPath" : null,
+          "description" : "Copies a summary of today's meetings to the clipboard.",
+          "filename" : "meeting_summary_script.swift",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📝"
+          },
+          "identifier" : "3542086084234d14d5e94041c7c2915b",
+          "isTemplate" : false,
+          "language" : "swift",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Copy Meeting Summary",
+          "updatedAt" : "2025-09-05T10:08:41-05:00"
+        },
+        {
+          "authors" : null,
           "createdAt" : "2020-09-30T12:56:01+01:00",
           "currentDirectoryPath" : null,
           "description" : "Shuts down computer.",
@@ -24111,24 +24134,14 @@
   ],
   "languages" : [
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
       "displayName" : "Node",
       "icon" : "icon-nodejs.png",
       "name" : "node"
     },
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
-    },
-    {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     },
     {
       "displayName" : "Python",
@@ -24139,11 +24152,21 @@
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
+    },
+    {
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 838,
-  "updatedAt" : "2025-08-25T09:08:49Z"
+  "totalScriptCommands" : 839,
+  "updatedAt" : "2025-09-29T08:55:39Z"
 }
