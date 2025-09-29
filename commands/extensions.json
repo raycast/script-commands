@@ -7486,6 +7486,41 @@
           ]
         },
         {
+          "name" : "Magic Keyboard Switcher",
+          "path" : "magic-keyboard-switcher",
+          "readme" : "system\/magic-keyboard-switcher\/README.md",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "blastik",
+                  "url" : "https:\/\/github.com\/blastik"
+                }
+              ],
+              "createdAt" : "2025-09-24T17:50:16+02:00",
+              "currentDirectoryPath" : null,
+              "description" : "Switch a single magic keyboard between computers",
+              "filename" : "magic-keyboard-switcher.template.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/logo.png"
+              },
+              "identifier" : "ebd6d04790272dd639e870be745a66db",
+              "isTemplate" : true,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "System",
+              "path" : "system\/magic-keyboard-switcher\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Magic Keyboard switcher",
+              "updatedAt" : "2025-09-24T17:59:07+02:00"
+            }
+          ]
+        },
+        {
           "name" : "Vpnutil",
           "path" : "vpnutil",
           "scriptCommands" : [
@@ -24134,14 +24169,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
-    },
-    {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
     },
     {
       "displayName" : "Python",
@@ -24149,24 +24179,29 @@
       "name" : "python"
     },
     {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
+    },
+    {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
     },
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
-    },
-    {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 839,
-  "updatedAt" : "2025-09-29T08:55:39Z"
+  "totalScriptCommands" : 840,
+  "updatedAt" : "2025-09-29T13:43:40Z"
 }

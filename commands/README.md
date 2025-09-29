@@ -162,6 +162,7 @@ This repository contains sample commands and documentation to write your own one
   - [Samsung TV](#samsung-tv)
 - [System](#system)
   - [Audio](#audio)
+  - [Magic Keyboard Switcher](#magic-keyboard-switcher)
   - [VPN](#vpn)
   - [Vpnutil](#vpnutil)
 - [Web Searches](#web-searches)
@@ -1589,6 +1590,12 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/system/audio/images/airpod.png" width="20" height="20"> | [Toggle AirPods](system/audio/toggle-airpods.template.swift) | Toggle AirPods bluetooth device | [Nichlas W. Andersen](https://github.com/itsnwa) |  | ✅ | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
   | 🎙 | [Toggle Microphone](system/audio/toggle-mic.applescript) | Toggles microphone. | [Matthew Morek](https://github.com/matthewmorek) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🔔 | [Toggle Mute Notifcation Sounds](system/audio/toggle-mute-notification-sounds.applescript) | Toggles notification sounds. | [Annie Ma](http://www.anniema.co/) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+
+#### Magic Keyboard Switcher
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/system/magic-keyboard-switcher/images/logo.png" width="20" height="20"> | [Magic Keyboard switcher](system/magic-keyboard-switcher/magic-keyboard-switcher.template.sh) | Switch a single magic keyboard between computers | [blastik](https://github.com/blastik) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### VPN
 
