@@ -6210,7 +6210,7 @@
               "url" : "https:\/\/github.com\/AndriiBarabash"
             }
           ],
-          "createdAt" : "2025-03-10T10:57:38+01:00",
+          "createdAt" : "2025-03-10T00:16:14+01:00",
           "currentDirectoryPath" : null,
           "description" : "Put your Mac to sleep (in X minutes).",
           "filename" : "sleep-timer.applescript",
@@ -6219,7 +6219,7 @@
             "dark" : null,
             "light" : "😴"
           },
-          "identifier" : "44762fff108fef0069a546e2cf83c966",
+          "identifier" : "ff43a32961d94da6001ad37ab79dd032",
           "isTemplate" : false,
           "language" : "applescript",
           "mode" : "silent",
@@ -8298,6 +8298,34 @@
           "schemaVersion" : 1,
           "title" : "Is It Up?",
           "updatedAt" : "2023-02-21T22:56:29-05:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Andrii Barabash",
+              "url" : "https:\/\/github.com\/AndriiBarabash"
+            }
+          ],
+          "createdAt" : "2025-09-27T20:40:28+02:00",
+          "currentDirectoryPath" : null,
+          "description" : "Toggles an SSH SOCKS proxy tunnel on and off.",
+          "filename" : "toggle_ssh_proxy_tunnel.template.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔒"
+          },
+          "identifier" : "aae74278107ffa5f34b3733eb2c8a813",
+          "isTemplate" : true,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "path" : "developer-utils\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle SSH SOCKS Tunnel",
+          "updatedAt" : "2025-09-29T13:44:50Z"
         },
         {
           "authors" : [
@@ -24169,14 +24197,19 @@
   ],
   "languages" : [
     {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
     },
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     },
     {
       "displayName" : "Swift",
@@ -24184,24 +24217,19 @@
       "name" : "swift"
     },
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
     },
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 840,
-  "updatedAt" : "2025-09-29T13:43:40Z"
+  "totalScriptCommands" : 841,
+  "updatedAt" : "2025-09-29T13:46:20Z"
 }
