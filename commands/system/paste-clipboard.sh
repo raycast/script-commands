@@ -15,6 +15,7 @@
 # @raycast.authorURL https://raycast.com/AlexGadd
 
 osascript -e 'set clipboardContent to the clipboard' \
+-e 'delay 0.2' \
 -e 'set charCount to count of characters of clipboardContent' \
 -e 'tell application "System Events"' \
 -e '	repeat with i from 1 to charCount' \
