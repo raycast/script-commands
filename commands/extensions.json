@@ -6811,6 +6811,34 @@
         {
           "authors" : [
             {
+              "name" : "aaqifshafi",
+              "url" : "https:\/\/github.com\/aaqifshafi"
+            }
+          ],
+          "createdAt" : "2025-10-24T17:32:55+05:30",
+          "currentDirectoryPath" : null,
+          "description" : "Kill running processes on the given ports",
+          "filename" : "kill-a-process-on-port.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "🚫"
+          },
+          "identifier" : "71d24aef7a640392ef09a32800fd05e3",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Kill A Process On Port",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Kill a process on PORT",
+          "updatedAt" : "2025-10-24T17:32:55+05:30"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Felipe Turcheti",
               "url" : "https:\/\/felipeturcheti.com"
             }
@@ -24197,14 +24225,14 @@
   ],
   "languages" : [
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     },
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     },
     {
       "displayName" : "Node",
@@ -24217,19 +24245,19 @@
       "name" : "swift"
     },
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     },
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 841,
-  "updatedAt" : "2025-09-29T13:46:20Z"
+  "totalScriptCommands" : 842,
+  "updatedAt" : "2025-10-24T12:03:52Z"
 }
