@@ -7315,6 +7315,34 @@
           "updatedAt" : "2022-08-18T12:53:36Z"
         },
         {
+          "authors" : [
+            {
+              "name" : "AlexGadd",
+              "url" : "https:\/\/raycast.com\/AlexGadd"
+            }
+          ],
+          "createdAt" : "2025-10-25T01:03:45+13:00",
+          "currentDirectoryPath" : null,
+          "description" : "Takes your clipboard then types each character in the clipboard",
+          "filename" : "paste-clipboard.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "📋"
+          },
+          "identifier" : "b6b6c23a4d07188552b17cba337131f8",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Type Clipboard in Search",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Type Clipboard",
+          "updatedAt" : "2025-10-24T12:04:57Z"
+        },
+        {
           "authors" : null,
           "createdAt" : "2020-09-30T12:56:01+01:00",
           "currentDirectoryPath" : null,
@@ -24225,19 +24253,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
     },
     {
       "displayName" : "Swift",
@@ -24250,14 +24268,24 @@
       "name" : "python"
     },
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 842,
-  "updatedAt" : "2025-10-24T12:03:52Z"
+  "totalScriptCommands" : 843,
+  "updatedAt" : "2025-10-24T12:06:29Z"
 }
