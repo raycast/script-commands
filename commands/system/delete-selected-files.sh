@@ -41,6 +41,16 @@ while IFS= read -r line; do
     [[ -n "$line" ]] && files+=("$line")
 done <<< "$selected_files"
 
+file_count=${#files[@]}
+
 for file in "${files[@]}"; do
     osascript -e "tell application \"Finder\" to delete POSIX file \"$file\"" >/dev/null 2>&1
 done
+
+if [ $file_count -eq 1 ]; then
+    message="1 item moved to Trash"
+else
+    message="$file_count items moved to Trash"
+fi
+
+osascript -e "display notification \"$message\" with title \"Trash\""
