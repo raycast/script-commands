@@ -11,7 +11,7 @@
 
 # Documentation:
 # @raycast.description Move selected files in Finder to Trash
-# @raycast.author Vicent
+# @raycast.author Vicent Gozalbes
 # @raycast.authorURL https://github.com/vigosan
 
 file_count=$(osascript <<'ENDAPPLE'
