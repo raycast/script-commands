@@ -14,7 +14,6 @@
 # @raycast.author Vicent
 # @raycast.authorURL https://github.com/vigosan
 
-# Get selected files from Finder using AppleScript (using newline as delimiter)
 selected_files=$(osascript <<'ENDAPPLE'
 tell application "Finder"
     set selectedItems to selection
@@ -33,19 +32,15 @@ end tell
 ENDAPPLE
 )
 
-# Check if any files are selected
 if [ "$selected_files" = "NO_SELECTION" ]; then
     exit 1
 fi
 
-# Convert the text list to array (AppleScript returns newline-separated paths)
 files=()
 while IFS= read -r line; do
     [[ -n "$line" ]] && files+=("$line")
 done <<< "$selected_files"
 
-# Move each file to trash using AppleScript
 for file in "${files[@]}"; do
-    # Move to trash using AppleScript (this is the native macOS way)
     osascript -e "tell application \"Finder\" to delete POSIX file \"$file\"" >/dev/null 2>&1
 done
