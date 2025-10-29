@@ -6376,6 +6376,34 @@
           "updatedAt" : "2021-01-11T18:50:50+01:00"
         },
         {
+          "authors" : [
+            {
+              "name" : "Vicent Gozalbes",
+              "url" : "https:\/\/github.com\/vigosan"
+            }
+          ],
+          "createdAt" : "2025-10-29T15:39:18+01:00",
+          "currentDirectoryPath" : null,
+          "description" : "Move selected files in Finder to Trash",
+          "filename" : "delete-selected-files.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🗑"
+          },
+          "identifier" : "af948d8e2733b1384754ecae8a626949",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Delete Selected Files",
+          "updatedAt" : "2025-10-29T15:39:18+01:00"
+        },
+        {
           "authors" : null,
           "createdAt" : "2020-10-19T11:37:16+01:00",
           "currentDirectoryPath" : null,
@@ -24253,26 +24281,6 @@
   ],
   "languages" : [
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
-    },
-    {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
-    },
-    {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
@@ -24281,11 +24289,31 @@
       "displayName" : "Node",
       "icon" : "icon-nodejs.png",
       "name" : "node"
+    },
+    {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
+    },
+    {
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 843,
-  "updatedAt" : "2025-10-24T12:06:29Z"
+  "totalScriptCommands" : 844,
+  "updatedAt" : "2025-10-29T14:41:01Z"
 }
