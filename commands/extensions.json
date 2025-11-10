@@ -7368,7 +7368,7 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Type Clipboard",
-          "updatedAt" : "2025-10-24T12:04:57Z"
+          "updatedAt" : "2025-11-04T23:39:34+13:00"
         },
         {
           "authors" : null,
@@ -10694,6 +10694,96 @@
               "schemaVersion" : 1,
               "title" : "Services List",
               "updatedAt" : "2021-02-25T00:34:23Z"
+            }
+          ]
+        },
+        {
+          "name" : "Solana",
+          "path" : "solana",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "bjoerndotsol",
+                  "url" : "https:\/\/github.com\/bjoerndotsol"
+                }
+              ],
+              "createdAt" : "2025-11-09T12:49:22+04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Extract transaction from Blink endpoint in clipboard and replaces with the transaction",
+              "filename" : "solana-tx-blink-extract.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/solana-logo.png"
+              },
+              "identifier" : "b6d5f4f47851592cfb80de671a69b6d6",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Solana",
+              "path" : "developer-utils\/solana\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Extract Transaction from Blink Response",
+              "updatedAt" : "2025-11-09T12:49:22+04:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "bjoerndotsol",
+                  "url" : "https:\/\/github.com\/bjoerndotsol"
+                }
+              ],
+              "createdAt" : "2025-11-09T12:49:22+04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Opens a Solana transaction in Solscan. Network: empty\/mainnet, d\/dev\/devnet, t\/test\/testnet",
+              "filename" : "solana-tx-details.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/solana-logo.png"
+              },
+              "identifier" : "8d593a4cf4ef3adafe986a1c06b00909",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Solana",
+              "path" : "developer-utils\/solana\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "View Solana Transaction",
+              "updatedAt" : "2025-11-09T12:49:22+04:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "bjoerndotsol",
+                  "url" : "https:\/\/github.com\/bjoerndotsol"
+                }
+              ],
+              "createdAt" : "2025-11-09T12:49:22+04:00",
+              "currentDirectoryPath" : null,
+              "description" : "Extracts the message from a signed Solana transaction and opens Explorer's Inspector with it.",
+              "filename" : "solana-tx-inspector.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/solana-logo.png"
+              },
+              "identifier" : "a2218c35f59137757e59aa21f61cb1a0",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Solana",
+              "path" : "developer-utils\/solana\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open in Solana Inspector",
+              "updatedAt" : "2025-11-09T12:49:22+04:00"
             }
           ]
         },
@@ -24286,9 +24376,9 @@
       "name" : "applescript"
     },
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     },
     {
       "displayName" : "Ruby",
@@ -24296,9 +24386,9 @@
       "name" : "ruby"
     },
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     },
     {
       "displayName" : "Swift",
@@ -24314,6 +24404,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 844,
-  "updatedAt" : "2025-10-29T14:41:01Z"
+  "totalScriptCommands" : 847,
+  "updatedAt" : "2025-11-10T13:33:01Z"
 }
