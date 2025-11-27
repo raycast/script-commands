@@ -11,7 +11,7 @@
 # @raycast.argument1 { "type": "text", "placeholder": "Quality (0-100, default: 50)", "optional": true }
 
 # Documentation:
-# @raycast.description Compress selected PDF files. Requires qpdf installed via Homebrew.
+# @raycast.description Compress selected PDF files. Note: This script requires 'qpdf' to be installed via Homebrew.
 # @raycast.author Nicklas Jakobsen
 # @raycast.authorURL https://github.com/nicklasjm
 
