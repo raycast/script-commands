@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Dependency: This script requires `qpdf` installed: https://github.com/qpdf/qpdf
+# Install via homebrew: `brew install qpdf`
+
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Compress PDF
