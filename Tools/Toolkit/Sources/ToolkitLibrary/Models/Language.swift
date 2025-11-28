@@ -13,6 +13,7 @@ enum Language {
   case swift
   case node
   case php
+  case dotnet
   case custom(String)
 
   init(_ rawValue: String) {
@@ -33,6 +34,8 @@ enum Language {
       self = .node
     case "php":
       self = .php
+    case "dotnet":
+      self = .cs
     default:
       self = .custom(value)
     }
@@ -54,6 +57,8 @@ enum Language {
       return "icon-nodejs.png"
     case .php:
       return "icon-php.png"
+    case .cs:
+      return "icon-dotnet.png"
     default:
       return nil
     }
@@ -75,6 +80,8 @@ enum Language {
       return "Node"
     case .php:
       return "PHP"
+    case .cs:
+      return ".NET"
     case .custom(let name):
       return name
     }
