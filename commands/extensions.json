@@ -22358,6 +22358,40 @@
           ]
         },
         {
+          "name" : "QPDF",
+          "path" : "qpdf",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Nicklas Jakobsen",
+                  "url" : "https:\/\/github.com\/nicklasjm"
+                }
+              ],
+              "createdAt" : "2025-11-28T18:07:29+01:00",
+              "currentDirectoryPath" : null,
+              "description" : "Compress selected PDF files. Note: This script requires 'qpdf' to be installed via Homebrew.",
+              "filename" : "compress-pdf-qpdf.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "🗜️"
+              },
+              "identifier" : "ba848d41adad37a9407e0c61e56b545c",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "QPDF",
+              "path" : "productivity\/qpdf\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Compress PDF",
+              "updatedAt" : "2025-11-28T18:07:29+01:00"
+            }
+          ]
+        },
+        {
           "name" : "macOCR",
           "path" : "macocr",
           "scriptCommands" : [
@@ -24399,9 +24433,14 @@
   ],
   "languages" : [
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
     },
     {
       "displayName" : "AppleScript",
@@ -24414,14 +24453,9 @@
       "name" : "node"
     },
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
-    },
-    {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
     },
     {
       "displayName" : "Python",
@@ -24432,6 +24466,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 848,
-  "updatedAt" : "2025-11-28T17:06:38Z"
+  "totalScriptCommands" : 849,
+  "updatedAt" : "2025-11-28T17:08:40Z"
 }

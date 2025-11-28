@@ -150,6 +150,7 @@ This repository contains sample commands and documentation to write your own one
   - [Bitwarden](#bitwarden)
   - [Imgur](#imgur)
   - [Pomodoro](#pomodoro)
+  - [QPDF](#qpdf)
   - [Writing](#writing)
   - [macOCR](#macocr)
   - [stopwatch](#stopwatch)
@@ -1377,6 +1378,12 @@ This repository contains sample commands and documentation to write your own one
   | 🍅 | [Start Timer](productivity/pomodoro/pomodoro-start-timer.sh) | Start a Pomodoro timer | [Thomas Paul Mann](https://github.com/thomaspaulmann) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🍅 | [Status](productivity/pomodoro/pomodoro-status.sh) | Status of a Pomodoro timer | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🍅 | [Stop Timer](productivity/pomodoro/pomodoro-stop-timer.sh) | Stop active Pomodoro timer | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### QPDF
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | 🗜️ | [Compress PDF](productivity/qpdf/compress-pdf-qpdf.sh) | Compress selected PDF files. Note: This script requires 'qpdf' to be installed via Homebrew. | [Nicklas Jakobsen](https://github.com/nicklasjm) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Writing
 
