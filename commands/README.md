@@ -901,6 +901,7 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | 🕌 | [Prayer Summary](culture/prayer-summary.template.sh) | Get the current and next prayer times for a specific city and country. | [Muneeb Ajaz](https://github.com/mianmuneebajaz) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🕌 | [Prayer Times](culture/prayer-times.sh) | Prayer Times grabbed from the aladhan.com. | [Emircan Erkul](https://emircanerkul.com) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 ## Dashboard

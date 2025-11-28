@@ -21592,6 +21592,34 @@
         {
           "authors" : [
             {
+              "name" : "Muneeb Ajaz",
+              "url" : "https:\/\/github.com\/mianmuneebajaz"
+            }
+          ],
+          "createdAt" : "2025-11-28T22:05:40+05:00",
+          "currentDirectoryPath" : null,
+          "description" : "Get the current and next prayer times for a specific city and country.",
+          "filename" : "prayer-summary.template.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🕌"
+          },
+          "identifier" : "19dc8f6e68b90c17c70dd7ee3e05d5e6",
+          "isTemplate" : true,
+          "language" : "bash",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Culture",
+          "path" : "culture\/",
+          "refreshTime" : "2m",
+          "schemaVersion" : 1,
+          "title" : "Prayer Summary",
+          "updatedAt" : "2025-11-28T17:06:38Z"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Emircan Erkul",
               "url" : "https:\/\/emircanerkul.com"
             }
@@ -24371,19 +24399,14 @@
   ],
   "languages" : [
     {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
+    },
+    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
-    },
-    {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
     },
     {
       "displayName" : "Node",
@@ -24391,19 +24414,24 @@
       "name" : "node"
     },
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
-    },
-    {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
+    },
+    {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 847,
-  "updatedAt" : "2025-11-10T13:33:01Z"
+  "totalScriptCommands" : 848,
+  "updatedAt" : "2025-11-28T17:06:38Z"
 }
