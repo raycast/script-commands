@@ -11,42 +11,17 @@
 # @raycast.author David (drg)
 
 # ============================================================
-# Find Ghostty binary
+# Load shared helpers + find Ghostty binary
 # ============================================================
-find_ghostty() {
-    local SEARCH_PATHS=(
-        "/Applications/Ghostty.app/Contents/MacOS/ghostty"
-        "/opt/homebrew/bin/ghostty"
-        "/usr/local/bin/ghostty"
-        "$HOME/.local/bin/ghostty"
-    )
-
-    local path
-    for path in "${SEARCH_PATHS[@]}"; do
-        if [ -x "$path" ]; then
-            echo "$path"
-            return 0
-        fi
-    done
-
-    local path_result
-    path_result=$(command -v ghostty 2>/dev/null)
-    if [ -n "$path_result" ] && [ -x "$path_result" ]; then
-        echo "$path_result"
-        return 0
-    fi
-
-    echo "❌ Ghostty not found" >&2
-    echo "💡 Install: brew install ghostty" >&2
-    return 1
-}
-
-find_ghostty || exit 1
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck source=lib/ghostty.sh
+source "$SCRIPT_DIR/lib/ghostty.sh"
+GHOSTTY="$(find_ghostty)" || exit 1
 
 # ============================================================
 # Launch Ghostty with Gemini theme
 # ============================================================
-open -na Ghostty.app --args \
+"$GHOSTTY" \
     --title="🌟 Gemini" \
     --background="#1A1F2E" \
     --foreground="#8BABCC" \
@@ -59,6 +34,5 @@ open -na Ghostty.app --args \
     --background-blur-radius=4 \
     --selection-background="#2B3547" \
     --selection-foreground="#D4E3F0" \
-    > /dev/null 2>&1
-
+    > /dev/null 2>&1 &
 exit 0

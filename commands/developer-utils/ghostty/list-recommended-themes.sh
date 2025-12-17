@@ -1,6 +1,5 @@
 #!/bin/bash
 # Compatible: Bash 3.2+ (macOS default)
-# Validated: 2025-11-18
 
 # @raycast.schemaVersion 1
 # @raycast.title List Recommended Themes
@@ -12,29 +11,27 @@
 # @raycast.author David (drg)
 
 cat << 'THEMES'
-🎨 GHOSTTY THEMES - CONFIGURATION ACTUELLE
+🎨 GHOSTTY THEMES - CURRENT CONFIGURATION
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
 🤖 Claude Code  → Atom One Dark
 ⚡ Codex        → Ayu Mirage
 🌟 Gemini       → Adventure Time
 🌙 Kimi         → Dark Side of the Moon (custom)
 🖥️  Standard    → Atom
 
-COMMANDES GHOSTTY:
-  Liste tous  : ghostty +list-themes
-  Test thème  : ghostty --theme="Nom Theme"
+GHOSTTY COMMANDS:
+  List all     : ghostty +list-themes
+  Test theme   : ghostty --theme="Theme Name"
 
-SCRIPTS RAYCAST DISPONIBLES:
+RAYCAST SCRIPTS:
   • Launch AI Terminal (dropdown)
-  • Claude Code
-  • Codex
-  • Gemini CLI
-  • Kimi
-  • Terminal Standard
+  • Claude Code Terminal
+  • Codex Terminal
+  • Gemini Terminal
+  • Kimi Terminal
+  • Standard Terminal
 
-CONFIGURATION:
-  Répertoire  : ~/raycast-scripts/
-  Format      : Bash 3.2+ compatible
-  État        : Production-ready ✅
+CONFIG:
+  Directory    : ~/raycast-scripts/
+  Shell        : Bash 3.2+ compatible
 THEMES

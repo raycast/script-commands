@@ -15,7 +15,6 @@ Launch Ghostty terminal with distinct visual themes for different AI CLI tools. 
 
 ![Dropdown Menu](images/dropdown-menu.png)
 
-![Terminals Comparison](images/terminals-comparison.png)
 
 ## AI Tools Supported
 
@@ -195,3 +194,5 @@ Inspired by the need to manage multiple AI coding assistants during complex deve
 ## License
 
 Same as Raycast Script Commands repository (MIT)
+
+![Terminals Comparison](images/terminals-comparison.png)
