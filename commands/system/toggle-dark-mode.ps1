@@ -1,6 +1,6 @@
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Darkmode Toggle
+# @raycast.title Toggle Dark Mode
 # @raycast.mode silent
 
 # Optional parameters:
