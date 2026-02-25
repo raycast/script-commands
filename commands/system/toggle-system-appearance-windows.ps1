@@ -2,7 +2,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Toggle System Appearance
 # @raycast.mode silent
-# @raycast.packageName System
+# @raycast.packageName Toggle System Appearance
 
 # Optional parameters:
 # @raycast.icon 🌑
@@ -13,7 +13,7 @@
 # @raycast.author Ondrej Holan
 # @raycast.authorURL https://github.com/ondrejholan
 
-# @raycast.author Ondrej Holan, Luke Humberdross 
+# @raycast.author Luke Humberdross 
 # @raycast.authorURL https://github.com/lukejjh
 
 $k = "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize"
