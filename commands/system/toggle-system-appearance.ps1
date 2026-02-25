@@ -9,12 +9,12 @@
 # @raycast.iconDark 🌕
 # @raycast.description Toggle the system appearance, between light and dark mode. Works only for Windows platform.
 
-
 # Documentation:
+# @raycast.author Ondrej Holan
+# @raycast.authorURL https://github.com/ondrejholan
+
 # @raycast.author Ondrej Holan, Luke Humberdross 
-
-# @raycast.authorURL https://raycast.com/Strynion
-
+# @raycast.authorURL https://github.com/lukejjh
 
 $k = "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize"
 $v = (Get-ItemProperty -Path $k).SystemUsesLightTheme -bxor 1
