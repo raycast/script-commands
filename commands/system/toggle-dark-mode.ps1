@@ -6,7 +6,7 @@
 # Optional parameters:
 # @raycast.icon 🌑
 # @raycast.iconDark 🌕
-# @raycast.description Dark mode Toggle,
+# @raycast.description Toggle the system appearance, between light and dark mode. Works only for Windows platform.
 
 
 # Documentation:
