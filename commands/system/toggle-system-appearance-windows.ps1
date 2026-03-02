@@ -5,7 +5,7 @@
 # @raycast.packageName Toggle System Appearance
 
 # Optional parameters:
-# @raycast.platform Windows
+# @raycast.platform windows
 # @raycast.icon 🌑
 # @raycast.iconDark 🌕
 # @raycast.description Toggle the system appearance, between light and dark mode. Works only for Windows platform.
