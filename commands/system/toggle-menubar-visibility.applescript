@@ -6,7 +6,7 @@
 # @raycast.mode silent
 
 # Optional parameters:
-# @raycast.packageName Toggle Menu Bar Visibility
+# @raycast.packageName System
 
 # Documentation:
 # @raycast.description Toggles the visibility of the menubar.
