@@ -3,7 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Toggle Menu Bar Visibility
-# @raycast.mode compact
+# @raycast.mode silent
 
 # Optional parameters:
 # @raycast.packageName Toggle Menu Bar Visibility
