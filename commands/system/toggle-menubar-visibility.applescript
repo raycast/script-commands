@@ -10,7 +10,7 @@
 
 # Documentation:
 # @raycast.description Toggles the visibility of the menubar.
-# @raycast.author connorforsyth
+# @raycast.author Connor Forsyth
 # @raycast.authorURL https://raycast.com/connorforsyth
 
 
