@@ -1586,6 +1586,7 @@ This repository contains sample commands and documentation to write your own one
   | 🖥 | [Toggle Flip Screen <display> to <degree>°](system/toggle-flip-screen.template.applescript) | Toggle flip (rotate) or revert the <display> to <degree>° | [Yohanes Bandung Bondowoso](https://github.com/ybbond) |  | ✅ | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 👓 | [Toggle Hidden Files](system/toggle-hidden-files.applescript) | Show and hide hidden files/folders which starts with "." (dot), i.e: .bash_rc, .ssh | [Thiago Holanda](https://twitter.com/tholanda) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🐚 | [Toggle Lid Sleep](system/toggle-lid-sleep.sh) | Prevent sleep from closing laptop lid (clamshell mode) | [Ivan Rybalko](https://github.com/ivribalko) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🎛️ | [Toggle Menu Icons](system/toggle-menu-icons.sh) | Show or hide Tahoe menu icons | [chrismessina](https://raycast.com/chrismessina) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🖱 | [Toggle Natural Scrolling](system/toggle-natural-scrolling.applescript) | Script Command to change natural trackpad/mouse scrolling setting. Reverting the setting value each time. | [Wiley Marques](https://twitter.com/wileymarques) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🖱 | [Toggle Natural Scrolling (macOS 15+)](system/toggle-natural-scrolling-macos15.applescript) | Toggle natural trackpad/mouse scrolling setting for macOS 15.6.1+ | [Raphael-KR](https://github.com/Raphael-KR) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🌘 | [Toggle Night Shift](system/nightshift.sh) | Toggle Night Shift mode (until tomorrow/sunrise). Required [nightlight](https://github.com/smudge/nightlight) | [BhEaN](https://github.com/bhean) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
@@ -1639,6 +1640,7 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | 💊 | [BNF Search](web-searches/bnf-search.sh) | Search the British National Formulary (BNF) or BNFC directly. | [Jack Smith](https://github.com/myusualonewastaken) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 📦 | [Bundlephobia cost](web-searches/bundlephobia.sh) | N/A | [Zander Martineau](https://zander.wtf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | ❓ | [Caniuse.com search](web-searches/caniuse.sh) | N/A | [Zander Martineau](https://zander.wtf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🌦 | [Check Weather](web-searches/check-weather.sh) | N/A | [Jakub Lanski](https://github.com/jaklan) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |

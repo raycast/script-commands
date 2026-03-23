@@ -7215,6 +7215,34 @@
         {
           "authors" : [
             {
+              "name" : "chrismessina",
+              "url" : "https:\/\/raycast.com\/chrismessina"
+            }
+          ],
+          "createdAt" : "2026-03-21T16:02:55-07:00",
+          "currentDirectoryPath" : null,
+          "description" : "Show or hide Tahoe menu icons",
+          "filename" : "toggle-menu-icons.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🎛️"
+          },
+          "identifier" : "e7ee00b13d250e2b6aae1997dffb0078",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System Utilities",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle Menu Icons",
+          "updatedAt" : "2026-03-21T16:02:55-07:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -13415,6 +13443,34 @@
           "schemaVersion" : 1,
           "title" : "Unfurl URL",
           "updatedAt" : "2021-02-22T23:18:02+01:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Jack Smith",
+              "url" : "https:\/\/github.com\/myusualonewastaken"
+            }
+          ],
+          "createdAt" : "2025-12-11T11:25:46Z",
+          "currentDirectoryPath" : null,
+          "description" : "Search the British National Formulary (BNF) or BNFC directly.",
+          "filename" : "bnf-search.sh",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "💊"
+          },
+          "identifier" : "b11303b78fbb40ccb99f03c3f37cde21",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Medical",
+          "path" : "web-searches\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "BNF Search",
+          "updatedAt" : "2026-03-23T11:48:36Z"
         },
         {
           "authors" : [
@@ -24438,9 +24494,9 @@
       "name" : "ruby"
     },
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     },
     {
       "displayName" : "AppleScript",
@@ -24448,24 +24504,24 @@
       "name" : "applescript"
     },
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
     },
     {
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
-    },
-    {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 849,
-  "updatedAt" : "2025-11-28T17:08:40Z"
+  "totalScriptCommands" : 851,
+  "updatedAt" : "2026-03-23T11:48:36Z"
 }
