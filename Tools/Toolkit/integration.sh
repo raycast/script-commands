@@ -22,7 +22,7 @@ function commit_documentation() {
     
     if $extensions && $readme; then
       git add $extensions_path $readme_path
-      git commit -m "Update Script Commands documentation"
+      git commit -m "Update Script Commands documentation [skip ci]"
     fi
     
     exit 0;
@@ -34,7 +34,7 @@ function commit_executable() {
     exit 0;
   else
     git add -u
-    git commit -m "Set scripts as executable"
+    git commit -m "Set scripts as executable [skip ci]"
 
     exit 0;
   fi
