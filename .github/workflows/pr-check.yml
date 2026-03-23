@@ -1,0 +1,20 @@
+name: PR Check
+
+on:
+  pull_request:
+    branches: [master]
+    paths:
+      - 'Tools/Toolkit/**'
+
+jobs:
+  build:
+    runs-on: macos-15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Xcode
+        uses: raycast/github-actions/setup-xcode@xcode-26.3.x
+
+      - name: Build Toolkit
+        run: make build
