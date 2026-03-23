@@ -4,7 +4,7 @@
 # @raycast.mode compact
 
 # @raycast.icon ⬇️
-# @raycast.packageName Display
+# @raycast.packageName System
 # @raycast.description Decrease screen brightness by a given percentage.
 # @raycast.author muhammadrizo
 # @raycast.authorURL https://raycast.com/muhammadrizo
