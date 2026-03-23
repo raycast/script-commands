@@ -18,7 +18,7 @@ jobs:
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
       - name: Setup Xcode
-        uses: raycast/github-actions/setup-xcode@xcode-16.1.x
+        uses: raycast/github-actions/setup-xcode@xcode-26.3.x
 
       - name: Setup GIT
         uses: raycast/github-actions/setup-git@v1.1.0

@@ -35,7 +35,7 @@ enum Language {
     case "php":
       self = .php
     case "dotnet":
-      self = .cs
+      self = .dotnet
     default:
       self = .custom(value)
     }
@@ -57,7 +57,7 @@ enum Language {
       return "icon-nodejs.png"
     case .php:
       return "icon-php.png"
-    case .cs:
+    case .dotnet:
       return "icon-dotnet.png"
     default:
       return nil
@@ -80,7 +80,7 @@ enum Language {
       return "Node"
     case .php:
       return "PHP"
-    case .cs:
+    case .dotnet:
       return ".NET"
     case .custom(let name):
       return name
