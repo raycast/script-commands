@@ -13,7 +13,7 @@ enum Language {
   case swift
   case node
   case php
-  case dotnet
+  case cs
   case custom(String)
 
   init(_ rawValue: String) {
