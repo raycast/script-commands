@@ -2,6 +2,8 @@
 # @raycast.schemaVersion 1
 # @raycast.title Increase Brightness
 # @raycast.mode compact
+# @raycast.platform windows
+
 
 # @raycast.icon ⬆️
 # @raycast.packageName System
