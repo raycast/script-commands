@@ -85,6 +85,7 @@ This repository contains sample commands and documentation to write your own one
   - [Things](#things)
   - [Timing](#timing)
   - [Todoist](#todoist)
+  - [Tomighty](#tomighty)
   - [Translate Shell](#translate-shell)
   - [Trello](#trello)
   - [TunnelBlick](#tunnelblick)
@@ -671,6 +672,13 @@ This repository contains sample commands and documentation to write your own one
 | :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/todoist/images/todoist-logo.png" width="20" height="20"> | [Create Task](apps/todoist/create-task.template.sh) | Create Task | [Faris Aziz](https://github.com/farisaziz12) | ✅ | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/todoist/images/todoist-logo.png" width="20" height="20"> | [Get Tasks](apps/todoist/get-tasks.template.sh) | Gets All Todoist tasks | [Faris Aziz](https://github.com/farisaziz12) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Tomighty
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tomighty/images/tomighty.png" width="20" height="20"> | [Start Pomodoro](apps/tomighty/tomighty-start-pomodoro.applescript) | Start Pomodoro via Tomighty's default hotkey | [Marc Ignacio](https://github.com/padi) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tomighty/images/tomighty.png" width="20" height="20"> | [Stop Pomodoro](apps/tomighty/tomighty-stop-pomodoro.applescript) | Stop Pomodoro via Tomighty's default hotkey | [Marc Ignacio](https://github.com/padi) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 #### Translate Shell
 

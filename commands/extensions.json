@@ -16576,6 +16576,68 @@
           ]
         },
         {
+          "name" : "Tomighty",
+          "path" : "tomighty",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Marc Ignacio",
+                  "url" : "https:\/\/github.com\/padi"
+                }
+              ],
+              "createdAt" : "2026-02-27T15:30:03+08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Start Pomodoro via Tomighty's default hotkey",
+              "filename" : "tomighty-start-pomodoro.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/tomighty.png"
+              },
+              "identifier" : "97e34901025c6268451a6c2fef9f821c",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Tomighty",
+              "path" : "apps\/tomighty\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Start Pomodoro",
+              "updatedAt" : "2026-02-27T15:30:03+08:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Marc Ignacio",
+                  "url" : "https:\/\/github.com\/padi"
+                }
+              ],
+              "createdAt" : "2026-02-27T15:30:03+08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Stop Pomodoro via Tomighty's default hotkey",
+              "filename" : "tomighty-stop-pomodoro.applescript",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/tomighty.png"
+              },
+              "identifier" : "49be5c77762a6cef25419c26d267ddec",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Tomighty",
+              "path" : "apps\/tomighty\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Stop Pomodoro",
+              "updatedAt" : "2026-02-27T15:30:03+08:00"
+            }
+          ]
+        },
+        {
           "name" : "Baremetrics",
           "path" : "baremetrics",
           "scriptCommands" : [
@@ -24489,26 +24551,6 @@
   ],
   "languages" : [
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
-    },
-    {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
-    },
-    {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
-    },
-    {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
@@ -24517,11 +24559,31 @@
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
+    },
+    {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 851,
-  "updatedAt" : "2026-03-23T11:48:36Z"
+  "totalScriptCommands" : 853,
+  "updatedAt" : "2026-03-25T14:13:20Z"
 }
