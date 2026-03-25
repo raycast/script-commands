@@ -4900,6 +4900,34 @@
         {
           "authors" : [
             {
+              "name" : "muhammadrizo",
+              "url" : "https:\/\/raycast.com\/muhammadrizo"
+            }
+          ],
+          "createdAt" : "2026-03-22T13:18:36+05:00",
+          "currentDirectoryPath" : null,
+          "description" : "Decrease screen brightness by a given percentage.",
+          "filename" : "decrease-brightness-windows.ps1",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "⬇️"
+          },
+          "identifier" : "9d56add296710318ba9578b61c1b40b7",
+          "isTemplate" : false,
+          "language" : "pwsh\r",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Decrease Brightness",
+          "updatedAt" : "2026-03-25T14:22:10Z"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Yohanes Bandung Bondowoso",
               "url" : "https:\/\/github.com\/ybbond"
             }
@@ -5232,6 +5260,31 @@
           "schemaVersion" : 1,
           "title" : "Restart the Finder",
           "updatedAt" : "2021-03-09T10:35:42+01:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Connor Forsyth",
+              "url" : "https:\/\/raycast.com\/connorforsyth"
+            }
+          ],
+          "createdAt" : "2026-03-13T21:31:44+11:00",
+          "currentDirectoryPath" : null,
+          "description" : "Toggles the visibility of the menubar.",
+          "filename" : "toggle-menubar-visibility.applescript",
+          "hasArguments" : false,
+          "icon" : null,
+          "identifier" : "f968c79b2c5f308a565103ea235e9c4c",
+          "isTemplate" : false,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle Menu Bar",
+          "updatedAt" : "2026-03-25T14:22:10Z"
         },
         {
           "authors" : null,
@@ -7295,6 +7348,34 @@
           "schemaVersion" : 1,
           "title" : "Network Status",
           "updatedAt" : "2021-03-11T11:38:48-08:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "muhammadrizo",
+              "url" : "https:\/\/raycast.com\/muhammadrizo"
+            }
+          ],
+          "createdAt" : "2026-03-22T13:18:36+05:00",
+          "currentDirectoryPath" : null,
+          "description" : "Increase screen brightness by a given percentage.",
+          "filename" : "increase-brightness-windows.ps1",
+          "hasArguments" : true,
+          "icon" : {
+            "dark" : null,
+            "light" : "⬆️"
+          },
+          "identifier" : "52b0a7ff2733593d6cf10841ba6be7c2",
+          "isTemplate" : false,
+          "language" : "pwsh\r",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Increase Brightness",
+          "updatedAt" : "2026-03-25T14:22:10Z"
         },
         {
           "authors" : null,
@@ -24551,19 +24632,14 @@
   ],
   "languages" : [
     {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
-    },
-    {
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
     },
     {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
     },
     {
       "displayName" : "Ruby",
@@ -24571,19 +24647,28 @@
       "name" : "ruby"
     },
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
+      "displayName" : "pwsh\r",
+      "name" : "pwsh\r"
     },
     {
       "displayName" : "Node",
       "icon" : "icon-nodejs.png",
       "name" : "node"
+    },
+    {
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
+    },
+    {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 853,
-  "updatedAt" : "2026-03-25T14:13:20Z"
+  "totalScriptCommands" : 856,
+  "updatedAt" : "2026-03-25T14:22:10Z"
 }
