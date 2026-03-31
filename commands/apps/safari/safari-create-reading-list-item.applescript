@@ -8,7 +8,7 @@
 # Optional parameters:
 # @raycast.packageName Safari
 # @raycast.icon images/safari.png
-# @raycast.argument1 { "type": "text", "placeholder": "Link, use open for current page" }
+# @raycast.argument1 { "type": "text", "placeholder": "Link, use 'open' for current Safari page" }
 # @raycast.argument2 { "type": "text", "placeholder": "Title", "optional": true }
 
 # @Documentation:
