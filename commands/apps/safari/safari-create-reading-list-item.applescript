@@ -13,7 +13,10 @@
 
 # @Documentation:
 # @raycast.author Thomas Paul Mann
+# @raycast.author Thomas Paul Mann
 # @raycast.authorURL https://github.com/thomaspaulmann
+# @raycast.author JNBARY
+# @raycast.authorURL https://github.com/JNBARY
 # @raycast.description Add a new Reading List item with the given URL. Allows a custom title to be specified.
 
 on run argv
