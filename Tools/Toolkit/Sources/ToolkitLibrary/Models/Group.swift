@@ -7,6 +7,8 @@ import Foundation
 
 typealias Groups = [Group]
 
+// MARK: - Group
+
 struct Group: Codable {
   var name: String
   let path: String
@@ -15,7 +17,7 @@ struct Group: Codable {
   var subGroups: Groups?
 }
 
-// MARK: - MarkdownDescription Protocol
+// MARK: - MarkdownDescriptionProtocol
 
 extension Group: MarkdownDescriptionProtocol {
   var sectionTitle: String {
@@ -36,19 +38,19 @@ extension Group: MarkdownDescriptionProtocol {
     if let subGroups = group.subGroups?.sorted() {
       description += renderItem(
         for: group,
-        level: level
+        level: level,
       )
 
       for subGroup in subGroups {
         description += renderTree(
           for: subGroup,
-          level: level + 1
+          level: level + 1,
         )
       }
     } else {
       description += renderItem(
         for: group,
-        level: level
+        level: level,
       )
     }
 

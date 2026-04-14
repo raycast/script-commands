@@ -27,11 +27,11 @@ struct RaycastData: Codable {
   }
 
   init() {
-    self.groups = .init()
-    self.updatedAt = Date()
-    self.totalScriptCommands = 0
-    self.metadata = []
-    self.languages = []
+    groups = .init()
+    updatedAt = Date()
+    totalScriptCommands = 0
+    metadata = []
+    languages = []
   }
 
   init(from decoder: Decoder) throws {
@@ -45,15 +45,15 @@ struct RaycastData: Codable {
       let dateFormatter = DateFormatter()
       dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
 
-      self.updatedAt = dateFormatter.date(from: value) ?? Date()
+      updatedAt = dateFormatter.date(from: value) ?? Date()
     } else {
-      self.updatedAt = Date()
+      updatedAt = Date()
     }
 
     if let metadata = try container.decodeIfPresent([Metadata].self, forKey: .metadata) {
       self.metadata = metadata
     } else {
-      self.metadata = []
+      metadata = []
     }
   }
 }

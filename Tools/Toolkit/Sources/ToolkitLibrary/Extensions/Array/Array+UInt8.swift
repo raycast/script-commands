@@ -11,7 +11,7 @@ extension Array where Element == UInt8 {
 
     return Data(
       bytes: &array,
-      count: array.count
+      count: array.count,
     )
   }
 }

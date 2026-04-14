@@ -5,6 +5,8 @@
 
 import Foundation
 
+// MARK: - Metadata
+
 struct Metadata: Codable {
   let date: Date
   var identifiers: Identifiers

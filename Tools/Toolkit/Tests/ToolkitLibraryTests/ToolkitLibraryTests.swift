@@ -3,8 +3,8 @@
 //  Copyright (c) 2020-2021 Raycast. All rights reserved.
 //
 
-import XCTest
 import class Foundation.Bundle
+import XCTest
 
 final class ToolkitLibraryTests: XCTestCase {
   func testExample() throws {
@@ -28,16 +28,16 @@ final class ToolkitLibraryTests: XCTestCase {
   /// Returns path to the built products directory.
   var productsDirectory: URL {
     #if os(macOS)
-    for bundle in Bundle.allBundles where bundle.bundlePath.hasSuffix(".xctest") {
-      return bundle.bundleURL.deletingLastPathComponent()
-    }
-    fatalError("couldn't find the products directory")
+      for bundle in Bundle.allBundles where bundle.bundlePath.hasSuffix(".xctest") {
+        return bundle.bundleURL.deletingLastPathComponent()
+      }
+      fatalError("couldn't find the products directory")
     #else
-    return Bundle.main.bundleURL
+      return Bundle.main.bundleURL
     #endif
   }
 
-  static var allTests = [
+  @MainActor static var allTests = [
     ("testExample", testExample),
   ]
 }

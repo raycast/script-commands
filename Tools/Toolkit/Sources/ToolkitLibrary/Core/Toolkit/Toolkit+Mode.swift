@@ -9,7 +9,7 @@ extension Toolkit {
   public func setScriptCommandsAsExecutable() async throws {
     let content = try await readFolderContent(
       path: dataManager.extensionsPath,
-      ignoreFilesInDir: true
+      ignoreFilesInDir: true,
     )
 
     var scriptCommands = ScriptCommands()
@@ -18,7 +18,7 @@ extension Toolkit {
       filter(for: group, scriptCommands: &scriptCommands)
     }
 
-    let rawCount     = scriptCommands.count
+    let rawCount = scriptCommands.count
     var newModeCount = 0
 
     for scriptCommand in scriptCommands.sorted() {

@@ -15,11 +15,13 @@ extension Language {
       let language = Language(name)
 
       self.name = language.name
-      self.displayName = language.displayName
-      self.icon = language.icon
+      displayName = language.displayName
+      icon = language.icon
     }
   }
 }
+
+// MARK: - Language.Information + Hashable
 
 extension Language.Information: Hashable {
   func hash(into hasher: inout Hasher) {

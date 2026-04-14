@@ -11,10 +11,10 @@ enum ToolkitError: Swift.Error, CustomStringConvertible, LocalizedError {
 
   var description: String {
     switch self {
-    case .folderNotFound(let folder):
-      return "Folder not found. Expected: \(folder)"
-    case .fileNotFound(let file):
-      return "File \"\(file)\" not found"
+    case let .folderNotFound(folder):
+      "Folder not found. Expected: \(folder)"
+    case let .fileNotFound(file):
+      "File \"\(file)\" not found"
     }
   }
 }

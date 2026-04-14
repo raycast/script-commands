@@ -5,13 +5,15 @@
 
 import Foundation
 
+// MARK: - Console
+
 public final class Console: @unchecked Sendable {
   private enum ANSI {
-    static let bold   = "\u{001B}[1m"
-    static let red    = "\u{001B}[31m"
-    static let green  = "\u{001B}[32m"
+    static let bold = "\u{001B}[1m"
+    static let red = "\u{001B}[31m"
+    static let green = "\u{001B}[32m"
     static let yellow = "\u{001B}[33m"
-    static let reset  = "\u{001B}[0m"
+    static let reset = "\u{001B}[0m"
   }
 
   public static let shared = Console()
@@ -45,12 +47,18 @@ private extension Console {
   func write(_ message: String, color: String?, bold: Bool, endLine: Bool) {
     var output = ""
 
-    if bold { output += ANSI.bold }
-    if let c  = color { output += c }
+    if bold {
+      output += ANSI.bold
+    }
+    if let color {
+      output += color
+    }
 
     output += message
 
-    if bold || color != nil { output += ANSI.reset }
+    if bold || color != nil {
+      output += ANSI.reset
+    }
 
     if endLine {
       print(output)

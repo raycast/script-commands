@@ -7,6 +7,6 @@ import Foundation
 
 extension Data {
   var uint8Array: [UInt8] {
-    return [UInt8](self)
+    [UInt8](self)
   }
 }

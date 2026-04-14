@@ -11,7 +11,7 @@ extension UInt8 {
 
     return Data(
       bytes: &int,
-      count: MemoryLayout<UInt8>.size
+      count: MemoryLayout<UInt8>.size,
     )
   }
 }

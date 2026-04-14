@@ -5,11 +5,15 @@
 
 import Foundation
 
+// MARK: - GitError
+
 struct GitError: Error {
   let description: String
 }
 
-struct GitShell: Sendable {
+// MARK: - GitShell
+
+struct GitShell {
   func run(_ args: String..., path: URL) async throws -> String {
     try await withCheckedThrowingContinuation { continuation in
       let process = Process()
@@ -23,10 +27,10 @@ struct GitShell: Sendable {
       let stdoutPipe = Pipe()
       let stderrPipe = Pipe()
       process.standardOutput = stdoutPipe
-      process.standardError  = stderrPipe
+      process.standardError = stderrPipe
 
       process.terminationHandler = { proc in
-        let data   = stdoutPipe.fileHandleForReading.readDataToEndOfFile()
+        let data = stdoutPipe.fileHandleForReading.readDataToEndOfFile()
         let output = String(data: data, encoding: .utf8)?
           .trimmingCharacters(in: .newlines) ?? ""
 
@@ -35,8 +39,8 @@ struct GitShell: Sendable {
         } else {
           continuation.resume(
             throwing: GitError(
-              description: "git exited with status \(proc.terminationStatus)"
-            )
+              description: "git exited with status \(proc.terminationStatus)",
+            ),
           )
         }
       }

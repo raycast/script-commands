@@ -9,7 +9,7 @@ extension Dictionary where Key == String, Value: Any {
   func encodeToStruct<T: Decodable>() -> T? {
     do {
       let data = try JSONSerialization.data(
-        withJSONObject: self
+        withJSONObject: self,
       )
 
       let decoder = JSONDecoder()
