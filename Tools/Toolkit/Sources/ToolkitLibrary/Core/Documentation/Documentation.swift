@@ -4,17 +4,14 @@
 //
 
 import Foundation
-import TSCBasic
 
 final class Documentation {
-  private let fileSystem = TSCBasic.localFileSystem
-
-  private let path: AbsolutePath
+  private let path: URL
 
   private let markdownFilename: String
   private let jsonFilename: String
 
-  init(path: AbsolutePath, jsonFilename: String, markdownFilename: String) {
+  init(path: URL, jsonFilename: String, markdownFilename: String) {
     self.path             = path
     self.jsonFilename     = jsonFilename
     self.markdownFilename = markdownFilename
@@ -30,31 +27,19 @@ final class Documentation {
 
 private extension Documentation {
   func generateMarkdown(for raycastData: RaycastData) throws {
-    let documentFilePath = path.appending(
-      component: markdownFilename
-    )
+    let documentFilePath = path.appendingPathComponent(markdownFilename)
 
     guard let data = markdownData(for: raycastData) else {
       return
     }
 
-    try fileSystem.writeFileContents(
-      documentFilePath,
-      bytes: ByteString(data.uint8Array)
-    )
+    try data.write(to: documentFilePath, options: .atomic)
   }
 
   func generateJSON(for raycastData: RaycastData) throws {
-    let documentFilePath = path.appending(
-      component: jsonFilename
-    )
-
+    let documentFilePath = path.appendingPathComponent(jsonFilename)
     let data = try raycastData.toData()
-
-    try fileSystem.writeFileContents(
-      documentFilePath,
-      bytes: ByteString(data.uint8Array)
-    )
+    try data.write(to: documentFilePath, options: .atomic)
   }
 
   func markdownData(for raycastData: RaycastData) -> Data? {

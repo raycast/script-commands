@@ -4,71 +4,58 @@
 //
 
 import Foundation
-import TSCBasic
 
 extension Toolkit {
-  public func setScriptCommandsAsExecutable() throws {
-    var data = RaycastData()
-
-    try readFolderContent(
+  public func setScriptCommandsAsExecutable() async throws {
+    let content = try await readFolderContent(
       path: dataManager.extensionsPath,
-      parentGroups: &data.groups,
       ignoreFilesInDir: true
     )
 
     var scriptCommands = ScriptCommands()
 
-    data.groups.forEach { group in
-      filter(
-        for: group,
-        scriptCommands: &scriptCommands
-      )
+    content.subGroups.forEach { group in
+      filter(for: group, scriptCommands: &scriptCommands)
     }
 
-    let rawCount = scriptCommands.count
+    let rawCount     = scriptCommands.count
     var newModeCount = 0
 
-    scriptCommands.sorted().forEach { scriptCommand in
-      let filePath = dataManager.extensionsPath.appending(RelativePath(scriptCommand.fullPath))
+    for scriptCommand in scriptCommands.sorted() {
+      let filePath = dataManager.extensionsPath
+        .appendingPathComponent(scriptCommand.fullPath)
 
       do {
-        try fileSystem.chmod(.executable, path: filePath)
+        try filePath.setExecutable()
         newModeCount += 1
       } catch {
-        return
+        continue
       }
     }
-
-    let console = Console(noColor: false)
 
     Toolkit.raycastDescription()
 
     if newModeCount > 0 {
-      console.write("Result:", endLine: false)
-      console.writeYellow(" \(newModeCount) ", bold: true, endLine: false)
-      console.write("of", endLine: false)
-      console.writeGreen(" \(rawCount) ", bold: true, endLine: false)
-      console.write("Script Commands was set as \"executable\".")
+      Console.shared.write("Result:", endLine: false)
+      Console.shared.writeYellow(" \(newModeCount) ", bold: true, endLine: false)
+      Console.shared.write("of", endLine: false)
+      Console.shared.writeGreen(" \(rawCount) ", bold: true, endLine: false)
+      Console.shared.write("Script Commands was set as \"executable\".")
     } else {
-      console.write("✅ Nothing to be done.")
+      Console.shared.write("✅ Nothing to be done.")
     }
   }
 }
 
 private extension Toolkit {
   func filter(for group: Group, scriptCommands: inout ScriptCommands) {
-    if group.scriptCommands.isEmpty == false {
-      for scriptCommand in group.scriptCommands where scriptCommand.isExecutable == false {
-        scriptCommands.append(scriptCommand)
-      }
+    for scriptCommand in group.scriptCommands where !scriptCommand.isExecutable {
+      scriptCommands.append(scriptCommand)
     }
 
     if let subGroups = group.subGroups {
       for subGroup in subGroups {
-        filter(
-          for: subGroup,
-          scriptCommands: &scriptCommands
-        )
+        filter(for: subGroup, scriptCommands: &scriptCommands)
       }
     }
   }

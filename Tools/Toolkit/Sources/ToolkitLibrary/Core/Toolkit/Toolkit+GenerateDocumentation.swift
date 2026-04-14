@@ -4,7 +4,6 @@
 //
 
 import Foundation
-import TSCBasic
 
 extension Toolkit {
   public func generateDocumentation(outputJSONFilename: String, outputMarkdownFilename: String) throws {
