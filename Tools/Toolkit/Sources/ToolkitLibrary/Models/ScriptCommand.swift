@@ -26,6 +26,7 @@ struct ScriptCommand: Codable {
   let createdAt: String
   let updatedAt: String
   var path: String
+  let platform: Platform?
 
   private(set) var isExecutable: Bool = false
 
@@ -48,6 +49,7 @@ struct ScriptCommand: Codable {
     case createdAt
     case updatedAt
     case path
+    case platform
   }
 
   var iconDescription: String {
@@ -121,6 +123,7 @@ extension ScriptCommand {
     self.needsConfirmation      = try container.decodeIfPresent(Bool.self, forKey: .needsConfirmation)
     self.refreshTime            = try container.decodeIfPresent(String.self, forKey: .refreshTime)
     self.authors                = try container.decodeIfPresent(Authors.self, forKey: .authors)
+    platform = try container.decodeIfPresent(Platform.self, forKey: .platform)
   }
 
   func encode(to encoder: Encoder) throws {
@@ -144,6 +147,7 @@ extension ScriptCommand {
     try container.encode(createdAt, forKey: .createdAt)
     try container.encode(updatedAt, forKey: .updatedAt)
     try container.encode(path, forKey: .path)
+    try container.encodeIfPresent(platform, forKey: .platform)
   }
 }
 
@@ -178,16 +182,13 @@ extension ScriptCommand: MarkdownDescriptionProtocol {
       details = value.replacingOccurrences(of: "|", with: #"\|"#)
     }
 
-    let language = Language(self.language).markdownDescription
+    let language = Language(language).markdownDescription
+    let platformDisplay = (platform ?? .macOS).markdownDescription
     let scriptPath = "\(path)\(filename)"
 
-    let header = """
-      | \(iconDescription) | [\(title)](\(scriptPath)) | \(details) | \(author) | \(hasArguments ? "✅" : "") | \(isTemplate ? "✅" : "") | \(language) |
-    """
+    let header = "| \(iconDescription) | [\(title)](\(scriptPath)) | \(details) | \(author) | \(hasArguments ? "✅" : "") | \(isTemplate ? "✅" : "") | \(language) | \(platformDisplay) |"
 
-    content += .newLine + header
-
-    return content
+    return .newLine + header
   }
 
   var sectionTitle: String {

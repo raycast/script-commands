@@ -101,8 +101,8 @@ private extension Documentation {
       }
 
       contentString += .newLine
-      contentString += .newLine + "| Icon | Title | Description | Author | Args | Templ | Lang |"
-      contentString += .newLine + "| :--: | ----- | ----------- | :----: | :--: | :---: | :--: |"
+      contentString += .newLine + "| Icon | Title | Description | Author | Args | Templ | Lang | Platform |"
+      contentString += .newLine + "| :--: | ----- | ----------- | :----: | :--: | :---: | :--: | :------: |"
 
       for scriptCommand in group.scriptCommands.sorted() {
         contentString += scriptCommand.markdownDescription

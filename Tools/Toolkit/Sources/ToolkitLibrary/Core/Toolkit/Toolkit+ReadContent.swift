@@ -208,6 +208,11 @@ extension Toolkit {
       dictionary.merge(keyValue) { $1 }
     }
 
+    // Normalize platform value to lowercase for case-insensitive enum matching
+    if let platformValue = dictionary["platform"] as? String {
+      dictionary["platform"] = platformValue.lowercased()
+    }
+
     return dictionary
   }
 
