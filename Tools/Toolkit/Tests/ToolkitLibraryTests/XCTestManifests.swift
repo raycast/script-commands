@@ -1,6 +1,6 @@
 //
-//  MIT License
-//  Copyright (c) 2020-2021 Raycast. All rights reserved.
+// MIT License
+// Copyright (c) 2020-2026 Raycast. All rights reserved.
 //
 
 import XCTest

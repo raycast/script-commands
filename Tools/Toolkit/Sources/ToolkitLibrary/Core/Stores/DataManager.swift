@@ -46,7 +46,7 @@ public actor DataManager {
 
   func addLanguage(_ language: String) {
     data.languages.insert(
-      Language.Information(name: language)
+      Language.Information(name: language),
     )
   }
 
