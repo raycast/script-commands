@@ -1,13 +1,12 @@
 //
-//  MIT License
-//  Copyright (c) 2020-2021 Raycast. All rights reserved.
+// MIT License
+// Copyright (c) 2020-2026 Raycast. All rights reserved.
 //
 
-import TSCBasic
+import Foundation
 
-public final class DataManager {
+public actor DataManager {
   private var total: Int = 0 {
-    // FIXME: Data racing
     didSet {
       data.totalScriptCommands = total
     }
@@ -15,33 +14,30 @@ public final class DataManager {
 
   var data = RaycastData()
 
-  let extensionsFilePath: AbsolutePath
-  let extensionsPath: AbsolutePath
-
-  let fileSystem: FileSystem
+  let extensionsFilePath: URL
+  let extensionsPath: URL
   let ignoreGitInformation: Bool
 
   var isMetadataEmpty: Bool {
     data.metadata.isEmpty
   }
 
-  var extensionsPathString: String {
-    extensionsPath.pathString
+  nonisolated var extensionsPathString: String {
+    extensionsPath.path
   }
 
-  public init(extensionsPath: String, extensionsFilename: String = "") throws {
-    let fileSystem          = TSCBasic.localFileSystem
-    let path                = fileSystem.absolutePath(for: extensionsPath)
-    let extensionsFilePath  = path.appending(RelativePath(extensionsFilename))
+  public init(extensionsPath path: String, extensionsFilename: String = "") throws {
+    let resolvedPath = URL.resolvingPath(path)
 
-    guard fileSystem.exists(path) else {
-      throw ToolkitError.folderNotFound(path.pathString)
+    guard resolvedPath.isDirectory else {
+      throw ToolkitError.folderNotFound(resolvedPath.path)
     }
 
-    self.fileSystem           = fileSystem
-    self.extensionsPath       = path
-    self.extensionsFilePath   = extensionsFilePath
-    self.ignoreGitInformation = extensionsFilename.isEmpty
+    extensionsPath = resolvedPath
+    extensionsFilePath = extensionsFilename.isEmpty
+      ? resolvedPath
+      : resolvedPath.appendingPathComponent(extensionsFilename)
+    ignoreGitInformation = extensionsFilename.isEmpty
   }
 
   func increaseTotal() {
@@ -54,16 +50,22 @@ public final class DataManager {
     )
   }
 
-  func loadContent() {
-    if let byteString = try? fileSystem.readFileContents(extensionsPath) {
-      let data = byteString.contents.data
+  func setGroups(_ groups: Groups) {
+    data.groups = groups
+  }
 
-      do {
-        self.data = try data.decode()
-      } catch {
-        self.data = RaycastData()
-      }
-    } else {
+  func loadContent() {
+    guard
+      !ignoreGitInformation,
+      let fileData = try? Data(contentsOf: extensionsFilePath)
+    else {
+      data = RaycastData()
+      return
+    }
+
+    do {
+      data = try fileData.decode()
+    } catch {
       data = RaycastData()
     }
   }

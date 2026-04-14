@@ -6,5 +6,5 @@
 import Foundation
 
 extension Character {
-  static var newLine = Character(.newLine)
+  static let newLine = Character(.newLine)
 }

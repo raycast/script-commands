@@ -1,147 +1,146 @@
 //
-//  MIT License
-//  Copyright (c) 2020-2021 Raycast. All rights reserved.
+// MIT License
+// Copyright (c) 2020-2026 Raycast. All rights reserved.
 //
 
 import Foundation
-import TSCBasic
 
 extension Toolkit {
-  typealias FolderContent = (scriptCommands: ScriptCommands, readmePath: String?, groupName: String)
+  typealias FolderContent = (
+    scriptCommands: ScriptCommands,
+    readmePath: String?,
+    groupName: String,
+    subGroups: Groups,
+  )
 
-  @discardableResult
-  func readFolderContent(path: AbsolutePath, parentGroups: inout Groups, ignoreFilesInDir: Bool = false) throws -> FolderContent {
-    var scriptCommands = ScriptCommands()
+  func readFolderContent(path: URL, ignoreFilesInDir: Bool = false) async throws -> FolderContent {
+    let directories = onlyDirectories(at: path)
+      .filter { !blockedFolderList.contains($0.lastPathComponent) }
 
-    for directory in onlyDirectories(at: path) {
-      guard blockedFolderList.contains(directory.basename) == false else {
-        continue
+    // Process subdirectories concurrently
+    let subGroups: Groups = try await withThrowingTaskGroup(of: Group?.self) { taskGroup in
+      for directory in directories {
+        taskGroup.addTask {
+          let content = try await self.readFolderContent(path: directory)
+
+          var group = Group(
+            name: directory.socialBasename,
+            path: directory.lastPathComponent,
+          )
+
+          if !content.groupName.isEmpty,
+             content.groupName.lowercased() == group.name.lowercased() {
+            group.name = content.groupName
+          }
+
+          if !content.scriptCommands.isEmpty {
+            group.scriptCommands = content.scriptCommands
+          }
+
+          if !content.subGroups.isEmpty {
+            group.subGroups = content.subGroups
+          }
+
+          if let readmePath = content.readmePath {
+            group.readme = readmePath
+          }
+
+          guard !content.scriptCommands.isEmpty || !content.subGroups.isEmpty else {
+            return nil
+          }
+
+          return group
+        }
       }
 
-      var group = Group(
-        name: directory.socialBasename,
-        path: directory.basenameWithoutExt
-      )
-
-      var subGroups = Groups()
-
-      let (scriptCommands, readmePath, groupName) = try readFolderContent(path: directory, parentGroups: &subGroups)
-
-      if groupName.isEmpty == false, groupName.lowercased() == group.name.lowercased() {
-        group.name = groupName
+      var results = Groups()
+      for try await group in taskGroup {
+        if let group {
+          results.append(group)
+        }
       }
-
-      if scriptCommands.isEmpty == false {
-        group.scriptCommands = scriptCommands
-      }
-
-      if subGroups.isEmpty == false {
-        group.subGroups = subGroups
-      }
-
-      if let readmePath = readmePath {
-        group.readme = readmePath
-      }
-
-      if scriptCommands.isEmpty == false || subGroups.isEmpty == false {
-        parentGroups.append(group)
-      }
+      return results
     }
 
-    let directoryFiles = onlyFiles(at: path)
-
+    var scriptCommands = ScriptCommands()
     var groupName = ""
     var readmePath: String?
 
-    for file in directoryFiles where directoryFiles.isEmpty == false {
-      guard ignoreFilesInDir == false else {
-        continue
-      }
+    if !ignoreFilesInDir {
+      for file in onlyFiles(at: path) {
+        let ext = file.pathExtension
 
-      guard
-        let fileExtension = file.extension,
-        blockedFilesExtensionsList.contains(fileExtension) == false else {
-        continue
-      }
-
-      if file.basenameWithoutExt.lowercased() == "readme" {
-        guard let fileContent = readContentFile(from: file), fileContent.count > 0 else {
+        guard !ext.isEmpty, !blockedFilesExtensionsList.contains(ext) else {
           continue
         }
 
-        let pathCount = dataManager.extensionsPathString.count + 1
-        readmePath = String(file.pathString.dropFirst(pathCount))
-      } else if var scriptCommand = readScriptCommand(from: file) {
-        // This is to avoid data racing
-        DispatchQueue.global(qos: .userInitiated).async {
-          self.dataManager.increaseTotal()
-          self.dataManager.addLanguage(scriptCommand.language)
+        if file.deletingPathExtension().lastPathComponent.lowercased() == "readme" {
+          guard let content = readContentFile(from: file), !content.isEmpty else {
+            continue
+          }
+          let pathCount = dataManager.extensionsPathString.count + 1
+          readmePath = String(file.path.dropFirst(pathCount))
+        } else if var scriptCommand = await readScriptCommand(from: file) {
+          await dataManager.increaseTotal()
+          await dataManager.addLanguage(scriptCommand.language)
+
+          scriptCommand.configure(isExecutable: file.isExecutableFile)
+
+          if let packageName = scriptCommand.packageName {
+            groupName = packageName
+          }
+
+          scriptCommands.append(scriptCommand)
         }
-
-        scriptCommand.configure(
-          isExecutable: fileSystem.isExecutableFile(file)
-        )
-
-        if let packageName = scriptCommand.packageName {
-          groupName = packageName
-        }
-
-        scriptCommands.append(scriptCommand)
       }
     }
 
     return (
       scriptCommands: scriptCommands,
       readmePath: readmePath,
-      groupName: groupName
+      groupName: groupName,
+      subGroups: subGroups,
     )
   }
 
-  func readContentFile(from path: AbsolutePath) -> String? {
-    guard let byteString = try? fileSystem.readFileContents(path) else {
+  func readContentFile(from url: URL) -> String? {
+    guard let data = try? Data(contentsOf: url) else {
       return nil
     }
-
-    let data = byteString.contents.data
-    let content = String(data: data, encoding: .utf8)
-
-    return content
+    return String(data: data, encoding: .utf8)
   }
 
-  func extractGitDates(from filePath: AbsolutePath) -> [String]? {
+  func extractGitDates(from fileURL: URL) async -> [String]? {
     do {
-      let dates = try git.run(
-        "log", "--format=%aI", "--follow", filePath.basename,
-        path: filePath
+      let dates = try await git.run(
+        "log", "--format=%aI", "--follow", fileURL.lastPathComponent,
+        path: fileURL,
       )
-
       return dates.splitByNewLine
     } catch {
       return nil
     }
   }
 
-  func readScriptCommand(from filePath: AbsolutePath) -> ScriptCommand? {
-    guard fileSystem.isFile(filePath) else {
+  func readScriptCommand(from fileURL: URL) async -> ScriptCommand? {
+    guard fileURL.isFile else {
       return nil
     }
 
-    guard let fileContent = readContentFile(from: filePath) else {
+    guard let fileContent = readContentFile(from: fileURL) else {
       return nil
     }
 
-    let dictionary = keyValue(
+    let dictionary = await keyValue(
       for: fileContent,
-      filename: filePath.basename,
-      path: filePath
+      filename: fileURL.lastPathComponent,
+      fileURL: fileURL,
     )
 
-    return ScriptCommand(
-      from: dictionary
-    )
+    return ScriptCommand(from: dictionary)
   }
 
-  func keyValue(for content: String, filename: String, path: AbsolutePath) -> [String: Any] {
+  func keyValue(for content: String, filename: String, fileURL: URL) async -> [String: Any] {
     let filenameKey = ScriptCommand.CodingKeys.filename.rawValue
     let packageNameKey = ScriptCommand.CodingKeys.packageName.rawValue
 
@@ -149,15 +148,15 @@ extension Toolkit {
     dictionary[filenameKey] = filename
 
     let pathCount = dataManager.extensionsPathString.count + 1
-    let scriptPath = path.dirname.dropFirst(pathCount)
+    let parentDir = fileURL.deletingLastPathComponent().path
+    let scriptPath = String(parentDir.dropFirst(pathCount))
     dictionary["path"] = "\(scriptPath)/"
 
-    if dataManager.ignoreGitInformation == false {
-      if let dates = extractGitDates(from: path), dates.isEmpty == false {
-        if let updateAt = dates.first {
-          dictionary["updatedAt"] = updateAt
+    if !dataManager.ignoreGitInformation {
+      if let dates = await extractGitDates(from: fileURL), !dates.isEmpty {
+        if let updatedAt = dates.first {
+          dictionary["updatedAt"] = updatedAt
         }
-
         if let createdAt = dates.last {
           dictionary["createdAt"] = createdAt
         }
@@ -170,7 +169,8 @@ extension Toolkit {
     dictionary["isTemplate"] = filename.contains("template")
 
     if dictionary[packageNameKey] == nil {
-      dictionary[packageNameKey] = path.basenameWithoutExt.sanitize.capitalized
+      dictionary[packageNameKey] = fileURL.deletingPathExtension().lastPathComponent
+        .sanitize.capitalized
     }
 
     return dictionary
@@ -187,12 +187,12 @@ extension Toolkit {
     }
 
     let authors = extractAuthors(from: content, using: results)
-    if authors.isEmpty == false {
+    if !authors.isEmpty {
       dictionary["authors"] = authors
     }
 
     let icons = extractIcons(from: content, using: results)
-    if icons.isEmpty == false {
+    if !icons.isEmpty {
       dictionary["icon"] = icons
     }
 
@@ -201,7 +201,7 @@ extension Toolkit {
     for result in results {
       let keyValue = readKeyValue(from: result, content: content)
 
-      guard keyValue.authorKeys == false && keyValue.iconKeys == false else {
+      guard !keyValue.authorKeys, !keyValue.iconKeys else {
         continue
       }
 
@@ -241,25 +241,20 @@ extension Toolkit {
         : values.first ?? ""
     }
 
-    let language = Language(String(software))
+    let name = String(software).trimmedString
+    let language = Language(name)
 
     return language.name
   }
 
   func extractArguments(from content: String, using results: NSTextCheckingResults) -> Bool {
-    var hasArguments = false
-
     for result in results {
       let dictionary = readKeyValue(from: result, content: content)
-
-      guard dictionary.argumentsKeys else {
-        continue
+      if dictionary.argumentsKeys {
+        return true
       }
-
-      hasArguments = true
     }
-
-    return hasArguments
+    return false
   }
 
   func extractIcons(from content: String, using results: NSTextCheckingResults) -> [String: String] {
@@ -304,11 +299,7 @@ extension Toolkit {
           continue
         }
 
-        guard authors.contains(
-          where: {
-            $0[key] == value
-          }
-        ) == false else {
+        guard !authors.contains(where: { $0[key] == value }) else {
           currentAuthor = [:]
           continue
         }
@@ -331,7 +322,8 @@ extension Toolkit {
     let keyRange = result.range(withName: "key")
     let valueRange = result.range(withName: "value")
 
-    if let key = self.content(of: keyRange, on: content), let value = self.content(of: valueRange, on: content) {
+    if let key = self.content(of: keyRange, on: content),
+       let value = self.content(of: valueRange, on: content) {
       if let intValue = Int(value) {
         dictionary[key] = intValue
       } else if let boolValue = Bool(value) {
@@ -345,17 +337,17 @@ extension Toolkit {
   }
 
   func content(of range: NSRange, on content: String) -> String? {
-    var value: String?
-
-    if range.location != NSNotFound, range.length > 0, let rangeString = Range<String.Index>(range, in: content) {
-      value = String(content[rangeString])
+    guard range.location != NSNotFound,
+          range.length > 0,
+          let rangeString = Range<String.Index>(range, in: content)
+    else {
+      return nil
     }
-
-    return value
+    return String(content[rangeString])
   }
 }
 
-// MARK: - Filter Extensions
+// MARK: - Filter Helpers
 
 private extension Toolkit {
   enum ContentDirType {
@@ -363,40 +355,31 @@ private extension Toolkit {
     case files
   }
 
-  func onlyFiles(at path: AbsolutePath) -> [AbsolutePath] {
-    return folderContent(type: .files, for: path)
+  func onlyFiles(at path: URL) -> [URL] {
+    folderContent(type: .files, for: path)
   }
 
-  func onlyDirectories(at path: AbsolutePath) -> [AbsolutePath] {
-    return folderContent(type: .directories, for: path)
+  func onlyDirectories(at path: URL) -> [URL] {
+    folderContent(type: .directories, for: path)
   }
 
-  func folderContent(type: ContentDirType, for path: AbsolutePath) -> [AbsolutePath] {
-    do {
-      let directoryContent = try fileSystem.getDirectoryContents(path)
-
-      let pathsForType: [AbsolutePath] = directoryContent.compactMap {
-        let contentPath = path.appending(component: $0)
-
-        guard check(type, for: contentPath) else {
-          return nil
-        }
-
-        return contentPath
-      }
-
-      return pathsForType
-    } catch {
+  func folderContent(type: ContentDirType, for path: URL) -> [URL] {
+    guard let contents = try? FileManager.default.contentsOfDirectory(
+      at: path,
+      includingPropertiesForKeys: [.isDirectoryKey, .isRegularFileKey],
+      options: [.skipsHiddenFiles],
+    )
+    else {
       return []
     }
+
+    return contents.filter { check(type, for: $0) }
   }
 
-  private func check(_ type: ContentDirType, for path: AbsolutePath) -> Bool {
+  func check(_ type: ContentDirType, for url: URL) -> Bool {
     switch type {
-    case .directories:
-      return fileSystem.isDirectory(path)
-    case .files:
-      return fileSystem.isFile(path)
+    case .directories: url.isDirectory
+    case .files: url.isFile
     }
   }
 }
@@ -406,33 +389,24 @@ private extension Toolkit {
 private extension Dictionary where Key == String {
   var authorKeys: Bool {
     typealias Keys = ScriptCommand.Author.InputCodingKeys
-    let authorNameKey = Keys.name.rawValue
-    let authorURLKey = Keys.url.rawValue
-
     guard let key = keys.first else {
       return false
     }
-
-    return key == authorNameKey || key == authorURLKey
+    return key == Keys.name.rawValue || key == Keys.url.rawValue
   }
 
   var iconKeys: Bool {
     typealias Keys = ScriptCommand.Icon.InputCodingKeys
-    let iconKey = Keys.icon.rawValue
-    let iconDarkKey = Keys.iconDark.rawValue
-
     guard let key = keys.first else {
       return false
     }
-
-    return key == iconKey || key == iconDarkKey
+    return key == Keys.icon.rawValue || key == Keys.iconDark.rawValue
   }
 
   var argumentsKeys: Bool {
     guard let key = keys.first else {
       return false
     }
-
     return key == "argument1" || key == "argument2" || key == "argument3"
   }
 }

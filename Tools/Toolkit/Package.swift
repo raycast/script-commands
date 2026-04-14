@@ -14,12 +14,12 @@ let package = Package(
     ),
   ],
   targets: [
-    .target(
+    .executableTarget(
       name: "Toolkit",
       dependencies: [
         "ToolkitLibrary",
         .product(name: "ArgumentParser", package: "swift-argument-parser"),
-      ]
+      ],
     ),
     .target(
       name: "ToolkitLibrary",
@@ -27,6 +27,8 @@ let package = Package(
     ),
     .testTarget(
       name: "ToolkitLibraryTests",
-      dependencies: ["ToolkitLibrary"]),
-  ]
+      dependencies: ["ToolkitLibrary"],
+    ),
+  ],
+  swiftLanguageModes: [.v6],
 )
