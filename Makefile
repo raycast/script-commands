@@ -42,7 +42,7 @@ set-executable-and-commit: set-executable
 .PHONY: lint
 lint:
 	@echo "Linting code format with SwiftLint"
-	@swiftlint lint --config $(TOOLKIT_PATH)/.swiftlint.yml
+	@swiftlint $(TOOLKIT_PATH) --config $(TOOLKIT_PATH)/.swiftlint.yml
 
 .PHONY: fix
 fix:
