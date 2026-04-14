@@ -47,7 +47,7 @@ lint:
 .PHONY: fix
 fix:
 	@echo "Fixing code format with SwiftLint"
-	@swiftlint --fix
+	@swiftlint $(TOOLKIT_PATH) --fix  --config $(TOOLKIT_PATH)/.swiftlint.yml
 
 .PHONY: format
 format:
