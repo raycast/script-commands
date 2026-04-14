@@ -24647,10 +24647,6 @@
       "name" : "ruby"
     },
     {
-      "displayName" : "pwsh\r",
-      "name" : "pwsh\r"
-    },
-    {
       "displayName" : "Node",
       "icon" : "icon-nodejs.png",
       "name" : "node"
