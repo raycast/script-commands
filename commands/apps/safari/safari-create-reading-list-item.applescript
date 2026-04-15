@@ -8,18 +8,27 @@
 # Optional parameters:
 # @raycast.packageName Safari
 # @raycast.icon images/safari.png
-# @raycast.argument1 { "type": "text", "placeholder": "Link" }
+# @raycast.argument1 { "type": "text", "placeholder": "Link, use 'open' for current Safari page" }
 # @raycast.argument2 { "type": "text", "placeholder": "Title", "optional": true }
 
 # @Documentation:
 # @raycast.author Thomas Paul Mann
+# @raycast.author Thomas Paul Mann
 # @raycast.authorURL https://github.com/thomaspaulmann
+# @raycast.author JNBARY
+# @raycast.authorURL https://github.com/JNBARY
 # @raycast.description Add a new Reading List item with the given URL. Allows a custom title to be specified.
 
 on run argv
   try
     set linkArgument to item 1 of argv as text
     set titleArgument to item 2 of argv as text
+
+    if linkArgument is equal to "open" then
+      tell application "Safari"
+        set linkArgument to URL of current tab of window 1 as text
+      end tell
+    end if
 
     if titleArgument is equal to "" then
       tell application "Safari" to add reading list item linkArgument
