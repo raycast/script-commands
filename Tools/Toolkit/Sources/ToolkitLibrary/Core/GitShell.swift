@@ -30,16 +30,18 @@ struct GitShell {
       process.standardError = stderrPipe
 
       process.terminationHandler = { proc in
-        let data = stdoutPipe.fileHandleForReading.readDataToEndOfFile()
-        let output = String(data: data, encoding: .utf8)?
+        let output = String(data: stdoutPipe.fileHandleForReading.readDataToEndOfFile(), encoding: .utf8)?
           .trimmingCharacters(in: .newlines) ?? ""
 
         if proc.terminationStatus == 0 {
           continuation.resume(returning: output)
         } else {
+          let stderr = String(data: stderrPipe.fileHandleForReading.readDataToEndOfFile(), encoding: .utf8)?
+            .trimmingCharacters(in: .whitespacesAndNewlines) ?? ""
+          let detail = stderr.isEmpty ? "no output" : stderr
           continuation.resume(
             throwing: GitError(
-              description: "git exited with status \(proc.terminationStatus)",
+              description: "git exited with status \(proc.terminationStatus): \(detail)",
             ),
           )
         }
