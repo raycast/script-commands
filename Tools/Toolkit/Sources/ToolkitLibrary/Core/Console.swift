@@ -7,7 +7,7 @@ import Foundation
 
 // MARK: - Console
 
-public final class Console: @unchecked Sendable {
+public final class Console: Sendable {
   private enum ANSI {
     static let bold = "\u{001B}[1m"
     static let red = "\u{001B}[31m"
