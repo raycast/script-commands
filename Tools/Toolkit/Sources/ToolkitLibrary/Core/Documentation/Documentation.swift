@@ -64,7 +64,7 @@ private extension Documentation {
     <!-- AUTO GENERATED FILE. DO NOT EDIT. -->
     \(renderBadges())
 
-    # Awesome Script Commands
+    # Raycast Script Commands
 
     [Raycast](https://raycast.com) lets you control your tools with a few keystrokes
     and Script Commands makes it possible to execute scripts from anywhere on your desktop.
