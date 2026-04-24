@@ -59,7 +59,7 @@ extension Toolkit {
           results.append(group)
         }
       }
-      return results
+      return results.sorted()
     }
 
     var scriptCommands = ScriptCommands()
@@ -95,7 +95,7 @@ extension Toolkit {
     }
 
     return (
-      scriptCommands: scriptCommands,
+      scriptCommands: scriptCommands.sorted(),
       readmePath: readmePath,
       groupName: groupName,
       subGroups: subGroups,
