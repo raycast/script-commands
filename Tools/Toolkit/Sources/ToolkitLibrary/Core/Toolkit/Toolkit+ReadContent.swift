@@ -78,8 +78,7 @@ extension Toolkit {
           guard let content = readContentFile(from: file), !content.isEmpty else {
             continue
           }
-          let pathCount = dataManager.extensionsPathString.count + 1
-          readmePath = String(file.path.dropFirst(pathCount))
+          readmePath = file.relativePath(from: dataManager.extensionsPath)
         } else if var scriptCommand = await readScriptCommand(from: file) {
           await dataManager.increaseTotal()
           await dataManager.addLanguage(scriptCommand.language)
@@ -147,9 +146,7 @@ extension Toolkit {
     var dictionary = readKeyValues(of: content)
     dictionary[filenameKey] = filename
 
-    let pathCount = dataManager.extensionsPathString.count + 1
-    let parentDir = fileURL.deletingLastPathComponent().path
-    let scriptPath = String(parentDir.dropFirst(pathCount))
+    let scriptPath = fileURL.deletingLastPathComponent().relativePath(from: dataManager.extensionsPath)
     dictionary["path"] = "\(scriptPath)/"
 
     if !dataManager.ignoreGitInformation {

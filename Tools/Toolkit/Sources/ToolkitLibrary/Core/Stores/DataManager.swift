@@ -22,10 +22,6 @@ public actor DataManager {
     data.metadata.isEmpty
   }
 
-  nonisolated var extensionsPathString: String {
-    extensionsPath.path
-  }
-
   public init(extensionsPath path: String, extensionsFilename: String = "") throws {
     let resolvedPath = URL.resolvingPath(path)
 

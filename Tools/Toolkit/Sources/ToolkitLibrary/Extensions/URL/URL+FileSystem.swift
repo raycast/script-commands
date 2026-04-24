@@ -35,6 +35,16 @@ extension URL {
     )
   }
 
+  /// Returns the path of `self` relative to `base`, with both sides standardized
+  /// so that `./`-prefixed or symlinked inputs produce the same result.
+  func relativePath(from base: URL) -> String {
+    let basePath = base.standardized.path
+    let selfPath = standardized.path
+    guard selfPath.hasPrefix(basePath) else { return selfPath }
+    let stripped = selfPath.dropFirst(basePath.count)
+    return String(stripped.hasPrefix("/") ? stripped.dropFirst() : stripped)
+  }
+
   /// Resolves a path string to an absolute URL.
   /// Handles absolute paths, tilde-prefixed paths, and relative-to-cwd paths.
   static func resolvingPath(_ path: String) -> URL {
