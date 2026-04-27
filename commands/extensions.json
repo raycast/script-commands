@@ -5396,6 +5396,34 @@
         {
           "authors" : [
             {
+              "name" : "elstgav",
+              "url" : "https:\/\/github.com\/elstgav"
+            }
+          ],
+          "createdAt" : "2026-04-27T00:54:10-07:00",
+          "currentDirectoryPath" : null,
+          "description" : "Toggle between \"regular\" quotes and auto-substituted \"smart\" quotes.",
+          "filename" : "toggle-smart-quotes.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/quotes.png"
+          },
+          "identifier" : "9584b10d6e47e89b4424b10a2f526987",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle Smart Quotes",
+          "updatedAt" : "2026-04-27T00:54:10-07:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Alexandru Turcanu",
               "url" : "https:\/\/github.com\/Pondorasti"
             }
@@ -24636,28 +24664,14 @@
   ],
   "languages" : [
     {
-      "displayName" : "pwsh\r",
-      "name" : "pwsh\r"
-    },
-    {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
     },
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
-    },
-    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
-    },
-    {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
     },
     {
       "displayName" : "Python",
@@ -24668,11 +24682,25 @@
       "displayName" : "Ruby",
       "icon" : "icon-ruby.png",
       "name" : "ruby"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
+    },
+    {
+      "displayName" : "pwsh\r",
+      "name" : "pwsh\r"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 856,
-  "updatedAt" : "2026-04-15T06:38:42Z"
+  "totalScriptCommands" : 857,
+  "updatedAt" : "2026-04-27T07:55:22Z"
 }
