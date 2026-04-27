@@ -1,0 +1,162 @@
+--acronyms ID,URL,UUID
+--allman false
+--anonymousforeach convert
+--assetliterals visual-width
+--asynccapturing
+--beforemarks
+--binarygrouping 4,8
+--callsiteparen default
+--categorymark "MARK: %c"
+--classthreshold 0
+--closingparen balanced
+--closurevoid remove
+--commas always
+--complexattrs preserve
+--computedvarattrs preserve
+--condassignment after-property
+--conflictmarkers reject
+--dateformat system
+--decimalgrouping 3,6
+--doccomments before-declarations
+--emptybraces no-space
+--enumnamespaces always
+--enumthreshold 0
+--equatablemacro none
+--exponentcase lowercase
+--exponentgrouping disabled
+--extensionacl on-extension
+--extensionlength 0
+--extensionmark "MARK: - %t + %c"
+--filemacro "#file"
+--fractiongrouping disabled
+--fragment false
+--funcattributes prev-line
+--generictypes
+--groupblanklines true
+--groupedextension "MARK: - %c"
+--guardelse next-line
+--header strip
+--hexgrouping 4,8
+--hexliteralcase uppercase
+--ifdef indent
+--importgrouping alpha
+--indent 2
+--indentcase false
+--indentstrings false
+--inferredtypes always
+--initcodernil false
+--inlinedforeach ignore
+--lifecycle
+--lineaftermarks true
+--linebreaks lf
+--markcategories true
+--markextensions always
+--marktypes always
+--maxwidth 120
+--modifierorder
+--nevertrailing
+--nilinit remove
+--noncomplexattrs
+--nospaceoperators
+--nowrapoperators
+--octalgrouping 4,8
+--operatorfunc spaced
+--organizationmode visibility
+--organizetypes actor,class,enum,struct
+--patternlet hoist
+--preservedecls
+--preserveacronyms
+--preservedsymbols Package
+--propertytypes infer-locals-only
+--ranges spaced
+--self remove
+--selfrequired
+--semicolons inline
+--shortoptionals except-properties
+--smarttabs enabled
+--someany true
+--sortedpatterns
+--sortswiftuiprops none
+--storedvarattrs preserve
+--stripunusedargs always
+--structthreshold 0
+--tabwidth unspecified
+--throwcapturing
+--timezone system
+--trailingclosures
+--trimwhitespace always
+--typeattributes prev-line
+--typeblanklines remove
+--typedelimiter space-after
+--typemark "MARK: - %t"
+--typemarks
+--typeorder
+--visibilitymarks
+--visibilityorder
+--voidtype void
+--wraparguments before-first
+--wrapcollections before-first
+--wrapconditions preserve
+--wrapeffects preserve
+--wrapenumcases always
+--wrapparameters default
+--wrapreturntype preserve
+--wrapternary default
+--wraptypealiases preserve
+--xcodeindentation disabled
+--xctestsymbols
+--yodaswap always
+
+--enable acronyms
+--enable blankLineAfterSwitchCase
+--enable isEmpty
+--enable markTypes
+--enable redundantVariable
+--enable sortSwitchCases
+--enable wrapConditionalBodies
+--enable wrapEnumCases
+--enable wrapSwitchCases
+
+--disable assertionFailures
+--disable blankLinesAtStartOfScope
+--disable blankLinesBetweenChainedFunctions
+--disable braces
+--disable docCommentsBeforeModifiers
+--disable extensionAccessControl
+--disable genericExtensions
+--disable headerFileName
+--disable initCoderUnavailable
+--disable leadingDelimiters
+--disable linebreakAtEndOfFile
+--disable linebreaks
+--disable modifierOrder
+--disable numberFormatting
+--disable opaqueGenericParameters
+--disable preferForLoop
+--disable redundantNilInit
+--disable redundantType
+--disable redundantVoidReturnType
+--disable spaceAroundBraces
+--disable spaceAroundBrackets
+--disable spaceAroundComments
+--disable spaceAroundGenerics
+--disable spaceAroundOperators
+--disable spaceAroundParens
+--disable spaceInsideBraces
+--disable spaceInsideBrackets
+--disable spaceInsideGenerics
+--disable strongOutlets
+--disable strongifiedSelf
+--disable typeSugar
+--disable unusedArguments
+--disable void
+--disable wrap
+--disable wrapArguments
+--disable wrapAttributes
+--disable wrapLoopBodies
+--disable wrapMultilineStatementBraces
+--disable wrapSingleLineComments
+--disable yodaConditions
+
+--enable fileHeader
+--header \nMIT License\nCopyright (c) 2020-{year} Raycast. All rights reserved.\n

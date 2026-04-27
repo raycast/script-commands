@@ -1,11 +1,13 @@
 //
-//  MIT License
-//  Copyright (c) 2020-2021 Raycast. All rights reserved.
+// MIT License
+// Copyright (c) 2020-2026 Raycast. All rights reserved.
 //
 
 import Foundation
 
 typealias ScriptCommands = [ScriptCommand]
+
+// MARK: - ScriptCommand
 
 struct ScriptCommand: Codable {
   let identifier: String
@@ -26,6 +28,7 @@ struct ScriptCommand: Codable {
   let createdAt: String
   let updatedAt: String
   var path: String
+  let platform: Platform?
 
   private(set) var isExecutable: Bool = false
 
@@ -48,20 +51,17 @@ struct ScriptCommand: Codable {
     case createdAt
     case updatedAt
     case path
+    case platform
   }
 
   var iconDescription: String {
-    guard let icon = self.icon else {
+    guard let icon else {
       return .empty
     }
 
-    let path = "https://raw.githubusercontent.com/raycast/script-commands/master/commands/\(self.path)"
+    let path = "https://raw.githubusercontent.com/raycast/script-commands/master/commands/\(path)"
 
-    let tag = icon.imageTag(
-      with: path
-    )
-
-    return tag
+    return icon.imageTag(with: path)
   }
 
   var fullPath: String {
@@ -85,42 +85,42 @@ extension ScriptCommand {
   }
 
   init(from decoder: Decoder) throws {
-    let container      = try decoder.container(keyedBy: CodingKeys.self)
+    let container = try decoder.container(keyedBy: CodingKeys.self)
 
     // Required
-    self.schemaVersion = try container.decode(Int.self, forKey: .schemaVersion)
-    self.title         = try container.decode(String.self, forKey: .title)
-    self.language      = try container.decode(String.self, forKey: .language)
-    self.isTemplate    = try container.decode(Bool.self, forKey: .isTemplate)
-    self.hasArguments  = try container.decode(Bool.self, forKey: .hasArguments)
-    self.path          = try container.decode(String.self, forKey: .path)
+    schemaVersion = try container.decode(Int.self, forKey: .schemaVersion)
+    title = try container.decode(String.self, forKey: .title)
+    language = try container.decode(String.self, forKey: .language)
+    isTemplate = try container.decode(Bool.self, forKey: .isTemplate)
+    hasArguments = try container.decode(Bool.self, forKey: .hasArguments)
+    path = try container.decode(String.self, forKey: .path)
 
-    let filename       = try container.decode(String.self, forKey: .filename)
-    let createdAt      = try container.decode(String.self, forKey: .createdAt)
-    let updatedAt      = try container.decode(String.self, forKey: .updatedAt)
+    let filename = try container.decode(String.self, forKey: .filename)
+    let createdAt = try container.decode(String.self, forKey: .createdAt)
+    let updatedAt = try container.decode(String.self, forKey: .updatedAt)
 
-    self.filename  = filename
+    self.filename = filename
     self.createdAt = createdAt
-    self.updatedAt  = updatedAt
+    self.updatedAt = updatedAt
 
     do {
       let value = "\(createdAt.description)\(filename)"
       let identifier = try value.convertToMD5()
-
       self.identifier = identifier
     } catch let error as StringError {
       fatalError(error.localizedDescription)
     }
 
     // Optionals
-    self.mode                   = try container.decodeIfPresent(Mode.self, forKey: .mode)
-    self.packageName            = try container.decodeIfPresent(String.self, forKey: .packageName)
-    self.icon                   = try container.decodeIfPresent(Icon.self, forKey: .icon)
-    self.details                = try container.decodeIfPresent(String.self, forKey: .details)
-    self.currentDirectoryPath   = try container.decodeIfPresent(String.self, forKey: .currentDirectoryPath)
-    self.needsConfirmation      = try container.decodeIfPresent(Bool.self, forKey: .needsConfirmation)
-    self.refreshTime            = try container.decodeIfPresent(String.self, forKey: .refreshTime)
-    self.authors                = try container.decodeIfPresent(Authors.self, forKey: .authors)
+    mode = try container.decodeIfPresent(Mode.self, forKey: .mode)
+    packageName = try container.decodeIfPresent(String.self, forKey: .packageName)
+    icon = try container.decodeIfPresent(Icon.self, forKey: .icon)
+    details = try container.decodeIfPresent(String.self, forKey: .details)
+    currentDirectoryPath = try container.decodeIfPresent(String.self, forKey: .currentDirectoryPath)
+    needsConfirmation = try container.decodeIfPresent(Bool.self, forKey: .needsConfirmation)
+    refreshTime = try container.decodeIfPresent(String.self, forKey: .refreshTime)
+    authors = try container.decodeIfPresent(Authors.self, forKey: .authors)
+    platform = try container.decodeIfPresent(Platform.self, forKey: .platform)
   }
 
   func encode(to encoder: Encoder) throws {
@@ -144,6 +144,7 @@ extension ScriptCommand {
     try container.encode(createdAt, forKey: .createdAt)
     try container.encode(updatedAt, forKey: .updatedAt)
     try container.encode(path, forKey: .path)
+    try container.encodeIfPresent(platform, forKey: .platform)
   }
 }
 
@@ -161,16 +162,14 @@ extension ScriptCommand: Comparable {
   }
 }
 
-// MARK: - MarkdownDescription Protocol
+// MARK: - MarkdownDescriptionProtocol
 
 extension ScriptCommand: MarkdownDescriptionProtocol {
   var markdownDescription: String {
-    var content: String = .empty
-
     var author = "Raycast"
     var details = "N/A"
 
-    if let value = self.authors {
+    if let value = authors {
       author = value.markdownDescription
     }
 
@@ -178,16 +177,13 @@ extension ScriptCommand: MarkdownDescriptionProtocol {
       details = value.replacingOccurrences(of: "|", with: #"\|"#)
     }
 
-    let language = Language(self.language).markdownDescription
+    let language = Language(language).markdownDescription
+    let platformDisplay = (platform ?? .macOS).markdownDescription
     let scriptPath = "\(path)\(filename)"
 
-    let header = """
-      | \(iconDescription) | [\(title)](\(scriptPath)) | \(details) | \(author) | \(hasArguments ? "✅" : "") | \(isTemplate ? "✅" : "") | \(language) |
-    """
+    let header = "| \(iconDescription) | [\(title)](\(scriptPath)) | \(details) | \(author) | \(hasArguments ? "✅" : "") | \(isTemplate ? "✅" : "") | \(language) | \(platformDisplay) |"
 
-    content += .newLine + header
-
-    return content
+    return .newLine + header
   }
 
   var sectionTitle: String {

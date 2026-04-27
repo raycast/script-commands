@@ -1,11 +1,13 @@
 //
-//  MIT License
-//  Copyright (c) 2020-2021 Raycast. All rights reserved.
+// MIT License
+// Copyright (c) 2020-2026 Raycast. All rights reserved.
 //
 
 import Foundation
 
 typealias Groups = [Group]
+
+// MARK: - Group
 
 struct Group: Codable {
   var name: String
@@ -15,7 +17,7 @@ struct Group: Codable {
   var subGroups: Groups?
 }
 
-// MARK: - MarkdownDescription Protocol
+// MARK: - MarkdownDescriptionProtocol
 
 extension Group: MarkdownDescriptionProtocol {
   var sectionTitle: String {
@@ -36,19 +38,19 @@ extension Group: MarkdownDescriptionProtocol {
     if let subGroups = group.subGroups?.sorted() {
       description += renderItem(
         for: group,
-        level: level
+        level: level,
       )
 
       for subGroup in subGroups {
         description += renderTree(
           for: subGroup,
-          level: level + 1
+          level: level + 1,
         )
       }
     } else {
       description += renderItem(
         for: group,
-        level: level
+        level: level,
       )
     }
 

@@ -1,6 +1,6 @@
 //
-//  MIT License
-//  Copyright (c) 2020-2021 Raycast. All rights reserved.
+// MIT License
+// Copyright (c) 2020-2026 Raycast. All rights reserved.
 //
 
 import Foundation
@@ -12,7 +12,7 @@ extension String {
     }
 
     if let match = detector.firstMatch(in: self, options: [], range: NSRange(location: 0, length: utf16.count)) {
-      return match.range.length == self.utf16.count
+      return match.range.length == utf16.count
     }
 
     return false

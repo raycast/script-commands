@@ -1,10 +1,12 @@
 //
-//  MIT License
-//  Copyright (c) 2020-2021 Raycast. All rights reserved.
+// MIT License
+// Copyright (c) 2020-2026 Raycast. All rights reserved.
 //
 
 import CryptoKit
 import Foundation
+
+// MARK: - StringError
 
 enum StringError: Error {
   case convertStringToData
@@ -26,7 +28,7 @@ extension String {
 
       text = text.replacingOccurrences(
         of: entity,
-        with: " "
+        with: " ",
       )
     }
 
@@ -70,11 +72,9 @@ extension String {
 
     let digest = Insecure.MD5.hash(data: data)
 
-    let value = digest.map {
+    return digest.map {
       String(format: "%02hhx", $0)
     }
     .joined()
-
-    return value
   }
 }

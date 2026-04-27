@@ -1,10 +1,9 @@
 //
-//  MIT License
-//  Copyright (c) 2020-2021 Raycast. All rights reserved.
+// MIT License
+// Copyright (c) 2020-2026 Raycast. All rights reserved.
 //
 
 import Foundation
-import TSCBasic
 
 public extension Toolkit {
   var blockedFolderList: [String] {
@@ -30,7 +29,7 @@ public extension Toolkit {
   static var information: (name: String, version: String) {
     (
       name: "Raycast Toolkit",
-      version: "0.4.0"
+      version: "0.5.0",
     )
   }
 

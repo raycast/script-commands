@@ -1,11 +1,7 @@
 indentation: 2
-included:
-  - Tools/Toolkit
 excluded:
-  - Tools/Toolkit/.build
+  - .build
   - _enabled-commands
-  - commands
-  - templates
 disabled_rules:
   - cyclomatic_complexity
   - file_length
@@ -14,7 +10,6 @@ disabled_rules:
   - todo # Use custom_todo
   - unused_setter_value
   - generic_type_name
-  - identifier_name
   - function_parameter_count
   - type_name
   - function_body_length
@@ -33,11 +28,12 @@ opt_in_rules:
   - file_header
   - overridden_super_call
   - sorted_imports
-  - unused_declaration
-  - unused_import
   - vertical_whitespace_closing_braces
   - vertical_whitespace_opening_braces
   - yoda_condition
+analyzer_rules:
+  - unused_declaration
+  - unused_import
 indentation_width:
   indentation_width: 2
 trailing_comma:

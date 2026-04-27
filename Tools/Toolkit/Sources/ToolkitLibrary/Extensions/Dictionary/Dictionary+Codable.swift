@@ -1,6 +1,6 @@
 //
-//  MIT License
-//  Copyright (c) 2020-2021 Raycast. All rights reserved.
+// MIT License
+// Copyright (c) 2020-2026 Raycast. All rights reserved.
 //
 
 import Foundation
@@ -9,7 +9,7 @@ extension Dictionary where Key == String, Value: Any {
   func encodeToStruct<T: Decodable>() -> T? {
     do {
       let data = try JSONSerialization.data(
-        withJSONObject: self
+        withJSONObject: self,
       )
 
       let decoder = JSONDecoder()

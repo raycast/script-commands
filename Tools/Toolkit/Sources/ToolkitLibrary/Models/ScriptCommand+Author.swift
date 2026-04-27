@@ -1,6 +1,6 @@
 //
-//  MIT License
-//  Copyright (c) 2020-2021 Raycast. All rights reserved.
+// MIT License
+// Copyright (c) 2020-2026 Raycast. All rights reserved.
 //
 
 import Foundation
@@ -42,7 +42,7 @@ extension ScriptCommand.Author {
   }
 }
 
-// MARK: - Comparable
+// MARK: - ScriptCommand.Author + Comparable
 
 extension ScriptCommand.Author: Comparable {
   static func < (lhs: ScriptCommand.Author, rhs: ScriptCommand.Author) -> Bool {
@@ -62,15 +62,15 @@ extension ScriptCommand.Author: Comparable {
   }
 }
 
-// MARK: - MarkdownDescription Protocol
+// MARK: - ScriptCommand.Author + MarkdownDescriptionProtocol
 
 extension ScriptCommand.Author: MarkdownDescriptionProtocol {
   var markdownDescription: String {
-    if let name = name, let url = url {
+    if let name, let url {
       return "[\(name)](\(url))"
-    } else if let name = name {
+    } else if let name {
       return name
-    } else if let url = url {
+    } else if let url {
       return url
     }
 
@@ -82,7 +82,7 @@ extension ScriptCommand.Author: MarkdownDescriptionProtocol {
   }
 }
 
-// MARK: - Authors
+// MARK: - Array + MarkdownDescriptionProtocol
 
 extension Array: MarkdownDescriptionProtocol where Element == ScriptCommand.Author {
   var sectionTitle: String {
@@ -93,7 +93,7 @@ extension Array: MarkdownDescriptionProtocol where Element == ScriptCommand.Auth
     var authors = String.empty
 
     for author in self {
-      let separator = self.separator(for: author.name ?? .empty)
+      let separator = separator(for: author.name ?? .empty)
       authors += separator + author.markdownDescription
     }
 
@@ -110,6 +110,8 @@ extension Array: MarkdownDescriptionProtocol where Element == ScriptCommand.Auth
     return Separator.comma
   }
 }
+
+// MARK: - ScriptCommand.Authors.Separator
 
 extension ScriptCommand.Authors {
   enum Separator {

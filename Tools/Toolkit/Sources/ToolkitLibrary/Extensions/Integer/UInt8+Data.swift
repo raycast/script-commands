@@ -1,6 +1,6 @@
 //
-//  MIT License
-//  Copyright (c) 2020-2021 Raycast. All rights reserved.
+// MIT License
+// Copyright (c) 2020-2026 Raycast. All rights reserved.
 //
 
 import Foundation
@@ -11,7 +11,7 @@ extension UInt8 {
 
     return Data(
       bytes: &int,
-      count: MemoryLayout<UInt8>.size
+      count: MemoryLayout<UInt8>.size,
     )
   }
 }

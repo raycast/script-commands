@@ -1,6 +1,6 @@
 //
-//  MIT License
-//  Copyright (c) 2020-2021 Raycast. All rights reserved.
+// MIT License
+// Copyright (c) 2020-2026 Raycast. All rights reserved.
 //
 
 import Foundation
@@ -10,8 +10,6 @@ extension Data {
     let decoder = JSONDecoder()
     decoder.dateDecodingStrategy = .iso8601
 
-    let object = try decoder.decode(type, from: self)
-
-    return object
+    return try decoder.decode(type, from: self)
   }
 }

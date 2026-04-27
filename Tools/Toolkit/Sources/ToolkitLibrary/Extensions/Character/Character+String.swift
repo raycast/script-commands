@@ -1,10 +1,10 @@
 //
-//  MIT License
-//  Copyright (c) 2020-2021 Raycast. All rights reserved.
+// MIT License
+// Copyright (c) 2020-2026 Raycast. All rights reserved.
 //
 
 import Foundation
 
 extension Character {
-  static var newLine = Character(.newLine)
+  static let newLine = Character(.newLine)
 }

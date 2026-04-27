@@ -1,6 +1,6 @@
 //
-//  MIT License
-//  Copyright (c) 2020-2021 Raycast. All rights reserved.
+// MIT License
+// Copyright (c) 2020-2026 Raycast. All rights reserved.
 //
 
 import Foundation
@@ -11,10 +11,10 @@ enum ToolkitError: Swift.Error, CustomStringConvertible, LocalizedError {
 
   var description: String {
     switch self {
-    case .folderNotFound(let folder):
-      return "Folder not found. Expected: \(folder)"
-    case .fileNotFound(let file):
-      return "File \"\(file)\" not found"
+    case let .folderNotFound(folder):
+      "Folder not found. Expected: \(folder)"
+    case let .fileNotFound(file):
+      "File \"\(file)\" not found"
     }
   }
 }

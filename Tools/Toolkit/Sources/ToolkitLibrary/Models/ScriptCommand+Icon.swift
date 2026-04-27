@@ -1,9 +1,11 @@
 //
-//  MIT License
-//  Copyright (c) 2020-2021 Raycast. All rights reserved.
+// MIT License
+// Copyright (c) 2020-2026 Raycast. All rights reserved.
 //
 
 import Foundation
+
+// MARK: - ScriptCommand.Icon
 
 extension ScriptCommand {
   struct Icon: Codable {
@@ -43,59 +45,58 @@ extension ScriptCommand.Icon {
 // MARK: - HTML Render
 
 extension ScriptCommand.Icon {
-  private func htmlImageTag(for lightFilepath: String?, darkFilepath: String?, path: String) -> String {
-    if let iconLight = lightFilepath, let iconDark = darkFilepath {
-      var darkURL: String { iconDark.isValidURL ? iconDark : path + iconDark }
-      var lightURL: String { iconLight.isValidURL ? iconLight : path + iconLight }
+  private func htmlImageTagFor(lightPath: String?, darkPath: String?, folderPath: String) -> String {
+    func resolvedURL(_ filepath: String) -> String {
+      filepath.isValidURL ? filepath : folderPath + filepath
+    }
 
+    if let lightPath, let darkPath {
       // This is the way to make modern HTML change images based on the theme (light or dark) used by the user
-      return "<picture><source srcset=\"\(darkURL)\" media=\"(prefers-color-scheme: dark)\"><img src=\"\(lightURL)\" width=\"20\" height=\"20\"></picture>"
-    } else if let icon = lightFilepath {
-      var url: String { icon.isValidURL ? icon : path + icon }
-      return "<img src=\"\(url)\" width=\"20\" height=\"20\">"
-    } else if let icon = darkFilepath {
-      var url: String { icon.isValidURL ? icon : path + icon }
-      return "<img src=\"\(url)\" width=\"20\" height=\"20\">"
+      return "<picture><source srcset=\"\(resolvedURL(darkPath))\" media=\"(prefers-color-scheme: dark)\"><img src=\"\(resolvedURL(lightPath))\" width=\"20\" height=\"20\"></picture>"
+    } else if let lightPath {
+      return "<img src=\"\(resolvedURL(lightPath))\" width=\"20\" height=\"20\">"
+    } else if let darkPath {
+      return "<img src=\"\(resolvedURL(darkPath))\" width=\"20\" height=\"20\">"
     }
 
     return .empty
   }
 
   func imageTag(with path: String) -> String {
-    if let iconLight = light, let iconDark = dark {
-      if iconLight.isEmoji && iconDark.isEmoji {
-        return iconLight
-      } else if iconLight.isImage && iconDark.isImage || iconLight.isValidURL && iconDark.isValidURL {
-        let tag = htmlImageTag(
-          for: iconLight,
-          darkFilepath: iconDark,
-          path: path
-        )
-        return tag
-      }
-    } else if let iconLight = light, iconLight.isEmoji {
-      return iconLight
-    } else if let iconDark = dark, iconDark.isEmoji {
-      return iconDark
-    } else if let icon = light, icon.isImage || icon.isValidURL {
-      let tag = htmlImageTag(
-        for: icon,
-        darkFilepath: nil,
-        path: path
+    switch (light, dark) {
+    case let (light?, dark?) where light.isEmoji && dark.isEmoji:
+      light
+
+    case let (light?, dark?) where (light.isImage && dark.isImage) || (light.isValidURL && dark.isValidURL):
+      htmlImageTagFor(
+        lightPath: light,
+        darkPath: dark,
+        folderPath: path,
       )
 
-      return tag
-    } else if let icon = dark, icon.isImage || icon.isValidURL {
-      let tag = htmlImageTag(
-        for: nil,
-        darkFilepath: icon,
-        path: path
+    case let (light?, nil) where light.isEmoji:
+      light
+
+    case let (nil, dark?) where dark.isEmoji:
+      dark
+
+    case let (light?, nil) where light.isImage || light.isValidURL:
+      htmlImageTagFor(
+        lightPath: light,
+        darkPath: nil,
+        folderPath: path,
       )
 
-      return tag
+    case let (nil, dark?) where dark.isImage || dark.isValidURL:
+      htmlImageTagFor(
+        lightPath: nil,
+        darkPath: dark,
+        folderPath: path,
+      )
+
+    default:
+      .empty
     }
-
-    return .empty
   }
 }
 
@@ -103,6 +104,6 @@ extension ScriptCommand.Icon {
 
 private extension String {
   var isImage: Bool {
-    hasSuffix(".png") || hasSuffix(".jpeg") || hasSuffix(".jpg") || hasSuffix(".gif")
+    hasSuffix(".png") || hasSuffix(".jpeg") || hasSuffix(".jpg") || hasSuffix(".gif") || hasSuffix(".svg")
   }
 }

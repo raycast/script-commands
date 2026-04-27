@@ -1,60 +1,57 @@
 //
-//  MIT License
-//  Copyright (c) 2020-2021 Raycast. All rights reserved.
+// MIT License
+// Copyright (c) 2020-2026 Raycast. All rights reserved.
 //
 
-import TSCBasic
-import TSCUtility
+import Foundation
+
+// MARK: - GitError
 
 struct GitError: Error {
-  let result: ProcessResult
+  let description: String
 }
 
+// MARK: - GitShell
+
 struct GitShell {
-  init() {}
+  func run(_ args: String..., path: URL) async throws -> String {
+    try await withCheckedThrowingContinuation { continuation in
+      let process = Process()
+      process.executableURL = URL(fileURLWithPath: "/usr/bin/git")
+      process.arguments = ["-C", path.deletingLastPathComponent().path] + args
 
-  func run(_ args: String..., environment: [String: String] = Git.environment, path: AbsolutePath) throws -> String {
-    do {
-      return try execute(
-        ["-C", path.dirname] + args,
-        environment: environment
-      )
-    } catch {
-      throw error
-    }
-  }
+      var environment = ProcessInfo.processInfo.environment
+      environment["GIT_TERMINAL_PROMPT"] = "0"
+      process.environment = environment
 
-  private func execute(_ args: [String], environment: [String: String] = Git.environment) throws -> String {
-    let process = Process(arguments: [Git.tool] + args, environment: environment)
-    let result: ProcessResult
+      let stdoutPipe = Pipe()
+      let stderrPipe = Pipe()
+      process.standardOutput = stdoutPipe
+      process.standardError = stderrPipe
 
-    do {
-      try process.launch()
-      result = try process.waitUntilExit()
+      process.terminationHandler = { proc in
+        let output = String(data: stdoutPipe.fileHandleForReading.readDataToEndOfFile(), encoding: .utf8)?
+          .trimmingCharacters(in: .newlines) ?? ""
 
-      guard result.exitStatus == .terminated(code: 0) else {
-        throw GitError(
-          result: result
-        )
+        if proc.terminationStatus == 0 {
+          continuation.resume(returning: output)
+        } else {
+          let stderr = String(data: stderrPipe.fileHandleForReading.readDataToEndOfFile(), encoding: .utf8)?
+            .trimmingCharacters(in: .whitespacesAndNewlines) ?? ""
+          let detail = stderr.isEmpty ? "no output" : stderr
+          continuation.resume(
+            throwing: GitError(
+              description: "git exited with status \(proc.terminationStatus): \(detail)",
+            ),
+          )
+        }
       }
 
-      let content = try result.utf8Output().spm_chomp()
-
-      return content
-    } catch let error as GitError {
-      throw error
-    } catch {
-      let result = ProcessResult(
-        arguments: process.arguments,
-        environment: process.environment,
-        exitStatus: .terminated(code: -1),
-        output: .failure(error),
-        stderrOutput: .failure(error)
-      )
-
-      throw GitError(
-        result: result
-      )
+      do {
+        try process.run()
+      } catch {
+        continuation.resume(throwing: error)
+      }
     }
   }
 }

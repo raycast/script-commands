@@ -1,29 +1,28 @@
 //
-//  MIT License
-//  Copyright (c) 2020-2021 Raycast. All rights reserved.
+// MIT License
+// Copyright (c) 2020-2026 Raycast. All rights reserved.
 //
 
 import Foundation
-import TSCBasic
 
 extension Toolkit {
-  public func generateDocumentation(outputJSONFilename: String, outputMarkdownFilename: String) throws {
-    dataManager.loadContent()
+  public func generateDocumentation(outputJSONFilename: String, outputMarkdownFilename: String) async throws {
+    await dataManager.loadContent()
 
-    try readFolderContent(
+    let content = try await readFolderContent(
       path: dataManager.extensionsPath,
-      parentGroups: &dataManager.data.groups,
-      ignoreFilesInDir: true
+      ignoreFilesInDir: true,
     )
+
+    await dataManager.setGroups(content.subGroups)
 
     let documentation = Documentation(
       path: dataManager.extensionsPath,
       jsonFilename: outputJSONFilename,
-      markdownFilename: outputMarkdownFilename
+      markdownFilename: outputMarkdownFilename,
     )
 
-    try documentation.generateDocuments(
-      for: dataManager.data
-    )
+    let data = await dataManager.data
+    try documentation.generateDocuments(for: data)
   }
 }

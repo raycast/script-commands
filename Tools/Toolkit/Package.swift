@@ -1,39 +1,34 @@
-// swift-tools-version:5.3
+// swift-tools-version:6.0
 
 import PackageDescription
 
 let package = Package(
   name: "toolkit",
   platforms: [
-    .macOS(.v11),
+    .macOS(.v13),
   ],
   dependencies: [
     .package(
-      url: "https://github.com/apple/swift-tools-support-core.git",
-      .upToNextMinor(from: "0.2.4")
-    ),
-    .package(
       url: "https://github.com/apple/swift-argument-parser.git",
-      .upToNextMinor(from: "1.0.0")
+      .upToNextMajor(from: "1.5.0"),
     ),
   ],
   targets: [
-    .target(
+    .executableTarget(
       name: "Toolkit",
       dependencies: [
         "ToolkitLibrary",
-        .product(name: "SwiftToolsSupport-auto", package: "swift-tools-support-core"),
         .product(name: "ArgumentParser", package: "swift-argument-parser"),
-      ]
+      ],
     ),
     .target(
       name: "ToolkitLibrary",
-      dependencies: [
-        .product(name: "SwiftToolsSupport-auto", package: "swift-tools-support-core"),
-      ]
+      dependencies: [],
     ),
     .testTarget(
       name: "ToolkitLibraryTests",
-      dependencies: ["ToolkitLibrary"]),
-  ]
+      dependencies: ["ToolkitLibrary"],
+    ),
+  ],
+  swiftLanguageModes: [.v6],
 )

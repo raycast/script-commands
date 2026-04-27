@@ -1,13 +1,15 @@
 //
-//  MIT License
-//  Copyright (c) 2020-2021 Raycast. All rights reserved.
+// MIT License
+// Copyright (c) 2020-2026 Raycast. All rights reserved.
 //
 
 import Foundation
 
 typealias NSTextCheckingResults = [NSTextCheckingResult]
 
-final class RegEx {
+// MARK: - RegEx
+
+enum RegEx {
   static func checkingResults(for regex: String, in text: String) -> NSTextCheckingResults {
     do {
       let regex = try NSRegularExpression(
@@ -15,7 +17,7 @@ final class RegEx {
         options: [
           .caseInsensitive,
           .anchorsMatchLines,
-        ]
+        ],
       )
 
       let range = NSRange(text.startIndex..., in: text)
@@ -27,6 +29,6 @@ final class RegEx {
   }
 
   static func checkingResult(for regex: String, in text: String) -> NSTextCheckingResult? {
-    return checkingResults(for: regex, in: text).first
+    checkingResults(for: regex, in: text).first
   }
 }
