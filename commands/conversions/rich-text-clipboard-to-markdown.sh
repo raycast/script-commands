@@ -4,8 +4,8 @@
 # Install via homebrew: `brew install pandoc`
 
 # @raycast.title Rich Text to Markdown
-# @raycast.author Adam Zethraeus
-# @raycast.authorURL https://github.com/adam-zethraeus
+# @raycast.author Ali Rohde
+# @raycast.authorURL https://github.com/alibrohde
 # @raycast.description Convert rich text clipboard data (preserving hyperlinked text as [label](url)) to GitHub Flavored Markdown using Pandoc. Tries the HTML pasteboard flavor first, falls back to RTF.
 #
 # @raycast.icon 📝
