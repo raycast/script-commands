@@ -11,7 +11,7 @@
 
 # Documentation:
 # @raycast.description Toggles on/off a Sidecar screen.
-# @raycast.author Marcos S‡nchez-Dehesa
+# @raycast.author Marcos SÃ¡nchez-Dehesa
 # @raycast.authorURL https://www.github.com/dehesa
 
 # The name of the device to be connected as a sidecar screen (e.g. the name of your iPad).
