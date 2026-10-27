@@ -19,6 +19,7 @@
 # @raycast.authorURL https://github.com/marekmasek
 
 # you can generate API KEY here: https://home.openweathermap.org/api_keys
+# the account needs the One Call API 3.0 subscription: https://openweathermap.org/api/one-call-3
 API_KEY=""
 # city which will be used
 CITY="prague"
@@ -35,7 +36,7 @@ LAT=$( jq -r  '.features[0].geometry.coordinates[1]' <<< "${LOCATION_INFO}" )
 LON=$( jq -r  '.features[0].geometry.coordinates[0]' <<< "${LOCATION_INFO}" )
 
 # Get weather forecast from OpenWeather
-RESPONSE=$(curl -s 'https://api.openweathermap.org/data/2.5/onecall?lat='$LAT'&lon='$LON'&units=metric&appid='$API_KEY)
+RESPONSE=$(curl -s 'https://api.openweathermap.org/data/3.0/onecall?lat='$LAT'&lon='$LON'&units=metric&appid='$API_KEY)
 
 # This script is changing color of the output text based on the light/dark mode activated in macOS
 COLOR_MODE=$(defaults read -g AppleInterfaceStyle 2>/dev/null)
