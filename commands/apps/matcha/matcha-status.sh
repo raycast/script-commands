@@ -17,6 +17,19 @@
 # @raycast.authorURL https://github.com/jakeantelis
 # @raycast.description Show whether Matcha is keeping your Mac awake.
 
-CLI="/Applications/Matcha.app/Contents/Resources/matchactl"
-[ -x "$CLI" ] || CLI="matchactl"
+CLI="$(command -v matchactl)"
+if [ -z "$CLI" ]; then
+  APP="$(mdfind "kMDItemCFBundleIdentifier == 'com.matcha.app'" 2>/dev/null | head -1)"
+  for dir in "/Applications/Matcha.app" "$HOME/Applications/Matcha.app" "$APP"; do
+    if [ -n "$dir" ] && [ -x "$dir/Contents/Resources/matchactl" ]; then
+      CLI="$dir/Contents/Resources/matchactl"
+      break
+    fi
+  done
+fi
+if [ -z "$CLI" ]; then
+  echo "Matcha is not installed"
+  exit 1
+fi
+
 "$CLI" status
