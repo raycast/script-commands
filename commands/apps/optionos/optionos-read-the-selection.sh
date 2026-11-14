@@ -14,7 +14,7 @@
 
 # Documentation:
 # @raycast.description Select text, run this, hear it.
-# @raycast.author yemreak
+# @raycast.author Yunus Emre Ak
 # @raycast.authorURL https://github.com/yemreak
 
 open "optionos-say://selection"
