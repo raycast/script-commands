@@ -14,7 +14,7 @@
 
 # Documentation:
 # @raycast.description Every running agent in one deck. Pick one, keep talking.
-# @raycast.author yemreak
+# @raycast.author Yunus Emre Ak
 # @raycast.authorURL https://github.com/yemreak
 
 open "optionos-agent://deck"
