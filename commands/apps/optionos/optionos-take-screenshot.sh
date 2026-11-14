@@ -14,7 +14,7 @@
 
 # Documentation:
 # @raycast.description The window under your cursor becomes a file your agent sees.
-# @raycast.author yemreak
+# @raycast.author Yunus Emre Ak
 # @raycast.authorURL https://github.com/yemreak
 
 open "optionos-screen://action/take-a-screenshot-of-the-window-under-the-cursor"
