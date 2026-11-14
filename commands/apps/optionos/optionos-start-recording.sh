@@ -14,7 +14,7 @@
 
 # Documentation:
 # @raycast.description Start or stop a dictation. The text lands where you were.
-# @raycast.author yemreak
+# @raycast.author Yunus Emre Ak
 # @raycast.authorURL https://github.com/yemreak
 
 open "optionos-dictation://record"
