@@ -3575,6 +3575,124 @@
           ]
         },
         {
+          "name" : "Matcha",
+          "path" : "matcha",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Jake Antelis",
+                  "url" : "https:\/\/github.com\/jakeantelis"
+                }
+              ],
+              "createdAt" : "2026-11-16T11:27:30-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Stop Matcha and let your Mac sleep again.",
+              "filename" : "matcha-off.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/matcha.png"
+              },
+              "identifier" : "ec0ebf907f4c9e27b7fca65c6bd3f50d",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Matcha",
+              "path" : "apps\/matcha\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Allow Sleep",
+              "updatedAt" : "2026-11-16T11:27:30-05:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jake Antelis",
+                  "url" : "https:\/\/github.com\/jakeantelis"
+                }
+              ],
+              "createdAt" : "2026-11-16T11:27:30-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Keep your Mac awake, optionally for a set duration such as 2h or 90m.",
+              "filename" : "matcha-on.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/matcha.png"
+              },
+              "identifier" : "200d9d895de3cf7c6a086c29bc679e9a",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Matcha",
+              "path" : "apps\/matcha\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Keep Awake",
+              "updatedAt" : "2026-11-16T11:27:30-05:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jake Antelis",
+                  "url" : "https:\/\/github.com\/jakeantelis"
+                }
+              ],
+              "createdAt" : "2026-11-16T11:27:30-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show whether Matcha is keeping your Mac awake.",
+              "filename" : "matcha-status.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/matcha.png"
+              },
+              "identifier" : "d8061a89c4f1672fdc3cf121fd955d8f",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Matcha",
+              "path" : "apps\/matcha\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Status",
+              "updatedAt" : "2026-11-16T11:27:30-05:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jake Antelis",
+                  "url" : "https:\/\/github.com\/jakeantelis"
+                }
+              ],
+              "createdAt" : "2026-11-16T11:27:30-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Toggle Matcha keep awake on or off.",
+              "filename" : "matcha-toggle.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/matcha.png"
+              },
+              "identifier" : "48e41a2b0fdcfcb431f2d19e90af744e",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Matcha",
+              "path" : "apps\/matcha\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Toggle",
+              "updatedAt" : "2026-11-16T11:27:30-05:00"
+            }
+          ]
+        },
+        {
           "name" : "Medo",
           "path" : "medo",
           "scriptCommands" : [
@@ -9756,6 +9874,34 @@
           "schemaVersion" : 1,
           "title" : "Check Usage of OpenAI API",
           "updatedAt" : "2023-05-04T14:08:10+09:00"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "suvadadepolo-blip",
+              "url" : "https:\/\/github.com\/suvadadepolo-blip"
+            }
+          ],
+          "createdAt" : "2026-11-16T21:45:50+08:00",
+          "currentDirectoryPath" : null,
+          "description" : "Chance that OpenAI resets Codex usage limits in the next 24\/48 hours, and days since the last confirmed reset. Free public API, no key.",
+          "filename" : "codex-reset-forecast.sh",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "🔄"
+          },
+          "identifier" : "ebd03d8d29a9f4c8e778f0e31c8e5d0a",
+          "isTemplate" : false,
+          "language" : "bash",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Dashboard",
+          "path" : "dashboard\/",
+          "refreshTime" : "10m",
+          "schemaVersion" : 1,
+          "title" : "Codex Reset Forecast",
+          "updatedAt" : "2026-11-16T21:45:50+08:00"
         },
         {
           "authors" : [
@@ -24873,19 +25019,29 @@
       "name" : "swift"
     },
     {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
+    },
+    {
       "displayName" : "PowerShell",
       "icon" : "icon-powershell.png",
       "name" : "pwsh"
     },
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
     },
     {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
+    },
+    {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
     },
     {
       "displayName" : "pwsh\r",
@@ -24895,21 +25051,11 @@
       "displayName" : "Ruby",
       "icon" : "icon-ruby.png",
       "name" : "ruby"
-    },
-    {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
-    },
-    {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 864,
+  "totalScriptCommands" : 869,
   "updatedAt" : "2026-04-27T07:55:22Z"
 }

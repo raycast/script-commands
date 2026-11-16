@@ -56,6 +56,7 @@ This repository contains sample commands and documentation to write your own one
   - [Hyper](#hyper)
   - [Lungo](#lungo)
   - [Mail](#mail)
+  - [Matcha](#matcha)
   - [Medo](#medo)
   - [MeetingBar](#meetingbar)
   - [MenubarX](#menubarx)
@@ -441,6 +442,15 @@ This repository contains sample commands and documentation to write your own one
 | :--: | ----- | ----------- | :----: | :--: | :---: | :--: | :------: |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/mail/./images/mail.png" width="20" height="20"> | [CaptchaFromMail](apps/mail/copy-captcha-from-mail.py) | Copy the captcha from the emlx file. | [RealTong](https://raycast.com/RealTong) |  |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> | macOS |
 | 📧 | [Copy Foreground Mail Deeplink](apps/mail/copy-foreground-mail-deeplink.applescript) | Copies the foreground Mail deeplink | [Jesse Claven](https://github.com/jesse-c) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> | macOS |
+
+#### Matcha
+
+| Icon | Title | Description | Author | Args | Templ | Lang | Platform |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: | :------: |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/matcha/./images/matcha.png" width="20" height="20"> | [Allow Sleep](apps/matcha/matcha-off.sh) | Stop Matcha and let your Mac sleep again. | [Jake Antelis](https://github.com/jakeantelis) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> | macOS |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/matcha/./images/matcha.png" width="20" height="20"> | [Keep Awake](apps/matcha/matcha-on.sh) | Keep your Mac awake, optionally for a set duration such as 2h or 90m. | [Jake Antelis](https://github.com/jakeantelis) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> | macOS |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/matcha/./images/matcha.png" width="20" height="20"> | [Status](apps/matcha/matcha-status.sh) | Show whether Matcha is keeping your Mac awake. | [Jake Antelis](https://github.com/jakeantelis) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> | macOS |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/matcha/./images/matcha.png" width="20" height="20"> | [Toggle](apps/matcha/matcha-toggle.sh) | Toggle Matcha keep awake on or off. | [Jake Antelis](https://github.com/jakeantelis) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> | macOS |
 
 #### Medo
 
@@ -929,6 +939,7 @@ This repository contains sample commands and documentation to write your own one
 | :--: | ----- | ----------- | :----: | :--: | :---: | :--: | :------: |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/dashboard/images/bitcoin-logo.png" width="20" height="20"> | [Bitcoin Price](dashboard/bitcoin-price-usd.sh) | Get current Bitcoin price from Coindesk. | [Tanguy Le Stradic](https://github.com/tanguyls) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> | macOS |
 | 💲 | [Check Usage of OpenAI API](dashboard/open-ai-usage.sh) | Get total usage of OpenAI API | [nagauta](https://github.com/nagauta) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> | macOS |
+| 🔄 | [Codex Reset Forecast](dashboard/codex-reset-forecast.sh) | Chance that OpenAI resets Codex usage limits in the next 24/48 hours, and days since the last confirmed reset. Free public API, no key. | [suvadadepolo-blip](https://github.com/suvadadepolo-blip) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> | macOS |
 | 💰 | [Crypto](dashboard/crypto-portfolio.py) | Gets crypto prices from Binance | [Manan Mehta](https://github.com/mehtamanan) |  |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> | macOS |
 | 🌦️ | [Current Weather](dashboard/current-weather.sh) | Get current weather report from [wttr.in](https://wttr.in/). | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> | macOS |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/dashboard/images/dogecoin-logo.png" width="20" height="20"> | [DOGE Price](dashboard/doge.sh) | Checking DOGE coin price | [Clu Soh](https://github.com/designedbyclu) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> | macOS |
