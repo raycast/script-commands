@@ -96,6 +96,7 @@ This repository contains sample commands and documentation to write your own one
   - [Y Pomodoro](#y-pomodoro)
   - [iTerm](#iterm)
   - [iconsur](#iconsur)
+  - [optionOS](#optionos)
 - [Browsing](#browsing)
 - [Communication](#communication)
   - [Cloudup](#cloudup)
@@ -756,6 +757,15 @@ This repository contains sample commands and documentation to write your own one
 | Icon | Title | Description | Author | Args | Templ | Lang | Platform |
 | :--: | ----- | ----------- | :----: | :--: | :---: | :--: | :------: |
 | 🅱️ | [Change Application Icon](apps/iconsur/iconsur.sh) | Change App icons to match Big Sur | [StevenRCE0](https://github.com/StevenRCE0) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> | macOS |
+
+#### optionOS
+
+| Icon | Title | Description | Author | Args | Templ | Lang | Platform |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: | :------: |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/optionos/images/optionos.png" width="20" height="20"> | [Agents Deck](apps/optionos/optionos-agents-deck.sh) | Every running agent in one deck. Pick one, keep talking. | [Yunus Emre Ak](https://github.com/yemreak) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> | macOS |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/optionos/images/optionos.png" width="20" height="20"> | [Read the Selection](apps/optionos/optionos-read-the-selection.sh) | Select text, run this, hear it. | [Yunus Emre Ak](https://github.com/yemreak) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> | macOS |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/optionos/images/optionos.png" width="20" height="20"> | [Start Recording](apps/optionos/optionos-start-recording.sh) | Start or stop a dictation. The text lands where you were. | [Yunus Emre Ak](https://github.com/yemreak) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> | macOS |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/optionos/images/optionos.png" width="20" height="20"> | [Take Screenshot](apps/optionos/optionos-take-screenshot.sh) | The window under your cursor becomes a file your agent sees. | [Yunus Emre Ak](https://github.com/yemreak) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> | macOS |
 
 ## Browsing
 

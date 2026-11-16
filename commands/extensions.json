@@ -7072,6 +7072,124 @@
               "updatedAt" : "2022-02-22T00:14:05+08:00"
             }
           ]
+        },
+        {
+          "name" : "optionOS",
+          "path" : "optionos",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Yunus Emre Ak",
+                  "url" : "https:\/\/github.com\/yemreak"
+                }
+              ],
+              "createdAt" : "2026-11-16T16:16:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Every running agent in one deck. Pick one, keep talking.",
+              "filename" : "optionos-agents-deck.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/optionos.png"
+              },
+              "identifier" : "567b182f9e62aeb340083bd3a5e6c536",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "optionOS",
+              "path" : "apps\/optionos\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Agents Deck",
+              "updatedAt" : "2026-11-16T16:16:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Yunus Emre Ak",
+                  "url" : "https:\/\/github.com\/yemreak"
+                }
+              ],
+              "createdAt" : "2026-11-16T16:16:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Select text, run this, hear it.",
+              "filename" : "optionos-read-the-selection.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/optionos.png"
+              },
+              "identifier" : "cd2e5807964e4c7652f661d9dd480701",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "optionOS",
+              "path" : "apps\/optionos\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Read the Selection",
+              "updatedAt" : "2026-11-16T16:16:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Yunus Emre Ak",
+                  "url" : "https:\/\/github.com\/yemreak"
+                }
+              ],
+              "createdAt" : "2026-11-16T16:16:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "Start or stop a dictation. The text lands where you were.",
+              "filename" : "optionos-start-recording.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/optionos.png"
+              },
+              "identifier" : "25157a2f0e2fe1981a3ab0c694f90ca6",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "optionOS",
+              "path" : "apps\/optionos\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Start Recording",
+              "updatedAt" : "2026-11-16T16:16:54+03:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Yunus Emre Ak",
+                  "url" : "https:\/\/github.com\/yemreak"
+                }
+              ],
+              "createdAt" : "2026-11-16T16:16:54+03:00",
+              "currentDirectoryPath" : null,
+              "description" : "The window under your cursor becomes a file your agent sees.",
+              "filename" : "optionos-take-screenshot.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/optionos.png"
+              },
+              "identifier" : "b13c7992a41e8b315b5259d99577ebe7",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "optionOS",
+              "path" : "apps\/optionos\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Take Screenshot",
+              "updatedAt" : "2026-11-16T16:16:54+03:00"
+            }
+          ]
         }
       ]
     },
@@ -24694,16 +24812,6 @@
   ],
   "languages" : [
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
-    },
-    {
       "displayName" : "pwsh\r",
       "name" : "pwsh\r"
     },
@@ -24713,9 +24821,9 @@
       "name" : "swift"
     },
     {
-      "displayName" : "Python",
-      "icon" : "icon-python.png",
-      "name" : "python"
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
     },
     {
       "displayName" : "PowerShell",
@@ -24723,19 +24831,29 @@
       "name" : "pwsh"
     },
     {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
+    },
+    {
+      "displayName" : "Python",
+      "icon" : "icon-python.png",
+      "name" : "python"
+    },
+    {
       "displayName" : "AppleScript",
       "icon" : "icon-applescript.png",
       "name" : "applescript"
     },
     {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 858,
+  "totalScriptCommands" : 862,
   "updatedAt" : "2026-04-27T07:55:22Z"
 }
