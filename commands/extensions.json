@@ -10474,7 +10474,7 @@
               "refreshTime" : "30m",
               "schemaVersion" : 1,
               "title" : "Current Weather",
-              "updatedAt" : "2022-04-03T20:33:02+02:00"
+              "updatedAt" : "2026-11-16T10:19:31-03:00"
             },
             {
               "authors" : [
@@ -10502,7 +10502,7 @@
               "refreshTime" : "30m",
               "schemaVersion" : 1,
               "title" : "Weather Forecast",
-              "updatedAt" : "2022-04-03T20:33:02+02:00"
+              "updatedAt" : "2026-11-16T10:19:31-03:00"
             }
           ]
         }
@@ -18085,6 +18085,34 @@
               ],
               "createdAt" : "2022-02-09T11:13:32+01:00",
               "currentDirectoryPath" : null,
+              "description" : "Sets the Denon AVR to a specific volume level (between 0 and 80)",
+              "filename" : "set-volume.applescript",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "images\/denon_logo.png"
+              },
+              "identifier" : "28833ac8ba7facadd939c0a4dc634d23",
+              "isTemplate" : false,
+              "language" : "applescript",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Denon AVR",
+              "path" : "remote-control\/denon-avr\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Set Volume",
+              "updatedAt" : "2026-11-16T15:43:11+02:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Rediwed",
+                  "url" : "github.com\/Rediwed"
+                }
+              ],
+              "createdAt" : "2022-02-09T11:13:32+01:00",
+              "currentDirectoryPath" : null,
               "description" : "Decreases the volume of your Denon AVR by one unit",
               "filename" : "volume-down.applescript",
               "hasArguments" : false,
@@ -22080,6 +22108,34 @@
         {
           "authors" : [
             {
+              "name" : "Marcos Sánchez-Dehesa",
+              "url" : "https:\/\/www.github.com\/dehesa"
+            }
+          ],
+          "createdAt" : "2022-01-04T13:45:02Z",
+          "currentDirectoryPath" : null,
+          "description" : "Toggles on\/off a Sidecar screen.",
+          "filename" : "toggle-sidecar.template.applescript",
+          "hasArguments" : false,
+          "icon" : {
+            "dark" : null,
+            "light" : "images\/apple_sidecar.png"
+          },
+          "identifier" : "56c30366abe7f9f45cb6888a35a40ace",
+          "isTemplate" : true,
+          "language" : "applescript",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "path" : "system\/",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Toggle Sidecar",
+          "updatedAt" : "2026-11-16T15:43:11+02:00"
+        },
+        {
+          "authors" : [
+            {
               "name" : "elstgav",
               "url" : "https:\/\/github.com\/elstgav"
             }
@@ -24812,28 +24868,14 @@
   ],
   "languages" : [
     {
-      "displayName" : "pwsh\r",
-      "name" : "pwsh\r"
-    },
-    {
       "displayName" : "Swift",
       "icon" : "icon-swift.png",
       "name" : "swift"
     },
     {
-      "displayName" : "Ruby",
-      "icon" : "icon-ruby.png",
-      "name" : "ruby"
-    },
-    {
       "displayName" : "PowerShell",
       "icon" : "icon-powershell.png",
       "name" : "pwsh"
-    },
-    {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
     },
     {
       "displayName" : "Python",
@@ -24846,14 +24888,28 @@
       "name" : "applescript"
     },
     {
+      "displayName" : "pwsh\r",
+      "name" : "pwsh\r"
+    },
+    {
+      "displayName" : "Ruby",
+      "icon" : "icon-ruby.png",
+      "name" : "ruby"
+    },
+    {
       "displayName" : "Bash",
       "icon" : "icon-bash.png",
       "name" : "bash"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 862,
+  "totalScriptCommands" : 864,
   "updatedAt" : "2026-04-27T07:55:22Z"
 }
