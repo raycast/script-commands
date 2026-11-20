@@ -6037,6 +6037,180 @@
           ]
         },
         {
+          "name" : "Tarn",
+          "path" : "tarn",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Jake Antelis",
+                  "url" : "https:\/\/github.com\/jakeantelis"
+                }
+              ],
+              "createdAt" : "2026-11-16T11:28:16-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Open Tarn in Breathe mode.",
+              "filename" : "tarn-breathe.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/tarn.png"
+              },
+              "identifier" : "97a67d4b303ba8f853484511090b219a",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Tarn",
+              "path" : "apps\/tarn\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Breathe",
+              "updatedAt" : "2026-11-16T11:28:16-05:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jake Antelis",
+                  "url" : "https:\/\/github.com\/jakeantelis"
+                }
+              ],
+              "createdAt" : "2026-11-16T11:28:16-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Pause or resume the current Tarn focus session.",
+              "filename" : "tarn-pause-or-resume.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/tarn.png"
+              },
+              "identifier" : "33b576acdf600e659f7343bad767d671",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Tarn",
+              "path" : "apps\/tarn\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Pause or Resume Focus",
+              "updatedAt" : "2026-11-16T11:28:16-05:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jake Antelis",
+                  "url" : "https:\/\/github.com\/jakeantelis"
+                }
+              ],
+              "createdAt" : "2026-11-16T11:28:16-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Start a Tarn break.",
+              "filename" : "tarn-start-break.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/tarn.png"
+              },
+              "identifier" : "6d2d6831d8e1f0df52dee8b2f7955ee0",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Tarn",
+              "path" : "apps\/tarn\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Start Break",
+              "updatedAt" : "2026-11-16T11:28:16-05:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jake Antelis",
+                  "url" : "https:\/\/github.com\/jakeantelis"
+                }
+              ],
+              "createdAt" : "2026-11-16T11:28:16-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Start Calm mode in Tarn.",
+              "filename" : "tarn-calm-mode.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/tarn.png"
+              },
+              "identifier" : "c8816ebd5cb83cf6bb3a5458b2844d10",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Tarn",
+              "path" : "apps\/tarn\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Start Calm Mode",
+              "updatedAt" : "2026-11-16T11:28:16-05:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jake Antelis",
+                  "url" : "https:\/\/github.com\/jakeantelis"
+                }
+              ],
+              "createdAt" : "2026-11-16T11:28:16-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Start a Tarn focus session, optionally for a set number of minutes.",
+              "filename" : "tarn-start-focus.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/tarn.png"
+              },
+              "identifier" : "307cb1cdbbffd5f110c32d13daa8d13f",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Tarn",
+              "path" : "apps\/tarn\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Start Focus",
+              "updatedAt" : "2026-11-16T11:28:16-05:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jake Antelis",
+                  "url" : "https:\/\/github.com\/jakeantelis"
+                }
+              ],
+              "createdAt" : "2026-11-16T11:28:16-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Show the current Tarn timer status.",
+              "filename" : "tarn-status.sh",
+              "hasArguments" : false,
+              "icon" : {
+                "dark" : null,
+                "light" : ".\/images\/tarn.png"
+              },
+              "identifier" : "ccf074b01b059f0d4577318f19ba93ca",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "compact",
+              "needsConfirmation" : null,
+              "packageName" : "Tarn",
+              "path" : "apps\/tarn\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Status",
+              "updatedAt" : "2026-11-16T11:28:16-05:00"
+            }
+          ]
+        },
+        {
           "name" : "Terminal Translate",
           "path" : "terminal-translate",
           "scriptCommands" : [
@@ -16366,6 +16540,40 @@
           ]
         },
         {
+          "name" : "Summaly",
+          "path" : "summaly",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Huaxin Wang",
+                  "url" : "https:\/\/github.com\/WilsonWang01"
+                }
+              ],
+              "createdAt" : "2026-11-20T02:24:57+08:00",
+              "currentDirectoryPath" : null,
+              "description" : "Bring an episode to Summaly to review its length and credits before summarizing.",
+              "filename" : "open-episode-in-summaly.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "🎧"
+              },
+              "identifier" : "fca1e2e757947a8b34c9248cc83c8da3",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Summaly",
+              "path" : "media\/summaly\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Open Episode in Summaly",
+              "updatedAt" : "2026-11-20T02:24:57+08:00"
+            }
+          ]
+        },
+        {
           "name" : "Tidal",
           "path" : "tidal",
           "scriptCommands" : [
@@ -25014,29 +25222,9 @@
   ],
   "languages" : [
     {
-      "displayName" : "Swift",
-      "icon" : "icon-swift.png",
-      "name" : "swift"
-    },
-    {
-      "displayName" : "Node",
-      "icon" : "icon-nodejs.png",
-      "name" : "node"
-    },
-    {
       "displayName" : "PowerShell",
       "icon" : "icon-powershell.png",
       "name" : "pwsh"
-    },
-    {
-      "displayName" : "Bash",
-      "icon" : "icon-bash.png",
-      "name" : "bash"
-    },
-    {
-      "displayName" : "AppleScript",
-      "icon" : "icon-applescript.png",
-      "name" : "applescript"
     },
     {
       "displayName" : "Python",
@@ -25044,18 +25232,38 @@
       "name" : "python"
     },
     {
-      "displayName" : "pwsh\r",
-      "name" : "pwsh\r"
+      "displayName" : "AppleScript",
+      "icon" : "icon-applescript.png",
+      "name" : "applescript"
     },
     {
       "displayName" : "Ruby",
       "icon" : "icon-ruby.png",
       "name" : "ruby"
+    },
+    {
+      "displayName" : "Node",
+      "icon" : "icon-nodejs.png",
+      "name" : "node"
+    },
+    {
+      "displayName" : "Bash",
+      "icon" : "icon-bash.png",
+      "name" : "bash"
+    },
+    {
+      "displayName" : "Swift",
+      "icon" : "icon-swift.png",
+      "name" : "swift"
+    },
+    {
+      "displayName" : "pwsh\r",
+      "name" : "pwsh\r"
     }
   ],
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 869,
+  "totalScriptCommands" : 876,
   "updatedAt" : "2026-04-27T07:55:22Z"
 }

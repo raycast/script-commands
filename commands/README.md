@@ -82,6 +82,7 @@ This repository contains sample commands and documentation to write your own one
   - [Sublime](#sublime)
   - [Surfshark](#surfshark)
   - [Tailscale](#tailscale)
+  - [Tarn](#tarn)
   - [Terminal Translate](#terminal-translate)
   - [Things](#things)
   - [Timing](#timing)
@@ -146,6 +147,7 @@ This repository contains sample commands and documentation to write your own one
   - [Sonos](#sonos)
   - [Speaker Setup](#speaker-setup)
   - [Spotify](#spotify)
+  - [Summaly](#summaly)
   - [Tidal](#tidal)
   - [foobar2000](#foobar2000)
 - [Navigation](#navigation)
@@ -654,6 +656,17 @@ This repository contains sample commands and documentation to write your own one
 | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tailscale/./images/tailscale-iconDark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tailscale/./images/tailscale-icon.png" width="20" height="20"></picture> | [Disconnect](apps/tailscale/tailscale-disconnect.sh) | Disconnects from Tailscale | [Ross Zurowski](https://github.com/rosszurowski) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> | macOS |
 | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tailscale/./images/tailscale-iconDark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tailscale/./images/tailscale-icon.png" width="20" height="20"></picture> | [Get IP](apps/tailscale/tailscale-ip.sh) | Gets your private Tailscale IP | [Ross Zurowski](https://github.com/rosszurowski) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> | macOS |
 | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tailscale/./images/tailscale-iconDark.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tailscale/./images/tailscale-icon.png" width="20" height="20"></picture> | [Switch Account](apps/tailscale/tailscale-switch.sh) | Switches Tailscale networks | [Ross Zurowski](https://github.com/rosszurowski) and [Daniel Schoemer](https://github.com/quatauta) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> | macOS |
+
+#### Tarn
+
+| Icon | Title | Description | Author | Args | Templ | Lang | Platform |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: | :------: |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tarn/./images/tarn.png" width="20" height="20"> | [Open Breathe](apps/tarn/tarn-breathe.sh) | Open Tarn in Breathe mode. | [Jake Antelis](https://github.com/jakeantelis) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> | macOS |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tarn/./images/tarn.png" width="20" height="20"> | [Pause or Resume Focus](apps/tarn/tarn-pause-or-resume.sh) | Pause or resume the current Tarn focus session. | [Jake Antelis](https://github.com/jakeantelis) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> | macOS |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tarn/./images/tarn.png" width="20" height="20"> | [Start Break](apps/tarn/tarn-start-break.sh) | Start a Tarn break. | [Jake Antelis](https://github.com/jakeantelis) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> | macOS |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tarn/./images/tarn.png" width="20" height="20"> | [Start Calm Mode](apps/tarn/tarn-calm-mode.sh) | Start Calm mode in Tarn. | [Jake Antelis](https://github.com/jakeantelis) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> | macOS |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tarn/./images/tarn.png" width="20" height="20"> | [Start Focus](apps/tarn/tarn-start-focus.sh) | Start a Tarn focus session, optionally for a set number of minutes. | [Jake Antelis](https://github.com/jakeantelis) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> | macOS |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/tarn/./images/tarn.png" width="20" height="20"> | [Status](apps/tarn/tarn-status.sh) | Show the current Tarn timer status. | [Jake Antelis](https://github.com/jakeantelis) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> | macOS |
 
 #### Terminal Translate
 
@@ -1326,6 +1339,12 @@ This repository contains sample commands and documentation to write your own one
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/spotify/images/spotify-logo.png" width="20" height="20"> | [Play Track or Playlist](media/spotify/spotify-play-playlist.template.applescript) | Play playlist or track in Spotify. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  | ✅ | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> | macOS |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/spotify/images/spotify-logo.png" width="20" height="20"> | [Previous Track](media/spotify/spotify-previous-track.applescript) | Skips to the previous track in Spotify. | Raycast |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> | macOS |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/spotify/images/spotify-logo.png" width="20" height="20"> | [Toggle Play/Pause](media/spotify/spotify-play-pause.applescript) | Toggles play or pause of current track in Spotify. | Raycast |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> | macOS |
+
+#### Summaly
+
+| Icon | Title | Description | Author | Args | Templ | Lang | Platform |
+| :--: | ----- | ----------- | :----: | :--: | :---: | :--: | :------: |
+| 🎧 | [Open Episode in Summaly](media/summaly/open-episode-in-summaly.sh) | Bring an episode to Summaly to review its length and credits before summarizing. | [Huaxin Wang](https://github.com/WilsonWang01) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> | macOS |
 
 #### Tidal
 
